@@ -1,0 +1,17 @@
+diff --git a/R/classify.R b/R/classify.R
+index 69ab69e..d460735 100644
+--- a/R/classify.R
++++ b/R/classify.R
+@@ -285,6 +285,12 @@ classify <- function(
+         rownames(mod$alpha) <- rownames(mod$mu) <- names(mod$lbf) <-
+           names(mod$V) <- paste0('cs',1:nrow(mod$alpha))
+         keep_cs <- names(mod$lbf)[which(mod$lbf>=0.1*max(mod$lbf) & mod$V>0)]
++        # Guard (Step 22, 2026-10-14): the refit with the joint fingerprint can find no effect at all (every V = 0),
++        # which leaves nothing to calibrate and crashed calibrate(); as in the first pass, no credible set means
++        # 'unassigned'.
++        if (length(keep_cs)==0) {
++          return(list('unassigned'))
++        }
+         alpha <- calibrate(w.residual[,x],mod,keep_cs,Lam2,
+                            filter,newLambdas,Sxx,hold)
+ 

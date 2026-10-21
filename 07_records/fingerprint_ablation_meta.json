@@ -1,0 +1,4032 @@
+{
+  "records": [
+    {
+      "cond": "A549_2-Methoxyestradiol_0.001",
+      "line": "A549",
+      "smiles": "[H][C@@]12CC[C@H](O)[C@@]1(C)CC[C@]1([H])C3=CC(OC)=C(O)C=C3CC[C@@]21[H]",
+      "swapped": "CC(=O)NC1=CC=C(OCC(C)(O)C(=O)NC2=CC=C(C(=C2)C(F)(F)F)[N+]([O-])=O)C=C1",
+      "dose": 10.0,
+      "n": 91,
+      "fp_cosine": 0.32025630761016644
+    },
+    {
+      "cond": "A549_2-Methoxyestradiol_0.01",
+      "line": "A549",
+      "smiles": "[H][C@@]12CC[C@H](O)[C@@]1(C)CC[C@]1([H])C3=CC(OC)=C(O)C=C3CC[C@@]21[H]",
+      "swapped": "CC(=O)NC1=CC=C(OCC(C)(O)C(=O)NC2=CC=C(C(=C2)C(F)(F)F)[N+]([O-])=O)C=C1",
+      "dose": 100.0,
+      "n": 92,
+      "fp_cosine": 0.32025630761017215
+    },
+    {
+      "cond": "A549_2-Methoxyestradiol_0.1",
+      "line": "A549",
+      "smiles": "[H][C@@]12CC[C@H](O)[C@@]1(C)CC[C@]1([H])C3=CC(OC)=C(O)C=C3CC[C@@]21[H]",
+      "swapped": "CC(=O)NC1=CC=C(OCC(C)(O)C(=O)NC2=CC=C(C(=C2)C(F)(F)F)[N+]([O-])=O)C=C1",
+      "dose": 1000.0,
+      "n": 99,
+      "fp_cosine": 0.3202563076101733
+    },
+    {
+      "cond": "A549_2-Methoxyestradiol_1.0",
+      "line": "A549",
+      "smiles": "[H][C@@]12CC[C@H](O)[C@@]1(C)CC[C@]1([H])C3=CC(OC)=C(O)C=C3CC[C@@]21[H]",
+      "swapped": "CC(=O)NC1=CC=C(OCC(C)(O)C(=O)NC2=CC=C(C(=C2)C(F)(F)F)[N+]([O-])=O)C=C1",
+      "dose": 10000.0,
+      "n": 79,
+      "fp_cosine": 0.3202563076101737
+    },
+    {
+      "cond": "A549_A-366_0.001",
+      "line": "A549",
+      "smiles": "COC1=C(OCCCN2CCCC2)C=C2N=C(N)C3(CCC3)C2=C1",
+      "swapped": "OC(=O)CCC1CCC(CC1)(C2=C(F)C=CC(=C2)F)[S](=O)(=O)C3=CC=C(Cl)C=C3",
+      "dose": 10.0,
+      "n": 130,
+      "fp_cosine": 0.23883257361060625
+    },
+    {
+      "cond": "A549_A-366_0.01",
+      "line": "A549",
+      "smiles": "COC1=C(OCCCN2CCCC2)C=C2N=C(N)C3(CCC3)C2=C1",
+      "swapped": "OC(=O)CCC1CCC(CC1)(C2=C(F)C=CC(=C2)F)[S](=O)(=O)C3=CC=C(Cl)C=C3",
+      "dose": 100.0,
+      "n": 114,
+      "fp_cosine": 0.23883257361061105
+    },
+    {
+      "cond": "A549_A-366_0.1",
+      "line": "A549",
+      "smiles": "COC1=C(OCCCN2CCCC2)C=C2N=C(N)C3(CCC3)C2=C1",
+      "swapped": "OC(=O)CCC1CCC(CC1)(C2=C(F)C=CC(=C2)F)[S](=O)(=O)C3=CC=C(Cl)C=C3",
+      "dose": 1000.0,
+      "n": 100,
+      "fp_cosine": 0.23883257361061205
+    },
+    {
+      "cond": "A549_A-366_1.0",
+      "line": "A549",
+      "smiles": "COC1=C(OCCCN2CCCC2)C=C2N=C(N)C3(CCC3)C2=C1",
+      "swapped": "OC(=O)CCC1CCC(CC1)(C2=C(F)C=CC(=C2)F)[S](=O)(=O)C3=CC=C(Cl)C=C3",
+      "dose": 10000.0,
+      "n": 113,
+      "fp_cosine": 0.23883257361061241
+    },
+    {
+      "cond": "A549_AT9283_0.001",
+      "line": "A549",
+      "smiles": "O=C(NC1CC1)NC1=CNN=C1C1=NC2=CC(CN3CCOCC3)=CC=C2N1",
+      "swapped": "C[S](=O)(=O)C1=CC(=CC=C1)CNC2=NC(=NC=C2C(F)(F)F)NC3=CC4=C(NC(=O)CC4)C=C3",
+      "dose": 10.0,
+      "n": 48,
+      "fp_cosine": 0.2641979746337344
+    },
+    {
+      "cond": "A549_AT9283_0.01",
+      "line": "A549",
+      "smiles": "O=C(NC1CC1)NC1=CNN=C1C1=NC2=CC(CN3CCOCC3)=CC=C2N1",
+      "swapped": "C[S](=O)(=O)C1=CC(=CC=C1)CNC2=NC(=NC=C2C(F)(F)F)NC3=CC4=C(NC(=O)CC4)C=C3",
+      "dose": 100.0,
+      "n": 32,
+      "fp_cosine": 0.2641979746337378
+    },
+    {
+      "cond": "A549_AT9283_0.1",
+      "line": "A549",
+      "smiles": "O=C(NC1CC1)NC1=CNN=C1C1=NC2=CC(CN3CCOCC3)=CC=C2N1",
+      "swapped": "C[S](=O)(=O)C1=CC(=CC=C1)CNC2=NC(=NC=C2C(F)(F)F)NC3=CC4=C(NC(=O)CC4)C=C3",
+      "dose": 1000.0,
+      "n": 63,
+      "fp_cosine": 0.2641979746337384
+    },
+    {
+      "cond": "A549_AT9283_1.0",
+      "line": "A549",
+      "smiles": "O=C(NC1CC1)NC1=CNN=C1C1=NC2=CC(CN3CCOCC3)=CC=C2N1",
+      "swapped": "C[S](=O)(=O)C1=CC(=CC=C1)CNC2=NC(=NC=C2C(F)(F)F)NC3=CC4=C(NC(=O)CC4)C=C3",
+      "dose": 10000.0,
+      "n": 44,
+      "fp_cosine": 0.26419797463373873
+    },
+    {
+      "cond": "A549_AZ_0.001",
+      "line": "A549",
+      "smiles": "C[C@H](NC1=NC(NC2=NNC(C)=C2)=C(F)C=C1C#N)C1=CC=C(F)C=C1",
+      "swapped": "COC1=CC2=C(NC3CCN(CC4CCCCC4)CC3)N=C(N=C2C=C1OCCCN1CCCCC1)N1CCCN(CC1)C(C)C",
+      "dose": 10.0,
+      "n": 87,
+      "fp_cosine": 0.23823144500331073
+    },
+    {
+      "cond": "A549_AZ_0.01",
+      "line": "A549",
+      "smiles": "C[C@H](NC1=NC(NC2=NNC(C)=C2)=C(F)C=C1C#N)C1=CC=C(F)C=C1",
+      "swapped": "COC1=CC2=C(NC3CCN(CC4CCCCC4)CC3)N=C(N=C2C=C1OCCCN1CCCCC1)N1CCCN(CC1)C(C)C",
+      "dose": 100.0,
+      "n": 108,
+      "fp_cosine": 0.23823144500331422
+    },
+    {
+      "cond": "A549_AZ_0.1",
+      "line": "A549",
+      "smiles": "C[C@H](NC1=NC(NC2=NNC(C)=C2)=C(F)C=C1C#N)C1=CC=C(F)C=C1",
+      "swapped": "COC1=CC2=C(NC3CCN(CC4CCCCC4)CC3)N=C(N=C2C=C1OCCCN1CCCCC1)N1CCCN(CC1)C(C)C",
+      "dose": 1000.0,
+      "n": 96,
+      "fp_cosine": 0.23823144500331492
+    },
+    {
+      "cond": "A549_AZ_1.0",
+      "line": "A549",
+      "smiles": "C[C@H](NC1=NC(NC2=NNC(C)=C2)=C(F)C=C1C#N)C1=CC=C(F)C=C1",
+      "swapped": "COC1=CC2=C(NC3CCN(CC4CCCCC4)CC3)N=C(N=C2C=C1OCCCN1CCCCC1)N1CCCN(CC1)C(C)C",
+      "dose": 10000.0,
+      "n": 56,
+      "fp_cosine": 0.23823144500331514
+    },
+    {
+      "cond": "A549_Andarine_0.001",
+      "line": "A549",
+      "smiles": "CC(=O)NC1=CC=C(OCC(C)(O)C(=O)NC2=CC=C(C(=C2)C(F)(F)F)[N+]([O-])=O)C=C1",
+      "swapped": "Cl.CN1CCC(C(O)C1)C2=C3OC(=CC(=O)C3=C(O)C=C2O)C4=C(Cl)C=CC=C4",
+      "dose": 10.0,
+      "n": 115,
+      "fp_cosine": 0.18887686585995014
+    },
+    {
+      "cond": "A549_Andarine_0.01",
+      "line": "A549",
+      "smiles": "CC(=O)NC1=CC=C(OCC(C)(O)C(=O)NC2=CC=C(C(=C2)C(F)(F)F)[N+]([O-])=O)C=C1",
+      "swapped": "Cl.CN1CCC(C(O)C1)C2=C3OC(=CC(=O)C3=C(O)C=C2O)C4=C(Cl)C=CC=C4",
+      "dose": 100.0,
+      "n": 99,
+      "fp_cosine": 0.18887686585995314
+    },
+    {
+      "cond": "A549_Andarine_0.1",
+      "line": "A549",
+      "smiles": "CC(=O)NC1=CC=C(OCC(C)(O)C(=O)NC2=CC=C(C(=C2)C(F)(F)F)[N+]([O-])=O)C=C1",
+      "swapped": "Cl.CN1CCC(C(O)C1)C2=C3OC(=CC(=O)C3=C(O)C=C2O)C4=C(Cl)C=CC=C4",
+      "dose": 1000.0,
+      "n": 97,
+      "fp_cosine": 0.18887686585995375
+    },
+    {
+      "cond": "A549_Andarine_1.0",
+      "line": "A549",
+      "smiles": "CC(=O)NC1=CC=C(OCC(C)(O)C(=O)NC2=CC=C(C(=C2)C(F)(F)F)[N+]([O-])=O)C=C1",
+      "swapped": "Cl.CN1CCC(C(O)C1)C2=C3OC(=CC(=O)C3=C(O)C=C2O)C4=C(Cl)C=CC=C4",
+      "dose": 10000.0,
+      "n": 124,
+      "fp_cosine": 0.188876865859954
+    },
+    {
+      "cond": "A549_Aurora_0.001",
+      "line": "A549",
+      "smiles": "CCN1CCN(CC1)C(=O)CC1=CC=C(NC2=NC(NC3=CC=C(C=C3)C(=O)NC3=CC=CC=C3Cl)=C(F)C=N2)C=C1",
+      "swapped": "O=C(NC1CC1)NC1=CNN=C1C1=NC2=CC(CN3CCOCC3)=CC=C2N1",
+      "dose": 10.0,
+      "n": 120,
+      "fp_cosine": 0.33028912953790257
+    },
+    {
+      "cond": "A549_Aurora_0.01",
+      "line": "A549",
+      "smiles": "CCN1CCN(CC1)C(=O)CC1=CC=C(NC2=NC(NC3=CC=C(C=C3)C(=O)NC3=CC=CC=C3Cl)=C(F)C=N2)C=C1",
+      "swapped": "O=C(NC1CC1)NC1=CNN=C1C1=NC2=CC(CN3CCOCC3)=CC=C2N1",
+      "dose": 100.0,
+      "n": 60,
+      "fp_cosine": 0.3302891295379067
+    },
+    {
+      "cond": "A549_Aurora_0.1",
+      "line": "A549",
+      "smiles": "CCN1CCN(CC1)C(=O)CC1=CC=C(NC2=NC(NC3=CC=C(C=C3)C(=O)NC3=CC=CC=C3Cl)=C(F)C=N2)C=C1",
+      "swapped": "O=C(NC1CC1)NC1=CNN=C1C1=NC2=CC(CN3CCOCC3)=CC=C2N1",
+      "dose": 1000.0,
+      "n": 88,
+      "fp_cosine": 0.33028912953790746
+    },
+    {
+      "cond": "A549_Aurora_1.0",
+      "line": "A549",
+      "smiles": "CCN1CCN(CC1)C(=O)CC1=CC=C(NC2=NC(NC3=CC=C(C=C3)C(=O)NC3=CC=CC=C3Cl)=C(F)C=N2)C=C1",
+      "swapped": "O=C(NC1CC1)NC1=CNN=C1C1=NC2=CC(CN3CCOCC3)=CC=C2N1",
+      "dose": 10000.0,
+      "n": 56,
+      "fp_cosine": 0.33028912953790784
+    },
+    {
+      "cond": "A549_BMS-265246_0.001",
+      "line": "A549",
+      "smiles": "CCCCOC1=C2C=N[NH]C2=NC=C1C(=O)C3=C(F)C=C(C)C=C3F",
+      "swapped": "COC1=CC2=NC=NC(NC3=CC=C(O)C(Br)=C3)=C2C=C1OC",
+      "dose": 10.0,
+      "n": 103,
+      "fp_cosine": 0.3000937939682063
+    },
+    {
+      "cond": "A549_BMS-265246_0.01",
+      "line": "A549",
+      "smiles": "CCCCOC1=C2C=N[NH]C2=NC=C1C(=O)C3=C(F)C=C(C)C=C3F",
+      "swapped": "COC1=CC2=NC=NC(NC3=CC=C(O)C(Br)=C3)=C2C=C1OC",
+      "dose": 100.0,
+      "n": 121,
+      "fp_cosine": 0.30009379396821134
+    },
+    {
+      "cond": "A549_BMS-265246_0.1",
+      "line": "A549",
+      "smiles": "CCCCOC1=C2C=N[NH]C2=NC=C1C(=O)C3=C(F)C=C(C)C=C3F",
+      "swapped": "COC1=CC2=NC=NC(NC3=CC=C(O)C(Br)=C3)=C2C=C1OC",
+      "dose": 1000.0,
+      "n": 88,
+      "fp_cosine": 0.3000937939682124
+    },
+    {
+      "cond": "A549_BMS-265246_1.0",
+      "line": "A549",
+      "smiles": "CCCCOC1=C2C=N[NH]C2=NC=C1C(=O)C3=C(F)C=C(C)C=C3F",
+      "swapped": "COC1=CC2=NC=NC(NC3=CC=C(O)C(Br)=C3)=C2C=C1OC",
+      "dose": 10000.0,
+      "n": 64,
+      "fp_cosine": 0.30009379396821273
+    },
+    {
+      "cond": "A549_CEP-33779_0.001",
+      "line": "A549",
+      "smiles": "CN1CCN(CC1)C1=CC=CC(NC2=NN3C=CC=C(C3=N2)C2=CC=C(C=C2)S(C)(=O)=O)=C1",
+      "swapped": "O.Cl.CCN(CC)CC1=CC2=C(C=C1)C=C(COC(=O)NC1=CC=C(C=C1)C(=O)NO)C=C2",
+      "dose": 10.0,
+      "n": 109,
+      "fp_cosine": 0.2767593624086596
+    },
+    {
+      "cond": "A549_CEP-33779_0.01",
+      "line": "A549",
+      "smiles": "CN1CCN(CC1)C1=CC=CC(NC2=NN3C=CC=C(C3=N2)C2=CC=C(C=C2)S(C)(=O)=O)=C1",
+      "swapped": "O.Cl.CCN(CC)CC1=CC2=C(C=C1)C=C(COC(=O)NC1=CC=C(C=C1)C(=O)NO)C=C2",
+      "dose": 100.0,
+      "n": 122,
+      "fp_cosine": 0.27675936240866394
+    },
+    {
+      "cond": "A549_CEP-33779_0.1",
+      "line": "A549",
+      "smiles": "CN1CCN(CC1)C1=CC=CC(NC2=NN3C=CC=C(C3=N2)C2=CC=C(C=C2)S(C)(=O)=O)=C1",
+      "swapped": "O.Cl.CCN(CC)CC1=CC2=C(C=C1)C=C(COC(=O)NC1=CC=C(C=C1)C(=O)NO)C=C2",
+      "dose": 1000.0,
+      "n": 116,
+      "fp_cosine": 0.2767593624086648
+    },
+    {
+      "cond": "A549_CEP-33779_1.0",
+      "line": "A549",
+      "smiles": "CN1CCN(CC1)C1=CC=CC(NC2=NN3C=CC=C(C3=N2)C2=CC=C(C=C2)S(C)(=O)=O)=C1",
+      "swapped": "O.Cl.CCN(CC)CC1=CC2=C(C=C1)C=C(COC(=O)NC1=CC=C(C=C1)C(=O)NO)C=C2",
+      "dose": 10000.0,
+      "n": 98,
+      "fp_cosine": 0.2767593624086651
+    },
+    {
+      "cond": "A549_CUDC-907_0.001",
+      "line": "A549",
+      "smiles": "COC1=CC=C(C=N1)C1=NC2=C(SC(CN(C)C3=NC=C(C=N3)C(=O)NO)=C2)C(=N1)N1CCOCC1",
+      "swapped": "COC1=CC2=C(C=C1OCC3CCN(C)CC3)N=CN=C2NC4=C(F)C=C(Br)C=C4",
+      "dose": 10.0,
+      "n": 111,
+      "fp_cosine": 0.2626396615835699
+    },
+    {
+      "cond": "A549_CUDC-907_0.01",
+      "line": "A549",
+      "smiles": "COC1=CC=C(C=N1)C1=NC2=C(SC(CN(C)C3=NC=C(C=N3)C(=O)NO)=C2)C(=N1)N1CCOCC1",
+      "swapped": "COC1=CC2=C(C=C1OCC3CCN(C)CC3)N=CN=C2NC4=C(F)C=C(Br)C=C4",
+      "dose": 100.0,
+      "n": 85,
+      "fp_cosine": 0.2626396615835735
+    },
+    {
+      "cond": "A549_CUDC-907_0.1",
+      "line": "A549",
+      "smiles": "COC1=CC=C(C=N1)C1=NC2=C(SC(CN(C)C3=NC=C(C=N3)C(=O)NO)=C2)C(=N1)N1CCOCC1",
+      "swapped": "COC1=CC2=C(C=C1OCC3CCN(C)CC3)N=CN=C2NC4=C(F)C=C(Br)C=C4",
+      "dose": 1000.0,
+      "n": 75,
+      "fp_cosine": 0.26263966158357416
+    },
+    {
+      "cond": "A549_CUDC-907_1.0",
+      "line": "A549",
+      "smiles": "COC1=CC=C(C=N1)C1=NC2=C(SC(CN(C)C3=NC=C(C=N3)C(=O)NO)=C2)C(=N1)N1CCOCC1",
+      "swapped": "COC1=CC2=C(C=C1OCC3CCN(C)CC3)N=CN=C2NC4=C(F)C=C(Br)C=C4",
+      "dose": 10000.0,
+      "n": 23,
+      "fp_cosine": 0.26263966158357444
+    },
+    {
+      "cond": "A549_Dacinostat_0.001",
+      "line": "A549",
+      "smiles": "OCCN(CCC1=CNC2=C1C=CC=C2)CC1=CC=C(\\C=C\\C(=O)NO)C=C1",
+      "swapped": "S=[P](N1CC1)(N2CC2)N3CC3",
+      "dose": 10.0,
+      "n": 100,
+      "fp_cosine": 0.14744195615489047
+    },
+    {
+      "cond": "A549_Dacinostat_0.01",
+      "line": "A549",
+      "smiles": "OCCN(CCC1=CNC2=C1C=CC=C2)CC1=CC=C(\\C=C\\C(=O)NO)C=C1",
+      "swapped": "S=[P](N1CC1)(N2CC2)N3CC3",
+      "dose": 100.0,
+      "n": 73,
+      "fp_cosine": 0.14744195615489533
+    },
+    {
+      "cond": "A549_Dacinostat_0.1",
+      "line": "A549",
+      "smiles": "OCCN(CCC1=CNC2=C1C=CC=C2)CC1=CC=C(\\C=C\\C(=O)NO)C=C1",
+      "swapped": "S=[P](N1CC1)(N2CC2)N3CC3",
+      "dose": 1000.0,
+      "n": 47,
+      "fp_cosine": 0.14744195615489633
+    },
+    {
+      "cond": "A549_Dacinostat_1.0",
+      "line": "A549",
+      "smiles": "OCCN(CCC1=CNC2=C1C=CC=C2)CC1=CC=C(\\C=C\\C(=O)NO)C=C1",
+      "swapped": "S=[P](N1CC1)(N2CC2)N3CC3",
+      "dose": 10000.0,
+      "n": 46,
+      "fp_cosine": 0.14744195615489666
+    },
+    {
+      "cond": "A549_Decitabine_0.001",
+      "line": "A549",
+      "smiles": "NC1=NC(=O)N(C=N1)[C@H]1C[C@H](O)[C@@H](CO)O1",
+      "swapped": "CCN1CCN(CC1)C(=O)CC1=CC=C(NC2=NC(NC3=CC=C(C=C3)C(=O)NC3=CC=CC=C3Cl)=C(F)C=N2)C=C1",
+      "dose": 10.0,
+      "n": 79,
+      "fp_cosine": 0.19374379187858876
+    },
+    {
+      "cond": "A549_Decitabine_0.01",
+      "line": "A549",
+      "smiles": "NC1=NC(=O)N(C=N1)[C@H]1C[C@H](O)[C@@H](CO)O1",
+      "swapped": "CCN1CCN(CC1)C(=O)CC1=CC=C(NC2=NC(NC3=CC=C(C=C3)C(=O)NC3=CC=CC=C3Cl)=C(F)C=N2)C=C1",
+      "dose": 100.0,
+      "n": 30,
+      "fp_cosine": 0.19374379187859195
+    },
+    {
+      "cond": "A549_Decitabine_0.1",
+      "line": "A549",
+      "smiles": "NC1=NC(=O)N(C=N1)[C@H]1C[C@H](O)[C@@H](CO)O1",
+      "swapped": "CCN1CCN(CC1)C(=O)CC1=CC=C(NC2=NC(NC3=CC=C(C=C3)C(=O)NC3=CC=CC=C3Cl)=C(F)C=N2)C=C1",
+      "dose": 1000.0,
+      "n": 79,
+      "fp_cosine": 0.19374379187859256
+    },
+    {
+      "cond": "A549_Decitabine_1.0",
+      "line": "A549",
+      "smiles": "NC1=NC(=O)N(C=N1)[C@H]1C[C@H](O)[C@@H](CO)O1",
+      "swapped": "CCN1CCN(CC1)C(=O)CC1=CC=C(NC2=NC(NC3=CC=C(C=C3)C(=O)NC3=CC=CC=C3Cl)=C(F)C=N2)C=C1",
+      "dose": 10000.0,
+      "n": 98,
+      "fp_cosine": 0.19374379187859284
+    },
+    {
+      "cond": "A549_Disulfiram_0.001",
+      "line": "A549",
+      "smiles": "CCN(CC)C(=S)SSC(=S)N(CC)CC",
+      "swapped": "CN1CCN(CC1)C1=CC=CC(NC2=NN3C=CC=C(C3=N2)C2=CC=C(C=C2)S(C)(=O)=O)=C1",
+      "dose": 10.0,
+      "n": 122,
+      "fp_cosine": 0.16182267881254092
+    },
+    {
+      "cond": "A549_Disulfiram_0.01",
+      "line": "A549",
+      "smiles": "CCN(CC)C(=S)SSC(=S)N(CC)CC",
+      "swapped": "CN1CCN(CC1)C1=CC=CC(NC2=NN3C=CC=C(C3=N2)C2=CC=C(C=C2)S(C)(=O)=O)=C1",
+      "dose": 100.0,
+      "n": 90,
+      "fp_cosine": 0.16182267881254536
+    },
+    {
+      "cond": "A549_Disulfiram_0.1",
+      "line": "A549",
+      "smiles": "CCN(CC)C(=S)SSC(=S)N(CC)CC",
+      "swapped": "CN1CCN(CC1)C1=CC=CC(NC2=NN3C=CC=C(C3=N2)C2=CC=C(C=C2)S(C)(=O)=O)=C1",
+      "dose": 1000.0,
+      "n": 130,
+      "fp_cosine": 0.16182267881254625
+    },
+    {
+      "cond": "A549_Disulfiram_1.0",
+      "line": "A549",
+      "smiles": "CCN(CC)C(=S)SSC(=S)N(CC)CC",
+      "swapped": "CN1CCN(CC1)C1=CC=CC(NC2=NN3C=CC=C(C3=N2)C2=CC=C(C=C2)S(C)(=O)=O)=C1",
+      "dose": 10000.0,
+      "n": 111,
+      "fp_cosine": 0.16182267881254656
+    },
+    {
+      "cond": "A549_Entinostat_0.001",
+      "line": "A549",
+      "smiles": "NC1=CC=CC=C1NC(=O)C1=CC=C(CNC(=O)OCC2=CN=CC=C2)C=C1",
+      "swapped": "Cl.Cl.CN1C=C(CNCC2CCN(CC2)C2=NC=C(C=N2)C(=O)NO)C2=CC=CC=C12",
+      "dose": 10.0,
+      "n": 152,
+      "fp_cosine": 0.34594920301082455
+    },
+    {
+      "cond": "A549_Entinostat_0.01",
+      "line": "A549",
+      "smiles": "NC1=CC=CC=C1NC(=O)C1=CC=C(CNC(=O)OCC2=CN=CC=C2)C=C1",
+      "swapped": "Cl.Cl.CN1C=C(CNCC2CCN(CC2)C2=NC=C(C=N2)C(=O)NO)C2=CC=CC=C12",
+      "dose": 100.0,
+      "n": 108,
+      "fp_cosine": 0.34594920301082993
+    },
+    {
+      "cond": "A549_Entinostat_0.1",
+      "line": "A549",
+      "smiles": "NC1=CC=CC=C1NC(=O)C1=CC=C(CNC(=O)OCC2=CN=CC=C2)C=C1",
+      "swapped": "Cl.Cl.CN1C=C(CNCC2CCN(CC2)C2=NC=C(C=N2)C(=O)NO)C2=CC=CC=C12",
+      "dose": 1000.0,
+      "n": 114,
+      "fp_cosine": 0.345949203010831
+    },
+    {
+      "cond": "A549_Entinostat_1.0",
+      "line": "A549",
+      "smiles": "NC1=CC=CC=C1NC(=O)C1=CC=C(CNC(=O)OCC2=CN=CC=C2)C=C1",
+      "swapped": "Cl.Cl.CN1C=C(CNCC2CCN(CC2)C2=NC=C(C=N2)C(=O)NO)C2=CC=CC=C12",
+      "dose": 10000.0,
+      "n": 91,
+      "fp_cosine": 0.3459492030108314
+    },
+    {
+      "cond": "A549_Enzastaurin_0.001",
+      "line": "A549",
+      "smiles": "CN1C=C(C2=CC=CC=C12)C1=C(C(=O)NC1=O)C1=CN(C2CCN(CC3=NC=CC=C3)CC2)C2=CC=CC=C12",
+      "swapped": "CCCCOC1=C2C=N[NH]C2=NC=C1C(=O)C3=C(F)C=C(C)C=C3F",
+      "dose": 10.0,
+      "n": 60,
+      "fp_cosine": 0.2793721183078253
+    },
+    {
+      "cond": "A549_Enzastaurin_0.01",
+      "line": "A549",
+      "smiles": "CN1C=C(C2=CC=CC=C12)C1=C(C(=O)NC1=O)C1=CN(C2CCN(CC3=NC=CC=C3)CC2)C2=CC=CC=C12",
+      "swapped": "CCCCOC1=C2C=N[NH]C2=NC=C1C(=O)C3=C(F)C=C(C)C=C3F",
+      "dose": 100.0,
+      "n": 87,
+      "fp_cosine": 0.27937211830782965
+    },
+    {
+      "cond": "A549_Enzastaurin_0.1",
+      "line": "A549",
+      "smiles": "CN1C=C(C2=CC=CC=C12)C1=C(C(=O)NC1=O)C1=CN(C2CCN(CC3=NC=CC=C3)CC2)C2=CC=CC=C12",
+      "swapped": "CCCCOC1=C2C=N[NH]C2=NC=C1C(=O)C3=C(F)C=C(C)C=C3F",
+      "dose": 1000.0,
+      "n": 94,
+      "fp_cosine": 0.27937211830783054
+    },
+    {
+      "cond": "A549_Enzastaurin_1.0",
+      "line": "A549",
+      "smiles": "CN1C=C(C2=CC=CC=C12)C1=C(C(=O)NC1=O)C1=CN(C2CCN(CC3=NC=CC=C3)CC2)C2=CC=CC=C12",
+      "swapped": "CCCCOC1=C2C=N[NH]C2=NC=C1C(=O)C3=C(F)C=C(C)C=C3F",
+      "dose": 10000.0,
+      "n": 101,
+      "fp_cosine": 0.2793721183078308
+    },
+    {
+      "cond": "A549_Fasudil_0.001",
+      "line": "A549",
+      "smiles": "Cl.O=S(=O)(N1CCCNCC1)C1=C2C=CN=CC2=CC=C1",
+      "swapped": "ClCCN(N=O)C(=O)NC1CCCCC1",
+      "dose": 10.0,
+      "n": 81,
+      "fp_cosine": 0.18148850216015086
+    },
+    {
+      "cond": "A549_Fasudil_0.01",
+      "line": "A549",
+      "smiles": "Cl.O=S(=O)(N1CCCNCC1)C1=C2C=CN=CC2=CC=C1",
+      "swapped": "ClCCN(N=O)C(=O)NC1CCCCC1",
+      "dose": 100.0,
+      "n": 87,
+      "fp_cosine": 0.1814885021601553
+    },
+    {
+      "cond": "A549_Fasudil_0.1",
+      "line": "A549",
+      "smiles": "Cl.O=S(=O)(N1CCCNCC1)C1=C2C=CN=CC2=CC=C1",
+      "swapped": "ClCCN(N=O)C(=O)NC1CCCCC1",
+      "dose": 1000.0,
+      "n": 74,
+      "fp_cosine": 0.1814885021601562
+    },
+    {
+      "cond": "A549_Fasudil_1.0",
+      "line": "A549",
+      "smiles": "Cl.O=S(=O)(N1CCCNCC1)C1=C2C=CN=CC2=CC=C1",
+      "swapped": "ClCCN(N=O)C(=O)NC1CCCCC1",
+      "dose": 10000.0,
+      "n": 89,
+      "fp_cosine": 0.18148850216015652
+    },
+    {
+      "cond": "A549_Flavopiridol_0.001",
+      "line": "A549",
+      "smiles": "Cl.CN1CCC(C(O)C1)C2=C3OC(=CC(=O)C3=C(O)C=C2O)C4=C(Cl)C=CC=C4",
+      "swapped": "FC1=CNC(=O)NC1=O",
+      "dose": 10.0,
+      "n": 103,
+      "fp_cosine": 0.2145595619556384
+    },
+    {
+      "cond": "A549_Flavopiridol_0.01",
+      "line": "A549",
+      "smiles": "Cl.CN1CCC(C(O)C1)C2=C3OC(=CC(=O)C3=C(O)C=C2O)C4=C(Cl)C=CC=C4",
+      "swapped": "FC1=CNC(=O)NC1=O",
+      "dose": 100.0,
+      "n": 57,
+      "fp_cosine": 0.21455956195564357
+    },
+    {
+      "cond": "A549_Flavopiridol_0.1",
+      "line": "A549",
+      "smiles": "Cl.CN1CCC(C(O)C1)C2=C3OC(=CC(=O)C3=C(O)C=C2O)C4=C(Cl)C=CC=C4",
+      "swapped": "FC1=CNC(=O)NC1=O",
+      "dose": 1000.0,
+      "n": 66,
+      "fp_cosine": 0.21455956195564463
+    },
+    {
+      "cond": "A549_Flavopiridol_1.0",
+      "line": "A549",
+      "smiles": "Cl.CN1CCC(C(O)C1)C2=C3OC(=CC(=O)C3=C(O)C=C2O)C4=C(Cl)C=CC=C4",
+      "swapped": "FC1=CNC(=O)NC1=O",
+      "dose": 10000.0,
+      "n": 57,
+      "fp_cosine": 0.214559561955645
+    },
+    {
+      "cond": "A549_Fluorouracil_0.001",
+      "line": "A549",
+      "smiles": "FC1=CNC(=O)NC1=O",
+      "swapped": "CN(C)CC(=O)NC1=CC2=C(NC(=O)C3=C2C=CC=C3)C=C1",
+      "dose": 10.0,
+      "n": 115,
+      "fp_cosine": 0.24956709924230133
+    },
+    {
+      "cond": "A549_Fluorouracil_0.01",
+      "line": "A549",
+      "smiles": "FC1=CNC(=O)NC1=O",
+      "swapped": "CN(C)CC(=O)NC1=CC2=C(NC(=O)C3=C2C=CC=C3)C=C1",
+      "dose": 100.0,
+      "n": 108,
+      "fp_cosine": 0.24956709924230833
+    },
+    {
+      "cond": "A549_Fluorouracil_0.1",
+      "line": "A549",
+      "smiles": "FC1=CNC(=O)NC1=O",
+      "swapped": "CN(C)CC(=O)NC1=CC2=C(NC(=O)C3=C2C=CC=C3)C=C1",
+      "dose": 1000.0,
+      "n": 108,
+      "fp_cosine": 0.24956709924230974
+    },
+    {
+      "cond": "A549_Fluorouracil_1.0",
+      "line": "A549",
+      "smiles": "FC1=CNC(=O)NC1=O",
+      "swapped": "CN(C)CC(=O)NC1=CC2=C(NC(=O)C3=C2C=CC=C3)C=C1",
+      "dose": 10000.0,
+      "n": 80,
+      "fp_cosine": 0.24956709924231024
+    },
+    {
+      "cond": "A549_Givinostat_0.001",
+      "line": "A549",
+      "smiles": "O.Cl.CCN(CC)CC1=CC2=C(C=C1)C=C(COC(=O)NC1=CC=C(C=C1)C(=O)NO)C=C2",
+      "swapped": "COC1CC(C)CC2=C(NCC=C)C(=O)C=C(NC(=O)C(=C\\C=C/C(OC)C(OC(N)=O)/C(=C/C(C)C1O)C)\\C)C2=O",
+      "dose": 10.0,
+      "n": 96,
+      "fp_cosine": 0.17541160386140228
+    },
+    {
+      "cond": "A549_Givinostat_0.01",
+      "line": "A549",
+      "smiles": "O.Cl.CCN(CC)CC1=CC2=C(C=C1)C=C(COC(=O)NC1=CC=C(C=C1)C(=O)NO)C=C2",
+      "swapped": "COC1CC(C)CC2=C(NCC=C)C(=O)C=C(NC(=O)C(=C\\C=C/C(OC)C(OC(N)=O)/C(=C/C(C)C1O)C)\\C)C2=O",
+      "dose": 100.0,
+      "n": 91,
+      "fp_cosine": 0.1754116038614049
+    },
+    {
+      "cond": "A549_Givinostat_0.1",
+      "line": "A549",
+      "smiles": "O.Cl.CCN(CC)CC1=CC2=C(C=C1)C=C(COC(=O)NC1=CC=C(C=C1)C(=O)NO)C=C2",
+      "swapped": "COC1CC(C)CC2=C(NCC=C)C(=O)C=C(NC(=O)C(=C\\C=C/C(OC)C(OC(N)=O)/C(=C/C(C)C1O)C)\\C)C2=O",
+      "dose": 1000.0,
+      "n": 97,
+      "fp_cosine": 0.17541160386140542
+    },
+    {
+      "cond": "A549_Givinostat_1.0",
+      "line": "A549",
+      "smiles": "O.Cl.CCN(CC)CC1=CC2=C(C=C1)C=C(COC(=O)NC1=CC=C(C=C1)C(=O)NO)C=C2",
+      "swapped": "COC1CC(C)CC2=C(NCC=C)C(=O)C=C(NC(=O)C(=C\\C=C/C(OC)C(OC(N)=O)/C(=C/C(C)C1O)C)\\C)C2=O",
+      "dose": 10000.0,
+      "n": 52,
+      "fp_cosine": 0.17541160386140559
+    },
+    {
+      "cond": "A549_Ki8751_0.001",
+      "line": "A549",
+      "smiles": "COC1=CC2=NC=CC(=C2C=C1OC)OC3=CC=C(NC(=O)NC4=CC=C(F)C=C4F)C(=C3)F",
+      "swapped": "OC1=C2CSCCC2=NC(=N1)C3=CC=C(C=C3)C(F)(F)F",
+      "dose": 10.0,
+      "n": 143,
+      "fp_cosine": 0.18523964340873256
+    },
+    {
+      "cond": "A549_Ki8751_0.01",
+      "line": "A549",
+      "smiles": "COC1=CC2=NC=CC(=C2C=C1OC)OC3=CC=C(NC(=O)NC4=CC=C(F)C=C4F)C(=C3)F",
+      "swapped": "OC1=C2CSCCC2=NC(=N1)C3=CC=C(C=C3)C(F)(F)F",
+      "dose": 100.0,
+      "n": 106,
+      "fp_cosine": 0.1852396434087359
+    },
+    {
+      "cond": "A549_Ki8751_0.1",
+      "line": "A549",
+      "smiles": "COC1=CC2=NC=CC(=C2C=C1OC)OC3=CC=C(NC(=O)NC4=CC=C(F)C=C4F)C(=C3)F",
+      "swapped": "OC1=C2CSCCC2=NC(=N1)C3=CC=C(C=C3)C(F)(F)F",
+      "dose": 1000.0,
+      "n": 95,
+      "fp_cosine": 0.18523964340873653
+    },
+    {
+      "cond": "A549_Ki8751_1.0",
+      "line": "A549",
+      "smiles": "COC1=CC2=NC=CC(=C2C=C1OC)OC3=CC=C(NC(=O)NC4=CC=C(F)C=C4F)C(=C3)F",
+      "swapped": "OC1=C2CSCCC2=NC(=N1)C3=CC=C(C=C3)C(F)(F)F",
+      "dose": 10000.0,
+      "n": 113,
+      "fp_cosine": 0.18523964340873678
+    },
+    {
+      "cond": "A549_Lomustine_0.001",
+      "line": "A549",
+      "smiles": "ClCCN(N=O)C(=O)NC1CCCCC1",
+      "swapped": "Cl.Cl.FC1=CC(=CC(F)=C1CN1CCOCC1)C1=C2N=C(C=NC2=CC=C1)C1=CN(N=C1)C1CCNCC1",
+      "dose": 10.0,
+      "n": 88,
+      "fp_cosine": 0.1432082875315474
+    },
+    {
+      "cond": "A549_Lomustine_0.01",
+      "line": "A549",
+      "smiles": "ClCCN(N=O)C(=O)NC1CCCCC1",
+      "swapped": "Cl.Cl.FC1=CC(=CC(F)=C1CN1CCOCC1)C1=C2N=C(C=NC2=CC=C1)C1=CN(N=C1)C1CCNCC1",
+      "dose": 100.0,
+      "n": 82,
+      "fp_cosine": 0.14320828753155018
+    },
+    {
+      "cond": "A549_Lomustine_0.1",
+      "line": "A549",
+      "smiles": "ClCCN(N=O)C(=O)NC1CCCCC1",
+      "swapped": "Cl.Cl.FC1=CC(=CC(F)=C1CN1CCOCC1)C1=C2N=C(C=NC2=CC=C1)C1=CN(N=C1)C1CCNCC1",
+      "dose": 1000.0,
+      "n": 123,
+      "fp_cosine": 0.14320828753155074
+    },
+    {
+      "cond": "A549_Lomustine_1.0",
+      "line": "A549",
+      "smiles": "ClCCN(N=O)C(=O)NC1CCCCC1",
+      "swapped": "Cl.Cl.FC1=CC(=CC(F)=C1CN1CCOCC1)C1=C2N=C(C=NC2=CC=C1)C1=CN(N=C1)C1CCNCC1",
+      "dose": 10000.0,
+      "n": 97,
+      "fp_cosine": 0.14320828753155093
+    },
+    {
+      "cond": "A549_MC1568_0.001",
+      "line": "A549",
+      "smiles": "CN1C=C(\\C=C\\C(=O)C2=CC=CC(F)=C2)C=C1\\C=C\\C(=O)NO",
+      "swapped": "Cl.O=S(=O)(N1CCCNCC1)C1=C2C=CN=CC2=CC=C1",
+      "dose": 10.0,
+      "n": 87,
+      "fp_cosine": 0.3302891295378998
+    },
+    {
+      "cond": "A549_MC1568_0.01",
+      "line": "A549",
+      "smiles": "CN1C=C(\\C=C\\C(=O)C2=CC=CC(F)=C2)C=C1\\C=C\\C(=O)NO",
+      "swapped": "Cl.O=S(=O)(N1CCCNCC1)C1=C2C=CN=CC2=CC=C1",
+      "dose": 100.0,
+      "n": 92,
+      "fp_cosine": 0.3302891295379059
+    },
+    {
+      "cond": "A549_MC1568_0.1",
+      "line": "A549",
+      "smiles": "CN1C=C(\\C=C\\C(=O)C2=CC=CC(F)=C2)C=C1\\C=C\\C(=O)NO",
+      "swapped": "Cl.O=S(=O)(N1CCCNCC1)C1=C2C=CN=CC2=CC=C1",
+      "dose": 1000.0,
+      "n": 101,
+      "fp_cosine": 0.3302891295379072
+    },
+    {
+      "cond": "A549_MC1568_1.0",
+      "line": "A549",
+      "smiles": "CN1C=C(\\C=C\\C(=O)C2=CC=CC(F)=C2)C=C1\\C=C\\C(=O)NO",
+      "swapped": "Cl.O=S(=O)(N1CCCNCC1)C1=C2C=CN=CC2=CC=C1",
+      "dose": 10000.0,
+      "n": 71,
+      "fp_cosine": 0.3302891295379076
+    },
+    {
+      "cond": "A549_MK-0752_0.001",
+      "line": "A549",
+      "smiles": "OC(=O)CCC1CCC(CC1)(C2=C(F)C=CC(=C2)F)[S](=O)(=O)C3=CC=C(Cl)C=C3",
+      "swapped": "C[C@H](NC(=O)C(=C\\C1=NC(Br)=CC=C1)\\C#N)C1=CC=CC=C1",
+      "dose": 10.0,
+      "n": 122,
+      "fp_cosine": 0.29424494316824185
+    },
+    {
+      "cond": "A549_MK-0752_0.01",
+      "line": "A549",
+      "smiles": "OC(=O)CCC1CCC(CC1)(C2=C(F)C=CC(=C2)F)[S](=O)(=O)C3=CC=C(Cl)C=C3",
+      "swapped": "C[C@H](NC(=O)C(=C\\C1=NC(Br)=CC=C1)\\C#N)C1=CC=CC=C1",
+      "dose": 100.0,
+      "n": 106,
+      "fp_cosine": 0.2942449431682477
+    },
+    {
+      "cond": "A549_MK-0752_0.1",
+      "line": "A549",
+      "smiles": "OC(=O)CCC1CCC(CC1)(C2=C(F)C=CC(=C2)F)[S](=O)(=O)C3=CC=C(Cl)C=C3",
+      "swapped": "C[C@H](NC(=O)C(=C\\C1=NC(Br)=CC=C1)\\C#N)C1=CC=CC=C1",
+      "dose": 1000.0,
+      "n": 115,
+      "fp_cosine": 0.29424494316824884
+    },
+    {
+      "cond": "A549_MK-0752_1.0",
+      "line": "A549",
+      "smiles": "OC(=O)CCC1CCC(CC1)(C2=C(F)C=CC(=C2)F)[S](=O)(=O)C3=CC=C(Cl)C=C3",
+      "swapped": "C[C@H](NC(=O)C(=C\\C1=NC(Br)=CC=C1)\\C#N)C1=CC=CC=C1",
+      "dose": 10000.0,
+      "n": 121,
+      "fp_cosine": 0.29424494316824934
+    },
+    {
+      "cond": "A549_NVP-BSK805_0.001",
+      "line": "A549",
+      "smiles": "Cl.Cl.FC1=CC(=CC(F)=C1CN1CCOCC1)C1=C2N=C(C=NC2=CC=C1)C1=CN(N=C1)C1CCNCC1",
+      "swapped": "COC1=C(OCCCN2CCOCC2)C=C2N=CN=C(NC3=CC=C(NC(=O)C4=CC=CC=C4)C=C3)C2=C1",
+      "dose": 10.0,
+      "n": 116,
+      "fp_cosine": 0.37043389328831167
+    },
+    {
+      "cond": "A549_NVP-BSK805_0.01",
+      "line": "A549",
+      "smiles": "Cl.Cl.FC1=CC(=CC(F)=C1CN1CCOCC1)C1=C2N=C(C=NC2=CC=C1)C1=CN(N=C1)C1CCNCC1",
+      "swapped": "COC1=C(OCCCN2CCOCC2)C=C2N=CN=C(NC3=CC=C(NC(=O)C4=CC=CC=C4)C=C3)C2=C1",
+      "dose": 100.0,
+      "n": 129,
+      "fp_cosine": 0.37043389328831633
+    },
+    {
+      "cond": "A549_NVP-BSK805_0.1",
+      "line": "A549",
+      "smiles": "Cl.Cl.FC1=CC(=CC(F)=C1CN1CCOCC1)C1=C2N=C(C=NC2=CC=C1)C1=CN(N=C1)C1CCNCC1",
+      "swapped": "COC1=C(OCCCN2CCOCC2)C=C2N=CN=C(NC3=CC=C(NC(=O)C4=CC=CC=C4)C=C3)C2=C1",
+      "dose": 1000.0,
+      "n": 132,
+      "fp_cosine": 0.3704338932883173
+    },
+    {
+      "cond": "A549_NVP-BSK805_1.0",
+      "line": "A549",
+      "smiles": "Cl.Cl.FC1=CC(=CC(F)=C1CN1CCOCC1)C1=C2N=C(C=NC2=CC=C1)C1=CN(N=C1)C1CCNCC1",
+      "swapped": "COC1=C(OCCCN2CCOCC2)C=C2N=CN=C(NC3=CC=C(NC(=O)C4=CC=CC=C4)C=C3)C2=C1",
+      "dose": 10000.0,
+      "n": 95,
+      "fp_cosine": 0.3704338932883176
+    },
+    {
+      "cond": "A549_PF-573228_0.001",
+      "line": "A549",
+      "smiles": "C[S](=O)(=O)C1=CC(=CC=C1)CNC2=NC(=NC=C2C(F)(F)F)NC3=CC4=C(NC(=O)CC4)C=C3",
+      "swapped": "CN(C)CC1=CC=C(C=C1)S(=O)(=O)N1C=CC(\\C=C\\C(=O)NO)=C1",
+      "dose": 10.0,
+      "n": 40,
+      "fp_cosine": 0.27735009811260863
+    },
+    {
+      "cond": "A549_PF-573228_0.01",
+      "line": "A549",
+      "smiles": "C[S](=O)(=O)C1=CC(=CC=C1)CNC2=NC(=NC=C2C(F)(F)F)NC3=CC4=C(NC(=O)CC4)C=C3",
+      "swapped": "CN(C)CC1=CC=C(C=C1)S(=O)(=O)N1C=CC(\\C=C\\C(=O)NO)=C1",
+      "dose": 100.0,
+      "n": 116,
+      "fp_cosine": 0.277350098112613
+    },
+    {
+      "cond": "A549_PF-573228_0.1",
+      "line": "A549",
+      "smiles": "C[S](=O)(=O)C1=CC(=CC=C1)CNC2=NC(=NC=C2C(F)(F)F)NC3=CC4=C(NC(=O)CC4)C=C3",
+      "swapped": "CN(C)CC1=CC=C(C=C1)S(=O)(=O)N1C=CC(\\C=C\\C(=O)NO)=C1",
+      "dose": 1000.0,
+      "n": 101,
+      "fp_cosine": 0.2773500981126138
+    },
+    {
+      "cond": "A549_PF-573228_1.0",
+      "line": "A549",
+      "smiles": "C[S](=O)(=O)C1=CC(=CC=C1)CNC2=NC(=NC=C2C(F)(F)F)NC3=CC4=C(NC(=O)CC4)C=C3",
+      "swapped": "CN(C)CC1=CC=C(C=C1)S(=O)(=O)N1C=CC(\\C=C\\C(=O)NO)=C1",
+      "dose": 10000.0,
+      "n": 75,
+      "fp_cosine": 0.27735009811261413
+    },
+    {
+      "cond": "A549_PJ34_0.001",
+      "line": "A549",
+      "smiles": "CN(C)CC(=O)NC1=CC2=C(NC(=O)C3=C2C=CC=C3)C=C1",
+      "swapped": "COC1=CC2=NC=CC(=C2C=C1OC)OC3=CC=C(NC(=O)NC4=CC=C(F)C=C4F)C(=C3)F",
+      "dose": 10.0,
+      "n": 101,
+      "fp_cosine": 0.2646280620124751
+    },
+    {
+      "cond": "A549_PJ34_0.01",
+      "line": "A549",
+      "smiles": "CN(C)CC(=O)NC1=CC2=C(NC(=O)C3=C2C=CC=C3)C=C1",
+      "swapped": "COC1=CC2=NC=CC(=C2C=C1OC)OC3=CC=C(NC(=O)NC4=CC=C(F)C=C4F)C(=C3)F",
+      "dose": 100.0,
+      "n": 96,
+      "fp_cosine": 0.26462806201247985
+    },
+    {
+      "cond": "A549_PJ34_0.1",
+      "line": "A549",
+      "smiles": "CN(C)CC(=O)NC1=CC2=C(NC(=O)C3=C2C=CC=C3)C=C1",
+      "swapped": "COC1=CC2=NC=CC(=C2C=C1OC)OC3=CC=C(NC(=O)NC4=CC=C(F)C=C4F)C(=C3)F",
+      "dose": 1000.0,
+      "n": 104,
+      "fp_cosine": 0.26462806201248074
+    },
+    {
+      "cond": "A549_PJ34_1.0",
+      "line": "A549",
+      "smiles": "CN(C)CC(=O)NC1=CC2=C(NC(=O)C3=C2C=CC=C3)C=C1",
+      "swapped": "COC1=CC2=NC=CC(=C2C=C1OC)OC3=CC=C(NC(=O)NC4=CC=C(F)C=C4F)C(=C3)F",
+      "dose": 10000.0,
+      "n": 84,
+      "fp_cosine": 0.2646280620124811
+    },
+    {
+      "cond": "A549_Quisinostat_0.001",
+      "line": "A549",
+      "smiles": "Cl.Cl.CN1C=C(CNCC2CCN(CC2)C2=NC=C(C=N2)C(=O)NO)C2=CC=CC=C12",
+      "swapped": "CC(NC(=O)C1=CC=CC=C1\\N=C\\C1=C2C=CC=CC2=CC=C1O)C1=CC=CC=C1",
+      "dose": 10.0,
+      "n": 81,
+      "fp_cosine": 0.30018767596454904
+    },
+    {
+      "cond": "A549_Quisinostat_0.01",
+      "line": "A549",
+      "smiles": "Cl.Cl.CN1C=C(CNCC2CCN(CC2)C2=NC=C(C=N2)C(=O)NO)C2=CC=CC=C12",
+      "swapped": "CC(NC(=O)C1=CC=CC=C1\\N=C\\C1=C2C=CC=CC2=CC=C1O)C1=CC=CC=C1",
+      "dose": 100.0,
+      "n": 61,
+      "fp_cosine": 0.3001876759645541
+    },
+    {
+      "cond": "A549_Quisinostat_0.1",
+      "line": "A549",
+      "smiles": "Cl.Cl.CN1C=C(CNCC2CCN(CC2)C2=NC=C(C=N2)C(=O)NO)C2=CC=CC=C12",
+      "swapped": "CC(NC(=O)C1=CC=CC=C1\\N=C\\C1=C2C=CC=CC2=CC=C1O)C1=CC=CC=C1",
+      "dose": 1000.0,
+      "n": 52,
+      "fp_cosine": 0.3001876759645551
+    },
+    {
+      "cond": "A549_Quisinostat_1.0",
+      "line": "A549",
+      "smiles": "Cl.Cl.CN1C=C(CNCC2CCN(CC2)C2=NC=C(C=N2)C(=O)NO)C2=CC=CC=C12",
+      "swapped": "CC(NC(=O)C1=CC=CC=C1\\N=C\\C1=C2C=CC=CC2=CC=C1O)C1=CC=CC=C1",
+      "dose": 10000.0,
+      "n": 49,
+      "fp_cosine": 0.30018767596455553
+    },
+    {
+      "cond": "A549_Resminostat_0.001",
+      "line": "A549",
+      "smiles": "CN(C)CC1=CC=C(C=C1)S(=O)(=O)N1C=CC(\\C=C\\C(=O)NO)=C1",
+      "swapped": "COC1=C(OCCCN2CCCC2)C=C2N=C(N)C3(CCC3)C2=C1",
+      "dose": 10.0,
+      "n": 102,
+      "fp_cosine": 0.25724787771375646
+    },
+    {
+      "cond": "A549_Resminostat_0.01",
+      "line": "A549",
+      "smiles": "CN(C)CC1=CC=C(C=C1)S(=O)(=O)N1C=CC(\\C=C\\C(=O)NO)=C1",
+      "swapped": "COC1=C(OCCCN2CCCC2)C=C2N=C(N)C3(CCC3)C2=C1",
+      "dose": 100.0,
+      "n": 104,
+      "fp_cosine": 0.25724787771376145
+    },
+    {
+      "cond": "A549_Resminostat_0.1",
+      "line": "A549",
+      "smiles": "CN(C)CC1=CC=C(C=C1)S(=O)(=O)N1C=CC(\\C=C\\C(=O)NO)=C1",
+      "swapped": "COC1=C(OCCCN2CCCC2)C=C2N=C(N)C3(CCC3)C2=C1",
+      "dose": 1000.0,
+      "n": 95,
+      "fp_cosine": 0.25724787771376245
+    },
+    {
+      "cond": "A549_Resminostat_1.0",
+      "line": "A549",
+      "smiles": "CN(C)CC1=CC=C(C=C1)S(=O)(=O)N1C=CC(\\C=C\\C(=O)NO)=C1",
+      "swapped": "COC1=C(OCCCN2CCCC2)C=C2N=C(N)C3(CCC3)C2=C1",
+      "dose": 10000.0,
+      "n": 80,
+      "fp_cosine": 0.2572478777137628
+    },
+    {
+      "cond": "A549_Sirtinol_0.001",
+      "line": "A549",
+      "smiles": "CC(NC(=O)C1=CC=CC=C1\\N=C\\C1=C2C=CC=CC2=CC=C1O)C1=CC=CC=C1",
+      "swapped": "C[C@H](NC1=NC(NC2=NNC(C)=C2)=C(F)C=C1C#N)C1=CC=C(F)C=C1",
+      "dose": 10.0,
+      "n": 108,
+      "fp_cosine": 0.18748505440194843
+    },
+    {
+      "cond": "A549_Sirtinol_0.01",
+      "line": "A549",
+      "smiles": "CC(NC(=O)C1=CC=CC=C1\\N=C\\C1=C2C=CC=CC2=CC=C1O)C1=CC=CC=C1",
+      "swapped": "C[C@H](NC1=NC(NC2=NNC(C)=C2)=C(F)C=C1C#N)C1=CC=C(F)C=C1",
+      "dose": 100.0,
+      "n": 105,
+      "fp_cosine": 0.18748505440195182
+    },
+    {
+      "cond": "A549_Sirtinol_0.1",
+      "line": "A549",
+      "smiles": "CC(NC(=O)C1=CC=CC=C1\\N=C\\C1=C2C=CC=CC2=CC=C1O)C1=CC=CC=C1",
+      "swapped": "C[C@H](NC1=NC(NC2=NNC(C)=C2)=C(F)C=C1C#N)C1=CC=C(F)C=C1",
+      "dose": 1000.0,
+      "n": 93,
+      "fp_cosine": 0.1874850544019525
+    },
+    {
+      "cond": "A549_Sirtinol_1.0",
+      "line": "A549",
+      "smiles": "CC(NC(=O)C1=CC=CC=C1\\N=C\\C1=C2C=CC=CC2=CC=C1O)C1=CC=CC=C1",
+      "swapped": "C[C@H](NC1=NC(NC2=NNC(C)=C2)=C(F)C=C1C#N)C1=CC=C(F)C=C1",
+      "dose": 10000.0,
+      "n": 131,
+      "fp_cosine": 0.18748505440195276
+    },
+    {
+      "cond": "A549_TAK-901_0.001",
+      "line": "A549",
+      "smiles": "CCS(=O)(=O)C1=CC=CC(=C1)C1=CC(C(=O)NC2CCN(C)CC2)=C(C)C2=C1C1=C(N2)N=CC(C)=C1",
+      "swapped": "NC1=CC=CC=C1NC(=O)C1=CC=C(CNC(=O)OCC2=CN=CC=C2)C=C1",
+      "dose": 10.0,
+      "n": 87,
+      "fp_cosine": 0.332105582077529
+    },
+    {
+      "cond": "A549_TAK-901_0.01",
+      "line": "A549",
+      "smiles": "CCS(=O)(=O)C1=CC=CC(=C1)C1=CC(C(=O)NC2CCN(C)CC2)=C(C)C2=C1C1=C(N2)N=CC(C)=C1",
+      "swapped": "NC1=CC=CC=C1NC(=O)C1=CC=C(CNC(=O)OCC2=CN=CC=C2)C=C1",
+      "dose": 100.0,
+      "n": 74,
+      "fp_cosine": 0.33210558207753393
+    },
+    {
+      "cond": "A549_TAK-901_0.1",
+      "line": "A549",
+      "smiles": "CCS(=O)(=O)C1=CC=CC(=C1)C1=CC(C(=O)NC2CCN(C)CC2)=C(C)C2=C1C1=C(N2)N=CC(C)=C1",
+      "swapped": "NC1=CC=CC=C1NC(=O)C1=CC=C(CNC(=O)OCC2=CN=CC=C2)C=C1",
+      "dose": 1000.0,
+      "n": 65,
+      "fp_cosine": 0.33210558207753493
+    },
+    {
+      "cond": "A549_TAK-901_1.0",
+      "line": "A549",
+      "smiles": "CCS(=O)(=O)C1=CC=CC(=C1)C1=CC(C(=O)NC2CCN(C)CC2)=C(C)C2=C1C1=C(N2)N=CC(C)=C1",
+      "swapped": "NC1=CC=CC=C1NC(=O)C1=CC=C(CNC(=O)OCC2=CN=CC=C2)C=C1",
+      "dose": 10000.0,
+      "n": 42,
+      "fp_cosine": 0.3321055820775352
+    },
+    {
+      "cond": "A549_Tanespimycin_0.001",
+      "line": "A549",
+      "smiles": "COC1CC(C)CC2=C(NCC=C)C(=O)C=C(NC(=O)C(=C\\C=C/C(OC)C(OC(N)=O)/C(=C/C(C)C1O)C)\\C)C2=O",
+      "swapped": "CCS(=O)(=O)C1=CC=CC(=C1)C1=CC(C(=O)NC2CCN(C)CC2)=C(C)C2=C1C1=C(N2)N=CC(C)=C1",
+      "dose": 10.0,
+      "n": 108,
+      "fp_cosine": 0.17476551841063576
+    },
+    {
+      "cond": "A549_Tanespimycin_0.01",
+      "line": "A549",
+      "smiles": "COC1CC(C)CC2=C(NCC=C)C(=O)C=C(NC(=O)C(=C\\C=C/C(OC)C(OC(N)=O)/C(=C/C(C)C1O)C)\\C)C2=O",
+      "swapped": "CCS(=O)(=O)C1=CC=CC(=C1)C1=CC(C(=O)NC2CCN(C)CC2)=C(C)C2=C1C1=C(N2)N=CC(C)=C1",
+      "dose": 100.0,
+      "n": 88,
+      "fp_cosine": 0.1747655184106381
+    },
+    {
+      "cond": "A549_Tanespimycin_0.1",
+      "line": "A549",
+      "smiles": "COC1CC(C)CC2=C(NCC=C)C(=O)C=C(NC(=O)C(=C\\C=C/C(OC)C(OC(N)=O)/C(=C/C(C)C1O)C)\\C)C2=O",
+      "swapped": "CCS(=O)(=O)C1=CC=CC(=C1)C1=CC(C(=O)NC2CCN(C)CC2)=C(C)C2=C1C1=C(N2)N=CC(C)=C1",
+      "dose": 1000.0,
+      "n": 74,
+      "fp_cosine": 0.1747655184106385
+    },
+    {
+      "cond": "A549_Tanespimycin_1.0",
+      "line": "A549",
+      "smiles": "COC1CC(C)CC2=C(NCC=C)C(=O)C=C(NC(=O)C(=C\\C=C/C(OC)C(OC(N)=O)/C(=C/C(C)C1O)C)\\C)C2=O",
+      "swapped": "CCS(=O)(=O)C1=CC=CC(=C1)C1=CC(C(=O)NC2CCN(C)CC2)=C(C)C2=C1C1=C(N2)N=CC(C)=C1",
+      "dose": 10000.0,
+      "n": 45,
+      "fp_cosine": 0.17476551841063867
+    },
+    {
+      "cond": "A549_Thiotepa_0.001",
+      "line": "A549",
+      "smiles": "S=[P](N1CC1)(N2CC2)N3CC3",
+      "swapped": "CCN(CC)C(=S)SSC(=S)N(CC)CC",
+      "dose": 10.0,
+      "n": 118,
+      "fp_cosine": 0.2773500981125909
+    },
+    {
+      "cond": "A549_Thiotepa_0.01",
+      "line": "A549",
+      "smiles": "S=[P](N1CC1)(N2CC2)N3CC3",
+      "swapped": "CCN(CC)C(=S)SSC(=S)N(CC)CC",
+      "dose": 100.0,
+      "n": 110,
+      "fp_cosine": 0.2773500981126082
+    },
+    {
+      "cond": "A549_Thiotepa_0.1",
+      "line": "A549",
+      "smiles": "S=[P](N1CC1)(N2CC2)N3CC3",
+      "swapped": "CCN(CC)C(=S)SSC(=S)N(CC)CC",
+      "dose": 1000.0,
+      "n": 98,
+      "fp_cosine": 0.27735009811261174
+    },
+    {
+      "cond": "A549_Thiotepa_1.0",
+      "line": "A549",
+      "smiles": "S=[P](N1CC1)(N2CC2)N3CC3",
+      "swapped": "CCN(CC)C(=S)SSC(=S)N(CC)CC",
+      "dose": 10000.0,
+      "n": 88,
+      "fp_cosine": 0.27735009811261296
+    },
+    {
+      "cond": "A549_UNC0631_0.001",
+      "line": "A549",
+      "smiles": "COC1=CC2=C(NC3CCN(CC4CCCCC4)CC3)N=C(N=C2C=C1OCCCN1CCCCC1)N1CCCN(CC1)C(C)C",
+      "swapped": "NC1=NC(=O)N(C=N1)[C@H]1C[C@H](O)[C@@H](CO)O1",
+      "dose": 10.0,
+      "n": 104,
+      "fp_cosine": 0.22416096662401785
+    },
+    {
+      "cond": "A549_UNC0631_0.01",
+      "line": "A549",
+      "smiles": "COC1=CC2=C(NC3CCN(CC4CCCCC4)CC3)N=C(N=C2C=C1OCCCN1CCCCC1)N1CCCN(CC1)C(C)C",
+      "swapped": "NC1=NC(=O)N(C=N1)[C@H]1C[C@H](O)[C@@H](CO)O1",
+      "dose": 100.0,
+      "n": 101,
+      "fp_cosine": 0.22416096662402168
+    },
+    {
+      "cond": "A549_UNC0631_0.1",
+      "line": "A549",
+      "smiles": "COC1=CC2=C(NC3CCN(CC4CCCCC4)CC3)N=C(N=C2C=C1OCCCN1CCCCC1)N1CCCN(CC1)C(C)C",
+      "swapped": "NC1=NC(=O)N(C=N1)[C@H]1C[C@H](O)[C@@H](CO)O1",
+      "dose": 1000.0,
+      "n": 107,
+      "fp_cosine": 0.22416096662402243
+    },
+    {
+      "cond": "A549_UNC0631_1.0",
+      "line": "A549",
+      "smiles": "COC1=CC2=C(NC3CCN(CC4CCCCC4)CC3)N=C(N=C2C=C1OCCCN1CCCCC1)N1CCCN(CC1)C(C)C",
+      "swapped": "NC1=NC(=O)N(C=N1)[C@H]1C[C@H](O)[C@@H](CO)O1",
+      "dose": 10000.0,
+      "n": 110,
+      "fp_cosine": 0.22416096662402268
+    },
+    {
+      "cond": "A549_Vandetanib_0.001",
+      "line": "A549",
+      "smiles": "COC1=CC2=C(C=C1OCC3CCN(C)CC3)N=CN=C2NC4=C(F)C=C(Br)C=C4",
+      "swapped": "OCCN(CCC1=CNC2=C1C=CC=C2)CC1=CC=C(\\C=C\\C(=O)NO)C=C1",
+      "dose": 10.0,
+      "n": 94,
+      "fp_cosine": 0.1685050927484506
+    },
+    {
+      "cond": "A549_Vandetanib_0.01",
+      "line": "A549",
+      "smiles": "COC1=CC2=C(C=C1OCC3CCN(C)CC3)N=CN=C2NC4=C(F)C=C(Br)C=C4",
+      "swapped": "OCCN(CCC1=CNC2=C1C=CC=C2)CC1=CC=C(\\C=C\\C(=O)NO)C=C1",
+      "dose": 100.0,
+      "n": 105,
+      "fp_cosine": 0.16850509274845296
+    },
+    {
+      "cond": "A549_Vandetanib_0.1",
+      "line": "A549",
+      "smiles": "COC1=CC2=C(C=C1OCC3CCN(C)CC3)N=CN=C2NC4=C(F)C=C(Br)C=C4",
+      "swapped": "OCCN(CCC1=CNC2=C1C=CC=C2)CC1=CC=C(\\C=C\\C(=O)NO)C=C1",
+      "dose": 1000.0,
+      "n": 115,
+      "fp_cosine": 0.16850509274845346
+    },
+    {
+      "cond": "A549_Vandetanib_1.0",
+      "line": "A549",
+      "smiles": "COC1=CC2=C(C=C1OCC3CCN(C)CC3)N=CN=C2NC4=C(F)C=C(Br)C=C4",
+      "swapped": "OCCN(CCC1=CNC2=C1C=CC=C2)CC1=CC=C(\\C=C\\C(=O)NO)C=C1",
+      "dose": 10000.0,
+      "n": 67,
+      "fp_cosine": 0.16850509274845366
+    },
+    {
+      "cond": "A549_WHI-P154_0.001",
+      "line": "A549",
+      "smiles": "COC1=CC2=NC=NC(NC3=CC=C(O)C(Br)=C3)=C2C=C1OC",
+      "swapped": "CN1C=C(C2=CC=CC=C12)C1=C(C(=O)NC1=O)C1=CN(C2CCN(CC3=NC=CC=C3)CC2)C2=CC=CC=C12",
+      "dose": 10.0,
+      "n": 114,
+      "fp_cosine": 0.21483446221182514
+    },
+    {
+      "cond": "A549_WHI-P154_0.01",
+      "line": "A549",
+      "smiles": "COC1=CC2=NC=NC(NC3=CC=C(O)C(Br)=C3)=C2C=C1OC",
+      "swapped": "CN1C=C(C2=CC=CC=C12)C1=C(C(=O)NC1=O)C1=CN(C2CCN(CC3=NC=CC=C3)CC2)C2=CC=CC=C12",
+      "dose": 100.0,
+      "n": 123,
+      "fp_cosine": 0.21483446221182861
+    },
+    {
+      "cond": "A549_WHI-P154_0.1",
+      "line": "A549",
+      "smiles": "COC1=CC2=NC=NC(NC3=CC=C(O)C(Br)=C3)=C2C=C1OC",
+      "swapped": "CN1C=C(C2=CC=CC=C12)C1=C(C(=O)NC1=O)C1=CN(C2CCN(CC3=NC=CC=C3)CC2)C2=CC=CC=C12",
+      "dose": 1000.0,
+      "n": 106,
+      "fp_cosine": 0.21483446221182928
+    },
+    {
+      "cond": "A549_WHI-P154_1.0",
+      "line": "A549",
+      "smiles": "COC1=CC2=NC=NC(NC3=CC=C(O)C(Br)=C3)=C2C=C1OC",
+      "swapped": "CN1C=C(C2=CC=CC=C12)C1=C(C(=O)NC1=O)C1=CN(C2CCN(CC3=NC=CC=C3)CC2)C2=CC=CC=C12",
+      "dose": 10000.0,
+      "n": 101,
+      "fp_cosine": 0.21483446221182953
+    },
+    {
+      "cond": "A549_WP1066_0.001",
+      "line": "A549",
+      "smiles": "C[C@H](NC(=O)C(=C\\C1=NC(Br)=CC=C1)\\C#N)C1=CC=CC=C1",
+      "swapped": "COC1=CC=C(C=N1)C1=NC2=C(SC(CN(C)C3=NC=C(C=N3)C(=O)NO)=C2)C(=N1)N1CCOCC1",
+      "dose": 10.0,
+      "n": 113,
+      "fp_cosine": 0.23904572186687342
+    },
+    {
+      "cond": "A549_WP1066_0.01",
+      "line": "A549",
+      "smiles": "C[C@H](NC(=O)C(=C\\C1=NC(Br)=CC=C1)\\C#N)C1=CC=CC=C1",
+      "swapped": "COC1=CC=C(C=N1)C1=NC2=C(SC(CN(C)C3=NC=C(C=N3)C(=O)NO)=C2)C(=N1)N1CCOCC1",
+      "dose": 100.0,
+      "n": 148,
+      "fp_cosine": 0.23904572186687734
+    },
+    {
+      "cond": "A549_WP1066_0.1",
+      "line": "A549",
+      "smiles": "C[C@H](NC(=O)C(=C\\C1=NC(Br)=CC=C1)\\C#N)C1=CC=CC=C1",
+      "swapped": "COC1=CC=C(C=N1)C1=NC2=C(SC(CN(C)C3=NC=C(C=N3)C(=O)NO)=C2)C(=N1)N1CCOCC1",
+      "dose": 1000.0,
+      "n": 123,
+      "fp_cosine": 0.23904572186687803
+    },
+    {
+      "cond": "A549_WP1066_1.0",
+      "line": "A549",
+      "smiles": "C[C@H](NC(=O)C(=C\\C1=NC(Br)=CC=C1)\\C#N)C1=CC=CC=C1",
+      "swapped": "COC1=CC=C(C=N1)C1=NC2=C(SC(CN(C)C3=NC=C(C=N3)C(=O)NO)=C2)C(=N1)N1CCOCC1",
+      "dose": 10000.0,
+      "n": 120,
+      "fp_cosine": 0.23904572186687836
+    },
+    {
+      "cond": "A549_XAV-939_0.001",
+      "line": "A549",
+      "smiles": "OC1=C2CSCCC2=NC(=N1)C3=CC=C(C=C3)C(F)(F)F",
+      "swapped": "CN1C=C(\\C=C\\C(=O)C2=CC=CC(F)=C2)C=C1\\C=C\\C(=O)NO",
+      "dose": 10.0,
+      "n": 89,
+      "fp_cosine": 0.35251199395530747
+    },
+    {
+      "cond": "A549_XAV-939_0.01",
+      "line": "A549",
+      "smiles": "OC1=C2CSCCC2=NC(=N1)C3=CC=C(C=C3)C(F)(F)F",
+      "swapped": "CN1C=C(\\C=C\\C(=O)C2=CC=CC(F)=C2)C=C1\\C=C\\C(=O)NO",
+      "dose": 100.0,
+      "n": 94,
+      "fp_cosine": 0.3525119939553139
+    },
+    {
+      "cond": "A549_XAV-939_0.1",
+      "line": "A549",
+      "smiles": "OC1=C2CSCCC2=NC(=N1)C3=CC=C(C=C3)C(F)(F)F",
+      "swapped": "CN1C=C(\\C=C\\C(=O)C2=CC=CC(F)=C2)C=C1\\C=C\\C(=O)NO",
+      "dose": 1000.0,
+      "n": 125,
+      "fp_cosine": 0.3525119939553152
+    },
+    {
+      "cond": "A549_XAV-939_1.0",
+      "line": "A549",
+      "smiles": "OC1=C2CSCCC2=NC(=N1)C3=CC=C(C=C3)C(F)(F)F",
+      "swapped": "CN1C=C(\\C=C\\C(=O)C2=CC=CC(F)=C2)C=C1\\C=C\\C(=O)NO",
+      "dose": 10000.0,
+      "n": 61,
+      "fp_cosine": 0.3525119939553157
+    },
+    {
+      "cond": "A549_ZM_0.001",
+      "line": "A549",
+      "smiles": "COC1=C(OCCCN2CCOCC2)C=C2N=CN=C(NC3=CC=C(NC(=O)C4=CC=CC=C4)C=C3)C2=C1",
+      "swapped": "[H][C@@]12CC[C@H](O)[C@@]1(C)CC[C@]1([H])C3=CC(OC)=C(O)C=C3CC[C@@]21[H]",
+      "dose": 10.0,
+      "n": 93,
+      "fp_cosine": 0.2247332874877427
+    },
+    {
+      "cond": "A549_ZM_0.01",
+      "line": "A549",
+      "smiles": "COC1=C(OCCCN2CCOCC2)C=C2N=CN=C(NC3=CC=C(NC(=O)C4=CC=CC=C4)C=C3)C2=C1",
+      "swapped": "[H][C@@]12CC[C@H](O)[C@@]1(C)CC[C@]1([H])C3=CC(OC)=C(O)C=C3CC[C@@]21[H]",
+      "dose": 100.0,
+      "n": 103,
+      "fp_cosine": 0.22473328748774613
+    },
+    {
+      "cond": "A549_ZM_0.1",
+      "line": "A549",
+      "smiles": "COC1=C(OCCCN2CCOCC2)C=C2N=CN=C(NC3=CC=C(NC(=O)C4=CC=CC=C4)C=C3)C2=C1",
+      "swapped": "[H][C@@]12CC[C@H](O)[C@@]1(C)CC[C@]1([H])C3=CC(OC)=C(O)C=C3CC[C@@]21[H]",
+      "dose": 1000.0,
+      "n": 77,
+      "fp_cosine": 0.22473328748774676
+    },
+    {
+      "cond": "A549_ZM_1.0",
+      "line": "A549",
+      "smiles": "COC1=C(OCCCN2CCOCC2)C=C2N=CN=C(NC3=CC=C(NC(=O)C4=CC=CC=C4)C=C3)C2=C1",
+      "swapped": "[H][C@@]12CC[C@H](O)[C@@]1(C)CC[C@]1([H])C3=CC(OC)=C(O)C=C3CC[C@@]21[H]",
+      "dose": 10000.0,
+      "n": 58,
+      "fp_cosine": 0.22473328748774707
+    },
+    {
+      "cond": "K562_2-Methoxyestradiol_0.001",
+      "line": "K562",
+      "smiles": "[H][C@@]12CC[C@H](O)[C@@]1(C)CC[C@]1([H])C3=CC(OC)=C(O)C=C3CC[C@@]21[H]",
+      "swapped": "CC(=O)NC1=CC=C(OCC(C)(O)C(=O)NC2=CC=C(C(=C2)C(F)(F)F)[N+]([O-])=O)C=C1",
+      "dose": 10.0,
+      "n": 118,
+      "fp_cosine": 0.32025630761016644
+    },
+    {
+      "cond": "K562_2-Methoxyestradiol_0.01",
+      "line": "K562",
+      "smiles": "[H][C@@]12CC[C@H](O)[C@@]1(C)CC[C@]1([H])C3=CC(OC)=C(O)C=C3CC[C@@]21[H]",
+      "swapped": "CC(=O)NC1=CC=C(OCC(C)(O)C(=O)NC2=CC=C(C(=C2)C(F)(F)F)[N+]([O-])=O)C=C1",
+      "dose": 100.0,
+      "n": 120,
+      "fp_cosine": 0.32025630761017215
+    },
+    {
+      "cond": "K562_2-Methoxyestradiol_0.1",
+      "line": "K562",
+      "smiles": "[H][C@@]12CC[C@H](O)[C@@]1(C)CC[C@]1([H])C3=CC(OC)=C(O)C=C3CC[C@@]21[H]",
+      "swapped": "CC(=O)NC1=CC=C(OCC(C)(O)C(=O)NC2=CC=C(C(=C2)C(F)(F)F)[N+]([O-])=O)C=C1",
+      "dose": 1000.0,
+      "n": 75,
+      "fp_cosine": 0.3202563076101733
+    },
+    {
+      "cond": "K562_2-Methoxyestradiol_1.0",
+      "line": "K562",
+      "smiles": "[H][C@@]12CC[C@H](O)[C@@]1(C)CC[C@]1([H])C3=CC(OC)=C(O)C=C3CC[C@@]21[H]",
+      "swapped": "CC(=O)NC1=CC=C(OCC(C)(O)C(=O)NC2=CC=C(C(=C2)C(F)(F)F)[N+]([O-])=O)C=C1",
+      "dose": 10000.0,
+      "n": 29,
+      "fp_cosine": 0.3202563076101737
+    },
+    {
+      "cond": "K562_A-366_0.001",
+      "line": "K562",
+      "smiles": "COC1=C(OCCCN2CCCC2)C=C2N=C(N)C3(CCC3)C2=C1",
+      "swapped": "OC(=O)CCC1CCC(CC1)(C2=C(F)C=CC(=C2)F)[S](=O)(=O)C3=CC=C(Cl)C=C3",
+      "dose": 10.0,
+      "n": 131,
+      "fp_cosine": 0.23883257361060625
+    },
+    {
+      "cond": "K562_A-366_0.01",
+      "line": "K562",
+      "smiles": "COC1=C(OCCCN2CCCC2)C=C2N=C(N)C3(CCC3)C2=C1",
+      "swapped": "OC(=O)CCC1CCC(CC1)(C2=C(F)C=CC(=C2)F)[S](=O)(=O)C3=CC=C(Cl)C=C3",
+      "dose": 100.0,
+      "n": 101,
+      "fp_cosine": 0.23883257361061105
+    },
+    {
+      "cond": "K562_A-366_0.1",
+      "line": "K562",
+      "smiles": "COC1=C(OCCCN2CCCC2)C=C2N=C(N)C3(CCC3)C2=C1",
+      "swapped": "OC(=O)CCC1CCC(CC1)(C2=C(F)C=CC(=C2)F)[S](=O)(=O)C3=CC=C(Cl)C=C3",
+      "dose": 1000.0,
+      "n": 119,
+      "fp_cosine": 0.23883257361061205
+    },
+    {
+      "cond": "K562_A-366_1.0",
+      "line": "K562",
+      "smiles": "COC1=C(OCCCN2CCCC2)C=C2N=C(N)C3(CCC3)C2=C1",
+      "swapped": "OC(=O)CCC1CCC(CC1)(C2=C(F)C=CC(=C2)F)[S](=O)(=O)C3=CC=C(Cl)C=C3",
+      "dose": 10000.0,
+      "n": 104,
+      "fp_cosine": 0.23883257361061241
+    },
+    {
+      "cond": "K562_AT9283_0.001",
+      "line": "K562",
+      "smiles": "O=C(NC1CC1)NC1=CNN=C1C1=NC2=CC(CN3CCOCC3)=CC=C2N1",
+      "swapped": "C[S](=O)(=O)C1=CC(=CC=C1)CNC2=NC(=NC=C2C(F)(F)F)NC3=CC4=C(NC(=O)CC4)C=C3",
+      "dose": 10.0,
+      "n": 101,
+      "fp_cosine": 0.2641979746337344
+    },
+    {
+      "cond": "K562_AT9283_0.01",
+      "line": "K562",
+      "smiles": "O=C(NC1CC1)NC1=CNN=C1C1=NC2=CC(CN3CCOCC3)=CC=C2N1",
+      "swapped": "C[S](=O)(=O)C1=CC(=CC=C1)CNC2=NC(=NC=C2C(F)(F)F)NC3=CC4=C(NC(=O)CC4)C=C3",
+      "dose": 100.0,
+      "n": 75,
+      "fp_cosine": 0.2641979746337378
+    },
+    {
+      "cond": "K562_AT9283_0.1",
+      "line": "K562",
+      "smiles": "O=C(NC1CC1)NC1=CNN=C1C1=NC2=CC(CN3CCOCC3)=CC=C2N1",
+      "swapped": "C[S](=O)(=O)C1=CC(=CC=C1)CNC2=NC(=NC=C2C(F)(F)F)NC3=CC4=C(NC(=O)CC4)C=C3",
+      "dose": 1000.0,
+      "n": 61,
+      "fp_cosine": 0.2641979746337384
+    },
+    {
+      "cond": "K562_AT9283_1.0",
+      "line": "K562",
+      "smiles": "O=C(NC1CC1)NC1=CNN=C1C1=NC2=CC(CN3CCOCC3)=CC=C2N1",
+      "swapped": "C[S](=O)(=O)C1=CC(=CC=C1)CNC2=NC(=NC=C2C(F)(F)F)NC3=CC4=C(NC(=O)CC4)C=C3",
+      "dose": 10000.0,
+      "n": 39,
+      "fp_cosine": 0.26419797463373873
+    },
+    {
+      "cond": "K562_AZ_0.001",
+      "line": "K562",
+      "smiles": "C[C@H](NC1=NC(NC2=NNC(C)=C2)=C(F)C=C1C#N)C1=CC=C(F)C=C1",
+      "swapped": "COC1=CC2=C(NC3CCN(CC4CCCCC4)CC3)N=C(N=C2C=C1OCCCN1CCCCC1)N1CCCN(CC1)C(C)C",
+      "dose": 10.0,
+      "n": 104,
+      "fp_cosine": 0.23823144500331073
+    },
+    {
+      "cond": "K562_AZ_0.01",
+      "line": "K562",
+      "smiles": "C[C@H](NC1=NC(NC2=NNC(C)=C2)=C(F)C=C1C#N)C1=CC=C(F)C=C1",
+      "swapped": "COC1=CC2=C(NC3CCN(CC4CCCCC4)CC3)N=C(N=C2C=C1OCCCN1CCCCC1)N1CCCN(CC1)C(C)C",
+      "dose": 100.0,
+      "n": 110,
+      "fp_cosine": 0.23823144500331422
+    },
+    {
+      "cond": "K562_AZ_0.1",
+      "line": "K562",
+      "smiles": "C[C@H](NC1=NC(NC2=NNC(C)=C2)=C(F)C=C1C#N)C1=CC=C(F)C=C1",
+      "swapped": "COC1=CC2=C(NC3CCN(CC4CCCCC4)CC3)N=C(N=C2C=C1OCCCN1CCCCC1)N1CCCN(CC1)C(C)C",
+      "dose": 1000.0,
+      "n": 67,
+      "fp_cosine": 0.23823144500331492
+    },
+    {
+      "cond": "K562_AZ_1.0",
+      "line": "K562",
+      "smiles": "C[C@H](NC1=NC(NC2=NNC(C)=C2)=C(F)C=C1C#N)C1=CC=C(F)C=C1",
+      "swapped": "COC1=CC2=C(NC3CCN(CC4CCCCC4)CC3)N=C(N=C2C=C1OCCCN1CCCCC1)N1CCCN(CC1)C(C)C",
+      "dose": 10000.0,
+      "n": 61,
+      "fp_cosine": 0.23823144500331514
+    },
+    {
+      "cond": "K562_Andarine_0.001",
+      "line": "K562",
+      "smiles": "CC(=O)NC1=CC=C(OCC(C)(O)C(=O)NC2=CC=C(C(=C2)C(F)(F)F)[N+]([O-])=O)C=C1",
+      "swapped": "Cl.CN1CCC(C(O)C1)C2=C3OC(=CC(=O)C3=C(O)C=C2O)C4=C(Cl)C=CC=C4",
+      "dose": 10.0,
+      "n": 106,
+      "fp_cosine": 0.18887686585995014
+    },
+    {
+      "cond": "K562_Andarine_0.01",
+      "line": "K562",
+      "smiles": "CC(=O)NC1=CC=C(OCC(C)(O)C(=O)NC2=CC=C(C(=C2)C(F)(F)F)[N+]([O-])=O)C=C1",
+      "swapped": "Cl.CN1CCC(C(O)C1)C2=C3OC(=CC(=O)C3=C(O)C=C2O)C4=C(Cl)C=CC=C4",
+      "dose": 100.0,
+      "n": 118,
+      "fp_cosine": 0.18887686585995314
+    },
+    {
+      "cond": "K562_Andarine_0.1",
+      "line": "K562",
+      "smiles": "CC(=O)NC1=CC=C(OCC(C)(O)C(=O)NC2=CC=C(C(=C2)C(F)(F)F)[N+]([O-])=O)C=C1",
+      "swapped": "Cl.CN1CCC(C(O)C1)C2=C3OC(=CC(=O)C3=C(O)C=C2O)C4=C(Cl)C=CC=C4",
+      "dose": 1000.0,
+      "n": 118,
+      "fp_cosine": 0.18887686585995375
+    },
+    {
+      "cond": "K562_Andarine_1.0",
+      "line": "K562",
+      "smiles": "CC(=O)NC1=CC=C(OCC(C)(O)C(=O)NC2=CC=C(C(=C2)C(F)(F)F)[N+]([O-])=O)C=C1",
+      "swapped": "Cl.CN1CCC(C(O)C1)C2=C3OC(=CC(=O)C3=C(O)C=C2O)C4=C(Cl)C=CC=C4",
+      "dose": 10000.0,
+      "n": 110,
+      "fp_cosine": 0.188876865859954
+    },
+    {
+      "cond": "K562_Aurora_0.001",
+      "line": "K562",
+      "smiles": "CCN1CCN(CC1)C(=O)CC1=CC=C(NC2=NC(NC3=CC=C(C=C3)C(=O)NC3=CC=CC=C3Cl)=C(F)C=N2)C=C1",
+      "swapped": "O=C(NC1CC1)NC1=CNN=C1C1=NC2=CC(CN3CCOCC3)=CC=C2N1",
+      "dose": 10.0,
+      "n": 111,
+      "fp_cosine": 0.33028912953790257
+    },
+    {
+      "cond": "K562_Aurora_0.01",
+      "line": "K562",
+      "smiles": "CCN1CCN(CC1)C(=O)CC1=CC=C(NC2=NC(NC3=CC=C(C=C3)C(=O)NC3=CC=CC=C3Cl)=C(F)C=N2)C=C1",
+      "swapped": "O=C(NC1CC1)NC1=CNN=C1C1=NC2=CC(CN3CCOCC3)=CC=C2N1",
+      "dose": 100.0,
+      "n": 124,
+      "fp_cosine": 0.3302891295379067
+    },
+    {
+      "cond": "K562_Aurora_0.1",
+      "line": "K562",
+      "smiles": "CCN1CCN(CC1)C(=O)CC1=CC=C(NC2=NC(NC3=CC=C(C=C3)C(=O)NC3=CC=CC=C3Cl)=C(F)C=N2)C=C1",
+      "swapped": "O=C(NC1CC1)NC1=CNN=C1C1=NC2=CC(CN3CCOCC3)=CC=C2N1",
+      "dose": 1000.0,
+      "n": 105,
+      "fp_cosine": 0.33028912953790746
+    },
+    {
+      "cond": "K562_Aurora_1.0",
+      "line": "K562",
+      "smiles": "CCN1CCN(CC1)C(=O)CC1=CC=C(NC2=NC(NC3=CC=C(C=C3)C(=O)NC3=CC=CC=C3Cl)=C(F)C=N2)C=C1",
+      "swapped": "O=C(NC1CC1)NC1=CNN=C1C1=NC2=CC(CN3CCOCC3)=CC=C2N1",
+      "dose": 10000.0,
+      "n": 63,
+      "fp_cosine": 0.33028912953790784
+    },
+    {
+      "cond": "K562_BMS-265246_0.001",
+      "line": "K562",
+      "smiles": "CCCCOC1=C2C=N[NH]C2=NC=C1C(=O)C3=C(F)C=C(C)C=C3F",
+      "swapped": "COC1=CC2=NC=NC(NC3=CC=C(O)C(Br)=C3)=C2C=C1OC",
+      "dose": 10.0,
+      "n": 118,
+      "fp_cosine": 0.3000937939682063
+    },
+    {
+      "cond": "K562_BMS-265246_0.01",
+      "line": "K562",
+      "smiles": "CCCCOC1=C2C=N[NH]C2=NC=C1C(=O)C3=C(F)C=C(C)C=C3F",
+      "swapped": "COC1=CC2=NC=NC(NC3=CC=C(O)C(Br)=C3)=C2C=C1OC",
+      "dose": 100.0,
+      "n": 110,
+      "fp_cosine": 0.30009379396821134
+    },
+    {
+      "cond": "K562_BMS-265246_0.1",
+      "line": "K562",
+      "smiles": "CCCCOC1=C2C=N[NH]C2=NC=C1C(=O)C3=C(F)C=C(C)C=C3F",
+      "swapped": "COC1=CC2=NC=NC(NC3=CC=C(O)C(Br)=C3)=C2C=C1OC",
+      "dose": 1000.0,
+      "n": 101,
+      "fp_cosine": 0.3000937939682124
+    },
+    {
+      "cond": "K562_BMS-265246_1.0",
+      "line": "K562",
+      "smiles": "CCCCOC1=C2C=N[NH]C2=NC=C1C(=O)C3=C(F)C=C(C)C=C3F",
+      "swapped": "COC1=CC2=NC=NC(NC3=CC=C(O)C(Br)=C3)=C2C=C1OC",
+      "dose": 10000.0,
+      "n": 77,
+      "fp_cosine": 0.30009379396821273
+    },
+    {
+      "cond": "K562_CEP-33779_0.001",
+      "line": "K562",
+      "smiles": "CN1CCN(CC1)C1=CC=CC(NC2=NN3C=CC=C(C3=N2)C2=CC=C(C=C2)S(C)(=O)=O)=C1",
+      "swapped": "O.Cl.CCN(CC)CC1=CC2=C(C=C1)C=C(COC(=O)NC1=CC=C(C=C1)C(=O)NO)C=C2",
+      "dose": 10.0,
+      "n": 102,
+      "fp_cosine": 0.2767593624086596
+    },
+    {
+      "cond": "K562_CEP-33779_0.01",
+      "line": "K562",
+      "smiles": "CN1CCN(CC1)C1=CC=CC(NC2=NN3C=CC=C(C3=N2)C2=CC=C(C=C2)S(C)(=O)=O)=C1",
+      "swapped": "O.Cl.CCN(CC)CC1=CC2=C(C=C1)C=C(COC(=O)NC1=CC=C(C=C1)C(=O)NO)C=C2",
+      "dose": 100.0,
+      "n": 109,
+      "fp_cosine": 0.27675936240866394
+    },
+    {
+      "cond": "K562_CEP-33779_0.1",
+      "line": "K562",
+      "smiles": "CN1CCN(CC1)C1=CC=CC(NC2=NN3C=CC=C(C3=N2)C2=CC=C(C=C2)S(C)(=O)=O)=C1",
+      "swapped": "O.Cl.CCN(CC)CC1=CC2=C(C=C1)C=C(COC(=O)NC1=CC=C(C=C1)C(=O)NO)C=C2",
+      "dose": 1000.0,
+      "n": 117,
+      "fp_cosine": 0.2767593624086648
+    },
+    {
+      "cond": "K562_CEP-33779_1.0",
+      "line": "K562",
+      "smiles": "CN1CCN(CC1)C1=CC=CC(NC2=NN3C=CC=C(C3=N2)C2=CC=C(C=C2)S(C)(=O)=O)=C1",
+      "swapped": "O.Cl.CCN(CC)CC1=CC2=C(C=C1)C=C(COC(=O)NC1=CC=C(C=C1)C(=O)NO)C=C2",
+      "dose": 10000.0,
+      "n": 97,
+      "fp_cosine": 0.2767593624086651
+    },
+    {
+      "cond": "K562_CUDC-907_0.001",
+      "line": "K562",
+      "smiles": "COC1=CC=C(C=N1)C1=NC2=C(SC(CN(C)C3=NC=C(C=N3)C(=O)NO)=C2)C(=N1)N1CCOCC1",
+      "swapped": "COC1=CC2=C(C=C1OCC3CCN(C)CC3)N=CN=C2NC4=C(F)C=C(Br)C=C4",
+      "dose": 10.0,
+      "n": 58,
+      "fp_cosine": 0.2626396615835699
+    },
+    {
+      "cond": "K562_CUDC-907_0.01",
+      "line": "K562",
+      "smiles": "COC1=CC=C(C=N1)C1=NC2=C(SC(CN(C)C3=NC=C(C=N3)C(=O)NO)=C2)C(=N1)N1CCOCC1",
+      "swapped": "COC1=CC2=C(C=C1OCC3CCN(C)CC3)N=CN=C2NC4=C(F)C=C(Br)C=C4",
+      "dose": 100.0,
+      "n": 43,
+      "fp_cosine": 0.2626396615835735
+    },
+    {
+      "cond": "K562_CUDC-907_0.1",
+      "line": "K562",
+      "smiles": "COC1=CC=C(C=N1)C1=NC2=C(SC(CN(C)C3=NC=C(C=N3)C(=O)NO)=C2)C(=N1)N1CCOCC1",
+      "swapped": "COC1=CC2=C(C=C1OCC3CCN(C)CC3)N=CN=C2NC4=C(F)C=C(Br)C=C4",
+      "dose": 1000.0,
+      "n": 51,
+      "fp_cosine": 0.26263966158357416
+    },
+    {
+      "cond": "K562_CUDC-907_1.0",
+      "line": "K562",
+      "smiles": "COC1=CC=C(C=N1)C1=NC2=C(SC(CN(C)C3=NC=C(C=N3)C(=O)NO)=C2)C(=N1)N1CCOCC1",
+      "swapped": "COC1=CC2=C(C=C1OCC3CCN(C)CC3)N=CN=C2NC4=C(F)C=C(Br)C=C4",
+      "dose": 10000.0,
+      "n": 13,
+      "fp_cosine": 0.26263966158357444
+    },
+    {
+      "cond": "K562_Dacinostat_0.001",
+      "line": "K562",
+      "smiles": "OCCN(CCC1=CNC2=C1C=CC=C2)CC1=CC=C(\\C=C\\C(=O)NO)C=C1",
+      "swapped": "S=[P](N1CC1)(N2CC2)N3CC3",
+      "dose": 10.0,
+      "n": 58,
+      "fp_cosine": 0.14744195615489047
+    },
+    {
+      "cond": "K562_Dacinostat_0.01",
+      "line": "K562",
+      "smiles": "OCCN(CCC1=CNC2=C1C=CC=C2)CC1=CC=C(\\C=C\\C(=O)NO)C=C1",
+      "swapped": "S=[P](N1CC1)(N2CC2)N3CC3",
+      "dose": 100.0,
+      "n": 57,
+      "fp_cosine": 0.14744195615489533
+    },
+    {
+      "cond": "K562_Dacinostat_0.1",
+      "line": "K562",
+      "smiles": "OCCN(CCC1=CNC2=C1C=CC=C2)CC1=CC=C(\\C=C\\C(=O)NO)C=C1",
+      "swapped": "S=[P](N1CC1)(N2CC2)N3CC3",
+      "dose": 1000.0,
+      "n": 40,
+      "fp_cosine": 0.14744195615489633
+    },
+    {
+      "cond": "K562_Dacinostat_1.0",
+      "line": "K562",
+      "smiles": "OCCN(CCC1=CNC2=C1C=CC=C2)CC1=CC=C(\\C=C\\C(=O)NO)C=C1",
+      "swapped": "S=[P](N1CC1)(N2CC2)N3CC3",
+      "dose": 10000.0,
+      "n": 39,
+      "fp_cosine": 0.14744195615489666
+    },
+    {
+      "cond": "K562_Decitabine_0.001",
+      "line": "K562",
+      "smiles": "NC1=NC(=O)N(C=N1)[C@H]1C[C@H](O)[C@@H](CO)O1",
+      "swapped": "CCN1CCN(CC1)C(=O)CC1=CC=C(NC2=NC(NC3=CC=C(C=C3)C(=O)NC3=CC=CC=C3Cl)=C(F)C=N2)C=C1",
+      "dose": 10.0,
+      "n": 121,
+      "fp_cosine": 0.19374379187858876
+    },
+    {
+      "cond": "K562_Decitabine_0.01",
+      "line": "K562",
+      "smiles": "NC1=NC(=O)N(C=N1)[C@H]1C[C@H](O)[C@@H](CO)O1",
+      "swapped": "CCN1CCN(CC1)C(=O)CC1=CC=C(NC2=NC(NC3=CC=C(C=C3)C(=O)NC3=CC=CC=C3Cl)=C(F)C=N2)C=C1",
+      "dose": 100.0,
+      "n": 95,
+      "fp_cosine": 0.19374379187859195
+    },
+    {
+      "cond": "K562_Decitabine_0.1",
+      "line": "K562",
+      "smiles": "NC1=NC(=O)N(C=N1)[C@H]1C[C@H](O)[C@@H](CO)O1",
+      "swapped": "CCN1CCN(CC1)C(=O)CC1=CC=C(NC2=NC(NC3=CC=C(C=C3)C(=O)NC3=CC=CC=C3Cl)=C(F)C=N2)C=C1",
+      "dose": 1000.0,
+      "n": 75,
+      "fp_cosine": 0.19374379187859256
+    },
+    {
+      "cond": "K562_Decitabine_1.0",
+      "line": "K562",
+      "smiles": "NC1=NC(=O)N(C=N1)[C@H]1C[C@H](O)[C@@H](CO)O1",
+      "swapped": "CCN1CCN(CC1)C(=O)CC1=CC=C(NC2=NC(NC3=CC=C(C=C3)C(=O)NC3=CC=CC=C3Cl)=C(F)C=N2)C=C1",
+      "dose": 10000.0,
+      "n": 92,
+      "fp_cosine": 0.19374379187859284
+    },
+    {
+      "cond": "K562_Disulfiram_0.001",
+      "line": "K562",
+      "smiles": "CCN(CC)C(=S)SSC(=S)N(CC)CC",
+      "swapped": "CN1CCN(CC1)C1=CC=CC(NC2=NN3C=CC=C(C3=N2)C2=CC=C(C=C2)S(C)(=O)=O)=C1",
+      "dose": 10.0,
+      "n": 96,
+      "fp_cosine": 0.16182267881254092
+    },
+    {
+      "cond": "K562_Disulfiram_0.01",
+      "line": "K562",
+      "smiles": "CCN(CC)C(=S)SSC(=S)N(CC)CC",
+      "swapped": "CN1CCN(CC1)C1=CC=CC(NC2=NN3C=CC=C(C3=N2)C2=CC=C(C=C2)S(C)(=O)=O)=C1",
+      "dose": 100.0,
+      "n": 120,
+      "fp_cosine": 0.16182267881254536
+    },
+    {
+      "cond": "K562_Disulfiram_0.1",
+      "line": "K562",
+      "smiles": "CCN(CC)C(=S)SSC(=S)N(CC)CC",
+      "swapped": "CN1CCN(CC1)C1=CC=CC(NC2=NN3C=CC=C(C3=N2)C2=CC=C(C=C2)S(C)(=O)=O)=C1",
+      "dose": 1000.0,
+      "n": 123,
+      "fp_cosine": 0.16182267881254625
+    },
+    {
+      "cond": "K562_Disulfiram_1.0",
+      "line": "K562",
+      "smiles": "CCN(CC)C(=S)SSC(=S)N(CC)CC",
+      "swapped": "CN1CCN(CC1)C1=CC=CC(NC2=NN3C=CC=C(C3=N2)C2=CC=C(C=C2)S(C)(=O)=O)=C1",
+      "dose": 10000.0,
+      "n": 125,
+      "fp_cosine": 0.16182267881254656
+    },
+    {
+      "cond": "K562_Entinostat_0.001",
+      "line": "K562",
+      "smiles": "NC1=CC=CC=C1NC(=O)C1=CC=C(CNC(=O)OCC2=CN=CC=C2)C=C1",
+      "swapped": "Cl.Cl.CN1C=C(CNCC2CCN(CC2)C2=NC=C(C=N2)C(=O)NO)C2=CC=CC=C12",
+      "dose": 10.0,
+      "n": 99,
+      "fp_cosine": 0.34594920301082455
+    },
+    {
+      "cond": "K562_Entinostat_0.01",
+      "line": "K562",
+      "smiles": "NC1=CC=CC=C1NC(=O)C1=CC=C(CNC(=O)OCC2=CN=CC=C2)C=C1",
+      "swapped": "Cl.Cl.CN1C=C(CNCC2CCN(CC2)C2=NC=C(C=N2)C(=O)NO)C2=CC=CC=C12",
+      "dose": 100.0,
+      "n": 118,
+      "fp_cosine": 0.34594920301082993
+    },
+    {
+      "cond": "K562_Entinostat_0.1",
+      "line": "K562",
+      "smiles": "NC1=CC=CC=C1NC(=O)C1=CC=C(CNC(=O)OCC2=CN=CC=C2)C=C1",
+      "swapped": "Cl.Cl.CN1C=C(CNCC2CCN(CC2)C2=NC=C(C=N2)C(=O)NO)C2=CC=CC=C12",
+      "dose": 1000.0,
+      "n": 102,
+      "fp_cosine": 0.345949203010831
+    },
+    {
+      "cond": "K562_Entinostat_1.0",
+      "line": "K562",
+      "smiles": "NC1=CC=CC=C1NC(=O)C1=CC=C(CNC(=O)OCC2=CN=CC=C2)C=C1",
+      "swapped": "Cl.Cl.CN1C=C(CNCC2CCN(CC2)C2=NC=C(C=N2)C(=O)NO)C2=CC=CC=C12",
+      "dose": 10000.0,
+      "n": 57,
+      "fp_cosine": 0.3459492030108314
+    },
+    {
+      "cond": "K562_Enzastaurin_0.001",
+      "line": "K562",
+      "smiles": "CN1C=C(C2=CC=CC=C12)C1=C(C(=O)NC1=O)C1=CN(C2CCN(CC3=NC=CC=C3)CC2)C2=CC=CC=C12",
+      "swapped": "CCCCOC1=C2C=N[NH]C2=NC=C1C(=O)C3=C(F)C=C(C)C=C3F",
+      "dose": 10.0,
+      "n": 77,
+      "fp_cosine": 0.2793721183078253
+    },
+    {
+      "cond": "K562_Enzastaurin_0.01",
+      "line": "K562",
+      "smiles": "CN1C=C(C2=CC=CC=C12)C1=C(C(=O)NC1=O)C1=CN(C2CCN(CC3=NC=CC=C3)CC2)C2=CC=CC=C12",
+      "swapped": "CCCCOC1=C2C=N[NH]C2=NC=C1C(=O)C3=C(F)C=C(C)C=C3F",
+      "dose": 100.0,
+      "n": 100,
+      "fp_cosine": 0.27937211830782965
+    },
+    {
+      "cond": "K562_Enzastaurin_0.1",
+      "line": "K562",
+      "smiles": "CN1C=C(C2=CC=CC=C12)C1=C(C(=O)NC1=O)C1=CN(C2CCN(CC3=NC=CC=C3)CC2)C2=CC=CC=C12",
+      "swapped": "CCCCOC1=C2C=N[NH]C2=NC=C1C(=O)C3=C(F)C=C(C)C=C3F",
+      "dose": 1000.0,
+      "n": 119,
+      "fp_cosine": 0.27937211830783054
+    },
+    {
+      "cond": "K562_Enzastaurin_1.0",
+      "line": "K562",
+      "smiles": "CN1C=C(C2=CC=CC=C12)C1=C(C(=O)NC1=O)C1=CN(C2CCN(CC3=NC=CC=C3)CC2)C2=CC=CC=C12",
+      "swapped": "CCCCOC1=C2C=N[NH]C2=NC=C1C(=O)C3=C(F)C=C(C)C=C3F",
+      "dose": 10000.0,
+      "n": 80,
+      "fp_cosine": 0.2793721183078308
+    },
+    {
+      "cond": "K562_Fasudil_0.001",
+      "line": "K562",
+      "smiles": "Cl.O=S(=O)(N1CCCNCC1)C1=C2C=CN=CC2=CC=C1",
+      "swapped": "ClCCN(N=O)C(=O)NC1CCCCC1",
+      "dose": 10.0,
+      "n": 113,
+      "fp_cosine": 0.18148850216015086
+    },
+    {
+      "cond": "K562_Fasudil_0.01",
+      "line": "K562",
+      "smiles": "Cl.O=S(=O)(N1CCCNCC1)C1=C2C=CN=CC2=CC=C1",
+      "swapped": "ClCCN(N=O)C(=O)NC1CCCCC1",
+      "dose": 100.0,
+      "n": 86,
+      "fp_cosine": 0.1814885021601553
+    },
+    {
+      "cond": "K562_Fasudil_0.1",
+      "line": "K562",
+      "smiles": "Cl.O=S(=O)(N1CCCNCC1)C1=C2C=CN=CC2=CC=C1",
+      "swapped": "ClCCN(N=O)C(=O)NC1CCCCC1",
+      "dose": 1000.0,
+      "n": 115,
+      "fp_cosine": 0.1814885021601562
+    },
+    {
+      "cond": "K562_Fasudil_1.0",
+      "line": "K562",
+      "smiles": "Cl.O=S(=O)(N1CCCNCC1)C1=C2C=CN=CC2=CC=C1",
+      "swapped": "ClCCN(N=O)C(=O)NC1CCCCC1",
+      "dose": 10000.0,
+      "n": 100,
+      "fp_cosine": 0.18148850216015652
+    },
+    {
+      "cond": "K562_Flavopiridol_0.001",
+      "line": "K562",
+      "smiles": "Cl.CN1CCC(C(O)C1)C2=C3OC(=CC(=O)C3=C(O)C=C2O)C4=C(Cl)C=CC=C4",
+      "swapped": "FC1=CNC(=O)NC1=O",
+      "dose": 10.0,
+      "n": 86,
+      "fp_cosine": 0.2145595619556384
+    },
+    {
+      "cond": "K562_Flavopiridol_0.01",
+      "line": "K562",
+      "smiles": "Cl.CN1CCC(C(O)C1)C2=C3OC(=CC(=O)C3=C(O)C=C2O)C4=C(Cl)C=CC=C4",
+      "swapped": "FC1=CNC(=O)NC1=O",
+      "dose": 100.0,
+      "n": 67,
+      "fp_cosine": 0.21455956195564357
+    },
+    {
+      "cond": "K562_Flavopiridol_0.1",
+      "line": "K562",
+      "smiles": "Cl.CN1CCC(C(O)C1)C2=C3OC(=CC(=O)C3=C(O)C=C2O)C4=C(Cl)C=CC=C4",
+      "swapped": "FC1=CNC(=O)NC1=O",
+      "dose": 1000.0,
+      "n": 7,
+      "fp_cosine": 0.21455956195564463
+    },
+    {
+      "cond": "K562_Fluorouracil_0.001",
+      "line": "K562",
+      "smiles": "FC1=CNC(=O)NC1=O",
+      "swapped": "CN(C)CC(=O)NC1=CC2=C(NC(=O)C3=C2C=CC=C3)C=C1",
+      "dose": 10.0,
+      "n": 123,
+      "fp_cosine": 0.24956709924230133
+    },
+    {
+      "cond": "K562_Fluorouracil_0.01",
+      "line": "K562",
+      "smiles": "FC1=CNC(=O)NC1=O",
+      "swapped": "CN(C)CC(=O)NC1=CC2=C(NC(=O)C3=C2C=CC=C3)C=C1",
+      "dose": 100.0,
+      "n": 102,
+      "fp_cosine": 0.24956709924230833
+    },
+    {
+      "cond": "K562_Fluorouracil_0.1",
+      "line": "K562",
+      "smiles": "FC1=CNC(=O)NC1=O",
+      "swapped": "CN(C)CC(=O)NC1=CC2=C(NC(=O)C3=C2C=CC=C3)C=C1",
+      "dose": 1000.0,
+      "n": 99,
+      "fp_cosine": 0.24956709924230974
+    },
+    {
+      "cond": "K562_Fluorouracil_1.0",
+      "line": "K562",
+      "smiles": "FC1=CNC(=O)NC1=O",
+      "swapped": "CN(C)CC(=O)NC1=CC2=C(NC(=O)C3=C2C=CC=C3)C=C1",
+      "dose": 10000.0,
+      "n": 127,
+      "fp_cosine": 0.24956709924231024
+    },
+    {
+      "cond": "K562_Givinostat_0.001",
+      "line": "K562",
+      "smiles": "O.Cl.CCN(CC)CC1=CC2=C(C=C1)C=C(COC(=O)NC1=CC=C(C=C1)C(=O)NO)C=C2",
+      "swapped": "COC1CC(C)CC2=C(NCC=C)C(=O)C=C(NC(=O)C(=C\\C=C/C(OC)C(OC(N)=O)/C(=C/C(C)C1O)C)\\C)C2=O",
+      "dose": 10.0,
+      "n": 100,
+      "fp_cosine": 0.17541160386140228
+    },
+    {
+      "cond": "K562_Givinostat_0.01",
+      "line": "K562",
+      "smiles": "O.Cl.CCN(CC)CC1=CC2=C(C=C1)C=C(COC(=O)NC1=CC=C(C=C1)C(=O)NO)C=C2",
+      "swapped": "COC1CC(C)CC2=C(NCC=C)C(=O)C=C(NC(=O)C(=C\\C=C/C(OC)C(OC(N)=O)/C(=C/C(C)C1O)C)\\C)C2=O",
+      "dose": 100.0,
+      "n": 115,
+      "fp_cosine": 0.1754116038614049
+    },
+    {
+      "cond": "K562_Givinostat_0.1",
+      "line": "K562",
+      "smiles": "O.Cl.CCN(CC)CC1=CC2=C(C=C1)C=C(COC(=O)NC1=CC=C(C=C1)C(=O)NO)C=C2",
+      "swapped": "COC1CC(C)CC2=C(NCC=C)C(=O)C=C(NC(=O)C(=C\\C=C/C(OC)C(OC(N)=O)/C(=C/C(C)C1O)C)\\C)C2=O",
+      "dose": 1000.0,
+      "n": 59,
+      "fp_cosine": 0.17541160386140542
+    },
+    {
+      "cond": "K562_Givinostat_1.0",
+      "line": "K562",
+      "smiles": "O.Cl.CCN(CC)CC1=CC2=C(C=C1)C=C(COC(=O)NC1=CC=C(C=C1)C(=O)NO)C=C2",
+      "swapped": "COC1CC(C)CC2=C(NCC=C)C(=O)C=C(NC(=O)C(=C\\C=C/C(OC)C(OC(N)=O)/C(=C/C(C)C1O)C)\\C)C2=O",
+      "dose": 10000.0,
+      "n": 40,
+      "fp_cosine": 0.17541160386140559
+    },
+    {
+      "cond": "K562_Ki8751_0.001",
+      "line": "K562",
+      "smiles": "COC1=CC2=NC=CC(=C2C=C1OC)OC3=CC=C(NC(=O)NC4=CC=C(F)C=C4F)C(=C3)F",
+      "swapped": "OC1=C2CSCCC2=NC(=N1)C3=CC=C(C=C3)C(F)(F)F",
+      "dose": 10.0,
+      "n": 101,
+      "fp_cosine": 0.18523964340873256
+    },
+    {
+      "cond": "K562_Ki8751_0.01",
+      "line": "K562",
+      "smiles": "COC1=CC2=NC=CC(=C2C=C1OC)OC3=CC=C(NC(=O)NC4=CC=C(F)C=C4F)C(=C3)F",
+      "swapped": "OC1=C2CSCCC2=NC(=N1)C3=CC=C(C=C3)C(F)(F)F",
+      "dose": 100.0,
+      "n": 105,
+      "fp_cosine": 0.1852396434087359
+    },
+    {
+      "cond": "K562_Ki8751_0.1",
+      "line": "K562",
+      "smiles": "COC1=CC2=NC=CC(=C2C=C1OC)OC3=CC=C(NC(=O)NC4=CC=C(F)C=C4F)C(=C3)F",
+      "swapped": "OC1=C2CSCCC2=NC(=N1)C3=CC=C(C=C3)C(F)(F)F",
+      "dose": 1000.0,
+      "n": 115,
+      "fp_cosine": 0.18523964340873653
+    },
+    {
+      "cond": "K562_Ki8751_1.0",
+      "line": "K562",
+      "smiles": "COC1=CC2=NC=CC(=C2C=C1OC)OC3=CC=C(NC(=O)NC4=CC=C(F)C=C4F)C(=C3)F",
+      "swapped": "OC1=C2CSCCC2=NC(=N1)C3=CC=C(C=C3)C(F)(F)F",
+      "dose": 10000.0,
+      "n": 84,
+      "fp_cosine": 0.18523964340873678
+    },
+    {
+      "cond": "K562_Lomustine_0.001",
+      "line": "K562",
+      "smiles": "ClCCN(N=O)C(=O)NC1CCCCC1",
+      "swapped": "Cl.Cl.FC1=CC(=CC(F)=C1CN1CCOCC1)C1=C2N=C(C=NC2=CC=C1)C1=CN(N=C1)C1CCNCC1",
+      "dose": 10.0,
+      "n": 105,
+      "fp_cosine": 0.1432082875315474
+    },
+    {
+      "cond": "K562_Lomustine_0.01",
+      "line": "K562",
+      "smiles": "ClCCN(N=O)C(=O)NC1CCCCC1",
+      "swapped": "Cl.Cl.FC1=CC(=CC(F)=C1CN1CCOCC1)C1=C2N=C(C=NC2=CC=C1)C1=CN(N=C1)C1CCNCC1",
+      "dose": 100.0,
+      "n": 93,
+      "fp_cosine": 0.14320828753155018
+    },
+    {
+      "cond": "K562_Lomustine_0.1",
+      "line": "K562",
+      "smiles": "ClCCN(N=O)C(=O)NC1CCCCC1",
+      "swapped": "Cl.Cl.FC1=CC(=CC(F)=C1CN1CCOCC1)C1=C2N=C(C=NC2=CC=C1)C1=CN(N=C1)C1CCNCC1",
+      "dose": 1000.0,
+      "n": 115,
+      "fp_cosine": 0.14320828753155074
+    },
+    {
+      "cond": "K562_Lomustine_1.0",
+      "line": "K562",
+      "smiles": "ClCCN(N=O)C(=O)NC1CCCCC1",
+      "swapped": "Cl.Cl.FC1=CC(=CC(F)=C1CN1CCOCC1)C1=C2N=C(C=NC2=CC=C1)C1=CN(N=C1)C1CCNCC1",
+      "dose": 10000.0,
+      "n": 101,
+      "fp_cosine": 0.14320828753155093
+    },
+    {
+      "cond": "K562_MC1568_0.001",
+      "line": "K562",
+      "smiles": "CN1C=C(\\C=C\\C(=O)C2=CC=CC(F)=C2)C=C1\\C=C\\C(=O)NO",
+      "swapped": "Cl.O=S(=O)(N1CCCNCC1)C1=C2C=CN=CC2=CC=C1",
+      "dose": 10.0,
+      "n": 92,
+      "fp_cosine": 0.3302891295378998
+    },
+    {
+      "cond": "K562_MC1568_0.01",
+      "line": "K562",
+      "smiles": "CN1C=C(\\C=C\\C(=O)C2=CC=CC(F)=C2)C=C1\\C=C\\C(=O)NO",
+      "swapped": "Cl.O=S(=O)(N1CCCNCC1)C1=C2C=CN=CC2=CC=C1",
+      "dose": 100.0,
+      "n": 105,
+      "fp_cosine": 0.3302891295379059
+    },
+    {
+      "cond": "K562_MC1568_0.1",
+      "line": "K562",
+      "smiles": "CN1C=C(\\C=C\\C(=O)C2=CC=CC(F)=C2)C=C1\\C=C\\C(=O)NO",
+      "swapped": "Cl.O=S(=O)(N1CCCNCC1)C1=C2C=CN=CC2=CC=C1",
+      "dose": 1000.0,
+      "n": 119,
+      "fp_cosine": 0.3302891295379072
+    },
+    {
+      "cond": "K562_MC1568_1.0",
+      "line": "K562",
+      "smiles": "CN1C=C(\\C=C\\C(=O)C2=CC=CC(F)=C2)C=C1\\C=C\\C(=O)NO",
+      "swapped": "Cl.O=S(=O)(N1CCCNCC1)C1=C2C=CN=CC2=CC=C1",
+      "dose": 10000.0,
+      "n": 111,
+      "fp_cosine": 0.3302891295379076
+    },
+    {
+      "cond": "K562_MK-0752_0.001",
+      "line": "K562",
+      "smiles": "OC(=O)CCC1CCC(CC1)(C2=C(F)C=CC(=C2)F)[S](=O)(=O)C3=CC=C(Cl)C=C3",
+      "swapped": "C[C@H](NC(=O)C(=C\\C1=NC(Br)=CC=C1)\\C#N)C1=CC=CC=C1",
+      "dose": 10.0,
+      "n": 114,
+      "fp_cosine": 0.29424494316824185
+    },
+    {
+      "cond": "K562_MK-0752_0.01",
+      "line": "K562",
+      "smiles": "OC(=O)CCC1CCC(CC1)(C2=C(F)C=CC(=C2)F)[S](=O)(=O)C3=CC=C(Cl)C=C3",
+      "swapped": "C[C@H](NC(=O)C(=C\\C1=NC(Br)=CC=C1)\\C#N)C1=CC=CC=C1",
+      "dose": 100.0,
+      "n": 102,
+      "fp_cosine": 0.2942449431682477
+    },
+    {
+      "cond": "K562_MK-0752_0.1",
+      "line": "K562",
+      "smiles": "OC(=O)CCC1CCC(CC1)(C2=C(F)C=CC(=C2)F)[S](=O)(=O)C3=CC=C(Cl)C=C3",
+      "swapped": "C[C@H](NC(=O)C(=C\\C1=NC(Br)=CC=C1)\\C#N)C1=CC=CC=C1",
+      "dose": 1000.0,
+      "n": 123,
+      "fp_cosine": 0.29424494316824884
+    },
+    {
+      "cond": "K562_MK-0752_1.0",
+      "line": "K562",
+      "smiles": "OC(=O)CCC1CCC(CC1)(C2=C(F)C=CC(=C2)F)[S](=O)(=O)C3=CC=C(Cl)C=C3",
+      "swapped": "C[C@H](NC(=O)C(=C\\C1=NC(Br)=CC=C1)\\C#N)C1=CC=CC=C1",
+      "dose": 10000.0,
+      "n": 106,
+      "fp_cosine": 0.29424494316824934
+    },
+    {
+      "cond": "K562_NVP-BSK805_0.001",
+      "line": "K562",
+      "smiles": "Cl.Cl.FC1=CC(=CC(F)=C1CN1CCOCC1)C1=C2N=C(C=NC2=CC=C1)C1=CN(N=C1)C1CCNCC1",
+      "swapped": "COC1=C(OCCCN2CCOCC2)C=C2N=CN=C(NC3=CC=C(NC(=O)C4=CC=CC=C4)C=C3)C2=C1",
+      "dose": 10.0,
+      "n": 109,
+      "fp_cosine": 0.37043389328831167
+    },
+    {
+      "cond": "K562_NVP-BSK805_0.01",
+      "line": "K562",
+      "smiles": "Cl.Cl.FC1=CC(=CC(F)=C1CN1CCOCC1)C1=C2N=C(C=NC2=CC=C1)C1=CN(N=C1)C1CCNCC1",
+      "swapped": "COC1=C(OCCCN2CCOCC2)C=C2N=CN=C(NC3=CC=C(NC(=O)C4=CC=CC=C4)C=C3)C2=C1",
+      "dose": 100.0,
+      "n": 114,
+      "fp_cosine": 0.37043389328831633
+    },
+    {
+      "cond": "K562_NVP-BSK805_0.1",
+      "line": "K562",
+      "smiles": "Cl.Cl.FC1=CC(=CC(F)=C1CN1CCOCC1)C1=C2N=C(C=NC2=CC=C1)C1=CN(N=C1)C1CCNCC1",
+      "swapped": "COC1=C(OCCCN2CCOCC2)C=C2N=CN=C(NC3=CC=C(NC(=O)C4=CC=CC=C4)C=C3)C2=C1",
+      "dose": 1000.0,
+      "n": 93,
+      "fp_cosine": 0.3704338932883173
+    },
+    {
+      "cond": "K562_NVP-BSK805_1.0",
+      "line": "K562",
+      "smiles": "Cl.Cl.FC1=CC(=CC(F)=C1CN1CCOCC1)C1=C2N=C(C=NC2=CC=C1)C1=CN(N=C1)C1CCNCC1",
+      "swapped": "COC1=C(OCCCN2CCOCC2)C=C2N=CN=C(NC3=CC=C(NC(=O)C4=CC=CC=C4)C=C3)C2=C1",
+      "dose": 10000.0,
+      "n": 72,
+      "fp_cosine": 0.3704338932883176
+    },
+    {
+      "cond": "K562_PF-573228_0.001",
+      "line": "K562",
+      "smiles": "C[S](=O)(=O)C1=CC(=CC=C1)CNC2=NC(=NC=C2C(F)(F)F)NC3=CC4=C(NC(=O)CC4)C=C3",
+      "swapped": "CN(C)CC1=CC=C(C=C1)S(=O)(=O)N1C=CC(\\C=C\\C(=O)NO)=C1",
+      "dose": 10.0,
+      "n": 60,
+      "fp_cosine": 0.27735009811260863
+    },
+    {
+      "cond": "K562_PF-573228_0.01",
+      "line": "K562",
+      "smiles": "C[S](=O)(=O)C1=CC(=CC=C1)CNC2=NC(=NC=C2C(F)(F)F)NC3=CC4=C(NC(=O)CC4)C=C3",
+      "swapped": "CN(C)CC1=CC=C(C=C1)S(=O)(=O)N1C=CC(\\C=C\\C(=O)NO)=C1",
+      "dose": 100.0,
+      "n": 84,
+      "fp_cosine": 0.277350098112613
+    },
+    {
+      "cond": "K562_PF-573228_0.1",
+      "line": "K562",
+      "smiles": "C[S](=O)(=O)C1=CC(=CC=C1)CNC2=NC(=NC=C2C(F)(F)F)NC3=CC4=C(NC(=O)CC4)C=C3",
+      "swapped": "CN(C)CC1=CC=C(C=C1)S(=O)(=O)N1C=CC(\\C=C\\C(=O)NO)=C1",
+      "dose": 1000.0,
+      "n": 98,
+      "fp_cosine": 0.2773500981126138
+    },
+    {
+      "cond": "K562_PF-573228_1.0",
+      "line": "K562",
+      "smiles": "C[S](=O)(=O)C1=CC(=CC=C1)CNC2=NC(=NC=C2C(F)(F)F)NC3=CC4=C(NC(=O)CC4)C=C3",
+      "swapped": "CN(C)CC1=CC=C(C=C1)S(=O)(=O)N1C=CC(\\C=C\\C(=O)NO)=C1",
+      "dose": 10000.0,
+      "n": 88,
+      "fp_cosine": 0.27735009811261413
+    },
+    {
+      "cond": "K562_PJ34_0.001",
+      "line": "K562",
+      "smiles": "CN(C)CC(=O)NC1=CC2=C(NC(=O)C3=C2C=CC=C3)C=C1",
+      "swapped": "COC1=CC2=NC=CC(=C2C=C1OC)OC3=CC=C(NC(=O)NC4=CC=C(F)C=C4F)C(=C3)F",
+      "dose": 10.0,
+      "n": 112,
+      "fp_cosine": 0.2646280620124751
+    },
+    {
+      "cond": "K562_PJ34_0.01",
+      "line": "K562",
+      "smiles": "CN(C)CC(=O)NC1=CC2=C(NC(=O)C3=C2C=CC=C3)C=C1",
+      "swapped": "COC1=CC2=NC=CC(=C2C=C1OC)OC3=CC=C(NC(=O)NC4=CC=C(F)C=C4F)C(=C3)F",
+      "dose": 100.0,
+      "n": 112,
+      "fp_cosine": 0.26462806201247985
+    },
+    {
+      "cond": "K562_PJ34_0.1",
+      "line": "K562",
+      "smiles": "CN(C)CC(=O)NC1=CC2=C(NC(=O)C3=C2C=CC=C3)C=C1",
+      "swapped": "COC1=CC2=NC=CC(=C2C=C1OC)OC3=CC=C(NC(=O)NC4=CC=C(F)C=C4F)C(=C3)F",
+      "dose": 1000.0,
+      "n": 101,
+      "fp_cosine": 0.26462806201248074
+    },
+    {
+      "cond": "K562_PJ34_1.0",
+      "line": "K562",
+      "smiles": "CN(C)CC(=O)NC1=CC2=C(NC(=O)C3=C2C=CC=C3)C=C1",
+      "swapped": "COC1=CC2=NC=CC(=C2C=C1OC)OC3=CC=C(NC(=O)NC4=CC=C(F)C=C4F)C(=C3)F",
+      "dose": 10000.0,
+      "n": 97,
+      "fp_cosine": 0.2646280620124811
+    },
+    {
+      "cond": "K562_Quisinostat_0.001",
+      "line": "K562",
+      "smiles": "Cl.Cl.CN1C=C(CNCC2CCN(CC2)C2=NC=C(C=N2)C(=O)NO)C2=CC=CC=C12",
+      "swapped": "CC(NC(=O)C1=CC=CC=C1\\N=C\\C1=C2C=CC=CC2=CC=C1O)C1=CC=CC=C1",
+      "dose": 10.0,
+      "n": 48,
+      "fp_cosine": 0.30018767596454904
+    },
+    {
+      "cond": "K562_Quisinostat_0.01",
+      "line": "K562",
+      "smiles": "Cl.Cl.CN1C=C(CNCC2CCN(CC2)C2=NC=C(C=N2)C(=O)NO)C2=CC=CC=C12",
+      "swapped": "CC(NC(=O)C1=CC=CC=C1\\N=C\\C1=C2C=CC=CC2=CC=C1O)C1=CC=CC=C1",
+      "dose": 100.0,
+      "n": 51,
+      "fp_cosine": 0.3001876759645541
+    },
+    {
+      "cond": "K562_Quisinostat_0.1",
+      "line": "K562",
+      "smiles": "Cl.Cl.CN1C=C(CNCC2CCN(CC2)C2=NC=C(C=N2)C(=O)NO)C2=CC=CC=C12",
+      "swapped": "CC(NC(=O)C1=CC=CC=C1\\N=C\\C1=C2C=CC=CC2=CC=C1O)C1=CC=CC=C1",
+      "dose": 1000.0,
+      "n": 36,
+      "fp_cosine": 0.3001876759645551
+    },
+    {
+      "cond": "K562_Quisinostat_1.0",
+      "line": "K562",
+      "smiles": "Cl.Cl.CN1C=C(CNCC2CCN(CC2)C2=NC=C(C=N2)C(=O)NO)C2=CC=CC=C12",
+      "swapped": "CC(NC(=O)C1=CC=CC=C1\\N=C\\C1=C2C=CC=CC2=CC=C1O)C1=CC=CC=C1",
+      "dose": 10000.0,
+      "n": 38,
+      "fp_cosine": 0.30018767596455553
+    },
+    {
+      "cond": "K562_Resminostat_0.001",
+      "line": "K562",
+      "smiles": "CN(C)CC1=CC=C(C=C1)S(=O)(=O)N1C=CC(\\C=C\\C(=O)NO)=C1",
+      "swapped": "COC1=C(OCCCN2CCCC2)C=C2N=C(N)C3(CCC3)C2=C1",
+      "dose": 10.0,
+      "n": 112,
+      "fp_cosine": 0.25724787771375646
+    },
+    {
+      "cond": "K562_Resminostat_0.01",
+      "line": "K562",
+      "smiles": "CN(C)CC1=CC=C(C=C1)S(=O)(=O)N1C=CC(\\C=C\\C(=O)NO)=C1",
+      "swapped": "COC1=C(OCCCN2CCCC2)C=C2N=C(N)C3(CCC3)C2=C1",
+      "dose": 100.0,
+      "n": 92,
+      "fp_cosine": 0.25724787771376145
+    },
+    {
+      "cond": "K562_Resminostat_0.1",
+      "line": "K562",
+      "smiles": "CN(C)CC1=CC=C(C=C1)S(=O)(=O)N1C=CC(\\C=C\\C(=O)NO)=C1",
+      "swapped": "COC1=C(OCCCN2CCCC2)C=C2N=C(N)C3(CCC3)C2=C1",
+      "dose": 1000.0,
+      "n": 85,
+      "fp_cosine": 0.25724787771376245
+    },
+    {
+      "cond": "K562_Resminostat_1.0",
+      "line": "K562",
+      "smiles": "CN(C)CC1=CC=C(C=C1)S(=O)(=O)N1C=CC(\\C=C\\C(=O)NO)=C1",
+      "swapped": "COC1=C(OCCCN2CCCC2)C=C2N=C(N)C3(CCC3)C2=C1",
+      "dose": 10000.0,
+      "n": 53,
+      "fp_cosine": 0.2572478777137628
+    },
+    {
+      "cond": "K562_Sirtinol_0.001",
+      "line": "K562",
+      "smiles": "CC(NC(=O)C1=CC=CC=C1\\N=C\\C1=C2C=CC=CC2=CC=C1O)C1=CC=CC=C1",
+      "swapped": "C[C@H](NC1=NC(NC2=NNC(C)=C2)=C(F)C=C1C#N)C1=CC=C(F)C=C1",
+      "dose": 10.0,
+      "n": 106,
+      "fp_cosine": 0.18748505440194843
+    },
+    {
+      "cond": "K562_Sirtinol_0.01",
+      "line": "K562",
+      "smiles": "CC(NC(=O)C1=CC=CC=C1\\N=C\\C1=C2C=CC=CC2=CC=C1O)C1=CC=CC=C1",
+      "swapped": "C[C@H](NC1=NC(NC2=NNC(C)=C2)=C(F)C=C1C#N)C1=CC=C(F)C=C1",
+      "dose": 100.0,
+      "n": 99,
+      "fp_cosine": 0.18748505440195182
+    },
+    {
+      "cond": "K562_Sirtinol_0.1",
+      "line": "K562",
+      "smiles": "CC(NC(=O)C1=CC=CC=C1\\N=C\\C1=C2C=CC=CC2=CC=C1O)C1=CC=CC=C1",
+      "swapped": "C[C@H](NC1=NC(NC2=NNC(C)=C2)=C(F)C=C1C#N)C1=CC=C(F)C=C1",
+      "dose": 1000.0,
+      "n": 82,
+      "fp_cosine": 0.1874850544019525
+    },
+    {
+      "cond": "K562_Sirtinol_1.0",
+      "line": "K562",
+      "smiles": "CC(NC(=O)C1=CC=CC=C1\\N=C\\C1=C2C=CC=CC2=CC=C1O)C1=CC=CC=C1",
+      "swapped": "C[C@H](NC1=NC(NC2=NNC(C)=C2)=C(F)C=C1C#N)C1=CC=C(F)C=C1",
+      "dose": 10000.0,
+      "n": 130,
+      "fp_cosine": 0.18748505440195276
+    },
+    {
+      "cond": "K562_TAK-901_0.001",
+      "line": "K562",
+      "smiles": "CCS(=O)(=O)C1=CC=CC(=C1)C1=CC(C(=O)NC2CCN(C)CC2)=C(C)C2=C1C1=C(N2)N=CC(C)=C1",
+      "swapped": "NC1=CC=CC=C1NC(=O)C1=CC=C(CNC(=O)OCC2=CN=CC=C2)C=C1",
+      "dose": 10.0,
+      "n": 87,
+      "fp_cosine": 0.332105582077529
+    },
+    {
+      "cond": "K562_TAK-901_0.01",
+      "line": "K562",
+      "smiles": "CCS(=O)(=O)C1=CC=CC(=C1)C1=CC(C(=O)NC2CCN(C)CC2)=C(C)C2=C1C1=C(N2)N=CC(C)=C1",
+      "swapped": "NC1=CC=CC=C1NC(=O)C1=CC=C(CNC(=O)OCC2=CN=CC=C2)C=C1",
+      "dose": 100.0,
+      "n": 96,
+      "fp_cosine": 0.33210558207753393
+    },
+    {
+      "cond": "K562_TAK-901_0.1",
+      "line": "K562",
+      "smiles": "CCS(=O)(=O)C1=CC=CC(=C1)C1=CC(C(=O)NC2CCN(C)CC2)=C(C)C2=C1C1=C(N2)N=CC(C)=C1",
+      "swapped": "NC1=CC=CC=C1NC(=O)C1=CC=C(CNC(=O)OCC2=CN=CC=C2)C=C1",
+      "dose": 1000.0,
+      "n": 52,
+      "fp_cosine": 0.33210558207753493
+    },
+    {
+      "cond": "K562_TAK-901_1.0",
+      "line": "K562",
+      "smiles": "CCS(=O)(=O)C1=CC=CC(=C1)C1=CC(C(=O)NC2CCN(C)CC2)=C(C)C2=C1C1=C(N2)N=CC(C)=C1",
+      "swapped": "NC1=CC=CC=C1NC(=O)C1=CC=C(CNC(=O)OCC2=CN=CC=C2)C=C1",
+      "dose": 10000.0,
+      "n": 36,
+      "fp_cosine": 0.3321055820775352
+    },
+    {
+      "cond": "K562_Tanespimycin_0.001",
+      "line": "K562",
+      "smiles": "COC1CC(C)CC2=C(NCC=C)C(=O)C=C(NC(=O)C(=C\\C=C/C(OC)C(OC(N)=O)/C(=C/C(C)C1O)C)\\C)C2=O",
+      "swapped": "CCS(=O)(=O)C1=CC=CC(=C1)C1=CC(C(=O)NC2CCN(C)CC2)=C(C)C2=C1C1=C(N2)N=CC(C)=C1",
+      "dose": 10.0,
+      "n": 103,
+      "fp_cosine": 0.17476551841063576
+    },
+    {
+      "cond": "K562_Tanespimycin_0.01",
+      "line": "K562",
+      "smiles": "COC1CC(C)CC2=C(NCC=C)C(=O)C=C(NC(=O)C(=C\\C=C/C(OC)C(OC(N)=O)/C(=C/C(C)C1O)C)\\C)C2=O",
+      "swapped": "CCS(=O)(=O)C1=CC=CC(=C1)C1=CC(C(=O)NC2CCN(C)CC2)=C(C)C2=C1C1=C(N2)N=CC(C)=C1",
+      "dose": 100.0,
+      "n": 102,
+      "fp_cosine": 0.1747655184106381
+    },
+    {
+      "cond": "K562_Tanespimycin_0.1",
+      "line": "K562",
+      "smiles": "COC1CC(C)CC2=C(NCC=C)C(=O)C=C(NC(=O)C(=C\\C=C/C(OC)C(OC(N)=O)/C(=C/C(C)C1O)C)\\C)C2=O",
+      "swapped": "CCS(=O)(=O)C1=CC=CC(=C1)C1=CC(C(=O)NC2CCN(C)CC2)=C(C)C2=C1C1=C(N2)N=CC(C)=C1",
+      "dose": 1000.0,
+      "n": 67,
+      "fp_cosine": 0.1747655184106385
+    },
+    {
+      "cond": "K562_Tanespimycin_1.0",
+      "line": "K562",
+      "smiles": "COC1CC(C)CC2=C(NCC=C)C(=O)C=C(NC(=O)C(=C\\C=C/C(OC)C(OC(N)=O)/C(=C/C(C)C1O)C)\\C)C2=O",
+      "swapped": "CCS(=O)(=O)C1=CC=CC(=C1)C1=CC(C(=O)NC2CCN(C)CC2)=C(C)C2=C1C1=C(N2)N=CC(C)=C1",
+      "dose": 10000.0,
+      "n": 43,
+      "fp_cosine": 0.17476551841063867
+    },
+    {
+      "cond": "K562_Thiotepa_0.001",
+      "line": "K562",
+      "smiles": "S=[P](N1CC1)(N2CC2)N3CC3",
+      "swapped": "CCN(CC)C(=S)SSC(=S)N(CC)CC",
+      "dose": 10.0,
+      "n": 108,
+      "fp_cosine": 0.2773500981125909
+    },
+    {
+      "cond": "K562_Thiotepa_0.01",
+      "line": "K562",
+      "smiles": "S=[P](N1CC1)(N2CC2)N3CC3",
+      "swapped": "CCN(CC)C(=S)SSC(=S)N(CC)CC",
+      "dose": 100.0,
+      "n": 121,
+      "fp_cosine": 0.2773500981126082
+    },
+    {
+      "cond": "K562_Thiotepa_0.1",
+      "line": "K562",
+      "smiles": "S=[P](N1CC1)(N2CC2)N3CC3",
+      "swapped": "CCN(CC)C(=S)SSC(=S)N(CC)CC",
+      "dose": 1000.0,
+      "n": 126,
+      "fp_cosine": 0.27735009811261174
+    },
+    {
+      "cond": "K562_Thiotepa_1.0",
+      "line": "K562",
+      "smiles": "S=[P](N1CC1)(N2CC2)N3CC3",
+      "swapped": "CCN(CC)C(=S)SSC(=S)N(CC)CC",
+      "dose": 10000.0,
+      "n": 135,
+      "fp_cosine": 0.27735009811261296
+    },
+    {
+      "cond": "K562_UNC0631_0.001",
+      "line": "K562",
+      "smiles": "COC1=CC2=C(NC3CCN(CC4CCCCC4)CC3)N=C(N=C2C=C1OCCCN1CCCCC1)N1CCCN(CC1)C(C)C",
+      "swapped": "NC1=NC(=O)N(C=N1)[C@H]1C[C@H](O)[C@@H](CO)O1",
+      "dose": 10.0,
+      "n": 128,
+      "fp_cosine": 0.22416096662401785
+    },
+    {
+      "cond": "K562_UNC0631_0.01",
+      "line": "K562",
+      "smiles": "COC1=CC2=C(NC3CCN(CC4CCCCC4)CC3)N=C(N=C2C=C1OCCCN1CCCCC1)N1CCCN(CC1)C(C)C",
+      "swapped": "NC1=NC(=O)N(C=N1)[C@H]1C[C@H](O)[C@@H](CO)O1",
+      "dose": 100.0,
+      "n": 107,
+      "fp_cosine": 0.22416096662402168
+    },
+    {
+      "cond": "K562_UNC0631_0.1",
+      "line": "K562",
+      "smiles": "COC1=CC2=C(NC3CCN(CC4CCCCC4)CC3)N=C(N=C2C=C1OCCCN1CCCCC1)N1CCCN(CC1)C(C)C",
+      "swapped": "NC1=NC(=O)N(C=N1)[C@H]1C[C@H](O)[C@@H](CO)O1",
+      "dose": 1000.0,
+      "n": 97,
+      "fp_cosine": 0.22416096662402243
+    },
+    {
+      "cond": "K562_UNC0631_1.0",
+      "line": "K562",
+      "smiles": "COC1=CC2=C(NC3CCN(CC4CCCCC4)CC3)N=C(N=C2C=C1OCCCN1CCCCC1)N1CCCN(CC1)C(C)C",
+      "swapped": "NC1=NC(=O)N(C=N1)[C@H]1C[C@H](O)[C@@H](CO)O1",
+      "dose": 10000.0,
+      "n": 83,
+      "fp_cosine": 0.22416096662402268
+    },
+    {
+      "cond": "K562_Vandetanib_0.001",
+      "line": "K562",
+      "smiles": "COC1=CC2=C(C=C1OCC3CCN(C)CC3)N=CN=C2NC4=C(F)C=C(Br)C=C4",
+      "swapped": "OCCN(CCC1=CNC2=C1C=CC=C2)CC1=CC=C(\\C=C\\C(=O)NO)C=C1",
+      "dose": 10.0,
+      "n": 102,
+      "fp_cosine": 0.1685050927484506
+    },
+    {
+      "cond": "K562_Vandetanib_0.01",
+      "line": "K562",
+      "smiles": "COC1=CC2=C(C=C1OCC3CCN(C)CC3)N=CN=C2NC4=C(F)C=C(Br)C=C4",
+      "swapped": "OCCN(CCC1=CNC2=C1C=CC=C2)CC1=CC=C(\\C=C\\C(=O)NO)C=C1",
+      "dose": 100.0,
+      "n": 105,
+      "fp_cosine": 0.16850509274845296
+    },
+    {
+      "cond": "K562_Vandetanib_0.1",
+      "line": "K562",
+      "smiles": "COC1=CC2=C(C=C1OCC3CCN(C)CC3)N=CN=C2NC4=C(F)C=C(Br)C=C4",
+      "swapped": "OCCN(CCC1=CNC2=C1C=CC=C2)CC1=CC=C(\\C=C\\C(=O)NO)C=C1",
+      "dose": 1000.0,
+      "n": 88,
+      "fp_cosine": 0.16850509274845346
+    },
+    {
+      "cond": "K562_Vandetanib_1.0",
+      "line": "K562",
+      "smiles": "COC1=CC2=C(C=C1OCC3CCN(C)CC3)N=CN=C2NC4=C(F)C=C(Br)C=C4",
+      "swapped": "OCCN(CCC1=CNC2=C1C=CC=C2)CC1=CC=C(\\C=C\\C(=O)NO)C=C1",
+      "dose": 10000.0,
+      "n": 41,
+      "fp_cosine": 0.16850509274845366
+    },
+    {
+      "cond": "K562_WHI-P154_0.001",
+      "line": "K562",
+      "smiles": "COC1=CC2=NC=NC(NC3=CC=C(O)C(Br)=C3)=C2C=C1OC",
+      "swapped": "CN1C=C(C2=CC=CC=C12)C1=C(C(=O)NC1=O)C1=CN(C2CCN(CC3=NC=CC=C3)CC2)C2=CC=CC=C12",
+      "dose": 10.0,
+      "n": 104,
+      "fp_cosine": 0.21483446221182514
+    },
+    {
+      "cond": "K562_WHI-P154_0.01",
+      "line": "K562",
+      "smiles": "COC1=CC2=NC=NC(NC3=CC=C(O)C(Br)=C3)=C2C=C1OC",
+      "swapped": "CN1C=C(C2=CC=CC=C12)C1=C(C(=O)NC1=O)C1=CN(C2CCN(CC3=NC=CC=C3)CC2)C2=CC=CC=C12",
+      "dose": 100.0,
+      "n": 109,
+      "fp_cosine": 0.21483446221182861
+    },
+    {
+      "cond": "K562_WHI-P154_0.1",
+      "line": "K562",
+      "smiles": "COC1=CC2=NC=NC(NC3=CC=C(O)C(Br)=C3)=C2C=C1OC",
+      "swapped": "CN1C=C(C2=CC=CC=C12)C1=C(C(=O)NC1=O)C1=CN(C2CCN(CC3=NC=CC=C3)CC2)C2=CC=CC=C12",
+      "dose": 1000.0,
+      "n": 112,
+      "fp_cosine": 0.21483446221182928
+    },
+    {
+      "cond": "K562_WHI-P154_1.0",
+      "line": "K562",
+      "smiles": "COC1=CC2=NC=NC(NC3=CC=C(O)C(Br)=C3)=C2C=C1OC",
+      "swapped": "CN1C=C(C2=CC=CC=C12)C1=C(C(=O)NC1=O)C1=CN(C2CCN(CC3=NC=CC=C3)CC2)C2=CC=CC=C12",
+      "dose": 10000.0,
+      "n": 87,
+      "fp_cosine": 0.21483446221182953
+    },
+    {
+      "cond": "K562_WP1066_0.001",
+      "line": "K562",
+      "smiles": "C[C@H](NC(=O)C(=C\\C1=NC(Br)=CC=C1)\\C#N)C1=CC=CC=C1",
+      "swapped": "COC1=CC=C(C=N1)C1=NC2=C(SC(CN(C)C3=NC=C(C=N3)C(=O)NO)=C2)C(=N1)N1CCOCC1",
+      "dose": 10.0,
+      "n": 107,
+      "fp_cosine": 0.23904572186687342
+    },
+    {
+      "cond": "K562_WP1066_0.01",
+      "line": "K562",
+      "smiles": "C[C@H](NC(=O)C(=C\\C1=NC(Br)=CC=C1)\\C#N)C1=CC=CC=C1",
+      "swapped": "COC1=CC=C(C=N1)C1=NC2=C(SC(CN(C)C3=NC=C(C=N3)C(=O)NO)=C2)C(=N1)N1CCOCC1",
+      "dose": 100.0,
+      "n": 104,
+      "fp_cosine": 0.23904572186687734
+    },
+    {
+      "cond": "K562_WP1066_0.1",
+      "line": "K562",
+      "smiles": "C[C@H](NC(=O)C(=C\\C1=NC(Br)=CC=C1)\\C#N)C1=CC=CC=C1",
+      "swapped": "COC1=CC=C(C=N1)C1=NC2=C(SC(CN(C)C3=NC=C(C=N3)C(=O)NO)=C2)C(=N1)N1CCOCC1",
+      "dose": 1000.0,
+      "n": 91,
+      "fp_cosine": 0.23904572186687803
+    },
+    {
+      "cond": "K562_WP1066_1.0",
+      "line": "K562",
+      "smiles": "C[C@H](NC(=O)C(=C\\C1=NC(Br)=CC=C1)\\C#N)C1=CC=CC=C1",
+      "swapped": "COC1=CC=C(C=N1)C1=NC2=C(SC(CN(C)C3=NC=C(C=N3)C(=O)NO)=C2)C(=N1)N1CCOCC1",
+      "dose": 10000.0,
+      "n": 99,
+      "fp_cosine": 0.23904572186687836
+    },
+    {
+      "cond": "K562_XAV-939_0.001",
+      "line": "K562",
+      "smiles": "OC1=C2CSCCC2=NC(=N1)C3=CC=C(C=C3)C(F)(F)F",
+      "swapped": "CN1C=C(\\C=C\\C(=O)C2=CC=CC(F)=C2)C=C1\\C=C\\C(=O)NO",
+      "dose": 10.0,
+      "n": 75,
+      "fp_cosine": 0.35251199395530747
+    },
+    {
+      "cond": "K562_XAV-939_0.01",
+      "line": "K562",
+      "smiles": "OC1=C2CSCCC2=NC(=N1)C3=CC=C(C=C3)C(F)(F)F",
+      "swapped": "CN1C=C(\\C=C\\C(=O)C2=CC=CC(F)=C2)C=C1\\C=C\\C(=O)NO",
+      "dose": 100.0,
+      "n": 95,
+      "fp_cosine": 0.3525119939553139
+    },
+    {
+      "cond": "K562_XAV-939_0.1",
+      "line": "K562",
+      "smiles": "OC1=C2CSCCC2=NC(=N1)C3=CC=C(C=C3)C(F)(F)F",
+      "swapped": "CN1C=C(\\C=C\\C(=O)C2=CC=CC(F)=C2)C=C1\\C=C\\C(=O)NO",
+      "dose": 1000.0,
+      "n": 123,
+      "fp_cosine": 0.3525119939553152
+    },
+    {
+      "cond": "K562_XAV-939_1.0",
+      "line": "K562",
+      "smiles": "OC1=C2CSCCC2=NC(=N1)C3=CC=C(C=C3)C(F)(F)F",
+      "swapped": "CN1C=C(\\C=C\\C(=O)C2=CC=CC(F)=C2)C=C1\\C=C\\C(=O)NO",
+      "dose": 10000.0,
+      "n": 91,
+      "fp_cosine": 0.3525119939553157
+    },
+    {
+      "cond": "K562_ZM_0.001",
+      "line": "K562",
+      "smiles": "COC1=C(OCCCN2CCOCC2)C=C2N=CN=C(NC3=CC=C(NC(=O)C4=CC=CC=C4)C=C3)C2=C1",
+      "swapped": "[H][C@@]12CC[C@H](O)[C@@]1(C)CC[C@]1([H])C3=CC(OC)=C(O)C=C3CC[C@@]21[H]",
+      "dose": 10.0,
+      "n": 118,
+      "fp_cosine": 0.2247332874877427
+    },
+    {
+      "cond": "K562_ZM_0.01",
+      "line": "K562",
+      "smiles": "COC1=C(OCCCN2CCOCC2)C=C2N=CN=C(NC3=CC=C(NC(=O)C4=CC=CC=C4)C=C3)C2=C1",
+      "swapped": "[H][C@@]12CC[C@H](O)[C@@]1(C)CC[C@]1([H])C3=CC(OC)=C(O)C=C3CC[C@@]21[H]",
+      "dose": 100.0,
+      "n": 109,
+      "fp_cosine": 0.22473328748774613
+    },
+    {
+      "cond": "K562_ZM_0.1",
+      "line": "K562",
+      "smiles": "COC1=C(OCCCN2CCOCC2)C=C2N=CN=C(NC3=CC=C(NC(=O)C4=CC=CC=C4)C=C3)C2=C1",
+      "swapped": "[H][C@@]12CC[C@H](O)[C@@]1(C)CC[C@]1([H])C3=CC(OC)=C(O)C=C3CC[C@@]21[H]",
+      "dose": 1000.0,
+      "n": 112,
+      "fp_cosine": 0.22473328748774676
+    },
+    {
+      "cond": "K562_ZM_1.0",
+      "line": "K562",
+      "smiles": "COC1=C(OCCCN2CCOCC2)C=C2N=CN=C(NC3=CC=C(NC(=O)C4=CC=CC=C4)C=C3)C2=C1",
+      "swapped": "[H][C@@]12CC[C@H](O)[C@@]1(C)CC[C@]1([H])C3=CC(OC)=C(O)C=C3CC[C@@]21[H]",
+      "dose": 10000.0,
+      "n": 97,
+      "fp_cosine": 0.22473328748774707
+    },
+    {
+      "cond": "MCF7_2-Methoxyestradiol_0.001",
+      "line": "MCF7",
+      "smiles": "[H][C@@]12CC[C@H](O)[C@@]1(C)CC[C@]1([H])C3=CC(OC)=C(O)C=C3CC[C@@]21[H]",
+      "swapped": "CC(=O)NC1=CC=C(OCC(C)(O)C(=O)NC2=CC=C(C(=C2)C(F)(F)F)[N+]([O-])=O)C=C1",
+      "dose": 10.0,
+      "n": 200,
+      "fp_cosine": 0.32025630761016644
+    },
+    {
+      "cond": "MCF7_2-Methoxyestradiol_0.01",
+      "line": "MCF7",
+      "smiles": "[H][C@@]12CC[C@H](O)[C@@]1(C)CC[C@]1([H])C3=CC(OC)=C(O)C=C3CC[C@@]21[H]",
+      "swapped": "CC(=O)NC1=CC=C(OCC(C)(O)C(=O)NC2=CC=C(C(=C2)C(F)(F)F)[N+]([O-])=O)C=C1",
+      "dose": 100.0,
+      "n": 184,
+      "fp_cosine": 0.32025630761017215
+    },
+    {
+      "cond": "MCF7_2-Methoxyestradiol_0.1",
+      "line": "MCF7",
+      "smiles": "[H][C@@]12CC[C@H](O)[C@@]1(C)CC[C@]1([H])C3=CC(OC)=C(O)C=C3CC[C@@]21[H]",
+      "swapped": "CC(=O)NC1=CC=C(OCC(C)(O)C(=O)NC2=CC=C(C(=C2)C(F)(F)F)[N+]([O-])=O)C=C1",
+      "dose": 1000.0,
+      "n": 200,
+      "fp_cosine": 0.3202563076101733
+    },
+    {
+      "cond": "MCF7_2-Methoxyestradiol_1.0",
+      "line": "MCF7",
+      "smiles": "[H][C@@]12CC[C@H](O)[C@@]1(C)CC[C@]1([H])C3=CC(OC)=C(O)C=C3CC[C@@]21[H]",
+      "swapped": "CC(=O)NC1=CC=C(OCC(C)(O)C(=O)NC2=CC=C(C(=C2)C(F)(F)F)[N+]([O-])=O)C=C1",
+      "dose": 10000.0,
+      "n": 131,
+      "fp_cosine": 0.3202563076101737
+    },
+    {
+      "cond": "MCF7_A-366_0.001",
+      "line": "MCF7",
+      "smiles": "COC1=C(OCCCN2CCCC2)C=C2N=C(N)C3(CCC3)C2=C1",
+      "swapped": "OC(=O)CCC1CCC(CC1)(C2=C(F)C=CC(=C2)F)[S](=O)(=O)C3=CC=C(Cl)C=C3",
+      "dose": 10.0,
+      "n": 200,
+      "fp_cosine": 0.23883257361060625
+    },
+    {
+      "cond": "MCF7_A-366_0.01",
+      "line": "MCF7",
+      "smiles": "COC1=C(OCCCN2CCCC2)C=C2N=C(N)C3(CCC3)C2=C1",
+      "swapped": "OC(=O)CCC1CCC(CC1)(C2=C(F)C=CC(=C2)F)[S](=O)(=O)C3=CC=C(Cl)C=C3",
+      "dose": 100.0,
+      "n": 169,
+      "fp_cosine": 0.23883257361061105
+    },
+    {
+      "cond": "MCF7_A-366_0.1",
+      "line": "MCF7",
+      "smiles": "COC1=C(OCCCN2CCCC2)C=C2N=C(N)C3(CCC3)C2=C1",
+      "swapped": "OC(=O)CCC1CCC(CC1)(C2=C(F)C=CC(=C2)F)[S](=O)(=O)C3=CC=C(Cl)C=C3",
+      "dose": 1000.0,
+      "n": 170,
+      "fp_cosine": 0.23883257361061205
+    },
+    {
+      "cond": "MCF7_A-366_1.0",
+      "line": "MCF7",
+      "smiles": "COC1=C(OCCCN2CCCC2)C=C2N=C(N)C3(CCC3)C2=C1",
+      "swapped": "OC(=O)CCC1CCC(CC1)(C2=C(F)C=CC(=C2)F)[S](=O)(=O)C3=CC=C(Cl)C=C3",
+      "dose": 10000.0,
+      "n": 198,
+      "fp_cosine": 0.23883257361061241
+    },
+    {
+      "cond": "MCF7_AT9283_0.001",
+      "line": "MCF7",
+      "smiles": "O=C(NC1CC1)NC1=CNN=C1C1=NC2=CC(CN3CCOCC3)=CC=C2N1",
+      "swapped": "C[S](=O)(=O)C1=CC(=CC=C1)CNC2=NC(=NC=C2C(F)(F)F)NC3=CC4=C(NC(=O)CC4)C=C3",
+      "dose": 10.0,
+      "n": 160,
+      "fp_cosine": 0.2641979746337344
+    },
+    {
+      "cond": "MCF7_AT9283_0.01",
+      "line": "MCF7",
+      "smiles": "O=C(NC1CC1)NC1=CNN=C1C1=NC2=CC(CN3CCOCC3)=CC=C2N1",
+      "swapped": "C[S](=O)(=O)C1=CC(=CC=C1)CNC2=NC(=NC=C2C(F)(F)F)NC3=CC4=C(NC(=O)CC4)C=C3",
+      "dose": 100.0,
+      "n": 79,
+      "fp_cosine": 0.2641979746337378
+    },
+    {
+      "cond": "MCF7_AT9283_0.1",
+      "line": "MCF7",
+      "smiles": "O=C(NC1CC1)NC1=CNN=C1C1=NC2=CC(CN3CCOCC3)=CC=C2N1",
+      "swapped": "C[S](=O)(=O)C1=CC(=CC=C1)CNC2=NC(=NC=C2C(F)(F)F)NC3=CC4=C(NC(=O)CC4)C=C3",
+      "dose": 1000.0,
+      "n": 77,
+      "fp_cosine": 0.2641979746337384
+    },
+    {
+      "cond": "MCF7_AT9283_1.0",
+      "line": "MCF7",
+      "smiles": "O=C(NC1CC1)NC1=CNN=C1C1=NC2=CC(CN3CCOCC3)=CC=C2N1",
+      "swapped": "C[S](=O)(=O)C1=CC(=CC=C1)CNC2=NC(=NC=C2C(F)(F)F)NC3=CC4=C(NC(=O)CC4)C=C3",
+      "dose": 10000.0,
+      "n": 131,
+      "fp_cosine": 0.26419797463373873
+    },
+    {
+      "cond": "MCF7_AZ_0.001",
+      "line": "MCF7",
+      "smiles": "C[C@H](NC1=NC(NC2=NNC(C)=C2)=C(F)C=C1C#N)C1=CC=C(F)C=C1",
+      "swapped": "COC1=CC2=C(NC3CCN(CC4CCCCC4)CC3)N=C(N=C2C=C1OCCCN1CCCCC1)N1CCCN(CC1)C(C)C",
+      "dose": 10.0,
+      "n": 200,
+      "fp_cosine": 0.23823144500331073
+    },
+    {
+      "cond": "MCF7_AZ_0.01",
+      "line": "MCF7",
+      "smiles": "C[C@H](NC1=NC(NC2=NNC(C)=C2)=C(F)C=C1C#N)C1=CC=C(F)C=C1",
+      "swapped": "COC1=CC2=C(NC3CCN(CC4CCCCC4)CC3)N=C(N=C2C=C1OCCCN1CCCCC1)N1CCCN(CC1)C(C)C",
+      "dose": 100.0,
+      "n": 200,
+      "fp_cosine": 0.23823144500331422
+    },
+    {
+      "cond": "MCF7_AZ_0.1",
+      "line": "MCF7",
+      "smiles": "C[C@H](NC1=NC(NC2=NNC(C)=C2)=C(F)C=C1C#N)C1=CC=C(F)C=C1",
+      "swapped": "COC1=CC2=C(NC3CCN(CC4CCCCC4)CC3)N=C(N=C2C=C1OCCCN1CCCCC1)N1CCCN(CC1)C(C)C",
+      "dose": 1000.0,
+      "n": 183,
+      "fp_cosine": 0.23823144500331492
+    },
+    {
+      "cond": "MCF7_AZ_1.0",
+      "line": "MCF7",
+      "smiles": "C[C@H](NC1=NC(NC2=NNC(C)=C2)=C(F)C=C1C#N)C1=CC=C(F)C=C1",
+      "swapped": "COC1=CC2=C(NC3CCN(CC4CCCCC4)CC3)N=C(N=C2C=C1OCCCN1CCCCC1)N1CCCN(CC1)C(C)C",
+      "dose": 10000.0,
+      "n": 127,
+      "fp_cosine": 0.23823144500331514
+    },
+    {
+      "cond": "MCF7_Andarine_0.001",
+      "line": "MCF7",
+      "smiles": "CC(=O)NC1=CC=C(OCC(C)(O)C(=O)NC2=CC=C(C(=C2)C(F)(F)F)[N+]([O-])=O)C=C1",
+      "swapped": "Cl.CN1CCC(C(O)C1)C2=C3OC(=CC(=O)C3=C(O)C=C2O)C4=C(Cl)C=CC=C4",
+      "dose": 10.0,
+      "n": 200,
+      "fp_cosine": 0.18887686585995014
+    },
+    {
+      "cond": "MCF7_Andarine_0.01",
+      "line": "MCF7",
+      "smiles": "CC(=O)NC1=CC=C(OCC(C)(O)C(=O)NC2=CC=C(C(=C2)C(F)(F)F)[N+]([O-])=O)C=C1",
+      "swapped": "Cl.CN1CCC(C(O)C1)C2=C3OC(=CC(=O)C3=C(O)C=C2O)C4=C(Cl)C=CC=C4",
+      "dose": 100.0,
+      "n": 160,
+      "fp_cosine": 0.18887686585995314
+    },
+    {
+      "cond": "MCF7_Andarine_0.1",
+      "line": "MCF7",
+      "smiles": "CC(=O)NC1=CC=C(OCC(C)(O)C(=O)NC2=CC=C(C(=C2)C(F)(F)F)[N+]([O-])=O)C=C1",
+      "swapped": "Cl.CN1CCC(C(O)C1)C2=C3OC(=CC(=O)C3=C(O)C=C2O)C4=C(Cl)C=CC=C4",
+      "dose": 1000.0,
+      "n": 172,
+      "fp_cosine": 0.18887686585995375
+    },
+    {
+      "cond": "MCF7_Andarine_1.0",
+      "line": "MCF7",
+      "smiles": "CC(=O)NC1=CC=C(OCC(C)(O)C(=O)NC2=CC=C(C(=C2)C(F)(F)F)[N+]([O-])=O)C=C1",
+      "swapped": "Cl.CN1CCC(C(O)C1)C2=C3OC(=CC(=O)C3=C(O)C=C2O)C4=C(Cl)C=CC=C4",
+      "dose": 10000.0,
+      "n": 200,
+      "fp_cosine": 0.188876865859954
+    },
+    {
+      "cond": "MCF7_Aurora_0.001",
+      "line": "MCF7",
+      "smiles": "CCN1CCN(CC1)C(=O)CC1=CC=C(NC2=NC(NC3=CC=C(C=C3)C(=O)NC3=CC=CC=C3Cl)=C(F)C=N2)C=C1",
+      "swapped": "O=C(NC1CC1)NC1=CNN=C1C1=NC2=CC(CN3CCOCC3)=CC=C2N1",
+      "dose": 10.0,
+      "n": 193,
+      "fp_cosine": 0.33028912953790257
+    },
+    {
+      "cond": "MCF7_Aurora_0.01",
+      "line": "MCF7",
+      "smiles": "CCN1CCN(CC1)C(=O)CC1=CC=C(NC2=NC(NC3=CC=C(C=C3)C(=O)NC3=CC=CC=C3Cl)=C(F)C=N2)C=C1",
+      "swapped": "O=C(NC1CC1)NC1=CNN=C1C1=NC2=CC(CN3CCOCC3)=CC=C2N1",
+      "dose": 100.0,
+      "n": 177,
+      "fp_cosine": 0.3302891295379067
+    },
+    {
+      "cond": "MCF7_Aurora_0.1",
+      "line": "MCF7",
+      "smiles": "CCN1CCN(CC1)C(=O)CC1=CC=C(NC2=NC(NC3=CC=C(C=C3)C(=O)NC3=CC=CC=C3Cl)=C(F)C=N2)C=C1",
+      "swapped": "O=C(NC1CC1)NC1=CNN=C1C1=NC2=CC(CN3CCOCC3)=CC=C2N1",
+      "dose": 1000.0,
+      "n": 194,
+      "fp_cosine": 0.33028912953790746
+    },
+    {
+      "cond": "MCF7_Aurora_1.0",
+      "line": "MCF7",
+      "smiles": "CCN1CCN(CC1)C(=O)CC1=CC=C(NC2=NC(NC3=CC=C(C=C3)C(=O)NC3=CC=CC=C3Cl)=C(F)C=N2)C=C1",
+      "swapped": "O=C(NC1CC1)NC1=CNN=C1C1=NC2=CC(CN3CCOCC3)=CC=C2N1",
+      "dose": 10000.0,
+      "n": 200,
+      "fp_cosine": 0.33028912953790784
+    },
+    {
+      "cond": "MCF7_BMS-265246_0.001",
+      "line": "MCF7",
+      "smiles": "CCCCOC1=C2C=N[NH]C2=NC=C1C(=O)C3=C(F)C=C(C)C=C3F",
+      "swapped": "COC1=CC2=NC=NC(NC3=CC=C(O)C(Br)=C3)=C2C=C1OC",
+      "dose": 10.0,
+      "n": 200,
+      "fp_cosine": 0.3000937939682063
+    },
+    {
+      "cond": "MCF7_BMS-265246_0.01",
+      "line": "MCF7",
+      "smiles": "CCCCOC1=C2C=N[NH]C2=NC=C1C(=O)C3=C(F)C=C(C)C=C3F",
+      "swapped": "COC1=CC2=NC=NC(NC3=CC=C(O)C(Br)=C3)=C2C=C1OC",
+      "dose": 100.0,
+      "n": 200,
+      "fp_cosine": 0.30009379396821134
+    },
+    {
+      "cond": "MCF7_BMS-265246_0.1",
+      "line": "MCF7",
+      "smiles": "CCCCOC1=C2C=N[NH]C2=NC=C1C(=O)C3=C(F)C=C(C)C=C3F",
+      "swapped": "COC1=CC2=NC=NC(NC3=CC=C(O)C(Br)=C3)=C2C=C1OC",
+      "dose": 1000.0,
+      "n": 175,
+      "fp_cosine": 0.3000937939682124
+    },
+    {
+      "cond": "MCF7_BMS-265246_1.0",
+      "line": "MCF7",
+      "smiles": "CCCCOC1=C2C=N[NH]C2=NC=C1C(=O)C3=C(F)C=C(C)C=C3F",
+      "swapped": "COC1=CC2=NC=NC(NC3=CC=C(O)C(Br)=C3)=C2C=C1OC",
+      "dose": 10000.0,
+      "n": 139,
+      "fp_cosine": 0.30009379396821273
+    },
+    {
+      "cond": "MCF7_CEP-33779_0.001",
+      "line": "MCF7",
+      "smiles": "CN1CCN(CC1)C1=CC=CC(NC2=NN3C=CC=C(C3=N2)C2=CC=C(C=C2)S(C)(=O)=O)=C1",
+      "swapped": "O.Cl.CCN(CC)CC1=CC2=C(C=C1)C=C(COC(=O)NC1=CC=C(C=C1)C(=O)NO)C=C2",
+      "dose": 10.0,
+      "n": 200,
+      "fp_cosine": 0.2767593624086596
+    },
+    {
+      "cond": "MCF7_CEP-33779_0.01",
+      "line": "MCF7",
+      "smiles": "CN1CCN(CC1)C1=CC=CC(NC2=NN3C=CC=C(C3=N2)C2=CC=C(C=C2)S(C)(=O)=O)=C1",
+      "swapped": "O.Cl.CCN(CC)CC1=CC2=C(C=C1)C=C(COC(=O)NC1=CC=C(C=C1)C(=O)NO)C=C2",
+      "dose": 100.0,
+      "n": 200,
+      "fp_cosine": 0.27675936240866394
+    },
+    {
+      "cond": "MCF7_CEP-33779_0.1",
+      "line": "MCF7",
+      "smiles": "CN1CCN(CC1)C1=CC=CC(NC2=NN3C=CC=C(C3=N2)C2=CC=C(C=C2)S(C)(=O)=O)=C1",
+      "swapped": "O.Cl.CCN(CC)CC1=CC2=C(C=C1)C=C(COC(=O)NC1=CC=C(C=C1)C(=O)NO)C=C2",
+      "dose": 1000.0,
+      "n": 200,
+      "fp_cosine": 0.2767593624086648
+    },
+    {
+      "cond": "MCF7_CEP-33779_1.0",
+      "line": "MCF7",
+      "smiles": "CN1CCN(CC1)C1=CC=CC(NC2=NN3C=CC=C(C3=N2)C2=CC=C(C=C2)S(C)(=O)=O)=C1",
+      "swapped": "O.Cl.CCN(CC)CC1=CC2=C(C=C1)C=C(COC(=O)NC1=CC=C(C=C1)C(=O)NO)C=C2",
+      "dose": 10000.0,
+      "n": 200,
+      "fp_cosine": 0.2767593624086651
+    },
+    {
+      "cond": "MCF7_CUDC-907_0.001",
+      "line": "MCF7",
+      "smiles": "COC1=CC=C(C=N1)C1=NC2=C(SC(CN(C)C3=NC=C(C=N3)C(=O)NO)=C2)C(=N1)N1CCOCC1",
+      "swapped": "COC1=CC2=C(C=C1OCC3CCN(C)CC3)N=CN=C2NC4=C(F)C=C(Br)C=C4",
+      "dose": 10.0,
+      "n": 200,
+      "fp_cosine": 0.2626396615835699
+    },
+    {
+      "cond": "MCF7_CUDC-907_0.01",
+      "line": "MCF7",
+      "smiles": "COC1=CC=C(C=N1)C1=NC2=C(SC(CN(C)C3=NC=C(C=N3)C(=O)NO)=C2)C(=N1)N1CCOCC1",
+      "swapped": "COC1=CC2=C(C=C1OCC3CCN(C)CC3)N=CN=C2NC4=C(F)C=C(Br)C=C4",
+      "dose": 100.0,
+      "n": 200,
+      "fp_cosine": 0.2626396615835735
+    },
+    {
+      "cond": "MCF7_CUDC-907_0.1",
+      "line": "MCF7",
+      "smiles": "COC1=CC=C(C=N1)C1=NC2=C(SC(CN(C)C3=NC=C(C=N3)C(=O)NO)=C2)C(=N1)N1CCOCC1",
+      "swapped": "COC1=CC2=C(C=C1OCC3CCN(C)CC3)N=CN=C2NC4=C(F)C=C(Br)C=C4",
+      "dose": 1000.0,
+      "n": 185,
+      "fp_cosine": 0.26263966158357416
+    },
+    {
+      "cond": "MCF7_CUDC-907_1.0",
+      "line": "MCF7",
+      "smiles": "COC1=CC=C(C=N1)C1=NC2=C(SC(CN(C)C3=NC=C(C=N3)C(=O)NO)=C2)C(=N1)N1CCOCC1",
+      "swapped": "COC1=CC2=C(C=C1OCC3CCN(C)CC3)N=CN=C2NC4=C(F)C=C(Br)C=C4",
+      "dose": 10000.0,
+      "n": 135,
+      "fp_cosine": 0.26263966158357444
+    },
+    {
+      "cond": "MCF7_Dacinostat_0.001",
+      "line": "MCF7",
+      "smiles": "OCCN(CCC1=CNC2=C1C=CC=C2)CC1=CC=C(\\C=C\\C(=O)NO)C=C1",
+      "swapped": "S=[P](N1CC1)(N2CC2)N3CC3",
+      "dose": 10.0,
+      "n": 200,
+      "fp_cosine": 0.14744195615489047
+    },
+    {
+      "cond": "MCF7_Dacinostat_0.01",
+      "line": "MCF7",
+      "smiles": "OCCN(CCC1=CNC2=C1C=CC=C2)CC1=CC=C(\\C=C\\C(=O)NO)C=C1",
+      "swapped": "S=[P](N1CC1)(N2CC2)N3CC3",
+      "dose": 100.0,
+      "n": 153,
+      "fp_cosine": 0.14744195615489533
+    },
+    {
+      "cond": "MCF7_Dacinostat_0.1",
+      "line": "MCF7",
+      "smiles": "OCCN(CCC1=CNC2=C1C=CC=C2)CC1=CC=C(\\C=C\\C(=O)NO)C=C1",
+      "swapped": "S=[P](N1CC1)(N2CC2)N3CC3",
+      "dose": 1000.0,
+      "n": 168,
+      "fp_cosine": 0.14744195615489633
+    },
+    {
+      "cond": "MCF7_Dacinostat_1.0",
+      "line": "MCF7",
+      "smiles": "OCCN(CCC1=CNC2=C1C=CC=C2)CC1=CC=C(\\C=C\\C(=O)NO)C=C1",
+      "swapped": "S=[P](N1CC1)(N2CC2)N3CC3",
+      "dose": 10000.0,
+      "n": 200,
+      "fp_cosine": 0.14744195615489666
+    },
+    {
+      "cond": "MCF7_Decitabine_0.001",
+      "line": "MCF7",
+      "smiles": "NC1=NC(=O)N(C=N1)[C@H]1C[C@H](O)[C@@H](CO)O1",
+      "swapped": "CCN1CCN(CC1)C(=O)CC1=CC=C(NC2=NC(NC3=CC=C(C=C3)C(=O)NC3=CC=CC=C3Cl)=C(F)C=N2)C=C1",
+      "dose": 10.0,
+      "n": 165,
+      "fp_cosine": 0.19374379187858876
+    },
+    {
+      "cond": "MCF7_Decitabine_0.01",
+      "line": "MCF7",
+      "smiles": "NC1=NC(=O)N(C=N1)[C@H]1C[C@H](O)[C@@H](CO)O1",
+      "swapped": "CCN1CCN(CC1)C(=O)CC1=CC=C(NC2=NC(NC3=CC=C(C=C3)C(=O)NC3=CC=CC=C3Cl)=C(F)C=N2)C=C1",
+      "dose": 100.0,
+      "n": 110,
+      "fp_cosine": 0.19374379187859195
+    },
+    {
+      "cond": "MCF7_Decitabine_0.1",
+      "line": "MCF7",
+      "smiles": "NC1=NC(=O)N(C=N1)[C@H]1C[C@H](O)[C@@H](CO)O1",
+      "swapped": "CCN1CCN(CC1)C(=O)CC1=CC=C(NC2=NC(NC3=CC=C(C=C3)C(=O)NC3=CC=CC=C3Cl)=C(F)C=N2)C=C1",
+      "dose": 1000.0,
+      "n": 73,
+      "fp_cosine": 0.19374379187859256
+    },
+    {
+      "cond": "MCF7_Decitabine_1.0",
+      "line": "MCF7",
+      "smiles": "NC1=NC(=O)N(C=N1)[C@H]1C[C@H](O)[C@@H](CO)O1",
+      "swapped": "CCN1CCN(CC1)C(=O)CC1=CC=C(NC2=NC(NC3=CC=C(C=C3)C(=O)NC3=CC=CC=C3Cl)=C(F)C=N2)C=C1",
+      "dose": 10000.0,
+      "n": 154,
+      "fp_cosine": 0.19374379187859284
+    },
+    {
+      "cond": "MCF7_Disulfiram_0.001",
+      "line": "MCF7",
+      "smiles": "CCN(CC)C(=S)SSC(=S)N(CC)CC",
+      "swapped": "CN1CCN(CC1)C1=CC=CC(NC2=NN3C=CC=C(C3=N2)C2=CC=C(C=C2)S(C)(=O)=O)=C1",
+      "dose": 10.0,
+      "n": 168,
+      "fp_cosine": 0.16182267881254092
+    },
+    {
+      "cond": "MCF7_Disulfiram_0.01",
+      "line": "MCF7",
+      "smiles": "CCN(CC)C(=S)SSC(=S)N(CC)CC",
+      "swapped": "CN1CCN(CC1)C1=CC=CC(NC2=NN3C=CC=C(C3=N2)C2=CC=C(C=C2)S(C)(=O)=O)=C1",
+      "dose": 100.0,
+      "n": 117,
+      "fp_cosine": 0.16182267881254536
+    },
+    {
+      "cond": "MCF7_Disulfiram_0.1",
+      "line": "MCF7",
+      "smiles": "CCN(CC)C(=S)SSC(=S)N(CC)CC",
+      "swapped": "CN1CCN(CC1)C1=CC=CC(NC2=NN3C=CC=C(C3=N2)C2=CC=C(C=C2)S(C)(=O)=O)=C1",
+      "dose": 1000.0,
+      "n": 144,
+      "fp_cosine": 0.16182267881254625
+    },
+    {
+      "cond": "MCF7_Disulfiram_1.0",
+      "line": "MCF7",
+      "smiles": "CCN(CC)C(=S)SSC(=S)N(CC)CC",
+      "swapped": "CN1CCN(CC1)C1=CC=CC(NC2=NN3C=CC=C(C3=N2)C2=CC=C(C=C2)S(C)(=O)=O)=C1",
+      "dose": 10000.0,
+      "n": 194,
+      "fp_cosine": 0.16182267881254656
+    },
+    {
+      "cond": "MCF7_Entinostat_0.001",
+      "line": "MCF7",
+      "smiles": "NC1=CC=CC=C1NC(=O)C1=CC=C(CNC(=O)OCC2=CN=CC=C2)C=C1",
+      "swapped": "Cl.Cl.CN1C=C(CNCC2CCN(CC2)C2=NC=C(C=N2)C(=O)NO)C2=CC=CC=C12",
+      "dose": 10.0,
+      "n": 200,
+      "fp_cosine": 0.34594920301082455
+    },
+    {
+      "cond": "MCF7_Entinostat_0.01",
+      "line": "MCF7",
+      "smiles": "NC1=CC=CC=C1NC(=O)C1=CC=C(CNC(=O)OCC2=CN=CC=C2)C=C1",
+      "swapped": "Cl.Cl.CN1C=C(CNCC2CCN(CC2)C2=NC=C(C=N2)C(=O)NO)C2=CC=CC=C12",
+      "dose": 100.0,
+      "n": 200,
+      "fp_cosine": 0.34594920301082993
+    },
+    {
+      "cond": "MCF7_Entinostat_0.1",
+      "line": "MCF7",
+      "smiles": "NC1=CC=CC=C1NC(=O)C1=CC=C(CNC(=O)OCC2=CN=CC=C2)C=C1",
+      "swapped": "Cl.Cl.CN1C=C(CNCC2CCN(CC2)C2=NC=C(C=N2)C(=O)NO)C2=CC=CC=C12",
+      "dose": 1000.0,
+      "n": 198,
+      "fp_cosine": 0.345949203010831
+    },
+    {
+      "cond": "MCF7_Entinostat_1.0",
+      "line": "MCF7",
+      "smiles": "NC1=CC=CC=C1NC(=O)C1=CC=C(CNC(=O)OCC2=CN=CC=C2)C=C1",
+      "swapped": "Cl.Cl.CN1C=C(CNCC2CCN(CC2)C2=NC=C(C=N2)C(=O)NO)C2=CC=CC=C12",
+      "dose": 10000.0,
+      "n": 188,
+      "fp_cosine": 0.3459492030108314
+    },
+    {
+      "cond": "MCF7_Enzastaurin_0.001",
+      "line": "MCF7",
+      "smiles": "CN1C=C(C2=CC=CC=C12)C1=C(C(=O)NC1=O)C1=CN(C2CCN(CC3=NC=CC=C3)CC2)C2=CC=CC=C12",
+      "swapped": "CCCCOC1=C2C=N[NH]C2=NC=C1C(=O)C3=C(F)C=C(C)C=C3F",
+      "dose": 10.0,
+      "n": 80,
+      "fp_cosine": 0.2793721183078253
+    },
+    {
+      "cond": "MCF7_Enzastaurin_0.01",
+      "line": "MCF7",
+      "smiles": "CN1C=C(C2=CC=CC=C12)C1=C(C(=O)NC1=O)C1=CN(C2CCN(CC3=NC=CC=C3)CC2)C2=CC=CC=C12",
+      "swapped": "CCCCOC1=C2C=N[NH]C2=NC=C1C(=O)C3=C(F)C=C(C)C=C3F",
+      "dose": 100.0,
+      "n": 191,
+      "fp_cosine": 0.27937211830782965
+    },
+    {
+      "cond": "MCF7_Enzastaurin_0.1",
+      "line": "MCF7",
+      "smiles": "CN1C=C(C2=CC=CC=C12)C1=C(C(=O)NC1=O)C1=CN(C2CCN(CC3=NC=CC=C3)CC2)C2=CC=CC=C12",
+      "swapped": "CCCCOC1=C2C=N[NH]C2=NC=C1C(=O)C3=C(F)C=C(C)C=C3F",
+      "dose": 1000.0,
+      "n": 200,
+      "fp_cosine": 0.27937211830783054
+    },
+    {
+      "cond": "MCF7_Enzastaurin_1.0",
+      "line": "MCF7",
+      "smiles": "CN1C=C(C2=CC=CC=C12)C1=C(C(=O)NC1=O)C1=CN(C2CCN(CC3=NC=CC=C3)CC2)C2=CC=CC=C12",
+      "swapped": "CCCCOC1=C2C=N[NH]C2=NC=C1C(=O)C3=C(F)C=C(C)C=C3F",
+      "dose": 10000.0,
+      "n": 185,
+      "fp_cosine": 0.2793721183078308
+    },
+    {
+      "cond": "MCF7_Fasudil_0.001",
+      "line": "MCF7",
+      "smiles": "Cl.O=S(=O)(N1CCCNCC1)C1=C2C=CN=CC2=CC=C1",
+      "swapped": "ClCCN(N=O)C(=O)NC1CCCCC1",
+      "dose": 10.0,
+      "n": 200,
+      "fp_cosine": 0.18148850216015086
+    },
+    {
+      "cond": "MCF7_Fasudil_0.01",
+      "line": "MCF7",
+      "smiles": "Cl.O=S(=O)(N1CCCNCC1)C1=C2C=CN=CC2=CC=C1",
+      "swapped": "ClCCN(N=O)C(=O)NC1CCCCC1",
+      "dose": 100.0,
+      "n": 185,
+      "fp_cosine": 0.1814885021601553
+    },
+    {
+      "cond": "MCF7_Fasudil_0.1",
+      "line": "MCF7",
+      "smiles": "Cl.O=S(=O)(N1CCCNCC1)C1=C2C=CN=CC2=CC=C1",
+      "swapped": "ClCCN(N=O)C(=O)NC1CCCCC1",
+      "dose": 1000.0,
+      "n": 200,
+      "fp_cosine": 0.1814885021601562
+    },
+    {
+      "cond": "MCF7_Fasudil_1.0",
+      "line": "MCF7",
+      "smiles": "Cl.O=S(=O)(N1CCCNCC1)C1=C2C=CN=CC2=CC=C1",
+      "swapped": "ClCCN(N=O)C(=O)NC1CCCCC1",
+      "dose": 10000.0,
+      "n": 200,
+      "fp_cosine": 0.18148850216015652
+    },
+    {
+      "cond": "MCF7_Flavopiridol_0.001",
+      "line": "MCF7",
+      "smiles": "Cl.CN1CCC(C(O)C1)C2=C3OC(=CC(=O)C3=C(O)C=C2O)C4=C(Cl)C=CC=C4",
+      "swapped": "FC1=CNC(=O)NC1=O",
+      "dose": 10.0,
+      "n": 136,
+      "fp_cosine": 0.2145595619556384
+    },
+    {
+      "cond": "MCF7_Flavopiridol_0.01",
+      "line": "MCF7",
+      "smiles": "Cl.CN1CCC(C(O)C1)C2=C3OC(=CC(=O)C3=C(O)C=C2O)C4=C(Cl)C=CC=C4",
+      "swapped": "FC1=CNC(=O)NC1=O",
+      "dose": 100.0,
+      "n": 82,
+      "fp_cosine": 0.21455956195564357
+    },
+    {
+      "cond": "MCF7_Flavopiridol_0.1",
+      "line": "MCF7",
+      "smiles": "Cl.CN1CCC(C(O)C1)C2=C3OC(=CC(=O)C3=C(O)C=C2O)C4=C(Cl)C=CC=C4",
+      "swapped": "FC1=CNC(=O)NC1=O",
+      "dose": 1000.0,
+      "n": 19,
+      "fp_cosine": 0.21455956195564463
+    },
+    {
+      "cond": "MCF7_Flavopiridol_1.0",
+      "line": "MCF7",
+      "smiles": "Cl.CN1CCC(C(O)C1)C2=C3OC(=CC(=O)C3=C(O)C=C2O)C4=C(Cl)C=CC=C4",
+      "swapped": "FC1=CNC(=O)NC1=O",
+      "dose": 10000.0,
+      "n": 11,
+      "fp_cosine": 0.214559561955645
+    },
+    {
+      "cond": "MCF7_Fluorouracil_0.001",
+      "line": "MCF7",
+      "smiles": "FC1=CNC(=O)NC1=O",
+      "swapped": "CN(C)CC(=O)NC1=CC2=C(NC(=O)C3=C2C=CC=C3)C=C1",
+      "dose": 10.0,
+      "n": 200,
+      "fp_cosine": 0.24956709924230133
+    },
+    {
+      "cond": "MCF7_Fluorouracil_0.01",
+      "line": "MCF7",
+      "smiles": "FC1=CNC(=O)NC1=O",
+      "swapped": "CN(C)CC(=O)NC1=CC2=C(NC(=O)C3=C2C=CC=C3)C=C1",
+      "dose": 100.0,
+      "n": 200,
+      "fp_cosine": 0.24956709924230833
+    },
+    {
+      "cond": "MCF7_Fluorouracil_0.1",
+      "line": "MCF7",
+      "smiles": "FC1=CNC(=O)NC1=O",
+      "swapped": "CN(C)CC(=O)NC1=CC2=C(NC(=O)C3=C2C=CC=C3)C=C1",
+      "dose": 1000.0,
+      "n": 178,
+      "fp_cosine": 0.24956709924230974
+    },
+    {
+      "cond": "MCF7_Fluorouracil_1.0",
+      "line": "MCF7",
+      "smiles": "FC1=CNC(=O)NC1=O",
+      "swapped": "CN(C)CC(=O)NC1=CC2=C(NC(=O)C3=C2C=CC=C3)C=C1",
+      "dose": 10000.0,
+      "n": 151,
+      "fp_cosine": 0.24956709924231024
+    },
+    {
+      "cond": "MCF7_Givinostat_0.001",
+      "line": "MCF7",
+      "smiles": "O.Cl.CCN(CC)CC1=CC2=C(C=C1)C=C(COC(=O)NC1=CC=C(C=C1)C(=O)NO)C=C2",
+      "swapped": "COC1CC(C)CC2=C(NCC=C)C(=O)C=C(NC(=O)C(=C\\C=C/C(OC)C(OC(N)=O)/C(=C/C(C)C1O)C)\\C)C2=O",
+      "dose": 10.0,
+      "n": 200,
+      "fp_cosine": 0.17541160386140228
+    },
+    {
+      "cond": "MCF7_Givinostat_0.01",
+      "line": "MCF7",
+      "smiles": "O.Cl.CCN(CC)CC1=CC2=C(C=C1)C=C(COC(=O)NC1=CC=C(C=C1)C(=O)NO)C=C2",
+      "swapped": "COC1CC(C)CC2=C(NCC=C)C(=O)C=C(NC(=O)C(=C\\C=C/C(OC)C(OC(N)=O)/C(=C/C(C)C1O)C)\\C)C2=O",
+      "dose": 100.0,
+      "n": 200,
+      "fp_cosine": 0.1754116038614049
+    },
+    {
+      "cond": "MCF7_Givinostat_0.1",
+      "line": "MCF7",
+      "smiles": "O.Cl.CCN(CC)CC1=CC2=C(C=C1)C=C(COC(=O)NC1=CC=C(C=C1)C(=O)NO)C=C2",
+      "swapped": "COC1CC(C)CC2=C(NCC=C)C(=O)C=C(NC(=O)C(=C\\C=C/C(OC)C(OC(N)=O)/C(=C/C(C)C1O)C)\\C)C2=O",
+      "dose": 1000.0,
+      "n": 191,
+      "fp_cosine": 0.17541160386140542
+    },
+    {
+      "cond": "MCF7_Givinostat_1.0",
+      "line": "MCF7",
+      "smiles": "O.Cl.CCN(CC)CC1=CC2=C(C=C1)C=C(COC(=O)NC1=CC=C(C=C1)C(=O)NO)C=C2",
+      "swapped": "COC1CC(C)CC2=C(NCC=C)C(=O)C=C(NC(=O)C(=C\\C=C/C(OC)C(OC(N)=O)/C(=C/C(C)C1O)C)\\C)C2=O",
+      "dose": 10000.0,
+      "n": 200,
+      "fp_cosine": 0.17541160386140559
+    },
+    {
+      "cond": "MCF7_Ki8751_0.001",
+      "line": "MCF7",
+      "smiles": "COC1=CC2=NC=CC(=C2C=C1OC)OC3=CC=C(NC(=O)NC4=CC=C(F)C=C4F)C(=C3)F",
+      "swapped": "OC1=C2CSCCC2=NC(=N1)C3=CC=C(C=C3)C(F)(F)F",
+      "dose": 10.0,
+      "n": 200,
+      "fp_cosine": 0.18523964340873256
+    },
+    {
+      "cond": "MCF7_Ki8751_0.01",
+      "line": "MCF7",
+      "smiles": "COC1=CC2=NC=CC(=C2C=C1OC)OC3=CC=C(NC(=O)NC4=CC=C(F)C=C4F)C(=C3)F",
+      "swapped": "OC1=C2CSCCC2=NC(=N1)C3=CC=C(C=C3)C(F)(F)F",
+      "dose": 100.0,
+      "n": 200,
+      "fp_cosine": 0.1852396434087359
+    },
+    {
+      "cond": "MCF7_Ki8751_0.1",
+      "line": "MCF7",
+      "smiles": "COC1=CC2=NC=CC(=C2C=C1OC)OC3=CC=C(NC(=O)NC4=CC=C(F)C=C4F)C(=C3)F",
+      "swapped": "OC1=C2CSCCC2=NC(=N1)C3=CC=C(C=C3)C(F)(F)F",
+      "dose": 1000.0,
+      "n": 199,
+      "fp_cosine": 0.18523964340873653
+    },
+    {
+      "cond": "MCF7_Ki8751_1.0",
+      "line": "MCF7",
+      "smiles": "COC1=CC2=NC=CC(=C2C=C1OC)OC3=CC=C(NC(=O)NC4=CC=C(F)C=C4F)C(=C3)F",
+      "swapped": "OC1=C2CSCCC2=NC(=N1)C3=CC=C(C=C3)C(F)(F)F",
+      "dose": 10000.0,
+      "n": 147,
+      "fp_cosine": 0.18523964340873678
+    },
+    {
+      "cond": "MCF7_Lomustine_0.001",
+      "line": "MCF7",
+      "smiles": "ClCCN(N=O)C(=O)NC1CCCCC1",
+      "swapped": "Cl.Cl.FC1=CC(=CC(F)=C1CN1CCOCC1)C1=C2N=C(C=NC2=CC=C1)C1=CN(N=C1)C1CCNCC1",
+      "dose": 10.0,
+      "n": 162,
+      "fp_cosine": 0.1432082875315474
+    },
+    {
+      "cond": "MCF7_Lomustine_0.01",
+      "line": "MCF7",
+      "smiles": "ClCCN(N=O)C(=O)NC1CCCCC1",
+      "swapped": "Cl.Cl.FC1=CC(=CC(F)=C1CN1CCOCC1)C1=C2N=C(C=NC2=CC=C1)C1=CN(N=C1)C1CCNCC1",
+      "dose": 100.0,
+      "n": 200,
+      "fp_cosine": 0.14320828753155018
+    },
+    {
+      "cond": "MCF7_Lomustine_0.1",
+      "line": "MCF7",
+      "smiles": "ClCCN(N=O)C(=O)NC1CCCCC1",
+      "swapped": "Cl.Cl.FC1=CC(=CC(F)=C1CN1CCOCC1)C1=C2N=C(C=NC2=CC=C1)C1=CN(N=C1)C1CCNCC1",
+      "dose": 1000.0,
+      "n": 200,
+      "fp_cosine": 0.14320828753155074
+    },
+    {
+      "cond": "MCF7_Lomustine_1.0",
+      "line": "MCF7",
+      "smiles": "ClCCN(N=O)C(=O)NC1CCCCC1",
+      "swapped": "Cl.Cl.FC1=CC(=CC(F)=C1CN1CCOCC1)C1=C2N=C(C=NC2=CC=C1)C1=CN(N=C1)C1CCNCC1",
+      "dose": 10000.0,
+      "n": 152,
+      "fp_cosine": 0.14320828753155093
+    },
+    {
+      "cond": "MCF7_MC1568_0.001",
+      "line": "MCF7",
+      "smiles": "CN1C=C(\\C=C\\C(=O)C2=CC=CC(F)=C2)C=C1\\C=C\\C(=O)NO",
+      "swapped": "Cl.O=S(=O)(N1CCCNCC1)C1=C2C=CN=CC2=CC=C1",
+      "dose": 10.0,
+      "n": 197,
+      "fp_cosine": 0.3302891295378998
+    },
+    {
+      "cond": "MCF7_MC1568_0.01",
+      "line": "MCF7",
+      "smiles": "CN1C=C(\\C=C\\C(=O)C2=CC=CC(F)=C2)C=C1\\C=C\\C(=O)NO",
+      "swapped": "Cl.O=S(=O)(N1CCCNCC1)C1=C2C=CN=CC2=CC=C1",
+      "dose": 100.0,
+      "n": 195,
+      "fp_cosine": 0.3302891295379059
+    },
+    {
+      "cond": "MCF7_MC1568_0.1",
+      "line": "MCF7",
+      "smiles": "CN1C=C(\\C=C\\C(=O)C2=CC=CC(F)=C2)C=C1\\C=C\\C(=O)NO",
+      "swapped": "Cl.O=S(=O)(N1CCCNCC1)C1=C2C=CN=CC2=CC=C1",
+      "dose": 1000.0,
+      "n": 200,
+      "fp_cosine": 0.3302891295379072
+    },
+    {
+      "cond": "MCF7_MC1568_1.0",
+      "line": "MCF7",
+      "smiles": "CN1C=C(\\C=C\\C(=O)C2=CC=CC(F)=C2)C=C1\\C=C\\C(=O)NO",
+      "swapped": "Cl.O=S(=O)(N1CCCNCC1)C1=C2C=CN=CC2=CC=C1",
+      "dose": 10000.0,
+      "n": 200,
+      "fp_cosine": 0.3302891295379076
+    },
+    {
+      "cond": "MCF7_MK-0752_0.001",
+      "line": "MCF7",
+      "smiles": "OC(=O)CCC1CCC(CC1)(C2=C(F)C=CC(=C2)F)[S](=O)(=O)C3=CC=C(Cl)C=C3",
+      "swapped": "C[C@H](NC(=O)C(=C\\C1=NC(Br)=CC=C1)\\C#N)C1=CC=CC=C1",
+      "dose": 10.0,
+      "n": 200,
+      "fp_cosine": 0.29424494316824185
+    },
+    {
+      "cond": "MCF7_MK-0752_0.01",
+      "line": "MCF7",
+      "smiles": "OC(=O)CCC1CCC(CC1)(C2=C(F)C=CC(=C2)F)[S](=O)(=O)C3=CC=C(Cl)C=C3",
+      "swapped": "C[C@H](NC(=O)C(=C\\C1=NC(Br)=CC=C1)\\C#N)C1=CC=CC=C1",
+      "dose": 100.0,
+      "n": 200,
+      "fp_cosine": 0.2942449431682477
+    },
+    {
+      "cond": "MCF7_MK-0752_0.1",
+      "line": "MCF7",
+      "smiles": "OC(=O)CCC1CCC(CC1)(C2=C(F)C=CC(=C2)F)[S](=O)(=O)C3=CC=C(Cl)C=C3",
+      "swapped": "C[C@H](NC(=O)C(=C\\C1=NC(Br)=CC=C1)\\C#N)C1=CC=CC=C1",
+      "dose": 1000.0,
+      "n": 200,
+      "fp_cosine": 0.29424494316824884
+    },
+    {
+      "cond": "MCF7_MK-0752_1.0",
+      "line": "MCF7",
+      "smiles": "OC(=O)CCC1CCC(CC1)(C2=C(F)C=CC(=C2)F)[S](=O)(=O)C3=CC=C(Cl)C=C3",
+      "swapped": "C[C@H](NC(=O)C(=C\\C1=NC(Br)=CC=C1)\\C#N)C1=CC=CC=C1",
+      "dose": 10000.0,
+      "n": 141,
+      "fp_cosine": 0.29424494316824934
+    },
+    {
+      "cond": "MCF7_NVP-BSK805_0.001",
+      "line": "MCF7",
+      "smiles": "Cl.Cl.FC1=CC(=CC(F)=C1CN1CCOCC1)C1=C2N=C(C=NC2=CC=C1)C1=CN(N=C1)C1CCNCC1",
+      "swapped": "COC1=C(OCCCN2CCOCC2)C=C2N=CN=C(NC3=CC=C(NC(=O)C4=CC=CC=C4)C=C3)C2=C1",
+      "dose": 10.0,
+      "n": 200,
+      "fp_cosine": 0.37043389328831167
+    },
+    {
+      "cond": "MCF7_NVP-BSK805_0.01",
+      "line": "MCF7",
+      "smiles": "Cl.Cl.FC1=CC(=CC(F)=C1CN1CCOCC1)C1=C2N=C(C=NC2=CC=C1)C1=CN(N=C1)C1CCNCC1",
+      "swapped": "COC1=C(OCCCN2CCOCC2)C=C2N=CN=C(NC3=CC=C(NC(=O)C4=CC=CC=C4)C=C3)C2=C1",
+      "dose": 100.0,
+      "n": 200,
+      "fp_cosine": 0.37043389328831633
+    },
+    {
+      "cond": "MCF7_NVP-BSK805_0.1",
+      "line": "MCF7",
+      "smiles": "Cl.Cl.FC1=CC(=CC(F)=C1CN1CCOCC1)C1=C2N=C(C=NC2=CC=C1)C1=CN(N=C1)C1CCNCC1",
+      "swapped": "COC1=C(OCCCN2CCOCC2)C=C2N=CN=C(NC3=CC=C(NC(=O)C4=CC=CC=C4)C=C3)C2=C1",
+      "dose": 1000.0,
+      "n": 200,
+      "fp_cosine": 0.3704338932883173
+    },
+    {
+      "cond": "MCF7_NVP-BSK805_1.0",
+      "line": "MCF7",
+      "smiles": "Cl.Cl.FC1=CC(=CC(F)=C1CN1CCOCC1)C1=C2N=C(C=NC2=CC=C1)C1=CN(N=C1)C1CCNCC1",
+      "swapped": "COC1=C(OCCCN2CCOCC2)C=C2N=CN=C(NC3=CC=C(NC(=O)C4=CC=CC=C4)C=C3)C2=C1",
+      "dose": 10000.0,
+      "n": 200,
+      "fp_cosine": 0.3704338932883176
+    },
+    {
+      "cond": "MCF7_PF-573228_0.001",
+      "line": "MCF7",
+      "smiles": "C[S](=O)(=O)C1=CC(=CC=C1)CNC2=NC(=NC=C2C(F)(F)F)NC3=CC4=C(NC(=O)CC4)C=C3",
+      "swapped": "CN(C)CC1=CC=C(C=C1)S(=O)(=O)N1C=CC(\\C=C\\C(=O)NO)=C1",
+      "dose": 10.0,
+      "n": 83,
+      "fp_cosine": 0.27735009811260863
+    },
+    {
+      "cond": "MCF7_PF-573228_0.01",
+      "line": "MCF7",
+      "smiles": "C[S](=O)(=O)C1=CC(=CC=C1)CNC2=NC(=NC=C2C(F)(F)F)NC3=CC4=C(NC(=O)CC4)C=C3",
+      "swapped": "CN(C)CC1=CC=C(C=C1)S(=O)(=O)N1C=CC(\\C=C\\C(=O)NO)=C1",
+      "dose": 100.0,
+      "n": 196,
+      "fp_cosine": 0.277350098112613
+    },
+    {
+      "cond": "MCF7_PF-573228_0.1",
+      "line": "MCF7",
+      "smiles": "C[S](=O)(=O)C1=CC(=CC=C1)CNC2=NC(=NC=C2C(F)(F)F)NC3=CC4=C(NC(=O)CC4)C=C3",
+      "swapped": "CN(C)CC1=CC=C(C=C1)S(=O)(=O)N1C=CC(\\C=C\\C(=O)NO)=C1",
+      "dose": 1000.0,
+      "n": 197,
+      "fp_cosine": 0.2773500981126138
+    },
+    {
+      "cond": "MCF7_PF-573228_1.0",
+      "line": "MCF7",
+      "smiles": "C[S](=O)(=O)C1=CC(=CC=C1)CNC2=NC(=NC=C2C(F)(F)F)NC3=CC4=C(NC(=O)CC4)C=C3",
+      "swapped": "CN(C)CC1=CC=C(C=C1)S(=O)(=O)N1C=CC(\\C=C\\C(=O)NO)=C1",
+      "dose": 10000.0,
+      "n": 93,
+      "fp_cosine": 0.27735009811261413
+    },
+    {
+      "cond": "MCF7_PJ34_0.001",
+      "line": "MCF7",
+      "smiles": "CN(C)CC(=O)NC1=CC2=C(NC(=O)C3=C2C=CC=C3)C=C1",
+      "swapped": "COC1=CC2=NC=CC(=C2C=C1OC)OC3=CC=C(NC(=O)NC4=CC=C(F)C=C4F)C(=C3)F",
+      "dose": 10.0,
+      "n": 200,
+      "fp_cosine": 0.2646280620124751
+    },
+    {
+      "cond": "MCF7_PJ34_0.01",
+      "line": "MCF7",
+      "smiles": "CN(C)CC(=O)NC1=CC2=C(NC(=O)C3=C2C=CC=C3)C=C1",
+      "swapped": "COC1=CC2=NC=CC(=C2C=C1OC)OC3=CC=C(NC(=O)NC4=CC=C(F)C=C4F)C(=C3)F",
+      "dose": 100.0,
+      "n": 200,
+      "fp_cosine": 0.26462806201247985
+    },
+    {
+      "cond": "MCF7_PJ34_0.1",
+      "line": "MCF7",
+      "smiles": "CN(C)CC(=O)NC1=CC2=C(NC(=O)C3=C2C=CC=C3)C=C1",
+      "swapped": "COC1=CC2=NC=CC(=C2C=C1OC)OC3=CC=C(NC(=O)NC4=CC=C(F)C=C4F)C(=C3)F",
+      "dose": 1000.0,
+      "n": 200,
+      "fp_cosine": 0.26462806201248074
+    },
+    {
+      "cond": "MCF7_PJ34_1.0",
+      "line": "MCF7",
+      "smiles": "CN(C)CC(=O)NC1=CC2=C(NC(=O)C3=C2C=CC=C3)C=C1",
+      "swapped": "COC1=CC2=NC=CC(=C2C=C1OC)OC3=CC=C(NC(=O)NC4=CC=C(F)C=C4F)C(=C3)F",
+      "dose": 10000.0,
+      "n": 191,
+      "fp_cosine": 0.2646280620124811
+    },
+    {
+      "cond": "MCF7_Quisinostat_0.001",
+      "line": "MCF7",
+      "smiles": "Cl.Cl.CN1C=C(CNCC2CCN(CC2)C2=NC=C(C=N2)C(=O)NO)C2=CC=CC=C12",
+      "swapped": "CC(NC(=O)C1=CC=CC=C1\\N=C\\C1=C2C=CC=CC2=CC=C1O)C1=CC=CC=C1",
+      "dose": 10.0,
+      "n": 153,
+      "fp_cosine": 0.30018767596454904
+    },
+    {
+      "cond": "MCF7_Quisinostat_0.01",
+      "line": "MCF7",
+      "smiles": "Cl.Cl.CN1C=C(CNCC2CCN(CC2)C2=NC=C(C=N2)C(=O)NO)C2=CC=CC=C12",
+      "swapped": "CC(NC(=O)C1=CC=CC=C1\\N=C\\C1=C2C=CC=CC2=CC=C1O)C1=CC=CC=C1",
+      "dose": 100.0,
+      "n": 175,
+      "fp_cosine": 0.3001876759645541
+    },
+    {
+      "cond": "MCF7_Quisinostat_0.1",
+      "line": "MCF7",
+      "smiles": "Cl.Cl.CN1C=C(CNCC2CCN(CC2)C2=NC=C(C=N2)C(=O)NO)C2=CC=CC=C12",
+      "swapped": "CC(NC(=O)C1=CC=CC=C1\\N=C\\C1=C2C=CC=CC2=CC=C1O)C1=CC=CC=C1",
+      "dose": 1000.0,
+      "n": 200,
+      "fp_cosine": 0.3001876759645551
+    },
+    {
+      "cond": "MCF7_Quisinostat_1.0",
+      "line": "MCF7",
+      "smiles": "Cl.Cl.CN1C=C(CNCC2CCN(CC2)C2=NC=C(C=N2)C(=O)NO)C2=CC=CC=C12",
+      "swapped": "CC(NC(=O)C1=CC=CC=C1\\N=C\\C1=C2C=CC=CC2=CC=C1O)C1=CC=CC=C1",
+      "dose": 10000.0,
+      "n": 200,
+      "fp_cosine": 0.30018767596455553
+    },
+    {
+      "cond": "MCF7_Resminostat_0.001",
+      "line": "MCF7",
+      "smiles": "CN(C)CC1=CC=C(C=C1)S(=O)(=O)N1C=CC(\\C=C\\C(=O)NO)=C1",
+      "swapped": "COC1=C(OCCCN2CCCC2)C=C2N=C(N)C3(CCC3)C2=C1",
+      "dose": 10.0,
+      "n": 200,
+      "fp_cosine": 0.25724787771375646
+    },
+    {
+      "cond": "MCF7_Resminostat_0.01",
+      "line": "MCF7",
+      "smiles": "CN(C)CC1=CC=C(C=C1)S(=O)(=O)N1C=CC(\\C=C\\C(=O)NO)=C1",
+      "swapped": "COC1=C(OCCCN2CCCC2)C=C2N=C(N)C3(CCC3)C2=C1",
+      "dose": 100.0,
+      "n": 200,
+      "fp_cosine": 0.25724787771376145
+    },
+    {
+      "cond": "MCF7_Resminostat_0.1",
+      "line": "MCF7",
+      "smiles": "CN(C)CC1=CC=C(C=C1)S(=O)(=O)N1C=CC(\\C=C\\C(=O)NO)=C1",
+      "swapped": "COC1=C(OCCCN2CCCC2)C=C2N=C(N)C3(CCC3)C2=C1",
+      "dose": 1000.0,
+      "n": 200,
+      "fp_cosine": 0.25724787771376245
+    },
+    {
+      "cond": "MCF7_Resminostat_1.0",
+      "line": "MCF7",
+      "smiles": "CN(C)CC1=CC=C(C=C1)S(=O)(=O)N1C=CC(\\C=C\\C(=O)NO)=C1",
+      "swapped": "COC1=C(OCCCN2CCCC2)C=C2N=C(N)C3(CCC3)C2=C1",
+      "dose": 10000.0,
+      "n": 200,
+      "fp_cosine": 0.2572478777137628
+    },
+    {
+      "cond": "MCF7_Sirtinol_0.001",
+      "line": "MCF7",
+      "smiles": "CC(NC(=O)C1=CC=CC=C1\\N=C\\C1=C2C=CC=CC2=CC=C1O)C1=CC=CC=C1",
+      "swapped": "C[C@H](NC1=NC(NC2=NNC(C)=C2)=C(F)C=C1C#N)C1=CC=C(F)C=C1",
+      "dose": 10.0,
+      "n": 200,
+      "fp_cosine": 0.18748505440194843
+    },
+    {
+      "cond": "MCF7_Sirtinol_0.01",
+      "line": "MCF7",
+      "smiles": "CC(NC(=O)C1=CC=CC=C1\\N=C\\C1=C2C=CC=CC2=CC=C1O)C1=CC=CC=C1",
+      "swapped": "C[C@H](NC1=NC(NC2=NNC(C)=C2)=C(F)C=C1C#N)C1=CC=C(F)C=C1",
+      "dose": 100.0,
+      "n": 200,
+      "fp_cosine": 0.18748505440195182
+    },
+    {
+      "cond": "MCF7_Sirtinol_0.1",
+      "line": "MCF7",
+      "smiles": "CC(NC(=O)C1=CC=CC=C1\\N=C\\C1=C2C=CC=CC2=CC=C1O)C1=CC=CC=C1",
+      "swapped": "C[C@H](NC1=NC(NC2=NNC(C)=C2)=C(F)C=C1C#N)C1=CC=C(F)C=C1",
+      "dose": 1000.0,
+      "n": 200,
+      "fp_cosine": 0.1874850544019525
+    },
+    {
+      "cond": "MCF7_Sirtinol_1.0",
+      "line": "MCF7",
+      "smiles": "CC(NC(=O)C1=CC=CC=C1\\N=C\\C1=C2C=CC=CC2=CC=C1O)C1=CC=CC=C1",
+      "swapped": "C[C@H](NC1=NC(NC2=NNC(C)=C2)=C(F)C=C1C#N)C1=CC=C(F)C=C1",
+      "dose": 10000.0,
+      "n": 200,
+      "fp_cosine": 0.18748505440195276
+    },
+    {
+      "cond": "MCF7_TAK-901_0.001",
+      "line": "MCF7",
+      "smiles": "CCS(=O)(=O)C1=CC=CC(=C1)C1=CC(C(=O)NC2CCN(C)CC2)=C(C)C2=C1C1=C(N2)N=CC(C)=C1",
+      "swapped": "NC1=CC=CC=C1NC(=O)C1=CC=C(CNC(=O)OCC2=CN=CC=C2)C=C1",
+      "dose": 10.0,
+      "n": 155,
+      "fp_cosine": 0.332105582077529
+    },
+    {
+      "cond": "MCF7_TAK-901_0.01",
+      "line": "MCF7",
+      "smiles": "CCS(=O)(=O)C1=CC=CC(=C1)C1=CC(C(=O)NC2CCN(C)CC2)=C(C)C2=C1C1=C(N2)N=CC(C)=C1",
+      "swapped": "NC1=CC=CC=C1NC(=O)C1=CC=C(CNC(=O)OCC2=CN=CC=C2)C=C1",
+      "dose": 100.0,
+      "n": 174,
+      "fp_cosine": 0.33210558207753393
+    },
+    {
+      "cond": "MCF7_TAK-901_0.1",
+      "line": "MCF7",
+      "smiles": "CCS(=O)(=O)C1=CC=CC(=C1)C1=CC(C(=O)NC2CCN(C)CC2)=C(C)C2=C1C1=C(N2)N=CC(C)=C1",
+      "swapped": "NC1=CC=CC=C1NC(=O)C1=CC=C(CNC(=O)OCC2=CN=CC=C2)C=C1",
+      "dose": 1000.0,
+      "n": 119,
+      "fp_cosine": 0.33210558207753493
+    },
+    {
+      "cond": "MCF7_TAK-901_1.0",
+      "line": "MCF7",
+      "smiles": "CCS(=O)(=O)C1=CC=CC(=C1)C1=CC(C(=O)NC2CCN(C)CC2)=C(C)C2=C1C1=C(N2)N=CC(C)=C1",
+      "swapped": "NC1=CC=CC=C1NC(=O)C1=CC=C(CNC(=O)OCC2=CN=CC=C2)C=C1",
+      "dose": 10000.0,
+      "n": 40,
+      "fp_cosine": 0.3321055820775352
+    },
+    {
+      "cond": "MCF7_Tanespimycin_0.001",
+      "line": "MCF7",
+      "smiles": "COC1CC(C)CC2=C(NCC=C)C(=O)C=C(NC(=O)C(=C\\C=C/C(OC)C(OC(N)=O)/C(=C/C(C)C1O)C)\\C)C2=O",
+      "swapped": "CCS(=O)(=O)C1=CC=CC(=C1)C1=CC(C(=O)NC2CCN(C)CC2)=C(C)C2=C1C1=C(N2)N=CC(C)=C1",
+      "dose": 10.0,
+      "n": 195,
+      "fp_cosine": 0.17476551841063576
+    },
+    {
+      "cond": "MCF7_Tanespimycin_0.01",
+      "line": "MCF7",
+      "smiles": "COC1CC(C)CC2=C(NCC=C)C(=O)C=C(NC(=O)C(=C\\C=C/C(OC)C(OC(N)=O)/C(=C/C(C)C1O)C)\\C)C2=O",
+      "swapped": "CCS(=O)(=O)C1=CC=CC(=C1)C1=CC(C(=O)NC2CCN(C)CC2)=C(C)C2=C1C1=C(N2)N=CC(C)=C1",
+      "dose": 100.0,
+      "n": 127,
+      "fp_cosine": 0.1747655184106381
+    },
+    {
+      "cond": "MCF7_Tanespimycin_0.1",
+      "line": "MCF7",
+      "smiles": "COC1CC(C)CC2=C(NCC=C)C(=O)C=C(NC(=O)C(=C\\C=C/C(OC)C(OC(N)=O)/C(=C/C(C)C1O)C)\\C)C2=O",
+      "swapped": "CCS(=O)(=O)C1=CC=CC(=C1)C1=CC(C(=O)NC2CCN(C)CC2)=C(C)C2=C1C1=C(N2)N=CC(C)=C1",
+      "dose": 1000.0,
+      "n": 85,
+      "fp_cosine": 0.1747655184106385
+    },
+    {
+      "cond": "MCF7_Tanespimycin_1.0",
+      "line": "MCF7",
+      "smiles": "COC1CC(C)CC2=C(NCC=C)C(=O)C=C(NC(=O)C(=C\\C=C/C(OC)C(OC(N)=O)/C(=C/C(C)C1O)C)\\C)C2=O",
+      "swapped": "CCS(=O)(=O)C1=CC=CC(=C1)C1=CC(C(=O)NC2CCN(C)CC2)=C(C)C2=C1C1=C(N2)N=CC(C)=C1",
+      "dose": 10000.0,
+      "n": 96,
+      "fp_cosine": 0.17476551841063867
+    },
+    {
+      "cond": "MCF7_Thiotepa_0.001",
+      "line": "MCF7",
+      "smiles": "S=[P](N1CC1)(N2CC2)N3CC3",
+      "swapped": "CCN(CC)C(=S)SSC(=S)N(CC)CC",
+      "dose": 10.0,
+      "n": 200,
+      "fp_cosine": 0.2773500981125909
+    },
+    {
+      "cond": "MCF7_Thiotepa_0.01",
+      "line": "MCF7",
+      "smiles": "S=[P](N1CC1)(N2CC2)N3CC3",
+      "swapped": "CCN(CC)C(=S)SSC(=S)N(CC)CC",
+      "dose": 100.0,
+      "n": 176,
+      "fp_cosine": 0.2773500981126082
+    },
+    {
+      "cond": "MCF7_Thiotepa_0.1",
+      "line": "MCF7",
+      "smiles": "S=[P](N1CC1)(N2CC2)N3CC3",
+      "swapped": "CCN(CC)C(=S)SSC(=S)N(CC)CC",
+      "dose": 1000.0,
+      "n": 148,
+      "fp_cosine": 0.27735009811261174
+    },
+    {
+      "cond": "MCF7_Thiotepa_1.0",
+      "line": "MCF7",
+      "smiles": "S=[P](N1CC1)(N2CC2)N3CC3",
+      "swapped": "CCN(CC)C(=S)SSC(=S)N(CC)CC",
+      "dose": 10000.0,
+      "n": 182,
+      "fp_cosine": 0.27735009811261296
+    },
+    {
+      "cond": "MCF7_UNC0631_0.001",
+      "line": "MCF7",
+      "smiles": "COC1=CC2=C(NC3CCN(CC4CCCCC4)CC3)N=C(N=C2C=C1OCCCN1CCCCC1)N1CCCN(CC1)C(C)C",
+      "swapped": "NC1=NC(=O)N(C=N1)[C@H]1C[C@H](O)[C@@H](CO)O1",
+      "dose": 10.0,
+      "n": 200,
+      "fp_cosine": 0.22416096662401785
+    },
+    {
+      "cond": "MCF7_UNC0631_0.01",
+      "line": "MCF7",
+      "smiles": "COC1=CC2=C(NC3CCN(CC4CCCCC4)CC3)N=C(N=C2C=C1OCCCN1CCCCC1)N1CCCN(CC1)C(C)C",
+      "swapped": "NC1=NC(=O)N(C=N1)[C@H]1C[C@H](O)[C@@H](CO)O1",
+      "dose": 100.0,
+      "n": 198,
+      "fp_cosine": 0.22416096662402168
+    },
+    {
+      "cond": "MCF7_UNC0631_0.1",
+      "line": "MCF7",
+      "smiles": "COC1=CC2=C(NC3CCN(CC4CCCCC4)CC3)N=C(N=C2C=C1OCCCN1CCCCC1)N1CCCN(CC1)C(C)C",
+      "swapped": "NC1=NC(=O)N(C=N1)[C@H]1C[C@H](O)[C@@H](CO)O1",
+      "dose": 1000.0,
+      "n": 200,
+      "fp_cosine": 0.22416096662402243
+    },
+    {
+      "cond": "MCF7_UNC0631_1.0",
+      "line": "MCF7",
+      "smiles": "COC1=CC2=C(NC3CCN(CC4CCCCC4)CC3)N=C(N=C2C=C1OCCCN1CCCCC1)N1CCCN(CC1)C(C)C",
+      "swapped": "NC1=NC(=O)N(C=N1)[C@H]1C[C@H](O)[C@@H](CO)O1",
+      "dose": 10000.0,
+      "n": 200,
+      "fp_cosine": 0.22416096662402268
+    },
+    {
+      "cond": "MCF7_Vandetanib_0.001",
+      "line": "MCF7",
+      "smiles": "COC1=CC2=C(C=C1OCC3CCN(C)CC3)N=CN=C2NC4=C(F)C=C(Br)C=C4",
+      "swapped": "OCCN(CCC1=CNC2=C1C=CC=C2)CC1=CC=C(\\C=C\\C(=O)NO)C=C1",
+      "dose": 10.0,
+      "n": 161,
+      "fp_cosine": 0.1685050927484506
+    },
+    {
+      "cond": "MCF7_Vandetanib_0.01",
+      "line": "MCF7",
+      "smiles": "COC1=CC2=C(C=C1OCC3CCN(C)CC3)N=CN=C2NC4=C(F)C=C(Br)C=C4",
+      "swapped": "OCCN(CCC1=CNC2=C1C=CC=C2)CC1=CC=C(\\C=C\\C(=O)NO)C=C1",
+      "dose": 100.0,
+      "n": 200,
+      "fp_cosine": 0.16850509274845296
+    },
+    {
+      "cond": "MCF7_Vandetanib_0.1",
+      "line": "MCF7",
+      "smiles": "COC1=CC2=C(C=C1OCC3CCN(C)CC3)N=CN=C2NC4=C(F)C=C(Br)C=C4",
+      "swapped": "OCCN(CCC1=CNC2=C1C=CC=C2)CC1=CC=C(\\C=C\\C(=O)NO)C=C1",
+      "dose": 1000.0,
+      "n": 187,
+      "fp_cosine": 0.16850509274845346
+    },
+    {
+      "cond": "MCF7_Vandetanib_1.0",
+      "line": "MCF7",
+      "smiles": "COC1=CC2=C(C=C1OCC3CCN(C)CC3)N=CN=C2NC4=C(F)C=C(Br)C=C4",
+      "swapped": "OCCN(CCC1=CNC2=C1C=CC=C2)CC1=CC=C(\\C=C\\C(=O)NO)C=C1",
+      "dose": 10000.0,
+      "n": 88,
+      "fp_cosine": 0.16850509274845366
+    },
+    {
+      "cond": "MCF7_WHI-P154_0.001",
+      "line": "MCF7",
+      "smiles": "COC1=CC2=NC=NC(NC3=CC=C(O)C(Br)=C3)=C2C=C1OC",
+      "swapped": "CN1C=C(C2=CC=CC=C12)C1=C(C(=O)NC1=O)C1=CN(C2CCN(CC3=NC=CC=C3)CC2)C2=CC=CC=C12",
+      "dose": 10.0,
+      "n": 200,
+      "fp_cosine": 0.21483446221182514
+    },
+    {
+      "cond": "MCF7_WHI-P154_0.01",
+      "line": "MCF7",
+      "smiles": "COC1=CC2=NC=NC(NC3=CC=C(O)C(Br)=C3)=C2C=C1OC",
+      "swapped": "CN1C=C(C2=CC=CC=C12)C1=C(C(=O)NC1=O)C1=CN(C2CCN(CC3=NC=CC=C3)CC2)C2=CC=CC=C12",
+      "dose": 100.0,
+      "n": 200,
+      "fp_cosine": 0.21483446221182861
+    },
+    {
+      "cond": "MCF7_WHI-P154_0.1",
+      "line": "MCF7",
+      "smiles": "COC1=CC2=NC=NC(NC3=CC=C(O)C(Br)=C3)=C2C=C1OC",
+      "swapped": "CN1C=C(C2=CC=CC=C12)C1=C(C(=O)NC1=O)C1=CN(C2CCN(CC3=NC=CC=C3)CC2)C2=CC=CC=C12",
+      "dose": 1000.0,
+      "n": 200,
+      "fp_cosine": 0.21483446221182928
+    },
+    {
+      "cond": "MCF7_WHI-P154_1.0",
+      "line": "MCF7",
+      "smiles": "COC1=CC2=NC=NC(NC3=CC=C(O)C(Br)=C3)=C2C=C1OC",
+      "swapped": "CN1C=C(C2=CC=CC=C12)C1=C(C(=O)NC1=O)C1=CN(C2CCN(CC3=NC=CC=C3)CC2)C2=CC=CC=C12",
+      "dose": 10000.0,
+      "n": 185,
+      "fp_cosine": 0.21483446221182953
+    },
+    {
+      "cond": "MCF7_WP1066_0.001",
+      "line": "MCF7",
+      "smiles": "C[C@H](NC(=O)C(=C\\C1=NC(Br)=CC=C1)\\C#N)C1=CC=CC=C1",
+      "swapped": "COC1=CC=C(C=N1)C1=NC2=C(SC(CN(C)C3=NC=C(C=N3)C(=O)NO)=C2)C(=N1)N1CCOCC1",
+      "dose": 10.0,
+      "n": 200,
+      "fp_cosine": 0.23904572186687342
+    },
+    {
+      "cond": "MCF7_WP1066_0.01",
+      "line": "MCF7",
+      "smiles": "C[C@H](NC(=O)C(=C\\C1=NC(Br)=CC=C1)\\C#N)C1=CC=CC=C1",
+      "swapped": "COC1=CC=C(C=N1)C1=NC2=C(SC(CN(C)C3=NC=C(C=N3)C(=O)NO)=C2)C(=N1)N1CCOCC1",
+      "dose": 100.0,
+      "n": 200,
+      "fp_cosine": 0.23904572186687734
+    },
+    {
+      "cond": "MCF7_WP1066_0.1",
+      "line": "MCF7",
+      "smiles": "C[C@H](NC(=O)C(=C\\C1=NC(Br)=CC=C1)\\C#N)C1=CC=CC=C1",
+      "swapped": "COC1=CC=C(C=N1)C1=NC2=C(SC(CN(C)C3=NC=C(C=N3)C(=O)NO)=C2)C(=N1)N1CCOCC1",
+      "dose": 1000.0,
+      "n": 200,
+      "fp_cosine": 0.23904572186687803
+    },
+    {
+      "cond": "MCF7_WP1066_1.0",
+      "line": "MCF7",
+      "smiles": "C[C@H](NC(=O)C(=C\\C1=NC(Br)=CC=C1)\\C#N)C1=CC=CC=C1",
+      "swapped": "COC1=CC=C(C=N1)C1=NC2=C(SC(CN(C)C3=NC=C(C=N3)C(=O)NO)=C2)C(=N1)N1CCOCC1",
+      "dose": 10000.0,
+      "n": 200,
+      "fp_cosine": 0.23904572186687836
+    },
+    {
+      "cond": "MCF7_XAV-939_0.001",
+      "line": "MCF7",
+      "smiles": "OC1=C2CSCCC2=NC(=N1)C3=CC=C(C=C3)C(F)(F)F",
+      "swapped": "CN1C=C(\\C=C\\C(=O)C2=CC=CC(F)=C2)C=C1\\C=C\\C(=O)NO",
+      "dose": 10.0,
+      "n": 95,
+      "fp_cosine": 0.35251199395530747
+    },
+    {
+      "cond": "MCF7_XAV-939_0.01",
+      "line": "MCF7",
+      "smiles": "OC1=C2CSCCC2=NC(=N1)C3=CC=C(C=C3)C(F)(F)F",
+      "swapped": "CN1C=C(\\C=C\\C(=O)C2=CC=CC(F)=C2)C=C1\\C=C\\C(=O)NO",
+      "dose": 100.0,
+      "n": 200,
+      "fp_cosine": 0.3525119939553139
+    },
+    {
+      "cond": "MCF7_XAV-939_0.1",
+      "line": "MCF7",
+      "smiles": "OC1=C2CSCCC2=NC(=N1)C3=CC=C(C=C3)C(F)(F)F",
+      "swapped": "CN1C=C(\\C=C\\C(=O)C2=CC=CC(F)=C2)C=C1\\C=C\\C(=O)NO",
+      "dose": 1000.0,
+      "n": 200,
+      "fp_cosine": 0.3525119939553152
+    },
+    {
+      "cond": "MCF7_XAV-939_1.0",
+      "line": "MCF7",
+      "smiles": "OC1=C2CSCCC2=NC(=N1)C3=CC=C(C=C3)C(F)(F)F",
+      "swapped": "CN1C=C(\\C=C\\C(=O)C2=CC=CC(F)=C2)C=C1\\C=C\\C(=O)NO",
+      "dose": 10000.0,
+      "n": 97,
+      "fp_cosine": 0.3525119939553157
+    },
+    {
+      "cond": "MCF7_ZM_0.001",
+      "line": "MCF7",
+      "smiles": "COC1=C(OCCCN2CCOCC2)C=C2N=CN=C(NC3=CC=C(NC(=O)C4=CC=CC=C4)C=C3)C2=C1",
+      "swapped": "[H][C@@]12CC[C@H](O)[C@@]1(C)CC[C@]1([H])C3=CC(OC)=C(O)C=C3CC[C@@]21[H]",
+      "dose": 10.0,
+      "n": 153,
+      "fp_cosine": 0.2247332874877427
+    },
+    {
+      "cond": "MCF7_ZM_0.01",
+      "line": "MCF7",
+      "smiles": "COC1=C(OCCCN2CCOCC2)C=C2N=CN=C(NC3=CC=C(NC(=O)C4=CC=CC=C4)C=C3)C2=C1",
+      "swapped": "[H][C@@]12CC[C@H](O)[C@@]1(C)CC[C@]1([H])C3=CC(OC)=C(O)C=C3CC[C@@]21[H]",
+      "dose": 100.0,
+      "n": 192,
+      "fp_cosine": 0.22473328748774613
+    },
+    {
+      "cond": "MCF7_ZM_0.1",
+      "line": "MCF7",
+      "smiles": "COC1=C(OCCCN2CCOCC2)C=C2N=CN=C(NC3=CC=C(NC(=O)C4=CC=CC=C4)C=C3)C2=C1",
+      "swapped": "[H][C@@]12CC[C@H](O)[C@@]1(C)CC[C@]1([H])C3=CC(OC)=C(O)C=C3CC[C@@]21[H]",
+      "dose": 1000.0,
+      "n": 141,
+      "fp_cosine": 0.22473328748774676
+    },
+    {
+      "cond": "MCF7_ZM_1.0",
+      "line": "MCF7",
+      "smiles": "COC1=C(OCCCN2CCOCC2)C=C2N=CN=C(NC3=CC=C(NC(=O)C4=CC=CC=C4)C=C3)C2=C1",
+      "swapped": "[H][C@@]12CC[C@H](O)[C@@]1(C)CC[C@]1([H])C3=CC(OC)=C(O)C=C3CC[C@@]21[H]",
+      "dose": 10000.0,
+      "n": 141,
+      "fp_cosine": 0.22473328748774707
+    }
+  ],
+  "shuffle_map": {
+    "CC(=O)NC1=CC=C(OCC(C)(O)C(=O)NC2=CC=C(C(=C2)C(F)(F)F)[N+]([O-])=O)C=C1": "Cl.CN1CCC(C(O)C1)C2=C3OC(=CC(=O)C3=C(O)C=C2O)C4=C(Cl)C=CC=C4",
+    "CC(NC(=O)C1=CC=CC=C1\\N=C\\C1=C2C=CC=CC2=CC=C1O)C1=CC=CC=C1": "C[C@H](NC1=NC(NC2=NNC(C)=C2)=C(F)C=C1C#N)C1=CC=C(F)C=C1",
+    "CCCCOC1=C2C=N[NH]C2=NC=C1C(=O)C3=C(F)C=C(C)C=C3F": "COC1=CC2=NC=NC(NC3=CC=C(O)C(Br)=C3)=C2C=C1OC",
+    "CCN(CC)C(=S)SSC(=S)N(CC)CC": "CN1CCN(CC1)C1=CC=CC(NC2=NN3C=CC=C(C3=N2)C2=CC=C(C=C2)S(C)(=O)=O)=C1",
+    "CCN1CCN(CC1)C(=O)CC1=CC=C(NC2=NC(NC3=CC=C(C=C3)C(=O)NC3=CC=CC=C3Cl)=C(F)C=N2)C=C1": "O=C(NC1CC1)NC1=CNN=C1C1=NC2=CC(CN3CCOCC3)=CC=C2N1",
+    "CCS(=O)(=O)C1=CC=CC(=C1)C1=CC(C(=O)NC2CCN(C)CC2)=C(C)C2=C1C1=C(N2)N=CC(C)=C1": "NC1=CC=CC=C1NC(=O)C1=CC=C(CNC(=O)OCC2=CN=CC=C2)C=C1",
+    "CN(C)CC(=O)NC1=CC2=C(NC(=O)C3=C2C=CC=C3)C=C1": "COC1=CC2=NC=CC(=C2C=C1OC)OC3=CC=C(NC(=O)NC4=CC=C(F)C=C4F)C(=C3)F",
+    "CN(C)CC1=CC=C(C=C1)S(=O)(=O)N1C=CC(\\C=C\\C(=O)NO)=C1": "COC1=C(OCCCN2CCCC2)C=C2N=C(N)C3(CCC3)C2=C1",
+    "CN1C=C(C2=CC=CC=C12)C1=C(C(=O)NC1=O)C1=CN(C2CCN(CC3=NC=CC=C3)CC2)C2=CC=CC=C12": "CCCCOC1=C2C=N[NH]C2=NC=C1C(=O)C3=C(F)C=C(C)C=C3F",
+    "CN1C=C(\\C=C\\C(=O)C2=CC=CC(F)=C2)C=C1\\C=C\\C(=O)NO": "Cl.O=S(=O)(N1CCCNCC1)C1=C2C=CN=CC2=CC=C1",
+    "CN1CCN(CC1)C1=CC=CC(NC2=NN3C=CC=C(C3=N2)C2=CC=C(C=C2)S(C)(=O)=O)=C1": "O.Cl.CCN(CC)CC1=CC2=C(C=C1)C=C(COC(=O)NC1=CC=C(C=C1)C(=O)NO)C=C2",
+    "COC1=C(OCCCN2CCCC2)C=C2N=C(N)C3(CCC3)C2=C1": "OC(=O)CCC1CCC(CC1)(C2=C(F)C=CC(=C2)F)[S](=O)(=O)C3=CC=C(Cl)C=C3",
+    "COC1=C(OCCCN2CCOCC2)C=C2N=CN=C(NC3=CC=C(NC(=O)C4=CC=CC=C4)C=C3)C2=C1": "[H][C@@]12CC[C@H](O)[C@@]1(C)CC[C@]1([H])C3=CC(OC)=C(O)C=C3CC[C@@]21[H]",
+    "COC1=CC2=C(C=C1OCC3CCN(C)CC3)N=CN=C2NC4=C(F)C=C(Br)C=C4": "OCCN(CCC1=CNC2=C1C=CC=C2)CC1=CC=C(\\C=C\\C(=O)NO)C=C1",
+    "COC1=CC2=C(NC3CCN(CC4CCCCC4)CC3)N=C(N=C2C=C1OCCCN1CCCCC1)N1CCCN(CC1)C(C)C": "NC1=NC(=O)N(C=N1)[C@H]1C[C@H](O)[C@@H](CO)O1",
+    "COC1=CC2=NC=CC(=C2C=C1OC)OC3=CC=C(NC(=O)NC4=CC=C(F)C=C4F)C(=C3)F": "OC1=C2CSCCC2=NC(=N1)C3=CC=C(C=C3)C(F)(F)F",
+    "COC1=CC2=NC=NC(NC3=CC=C(O)C(Br)=C3)=C2C=C1OC": "CN1C=C(C2=CC=CC=C12)C1=C(C(=O)NC1=O)C1=CN(C2CCN(CC3=NC=CC=C3)CC2)C2=CC=CC=C12",
+    "COC1=CC=C(C=N1)C1=NC2=C(SC(CN(C)C3=NC=C(C=N3)C(=O)NO)=C2)C(=N1)N1CCOCC1": "COC1=CC2=C(C=C1OCC3CCN(C)CC3)N=CN=C2NC4=C(F)C=C(Br)C=C4",
+    "COC1CC(C)CC2=C(NCC=C)C(=O)C=C(NC(=O)C(=C\\C=C/C(OC)C(OC(N)=O)/C(=C/C(C)C1O)C)\\C)C2=O": "CCS(=O)(=O)C1=CC=CC(=C1)C1=CC(C(=O)NC2CCN(C)CC2)=C(C)C2=C1C1=C(N2)N=CC(C)=C1",
+    "C[C@H](NC(=O)C(=C\\C1=NC(Br)=CC=C1)\\C#N)C1=CC=CC=C1": "COC1=CC=C(C=N1)C1=NC2=C(SC(CN(C)C3=NC=C(C=N3)C(=O)NO)=C2)C(=N1)N1CCOCC1",
+    "C[C@H](NC1=NC(NC2=NNC(C)=C2)=C(F)C=C1C#N)C1=CC=C(F)C=C1": "COC1=CC2=C(NC3CCN(CC4CCCCC4)CC3)N=C(N=C2C=C1OCCCN1CCCCC1)N1CCCN(CC1)C(C)C",
+    "C[S](=O)(=O)C1=CC(=CC=C1)CNC2=NC(=NC=C2C(F)(F)F)NC3=CC4=C(NC(=O)CC4)C=C3": "CN(C)CC1=CC=C(C=C1)S(=O)(=O)N1C=CC(\\C=C\\C(=O)NO)=C1",
+    "Cl.CN1CCC(C(O)C1)C2=C3OC(=CC(=O)C3=C(O)C=C2O)C4=C(Cl)C=CC=C4": "FC1=CNC(=O)NC1=O",
+    "Cl.Cl.CN1C=C(CNCC2CCN(CC2)C2=NC=C(C=N2)C(=O)NO)C2=CC=CC=C12": "CC(NC(=O)C1=CC=CC=C1\\N=C\\C1=C2C=CC=CC2=CC=C1O)C1=CC=CC=C1",
+    "Cl.Cl.FC1=CC(=CC(F)=C1CN1CCOCC1)C1=C2N=C(C=NC2=CC=C1)C1=CN(N=C1)C1CCNCC1": "COC1=C(OCCCN2CCOCC2)C=C2N=CN=C(NC3=CC=C(NC(=O)C4=CC=CC=C4)C=C3)C2=C1",
+    "Cl.O=S(=O)(N1CCCNCC1)C1=C2C=CN=CC2=CC=C1": "ClCCN(N=O)C(=O)NC1CCCCC1",
+    "ClCCN(N=O)C(=O)NC1CCCCC1": "Cl.Cl.FC1=CC(=CC(F)=C1CN1CCOCC1)C1=C2N=C(C=NC2=CC=C1)C1=CN(N=C1)C1CCNCC1",
+    "FC1=CNC(=O)NC1=O": "CN(C)CC(=O)NC1=CC2=C(NC(=O)C3=C2C=CC=C3)C=C1",
+    "NC1=CC=CC=C1NC(=O)C1=CC=C(CNC(=O)OCC2=CN=CC=C2)C=C1": "Cl.Cl.CN1C=C(CNCC2CCN(CC2)C2=NC=C(C=N2)C(=O)NO)C2=CC=CC=C12",
+    "NC1=NC(=O)N(C=N1)[C@H]1C[C@H](O)[C@@H](CO)O1": "CCN1CCN(CC1)C(=O)CC1=CC=C(NC2=NC(NC3=CC=C(C=C3)C(=O)NC3=CC=CC=C3Cl)=C(F)C=N2)C=C1",
+    "O.Cl.CCN(CC)CC1=CC2=C(C=C1)C=C(COC(=O)NC1=CC=C(C=C1)C(=O)NO)C=C2": "COC1CC(C)CC2=C(NCC=C)C(=O)C=C(NC(=O)C(=C\\C=C/C(OC)C(OC(N)=O)/C(=C/C(C)C1O)C)\\C)C2=O",
+    "O=C(NC1CC1)NC1=CNN=C1C1=NC2=CC(CN3CCOCC3)=CC=C2N1": "C[S](=O)(=O)C1=CC(=CC=C1)CNC2=NC(=NC=C2C(F)(F)F)NC3=CC4=C(NC(=O)CC4)C=C3",
+    "OC(=O)CCC1CCC(CC1)(C2=C(F)C=CC(=C2)F)[S](=O)(=O)C3=CC=C(Cl)C=C3": "C[C@H](NC(=O)C(=C\\C1=NC(Br)=CC=C1)\\C#N)C1=CC=CC=C1",
+    "OC1=C2CSCCC2=NC(=N1)C3=CC=C(C=C3)C(F)(F)F": "CN1C=C(\\C=C\\C(=O)C2=CC=CC(F)=C2)C=C1\\C=C\\C(=O)NO",
+    "OCCN(CCC1=CNC2=C1C=CC=C2)CC1=CC=C(\\C=C\\C(=O)NO)C=C1": "S=[P](N1CC1)(N2CC2)N3CC3",
+    "S=[P](N1CC1)(N2CC2)N3CC3": "CCN(CC)C(=S)SSC(=S)N(CC)CC",
+    "[H][C@@]12CC[C@H](O)[C@@]1(C)CC[C@]1([H])C3=CC(OC)=C(O)C=C3CC[C@@]21[H]": "CC(=O)NC1=CC=C(OCC(C)(O)C(=O)NC2=CC=C(C(=C2)C(F)(F)F)[N+]([O-])=O)C=C1"
+  },
+  "seed": 0,
+  "fp_cosine_median": 0.24956709924230974
+}

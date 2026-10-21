@@ -1,0 +1,56 @@
+"panel","dataset","split","submission","source_key","label","metric","value"
+"a","Tahoe-100M","drug_split_1","base","base","Original model","de_overlap",0.268260899441445
+"b","Tahoe-100M","drug_split_1","base","base","Original model","energy",2.26809187745678
+"a","Tahoe-100M","drug_split_1","rewired","recipe","Rewired model","de_overlap",0.464048621846894
+"b","Tahoe-100M","drug_split_1","rewired","recipe","Rewired model","energy",0.224987878009135
+"a","Tahoe-100M","drug_split_1","ridge_train","ridge_train","Training-set ridge","de_overlap",0.429151958586928
+"b","Tahoe-100M","drug_split_1","ridge_train","ridge_train","Training-set ridge","energy",0.259775599968686
+"a","Tahoe-100M","drug_split_1","ridge_S7","ridge_S7","Cross-validated ridge","de_overlap",0.477216277737812
+"b","Tahoe-100M","drug_split_1","ridge_S7","ridge_S7","Cross-validated ridge","energy",0.159616585408554
+"a","Tahoe-100M","drug_split_1","mean_response","mean_response","Compound-blind average","de_overlap",0.508640243607838
+"b","Tahoe-100M","drug_split_1","mean_response","mean_response","Compound-blind average","energy",0.145843256444678
+"b","Tahoe-100M","drug_split_1","control_paste","control_paste","Unaltered vehicle cells","energy",0.181990907958572
+"a","Tahoe-100M","drug_split_0","base","base","Original model","de_overlap",0.285034063891101
+"b","Tahoe-100M","drug_split_0","base","base","Original model","energy",2.13526554810941
+"a","Tahoe-100M","drug_split_0","rewired","recipe","Rewired model","de_overlap",0.460300924373702
+"b","Tahoe-100M","drug_split_0","rewired","recipe","Rewired model","energy",0.243755267269048
+"a","Tahoe-100M","drug_split_0","ridge_train","ridge_train","Training-set ridge","de_overlap",0.432776401939063
+"b","Tahoe-100M","drug_split_0","ridge_train","ridge_train","Training-set ridge","energy",0.264229990874861
+"a","Tahoe-100M","drug_split_0","ridge_S7","ridge_S7","Cross-validated ridge","de_overlap",0.465309809906531
+"b","Tahoe-100M","drug_split_0","ridge_S7","ridge_S7","Cross-validated ridge","energy",0.222963872045723
+"a","Tahoe-100M","drug_split_0","mean_response","mean_response","Compound-blind average","de_overlap",0.500072247306217
+"b","Tahoe-100M","drug_split_0","mean_response","mean_response","Compound-blind average","energy",0.196992293644961
+"b","Tahoe-100M","drug_split_0","control_paste","control_paste","Unaltered vehicle cells","energy",0.229055112674466
+"a","Tahoe-100M","drug_split_2","base","base","Original model","de_overlap",0.29084603268701
+"b","Tahoe-100M","drug_split_2","base","base","Original model","energy",2.02100506935371
+"a","Tahoe-100M","drug_split_2","rewired","recipe","Rewired model","de_overlap",0.458460754768254
+"b","Tahoe-100M","drug_split_2","rewired","recipe","Rewired model","energy",0.218096051131077
+"a","Tahoe-100M","drug_split_2","ridge_train","ridge_train","Training-set ridge","de_overlap",0.424604999833583
+"b","Tahoe-100M","drug_split_2","ridge_train","ridge_train","Training-set ridge","energy",0.249760958663078
+"a","Tahoe-100M","drug_split_2","ridge_S7","ridge_S7","Cross-validated ridge","de_overlap",0.467758959495748
+"b","Tahoe-100M","drug_split_2","ridge_S7","ridge_S7","Cross-validated ridge","energy",0.16232533498449
+"a","Tahoe-100M","drug_split_2","mean_response","mean_response","Compound-blind average","de_overlap",0.508645386892737
+"b","Tahoe-100M","drug_split_2","mean_response","mean_response","Compound-blind average","energy",0.145704445706518
+"b","Tahoe-100M","drug_split_2","control_paste","control_paste","Unaltered vehicle cells","energy",0.178818899105259
+"a","Tahoe-100M","drug_split_1","replicate","replicate","Plate replicate","de_overlap",0.502394018925274
+"b","Tahoe-100M","drug_split_1","replicate","replicate","Plate replicate","energy",0.194020954341438
+"a","Tahoe-100M","drug_split_0","replicate","replicate","Plate replicate","de_overlap",0.506676715363738
+"b","Tahoe-100M","drug_split_0","replicate","replicate","Plate replicate","energy",0.201978271168311
+"a","Tahoe-100M","drug_split_2","replicate","replicate","Plate replicate","de_overlap",0.477236007246558
+"b","Tahoe-100M","drug_split_2","replicate","replicate","Plate replicate","energy",0.165387877006701
+"a","sci-Plex","drug_split_1","base","base","Original model","de_overlap",0.508021856667279
+"a","sci-Plex","drug_split_1","rewired","fm_50","Rewired model","de_overlap",0.610002620791829
+"a","sci-Plex","drug_split_1","ridge_train","ridge_train","Training-set ridge","de_overlap",0.564378486572847
+"a","sci-Plex","drug_split_1","ridge_S7","ridge_S7","Cross-validated ridge","de_overlap",0.55436422232647
+"a","sci-Plex","drug_split_1","mean_response","mean_response","Compound-blind average","de_overlap",0.544047176257026
+"a","sci-Plex","drug_split_0","base","base","Original model","de_overlap",0.504717066901337
+"a","sci-Plex","drug_split_0","rewired","fm_50","Rewired model","de_overlap",0.612370886848617
+"a","sci-Plex","drug_split_0","ridge_train","ridge_train","Training-set ridge","de_overlap",0.536905481295575
+"a","sci-Plex","drug_split_0","ridge_S7","ridge_S7","Cross-validated ridge","de_overlap",0.568420960092547
+"a","sci-Plex","drug_split_0","mean_response","mean_response","Compound-blind average","de_overlap",0.55380897070019
+"a","sci-Plex","drug_split_2","base","base","Original model","de_overlap",0.490796580070351
+"a","sci-Plex","drug_split_2","rewired","fm_50","Rewired model","de_overlap",0.610567374584307
+"a","sci-Plex","drug_split_2","ridge_train","ridge_train","Training-set ridge","de_overlap",0.547291916801038
+"a","sci-Plex","drug_split_2","ridge_S7","ridge_S7","Cross-validated ridge","de_overlap",0.553545971994892
+"a","sci-Plex","drug_split_2","mean_response","mean_response","Compound-blind average","de_overlap",0.532489559684557
+"a","both","all","chance","computed","Chance (50 of 200)","de_overlap",0.143917959156737

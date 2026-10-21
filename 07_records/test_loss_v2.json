@@ -1,0 +1,110 @@
+{
+  "analysis": "EXPLORATORY, not pre-registered",
+  "note": "one value per checkpoint; intermediate weights were not kept so no curve is recoverable. Each arm uses its own objective and the two arms are not comparable in value.",
+  "train_final_logged": {
+    "ddim": 0.0116,
+    "fm_gaussian": 0.0515
+  },
+  "per_checkpoint": {
+    "drug_split_0_ddim_seed0": {
+      "train": 0.01097384182503447,
+      "test": 0.010084656020626425,
+      "ratio": 0.918972241573634
+    },
+    "drug_split_0_ddim_seed1": {
+      "train": 0.010361897619441151,
+      "test": 0.009599691547919065,
+      "ratio": 0.9264414589377892
+    },
+    "drug_split_0_ddim_seed2": {
+      "train": 0.010528082784730941,
+      "test": 0.009630364400800317,
+      "ratio": 0.9147310671575835
+    },
+    "drug_split_0_ddim_seed3": {
+      "train": 0.010519839450716972,
+      "test": 0.009703138843178749,
+      "ratio": 0.9223656775976213
+    },
+    "drug_split_0_ddim_seed4": {
+      "train": 0.010451203386764973,
+      "test": 0.00964475133223459,
+      "ratio": 0.9228364404857297
+    },
+    "drug_split_0_fm_gaussian_seed0": {
+      "train": 0.0454651833511889,
+      "test": 0.0483738087117672,
+      "ratio": 1.063974785675251
+    },
+    "drug_split_0_fm_gaussian_seed1": {
+      "train": 0.04533484694547951,
+      "test": 0.04815527694299817,
+      "ratio": 1.0622132903836767
+    },
+    "drug_split_0_fm_gaussian_seed2": {
+      "train": 0.04531912254169583,
+      "test": 0.04820378366857767,
+      "ratio": 1.063652184003073
+    },
+    "drug_split_0_fm_gaussian_seed3": {
+      "train": 0.04550749408081174,
+      "test": 0.04835990210995078,
+      "ratio": 1.0626799626468941
+    },
+    "drug_split_0_fm_gaussian_seed4": {
+      "train": 0.04540964365005493,
+      "test": 0.04830616544932127,
+      "ratio": 1.0637864904113343
+    },
+    "drug_split_2_ddim_seed0": {
+      "train": 0.010600469866767525,
+      "test": 0.010676089278422295,
+      "ratio": 1.0071335905488337
+    },
+    "drug_split_2_ddim_seed1": {
+      "train": 0.010584081220440567,
+      "test": 0.010719474125653505,
+      "ratio": 1.0127921264390394
+    },
+    "drug_split_2_ddim_seed2": {
+      "train": 0.010524474421981723,
+      "test": 0.010712623770814389,
+      "ratio": 1.0178773154163112
+    },
+    "drug_split_2_ddim_seed3": {
+      "train": 0.010554628807585686,
+      "test": 0.010892738297116011,
+      "ratio": 1.0320342378395462
+    },
+    "drug_split_2_ddim_seed4": {
+      "train": 0.010557907132897526,
+      "test": 0.010850169253535569,
+      "ratio": 1.0276818233916245
+    },
+    "drug_split_2_fm_gaussian_seed0": {
+      "train": 0.047798071056604385,
+      "test": 0.05311439568176866,
+      "ratio": 1.1112246688547005
+    },
+    "drug_split_2_fm_gaussian_seed1": {
+      "train": 0.04791578892618418,
+      "test": 0.053485022857785225,
+      "ratio": 1.1162296198478674
+    },
+    "drug_split_2_fm_gaussian_seed2": {
+      "train": 0.04800407290458679,
+      "test": 0.05318992780521512,
+      "ratio": 1.108029477226563
+    },
+    "drug_split_2_fm_gaussian_seed3": {
+      "train": 0.04772868081927299,
+      "test": 0.05295116817578673,
+      "ratio": 1.109420316398204
+    },
+    "drug_split_2_fm_gaussian_seed4": {
+      "train": 0.04796778848394752,
+      "test": 0.052982079423964025,
+      "ratio": 1.1045345449205886
+    }
+  }
+}

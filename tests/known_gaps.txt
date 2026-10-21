@@ -1,0 +1,4 @@
+# Local modules that the packaged code imports but that are not yet in this tree.
+# One module name per line. tests/test_package.py reports them as expected failures
+# (xfail) instead of hard failures, and refuses to stub anything not listed here.
+# Delete a line once the file is added to the package (manuscript_code_list.txt + rebuild).

@@ -1,0 +1,197 @@
+{
+ "note": "check before roadmap item 12 (OT-paired training pairs); no model touched",
+ "record": "tahoe_results/step15_data_record.json",
+ "record_sha256": "06c4b547a8a1831a8e7fcaa1e7dc1d91c1bfbec850c8893b5b643b5b7c7195ba",
+ "commit": "b0f11bdd27401382219d760c64f90e34dee2fbec",
+ "per_split": {
+  "drug_split_1": {
+   "train": {
+    "path": "/scratch/ni2071/Diffusion/tahoe/datasets_step15/tahoe_train_drug_split_1.h5ad",
+    "sha256": "bf860103fed5b5dc89d5fd995a0dd19b1660364351648156441db632a3dd48d2"
+   },
+   "train_control": {
+    "path": "/scratch/ni2071/Diffusion/tahoe/datasets_step15/tahoe_train_drug_split_1_control.h5ad",
+    "sha256": "85ddc2cd1eaada9f481956158aa7c17fbeb45417f9d96dee72c03c5de86504a8"
+   },
+   "n_conditions": 11464,
+   "n_rows": 1713901,
+   "cells_per_condition": [
+    43,
+    150,
+    150
+   ],
+   "mean": {
+    "cost_random": 11.79228473115114,
+    "cost_ot": 9.462471447444603,
+    "cost_nearest": 8.792511820985496,
+    "cost_reshuffled": 11.792545532605045,
+    "spread_T": 8.20299406446296,
+    "spread_C": 8.25292236638775,
+    "dist_cmean": 8.391677176923736,
+    "cos_random": 0.0003549676265382744,
+    "cos_ot": 0.3678795551378819
+   },
+   "median": {
+    "cost_random": 11.399797625614895,
+    "cost_ot": 9.057973046123482,
+    "cost_nearest": 8.419329276952602,
+    "cost_reshuffled": 11.395069839963952,
+    "spread_T": 7.965517207544295,
+    "spread_C": 7.973204440609493,
+    "dist_cmean": 8.137352490868155,
+    "cos_random": 0.00032232342787679943,
+    "cos_ot": 0.36891934771318957
+   },
+   "reduction_random_to_ot": {
+    "mean": 0.19973072464251743,
+    "median": 0.19892954412695252,
+    "q05": 0.1650002416298221,
+    "q95": 0.237732273720633,
+    "frac_above_10pct": 0.9993021632937893,
+    "frac_above_25pct": 0.013520586182833217
+   },
+   "cos_ot_quantiles": [
+    0.31353627605635703,
+    0.33867819813992966,
+    0.36891934771318957,
+    0.39550614235558784,
+    0.42330289999237963
+   ],
+   "frac_cos_ot_above_0_2": 1.0,
+   "frac_cos_ot_above_0_5": 0.0
+  },
+  "drug_split_0": {
+   "train": {
+    "path": "/scratch/ni2071/Diffusion/tahoe/datasets_step15/tahoe_train_drug_split_0.h5ad",
+    "sha256": "26a8734a34de462f8e0c3aced8deb3106822fcadd86701159ce7e2f74431113a"
+   },
+   "train_control": {
+    "path": "/scratch/ni2071/Diffusion/tahoe/datasets_step15/tahoe_train_drug_split_0_control.h5ad",
+    "sha256": "0209c1d1d06ef5a52302b2fe3c0d4befc0a9f6be29b48ef450be86995d0791b5"
+   },
+   "n_conditions": 11248,
+   "n_rows": 1682011,
+   "cells_per_condition": [
+    93,
+    150,
+    150
+   ],
+   "mean": {
+    "cost_random": 11.776836876450322,
+    "cost_ot": 9.442674109038531,
+    "cost_nearest": 8.77350544450942,
+    "cost_reshuffled": 11.77530259682057,
+    "spread_T": 8.198831848348567,
+    "spread_C": 8.245031513661658,
+    "dist_cmean": 8.378446466286313,
+    "cos_random": 0.0004062128589792299,
+    "cos_ot": 0.3686481812905209
+   },
+   "median": {
+    "cost_random": 11.380146309089938,
+    "cost_ot": 9.039314693123453,
+    "cost_nearest": 8.403425508932322,
+    "cost_reshuffled": 11.384157112465846,
+    "spread_T": 7.9568404765869145,
+    "spread_C": 7.966395120793632,
+    "dist_cmean": 8.123403746506064,
+    "cos_random": 0.00038472472545012366,
+    "cos_ot": 0.3698815447591112
+   },
+   "reduction_random_to_ot": {
+    "mean": 0.20035954644171605,
+    "median": 0.19954919431744322,
+    "q05": 0.1655163784332612,
+    "q95": 0.23797449854240346,
+    "frac_above_10pct": 0.9999110953058321,
+    "frac_above_25pct": 0.01422475106685633
+   },
+   "cos_ot_quantiles": [
+    0.31407992175219596,
+    0.3389814671333449,
+    0.3698815447591112,
+    0.3962710651044209,
+    0.4234310505951142
+   ],
+   "frac_cos_ot_above_0_2": 1.0,
+   "frac_cos_ot_above_0_5": 0.0
+  },
+  "drug_split_2": {
+   "train": {
+    "path": "/scratch/ni2071/Diffusion/tahoe/datasets_step15/tahoe_train_drug_split_2.h5ad",
+    "sha256": "8f429eeb893c99cd51cedc0e9ddebffbecf25cd21d6b8470af44f7ad5898f62e"
+   },
+   "train_control": {
+    "path": "/scratch/ni2071/Diffusion/tahoe/datasets_step15/tahoe_train_drug_split_2_control.h5ad",
+    "sha256": "c9820967ef882858f1a286423dc7e6a6c2716f6bd0d6497c1b720c2bef380352"
+   },
+   "n_conditions": 11510,
+   "n_rows": 1721029,
+   "cells_per_condition": [
+    43,
+    150,
+    150
+   ],
+   "mean": {
+    "cost_random": 11.783092864487367,
+    "cost_ot": 9.45328613816499,
+    "cost_nearest": 8.781679905098736,
+    "cost_reshuffled": 11.783081661623958,
+    "spread_T": 8.196327263294648,
+    "spread_C": 8.246325047252732,
+    "dist_cmean": 8.385342994485317,
+    "cos_random": 0.00035045326380991936,
+    "cos_ot": 0.3681835718896585
+   },
+   "median": {
+    "cost_random": 11.386112629654011,
+    "cost_ot": 9.047577687995098,
+    "cost_nearest": 8.410074241327138,
+    "cost_reshuffled": 11.393677353822511,
+    "spread_T": 7.955178310514945,
+    "spread_C": 7.9666349820561635,
+    "dist_cmean": 8.128903294877752,
+    "cos_random": 0.0003870335171358278,
+    "cos_ot": 0.3696524686492201
+   },
+   "reduction_random_to_ot": {
+    "mean": 0.1999051754531842,
+    "median": 0.19928025086435908,
+    "q05": 0.16477428139229444,
+    "q95": 0.23769453455076117,
+    "frac_above_10pct": 0.9993049522154648,
+    "frac_above_25pct": 0.01311902693310165
+   },
+   "cos_ot_quantiles": [
+    0.31312668376853436,
+    0.3388122308676766,
+    0.3696524686492201,
+    0.3959616181272666,
+    0.4232566845387555
+   ],
+   "frac_cos_ot_above_0_2": 1.0,
+   "frac_cos_ot_above_0_5": 0.0
+  }
+ },
+ "written": {
+  "drug_split_1": {
+   "path": "/scratch/ni2071/Diffusion/tahoe/datasets_step15/tahoe_train_drug_split_1_control_ot.h5ad",
+   "sha256": "88e93782ad2f30809d8061a36ec357d7991e3ab3dea175aaddbfe31a62a761ab",
+   "rows": 1713901,
+   "source_control_sha256": "85ddc2cd1eaada9f481956158aa7c17fbeb45417f9d96dee72c03c5de86504a8"
+  },
+  "drug_split_0": {
+   "path": "/scratch/ni2071/Diffusion/tahoe/datasets_step15/tahoe_train_drug_split_0_control_ot.h5ad",
+   "sha256": "66b62ee2db61abd936699ffc2c42e27a91ba378ee0d8ff5d0eda69fcc99c9cd2",
+   "rows": 1682011,
+   "source_control_sha256": "0209c1d1d06ef5a52302b2fe3c0d4befc0a9f6be29b48ef450be86995d0791b5"
+  },
+  "drug_split_2": {
+   "path": "/scratch/ni2071/Diffusion/tahoe/datasets_step15/tahoe_train_drug_split_2_control_ot.h5ad",
+   "sha256": "4363c098e84cdb0b93ca7728a4a76197cba39649ed68ba9d4c8d8523039f6754",
+   "rows": 1721029,
+   "source_control_sha256": "c9820967ef882858f1a286423dc7e6a6c2716f6bd0d6497c1b720c2bef380352"
+  }
+ },
+ "seconds": 241
+}

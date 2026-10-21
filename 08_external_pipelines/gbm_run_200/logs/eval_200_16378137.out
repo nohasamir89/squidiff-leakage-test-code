@@ -1,0 +1,42 @@
+GPU: NVIDIA A100-PCIE-40GB
+-rw-r--r-- 1 ni2071 users 208813145 Jun 22 04:53 /scratch/ni2071/Diffusion/gbm_run_200/results/model_0.9999.pt
+======================================================================
+GBM Delta-z eval (Fig 3f) — CORRECTED decode (batch decode then average)
+Started: 2026-06-22 08:54:59.488248
+======================================================================
+load model and diffusion...
+diffusion num of steps =  1000
+
+Dz norms (myeloid):
+  panobinostat  : ||Dz|| = 0.863
+  RO4929097     : ||Dz|| = 0.554
+  tazemetostat  : ||Dz|| = 0.566
+  ispinesib     : ||Dz|| = 0.530
+  ANA-12        : ||Dz|| = 0.632
+
+Reconstruction sanity (vehicle batch, no Dz):
+
+[decoder debug] decoded batch shape=(300, 200), per-gene-mean min=0.005 max=0.836
+  tumor           : recon R = 0.982  r2 = 0.940  (n_enc=300)
+  oligodendrocyte : recon R = 0.967  r2 = 0.799  (n_enc=300)
+
+Per-(cell_type, drug) R:
+  cell_type       drug                 R      r2  n_test
+  tumor           panobinostat     0.800   0.574    5114
+  tumor           RO4929097        0.878   0.759    2274
+  tumor           tazemetostat     0.791   0.616    1617
+  tumor           ispinesib        0.844   0.609     972
+  tumor           ANA-12           0.832   0.617    2148
+  oligodendrocyte panobinostat     0.865   0.672     629
+  oligodendrocyte RO4929097        0.926   0.681     239
+  oligodendrocyte tazemetostat     0.940   0.771     248
+  oligodendrocyte ispinesib        0.940   0.740     165
+  oligodendrocyte ANA-12           0.944   0.715     348
+
+======================================================================
+Fig 3f reproduction — mean Pearson R per cell type (over held-out drugs):
+  tumor           : R = 0.829  (paper ~0.91; n_drugs=5)
+  oligodendrocyte : R = 0.923  (paper ~0.91; n_drugs=5)
+======================================================================
+Finished: 2026-06-22 08:56:54.826106
+Finished: Mon Jun 22 08:57:14 +04 2026

@@ -1,0 +1,29 @@
+dataset,split,submission,label,gene_identity
+Tahoe-100M,drug_split_1,base,Original model,0.2682608994414446
+Tahoe-100M,drug_split_1,ridge_train,Like-for-like ridge,0.4291519585869284
+Tahoe-100M,drug_split_1,ridge_S7,Cross-validated ridge,0.4772162777378115
+Tahoe-100M,drug_split_1,mean_response,Compound-blind average,0.5086402436078384
+Tahoe-100M,drug_split_0,base,Original model,0.2850340638911013
+Tahoe-100M,drug_split_0,ridge_train,Like-for-like ridge,0.4327764019390631
+Tahoe-100M,drug_split_0,ridge_S7,Cross-validated ridge,0.4653098099065309
+Tahoe-100M,drug_split_0,mean_response,Compound-blind average,0.5000722473062166
+Tahoe-100M,drug_split_2,base,Original model,0.2908460326870103
+Tahoe-100M,drug_split_2,ridge_train,Like-for-like ridge,0.4246049998335826
+Tahoe-100M,drug_split_2,ridge_S7,Cross-validated ridge,0.4677589594957484
+Tahoe-100M,drug_split_2,mean_response,Compound-blind average,0.5086453868927374
+Tahoe-100M,drug_split_1,replicate,Plate replicate,0.5023940189252745
+Tahoe-100M,drug_split_0,replicate,Plate replicate,0.5066767153637377
+Tahoe-100M,drug_split_2,replicate,Plate replicate,0.47723600724655774
+sci-Plex,drug_split_1,base,Original model,0.5080218566672793
+sci-Plex,drug_split_1,ridge_train,Like-for-like ridge,0.5643784865728471
+sci-Plex,drug_split_1,ridge_S7,Cross-validated ridge,0.5543642223264703
+sci-Plex,drug_split_1,mean_response,Compound-blind average,0.5440471762570257
+sci-Plex,drug_split_0,base,Original model,0.5047170669013372
+sci-Plex,drug_split_0,ridge_train,Like-for-like ridge,0.5369054812955749
+sci-Plex,drug_split_0,ridge_S7,Cross-validated ridge,0.5684209600925474
+sci-Plex,drug_split_0,mean_response,Compound-blind average,0.5538089707001903
+sci-Plex,drug_split_2,base,Original model,0.49079658007035143
+sci-Plex,drug_split_2,ridge_train,Like-for-like ridge,0.547291916801038
+sci-Plex,drug_split_2,ridge_S7,Cross-validated ridge,0.5535459719948924
+sci-Plex,drug_split_2,mean_response,Compound-blind average,0.5324895596845568
+both,all,chance,Chance (50 of 200),0.14391795915673664

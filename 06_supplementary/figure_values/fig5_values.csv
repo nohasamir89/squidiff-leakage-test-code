@@ -1,0 +1,118 @@
+"panel","facet","row","split","point","lo","hi","chance","source","excludes"
+"a","Compound discrimination","Original model","Split 1",0.641495639976974,0.603580985646989,0.680627983140339,0.5,"step15c_pds.json",TRUE
+"a","Compound discrimination","Rewired model","Split 1",0.722336467847875,0.688285289877953,0.754109216166678,0.5,"step15c_pds.json",TRUE
+"a","Compound discrimination","Rewired model + guidance","Split 1",0.685910585325673,0.64946098538932,0.722060027950384,0.5,"step15c_pds.json",TRUE
+"a","Compound discrimination","Training-set ridge","Split 1",0.516439713081879,0.46669062559729,0.563592661884426,0.5,"step15c_pds.json",FALSE
+"a","Compound discrimination","Cross-validated ridge","Split 1",0.503905047197364,0.445364152407866,0.562486949609764,0.5,"step15c_pds.json",FALSE
+"a","Compound discrimination","Compound-blind average","Split 1",0.500170926538235,0.438243427658243,0.559860694415425,0.5,"step15c_pds.json",FALSE
+"a","Compound discrimination","Plate replicate","Split 1",0.726301077863578,NA,NA,0.5,"step15c_pds.json (replicate)",NA
+"a","Compound discrimination","Original model","Split 0",0.644405814266935,0.604814996139152,0.684495687959109,0.5,"step15c_pds.json",TRUE
+"a","Compound discrimination","Rewired model","Split 0",0.718105816198326,0.678222052808061,0.758990187684791,0.5,"step15c_pds.json",TRUE
+"a","Compound discrimination","Rewired model + guidance","Split 0",0.713925485050095,0.677517348683951,0.751072952195209,0.5,"step15c_pds.json",TRUE
+"a","Compound discrimination","Training-set ridge","Split 0",0.540019607280695,0.484681614624589,0.598374930205367,0.5,"step15c_pds.json",FALSE
+"a","Compound discrimination","Cross-validated ridge","Split 0",0.491508874827575,0.442894365777627,0.54363195265294,0.5,"step15c_pds.json",FALSE
+"a","Compound discrimination","Compound-blind average","Split 0",0.500011377872413,0.444797674234479,0.557229297319734,0.5,"step15c_pds.json",FALSE
+"a","Compound discrimination","Plate replicate","Split 0",0.806042856782939,NA,NA,0.5,"step15c_pds.json (replicate)",NA
+"a","Compound discrimination","Original model","Split 2",0.654878046863812,0.610166478147959,0.697669099699299,0.5,"step15c_pds.json",TRUE
+"a","Compound discrimination","Rewired model","Split 2",0.714202845536514,0.682609105814788,0.744771222997062,0.5,"step15c_pds.json",TRUE
+"a","Compound discrimination","Rewired model + guidance","Split 2",0.693888209911255,0.660291761240478,0.728096279752823,0.5,"step15c_pds.json",TRUE
+"a","Compound discrimination","Training-set ridge","Split 2",0.525819661318807,0.471557577014415,0.57536574721036,0.5,"step15c_pds.json",FALSE
+"a","Compound discrimination","Cross-validated ridge","Split 2",0.485934927944926,0.428902384283683,0.541959230272525,0.5,"step15c_pds.json",FALSE
+"a","Compound discrimination","Compound-blind average","Split 2",0.500334259787434,0.435479831737515,0.55926291117605,0.5,"step15c_pds.json",FALSE
+"a","Compound discrimination","Plate replicate","Split 2",0.734115198006819,NA,NA,0.5,"step15c_pds.json (replicate)",NA
+"b","Tahoe-100M","Original model","Split 1",-0.0754719484912624,-0.145276967272369,-0.00327018129632363,0,"step16_analysis.json",TRUE
+"b","Tahoe-100M","Rewired model","Split 1",0.320491465678442,0.170236159625462,0.443405278901535,0,"step16_analysis.json",TRUE
+"b","Tahoe-100M","Training-set ridge","Split 1",0.153681051765532,-0.0110097100117865,0.299241112717465,0,"step16_analysis.json",FALSE
+"b","Tahoe-100M","Cross-validated ridge","Split 1",-0.0499181386200235,-0.202346604750766,0.109024658603526,0,"step16_analysis.json",FALSE
+"b","Tahoe-100M","Plate replicate (14 contexts)","Split 1",0.483096170327291,NA,NA,0,"step16_analysis.json (replicate)",NA
+"b","Tahoe-100M","Original model","Split 0",-0.0576299293198385,-0.123170080031261,0.00567455278665495,0,"step16_analysis.json",FALSE
+"b","Tahoe-100M","Rewired model","Split 0",0.286397583045062,0.135307208768419,0.41551701230017,0,"step16_analysis.json",TRUE
+"b","Tahoe-100M","Training-set ridge","Split 0",0.172762301629804,0.0257711142809094,0.332124942518797,0,"step16_analysis.json",TRUE
+"b","Tahoe-100M","Cross-validated ridge","Split 0",0.00429705082979042,-0.167370464418575,0.154361650336241,0,"step16_analysis.json",FALSE
+"b","Tahoe-100M","Plate replicate (14 contexts)","Split 0",0.483031492452123,NA,NA,0,"step16_analysis.json (replicate)",NA
+"b","Tahoe-100M","Original model","Split 2",-0.106919626496344,-0.174670817250328,-0.0357177318540023,0,"step16_analysis.json",TRUE
+"b","Tahoe-100M","Rewired model","Split 2",0.311722431563326,0.197444746397836,0.413356137491501,0,"step16_analysis.json",TRUE
+"b","Tahoe-100M","Training-set ridge","Split 2",0.0505104772899862,-0.137318661389691,0.229488799516136,0,"step16_analysis.json",FALSE
+"b","Tahoe-100M","Cross-validated ridge","Split 2",0.0943637347743996,-0.0457786718178148,0.227925761596032,0,"step16_analysis.json",FALSE
+"b","Tahoe-100M","Plate replicate (14 contexts)","Split 2",0.327941357506575,NA,NA,0,"step16_analysis.json (replicate)",NA
+"b","sci-Plex","Original model","Split 1",0.227441802704961,0.0672588143566292,0.371375128863484,0,"step17_mra.json",TRUE
+"b","sci-Plex","Rewired model","Split 1",0.334085213032581,0.13834537342661,0.502595670875334,0,"step17_mra.json",TRUE
+"b","sci-Plex","Training-set ridge","Split 1",0.40268689742374,0.155801227924693,0.607915905025406,0,"step17_mra.json",TRUE
+"b","sci-Plex","Cross-validated ridge","Split 1",0.277795840953736,0.0311891132923048,0.481282067453158,0,"step17_mra.json",TRUE
+"b","sci-Plex","Split-half anchor","Split 1",0.519794531373479,NA,NA,0,"step17_mra.json (anchor)",NA
+"b","sci-Plex","Original model","Split 0",0.181819977872609,0.0655516475882368,0.291376975670465,0,"step17_mra.json",TRUE
+"b","sci-Plex","Rewired model","Split 0",0.240674885411728,0.111300357587159,0.355121695078346,0,"step17_mra.json",TRUE
+"b","sci-Plex","Training-set ridge","Split 0",0.0895171487276751,-0.0779078709560864,0.258814155916721,0,"step17_mra.json",FALSE
+"b","sci-Plex","Cross-validated ridge","Split 0",0.126718824087245,-0.0201021989404652,0.262100638412321,0,"step17_mra.json",FALSE
+"b","sci-Plex","Split-half anchor","Split 0",0.395811601074759,NA,NA,0,"step17_mra.json (anchor)",NA
+"b","sci-Plex","Original model","Split 2",0.184022078758921,-0.0010244056334462,0.374450706554415,0,"step17_mra.json",FALSE
+"b","sci-Plex","Rewired model","Split 2",0.269886384360069,0.0716231706675525,0.465654501113642,0,"step17_mra.json",TRUE
+"b","sci-Plex","Training-set ridge","Split 2",0.208734654227576,-0.0565096489837135,0.453986703490341,0,"step17_mra.json",FALSE
+"b","sci-Plex","Cross-validated ridge","Split 2",0.238662751820647,-0.00795796595018866,0.451016034067328,0,"step17_mra.json",FALSE
+"b","sci-Plex","Split-half anchor","Split 2",0.535919624077519,NA,NA,0,"step17_mra.json (anchor)",NA
+"c","Spread agreement","Rewired model","Split 1",0.160634105111104,0.0397435480336456,0.275043038941361,0,"step19_heterogeneity.json",TRUE
+"c","Spread agreement","Rewired model, OT pairing","Split 1",0.17009517776628,0.0564117844887115,0.274706381192826,0,"step19_heterogeneity.json",TRUE
+"c","Spread agreement","Compound-blind average","Split 1",0.13111883509297,0.0491862961132472,0.209579801519561,0,"step19_heterogeneity.json",TRUE
+"c","Spread agreement","Training-set ridge","Split 1",0.0662435484511376,-0.0578687919735974,0.177665331227017,0,"step19_heterogeneity.json",FALSE
+"c","Spread agreement","Cross-validated ridge","Split 1",0.114785179168674,-0.015044765711699,0.237630956610497,0,"step19_heterogeneity.json",FALSE
+"c","Spread agreement","Plate replicate (14 contexts)","Split 1",0.327091877755493,0.0575552130122076,0.4582405935788,0,"step19_heterogeneity.json (replicate)",TRUE
+"c","Spread agreement","Rewired model","Split 0",0.188042602817873,0.0574366510468918,0.306453301120719,0,"step19_heterogeneity.json",TRUE
+"c","Spread agreement","Rewired model, OT pairing","Split 0",0.155505710543124,0.0447859922265966,0.254341229502146,0,"step19_heterogeneity.json",TRUE
+"c","Spread agreement","Compound-blind average","Split 0",0.112231354726087,0.0277007545811817,0.192720427810668,0,"step19_heterogeneity.json",TRUE
+"c","Spread agreement","Training-set ridge","Split 0",0.0274900326975469,-0.0941243122053982,0.155120763519302,0,"step19_heterogeneity.json",FALSE
+"c","Spread agreement","Cross-validated ridge","Split 0",-0.0280642565352313,-0.156241471436854,0.0991650770562326,0,"step19_heterogeneity.json",FALSE
+"c","Spread agreement","Plate replicate (14 contexts)","Split 0",0.331538068752233,-0.0201248136205327,0.567405518816499,0,"step19_heterogeneity.json (replicate)",FALSE
+"c","Spread agreement","Rewired model","Split 2",0.175814407460053,0.0547641063717653,0.284241973302971,0,"step19_heterogeneity.json",TRUE
+"c","Spread agreement","Rewired model, OT pairing","Split 2",0.169572678862481,0.0382281949583928,0.287064807967334,0,"step19_heterogeneity.json",TRUE
+"c","Spread agreement","Compound-blind average","Split 2",0.132898150382262,0.0360353365477676,0.22592390864218,0,"step19_heterogeneity.json",TRUE
+"c","Spread agreement","Training-set ridge","Split 2",0.0150770590718815,-0.116593085770289,0.150278141969179,0,"step19_heterogeneity.json",FALSE
+"c","Spread agreement","Cross-validated ridge","Split 2",-0.0562569207437242,-0.161907799050478,0.060842637469609,0,"step19_heterogeneity.json",FALSE
+"c","Spread agreement","Plate replicate (14 contexts)","Split 2",0.382190779954755,0.0903518899902479,0.504621509035108,0,"step19_heterogeneity.json (replicate)",TRUE
+"d","Recognised (% of query populations)","Measured cells (other half)","Split 1",8.19539765845781,NA,NA,1.34443226893772,"step22_analysis.json (rates.group)",NA
+"d","No compound assigned (%)","Measured cells (other half)","Split 1",45.6197012515139,NA,NA,NA,"step22_analysis.json (rates.group)",NA
+"d","Recognised (% of query populations)","Rewired model","Split 1",1.46682815233481,NA,NA,1.12292348868853,"step22_analysis.json (rates.group)",NA
+"d","No compound assigned (%)","Rewired model","Split 1",59.2517830709191,NA,NA,NA,"step22_analysis.json (rates.group)",NA
+"d","Recognised (% of query populations)","Rewired model, OT pairing","Split 1",2.63759924640022,NA,NA,1.15539150662283,"step22_analysis.json (rates.group)",NA
+"d","No compound assigned (%)","Rewired model, OT pairing","Split 1",58.5789261203068,NA,NA,NA,"step22_analysis.json (rates.group)",NA
+"d","Recognised (% of query populations)","Rewired model, OT pairing (m = 32)","Split 1",2.42228502220428,NA,NA,1.13168130931554,"step22_analysis.json (rates.group)",NA
+"d","No compound assigned (%)","Rewired model, OT pairing (m = 32)","Split 1",59.1441259588212,NA,NA,NA,"step22_analysis.json (rates.group)",NA
+"d","Recognised (% of query populations)","Compound-blind average","Split 1",2.0185708518369,NA,NA,1.15218742590563,"step22_analysis.json (rates.group)",NA
+"d","No compound assigned (%)","Compound-blind average","Split 1",52.6846992329431,NA,NA,NA,"step22_analysis.json (rates.group)",NA
+"d","Recognised (% of query populations)","Unaltered vehicle cells","Split 1",1.29188534517562,NA,NA,0.690799802628628,"step22_analysis.json (rates.group)",NA
+"d","No compound assigned (%)","Unaltered vehicle cells","Split 1",58.6596689543803,NA,NA,NA,"step22_analysis.json (rates.group)",NA
+"d","Recognised (% of query populations)","Training-set ridge","Split 1",2.82599919257166,NA,NA,1.10092213443041,"step22_analysis.json (rates.group)",NA
+"d","No compound assigned (%)","Training-set ridge","Split 1",54.1380702462656,NA,NA,NA,"step22_analysis.json (rates.group)",NA
+"d","Recognised (% of query populations)","Cross-validated ridge","Split 1",2.05894226887364,NA,NA,1.10733029586481,"step22_analysis.json (rates.group)",NA
+"d","No compound assigned (%)","Cross-validated ridge","Split 1",52.6039563988696,NA,NA,NA,"step22_analysis.json (rates.group)",NA
+"d","Recognised (% of query populations)","Measured cells (other half)","Split 0",11.9526202440775,NA,NA,1.54016837433923,"step22_analysis.json (rates.group)",NA
+"d","No compound assigned (%)","Measured cells (other half)","Split 0",42.5699928212491,NA,NA,NA,"step22_analysis.json (rates.group)",NA
+"d","Recognised (% of query populations)","Rewired model","Split 0",2.76381909547739,NA,NA,1.44064478235333,"step22_analysis.json (rates.group)",NA
+"d","No compound assigned (%)","Rewired model","Split 0",53.5056233548696,NA,NA,NA,"step22_analysis.json (rates.group)",NA
+"d","Recognised (% of query populations)","Rewired model, OT pairing","Split 0",3.44580043072505,NA,NA,1.33912709289594,"step22_analysis.json (rates.group)",NA
+"d","No compound assigned (%)","Rewired model, OT pairing","Split 0",57.166786312515,NA,NA,NA,"step22_analysis.json (rates.group)",NA
+"d","Recognised (% of query populations)","Rewired model, OT pairing (m = 32)","Split 0",3.19454414931802,NA,NA,1.34184631672069,"step22_analysis.json (rates.group)",NA
+"d","No compound assigned (%)","Rewired model, OT pairing (m = 32)","Split 0",57.0591050490548,NA,NA,NA,"step22_analysis.json (rates.group)",NA
+"d","Recognised (% of query populations)","Compound-blind average","Split 0",1.8664752333094,NA,NA,1.10128564902434,"step22_analysis.json (rates.group)",NA
+"d","No compound assigned (%)","Compound-blind average","Split 0",55.4558506819813,NA,NA,NA,"step22_analysis.json (rates.group)",NA
+"d","Recognised (% of query populations)","Unaltered vehicle cells","Split 0",0.861450107681263,NA,NA,0.53840631730079,"step22_analysis.json (rates.group)",NA
+"d","No compound assigned (%)","Unaltered vehicle cells","Split 0",63.4960516870065,NA,NA,NA,"step22_analysis.json (rates.group)",NA
+"d","Recognised (% of query populations)","Training-set ridge","Split 0",2.87150035893754,NA,NA,0.925623789945398,"step22_analysis.json (rates.group)",NA
+"d","No compound assigned (%)","Training-set ridge","Split 0",56.9633883704236,NA,NA,NA,"step22_analysis.json (rates.group)",NA
+"d","Recognised (% of query populations)","Cross-validated ridge","Split 0",1.90236898779612,NA,NA,1.05614653353347,"step22_analysis.json (rates.group)",NA
+"d","No compound assigned (%)","Cross-validated ridge","Split 0",53.6252692031587,NA,NA,NA,"step22_analysis.json (rates.group)",NA
+"d","Recognised (% of query populations)","Measured cells (other half)","Split 2",7.48326112642773,NA,NA,1.28215227073045,"step22_analysis.json (rates.group)",NA
+"d","No compound assigned (%)","Measured cells (other half)","Split 2",48.2867270578968,NA,NA,NA,"step22_analysis.json (rates.group)",NA
+"d","Recognised (% of query populations)","Rewired model","Split 2",2.04805041354864,NA,NA,1.2056028519203,"step22_analysis.json (rates.group)",NA
+"d","No compound assigned (%)","Rewired model","Split 2",56.8071419193908,NA,NA,NA,"step22_analysis.json (rates.group)",NA
+"d","Recognised (% of query populations)","Rewired model, OT pairing","Split 2",2.3762636208481,NA,NA,1.11067349350138,"step22_analysis.json (rates.group)",NA
+"d","No compound assigned (%)","Rewired model, OT pairing","Split 2",60.7063148221084,NA,NA,NA,"step22_analysis.json (rates.group)",NA
+"d","Recognised (% of query populations)","Rewired model, OT pairing (m = 32)","Split 2",2.11369305500853,NA,NA,1.10037264822613,"step22_analysis.json (rates.group)",NA
+"d","No compound assigned (%)","Rewired model, OT pairing (m = 32)","Split 2",59.2884337665748,NA,NA,NA,"step22_analysis.json (rates.group)",NA
+"d","Recognised (% of query populations)","Compound-blind average","Split 2",2.00866482867271,NA,NA,1.09007180295089,"step22_analysis.json (rates.group)",NA
+"d","No compound assigned (%)","Compound-blind average","Split 2",58.0937376920047,NA,NA,NA,"step22_analysis.json (rates.group)",NA
+"d","Recognised (% of query populations)","Unaltered vehicle cells","Split 2",1.37849547065774,NA,NA,0.736207471142485,"step22_analysis.json (rates.group)",NA
+"d","No compound assigned (%)","Unaltered vehicle cells","Split 2",64.9074438755415,NA,NA,NA,"step22_analysis.json (rates.group)",NA
+"d","Recognised (% of query populations)","Training-set ridge","Split 2",2.71760535643954,NA,NA,1.08401248220075,"step22_analysis.json (rates.group)",NA
+"d","No compound assigned (%)","Training-set ridge","Split 2",58.6451358802678,NA,NA,NA,"step22_analysis.json (rates.group)",NA
+"d","Recognised (% of query populations)","Cross-validated ridge","Split 2",2.04805041354864,NA,NA,1.09431332747599,"step22_analysis.json (rates.group)",NA
+"d","No compound assigned (%)","Cross-validated ridge","Split 2",58.6057502953919,NA,NA,NA,"step22_analysis.json (rates.group)",NA

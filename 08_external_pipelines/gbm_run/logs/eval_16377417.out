@@ -1,0 +1,45 @@
+GPU: NVIDIA H100 NVL
+Start: Mon Jun 22 02:39:04 +04 2026
+=== checkpoint check ===
+-rw-r--r-- 1 ni2071 users 253057113 Jun 21 23:39 /scratch/ni2071/Diffusion/gbm_run/results/model_0.9999.pt
+=== running Delta-z eval (Fig 3f reproduction) ===
+======================================================================
+GBM Delta-z eval (Fig 3f) — CORRECTED decode (batch decode then average)
+Started: 2026-06-22 02:52:30.520949
+======================================================================
+load model and diffusion...
+diffusion num of steps =  1000
+
+Dz norms (myeloid):
+  panobinostat  : ||Dz|| = 0.041
+  RO4929097     : ||Dz|| = 0.029
+  tazemetostat  : ||Dz|| = 0.038
+  ispinesib     : ||Dz|| = 0.027
+  ANA-12        : ||Dz|| = 0.020
+
+Reconstruction sanity (vehicle batch, no Dz):
+
+[decoder debug] decoded batch shape=(300, 2000), per-gene-mean min=12.116 max=77.466
+  tumor           : recon R = 0.429  r2 = -232.962  (n_enc=300)
+  oligodendrocyte : recon R = 0.502  r2 = -205.338  (n_enc=300)
+
+Per-(cell_type, drug) R:
+  cell_type       drug                 R      r2  n_test
+  tumor           panobinostat     0.410-201.801    5272
+  tumor           RO4929097        0.362-290.934    2278
+  tumor           tazemetostat     0.356-315.346    1508
+  tumor           ispinesib        0.403-265.306     920
+  tumor           ANA-12           0.398-280.566    2011
+  oligodendrocyte panobinostat     0.428-206.971     688
+  oligodendrocyte RO4929097        0.429-210.187     240
+  oligodendrocyte tazemetostat     0.431-238.137     280
+  oligodendrocyte ispinesib        0.460-219.039     183
+  oligodendrocyte ANA-12           0.461-213.227     367
+
+======================================================================
+Fig 3f reproduction — mean Pearson R per cell type (over held-out drugs):
+  tumor           : R = 0.386  (paper ~0.91; n_drugs=5)
+  oligodendrocyte : R = 0.442  (paper ~0.91; n_drugs=5)
+======================================================================
+Finished: 2026-06-22 02:53:52.285380
+Finished: Mon Jun 22 02:54:20 +04 2026

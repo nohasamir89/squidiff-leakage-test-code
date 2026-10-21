@@ -1,0 +1,508 @@
+{
+  "prereg": "PREREG_step13b_confirmation.md",
+  "verdict": "NOT CONFIRMED",
+  "escalation_met": false,
+  "interval": "97.5% percentile per split, drug-clustered",
+  "n_boot": 5000,
+  "statistic": "mean over conditions of seed-mean per-condition values (DPC vs ridge: paired median)",
+  "reference": "Step 11 vectors (Step 6b checkpoints at 50 NFE)",
+  "per_split": {
+    "drug_split_0": {
+      "arm_means": {
+        "ref": {
+          "jac": 0.6123708868486173,
+          "en": 0.04827464818500245,
+          "dpc": 0.06978223392528346,
+          "bc": -0.020121742680698874,
+          "mag": 0.006883894986877884,
+          "magt": 0.006404473505697707
+        },
+        "attn_cross": {
+          "jac": 0.6109705425924302,
+          "en": 0.0406475882032869,
+          "dpc": 0.07895568648690485,
+          "bc": -0.015478111927629306,
+          "mag": 0.006262001517194809,
+          "magt": 0.006404473505697707
+        },
+        "mlp_ctrl": {
+          "jac": 0.6123169206917642,
+          "en": 0.04654582530534487,
+          "dpc": 0.0675459259688269,
+          "bc": -0.01823913841763917,
+          "mag": 0.006644903207726878,
+          "magt": 0.006404473505697707
+        }
+      },
+      "control_minus_reference": {
+        "jac": {
+          "diff": -5.396615685297819e-05,
+          "ci": [
+            -0.0023022357516713585,
+            0.002098667862352049
+          ],
+          "verdict": "includes zero",
+          "half_width": 0.002200451807011704
+        },
+        "en": {
+          "diff": -0.0017288228796575808,
+          "ci": [
+            -0.003170664780998787,
+            -0.0003221876394556989
+          ],
+          "verdict": "below zero",
+          "half_width": 0.0014242385707715442
+        },
+        "dpc": {
+          "diff": -0.0022363079564565375,
+          "ci": [
+            -0.011737929634596607,
+            0.0073245291826277825
+          ],
+          "verdict": "includes zero",
+          "half_width": 0.009531229408612195
+        }
+      },
+      "primary": {
+        "de_overlap_minus_reference": {
+          "diff": -0.001400344256187089,
+          "ci": [
+            -0.004053634139019239,
+            0.0015633348343886103
+          ],
+          "verdict": "includes zero",
+          "half_width": 0.0028084844867039245
+        },
+        "de_overlap_minus_control": {
+          "diff": -0.0013463780993341109,
+          "ci": [
+            -0.003835090774956245,
+            0.0011176726604336957
+          ],
+          "verdict": "includes zero",
+          "half_width": 0.0024763817176949704
+        },
+        "energy_minus_reference": {
+          "diff": -0.007627059981715552,
+          "ci": [
+            -0.010106082356442824,
+            -0.005544007089381264
+          ],
+          "verdict": "below zero",
+          "half_width": 0.00228103763353078
+        },
+        "dpc_minus_reference": {
+          "diff": 0.009173452561621416,
+          "ci": [
+            -0.0014544808432182252,
+            0.019926999227746624
+          ],
+          "verdict": "includes zero",
+          "half_width": 0.010690740035482425
+        },
+        "bc_minus_reference": {
+          "diff": 0.004643630753069565,
+          "ci": [
+            0.003233405393491748,
+            0.006280919384364689
+          ],
+          "verdict": "above zero",
+          "half_width": 0.0015237569954364705
+        }
+      },
+      "dpc_vs_interaction_ridge": {
+        "ref": {
+          "paired_median": -0.12569011837485658,
+          "ci": [
+            -0.20613445946945774,
+            -0.06040799079392206
+          ],
+          "verdict": "below zero",
+          "arm_marginal_median": 0.1004053143001146,
+          "frac_positive": 0.36936936936936937
+        },
+        "attn_cross": {
+          "paired_median": -0.10181282735243169,
+          "ci": [
+            -0.1881745348518015,
+            -0.04427688995934578
+          ],
+          "verdict": "below zero",
+          "arm_marginal_median": 0.08856665616043138,
+          "frac_positive": 0.36486486486486486
+        },
+        "mlp_ctrl": {
+          "paired_median": -0.1326201502162125,
+          "ci": [
+            -0.2048453255884679,
+            -0.07700562035754346
+          ],
+          "verdict": "below zero",
+          "arm_marginal_median": 0.0800748255163852,
+          "frac_positive": 0.3490990990990991
+        }
+      }
+    },
+    "drug_split_2": {
+      "arm_means": {
+        "ref": {
+          "jac": 0.610567374584307,
+          "en": 0.11781155103931418,
+          "dpc": 0.06914945888171821,
+          "bc": -0.0012605685948427875,
+          "mag": 0.00728564011125889,
+          "magt": 0.009090344628119654
+        },
+        "attn_cross": {
+          "jac": 0.6115947109213439,
+          "en": 0.10709868987867932,
+          "dpc": 0.085643250646722,
+          "bc": 0.002473832550860239,
+          "mag": 0.0070486852672481505,
+          "magt": 0.009090344628119654
+        },
+        "mlp_ctrl": {
+          "jac": 0.6135487769960114,
+          "en": 0.11273406371692751,
+          "dpc": 0.08475677846234117,
+          "bc": 0.0009888315884169258,
+          "mag": 0.007369385911571676,
+          "magt": 0.009090344628119654
+        }
+      },
+      "control_minus_reference": {
+        "jac": {
+          "diff": 0.0029814024117045305,
+          "ci": [
+            0.0008802880999282658,
+            0.005229025135120257
+          ],
+          "verdict": "above zero",
+          "half_width": 0.0021743685175959955
+        },
+        "en": {
+          "diff": -0.005077487322386682,
+          "ci": [
+            -0.023520221110923046,
+            0.005620549075287789
+          ],
+          "verdict": "includes zero",
+          "half_width": 0.014570385093105417
+        },
+        "dpc": {
+          "diff": 0.01560731958062298,
+          "ci": [
+            0.0043127756453009225,
+            0.02797437777640586
+          ],
+          "verdict": "above zero",
+          "half_width": 0.01183080106555247
+        }
+      },
+      "primary": {
+        "de_overlap_minus_reference": {
+          "diff": 0.0010273363370370593,
+          "ci": [
+            -0.001596313701201721,
+            0.0036800016131611052
+          ],
+          "verdict": "includes zero",
+          "half_width": 0.002638157657181413
+        },
+        "de_overlap_minus_control": {
+          "diff": -0.0019540660746674714,
+          "ci": [
+            -0.004655572219186154,
+            0.0007101040954624496
+          ],
+          "verdict": "includes zero",
+          "half_width": 0.002682838157324302
+        },
+        "energy_minus_reference": {
+          "diff": -0.010712861160634867,
+          "ci": [
+            -0.035602528611716595,
+            0.0006820157892612984
+          ],
+          "verdict": "includes zero",
+          "half_width": 0.018142272200488946
+        },
+        "dpc_minus_reference": {
+          "diff": 0.016493791765003797,
+          "ci": [
+            0.0036288635336618655,
+            0.029720510734287466
+          ],
+          "verdict": "above zero",
+          "half_width": 0.013045823600312801
+        },
+        "bc_minus_reference": {
+          "diff": 0.003734401145703025,
+          "ci": [
+            0.00015941248872494818,
+            0.007705517569650848
+          ],
+          "verdict": "above zero",
+          "half_width": 0.00377305254046295
+        }
+      },
+      "dpc_vs_interaction_ridge": {
+        "ref": {
+          "paired_median": -0.028251487535972508,
+          "ci": [
+            -0.09234627969283468,
+            0.02280370592242792
+          ],
+          "verdict": "includes zero",
+          "arm_marginal_median": 0.05378761887778941,
+          "frac_positive": 0.45274725274725275
+        },
+        "attn_cross": {
+          "paired_median": -0.014429813599734276,
+          "ci": [
+            -0.07998743766900422,
+            0.029272628920446436
+          ],
+          "verdict": "includes zero",
+          "arm_marginal_median": 0.09794227784990783,
+          "frac_positive": 0.47692307692307695
+        },
+        "mlp_ctrl": {
+          "paired_median": -0.02187265562462759,
+          "ci": [
+            -0.09839803609199702,
+            0.024320889902328807
+          ],
+          "verdict": "includes zero",
+          "arm_marginal_median": 0.09673492025508432,
+          "frac_positive": 0.45714285714285713
+        }
+      }
+    }
+  },
+  "inputs": {
+    "drug_split_0/ref": [
+      {
+        "tag": "s11_drug_split_0_fm_gaussian_nfe50_seed_0",
+        "vectors_sha256": "0374f8f365bb63faaa3f1f09e16cf348b2b230a6699c1bc7d01041366b1d0017",
+        "per_cell_sha256": "4db8707021a12ba12af93f54194036c1bad06c0aa7accd020f01e4e1d348c400",
+        "checkpoint_sha256": "2a943f5818fc1de119ea81adfa242bd40cc9c9fd5d2d1ad62040332bfeb4456e",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step6b/drug_split_0_fm_gaussian/seed_0/model_0.9999.pt"
+      },
+      {
+        "tag": "s11_drug_split_0_fm_gaussian_nfe50_seed_1",
+        "vectors_sha256": "7d6f03b6e419a5b194ea4867fceba0c67e3c08b56ad51b1e9ec64d461af267b4",
+        "per_cell_sha256": "774f95fa3e2fab5105ed7c2b0a04deff444599cd744ccfcd3eb3253cbc679f32",
+        "checkpoint_sha256": "b28426d3e117e5980d525c6028a2321ccec125c363c3a7aa6731b8eb292e34b2",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step6b/drug_split_0_fm_gaussian/seed_1/model_0.9999.pt"
+      },
+      {
+        "tag": "s11_drug_split_0_fm_gaussian_nfe50_seed_2",
+        "vectors_sha256": "6a3b57077f5ac769e33eb822e0f5978d20f7be0ba614de4e8126708245a7b440",
+        "per_cell_sha256": "ebc0c74d46e0c2bd83dcd0100a47ff9b496c0a4c4f623f4c0461e09716bae838",
+        "checkpoint_sha256": "12c8d9ca7561c57f238d7c4ad50ff8fc307ef10deffee277690c16d9c46481ee",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step6b/drug_split_0_fm_gaussian/seed_2/model_0.9999.pt"
+      },
+      {
+        "tag": "s11_drug_split_0_fm_gaussian_nfe50_seed_3",
+        "vectors_sha256": "04dce5a144b2b1710d61d94dcefad7cc683a3a8aa21d626aaa681899430281c1",
+        "per_cell_sha256": "a0e26f62654d0c086a8b7760e5bf34580bf2037dcfde810810a44263ac012396",
+        "checkpoint_sha256": "8fac3f05099b613dc52e1153c0909053ec2b3dcd4a0796e1dfbd26dfee448a17",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step6b/drug_split_0_fm_gaussian/seed_3/model_0.9999.pt"
+      },
+      {
+        "tag": "s11_drug_split_0_fm_gaussian_nfe50_seed_4",
+        "vectors_sha256": "d5abe8ce9f7afcd111724995b684abccc47591adf0eca6ff6a737ebbc11b1e80",
+        "per_cell_sha256": "9863bf57857b817b00022fe95ad11d3715f6f49bec3e0428e225b6a7f3eaf612",
+        "checkpoint_sha256": "cb786316200a18fcdc9f0aa8c36826f13ea1c520b993b52e236b6251100f33b3",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step6b/drug_split_0_fm_gaussian/seed_4/model_0.9999.pt"
+      }
+    ],
+    "drug_split_0/attn_cross": [
+      {
+        "tag": "s13b_drug_split_0_attn_cross_seed_0",
+        "vectors_sha256": "3c7bf5998ea1311452cf5ceec7cf47bfef5d0d512328c9fd0d67b048c1566355",
+        "per_cell_sha256": "c55e866f197867b0d8ae862784973ec7fe135c42c3653e134cf741beb97b1c47",
+        "checkpoint_sha256": "827a9610ce89950179fcbea24ccfc7f9bcac5d197d702fc8186b072bb14b5dc6",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13b/drug_split_0_attn_cross/seed_0/model_0.9999.pt"
+      },
+      {
+        "tag": "s13b_drug_split_0_attn_cross_seed_1",
+        "vectors_sha256": "9c03a92db0e2951396fdc4dbec20e1b0f6dd6ebb3ffd5359b77a9eec943229f2",
+        "per_cell_sha256": "c5b4a7e73c4f4f833f9cdeb6f4d8c01d1c18f0c1a8595240c030dfcf116301b5",
+        "checkpoint_sha256": "3b4abc597bbaa302a83a569b66f35cce1bf6124f5d6c74cd3aae1e57ec664b7f",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13b/drug_split_0_attn_cross/seed_1/model_0.9999.pt"
+      },
+      {
+        "tag": "s13b_drug_split_0_attn_cross_seed_2",
+        "vectors_sha256": "aca215472c28ca4819fa2dd080466293ccb1f3ee91761e7b31eb6d68c5e6920b",
+        "per_cell_sha256": "c570090bcef42a5dccf9367316e4f982c4cbc90feb634038ed3008babe372452",
+        "checkpoint_sha256": "b21f3d37e55000caf55ed4d8623b87d431f5a6a7536b8a948581572c6f2039ea",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13b/drug_split_0_attn_cross/seed_2/model_0.9999.pt"
+      },
+      {
+        "tag": "s13b_drug_split_0_attn_cross_seed_3",
+        "vectors_sha256": "77a756378b50356fb097eb7bea84513b57d8fa77c8219261948a01eb7d8f2465",
+        "per_cell_sha256": "b7aa427ae9e84372d43c4bf5f985d7680e9800dd6b9f151b9262cf9db6ec403b",
+        "checkpoint_sha256": "10352baa3c40b5cc0738087efa87d22bbdfffb65c534067a82695d6e35feee9d",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13b/drug_split_0_attn_cross/seed_3/model_0.9999.pt"
+      },
+      {
+        "tag": "s13b_drug_split_0_attn_cross_seed_4",
+        "vectors_sha256": "580f7cdede218692ee3d56c4c72c2430aa5c6d3a2357985fc5ba94330fd0010f",
+        "per_cell_sha256": "5e46f3fb543b6f026d8fde99fc8f37994d8945bec061dcd79a0ec25ee9eb95ee",
+        "checkpoint_sha256": "4afab7661e4f1f1bcebbd9bc72017ff43f3e1301d4238c89bceb7d114d6c1cfd",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13b/drug_split_0_attn_cross/seed_4/model_0.9999.pt"
+      }
+    ],
+    "drug_split_0/mlp_ctrl": [
+      {
+        "tag": "s13b_drug_split_0_mlp_ctrl_seed_0",
+        "vectors_sha256": "d2168cf07054c92fdfd5d395a1b9a142341b4113a17361962b7221d0c2814ce2",
+        "per_cell_sha256": "899682f1f1274c7460231b1fefa7c3e44f451bdf8f2fbf324c8b4a95b1ddc3ab",
+        "checkpoint_sha256": "392750aa746759e7c0137503e69e0681b683aa3297fb94be367c34a1531ebbbd",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13b/drug_split_0_mlp_ctrl/seed_0/model_0.9999.pt"
+      },
+      {
+        "tag": "s13b_drug_split_0_mlp_ctrl_seed_1",
+        "vectors_sha256": "8f05b714738ac25c59288f31c09476e2b606890f32bc5b666ce4fcf282157ad1",
+        "per_cell_sha256": "ab5a7564fc4348c782877fbd43f3e5598848e34c1abde6a815123a1ffe28b53f",
+        "checkpoint_sha256": "5aeee87c1fc46304269e373bbf65bf7d2e6a17798e68b5bcef03ee89e7c6b017",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13b/drug_split_0_mlp_ctrl/seed_1/model_0.9999.pt"
+      },
+      {
+        "tag": "s13b_drug_split_0_mlp_ctrl_seed_2",
+        "vectors_sha256": "9e09c9256b9fb449887d62193c973d0191630a4adeca3243f2e73a4ce113c5f7",
+        "per_cell_sha256": "974f274748986a62ecab1a09eeb61c18c032e4c9d8202ab944180ce5de871b1f",
+        "checkpoint_sha256": "b6fe9aeec215d743d1f90fd5b5e6a13e54d5be344c2a7bf732b12440d496af65",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13b/drug_split_0_mlp_ctrl/seed_2/model_0.9999.pt"
+      },
+      {
+        "tag": "s13b_drug_split_0_mlp_ctrl_seed_3",
+        "vectors_sha256": "90829edfc263a081355cfe9e7301cd61e44bda5d3b57c9d3de63fb04f327c166",
+        "per_cell_sha256": "144b2b9e98ca26acbdb99deb3039f478b43b4c2d1d65a0493eaf6ce5f97aa5a3",
+        "checkpoint_sha256": "d46627cd24a7a99b6b8714a24f4263ba7fe34b35e262876ac106a3d4c029a856",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13b/drug_split_0_mlp_ctrl/seed_3/model_0.9999.pt"
+      },
+      {
+        "tag": "s13b_drug_split_0_mlp_ctrl_seed_4",
+        "vectors_sha256": "1c53d81082a62633e4277c33dc5b34c43025b693791326a3fc3b31797c963550",
+        "per_cell_sha256": "72e31312aad9f06ea8bc42209acd6d7f526c0fa28244ffa395d68719d9a8c55b",
+        "checkpoint_sha256": "c70e5b0607197596bc75f7eabb069110d8e02ab7e58732dc6aa4eb1fb7a243e5",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13b/drug_split_0_mlp_ctrl/seed_4/model_0.9999.pt"
+      }
+    ],
+    "drug_split_2/ref": [
+      {
+        "tag": "s11_drug_split_2_fm_gaussian_nfe50_seed_0",
+        "vectors_sha256": "a7eabe1e39ee2f6d67692c236670fa2c310437e5fd1adac0a45672a8f002000c",
+        "per_cell_sha256": "3c1e532ff1285eb6a035be2a95dd3d78c521fe735df253be1975868bfeaafefc",
+        "checkpoint_sha256": "5de47290bb750cd3ea00fae33f106ebac24080151f1a2215c12da307d213be0e",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step6b/drug_split_2_fm_gaussian/seed_0/model_0.9999.pt"
+      },
+      {
+        "tag": "s11_drug_split_2_fm_gaussian_nfe50_seed_1",
+        "vectors_sha256": "5af2aac14ccb5a3a982db31dc0c4d588a7c610ab72cb1825264c4d879164f01b",
+        "per_cell_sha256": "96026b62f3fdb549248fb4370114df0ee67453ee02fbc2ea292b5fb921df59df",
+        "checkpoint_sha256": "2e1292a41bc2e99cbd0feeb17464d2121f974cf1eb6c7763682d62d2012469f4",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step6b/drug_split_2_fm_gaussian/seed_1/model_0.9999.pt"
+      },
+      {
+        "tag": "s11_drug_split_2_fm_gaussian_nfe50_seed_2",
+        "vectors_sha256": "1cade180f436bc871c8586b0a1a1ccba020a84bc0af530e56832aa503d60ab39",
+        "per_cell_sha256": "58bb335ce79a7320d681594c277830560765913985f921dfe7104e7089ffd493",
+        "checkpoint_sha256": "b5e4500f18c1ef2982a8bd9d6409d4a7a6d9b27730fae83d87770b00fb11b1a7",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step6b/drug_split_2_fm_gaussian/seed_2/model_0.9999.pt"
+      },
+      {
+        "tag": "s11_drug_split_2_fm_gaussian_nfe50_seed_3",
+        "vectors_sha256": "806eca9cc6f2a818009bb32d9b4b7f51be413e02820c6678011f59edca80a299",
+        "per_cell_sha256": "39887aece49e7f3787b26b66fea8f847b53a2e1f7061c94f3f3961a539f86e11",
+        "checkpoint_sha256": "5b9e65e131ee4e6c79b27a10896597f75cfbccf208fc4b49671550ff27c823e6",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step6b/drug_split_2_fm_gaussian/seed_3/model_0.9999.pt"
+      },
+      {
+        "tag": "s11_drug_split_2_fm_gaussian_nfe50_seed_4",
+        "vectors_sha256": "0f7d7e7f396add09b155949ed5966be34f0a9aa2d5f5f657d4c67d55ba9ab60c",
+        "per_cell_sha256": "eb535fd5859a71438a2b6bf2f246d79b0d7f32e608d5380d519d3a8df6a0e7f1",
+        "checkpoint_sha256": "86805522f16b29230c83f762692a81482c94e03b7a31265612f18f3fcf10e04e",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step6b/drug_split_2_fm_gaussian/seed_4/model_0.9999.pt"
+      }
+    ],
+    "drug_split_2/attn_cross": [
+      {
+        "tag": "s13b_drug_split_2_attn_cross_seed_0",
+        "vectors_sha256": "ac17033d8f3215cad1d6638a30a82f834c6c5fb300b93a087149a23794797559",
+        "per_cell_sha256": "7dd9926a528b6cdddf2f4d17d85a077e9d162d43b80819c15fb1776a0745e0c0",
+        "checkpoint_sha256": "9f52e9146d43418bb85eb47fca7fd99f7b240e959c485c914154fe553e2101f1",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13b/drug_split_2_attn_cross/seed_0/model_0.9999.pt"
+      },
+      {
+        "tag": "s13b_drug_split_2_attn_cross_seed_1",
+        "vectors_sha256": "2dd590f320c77a8eae2a9970c9cd5784c6869fecd0a6c71764d539fe3d6a0a7f",
+        "per_cell_sha256": "0310f221be15ae31fc621b83b17b4c7cdd25a037c563e67aeb0407a6dcd461ee",
+        "checkpoint_sha256": "02ff0742faf38699908557bb9dc4ac6156f26fbbe3ea136e4793f7fea338b4fc",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13b/drug_split_2_attn_cross/seed_1/model_0.9999.pt"
+      },
+      {
+        "tag": "s13b_drug_split_2_attn_cross_seed_2",
+        "vectors_sha256": "317ab94337384377df9098440f74a344deec63f6eac05809b4a2a43576f17390",
+        "per_cell_sha256": "5b2f954adac5459d582da58dc5305463119fbf6f0c23ff1d30ca7a5bcc2df99e",
+        "checkpoint_sha256": "43322584893a5ec5ad7271264c6bed181a1ec73e49448f41e4fbc85661a833af",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13b/drug_split_2_attn_cross/seed_2/model_0.9999.pt"
+      },
+      {
+        "tag": "s13b_drug_split_2_attn_cross_seed_3",
+        "vectors_sha256": "a0fe56a4c782003379f7eb867fb94137140a34e4a105257a89c53eb024d80fa8",
+        "per_cell_sha256": "befd5e79f58dbc0cbf3166ea1d846037905ecd0cf61bbe58104e48d5f793893d",
+        "checkpoint_sha256": "566d8104939b0174855b43d8b9613be7364ee21975de950d06357e5534e0454b",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13b/drug_split_2_attn_cross/seed_3/model_0.9999.pt"
+      },
+      {
+        "tag": "s13b_drug_split_2_attn_cross_seed_4",
+        "vectors_sha256": "bd4465d9f1931a9d516f9bf9cb213e1df1c2af8feabfbeccddc8d63d54f2babc",
+        "per_cell_sha256": "e60c5bdbe808c5bcc43f320a31c8ee8da5ab4ebe4ec5f3fa8a1db96b8c5c734f",
+        "checkpoint_sha256": "a7d02315903fd2cc7e9de87fe066550e4a75ac01197c5554f6893a1c69808aae",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13b/drug_split_2_attn_cross/seed_4/model_0.9999.pt"
+      }
+    ],
+    "drug_split_2/mlp_ctrl": [
+      {
+        "tag": "s13b_drug_split_2_mlp_ctrl_seed_0",
+        "vectors_sha256": "34c1714073186ba1705613f7fedc53ee179903bb0f8a10b3d58a97f2358ae4e9",
+        "per_cell_sha256": "bde6749aee1df8da2b82c98172a1d325d90bab1d244c1f82cb76460dcebf9ac7",
+        "checkpoint_sha256": "9024902eca3d45bae459e7e31e651edddbc1e7e0ca50f417874799366cf19e97",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13b/drug_split_2_mlp_ctrl/seed_0/model_0.9999.pt"
+      },
+      {
+        "tag": "s13b_drug_split_2_mlp_ctrl_seed_1",
+        "vectors_sha256": "a9a49ca14281926dbe4194d945b09bc56bdd134a64b55c7b8dd218ffa6cc2959",
+        "per_cell_sha256": "4800154f64caf25addd27bc92984de6dac86836569feac31a87798dd8cebabeb",
+        "checkpoint_sha256": "576459d2b333619cde3c00a81779c51a646dda1309b839973f04f3c8aa300daa",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13b/drug_split_2_mlp_ctrl/seed_1/model_0.9999.pt"
+      },
+      {
+        "tag": "s13b_drug_split_2_mlp_ctrl_seed_2",
+        "vectors_sha256": "8e053a0bfbee773e79a711b23b9406040b31c5941e18fad026ae5bcfce998ddc",
+        "per_cell_sha256": "20e195e742fecc3c9ac989a10798cf800dc55d743ea495ba05e465333236c4e5",
+        "checkpoint_sha256": "af78ed1999deecd434e1d11cda6e5e8ef04d9a4d032a63b2ac3488c8b970195a",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13b/drug_split_2_mlp_ctrl/seed_2/model_0.9999.pt"
+      },
+      {
+        "tag": "s13b_drug_split_2_mlp_ctrl_seed_3",
+        "vectors_sha256": "c1b84a51513d54734d2cdfbd7eb9b55a5d35b0cb6676b472404877ea8891d0a9",
+        "per_cell_sha256": "4150443f1035bdb258912f6c4ef34fbdf08461275d6191ed235633fc7b869162",
+        "checkpoint_sha256": "56fac88b9751099b923e39c5dbb0566a5ffe5ffabd46ef9ed3bd2584a3e4917f",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13b/drug_split_2_mlp_ctrl/seed_3/model_0.9999.pt"
+      },
+      {
+        "tag": "s13b_drug_split_2_mlp_ctrl_seed_4",
+        "vectors_sha256": "4d3b2b2d4f8288cfc2853a8a154f032a0c7a2947c65e1ab07b39b8ff6ee0e71f",
+        "per_cell_sha256": "b5583aed09ac1ef1c54f665b1deb9f7cf443a0c2fee55fa5360748cb7e8500cc",
+        "checkpoint_sha256": "44d8133d15c59a9a76c1804868aa2306208a58795fb04a34b8340e7782d4e40c",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13b/drug_split_2_mlp_ctrl/seed_4/model_0.9999.pt"
+      }
+    ]
+  },
+  "commit": "1b8f90f30f8611988a599e4a42910859915c796e"
+}

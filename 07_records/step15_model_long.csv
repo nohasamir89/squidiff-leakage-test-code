@@ -1,0 +1,1621 @@
+split,line,submission,metric,value
+drug_split_1,A-172,ridge_S7,de_overlap,0.4879802825739773
+drug_split_1,A-172,ridge_S7,energy,0.25867552484792566
+drug_split_1,A-172,ridge_S7,dpc_mean,0.40448350958430973
+drug_split_1,A-172,ridge_S7,dpc_median,0.5079141653821339
+drug_split_1,COLO 205,ridge_S7,de_overlap,0.5434263501306711
+drug_split_1,COLO 205,ridge_S7,energy,0.18243274937049025
+drug_split_1,COLO 205,ridge_S7,dpc_mean,0.44635198845732194
+drug_split_1,COLO 205,ridge_S7,dpc_median,0.5317123689424518
+drug_split_1,H4,ridge_S7,de_overlap,0.4506696466059833
+drug_split_1,H4,ridge_S7,energy,0.2762344899387197
+drug_split_1,H4,ridge_S7,dpc_mean,0.3732981277526131
+drug_split_1,H4,ridge_S7,dpc_median,0.41984653538767885
+drug_split_1,HCT15,ridge_S7,de_overlap,0.4218526876045844
+drug_split_1,HCT15,ridge_S7,energy,0.07604155958122229
+drug_split_1,HCT15,ridge_S7,dpc_mean,0.3739642545446513
+drug_split_1,HCT15,ridge_S7,dpc_median,0.43193588462817395
+drug_split_1,HT-29,ridge_S7,de_overlap,0.4792863883664618
+drug_split_1,HT-29,ridge_S7,energy,0.1455291060236298
+drug_split_1,HT-29,ridge_S7,dpc_mean,0.4592237529870275
+drug_split_1,HT-29,ridge_S7,dpc_median,0.5109742562247086
+drug_split_1,KATO III,ridge_S7,de_overlap,0.4836791433313104
+drug_split_1,KATO III,ridge_S7,energy,0.15019654283718314
+drug_split_1,KATO III,ridge_S7,dpc_mean,0.43639931885847205
+drug_split_1,KATO III,ridge_S7,dpc_median,0.5354873855220973
+drug_split_1,LS 180,ridge_S7,de_overlap,0.4945003526255773
+drug_split_1,LS 180,ridge_S7,energy,0.1664146971224634
+drug_split_1,LS 180,ridge_S7,dpc_mean,0.4457318944075372
+drug_split_1,LS 180,ridge_S7,dpc_median,0.5686209356076353
+drug_split_1,LoVo,ridge_S7,de_overlap,0.4961357577109577
+drug_split_1,LoVo,ridge_S7,energy,0.10500285441015962
+drug_split_1,LoVo,ridge_S7,dpc_mean,0.4011872681417466
+drug_split_1,LoVo,ridge_S7,dpc_median,0.4970077991602858
+drug_split_1,RKO,ridge_S7,de_overlap,0.5390338209500046
+drug_split_1,RKO,ridge_S7,energy,0.18776023279085516
+drug_split_1,RKO,ridge_S7,dpc_mean,0.336785191097136
+drug_split_1,RKO,ridge_S7,dpc_median,0.3861586192034209
+drug_split_1,SNU-1,ridge_S7,de_overlap,0.4892232286720962
+drug_split_1,SNU-1,ridge_S7,energy,0.1601568573736372
+drug_split_1,SNU-1,ridge_S7,dpc_mean,0.44251714574159867
+drug_split_1,SNU-1,ridge_S7,dpc_median,0.5580961124048903
+drug_split_1,SW 1088,ridge_S7,de_overlap,0.4587945678131197
+drug_split_1,SW 1088,ridge_S7,energy,0.2684364684293105
+drug_split_1,SW 1088,ridge_S7,dpc_mean,0.5467189411269308
+drug_split_1,SW 1088,ridge_S7,dpc_median,0.607971285055904
+drug_split_1,SW1417,ridge_S7,de_overlap,0.421316674394276
+drug_split_1,SW1417,ridge_S7,energy,0.06403888711246837
+drug_split_1,SW1417,ridge_S7,dpc_mean,0.4854050974876813
+drug_split_1,SW1417,ridge_S7,dpc_median,0.5850710525719643
+drug_split_1,SW48,ridge_S7,de_overlap,0.4439482723561909
+drug_split_1,SW48,ridge_S7,energy,0.13671251739750725
+drug_split_1,SW48,ridge_S7,dpc_mean,0.40162646914780886
+drug_split_1,SW48,ridge_S7,dpc_median,0.5078136675415774
+drug_split_1,SW480,ridge_S7,de_overlap,0.4616699719307067
+drug_split_1,SW480,ridge_S7,energy,0.11318113646234518
+drug_split_1,SW480,ridge_S7,dpc_mean,0.2711001763831918
+drug_split_1,SW480,ridge_S7,dpc_median,0.3387310732469581
+drug_split_1,ALL,ridge_S7,de_overlap,0.47721627773781156
+drug_split_1,ALL,ridge_S7,energy,0.15961658540855425
+drug_split_1,ALL,ridge_S7,dpc_mean,0.4110537156655007
+drug_split_1,ALL,ridge_S7,dpc_median,0.5005114078600177
+drug_split_1,A-172,ridge_train,de_overlap,0.4334703762258291
+drug_split_1,A-172,ridge_train,energy,0.4099106242780305
+drug_split_1,A-172,ridge_train,dpc_mean,0.2541568376849679
+drug_split_1,A-172,ridge_train,dpc_median,0.30916028098042136
+drug_split_1,COLO 205,ridge_train,de_overlap,0.48707734148744053
+drug_split_1,COLO 205,ridge_train,energy,0.2949882573680567
+drug_split_1,COLO 205,ridge_train,dpc_mean,0.2795131837443503
+drug_split_1,COLO 205,ridge_train,dpc_median,0.35501128015954764
+drug_split_1,H4,ridge_train,de_overlap,0.3945994120508807
+drug_split_1,H4,ridge_train,energy,0.4415671195946258
+drug_split_1,H4,ridge_train,dpc_mean,0.21851445141987993
+drug_split_1,H4,ridge_train,dpc_median,0.21135017712460438
+drug_split_1,HCT15,ridge_train,de_overlap,0.36626716370905604
+drug_split_1,HCT15,ridge_train,energy,0.12344406183579508
+drug_split_1,HCT15,ridge_train,dpc_mean,0.19904593969185766
+drug_split_1,HCT15,ridge_train,dpc_median,0.23877055995676405
+drug_split_1,HT-29,ridge_train,de_overlap,0.4355287134161678
+drug_split_1,HT-29,ridge_train,energy,0.23774531424011255
+drug_split_1,HT-29,ridge_train,dpc_mean,0.26649228498602184
+drug_split_1,HT-29,ridge_train,dpc_median,0.30647318874113494
+drug_split_1,KATO III,ridge_train,de_overlap,0.4444000015135502
+drug_split_1,KATO III,ridge_train,energy,0.2575974750744121
+drug_split_1,KATO III,ridge_train,dpc_mean,0.27851690115224587
+drug_split_1,KATO III,ridge_train,dpc_median,0.3387988361704446
+drug_split_1,LS 180,ridge_train,de_overlap,0.44967745823634403
+drug_split_1,LS 180,ridge_train,energy,0.31001971441390536
+drug_split_1,LS 180,ridge_train,dpc_mean,0.22457464800490773
+drug_split_1,LS 180,ridge_train,dpc_median,0.30883190419546813
+drug_split_1,LoVo,ridge_train,de_overlap,0.4421275365671564
+drug_split_1,LoVo,ridge_train,energy,0.18892476112198653
+drug_split_1,LoVo,ridge_train,dpc_mean,0.20901024301289592
+drug_split_1,LoVo,ridge_train,dpc_median,0.25204817142198527
+drug_split_1,RKO,ridge_train,de_overlap,0.49536143414074
+drug_split_1,RKO,ridge_train,energy,0.27382668654505055
+drug_split_1,RKO,ridge_train,dpc_mean,0.1924451058725106
+drug_split_1,RKO,ridge_train,dpc_median,0.22087133886751775
+drug_split_1,SNU-1,ridge_train,de_overlap,0.43453428849625364
+drug_split_1,SNU-1,ridge_train,energy,0.2548183978846214
+drug_split_1,SNU-1,ridge_train,dpc_mean,0.2533211993202951
+drug_split_1,SNU-1,ridge_train,dpc_median,0.33364187336528384
+drug_split_1,SW 1088,ridge_train,de_overlap,0.41050876932235286
+drug_split_1,SW 1088,ridge_train,energy,0.3491445768963727
+drug_split_1,SW 1088,ridge_train,dpc_mean,0.38872865511602517
+drug_split_1,SW 1088,ridge_train,dpc_median,0.42328188227870495
+drug_split_1,SW1417,ridge_train,de_overlap,0.37488971644426683
+drug_split_1,SW1417,ridge_train,energy,0.12634514262135424
+drug_split_1,SW1417,ridge_train,dpc_mean,0.24108310088694007
+drug_split_1,SW1417,ridge_train,dpc_median,0.3022262534109782
+drug_split_1,SW48,ridge_train,de_overlap,0.4010109058832666
+drug_split_1,SW48,ridge_train,energy,0.22005047809136893
+drug_split_1,SW48,ridge_train,dpc_mean,0.2563163136515282
+drug_split_1,SW48,ridge_train,dpc_median,0.31192274408436127
+drug_split_1,SW480,ridge_train,de_overlap,0.4290492143126798
+drug_split_1,SW480,ridge_train,energy,0.19461512187020863
+drug_split_1,SW480,ridge_train,dpc_mean,0.14364010643045907
+drug_split_1,SW480,ridge_train,dpc_median,0.15882682363069361
+drug_split_1,ALL,ridge_train,de_overlap,0.42915195858692845
+drug_split_1,ALL,ridge_train,energy,0.2597755999686862
+drug_split_1,ALL,ridge_train,dpc_mean,0.23766929908303608
+drug_split_1,ALL,ridge_train,dpc_median,0.2854815166506841
+drug_split_1,A-172,mean_response,de_overlap,0.5483051890144385
+drug_split_1,A-172,mean_response,energy,0.2316899793494362
+drug_split_1,A-172,mean_response,dpc_mean,0.5159812775382804
+drug_split_1,A-172,mean_response,dpc_median,0.6670286394002315
+drug_split_1,COLO 205,mean_response,de_overlap,0.5596537162355402
+drug_split_1,COLO 205,mean_response,energy,0.16883548289970507
+drug_split_1,COLO 205,mean_response,dpc_mean,0.5330964786442417
+drug_split_1,COLO 205,mean_response,dpc_median,0.6673305968142001
+drug_split_1,H4,mean_response,de_overlap,0.4719402358504344
+drug_split_1,H4,mean_response,energy,0.2682592774594551
+drug_split_1,H4,mean_response,dpc_mean,0.4602248868553278
+drug_split_1,H4,mean_response,dpc_median,0.5804356044301282
+drug_split_1,HCT15,mean_response,de_overlap,0.453071956055494
+drug_split_1,HCT15,mean_response,energy,0.06785505617489533
+drug_split_1,HCT15,mean_response,dpc_mean,0.48527658963082904
+drug_split_1,HCT15,mean_response,dpc_median,0.5693050583023349
+drug_split_1,HT-29,mean_response,de_overlap,0.5057396675139997
+drug_split_1,HT-29,mean_response,energy,0.13258757273421176
+drug_split_1,HT-29,mean_response,dpc_mean,0.5416396891560314
+drug_split_1,HT-29,mean_response,dpc_median,0.6893351586472636
+drug_split_1,KATO III,mean_response,de_overlap,0.5530663668613449
+drug_split_1,KATO III,mean_response,energy,0.13305937779178081
+drug_split_1,KATO III,mean_response,dpc_mean,0.5414287561677532
+drug_split_1,KATO III,mean_response,dpc_median,0.6926983284223398
+drug_split_1,LS 180,mean_response,de_overlap,0.49730112609169497
+drug_split_1,LS 180,mean_response,energy,0.15376112304078002
+drug_split_1,LS 180,mean_response,dpc_mean,0.5263917667646381
+drug_split_1,LS 180,mean_response,dpc_median,0.6998996579743717
+drug_split_1,LoVo,mean_response,de_overlap,0.5211571491142613
+drug_split_1,LoVo,mean_response,energy,0.09916719203217493
+drug_split_1,LoVo,mean_response,dpc_mean,0.5031442101930106
+drug_split_1,LoVo,mean_response,dpc_median,0.6685339730984521
+drug_split_1,RKO,mean_response,de_overlap,0.5674839297829171
+drug_split_1,RKO,mean_response,energy,0.1673843134088825
+drug_split_1,RKO,mean_response,dpc_mean,0.46923932470463114
+drug_split_1,RKO,mean_response,dpc_median,0.6000962790681147
+drug_split_1,SNU-1,mean_response,de_overlap,0.5221703011113134
+drug_split_1,SNU-1,mean_response,energy,0.14868478297933724
+drug_split_1,SNU-1,mean_response,dpc_mean,0.5191661070394078
+drug_split_1,SNU-1,mean_response,dpc_median,0.7360815085477801
+drug_split_1,SW 1088,mean_response,de_overlap,0.476300627461417
+drug_split_1,SW 1088,mean_response,energy,0.2272991524411919
+drug_split_1,SW 1088,mean_response,dpc_mean,0.6403232060425175
+drug_split_1,SW 1088,mean_response,dpc_median,0.691485614766603
+drug_split_1,SW1417,mean_response,de_overlap,0.4630837420779758
+drug_split_1,SW1417,mean_response,energy,0.058655841360037896
+drug_split_1,SW1417,mean_response,dpc_mean,0.5567650657510701
+drug_split_1,SW1417,mean_response,dpc_median,0.6904469241817559
+drug_split_1,SW48,mean_response,de_overlap,0.4939173901485857
+drug_split_1,SW48,mean_response,energy,0.12202685413248315
+drug_split_1,SW48,mean_response,dpc_mean,0.5034362004046301
+drug_split_1,SW48,mean_response,dpc_median,0.6858760660723093
+drug_split_1,SW480,mean_response,de_overlap,0.4710757462496101
+drug_split_1,SW480,mean_response,energy,0.10459355863327106
+drug_split_1,SW480,mean_response,dpc_mean,0.40752035344739335
+drug_split_1,SW480,mean_response,dpc_median,0.5632823951148425
+drug_split_1,ALL,mean_response,de_overlap,0.5086402436078384
+drug_split_1,ALL,mean_response,energy,0.14584325644467777
+drug_split_1,ALL,mean_response,dpc_mean,0.5097293602215692
+drug_split_1,ALL,mean_response,dpc_median,0.6615264718120912
+drug_split_1,A-172,control_paste,de_overlap,
+drug_split_1,A-172,control_paste,energy,0.2907565695645801
+drug_split_1,A-172,control_paste,dpc_mean,
+drug_split_1,A-172,control_paste,dpc_median,
+drug_split_1,COLO 205,control_paste,de_overlap,
+drug_split_1,COLO 205,control_paste,energy,0.21063806464276627
+drug_split_1,COLO 205,control_paste,dpc_mean,
+drug_split_1,COLO 205,control_paste,dpc_median,
+drug_split_1,H4,control_paste,de_overlap,
+drug_split_1,H4,control_paste,energy,0.30772318031241663
+drug_split_1,H4,control_paste,dpc_mean,
+drug_split_1,H4,control_paste,dpc_median,
+drug_split_1,HCT15,control_paste,de_overlap,
+drug_split_1,HCT15,control_paste,energy,0.07590238408839008
+drug_split_1,HCT15,control_paste,dpc_mean,
+drug_split_1,HCT15,control_paste,dpc_median,
+drug_split_1,HT-29,control_paste,de_overlap,
+drug_split_1,HT-29,control_paste,energy,0.17612471639113625
+drug_split_1,HT-29,control_paste,dpc_mean,
+drug_split_1,HT-29,control_paste,dpc_median,
+drug_split_1,KATO III,control_paste,de_overlap,
+drug_split_1,KATO III,control_paste,energy,0.17576776484108733
+drug_split_1,KATO III,control_paste,dpc_mean,
+drug_split_1,KATO III,control_paste,dpc_median,
+drug_split_1,LS 180,control_paste,de_overlap,
+drug_split_1,LS 180,control_paste,energy,0.20607912326378644
+drug_split_1,LS 180,control_paste,dpc_mean,
+drug_split_1,LS 180,control_paste,dpc_median,
+drug_split_1,LoVo,control_paste,de_overlap,
+drug_split_1,LoVo,control_paste,energy,0.1214861296264035
+drug_split_1,LoVo,control_paste,dpc_mean,
+drug_split_1,LoVo,control_paste,dpc_median,
+drug_split_1,RKO,control_paste,de_overlap,
+drug_split_1,RKO,control_paste,energy,0.19638197767633608
+drug_split_1,RKO,control_paste,dpc_mean,
+drug_split_1,RKO,control_paste,dpc_median,
+drug_split_1,SNU-1,control_paste,de_overlap,
+drug_split_1,SNU-1,control_paste,energy,0.18954639871103784
+drug_split_1,SNU-1,control_paste,dpc_mean,
+drug_split_1,SNU-1,control_paste,dpc_median,
+drug_split_1,SW 1088,control_paste,de_overlap,
+drug_split_1,SW 1088,control_paste,energy,0.33292413137538535
+drug_split_1,SW 1088,control_paste,dpc_mean,
+drug_split_1,SW 1088,control_paste,dpc_median,
+drug_split_1,SW1417,control_paste,de_overlap,
+drug_split_1,SW1417,control_paste,energy,0.07702099817564044
+drug_split_1,SW1417,control_paste,dpc_mean,
+drug_split_1,SW1417,control_paste,dpc_median,
+drug_split_1,SW48,control_paste,de_overlap,
+drug_split_1,SW48,control_paste,energy,0.14935955605236428
+drug_split_1,SW48,control_paste,dpc_mean,
+drug_split_1,SW48,control_paste,dpc_median,
+drug_split_1,SW480,control_paste,de_overlap,
+drug_split_1,SW480,control_paste,energy,0.11608538088131096
+drug_split_1,SW480,control_paste,dpc_mean,
+drug_split_1,SW480,control_paste,dpc_median,
+drug_split_1,ALL,control_paste,de_overlap,
+drug_split_1,ALL,control_paste,energy,0.18199090795857198
+drug_split_1,ALL,control_paste,dpc_mean,
+drug_split_1,ALL,control_paste,dpc_median,
+drug_split_1,A-172,base,de_overlap,0.23686568739603275
+drug_split_1,A-172,base,energy,2.1054254689202883
+drug_split_1,A-172,base,dpc_mean,0.25705091502162697
+drug_split_1,A-172,base,dpc_median,0.2529916323791834
+drug_split_1,COLO 205,base,de_overlap,0.2923362454542801
+drug_split_1,COLO 205,base,energy,2.4084171001061856
+drug_split_1,COLO 205,base,dpc_mean,0.2093125094841651
+drug_split_1,COLO 205,base,dpc_median,0.22768327842585764
+drug_split_1,H4,base,de_overlap,0.2466662812467164
+drug_split_1,H4,base,energy,2.2309349657307402
+drug_split_1,H4,base,dpc_mean,0.22925103449926887
+drug_split_1,H4,base,dpc_median,0.25272367354344777
+drug_split_1,HCT15,base,de_overlap,0.2717105456722821
+drug_split_1,HCT15,base,energy,2.2096909169141448
+drug_split_1,HCT15,base,dpc_mean,0.18600166300592322
+drug_split_1,HCT15,base,dpc_median,0.201449313829178
+drug_split_1,HT-29,base,de_overlap,0.26661848929323867
+drug_split_1,HT-29,base,energy,2.2783172265208966
+drug_split_1,HT-29,base,dpc_mean,0.27919629066104207
+drug_split_1,HT-29,base,dpc_median,0.2806576883861629
+drug_split_1,KATO III,base,de_overlap,0.27337781465224265
+drug_split_1,KATO III,base,energy,2.3793945369173115
+drug_split_1,KATO III,base,dpc_mean,0.21510615134453542
+drug_split_1,KATO III,base,dpc_median,0.2248028083514166
+drug_split_1,LS 180,base,de_overlap,0.27616233567985166
+drug_split_1,LS 180,base,energy,2.291933948523085
+drug_split_1,LS 180,base,dpc_mean,0.29039474617565575
+drug_split_1,LS 180,base,dpc_median,0.32110860438674566
+drug_split_1,LoVo,base,de_overlap,0.26956835831572157
+drug_split_1,LoVo,base,energy,2.1251835833983597
+drug_split_1,LoVo,base,dpc_mean,0.20963137264992643
+drug_split_1,LoVo,base,dpc_median,0.21581650231247895
+drug_split_1,RKO,base,de_overlap,0.31039416625471133
+drug_split_1,RKO,base,energy,2.5866140140908316
+drug_split_1,RKO,base,dpc_mean,0.19961328444946483
+drug_split_1,RKO,base,dpc_median,0.19125751036636815
+drug_split_1,SNU-1,base,de_overlap,0.2909469101272999
+drug_split_1,SNU-1,base,energy,2.3504706172782353
+drug_split_1,SNU-1,base,dpc_mean,0.29134212012153704
+drug_split_1,SNU-1,base,dpc_median,0.3316133962606399
+drug_split_1,SW 1088,base,de_overlap,0.27243750253623233
+drug_split_1,SW 1088,base,energy,2.2295418228263664
+drug_split_1,SW 1088,base,dpc_mean,0.32275064956131005
+drug_split_1,SW 1088,base,dpc_median,0.32728138842679505
+drug_split_1,SW1417,base,de_overlap,0.25317325715847583
+drug_split_1,SW1417,base,energy,2.047830596481906
+drug_split_1,SW1417,base,dpc_mean,0.1253284944737976
+drug_split_1,SW1417,base,dpc_median,0.12404822247937132
+drug_split_1,SW48,base,de_overlap,0.2680849613889004
+drug_split_1,SW48,base,energy,2.2233807983383427
+drug_split_1,SW48,base,dpc_mean,0.23671163726415392
+drug_split_1,SW48,base,dpc_median,0.2440843000029902
+drug_split_1,SW480,base,de_overlap,0.22946632976480377
+drug_split_1,SW480,base,energy,2.2662481020041283
+drug_split_1,SW480,base,dpc_mean,0.17458025675963493
+drug_split_1,SW480,base,dpc_median,0.2028413222915947
+drug_split_1,ALL,base,de_overlap,0.26826089944144466
+drug_split_1,ALL,base,energy,2.2680918774567784
+drug_split_1,ALL,base,dpc_mean,0.2269137529752272
+drug_split_1,ALL,base,dpc_median,0.23668416850645055
+drug_split_1,A-172,recipe,de_overlap,0.49487308219711845
+drug_split_1,A-172,recipe,energy,0.2975832272657702
+drug_split_1,A-172,recipe,dpc_mean,0.5660847746170131
+drug_split_1,A-172,recipe,dpc_median,0.5983602832746999
+drug_split_1,COLO 205,recipe,de_overlap,0.5307991260189499
+drug_split_1,COLO 205,recipe,energy,0.28300914694073126
+drug_split_1,COLO 205,recipe,dpc_mean,0.539982761989475
+drug_split_1,COLO 205,recipe,dpc_median,0.6105679112449107
+drug_split_1,H4,recipe,de_overlap,0.4596611891206204
+drug_split_1,H4,recipe,energy,0.3862109794082892
+drug_split_1,H4,recipe,dpc_mean,0.5313267758763943
+drug_split_1,H4,recipe,dpc_median,0.5911014227411974
+drug_split_1,HCT15,recipe,de_overlap,0.3510637844372141
+drug_split_1,HCT15,recipe,energy,0.113651594775236
+drug_split_1,HCT15,recipe,dpc_mean,0.4326519337487978
+drug_split_1,HCT15,recipe,dpc_median,0.46532909770966596
+drug_split_1,HT-29,recipe,de_overlap,0.46455074973576543
+drug_split_1,HT-29,recipe,energy,0.23392063849001243
+drug_split_1,HT-29,recipe,dpc_mean,0.5208952426000644
+drug_split_1,HT-29,recipe,dpc_median,0.607290384011557
+drug_split_1,KATO III,recipe,de_overlap,0.4660955348161636
+drug_split_1,KATO III,recipe,energy,0.15959388405915387
+drug_split_1,KATO III,recipe,dpc_mean,0.5922642997927527
+drug_split_1,KATO III,recipe,dpc_median,0.6364565712645487
+drug_split_1,LS 180,recipe,de_overlap,0.49076800377419094
+drug_split_1,LS 180,recipe,energy,0.2609527617308877
+drug_split_1,LS 180,recipe,dpc_mean,0.5316280077636326
+drug_split_1,LS 180,recipe,dpc_median,0.5995217843816913
+drug_split_1,LoVo,recipe,de_overlap,0.4911163822436697
+drug_split_1,LoVo,recipe,energy,0.21397155834707732
+drug_split_1,LoVo,recipe,dpc_mean,0.4717842502081439
+drug_split_1,LoVo,recipe,dpc_median,0.5244140404044154
+drug_split_1,RKO,recipe,de_overlap,0.5226717268768363
+drug_split_1,RKO,recipe,energy,0.28687919293681796
+drug_split_1,RKO,recipe,dpc_mean,0.46754822289009595
+drug_split_1,RKO,recipe,dpc_median,0.5232745155405035
+drug_split_1,SNU-1,recipe,de_overlap,0.4560514348554114
+drug_split_1,SNU-1,recipe,energy,0.18780894836026968
+drug_split_1,SNU-1,recipe,dpc_mean,0.5712757475141373
+drug_split_1,SNU-1,recipe,dpc_median,0.6415472804493868
+drug_split_1,SW 1088,recipe,de_overlap,0.4974820136099576
+drug_split_1,SW 1088,recipe,energy,0.3471133031871802
+drug_split_1,SW 1088,recipe,dpc_mean,0.5658102303631638
+drug_split_1,SW 1088,recipe,dpc_median,0.6114361851967725
+drug_split_1,SW1417,recipe,de_overlap,0.4163107988381218
+drug_split_1,SW1417,recipe,energy,0.10593951651847072
+drug_split_1,SW1417,recipe,dpc_mean,0.5028688664577261
+drug_split_1,SW1417,recipe,dpc_median,0.5169037347051617
+drug_split_1,SW48,recipe,de_overlap,0.4260493948326789
+drug_split_1,SW48,recipe,energy,0.19640416658250312
+drug_split_1,SW48,recipe,dpc_mean,0.5266007582989757
+drug_split_1,SW48,recipe,dpc_median,0.582238548301224
+drug_split_1,SW480,recipe,de_overlap,0.44644844489841906
+drug_split_1,SW480,recipe,energy,0.13984217443136876
+drug_split_1,SW480,recipe,dpc_mean,0.47865665316255873
+drug_split_1,SW480,recipe,dpc_median,0.5561007337505784
+drug_split_1,ALL,recipe,de_overlap,0.46404862184689377
+drug_split_1,ALL,recipe,energy,0.22498787800913528
+drug_split_1,ALL,recipe,dpc_mean,0.5196831484530938
+drug_split_1,ALL,recipe,dpc_median,0.5759874617801278
+drug_split_1,A-172,guidance_w2,de_overlap,0.4915810005366046
+drug_split_1,A-172,guidance_w2,energy,0.4903121719312564
+drug_split_1,A-172,guidance_w2,dpc_mean,0.501776391480238
+drug_split_1,A-172,guidance_w2,dpc_median,0.5285100088200004
+drug_split_1,COLO 205,guidance_w2,de_overlap,0.5423409649848343
+drug_split_1,COLO 205,guidance_w2,energy,0.5150557756032971
+drug_split_1,COLO 205,guidance_w2,dpc_mean,0.4704506242876801
+drug_split_1,COLO 205,guidance_w2,dpc_median,0.5419634641440579
+drug_split_1,H4,guidance_w2,de_overlap,0.4581142657112653
+drug_split_1,H4,guidance_w2,energy,0.6772215285534573
+drug_split_1,H4,guidance_w2,dpc_mean,0.4563340749464229
+drug_split_1,H4,guidance_w2,dpc_median,0.511706336248525
+drug_split_1,HCT15,guidance_w2,de_overlap,0.35450560016767907
+drug_split_1,HCT15,guidance_w2,energy,0.18617071840974178
+drug_split_1,HCT15,guidance_w2,dpc_mean,0.38699080063090385
+drug_split_1,HCT15,guidance_w2,dpc_median,0.41336778447983996
+drug_split_1,HT-29,guidance_w2,de_overlap,0.4786663552721969
+drug_split_1,HT-29,guidance_w2,energy,0.41718358475549644
+drug_split_1,HT-29,guidance_w2,dpc_mean,0.4568910735004107
+drug_split_1,HT-29,guidance_w2,dpc_median,0.5462602323178803
+drug_split_1,KATO III,guidance_w2,de_overlap,0.4713180571614706
+drug_split_1,KATO III,guidance_w2,energy,0.23978888204280518
+drug_split_1,KATO III,guidance_w2,dpc_mean,0.52976879256614
+drug_split_1,KATO III,guidance_w2,dpc_median,0.5884276441134175
+drug_split_1,LS 180,guidance_w2,de_overlap,0.49449227158144893
+drug_split_1,LS 180,guidance_w2,energy,0.47919664997401434
+drug_split_1,LS 180,guidance_w2,dpc_mean,0.44491860835206515
+drug_split_1,LS 180,guidance_w2,dpc_median,0.4864703934276906
+drug_split_1,LoVo,guidance_w2,de_overlap,0.49415173049559435
+drug_split_1,LoVo,guidance_w2,energy,0.3744220941743609
+drug_split_1,LoVo,guidance_w2,dpc_mean,0.4216574596559909
+drug_split_1,LoVo,guidance_w2,dpc_median,0.4671138617126842
+drug_split_1,RKO,guidance_w2,de_overlap,0.537387143827164
+drug_split_1,RKO,guidance_w2,energy,0.5285885675429861
+drug_split_1,RKO,guidance_w2,dpc_mean,0.3999032228152179
+drug_split_1,RKO,guidance_w2,dpc_median,0.4554597415099653
+drug_split_1,SNU-1,guidance_w2,de_overlap,0.46710569850959205
+drug_split_1,SNU-1,guidance_w2,energy,0.3444995552652215
+drug_split_1,SNU-1,guidance_w2,dpc_mean,0.4996309782483799
+drug_split_1,SNU-1,guidance_w2,dpc_median,0.5711160695412264
+drug_split_1,SW 1088,guidance_w2,de_overlap,0.49786851536309273
+drug_split_1,SW 1088,guidance_w2,energy,0.6445651653293177
+drug_split_1,SW 1088,guidance_w2,dpc_mean,0.5118762183706735
+drug_split_1,SW 1088,guidance_w2,dpc_median,0.5793557972395209
+drug_split_1,SW1417,guidance_w2,de_overlap,0.42265766763889095
+drug_split_1,SW1417,guidance_w2,energy,0.18328760973493088
+drug_split_1,SW1417,guidance_w2,dpc_mean,0.44490112829556255
+drug_split_1,SW1417,guidance_w2,dpc_median,0.4746602822264024
+drug_split_1,SW48,guidance_w2,de_overlap,0.4368025685634515
+drug_split_1,SW48,guidance_w2,energy,0.334704817195919
+drug_split_1,SW48,guidance_w2,dpc_mean,0.4620800592960896
+drug_split_1,SW48,guidance_w2,dpc_median,0.4964492216630141
+drug_split_1,SW480,guidance_w2,de_overlap,0.4536926876854544
+drug_split_1,SW480,guidance_w2,energy,0.21467934170281194
+drug_split_1,SW480,guidance_w2,dpc_mean,0.4276107158280224
+drug_split_1,SW480,guidance_w2,dpc_median,0.5065607632452819
+drug_split_1,ALL,guidance_w2,de_overlap,0.4704669776498536
+drug_split_1,ALL,guidance_w2,energy,0.3928367388840301
+drug_split_1,ALL,guidance_w2,dpc_mean,0.4561440571368478
+drug_split_1,ALL,guidance_w2,dpc_median,0.5090024368399525
+drug_split_1,A-172,attn_cross,de_overlap,0.4961104402029243
+drug_split_1,A-172,attn_cross,energy,0.28534970124904174
+drug_split_1,A-172,attn_cross,dpc_mean,0.5662297635551194
+drug_split_1,A-172,attn_cross,dpc_median,0.6024635639661915
+drug_split_1,COLO 205,attn_cross,de_overlap,0.5297707695943364
+drug_split_1,COLO 205,attn_cross,energy,0.2663188309094049
+drug_split_1,COLO 205,attn_cross,dpc_mean,0.5413657845373453
+drug_split_1,COLO 205,attn_cross,dpc_median,0.6158953567569984
+drug_split_1,H4,attn_cross,de_overlap,0.46122138196611984
+drug_split_1,H4,attn_cross,energy,0.3750898933666319
+drug_split_1,H4,attn_cross,dpc_mean,0.5329291991536013
+drug_split_1,H4,attn_cross,dpc_median,0.5892776167442811
+drug_split_1,HCT15,attn_cross,de_overlap,0.355762783439643
+drug_split_1,HCT15,attn_cross,energy,0.10679576421893879
+drug_split_1,HCT15,attn_cross,dpc_mean,0.43667280921851237
+drug_split_1,HCT15,attn_cross,dpc_median,0.4690032245922294
+drug_split_1,HT-29,attn_cross,de_overlap,0.46921515408758907
+drug_split_1,HT-29,attn_cross,energy,0.21995480658435215
+drug_split_1,HT-29,attn_cross,dpc_mean,0.5259329170521015
+drug_split_1,HT-29,attn_cross,dpc_median,0.6006965294628862
+drug_split_1,KATO III,attn_cross,de_overlap,0.46852833203906985
+drug_split_1,KATO III,attn_cross,energy,0.1551678470284826
+drug_split_1,KATO III,attn_cross,dpc_mean,0.5968755017920861
+drug_split_1,KATO III,attn_cross,dpc_median,0.6419149240650125
+drug_split_1,LS 180,attn_cross,de_overlap,0.4934094967709332
+drug_split_1,LS 180,attn_cross,energy,0.25109517402320936
+drug_split_1,LS 180,attn_cross,dpc_mean,0.5338334051940088
+drug_split_1,LS 180,attn_cross,dpc_median,0.5933369879308187
+drug_split_1,LoVo,attn_cross,de_overlap,0.49378814795695675
+drug_split_1,LoVo,attn_cross,energy,0.20697850513663762
+drug_split_1,LoVo,attn_cross,dpc_mean,0.47066167640377765
+drug_split_1,LoVo,attn_cross,dpc_median,0.5143404542627358
+drug_split_1,RKO,attn_cross,de_overlap,0.5242004990257454
+drug_split_1,RKO,attn_cross,energy,0.274148239677911
+drug_split_1,RKO,attn_cross,dpc_mean,0.47466236828598796
+drug_split_1,RKO,attn_cross,dpc_median,0.5306511011237259
+drug_split_1,SNU-1,attn_cross,de_overlap,0.46158116115136594
+drug_split_1,SNU-1,attn_cross,energy,0.17975330364053085
+drug_split_1,SNU-1,attn_cross,dpc_mean,0.5802951633849711
+drug_split_1,SNU-1,attn_cross,dpc_median,0.6444465767255831
+drug_split_1,SW 1088,attn_cross,de_overlap,0.49539386384943385
+drug_split_1,SW 1088,attn_cross,energy,0.315820013717159
+drug_split_1,SW 1088,attn_cross,dpc_mean,0.5703524339738691
+drug_split_1,SW 1088,attn_cross,dpc_median,0.6135325032477539
+drug_split_1,SW1417,attn_cross,de_overlap,0.4152160238759351
+drug_split_1,SW1417,attn_cross,energy,0.09783777110774684
+drug_split_1,SW1417,attn_cross,dpc_mean,0.5105603514525701
+drug_split_1,SW1417,attn_cross,dpc_median,0.5165643233608007
+drug_split_1,SW48,attn_cross,de_overlap,0.4313487765034512
+drug_split_1,SW48,attn_cross,energy,0.19031016208578516
+drug_split_1,SW48,attn_cross,dpc_mean,0.5318642878388711
+drug_split_1,SW48,attn_cross,dpc_median,0.5774945009723539
+drug_split_1,SW480,attn_cross,de_overlap,0.4527231363257407
+drug_split_1,SW480,attn_cross,energy,0.13189481134660253
+drug_split_1,SW480,attn_cross,dpc_mean,0.49157036661671144
+drug_split_1,SW480,attn_cross,dpc_median,0.5720258861047315
+drug_split_1,ALL,attn_cross,de_overlap,0.46667448222573316
+drug_split_1,ALL,attn_cross,energy,0.21458939829502197
+drug_split_1,ALL,attn_cross,dpc_mean,0.5242874011547776
+drug_split_1,ALL,attn_cross,dpc_median,0.578457314517138
+drug_split_1,A-172,mlp_ctrl,de_overlap,0.4965680072701827
+drug_split_1,A-172,mlp_ctrl,energy,0.2843013481682391
+drug_split_1,A-172,mlp_ctrl,dpc_mean,0.5720917096475715
+drug_split_1,A-172,mlp_ctrl,dpc_median,0.6083564076780645
+drug_split_1,COLO 205,mlp_ctrl,de_overlap,0.528438559658863
+drug_split_1,COLO 205,mlp_ctrl,energy,0.2621892988595356
+drug_split_1,COLO 205,mlp_ctrl,dpc_mean,0.5467983825396366
+drug_split_1,COLO 205,mlp_ctrl,dpc_median,0.6202511160749489
+drug_split_1,H4,mlp_ctrl,de_overlap,0.46217681869677313
+drug_split_1,H4,mlp_ctrl,energy,0.3654351497160211
+drug_split_1,H4,mlp_ctrl,dpc_mean,0.5396935734803365
+drug_split_1,H4,mlp_ctrl,dpc_median,0.5972647938081239
+drug_split_1,HCT15,mlp_ctrl,de_overlap,0.3549910365673048
+drug_split_1,HCT15,mlp_ctrl,energy,0.1102826701219095
+drug_split_1,HCT15,mlp_ctrl,dpc_mean,0.4369566210436732
+drug_split_1,HCT15,mlp_ctrl,dpc_median,0.47105731797330036
+drug_split_1,HT-29,mlp_ctrl,de_overlap,0.4636490277512161
+drug_split_1,HT-29,mlp_ctrl,energy,0.21680836625013566
+drug_split_1,HT-29,mlp_ctrl,dpc_mean,0.5324348603007683
+drug_split_1,HT-29,mlp_ctrl,dpc_median,0.5919573166379313
+drug_split_1,KATO III,mlp_ctrl,de_overlap,0.46777154863147846
+drug_split_1,KATO III,mlp_ctrl,energy,0.15667055048757764
+drug_split_1,KATO III,mlp_ctrl,dpc_mean,0.5997021591788873
+drug_split_1,KATO III,mlp_ctrl,dpc_median,0.6417948599592632
+drug_split_1,LS 180,mlp_ctrl,de_overlap,0.48904210188483255
+drug_split_1,LS 180,mlp_ctrl,energy,0.24756648439449697
+drug_split_1,LS 180,mlp_ctrl,dpc_mean,0.5351139579994385
+drug_split_1,LS 180,mlp_ctrl,dpc_median,0.6012587286860361
+drug_split_1,LoVo,mlp_ctrl,de_overlap,0.49095766697255544
+drug_split_1,LoVo,mlp_ctrl,energy,0.2026487433019052
+drug_split_1,LoVo,mlp_ctrl,dpc_mean,0.47316631786323254
+drug_split_1,LoVo,mlp_ctrl,dpc_median,0.5179519045758679
+drug_split_1,RKO,mlp_ctrl,de_overlap,0.5206810838102226
+drug_split_1,RKO,mlp_ctrl,energy,0.27457041396401183
+drug_split_1,RKO,mlp_ctrl,dpc_mean,0.4800941559771092
+drug_split_1,RKO,mlp_ctrl,dpc_median,0.5363908773452583
+drug_split_1,SNU-1,mlp_ctrl,de_overlap,0.45647445704593836
+drug_split_1,SNU-1,mlp_ctrl,energy,0.17405497917440066
+drug_split_1,SNU-1,mlp_ctrl,dpc_mean,0.5827522944060771
+drug_split_1,SNU-1,mlp_ctrl,dpc_median,0.6515125503920384
+drug_split_1,SW 1088,mlp_ctrl,de_overlap,0.501533533131548
+drug_split_1,SW 1088,mlp_ctrl,energy,0.31937777268513234
+drug_split_1,SW 1088,mlp_ctrl,dpc_mean,0.5764712619991131
+drug_split_1,SW 1088,mlp_ctrl,dpc_median,0.6270952256740003
+drug_split_1,SW1417,mlp_ctrl,de_overlap,0.414733707688341
+drug_split_1,SW1417,mlp_ctrl,energy,0.09978909763675745
+drug_split_1,SW1417,mlp_ctrl,dpc_mean,0.5129554960432795
+drug_split_1,SW1417,mlp_ctrl,dpc_median,0.5332151047261168
+drug_split_1,SW48,mlp_ctrl,de_overlap,0.4267641146915111
+drug_split_1,SW48,mlp_ctrl,energy,0.1908944387648902
+drug_split_1,SW48,mlp_ctrl,dpc_mean,0.5334378680972864
+drug_split_1,SW48,mlp_ctrl,dpc_median,0.585616509962788
+drug_split_1,SW480,mlp_ctrl,de_overlap,0.4465657197613003
+drug_split_1,SW480,mlp_ctrl,energy,0.13212507976850327
+drug_split_1,SW480,mlp_ctrl,dpc_mean,0.48677653011011207
+drug_split_1,SW480,mlp_ctrl,dpc_median,0.5589035606127815
+drug_split_1,ALL,mlp_ctrl,de_overlap,0.46436856339711713
+drug_split_1,ALL,mlp_ctrl,energy,0.2129847056881878
+drug_split_1,ALL,mlp_ctrl,dpc_mean,0.5273637135169716
+drug_split_1,ALL,mlp_ctrl,dpc_median,0.58078142781687
+drug_split_0,A-172,ridge_S7,de_overlap,0.4588903327500559
+drug_split_0,A-172,ridge_S7,energy,0.3775669082711702
+drug_split_0,A-172,ridge_S7,dpc_mean,0.3518547785154222
+drug_split_0,A-172,ridge_S7,dpc_median,0.44689527070229584
+drug_split_0,COLO 205,ridge_S7,de_overlap,0.5306816055824958
+drug_split_0,COLO 205,ridge_S7,energy,0.27858986969828664
+drug_split_0,COLO 205,ridge_S7,dpc_mean,0.402794299478868
+drug_split_0,COLO 205,ridge_S7,dpc_median,0.5089334222595702
+drug_split_0,H4,ridge_S7,de_overlap,0.4233308262529284
+drug_split_0,H4,ridge_S7,energy,0.34225567392933237
+drug_split_0,H4,ridge_S7,dpc_mean,0.3396968165668142
+drug_split_0,H4,ridge_S7,dpc_median,0.3715741126790136
+drug_split_0,HCT15,ridge_S7,de_overlap,0.41251334667952866
+drug_split_0,HCT15,ridge_S7,energy,0.10417538144679912
+drug_split_0,HCT15,ridge_S7,dpc_mean,0.3124479098158168
+drug_split_0,HCT15,ridge_S7,dpc_median,0.36784467070107957
+drug_split_0,HT-29,ridge_S7,de_overlap,0.4876604633613338
+drug_split_0,HT-29,ridge_S7,energy,0.19932370904199995
+drug_split_0,HT-29,ridge_S7,dpc_mean,0.4354182928053327
+drug_split_0,HT-29,ridge_S7,dpc_median,0.5084452822890311
+drug_split_0,KATO III,ridge_S7,de_overlap,0.46747877266584453
+drug_split_0,KATO III,ridge_S7,energy,0.22009997932618416
+drug_split_0,KATO III,ridge_S7,dpc_mean,0.422034207329272
+drug_split_0,KATO III,ridge_S7,dpc_median,0.5135621099550804
+drug_split_0,LS 180,ridge_S7,de_overlap,0.47468038361390585
+drug_split_0,LS 180,ridge_S7,energy,0.23116273235565463
+drug_split_0,LS 180,ridge_S7,dpc_mean,0.4218096232686743
+drug_split_0,LS 180,ridge_S7,dpc_median,0.5117168884084706
+drug_split_0,LoVo,ridge_S7,de_overlap,0.4891411426879747
+drug_split_0,LoVo,ridge_S7,energy,0.16482975247801507
+drug_split_0,LoVo,ridge_S7,dpc_mean,0.3830962683241846
+drug_split_0,LoVo,ridge_S7,dpc_median,0.49062174707090983
+drug_split_0,RKO,ridge_S7,de_overlap,0.5468645357798231
+drug_split_0,RKO,ridge_S7,energy,0.24575889794955022
+drug_split_0,RKO,ridge_S7,dpc_mean,0.36354179999416036
+drug_split_0,RKO,ridge_S7,dpc_median,0.454122436859343
+drug_split_0,SNU-1,ridge_S7,de_overlap,0.4772411607409667
+drug_split_0,SNU-1,ridge_S7,energy,0.20083301282144575
+drug_split_0,SNU-1,ridge_S7,dpc_mean,0.41565480259440346
+drug_split_0,SNU-1,ridge_S7,dpc_median,0.5451332364407153
+drug_split_0,SW 1088,ridge_S7,de_overlap,0.45577327532144535
+drug_split_0,SW 1088,ridge_S7,energy,0.323408699016879
+drug_split_0,SW 1088,ridge_S7,dpc_mean,0.48321850769256286
+drug_split_0,SW 1088,ridge_S7,dpc_median,0.5724748636786656
+drug_split_0,SW1417,ridge_S7,de_overlap,0.4002543071692319
+drug_split_0,SW1417,ridge_S7,energy,0.11410122726496852
+drug_split_0,SW1417,ridge_S7,dpc_mean,0.4050011436042301
+drug_split_0,SW1417,ridge_S7,dpc_median,0.5015270985020027
+drug_split_0,SW48,ridge_S7,de_overlap,0.4358597844132504
+drug_split_0,SW48,ridge_S7,energy,0.20622481001600254
+drug_split_0,SW48,ridge_S7,dpc_mean,0.35390848800221214
+drug_split_0,SW48,ridge_S7,dpc_median,0.43978180828575597
+drug_split_0,SW480,ridge_S7,de_overlap,0.4491475760007623
+drug_split_0,SW480,ridge_S7,energy,0.16437722915098715
+drug_split_0,SW480,ridge_S7,dpc_mean,0.2563785672874586
+drug_split_0,SW480,ridge_S7,dpc_median,0.3050365826499028
+drug_split_0,ALL,ridge_S7,de_overlap,0.4653098099065309
+drug_split_0,ALL,ridge_S7,energy,0.22296387204572307
+drug_split_0,ALL,ridge_S7,dpc_mean,0.3780700426995915
+drug_split_0,ALL,ridge_S7,dpc_median,0.46657456378306816
+drug_split_0,A-172,ridge_train,de_overlap,0.4447653162949956
+drug_split_0,A-172,ridge_train,energy,0.4181515017722962
+drug_split_0,A-172,ridge_train,dpc_mean,0.25089210920638916
+drug_split_0,A-172,ridge_train,dpc_median,0.2637661451546766
+drug_split_0,COLO 205,ridge_train,de_overlap,0.4853025987930748
+drug_split_0,COLO 205,ridge_train,energy,0.3056662390678446
+drug_split_0,COLO 205,ridge_train,dpc_mean,0.29397027863192376
+drug_split_0,COLO 205,ridge_train,dpc_median,0.3483683982597575
+drug_split_0,H4,ridge_train,de_overlap,0.4091799975739111
+drug_split_0,H4,ridge_train,energy,0.3982652074347858
+drug_split_0,H4,ridge_train,dpc_mean,0.24088343010492771
+drug_split_0,H4,ridge_train,dpc_median,0.26948038184682543
+drug_split_0,HCT15,ridge_train,de_overlap,0.3766046021829533
+drug_split_0,HCT15,ridge_train,energy,0.1265085463121273
+drug_split_0,HCT15,ridge_train,dpc_mean,0.22901397462475703
+drug_split_0,HCT15,ridge_train,dpc_median,0.2726415342260348
+drug_split_0,HT-29,ridge_train,de_overlap,0.4375764175989912
+drug_split_0,HT-29,ridge_train,energy,0.24105222414895033
+drug_split_0,HT-29,ridge_train,dpc_mean,0.3012297037636571
+drug_split_0,HT-29,ridge_train,dpc_median,0.38901731155991226
+drug_split_0,KATO III,ridge_train,de_overlap,0.4296429216458342
+drug_split_0,KATO III,ridge_train,energy,0.2509563136199627
+drug_split_0,KATO III,ridge_train,dpc_mean,0.2944521970243765
+drug_split_0,KATO III,ridge_train,dpc_median,0.33541545907597586
+drug_split_0,LS 180,ridge_train,de_overlap,0.4503029592215963
+drug_split_0,LS 180,ridge_train,energy,0.2975056040807748
+drug_split_0,LS 180,ridge_train,dpc_mean,0.2664627996043153
+drug_split_0,LS 180,ridge_train,dpc_median,0.3409660714220282
+drug_split_0,LoVo,ridge_train,de_overlap,0.4452446910647501
+drug_split_0,LoVo,ridge_train,energy,0.2094244686343228
+drug_split_0,LoVo,ridge_train,dpc_mean,0.2207521872268403
+drug_split_0,LoVo,ridge_train,dpc_median,0.23183796246913818
+drug_split_0,RKO,ridge_train,de_overlap,0.5067222572191568
+drug_split_0,RKO,ridge_train,energy,0.303435825375718
+drug_split_0,RKO,ridge_train,dpc_mean,0.24085286206379347
+drug_split_0,RKO,ridge_train,dpc_median,0.301003560789087
+drug_split_0,SNU-1,ridge_train,de_overlap,0.43788730597160036
+drug_split_0,SNU-1,ridge_train,energy,0.258866209779453
+drug_split_0,SNU-1,ridge_train,dpc_mean,0.2638197517052665
+drug_split_0,SNU-1,ridge_train,dpc_median,0.3213412355242543
+drug_split_0,SW 1088,ridge_train,de_overlap,0.4059624269341203
+drug_split_0,SW 1088,ridge_train,energy,0.3651257399127673
+drug_split_0,SW 1088,ridge_train,dpc_mean,0.42860358601004184
+drug_split_0,SW 1088,ridge_train,dpc_median,0.48480326731022305
+drug_split_0,SW1417,ridge_train,de_overlap,0.37791345350454897
+drug_split_0,SW1417,ridge_train,energy,0.13585833096319896
+drug_split_0,SW1417,ridge_train,dpc_mean,0.3123765190159522
+drug_split_0,SW1417,ridge_train,dpc_median,0.37981856462385566
+drug_split_0,SW48,ridge_train,de_overlap,0.40437827175918567
+drug_split_0,SW48,ridge_train,energy,0.23903058362805854
+drug_split_0,SW48,ridge_train,dpc_mean,0.2560494263496087
+drug_split_0,SW48,ridge_train,dpc_median,0.3053645285885506
+drug_split_0,SW480,ridge_train,de_overlap,0.43371135047068954
+drug_split_0,SW480,ridge_train,energy,0.2008896775410664
+drug_split_0,SW480,ridge_train,dpc_mean,0.161552708276602
+drug_split_0,SW480,ridge_train,dpc_median,0.20879190265131398
+drug_split_0,ALL,ridge_train,de_overlap,0.4327764019390631
+drug_split_0,ALL,ridge_train,energy,0.26422999087486054
+drug_split_0,ALL,ridge_train,dpc_mean,0.26257833751610343
+drug_split_0,ALL,ridge_train,dpc_median,0.313040385152833
+drug_split_0,A-172,mean_response,de_overlap,0.4734329760742531
+drug_split_0,A-172,mean_response,energy,0.32661450870307757
+drug_split_0,A-172,mean_response,dpc_mean,0.4825076911196673
+drug_split_0,A-172,mean_response,dpc_median,0.6016065952585781
+drug_split_0,COLO 205,mean_response,de_overlap,0.5627258073940865
+drug_split_0,COLO 205,mean_response,energy,0.24765860688645597
+drug_split_0,COLO 205,mean_response,dpc_mean,0.5011271526461667
+drug_split_0,COLO 205,mean_response,dpc_median,0.6397804420080558
+drug_split_0,H4,mean_response,de_overlap,0.4626802190967855
+drug_split_0,H4,mean_response,energy,0.2987236173874354
+drug_split_0,H4,mean_response,dpc_mean,0.45611385990316644
+drug_split_0,H4,mean_response,dpc_median,0.5854478720702404
+drug_split_0,HCT15,mean_response,de_overlap,0.4439561565075309
+drug_split_0,HCT15,mean_response,energy,0.09217666943919656
+drug_split_0,HCT15,mean_response,dpc_mean,0.4437986177391532
+drug_split_0,HCT15,mean_response,dpc_median,0.5843247307281211
+drug_split_0,HT-29,mean_response,de_overlap,0.5224912348153757
+drug_split_0,HT-29,mean_response,energy,0.18293684359770618
+drug_split_0,HT-29,mean_response,dpc_mean,0.5275954646377805
+drug_split_0,HT-29,mean_response,dpc_median,0.6736517829915343
+drug_split_0,KATO III,mean_response,de_overlap,0.5167565974650419
+drug_split_0,KATO III,mean_response,energy,0.1923642029779835
+drug_split_0,KATO III,mean_response,dpc_mean,0.5241185394983557
+drug_split_0,KATO III,mean_response,dpc_median,0.6892061872842297
+drug_split_0,LS 180,mean_response,de_overlap,0.49757405769593727
+drug_split_0,LS 180,mean_response,energy,0.2109560040196033
+drug_split_0,LS 180,mean_response,dpc_mean,0.5104859921022314
+drug_split_0,LS 180,mean_response,dpc_median,0.6770482312789554
+drug_split_0,LoVo,mean_response,de_overlap,0.5528931461490479
+drug_split_0,LoVo,mean_response,energy,0.14896707204279652
+drug_split_0,LoVo,mean_response,dpc_mean,0.4863505109351232
+drug_split_0,LoVo,mean_response,dpc_median,0.6639843136141026
+drug_split_0,RKO,mean_response,de_overlap,0.5581489894774971
+drug_split_0,RKO,mean_response,energy,0.21779199765424165
+drug_split_0,RKO,mean_response,dpc_mean,0.44694173941451526
+drug_split_0,RKO,mean_response,dpc_median,0.606531406071279
+drug_split_0,SNU-1,mean_response,de_overlap,0.5479559905722732
+drug_split_0,SNU-1,mean_response,energy,0.17819762964675132
+drug_split_0,SNU-1,mean_response,dpc_mean,0.49968657481831374
+drug_split_0,SNU-1,mean_response,dpc_median,0.7223221788755047
+drug_split_0,SW 1088,mean_response,de_overlap,0.4845610650362579
+drug_split_0,SW 1088,mean_response,energy,0.28142698746962785
+drug_split_0,SW 1088,mean_response,dpc_mean,0.5946103049492699
+drug_split_0,SW 1088,mean_response,dpc_median,0.6791454968888678
+drug_split_0,SW1417,mean_response,de_overlap,0.4435577483919946
+drug_split_0,SW1417,mean_response,energy,0.10177938181983079
+drug_split_0,SW1417,mean_response,dpc_mean,0.5264847171900162
+drug_split_0,SW1417,mean_response,dpc_median,0.6726537655981814
+drug_split_0,SW48,mean_response,de_overlap,0.46545316109766904
+drug_split_0,SW48,mean_response,energy,0.1779692218187753
+drug_split_0,SW48,mean_response,dpc_mean,0.4754772013443283
+drug_split_0,SW48,mean_response,dpc_median,0.6729951561710783
+drug_split_0,SW480,mean_response,de_overlap,0.4611081403722038
+drug_split_0,SW480,mean_response,energy,0.14337914768420784
+drug_split_0,SW480,mean_response,dpc_mean,0.38440670215823936
+drug_split_0,SW480,mean_response,dpc_median,0.528371528688716
+drug_split_0,ALL,mean_response,de_overlap,0.5000722473062166
+drug_split_0,ALL,mean_response,energy,0.196992293644961
+drug_split_0,ALL,mean_response,dpc_mean,0.4860122530512293
+drug_split_0,ALL,mean_response,dpc_median,0.6389340471798921
+drug_split_0,A-172,control_paste,de_overlap,
+drug_split_0,A-172,control_paste,energy,0.3771301579333607
+drug_split_0,A-172,control_paste,dpc_mean,
+drug_split_0,A-172,control_paste,dpc_median,
+drug_split_0,COLO 205,control_paste,de_overlap,
+drug_split_0,COLO 205,control_paste,energy,0.28465460965348677
+drug_split_0,COLO 205,control_paste,dpc_mean,
+drug_split_0,COLO 205,control_paste,dpc_median,
+drug_split_0,H4,control_paste,de_overlap,
+drug_split_0,H4,control_paste,energy,0.3344006648716829
+drug_split_0,H4,control_paste,dpc_mean,
+drug_split_0,H4,control_paste,dpc_median,
+drug_split_0,HCT15,control_paste,de_overlap,
+drug_split_0,HCT15,control_paste,energy,0.09894502164696224
+drug_split_0,HCT15,control_paste,dpc_mean,
+drug_split_0,HCT15,control_paste,dpc_median,
+drug_split_0,HT-29,control_paste,de_overlap,
+drug_split_0,HT-29,control_paste,energy,0.21878698248871634
+drug_split_0,HT-29,control_paste,dpc_mean,
+drug_split_0,HT-29,control_paste,dpc_median,
+drug_split_0,KATO III,control_paste,de_overlap,
+drug_split_0,KATO III,control_paste,energy,0.2337093599131438
+drug_split_0,KATO III,control_paste,dpc_mean,
+drug_split_0,KATO III,control_paste,dpc_median,
+drug_split_0,LS 180,control_paste,de_overlap,
+drug_split_0,LS 180,control_paste,energy,0.2570188886346266
+drug_split_0,LS 180,control_paste,dpc_mean,
+drug_split_0,LS 180,control_paste,dpc_median,
+drug_split_0,LoVo,control_paste,de_overlap,
+drug_split_0,LoVo,control_paste,energy,0.17284879405087591
+drug_split_0,LoVo,control_paste,dpc_mean,
+drug_split_0,LoVo,control_paste,dpc_median,
+drug_split_0,RKO,control_paste,de_overlap,
+drug_split_0,RKO,control_paste,energy,0.2463826904949499
+drug_split_0,RKO,control_paste,dpc_mean,
+drug_split_0,RKO,control_paste,dpc_median,
+drug_split_0,SNU-1,control_paste,de_overlap,
+drug_split_0,SNU-1,control_paste,energy,0.21218446993790221
+drug_split_0,SNU-1,control_paste,dpc_mean,
+drug_split_0,SNU-1,control_paste,dpc_median,
+drug_split_0,SW 1088,control_paste,de_overlap,
+drug_split_0,SW 1088,control_paste,energy,0.36506349915209496
+drug_split_0,SW 1088,control_paste,dpc_mean,
+drug_split_0,SW 1088,control_paste,dpc_median,
+drug_split_0,SW1417,control_paste,de_overlap,
+drug_split_0,SW1417,control_paste,energy,0.11623985481550224
+drug_split_0,SW1417,control_paste,dpc_mean,
+drug_split_0,SW1417,control_paste,dpc_median,
+drug_split_0,SW48,control_paste,de_overlap,
+drug_split_0,SW48,control_paste,energy,0.20409700992814572
+drug_split_0,SW48,control_paste,dpc_mean,
+drug_split_0,SW48,control_paste,dpc_median,
+drug_split_0,SW480,control_paste,de_overlap,
+drug_split_0,SW480,control_paste,energy,0.15471268630904944
+drug_split_0,SW480,control_paste,dpc_mean,
+drug_split_0,SW480,control_paste,dpc_median,
+drug_split_0,ALL,control_paste,de_overlap,
+drug_split_0,ALL,control_paste,energy,0.2290551126744656
+drug_split_0,ALL,control_paste,dpc_mean,
+drug_split_0,ALL,control_paste,dpc_median,
+drug_split_0,A-172,base,de_overlap,0.2534928089321492
+drug_split_0,A-172,base,energy,2.096004853853538
+drug_split_0,A-172,base,dpc_mean,0.28046577703222153
+drug_split_0,A-172,base,dpc_median,0.30617283664359646
+drug_split_0,COLO 205,base,de_overlap,0.3108525567538349
+drug_split_0,COLO 205,base,energy,2.258221477237679
+drug_split_0,COLO 205,base,dpc_mean,0.24060919233092684
+drug_split_0,COLO 205,base,dpc_median,0.24192265949621242
+drug_split_0,H4,base,de_overlap,0.26744853542504465
+drug_split_0,H4,base,energy,2.095098488845893
+drug_split_0,H4,base,dpc_mean,0.2680590030589828
+drug_split_0,H4,base,dpc_median,0.2913275918687294
+drug_split_0,HCT15,base,de_overlap,0.2800111424210706
+drug_split_0,HCT15,base,energy,2.0618580964376987
+drug_split_0,HCT15,base,dpc_mean,0.18324361198349468
+drug_split_0,HCT15,base,dpc_median,0.1823173997921721
+drug_split_0,HT-29,base,de_overlap,0.2903450476604413
+drug_split_0,HT-29,base,energy,2.1736124800124585
+drug_split_0,HT-29,base,dpc_mean,0.2782517229230718
+drug_split_0,HT-29,base,dpc_median,0.29091680721374796
+drug_split_0,KATO III,base,de_overlap,0.29172920453725043
+drug_split_0,KATO III,base,energy,2.184330150259738
+drug_split_0,KATO III,base,dpc_mean,0.2732308649802294
+drug_split_0,KATO III,base,dpc_median,0.28692720515006576
+drug_split_0,LS 180,base,de_overlap,0.3066854254759009
+drug_split_0,LS 180,base,energy,2.1183085388581215
+drug_split_0,LS 180,base,dpc_mean,0.3171238702337801
+drug_split_0,LS 180,base,dpc_median,0.35240346675355894
+drug_split_0,LoVo,base,de_overlap,0.2754791953988926
+drug_split_0,LoVo,base,energy,1.9750630416024997
+drug_split_0,LoVo,base,dpc_mean,0.2616705871276373
+drug_split_0,LoVo,base,dpc_median,0.26764933927410445
+drug_split_0,RKO,base,de_overlap,0.3287689146815063
+drug_split_0,RKO,base,energy,2.430567470407875
+drug_split_0,RKO,base,dpc_mean,0.21333961566304624
+drug_split_0,RKO,base,dpc_median,0.2173558528696847
+drug_split_0,SNU-1,base,de_overlap,0.30174052698287396
+drug_split_0,SNU-1,base,energy,2.221898549308905
+drug_split_0,SNU-1,base,dpc_mean,0.2875894040117971
+drug_split_0,SNU-1,base,dpc_median,0.30654701549557684
+drug_split_0,SW 1088,base,de_overlap,0.2863373751203699
+drug_split_0,SW 1088,base,energy,2.1132443906016523
+drug_split_0,SW 1088,base,dpc_mean,0.3189728804408703
+drug_split_0,SW 1088,base,dpc_median,0.3167435245949319
+drug_split_0,SW1417,base,de_overlap,0.25790675827588144
+drug_split_0,SW1417,base,energy,1.8845850394390715
+drug_split_0,SW1417,base,dpc_mean,0.15005619742943774
+drug_split_0,SW1417,base,dpc_median,0.1466340392516038
+drug_split_0,SW48,base,de_overlap,0.2825820405945113
+drug_split_0,SW48,base,energy,2.1037147455102874
+drug_split_0,SW48,base,dpc_mean,0.24435117953593602
+drug_split_0,SW48,base,dpc_median,0.2437286948568349
+drug_split_0,SW480,base,de_overlap,0.2578354452812568
+drug_split_0,SW480,base,energy,2.166336482824273
+drug_split_0,SW480,base,dpc_mean,0.20508679472995908
+drug_split_0,SW480,base,dpc_median,0.22278707668462092
+drug_split_0,ALL,base,de_overlap,0.28503406389110136
+drug_split_0,ALL,base,energy,2.135265548109414
+drug_split_0,ALL,base,dpc_mean,0.24901037648352067
+drug_split_0,ALL,base,dpc_median,0.2548837961385599
+drug_split_0,A-172,recipe,de_overlap,0.48919753439651703
+drug_split_0,A-172,recipe,energy,0.31155597433561394
+drug_split_0,A-172,recipe,dpc_mean,0.5576134322512643
+drug_split_0,A-172,recipe,dpc_median,0.5972560278034423
+drug_split_0,COLO 205,recipe,de_overlap,0.5201318135030901
+drug_split_0,COLO 205,recipe,energy,0.30707956313525053
+drug_split_0,COLO 205,recipe,dpc_mean,0.4942600794904969
+drug_split_0,COLO 205,recipe,dpc_median,0.5306781140402527
+drug_split_0,H4,recipe,de_overlap,0.4529292920228926
+drug_split_0,H4,recipe,energy,0.37372508453998726
+drug_split_0,H4,recipe,dpc_mean,0.5169800561784322
+drug_split_0,H4,recipe,dpc_median,0.5643457917138538
+drug_split_0,HCT15,recipe,de_overlap,0.35228516701791895
+drug_split_0,HCT15,recipe,energy,0.13401098901708422
+drug_split_0,HCT15,recipe,dpc_mean,0.404370196063167
+drug_split_0,HCT15,recipe,dpc_median,0.44488560338231337
+drug_split_0,HT-29,recipe,de_overlap,0.46411570659801576
+drug_split_0,HT-29,recipe,energy,0.2689990985711137
+drug_split_0,HT-29,recipe,dpc_mean,0.47921073622099514
+drug_split_0,HT-29,recipe,dpc_median,0.5346804447955131
+drug_split_0,KATO III,recipe,de_overlap,0.4603610690619191
+drug_split_0,KATO III,recipe,energy,0.17579362747463456
+drug_split_0,KATO III,recipe,dpc_mean,0.5930324188741521
+drug_split_0,KATO III,recipe,dpc_median,0.6471262644889091
+drug_split_0,LS 180,recipe,de_overlap,0.49127155673493184
+drug_split_0,LS 180,recipe,energy,0.28323436884934644
+drug_split_0,LS 180,recipe,dpc_mean,0.5095254853777481
+drug_split_0,LS 180,recipe,dpc_median,0.550219761334503
+drug_split_0,LoVo,recipe,de_overlap,0.49318231519403744
+drug_split_0,LoVo,recipe,energy,0.2242292076136793
+drug_split_0,LoVo,recipe,dpc_mean,0.46210661355213606
+drug_split_0,LoVo,recipe,dpc_median,0.5083199876176064
+drug_split_0,RKO,recipe,de_overlap,0.526417102613975
+drug_split_0,RKO,recipe,energy,0.3161679433033389
+drug_split_0,RKO,recipe,dpc_mean,0.46401868076346936
+drug_split_0,RKO,recipe,dpc_median,0.5059023568652551
+drug_split_0,SNU-1,recipe,de_overlap,0.4523009049051167
+drug_split_0,SNU-1,recipe,energy,0.20965717345899165
+drug_split_0,SNU-1,recipe,dpc_mean,0.5507882987815987
+drug_split_0,SNU-1,recipe,dpc_median,0.6215718068975329
+drug_split_0,SW 1088,recipe,de_overlap,0.48140348502853575
+drug_split_0,SW 1088,recipe,energy,0.3323710585622201
+drug_split_0,SW 1088,recipe,dpc_mean,0.5669419923664166
+drug_split_0,SW 1088,recipe,dpc_median,0.6444316846792398
+drug_split_0,SW1417,recipe,de_overlap,0.4001768122658387
+drug_split_0,SW1417,recipe,energy,0.13957957279094205
+drug_split_0,SW1417,recipe,dpc_mean,0.46674124127404976
+drug_split_0,SW1417,recipe,dpc_median,0.5029851733882843
+drug_split_0,SW48,recipe,de_overlap,0.4277967043056926
+drug_split_0,SW48,recipe,energy,0.22170125837575624
+drug_split_0,SW48,recipe,dpc_mean,0.4962122595881134
+drug_split_0,SW48,recipe,dpc_median,0.5460320084542847
+drug_split_0,SW480,recipe,de_overlap,0.4433885084829252
+drug_split_0,SW480,recipe,energy,0.15958815194990586
+drug_split_0,SW480,recipe,dpc_mean,0.47973931457382596
+drug_split_0,SW480,recipe,dpc_median,0.5294053007516218
+drug_split_0,ALL,recipe,de_overlap,0.46030092437370224
+drug_split_0,ALL,recipe,energy,0.2437552672690484
+drug_split_0,ALL,recipe,dpc_mean,0.5005284053416328
+drug_split_0,ALL,recipe,dpc_median,0.5462604739178539
+drug_split_0,A-172,guidance_w2,de_overlap,0.4874614571788462
+drug_split_0,A-172,guidance_w2,energy,0.43414863020627575
+drug_split_0,A-172,guidance_w2,dpc_mean,0.5138518571136547
+drug_split_0,A-172,guidance_w2,dpc_median,0.544481695645686
+drug_split_0,COLO 205,guidance_w2,de_overlap,0.5272311807214453
+drug_split_0,COLO 205,guidance_w2,energy,0.4338346138926069
+drug_split_0,COLO 205,guidance_w2,dpc_mean,0.44470766672951706
+drug_split_0,COLO 205,guidance_w2,dpc_median,0.513042407797951
+drug_split_0,H4,guidance_w2,de_overlap,0.45209881456394635
+drug_split_0,H4,guidance_w2,energy,0.5776430179699091
+drug_split_0,H4,guidance_w2,dpc_mean,0.47100167845463037
+drug_split_0,H4,guidance_w2,dpc_median,0.5091681240915391
+drug_split_0,HCT15,guidance_w2,de_overlap,0.3549921209843902
+drug_split_0,HCT15,guidance_w2,energy,0.18230397177412752
+drug_split_0,HCT15,guidance_w2,dpc_mean,0.3806171515844995
+drug_split_0,HCT15,guidance_w2,dpc_median,0.4162141069172877
+drug_split_0,HT-29,guidance_w2,de_overlap,0.46684570775409534
+drug_split_0,HT-29,guidance_w2,energy,0.38955858860462234
+drug_split_0,HT-29,guidance_w2,dpc_mean,0.42280630963447624
+drug_split_0,HT-29,guidance_w2,dpc_median,0.49098161294248416
+drug_split_0,KATO III,guidance_w2,de_overlap,0.46276898944353095
+drug_split_0,KATO III,guidance_w2,energy,0.22302046816702115
+drug_split_0,KATO III,guidance_w2,dpc_mean,0.5482899508539413
+drug_split_0,KATO III,guidance_w2,dpc_median,0.59413308877576
+drug_split_0,LS 180,guidance_w2,de_overlap,0.4935488223421306
+drug_split_0,LS 180,guidance_w2,energy,0.4213286813752949
+drug_split_0,LS 180,guidance_w2,dpc_mean,0.4698071670227792
+drug_split_0,LS 180,guidance_w2,dpc_median,0.5188462338083574
+drug_split_0,LoVo,guidance_w2,de_overlap,0.4952392619722657
+drug_split_0,LoVo,guidance_w2,energy,0.333795488826545
+drug_split_0,LoVo,guidance_w2,dpc_mean,0.43127945562078557
+drug_split_0,LoVo,guidance_w2,dpc_median,0.46791590866722405
+drug_split_0,RKO,guidance_w2,de_overlap,0.5326316431860344
+drug_split_0,RKO,guidance_w2,energy,0.48452307766364
+drug_split_0,RKO,guidance_w2,dpc_mean,0.4186110953586272
+drug_split_0,RKO,guidance_w2,dpc_median,0.4634695113009151
+drug_split_0,SNU-1,guidance_w2,de_overlap,0.4577455619320849
+drug_split_0,SNU-1,guidance_w2,energy,0.30980510831863306
+drug_split_0,SNU-1,guidance_w2,dpc_mean,0.5031495476158478
+drug_split_0,SNU-1,guidance_w2,dpc_median,0.5487943077438702
+drug_split_0,SW 1088,guidance_w2,de_overlap,0.4802955027184459
+drug_split_0,SW 1088,guidance_w2,energy,0.4621925072019997
+drug_split_0,SW 1088,guidance_w2,dpc_mean,0.5478423872327001
+drug_split_0,SW 1088,guidance_w2,dpc_median,0.6118669415682922
+drug_split_0,SW1417,guidance_w2,de_overlap,0.4001873747654464
+drug_split_0,SW1417,guidance_w2,energy,0.18352532751889145
+drug_split_0,SW1417,guidance_w2,dpc_mean,0.4232539337141035
+drug_split_0,SW1417,guidance_w2,dpc_median,0.4603648797384583
+drug_split_0,SW48,guidance_w2,de_overlap,0.43246895604613467
+drug_split_0,SW48,guidance_w2,energy,0.30618945004893355
+drug_split_0,SW48,guidance_w2,dpc_mean,0.4556719189875581
+drug_split_0,SW48,guidance_w2,dpc_median,0.4835624056718615
+drug_split_0,SW480,guidance_w2,de_overlap,0.44523490912875624
+drug_split_0,SW480,guidance_w2,energy,0.19798893213332106
+drug_split_0,SW480,guidance_w2,dpc_mean,0.4557699837306636
+drug_split_0,SW480,guidance_w2,dpc_median,0.49708798197190496
+drug_split_0,ALL,guidance_w2,de_overlap,0.46284709632413035
+drug_split_0,ALL,guidance_w2,energy,0.34871866631042253
+drug_split_0,ALL,guidance_w2,dpc_mean,0.46011875849211864
+drug_split_0,ALL,guidance_w2,dpc_median,0.5078242925026415
+drug_split_0,A-172,attn_cross,de_overlap,0.4881540506168255
+drug_split_0,A-172,attn_cross,energy,0.30899723254693595
+drug_split_0,A-172,attn_cross,dpc_mean,0.5573312417121856
+drug_split_0,A-172,attn_cross,dpc_median,0.5992186110870041
+drug_split_0,COLO 205,attn_cross,de_overlap,0.5254336291343323
+drug_split_0,COLO 205,attn_cross,energy,0.30531978958571426
+drug_split_0,COLO 205,attn_cross,dpc_mean,0.49878811873947504
+drug_split_0,COLO 205,attn_cross,dpc_median,0.5394366569536182
+drug_split_0,H4,attn_cross,de_overlap,0.4535272501554983
+drug_split_0,H4,attn_cross,energy,0.37044814218621025
+drug_split_0,H4,attn_cross,dpc_mean,0.5237412110241861
+drug_split_0,H4,attn_cross,dpc_median,0.5680414775843484
+drug_split_0,HCT15,attn_cross,de_overlap,0.35645367607054995
+drug_split_0,HCT15,attn_cross,energy,0.13007447928946808
+drug_split_0,HCT15,attn_cross,dpc_mean,0.4118939082009076
+drug_split_0,HCT15,attn_cross,dpc_median,0.4636585755974478
+drug_split_0,HT-29,attn_cross,de_overlap,0.46671371330278305
+drug_split_0,HT-29,attn_cross,energy,0.2613715004658731
+drug_split_0,HT-29,attn_cross,dpc_mean,0.4827229476198535
+drug_split_0,HT-29,attn_cross,dpc_median,0.5594208938351922
+drug_split_0,KATO III,attn_cross,de_overlap,0.4599842916198323
+drug_split_0,KATO III,attn_cross,energy,0.1725384738205491
+drug_split_0,KATO III,attn_cross,dpc_mean,0.5964792942829917
+drug_split_0,KATO III,attn_cross,dpc_median,0.6478851578509633
+drug_split_0,LS 180,attn_cross,de_overlap,0.4976697060416023
+drug_split_0,LS 180,attn_cross,energy,0.27823632971536943
+drug_split_0,LS 180,attn_cross,dpc_mean,0.5119440485391634
+drug_split_0,LS 180,attn_cross,dpc_median,0.572486659435082
+drug_split_0,LoVo,attn_cross,de_overlap,0.49247884860869967
+drug_split_0,LoVo,attn_cross,energy,0.22057459322952264
+drug_split_0,LoVo,attn_cross,dpc_mean,0.46317715880752064
+drug_split_0,LoVo,attn_cross,dpc_median,0.5225087925986028
+drug_split_0,RKO,attn_cross,de_overlap,0.5290032369875336
+drug_split_0,RKO,attn_cross,energy,0.31408017854760834
+drug_split_0,RKO,attn_cross,dpc_mean,0.4630457102387829
+drug_split_0,RKO,attn_cross,dpc_median,0.504286811204862
+drug_split_0,SNU-1,attn_cross,de_overlap,0.4543097333514514
+drug_split_0,SNU-1,attn_cross,energy,0.2087796700512283
+drug_split_0,SNU-1,attn_cross,dpc_mean,0.555906927730708
+drug_split_0,SNU-1,attn_cross,dpc_median,0.6234168334798076
+drug_split_0,SW 1088,attn_cross,de_overlap,0.48402260805792946
+drug_split_0,SW 1088,attn_cross,energy,0.30408377988106233
+drug_split_0,SW 1088,attn_cross,dpc_mean,0.5799006015415947
+drug_split_0,SW 1088,attn_cross,dpc_median,0.6458689225379669
+drug_split_0,SW1417,attn_cross,de_overlap,0.3993891374136564
+drug_split_0,SW1417,attn_cross,energy,0.13948541396733302
+drug_split_0,SW1417,attn_cross,dpc_mean,0.468699918249284
+drug_split_0,SW1417,attn_cross,dpc_median,0.5154579223246109
+drug_split_0,SW48,attn_cross,de_overlap,0.42804714850478254
+drug_split_0,SW48,attn_cross,energy,0.21744634847923947
+drug_split_0,SW48,attn_cross,dpc_mean,0.49751396145558996
+drug_split_0,SW48,attn_cross,dpc_median,0.5466225131029735
+drug_split_0,SW480,attn_cross,de_overlap,0.4483789581668581
+drug_split_0,SW480,attn_cross,energy,0.1574823484366441
+drug_split_0,SW480,attn_cross,dpc_mean,0.4841398597788707
+drug_split_0,SW480,attn_cross,dpc_median,0.5331939263276481
+drug_split_0,ALL,attn_cross,de_overlap,0.4623225572235255
+drug_split_0,ALL,attn_cross,energy,0.23972695249785575
+drug_split_0,ALL,attn_cross,dpc_mean,0.5040213919165774
+drug_split_0,ALL,attn_cross,dpc_median,0.5519849843165318
+drug_split_0,A-172,mlp_ctrl,de_overlap,0.4906305134235537
+drug_split_0,A-172,mlp_ctrl,energy,0.3046381106009992
+drug_split_0,A-172,mlp_ctrl,dpc_mean,0.556517036538986
+drug_split_0,A-172,mlp_ctrl,dpc_median,0.5916374840867608
+drug_split_0,COLO 205,mlp_ctrl,de_overlap,0.5162020479105796
+drug_split_0,COLO 205,mlp_ctrl,energy,0.29599778082111966
+drug_split_0,COLO 205,mlp_ctrl,dpc_mean,0.4978775669317667
+drug_split_0,COLO 205,mlp_ctrl,dpc_median,0.5440872040099797
+drug_split_0,H4,mlp_ctrl,de_overlap,0.4515205723458137
+drug_split_0,H4,mlp_ctrl,energy,0.36002750130975336
+drug_split_0,H4,mlp_ctrl,dpc_mean,0.5212417503303821
+drug_split_0,H4,mlp_ctrl,dpc_median,0.568735005566903
+drug_split_0,HCT15,mlp_ctrl,de_overlap,0.3512724119464771
+drug_split_0,HCT15,mlp_ctrl,energy,0.13386191603434308
+drug_split_0,HCT15,mlp_ctrl,dpc_mean,0.4106560527741533
+drug_split_0,HCT15,mlp_ctrl,dpc_median,0.461609869347597
+drug_split_0,HT-29,mlp_ctrl,de_overlap,0.4559248081964438
+drug_split_0,HT-29,mlp_ctrl,energy,0.2589430685063047
+drug_split_0,HT-29,mlp_ctrl,dpc_mean,0.48697669271423066
+drug_split_0,HT-29,mlp_ctrl,dpc_median,0.5427622164002152
+drug_split_0,KATO III,mlp_ctrl,de_overlap,0.4534739808052965
+drug_split_0,KATO III,mlp_ctrl,energy,0.1717876587668419
+drug_split_0,KATO III,mlp_ctrl,dpc_mean,0.5973827839484066
+drug_split_0,KATO III,mlp_ctrl,dpc_median,0.6589523470984292
+drug_split_0,LS 180,mlp_ctrl,de_overlap,0.4876680731791539
+drug_split_0,LS 180,mlp_ctrl,energy,0.26941031376765984
+drug_split_0,LS 180,mlp_ctrl,dpc_mean,0.5180027286111085
+drug_split_0,LS 180,mlp_ctrl,dpc_median,0.5834713598476409
+drug_split_0,LoVo,mlp_ctrl,de_overlap,0.4845975951918437
+drug_split_0,LoVo,mlp_ctrl,energy,0.21395734909379377
+drug_split_0,LoVo,mlp_ctrl,dpc_mean,0.467615621774637
+drug_split_0,LoVo,mlp_ctrl,dpc_median,0.5371228978853898
+drug_split_0,RKO,mlp_ctrl,de_overlap,0.5224043510673361
+drug_split_0,RKO,mlp_ctrl,energy,0.3035126291826709
+drug_split_0,RKO,mlp_ctrl,dpc_mean,0.470929078519251
+drug_split_0,RKO,mlp_ctrl,dpc_median,0.5152196051941514
+drug_split_0,SNU-1,mlp_ctrl,de_overlap,0.4485164546177959
+drug_split_0,SNU-1,mlp_ctrl,energy,0.20081890688354448
+drug_split_0,SNU-1,mlp_ctrl,dpc_mean,0.5566231965556004
+drug_split_0,SNU-1,mlp_ctrl,dpc_median,0.6366555053736325
+drug_split_0,SW 1088,mlp_ctrl,de_overlap,0.4803010084669204
+drug_split_0,SW 1088,mlp_ctrl,energy,0.3184258690006288
+drug_split_0,SW 1088,mlp_ctrl,dpc_mean,0.5690052922737834
+drug_split_0,SW 1088,mlp_ctrl,dpc_median,0.6466960719416645
+drug_split_0,SW1417,mlp_ctrl,de_overlap,0.3965958100945483
+drug_split_0,SW1417,mlp_ctrl,energy,0.13806619167185114
+drug_split_0,SW1417,mlp_ctrl,dpc_mean,0.4669958012707135
+drug_split_0,SW1417,mlp_ctrl,dpc_median,0.49766307321225395
+drug_split_0,SW48,mlp_ctrl,de_overlap,0.42437497831263654
+drug_split_0,SW48,mlp_ctrl,energy,0.2164363921076563
+drug_split_0,SW48,mlp_ctrl,dpc_mean,0.49790080535543063
+drug_split_0,SW48,mlp_ctrl,dpc_median,0.5475615369728531
+drug_split_0,SW480,mlp_ctrl,de_overlap,0.44223960954755615
+drug_split_0,SW480,mlp_ctrl,energy,0.15803487275317796
+drug_split_0,SW480,mlp_ctrl,dpc_mean,0.4807323366040733
+drug_split_0,SW480,mlp_ctrl,dpc_median,0.5340382495717173
+drug_split_0,ALL,mlp_ctrl,de_overlap,0.45669271147215457
+drug_split_0,ALL,mlp_ctrl,energy,0.2358491544226716
+drug_split_0,ALL,mlp_ctrl,dpc_mean,0.5046691044063951
+drug_split_0,ALL,mlp_ctrl,dpc_median,0.5561742822748069
+drug_split_2,A-172,ridge_S7,de_overlap,0.4785519428893499
+drug_split_2,A-172,ridge_S7,energy,0.2399569026300169
+drug_split_2,A-172,ridge_S7,dpc_mean,0.40302572490128225
+drug_split_2,A-172,ridge_S7,dpc_median,0.5032805993277939
+drug_split_2,COLO 205,ridge_S7,de_overlap,0.5322424857749879
+drug_split_2,COLO 205,ridge_S7,energy,0.19477073759037888
+drug_split_2,COLO 205,ridge_S7,dpc_mean,0.42212751093960016
+drug_split_2,COLO 205,ridge_S7,dpc_median,0.488848740368843
+drug_split_2,H4,ridge_S7,de_overlap,0.4305994183420287
+drug_split_2,H4,ridge_S7,energy,0.21898558062007276
+drug_split_2,H4,ridge_S7,dpc_mean,0.3593469810727502
+drug_split_2,H4,ridge_S7,dpc_median,0.44131377449228626
+drug_split_2,HCT15,ridge_S7,de_overlap,0.4131538305076665
+drug_split_2,HCT15,ridge_S7,energy,0.076848122788632
+drug_split_2,HCT15,ridge_S7,dpc_mean,0.343591187046161
+drug_split_2,HCT15,ridge_S7,dpc_median,0.43332673931361443
+drug_split_2,HT-29,ridge_S7,de_overlap,0.4851522665187659
+drug_split_2,HT-29,ridge_S7,energy,0.14881028337135205
+drug_split_2,HT-29,ridge_S7,dpc_mean,0.45771178180346156
+drug_split_2,HT-29,ridge_S7,dpc_median,0.5817391602085833
+drug_split_2,KATO III,ridge_S7,de_overlap,0.46848645824902135
+drug_split_2,KATO III,ridge_S7,energy,0.15723649815393245
+drug_split_2,KATO III,ridge_S7,dpc_mean,0.4373135247045014
+drug_split_2,KATO III,ridge_S7,dpc_median,0.563537862398002
+drug_split_2,LS 180,ridge_S7,de_overlap,0.48658475801010376
+drug_split_2,LS 180,ridge_S7,energy,0.19402131294003847
+drug_split_2,LS 180,ridge_S7,dpc_mean,0.4257446081179548
+drug_split_2,LS 180,ridge_S7,dpc_median,0.53834511122746
+drug_split_2,LoVo,ridge_S7,de_overlap,0.4911373912664183
+drug_split_2,LoVo,ridge_S7,energy,0.12163251228651356
+drug_split_2,LoVo,ridge_S7,dpc_mean,0.37214408858722037
+drug_split_2,LoVo,ridge_S7,dpc_median,0.4660241084162509
+drug_split_2,RKO,ridge_S7,de_overlap,0.5305758776034428
+drug_split_2,RKO,ridge_S7,energy,0.19907861083671327
+drug_split_2,RKO,ridge_S7,dpc_mean,0.350399786274478
+drug_split_2,RKO,ridge_S7,dpc_median,0.4542362947695794
+drug_split_2,SNU-1,ridge_S7,de_overlap,0.47319543308352546
+drug_split_2,SNU-1,ridge_S7,energy,0.1616498457156632
+drug_split_2,SNU-1,ridge_S7,dpc_mean,0.413052073934702
+drug_split_2,SNU-1,ridge_S7,dpc_median,0.5676071504967682
+drug_split_2,SW 1088,ridge_S7,de_overlap,0.42494551124849206
+drug_split_2,SW 1088,ridge_S7,energy,0.2543080651440927
+drug_split_2,SW 1088,ridge_S7,dpc_mean,0.4771269393362011
+drug_split_2,SW 1088,ridge_S7,dpc_median,0.512745476331929
+drug_split_2,SW1417,ridge_S7,de_overlap,0.4067922034568381
+drug_split_2,SW1417,ridge_S7,energy,0.07775740041858963
+drug_split_2,SW1417,ridge_S7,dpc_mean,0.454348992207134
+drug_split_2,SW1417,ridge_S7,dpc_median,0.5582884112955369
+drug_split_2,SW48,ridge_S7,de_overlap,0.44563726625816646
+drug_split_2,SW48,ridge_S7,energy,0.15798922472256263
+drug_split_2,SW48,ridge_S7,dpc_mean,0.406329808604114
+drug_split_2,SW48,ridge_S7,dpc_median,0.5159690760314384
+drug_split_2,SW480,ridge_S7,de_overlap,0.4610769486275349
+drug_split_2,SW480,ridge_S7,energy,0.1135392406501825
+drug_split_2,SW480,ridge_S7,dpc_mean,0.28227317868861845
+drug_split_2,SW480,ridge_S7,dpc_median,0.3767671434500319
+drug_split_2,ALL,ridge_S7,de_overlap,0.46775895949574847
+drug_split_2,ALL,ridge_S7,energy,0.16232533498449037
+drug_split_2,ALL,ridge_S7,dpc_mean,0.3976050874234418
+drug_split_2,ALL,ridge_S7,dpc_median,0.503382173885938
+drug_split_2,A-172,ridge_train,de_overlap,0.4265882923185178
+drug_split_2,A-172,ridge_train,energy,0.39024572183717327
+drug_split_2,A-172,ridge_train,dpc_mean,0.2557697766277967
+drug_split_2,A-172,ridge_train,dpc_median,0.27207237693079267
+drug_split_2,COLO 205,ridge_train,de_overlap,0.4885655641467
+drug_split_2,COLO 205,ridge_train,energy,0.2882008163370932
+drug_split_2,COLO 205,ridge_train,dpc_mean,0.2643701803460637
+drug_split_2,COLO 205,ridge_train,dpc_median,0.2989759081148504
+drug_split_2,H4,ridge_train,de_overlap,0.39446969281705013
+drug_split_2,H4,ridge_train,energy,0.36010434631857763
+drug_split_2,H4,ridge_train,dpc_mean,0.2559693795184301
+drug_split_2,H4,ridge_train,dpc_median,0.2785156308883262
+drug_split_2,HCT15,ridge_train,de_overlap,0.3681258236191728
+drug_split_2,HCT15,ridge_train,energy,0.12012046931314087
+drug_split_2,HCT15,ridge_train,dpc_mean,0.2312302678846122
+drug_split_2,HCT15,ridge_train,dpc_median,0.23130203514784842
+drug_split_2,HT-29,ridge_train,de_overlap,0.43302323573756907
+drug_split_2,HT-29,ridge_train,energy,0.23519059373267526
+drug_split_2,HT-29,ridge_train,dpc_mean,0.28987367572499845
+drug_split_2,HT-29,ridge_train,dpc_median,0.330411272850083
+drug_split_2,KATO III,ridge_train,de_overlap,0.4264913821679802
+drug_split_2,KATO III,ridge_train,energy,0.25293670286319186
+drug_split_2,KATO III,ridge_train,dpc_mean,0.2638892326278858
+drug_split_2,KATO III,ridge_train,dpc_median,0.3392772472347041
+drug_split_2,LS 180,ridge_train,de_overlap,0.44095508850668613
+drug_split_2,LS 180,ridge_train,energy,0.297076326472489
+drug_split_2,LS 180,ridge_train,dpc_mean,0.230895760446193
+drug_split_2,LS 180,ridge_train,dpc_median,0.26433944328111825
+drug_split_2,LoVo,ridge_train,de_overlap,0.43514145220788303
+drug_split_2,LoVo,ridge_train,energy,0.19487695005086783
+drug_split_2,LoVo,ridge_train,dpc_mean,0.22616543470098288
+drug_split_2,LoVo,ridge_train,dpc_median,0.3066588148442565
+drug_split_2,RKO,ridge_train,de_overlap,0.4994914116097267
+drug_split_2,RKO,ridge_train,energy,0.27859868483028194
+drug_split_2,RKO,ridge_train,dpc_mean,0.23718753122329994
+drug_split_2,RKO,ridge_train,dpc_median,0.267290623311633
+drug_split_2,SNU-1,ridge_train,de_overlap,0.4201004378746382
+drug_split_2,SNU-1,ridge_train,energy,0.25129240732573405
+drug_split_2,SNU-1,ridge_train,dpc_mean,0.26127478448958996
+drug_split_2,SNU-1,ridge_train,dpc_median,0.37501415631379015
+drug_split_2,SW 1088,ridge_train,de_overlap,0.3982003451030421
+drug_split_2,SW 1088,ridge_train,energy,0.3400646365982217
+drug_split_2,SW 1088,ridge_train,dpc_mean,0.4064141459079014
+drug_split_2,SW 1088,ridge_train,dpc_median,0.46083836896304897
+drug_split_2,SW1417,ridge_train,de_overlap,0.3780841435822373
+drug_split_2,SW1417,ridge_train,energy,0.12586187734460647
+drug_split_2,SW1417,ridge_train,dpc_mean,0.2699757649068295
+drug_split_2,SW1417,ridge_train,dpc_median,0.3121017452590579
+drug_split_2,SW48,ridge_train,de_overlap,0.40181970815376067
+drug_split_2,SW48,ridge_train,energy,0.2268186101099054
+drug_split_2,SW48,ridge_train,dpc_mean,0.2748966812692485
+drug_split_2,SW48,ridge_train,dpc_median,0.3477972645026452
+drug_split_2,SW480,ridge_train,de_overlap,0.42077422490678285
+drug_split_2,SW480,ridge_train,energy,0.17849120929343984
+drug_split_2,SW480,ridge_train,dpc_mean,0.14771620102723854
+drug_split_2,SW480,ridge_train,dpc_median,0.20590402383543832
+drug_split_2,ALL,ridge_train,de_overlap,0.4246049998335826
+drug_split_2,ALL,ridge_train,energy,0.24976095866307768
+drug_split_2,ALL,ridge_train,dpc_mean,0.2530143188178156
+drug_split_2,ALL,ridge_train,dpc_median,0.2983980716233129
+drug_split_2,A-172,mean_response,de_overlap,0.5259682008077872
+drug_split_2,A-172,mean_response,energy,0.21198514634553337
+drug_split_2,A-172,mean_response,dpc_mean,0.5179898868676889
+drug_split_2,A-172,mean_response,dpc_median,0.6430121065766579
+drug_split_2,COLO 205,mean_response,de_overlap,0.5441773777120389
+drug_split_2,COLO 205,mean_response,energy,0.17845886742218406
+drug_split_2,COLO 205,mean_response,dpc_mean,0.5157235781181736
+drug_split_2,COLO 205,mean_response,dpc_median,0.658549882225516
+drug_split_2,H4,mean_response,de_overlap,0.4689903645087573
+drug_split_2,H4,mean_response,energy,0.19421843795996238
+drug_split_2,H4,mean_response,dpc_mean,0.4911599644842852
+drug_split_2,H4,mean_response,dpc_median,0.59958409980643
+drug_split_2,HCT15,mean_response,de_overlap,0.4659983240114104
+drug_split_2,HCT15,mean_response,energy,0.06845393171196995
+drug_split_2,HCT15,mean_response,dpc_mean,0.47525371347092704
+drug_split_2,HCT15,mean_response,dpc_median,0.6041132518680615
+drug_split_2,HT-29,mean_response,de_overlap,0.5120509840765306
+drug_split_2,HT-29,mean_response,energy,0.13847750570035958
+drug_split_2,HT-29,mean_response,dpc_mean,0.5361920436147969
+drug_split_2,HT-29,mean_response,dpc_median,0.729656728893727
+drug_split_2,KATO III,mean_response,de_overlap,0.524633576170047
+drug_split_2,KATO III,mean_response,energy,0.1406241443681639
+drug_split_2,KATO III,mean_response,dpc_mean,0.5352736464368509
+drug_split_2,KATO III,mean_response,dpc_median,0.7213830170842652
+drug_split_2,LS 180,mean_response,de_overlap,0.5051342439777184
+drug_split_2,LS 180,mean_response,energy,0.17493062469459753
+drug_split_2,LS 180,mean_response,dpc_mean,0.5183914418450528
+drug_split_2,LS 180,mean_response,dpc_median,0.7479853497964114
+drug_split_2,LoVo,mean_response,de_overlap,0.5714865032925105
+drug_split_2,LoVo,mean_response,energy,0.10938558013170968
+drug_split_2,LoVo,mean_response,dpc_mean,0.5047220641092763
+drug_split_2,LoVo,mean_response,dpc_median,0.667551536462903
+drug_split_2,RKO,mean_response,de_overlap,0.5498997174226729
+drug_split_2,RKO,mean_response,energy,0.17787191350431944
+drug_split_2,RKO,mean_response,dpc_mean,0.46859523329240355
+drug_split_2,RKO,mean_response,dpc_median,0.6120220116044548
+drug_split_2,SNU-1,mean_response,de_overlap,0.5425972277985511
+drug_split_2,SNU-1,mean_response,energy,0.1455644860334172
+drug_split_2,SNU-1,mean_response,dpc_mean,0.5195283904324695
+drug_split_2,SNU-1,mean_response,dpc_median,0.737054704523807
+drug_split_2,SW 1088,mean_response,de_overlap,0.47854582584641997
+drug_split_2,SW 1088,mean_response,energy,0.2243811149560737
+drug_split_2,SW 1088,mean_response,dpc_mean,0.6027438416532526
+drug_split_2,SW 1088,mean_response,dpc_median,0.7024106606314369
+drug_split_2,SW1417,mean_response,de_overlap,0.44963696833083816
+drug_split_2,SW1417,mean_response,energy,0.07072091454006721
+drug_split_2,SW1417,mean_response,dpc_mean,0.5443635932263245
+drug_split_2,SW1417,mean_response,dpc_median,0.6945597109215857
+drug_split_2,SW48,mean_response,de_overlap,0.49493193489227355
+drug_split_2,SW48,mean_response,energy,0.1420533573553835
+drug_split_2,SW48,mean_response,dpc_mean,0.5135742373621901
+drug_split_2,SW48,mean_response,dpc_median,0.6786463323181984
+drug_split_2,SW480,mean_response,de_overlap,0.472576320894
+drug_split_2,SW480,mean_response,energy,0.1003966113485786
+drug_split_2,SW480,mean_response,dpc_mean,0.41465198815590687
+drug_split_2,SW480,mean_response,dpc_median,0.5569684660525865
+drug_split_2,ALL,mean_response,de_overlap,0.5086453868927374
+drug_split_2,ALL,mean_response,energy,0.14570444570651808
+drug_split_2,ALL,mean_response,dpc_mean,0.5080600758712608
+drug_split_2,ALL,mean_response,dpc_median,0.6729140045118063
+drug_split_2,A-172,control_paste,de_overlap,
+drug_split_2,A-172,control_paste,energy,0.265545899491829
+drug_split_2,A-172,control_paste,dpc_mean,
+drug_split_2,A-172,control_paste,dpc_median,
+drug_split_2,COLO 205,control_paste,de_overlap,
+drug_split_2,COLO 205,control_paste,energy,0.2147506315185055
+drug_split_2,COLO 205,control_paste,dpc_mean,
+drug_split_2,COLO 205,control_paste,dpc_median,
+drug_split_2,H4,control_paste,de_overlap,
+drug_split_2,H4,control_paste,energy,0.22939945314538046
+drug_split_2,H4,control_paste,dpc_mean,
+drug_split_2,H4,control_paste,dpc_median,
+drug_split_2,HCT15,control_paste,de_overlap,
+drug_split_2,HCT15,control_paste,energy,0.0754690053138606
+drug_split_2,HCT15,control_paste,dpc_mean,
+drug_split_2,HCT15,control_paste,dpc_median,
+drug_split_2,HT-29,control_paste,de_overlap,
+drug_split_2,HT-29,control_paste,energy,0.17930582352352123
+drug_split_2,HT-29,control_paste,dpc_mean,
+drug_split_2,HT-29,control_paste,dpc_median,
+drug_split_2,KATO III,control_paste,de_overlap,
+drug_split_2,KATO III,control_paste,energy,0.18133306395352425
+drug_split_2,KATO III,control_paste,dpc_mean,
+drug_split_2,KATO III,control_paste,dpc_median,
+drug_split_2,LS 180,control_paste,de_overlap,
+drug_split_2,LS 180,control_paste,energy,0.22590998251744612
+drug_split_2,LS 180,control_paste,dpc_mean,
+drug_split_2,LS 180,control_paste,dpc_median,
+drug_split_2,LoVo,control_paste,de_overlap,
+drug_split_2,LoVo,control_paste,energy,0.13161673892550468
+drug_split_2,LoVo,control_paste,dpc_mean,
+drug_split_2,LoVo,control_paste,dpc_median,
+drug_split_2,RKO,control_paste,de_overlap,
+drug_split_2,RKO,control_paste,energy,0.20755338745903687
+drug_split_2,RKO,control_paste,dpc_mean,
+drug_split_2,RKO,control_paste,dpc_median,
+drug_split_2,SNU-1,control_paste,de_overlap,
+drug_split_2,SNU-1,control_paste,energy,0.18057237068406604
+drug_split_2,SNU-1,control_paste,dpc_mean,
+drug_split_2,SNU-1,control_paste,dpc_median,
+drug_split_2,SW 1088,control_paste,de_overlap,
+drug_split_2,SW 1088,control_paste,energy,0.305046716706595
+drug_split_2,SW 1088,control_paste,dpc_mean,
+drug_split_2,SW 1088,control_paste,dpc_median,
+drug_split_2,SW1417,control_paste,de_overlap,
+drug_split_2,SW1417,control_paste,energy,0.08577339237512445
+drug_split_2,SW1417,control_paste,dpc_mean,
+drug_split_2,SW1417,control_paste,dpc_median,
+drug_split_2,SW48,control_paste,de_overlap,
+drug_split_2,SW48,control_paste,energy,0.17046598473383212
+drug_split_2,SW48,control_paste,dpc_mean,
+drug_split_2,SW48,control_paste,dpc_median,
+drug_split_2,SW480,control_paste,de_overlap,
+drug_split_2,SW480,control_paste,energy,0.11114398346538015
+drug_split_2,SW480,control_paste,dpc_mean,
+drug_split_2,SW480,control_paste,dpc_median,
+drug_split_2,ALL,control_paste,de_overlap,
+drug_split_2,ALL,control_paste,energy,0.17881889910525933
+drug_split_2,ALL,control_paste,dpc_mean,
+drug_split_2,ALL,control_paste,dpc_median,
+drug_split_2,A-172,base,de_overlap,0.2611969935847539
+drug_split_2,A-172,base,energy,1.8841026739440434
+drug_split_2,A-172,base,dpc_mean,0.3120778900976022
+drug_split_2,A-172,base,dpc_median,0.339719052152986
+drug_split_2,COLO 205,base,de_overlap,0.3215217721360903
+drug_split_2,COLO 205,base,energy,2.113057563687844
+drug_split_2,COLO 205,base,dpc_mean,0.2366686962676339
+drug_split_2,COLO 205,base,dpc_median,0.239445573453637
+drug_split_2,H4,base,de_overlap,0.2687872575716239
+drug_split_2,H4,base,energy,1.9276127432875392
+drug_split_2,H4,base,dpc_mean,0.2886443127131475
+drug_split_2,H4,base,dpc_median,0.32053534190033833
+drug_split_2,HCT15,base,de_overlap,0.295531137711554
+drug_split_2,HCT15,base,energy,1.9928776294164714
+drug_split_2,HCT15,base,dpc_mean,0.22131141718961456
+drug_split_2,HCT15,base,dpc_median,0.24735957669879458
+drug_split_2,HT-29,base,de_overlap,0.28712045683433196
+drug_split_2,HT-29,base,energy,2.0572246200203534
+drug_split_2,HT-29,base,dpc_mean,0.3097294217997255
+drug_split_2,HT-29,base,dpc_median,0.3376512016355681
+drug_split_2,KATO III,base,de_overlap,0.2901684704891722
+drug_split_2,KATO III,base,energy,2.065794430419139
+drug_split_2,KATO III,base,dpc_mean,0.25314576638139313
+drug_split_2,KATO III,base,dpc_median,0.24320269661440083
+drug_split_2,LS 180,base,de_overlap,0.30486547891701365
+drug_split_2,LS 180,base,energy,2.063784926280561
+drug_split_2,LS 180,base,dpc_mean,0.32289769646590616
+drug_split_2,LS 180,base,dpc_median,0.34699344379361685
+drug_split_2,LoVo,base,de_overlap,0.2815794434624535
+drug_split_2,LoVo,base,energy,1.8742313188270199
+drug_split_2,LoVo,base,dpc_mean,0.25968868936165207
+drug_split_2,LoVo,base,dpc_median,0.26063330480515257
+drug_split_2,RKO,base,de_overlap,0.344109374575492
+drug_split_2,RKO,base,energy,2.265751626467066
+drug_split_2,RKO,base,dpc_mean,0.28295594474326496
+drug_split_2,RKO,base,dpc_median,0.3013299219722602
+drug_split_2,SNU-1,base,de_overlap,0.3164044294469285
+drug_split_2,SNU-1,base,energy,2.1144993690789335
+drug_split_2,SNU-1,base,dpc_mean,0.33899034480495205
+drug_split_2,SNU-1,base,dpc_median,0.3626870478463748
+drug_split_2,SW 1088,base,de_overlap,0.3032552076329427
+drug_split_2,SW 1088,base,energy,2.032313577588525
+drug_split_2,SW 1088,base,dpc_mean,0.32823979036880374
+drug_split_2,SW 1088,base,dpc_median,0.35408449513353657
+drug_split_2,SW1417,base,de_overlap,0.25952585554672375
+drug_split_2,SW1417,base,energy,1.8316229541983666
+drug_split_2,SW1417,base,dpc_mean,0.17198019105244827
+drug_split_2,SW1417,base,dpc_median,0.16285575723489396
+drug_split_2,SW48,base,de_overlap,0.28696348654167364
+drug_split_2,SW48,base,energy,2.0011529666613526
+drug_split_2,SW48,base,dpc_mean,0.282778403466641
+drug_split_2,SW48,base,dpc_median,0.2932737498064528
+drug_split_2,SW480,base,de_overlap,0.25675502998985134
+drug_split_2,SW480,base,energy,2.075457648476253
+drug_split_2,SW480,base,dpc_mean,0.2058174516956682
+drug_split_2,SW480,base,dpc_median,0.2280967886465297
+drug_split_2,ALL,base,de_overlap,0.2908460326870103
+drug_split_2,ALL,base,energy,2.0210050693537123
+drug_split_2,ALL,base,dpc_mean,0.2705212655572851
+drug_split_2,ALL,base,dpc_median,0.2784920515497172
+drug_split_2,A-172,recipe,de_overlap,0.4925428880550833
+drug_split_2,A-172,recipe,energy,0.2842512500171377
+drug_split_2,A-172,recipe,dpc_mean,0.5577880737297074
+drug_split_2,A-172,recipe,dpc_median,0.602657371746878
+drug_split_2,COLO 205,recipe,de_overlap,0.518443939965853
+drug_split_2,COLO 205,recipe,energy,0.2945178824981755
+drug_split_2,COLO 205,recipe,dpc_mean,0.515503639761082
+drug_split_2,COLO 205,recipe,dpc_median,0.5434293859955339
+drug_split_2,H4,recipe,de_overlap,0.45061946186582674
+drug_split_2,H4,recipe,energy,0.30428825819413374
+drug_split_2,H4,recipe,dpc_mean,0.550597869171592
+drug_split_2,H4,recipe,dpc_median,0.5970499251286706
+drug_split_2,HCT15,recipe,de_overlap,0.35341527983741766
+drug_split_2,HCT15,recipe,energy,0.12108095772377303
+drug_split_2,HCT15,recipe,dpc_mean,0.42483385101311716
+drug_split_2,HCT15,recipe,dpc_median,0.47845887475495347
+drug_split_2,HT-29,recipe,de_overlap,0.45708544197125917
+drug_split_2,HT-29,recipe,energy,0.23259675649954645
+drug_split_2,HT-29,recipe,dpc_mean,0.5243072723485253
+drug_split_2,HT-29,recipe,dpc_median,0.5911665414652753
+drug_split_2,KATO III,recipe,de_overlap,0.45663168686817823
+drug_split_2,KATO III,recipe,energy,0.15354550225989105
+drug_split_2,KATO III,recipe,dpc_mean,0.6101211047915455
+drug_split_2,KATO III,recipe,dpc_median,0.6666486662295232
+drug_split_2,LS 180,recipe,de_overlap,0.48621204497629644
+drug_split_2,LS 180,recipe,energy,0.26643066683574185
+drug_split_2,LS 180,recipe,dpc_mean,0.5283256760677283
+drug_split_2,LS 180,recipe,dpc_median,0.5779631006938959
+drug_split_2,LoVo,recipe,de_overlap,0.4888055330163042
+drug_split_2,LoVo,recipe,energy,0.20997058274790922
+drug_split_2,LoVo,recipe,dpc_mean,0.49686040922874264
+drug_split_2,LoVo,recipe,dpc_median,0.5449961461362566
+drug_split_2,RKO,recipe,de_overlap,0.5193166413619489
+drug_split_2,RKO,recipe,energy,0.2644908349898957
+drug_split_2,RKO,recipe,dpc_mean,0.5131430174721214
+drug_split_2,RKO,recipe,dpc_median,0.5653656996997009
+drug_split_2,SNU-1,recipe,de_overlap,0.45185168793455743
+drug_split_2,SNU-1,recipe,energy,0.18884551757484316
+drug_split_2,SNU-1,recipe,dpc_mean,0.5704901509253156
+drug_split_2,SNU-1,recipe,dpc_median,0.6420598567788863
+drug_split_2,SW 1088,recipe,de_overlap,0.4827162532158454
+drug_split_2,SW 1088,recipe,energy,0.30871331740494956
+drug_split_2,SW 1088,recipe,dpc_mean,0.5659138120567108
+drug_split_2,SW 1088,recipe,dpc_median,0.6200259563946154
+drug_split_2,SW1417,recipe,de_overlap,0.4021374098499048
+drug_split_2,SW1417,recipe,energy,0.11585736502897147
+drug_split_2,SW1417,recipe,dpc_mean,0.48403721745430117
+drug_split_2,SW1417,recipe,dpc_median,0.5588116506466099
+drug_split_2,SW48,recipe,de_overlap,0.4303203982506336
+drug_split_2,SW48,recipe,energy,0.2161049456736984
+drug_split_2,SW48,recipe,dpc_mean,0.5074843538655783
+drug_split_2,SW48,recipe,dpc_median,0.5743922216344632
+drug_split_2,SW480,recipe,de_overlap,0.4399623514499872
+drug_split_2,SW480,recipe,energy,0.13602691579712434
+drug_split_2,SW480,recipe,dpc_mean,0.4946650917182144
+drug_split_2,SW480,recipe,dpc_median,0.5694075736904783
+drug_split_2,ALL,recipe,de_overlap,0.4584607547682541
+drug_split_2,ALL,recipe,energy,0.21809605113107675
+drug_split_2,ALL,recipe,dpc_mean,0.523113144002375
+drug_split_2,ALL,recipe,dpc_median,0.5806647185815078
+drug_split_2,A-172,guidance_w2,de_overlap,0.487868824871883
+drug_split_2,A-172,guidance_w2,energy,0.48897617874645194
+drug_split_2,A-172,guidance_w2,dpc_mean,0.495163375068394
+drug_split_2,A-172,guidance_w2,dpc_median,0.5278189736683139
+drug_split_2,COLO 205,guidance_w2,de_overlap,0.5250718511257094
+drug_split_2,COLO 205,guidance_w2,energy,0.48066250871190863
+drug_split_2,COLO 205,guidance_w2,dpc_mean,0.45333162399709387
+drug_split_2,COLO 205,guidance_w2,dpc_median,0.4993905079791408
+drug_split_2,H4,guidance_w2,de_overlap,0.4534710047097323
+drug_split_2,H4,guidance_w2,energy,0.5316622124667673
+drug_split_2,H4,guidance_w2,dpc_mean,0.49469676931500495
+drug_split_2,H4,guidance_w2,dpc_median,0.5215104821311366
+drug_split_2,HCT15,guidance_w2,de_overlap,0.356528652705989
+drug_split_2,HCT15,guidance_w2,energy,0.1887892978920492
+drug_split_2,HCT15,guidance_w2,dpc_mean,0.3888326146309763
+drug_split_2,HCT15,guidance_w2,dpc_median,0.44165999900585734
+drug_split_2,HT-29,guidance_w2,de_overlap,0.4668406052745865
+drug_split_2,HT-29,guidance_w2,energy,0.3797664263518948
+drug_split_2,HT-29,guidance_w2,dpc_mean,0.47369096737023764
+drug_split_2,HT-29,guidance_w2,dpc_median,0.5393956377824572
+drug_split_2,KATO III,guidance_w2,de_overlap,0.46243267510565367
+drug_split_2,KATO III,guidance_w2,energy,0.2333438380660822
+drug_split_2,KATO III,guidance_w2,dpc_mean,0.550048593658145
+drug_split_2,KATO III,guidance_w2,dpc_median,0.6158897240471948
+drug_split_2,LS 180,guidance_w2,de_overlap,0.4899835255296861
+drug_split_2,LS 180,guidance_w2,energy,0.464595791768133
+drug_split_2,LS 180,guidance_w2,dpc_mean,0.4611749119318134
+drug_split_2,LS 180,guidance_w2,dpc_median,0.5116476999013196
+drug_split_2,LoVo,guidance_w2,de_overlap,0.4898826721115794
+drug_split_2,LoVo,guidance_w2,energy,0.3536224453189947
+drug_split_2,LoVo,guidance_w2,dpc_mean,0.45341159764478417
+drug_split_2,LoVo,guidance_w2,dpc_median,0.4866259823799957
+drug_split_2,RKO,guidance_w2,de_overlap,0.5319317006284834
+drug_split_2,RKO,guidance_w2,energy,0.48959087014667624
+drug_split_2,RKO,guidance_w2,dpc_mean,0.45950447340973866
+drug_split_2,RKO,guidance_w2,dpc_median,0.5097512737589055
+drug_split_2,SNU-1,guidance_w2,de_overlap,0.45807735029607893
+drug_split_2,SNU-1,guidance_w2,energy,0.3170878341566007
+drug_split_2,SNU-1,guidance_w2,dpc_mean,0.5126762950047148
+drug_split_2,SNU-1,guidance_w2,dpc_median,0.6012674316890779
+drug_split_2,SW 1088,guidance_w2,de_overlap,0.4819748521551501
+drug_split_2,SW 1088,guidance_w2,energy,0.4890864035714876
+drug_split_2,SW 1088,guidance_w2,dpc_mean,0.5217309832797272
+drug_split_2,SW 1088,guidance_w2,dpc_median,0.5782825842358352
+drug_split_2,SW1417,guidance_w2,de_overlap,0.4037279969359775
+drug_split_2,SW1417,guidance_w2,energy,0.1735858140946706
+drug_split_2,SW1417,guidance_w2,dpc_mean,0.431803846131429
+drug_split_2,SW1417,guidance_w2,dpc_median,0.5039172880675069
+drug_split_2,SW48,guidance_w2,de_overlap,0.4319015550467845
+drug_split_2,SW48,guidance_w2,energy,0.3453006101886435
+drug_split_2,SW48,guidance_w2,dpc_mean,0.4561061605776886
+drug_split_2,SW48,guidance_w2,dpc_median,0.5230424385608393
+drug_split_2,SW480,guidance_w2,de_overlap,0.4449382560069002
+drug_split_2,SW480,guidance_w2,energy,0.20183959544750452
+drug_split_2,SW480,guidance_w2,dpc_mean,0.45430738184014163
+drug_split_2,SW480,guidance_w2,dpc_median,0.5002717460341016
+drug_split_2,ALL,guidance_w2,de_overlap,0.46252288509664036
+drug_split_2,ALL,guidance_w2,energy,0.36267130975151046
+drug_split_2,ALL,guidance_w2,dpc_mean,0.4701270119148911
+drug_split_2,ALL,guidance_w2,dpc_median,0.5217737866161882
+drug_split_2,A-172,attn_cross,de_overlap,0.4954253121102674
+drug_split_2,A-172,attn_cross,energy,0.2709014672111143
+drug_split_2,A-172,attn_cross,dpc_mean,0.5654797300630056
+drug_split_2,A-172,attn_cross,dpc_median,0.6107910722422378
+drug_split_2,COLO 205,attn_cross,de_overlap,0.5243677625239906
+drug_split_2,COLO 205,attn_cross,energy,0.27490306310585133
+drug_split_2,COLO 205,attn_cross,dpc_mean,0.5297770203888029
+drug_split_2,COLO 205,attn_cross,dpc_median,0.5587874849737066
+drug_split_2,H4,attn_cross,de_overlap,0.4526104978114675
+drug_split_2,H4,attn_cross,energy,0.2921292671642187
+drug_split_2,H4,attn_cross,dpc_mean,0.5609938038068851
+drug_split_2,H4,attn_cross,dpc_median,0.6123282367601409
+drug_split_2,HCT15,attn_cross,de_overlap,0.3567426322792709
+drug_split_2,HCT15,attn_cross,energy,0.11263528370826136
+drug_split_2,HCT15,attn_cross,dpc_mean,0.4393659111943066
+drug_split_2,HCT15,attn_cross,dpc_median,0.49540233859146193
+drug_split_2,HT-29,attn_cross,de_overlap,0.4597394194104518
+drug_split_2,HT-29,attn_cross,energy,0.21987658927491213
+drug_split_2,HT-29,attn_cross,dpc_mean,0.5329909207674715
+drug_split_2,HT-29,attn_cross,dpc_median,0.5830027322527934
+drug_split_2,KATO III,attn_cross,de_overlap,0.45907647278506003
+drug_split_2,KATO III,attn_cross,energy,0.14879309203965574
+drug_split_2,KATO III,attn_cross,dpc_mean,0.6140483564490093
+drug_split_2,KATO III,attn_cross,dpc_median,0.6664727591570064
+drug_split_2,LS 180,attn_cross,de_overlap,0.4858387506046492
+drug_split_2,LS 180,attn_cross,energy,0.25510400799769156
+drug_split_2,LS 180,attn_cross,dpc_mean,0.5328982800679333
+drug_split_2,LS 180,attn_cross,dpc_median,0.5855613046251534
+drug_split_2,LoVo,attn_cross,de_overlap,0.4915802028816473
+drug_split_2,LoVo,attn_cross,energy,0.2008016179574702
+drug_split_2,LoVo,attn_cross,dpc_mean,0.4995983077621213
+drug_split_2,LoVo,attn_cross,dpc_median,0.5488185920873114
+drug_split_2,RKO,attn_cross,de_overlap,0.5213878476524225
+drug_split_2,RKO,attn_cross,energy,0.2537586392625777
+drug_split_2,RKO,attn_cross,dpc_mean,0.521164472872531
+drug_split_2,RKO,attn_cross,dpc_median,0.566904721643937
+drug_split_2,SNU-1,attn_cross,de_overlap,0.456674858325838
+drug_split_2,SNU-1,attn_cross,energy,0.18154193153946468
+drug_split_2,SNU-1,attn_cross,dpc_mean,0.5816539480117605
+drug_split_2,SNU-1,attn_cross,dpc_median,0.6519157761342891
+drug_split_2,SW 1088,attn_cross,de_overlap,0.4865369620229246
+drug_split_2,SW 1088,attn_cross,energy,0.28766143048505965
+drug_split_2,SW 1088,attn_cross,dpc_mean,0.5754136578992454
+drug_split_2,SW 1088,attn_cross,dpc_median,0.610699523271972
+drug_split_2,SW1417,attn_cross,de_overlap,0.40516680051768633
+drug_split_2,SW1417,attn_cross,energy,0.10933884427186345
+drug_split_2,SW1417,attn_cross,dpc_mean,0.4982749817786913
+drug_split_2,SW1417,attn_cross,dpc_median,0.5722452792146135
+drug_split_2,SW48,attn_cross,de_overlap,0.432660693250513
+drug_split_2,SW48,attn_cross,energy,0.20911560805477686
+drug_split_2,SW48,attn_cross,dpc_mean,0.5138131814035674
+drug_split_2,SW48,attn_cross,dpc_median,0.5719896697666939
+drug_split_2,SW480,attn_cross,de_overlap,0.445327508278825
+drug_split_2,SW480,attn_cross,energy,0.1279352111653798
+drug_split_2,SW480,attn_cross,dpc_mean,0.5018730343163976
+drug_split_2,SW480,attn_cross,dpc_median,0.5851806604181302
+drug_split_2,ALL,attn_cross,de_overlap,0.46151118256280843
+drug_split_2,ALL,attn_cross,energy,0.20758319760052216
+drug_split_2,ALL,attn_cross,dpc_mean,0.5318938463312727
+drug_split_2,ALL,attn_cross,dpc_median,0.5893725370791328
+drug_split_2,A-172,mlp_ctrl,de_overlap,0.4950774396460698
+drug_split_2,A-172,mlp_ctrl,energy,0.27497760367400675
+drug_split_2,A-172,mlp_ctrl,dpc_mean,0.5621926728922066
+drug_split_2,A-172,mlp_ctrl,dpc_median,0.6099278766675967
+drug_split_2,COLO 205,mlp_ctrl,de_overlap,0.5173701083118559
+drug_split_2,COLO 205,mlp_ctrl,energy,0.2681656663399214
+drug_split_2,COLO 205,mlp_ctrl,dpc_mean,0.5266633244273403
+drug_split_2,COLO 205,mlp_ctrl,dpc_median,0.5559737269438075
+drug_split_2,H4,mlp_ctrl,de_overlap,0.4517443583207153
+drug_split_2,H4,mlp_ctrl,energy,0.2914736334031404
+drug_split_2,H4,mlp_ctrl,dpc_mean,0.5589633970609136
+drug_split_2,H4,mlp_ctrl,dpc_median,0.5990031964615877
+drug_split_2,HCT15,mlp_ctrl,de_overlap,0.35446070705185634
+drug_split_2,HCT15,mlp_ctrl,energy,0.11487987504104157
+drug_split_2,HCT15,mlp_ctrl,dpc_mean,0.43542521295027237
+drug_split_2,HCT15,mlp_ctrl,dpc_median,0.5056017675136238
+drug_split_2,HT-29,mlp_ctrl,de_overlap,0.45523800552335786
+drug_split_2,HT-29,mlp_ctrl,energy,0.21441845578636062
+drug_split_2,HT-29,mlp_ctrl,dpc_mean,0.5323313014447794
+drug_split_2,HT-29,mlp_ctrl,dpc_median,0.5997248176883412
+drug_split_2,KATO III,mlp_ctrl,de_overlap,0.4550072858416175
+drug_split_2,KATO III,mlp_ctrl,energy,0.15055996571726193
+drug_split_2,KATO III,mlp_ctrl,dpc_mean,0.6138267412669637
+drug_split_2,KATO III,mlp_ctrl,dpc_median,0.6807808378931667
+drug_split_2,LS 180,mlp_ctrl,de_overlap,0.4842197170345032
+drug_split_2,LS 180,mlp_ctrl,energy,0.2513054383799189
+drug_split_2,LS 180,mlp_ctrl,dpc_mean,0.5366005550829598
+drug_split_2,LS 180,mlp_ctrl,dpc_median,0.6017577952699296
+drug_split_2,LoVo,mlp_ctrl,de_overlap,0.4884758918744909
+drug_split_2,LoVo,mlp_ctrl,energy,0.19659713523187763
+drug_split_2,LoVo,mlp_ctrl,dpc_mean,0.5013539030299566
+drug_split_2,LoVo,mlp_ctrl,dpc_median,0.5511196325342255
+drug_split_2,RKO,mlp_ctrl,de_overlap,0.5179433503656176
+drug_split_2,RKO,mlp_ctrl,energy,0.25211756373548555
+drug_split_2,RKO,mlp_ctrl,dpc_mean,0.5158977975164828
+drug_split_2,RKO,mlp_ctrl,dpc_median,0.5759388208594297
+drug_split_2,SNU-1,mlp_ctrl,de_overlap,0.45218908182448586
+drug_split_2,SNU-1,mlp_ctrl,energy,0.18023017978602598
+drug_split_2,SNU-1,mlp_ctrl,dpc_mean,0.5743786557531232
+drug_split_2,SNU-1,mlp_ctrl,dpc_median,0.6523300589176951
+drug_split_2,SW 1088,mlp_ctrl,de_overlap,0.4851066513668076
+drug_split_2,SW 1088,mlp_ctrl,energy,0.31142005330691686
+drug_split_2,SW 1088,mlp_ctrl,dpc_mean,0.5653355096206779
+drug_split_2,SW 1088,mlp_ctrl,dpc_median,0.618255311665521
+drug_split_2,SW1417,mlp_ctrl,de_overlap,0.40484399678001387
+drug_split_2,SW1417,mlp_ctrl,energy,0.1106024984671696
+drug_split_2,SW1417,mlp_ctrl,dpc_mean,0.49439768860223643
+drug_split_2,SW1417,mlp_ctrl,dpc_median,0.5700721608130076
+drug_split_2,SW48,mlp_ctrl,de_overlap,0.42907819322121676
+drug_split_2,SW48,mlp_ctrl,energy,0.2080903486063786
+drug_split_2,SW48,mlp_ctrl,dpc_mean,0.5145622728677146
+drug_split_2,SW48,mlp_ctrl,dpc_median,0.5902598357784768
+drug_split_2,SW480,mlp_ctrl,de_overlap,0.44325874745454075
+drug_split_2,SW480,mlp_ctrl,energy,0.1334751175123676
+drug_split_2,SW480,mlp_ctrl,dpc_mean,0.4975229932299324
+drug_split_2,SW480,mlp_ctrl,dpc_median,0.5586013141807878
+drug_split_2,ALL,mlp_ctrl,de_overlap,0.45866844865621126
+drug_split_2,ALL,mlp_ctrl,energy,0.20776401349402127
+drug_split_2,ALL,mlp_ctrl,dpc_mean,0.5294481216125568
+drug_split_2,ALL,mlp_ctrl,dpc_median,0.5904141956472362

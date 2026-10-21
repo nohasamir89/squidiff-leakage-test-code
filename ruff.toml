@@ -1,0 +1,21 @@
+# Lint configuration for the manuscript code (used by .github/workflows/tests.yml).
+#
+# The CI step that must pass runs only crash-class rules:
+#   ruff check --select F821,F811,F823,E9,PLE,NPY001 .
+#
+# Per-file exceptions, each verified by hand on 21 Oct 2026:
+#   score_step15_tahoe.py:396 and score_step20_tahoe.py:289-296 define a closure over a name
+#   (`subs`; `real`, `ctrl_ref`) that the scorer `del`s at the end of the split loop to free
+#   memory. pyflakes cannot see that every call happens before the `del` and reports F821.
+#   The names are bound before the closure is created, the closure is only called before the
+#   `del`, and the committed records (step15_model_analysis.json, step20_analysis_development.json)
+#   were produced by exactly these paths. The scorer files are left byte-identical to the runs.
+target-version = "py310"
+
+# Both layouts: the release package keeps the scorers in 04_scoring/, the git
+# repository keeps them at its root.
+[lint.per-file-ignores]
+"04_scoring/score_step15_tahoe.py" = ["F821"]
+"04_scoring/score_step20_tahoe.py" = ["F821"]
+"score_step15_tahoe.py" = ["F821"]
+"score_step20_tahoe.py" = ["F821"]

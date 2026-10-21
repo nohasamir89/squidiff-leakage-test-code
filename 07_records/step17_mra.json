@@ -1,0 +1,3105 @@
+{
+ "prereg": "PREREG_step17_sciplex_mra.md",
+ "prereg_sha256": "ad4e007f190e4225686140af6d6d4d7e38228e7f24ca13536e733179127323a9",
+ "final": true,
+ "verdict": "2 SIZE SIGNAL",
+ "interval": "97.5 % percentile per split, compound-clustered",
+ "n_boot": 5000,
+ "min_context": 10,
+ "comparator": "fm_50",
+ "step14_record_sha256": "c7f021b27272bbac983db2f58d694dddc5dd7de234869ed8ec5d5e64bcf6f0ae",
+ "per_split": {
+  "drug_split_1": {
+   "n_conditions": 443,
+   "n_compounds": 37,
+   "n_genes": 200,
+   "n_contexts": 12,
+   "n_contexts_used": 12,
+   "conditions_per_context": [
+    36,
+    37
+   ],
+   "dose_levels": [
+    10.0,
+    100.0,
+    1000.0,
+    10000.0
+   ],
+   "lines": [
+    "A549",
+    "K562",
+    "MCF7"
+   ],
+   "cells": {
+    "stored_min": 7,
+    "stored_max": 200,
+    "distinct_min": 7,
+    "distinct_max": 200,
+    "recovered": 443,
+    "recovered_exact": 443,
+    "recovered_within_1e5": 0,
+    "n_at_least_min_cells": 439
+   },
+   "ridge_S7_dpc_median": 0.18838950991630554,
+   "step7_record": 0.18838950991630554,
+   "metrics": {
+    "ridge_S7": {
+     "mra": 0.2777958409537357,
+     "mra_per_seed": [
+      0.2777958409537357
+     ],
+     "mra_worst_seed": 0.2777958409537357,
+     "per_dose": {
+      "dose 10": 0.12083135767346297,
+      "dose 100": 0.27564406511774936,
+      "dose 1000": 0.3232969811917181,
+      "dose 10000": 0.3914109598320125
+     },
+     "per_line": {
+      "line A549": 0.29664532954006645,
+      "line K562": 0.3565620131409606,
+      "line MCF7": 0.18018018018018023
+     },
+     "de_overlap": 0.5543642223264703,
+     "dpc_mean": 0.1891213929681591
+    },
+    "ridge_train": {
+     "mra": 0.4026868974237396,
+     "mra_per_seed": [
+      0.4026868974237396
+     ],
+     "mra_worst_seed": 0.4026868974237396,
+     "per_dose": {
+      "dose 10": 0.3895211000474159,
+      "dose 100": 0.4140192824403352,
+      "dose 1000": 0.32977714556661936,
+      "dose 10000": 0.477430061640588
+     },
+     "per_line": {
+      "line A549": 0.32550972024656244,
+      "line K562": 0.47104077761972507,
+      "line MCF7": 0.41151019440493136
+     },
+     "de_overlap": 0.5643784865728471,
+     "dpc_mean": 0.196277261547644
+    },
+    "mean_response": {
+     "mra": 0.0,
+     "mra_per_seed": [
+      0.0
+     ],
+     "mra_worst_seed": 0.0,
+     "per_dose": {
+      "dose 10": 0.0,
+      "dose 100": 0.0,
+      "dose 1000": 0.0,
+      "dose 10000": 0.0
+     },
+     "per_line": {
+      "line A549": 0.0,
+      "line K562": 0.0,
+      "line MCF7": 0.0
+     },
+     "de_overlap": 0.5440471762570257,
+     "dpc_mean": 0.17953217891868245
+    },
+    "control_paste": {
+     "mra": 0.0,
+     "mra_per_seed": [
+      0.0
+     ],
+     "mra_worst_seed": 0.0,
+     "per_dose": {
+      "dose 10": 0.0,
+      "dose 100": 0.0,
+      "dose 1000": 0.0,
+      "dose 10000": 0.0
+     },
+     "per_line": {
+      "line A549": 0.0,
+      "line K562": 0.0,
+      "line MCF7": 0.0
+     },
+     "de_overlap": NaN,
+     "dpc_mean": NaN
+    },
+    "base": {
+     "mra": 0.22744180270496067,
+     "mra_per_seed": [
+      0.19764106211474639,
+      0.2574736390525865,
+      0.18105172842014952,
+      0.24652058073110714,
+      0.25452200320621376
+     ],
+     "mra_worst_seed": 0.18105172842014952,
+     "per_dose": {
+      "dose 10": 0.16978030662241192,
+      "dose 100": 0.23622569938359414,
+      "dose 1000": 0.2370475738896792,
+      "dose 10000": 0.26671363092415723
+     },
+     "per_line": {
+      "line A549": 0.19409672830725466,
+      "line K562": 0.23852502878818668,
+      "line MCF7": 0.24970365101944053
+     },
+     "de_overlap": 0.5080218566672793,
+     "dpc_mean": 0.04523602274994831
+    },
+    "fm_50": {
+     "mra": 0.33408521303258143,
+     "mra_per_seed": [
+      0.28802919460814197,
+      0.33736198604619655,
+      0.36913172571067315,
+      0.3414595046173994,
+      0.3344436541804963
+     ],
+     "mra_worst_seed": 0.28802919460814197,
+     "per_dose": {
+      "dose 10": 0.13834360676465945,
+      "dose 100": 0.34006638217164536,
+      "dose 1000": 0.4409672830725463,
+      "dose 10000": 0.41696358012147494
+     },
+     "per_line": {
+      "line A549": 0.24500948316737792,
+      "line K562": 0.45460272302377563,
+      "line MCF7": 0.3026434329065909
+     },
+     "de_overlap": 0.6100026207918294,
+     "dpc_mean": 0.09910120588502214
+    },
+    "guidance_w2": {
+     "mra": 0.29013603829393314,
+     "mra_per_seed": [
+      0.26486034907087547,
+      0.29179875364085894,
+      0.3146994739100003,
+      0.2917332746280116,
+      0.28758834021991925
+     ],
+     "mra_worst_seed": 0.26486034907087547,
+     "per_dose": {
+      "dose 10": 0.1954638849375692,
+      "dose 100": 0.28360992571518895,
+      "dose 1000": 0.339845108266161,
+      "dose 10000": 0.3416252342568133
+     },
+     "per_line": {
+      "line A549": 0.2560099573257469,
+      "line K562": 0.39678317415159525,
+      "line MCF7": 0.21761498340445712
+     },
+     "de_overlap": 0.6172059144079153,
+     "dpc_mean": 0.1177389924676606
+    },
+    "attn_cross": {
+     "mra": 0.3557782970940866,
+     "mra_per_seed": [
+      0.35645532750795916,
+      0.3474530921899343,
+      0.34922667027930193,
+      0.35182325182325186,
+      0.3739331436699858
+     ],
+     "mra_worst_seed": 0.3474530921899343,
+     "per_dose": {
+      "dose 10": 0.17213529318792478,
+      "dose 100": 0.3042832305990201,
+      "dose 1000": 0.481333965544492,
+      "dose 10000": 0.4653606990449097
+     },
+     "per_line": {
+      "line A549": 0.27163347558084405,
+      "line K562": 0.4492220415904627,
+      "line MCF7": 0.3464793741109532
+     },
+     "de_overlap": 0.6157050828892758,
+     "dpc_mean": 0.11831986013994163
+    },
+    "mlp_ctrl": {
+     "mra": 0.32756508388087335,
+     "mra_per_seed": [
+      0.3102570615728511,
+      0.34022612838402316,
+      0.3407166565061303,
+      0.3585969428074691,
+      0.2880286301338933
+     ],
+     "mra_worst_seed": 0.2880286301338933,
+     "per_dose": {
+      "dose 10": 0.14762130551604238,
+      "dose 100": 0.31972498814604083,
+      "dose 1000": 0.43385490753911815,
+      "dose 10000": 0.4090591343222923
+     },
+     "per_line": {
+      "line A549": 0.23240872451398772,
+      "line K562": 0.44682517103569735,
+      "line MCF7": 0.3034613560929351
+     },
+     "de_overlap": 0.6125418400647099,
+     "dpc_mean": 0.10719958059249088
+    }
+   },
+   "anchor": {
+    "mra": 0.5197945313734789,
+    "per_half_split": [
+     0.5254752873173928,
+     0.5735041432409854,
+     0.5044170109959585,
+     0.48996195443563867,
+     0.5056142608774189
+    ]
+   },
+   "contrasts": {
+    "Q1_primary_mra_fm_50_minus_0": {
+     "diff": 0.33408521303258143,
+     "ci": [
+      0.13834537342660977,
+      0.5025956708753344
+     ],
+     "verdict": "above zero",
+     "half_width": 0.1821251487243623,
+     "n_nan": 0
+    },
+    "Q2_coprimary_mra_fm_50_minus_ridge_train": {
+     "diff": -0.06860168439115816,
+     "ci": [
+      -0.17971534713983797,
+      0.06559827288824242
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.12265681001404019,
+     "n_nan": 0
+    },
+    "secondary_mra_base_minus_0": {
+     "diff": 0.22744180270496067,
+     "ci": [
+      0.0672588143566292,
+      0.37137512886348434
+     ],
+     "verdict": "above zero",
+     "half_width": 0.15205815725342758,
+     "n_nan": 0
+    },
+    "secondary_mra_ridge_S7_minus_0": {
+     "diff": 0.2777958409537357,
+     "ci": [
+      0.031189113292304806,
+      0.4812820674531582
+     ],
+     "verdict": "above zero",
+     "half_width": 0.22504647708042672,
+     "n_nan": 0
+    },
+    "secondary_mra_ridge_train_minus_0": {
+     "diff": 0.4026868974237396,
+     "ci": [
+      0.15580122792469342,
+      0.6079159050254058
+     ],
+     "verdict": "above zero",
+     "half_width": 0.2260573385503562,
+     "n_nan": 0
+    },
+    "secondary_mra_guidance_w2_minus_0": {
+     "diff": 0.29013603829393314,
+     "ci": [
+      0.0690497401556094,
+      0.4832797711574826
+     ],
+     "verdict": "above zero",
+     "half_width": 0.2071150155009366,
+     "n_nan": 0
+    },
+    "secondary_mra_attn_cross_minus_0": {
+     "diff": 0.3557782970940866,
+     "ci": [
+      0.155393463885658,
+      0.5346184523817982
+     ],
+     "verdict": "above zero",
+     "half_width": 0.18961249424807008,
+     "n_nan": 0
+    },
+    "secondary_mra_mlp_ctrl_minus_0": {
+     "diff": 0.32756508388087335,
+     "ci": [
+      0.1218754075400054,
+      0.5103451658764923
+     ],
+     "verdict": "above zero",
+     "half_width": 0.19423487916824342,
+     "n_nan": 0
+    },
+    "secondary_mra_fm_50_minus_ridge_S7": {
+     "diff": 0.05628937207884571,
+     "ci": [
+      -0.1703940479601742,
+      0.27828126020214955
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.22433765408116188,
+     "n_nan": 0
+    },
+    "secondary_mra_guidance_w2_minus_fm_50": {
+     "diff": -0.04394917473864829,
+     "ci": [
+      -0.09862605862678127,
+      0.007814799214270049
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.053220428920525656,
+     "n_nan": 0
+    },
+    "secondary_mra_attn_cross_minus_fm_50": {
+     "diff": 0.021693084061505163,
+     "ci": [
+      -0.023625568572324895,
+      0.06675845577687037
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.04519201217459763,
+     "n_nan": 0
+    },
+    "secondary_mra_mlp_ctrl_minus_fm_50": {
+     "diff": -0.006520129151708076,
+     "ci": [
+      -0.04465403500216149,
+      0.031793639519434376
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.038223837260797935,
+     "n_nan": 0
+    },
+    "descriptive_mra_anchor_minus_0": {
+     "diff": 0.5197945313734789,
+     "ci": [
+      0.29854637292249164,
+      0.6931025334316187
+     ],
+     "verdict": "above zero",
+     "half_width": 0.1972780802545635,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10_ridge_S7_minus_0": {
+     "diff": 0.12083135767346297,
+     "ci": [
+      -0.13953403099853331,
+      0.36948299442416777
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.25450851271135055,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10_ridge_train_minus_0": {
+     "diff": 0.3895211000474159,
+     "ci": [
+      0.102901181257535,
+      0.622032614239621
+     ],
+     "verdict": "above zero",
+     "half_width": 0.259565716491043,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10_base_minus_0": {
+     "diff": 0.16978030662241192,
+     "ci": [
+      -0.027279241958285634,
+      0.366529933271447
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.19690458761486632,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10_fm_50_minus_0": {
+     "diff": 0.13834360676465945,
+     "ci": [
+      -0.11443673888970597,
+      0.374432065194927
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.24443440204231648,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10_guidance_w2_minus_0": {
+     "diff": 0.1954638849375692,
+     "ci": [
+      -0.06982811340483358,
+      0.4320791063496137
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.25095360987722365,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10_attn_cross_minus_0": {
+     "diff": 0.17213529318792478,
+     "ci": [
+      -0.1059691693611068,
+      0.4202857737118919
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.26312747153649935,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10_mlp_ctrl_minus_0": {
+     "diff": 0.14762130551604238,
+     "ci": [
+      -0.130042482617365,
+      0.40358228095366555
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.26681238178551525,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_100_ridge_S7_minus_0": {
+     "diff": 0.27564406511774936,
+     "ci": [
+      -0.013368403619185823,
+      0.5058022021466523
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.25958530288291903,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_100_ridge_train_minus_0": {
+     "diff": 0.4140192824403352,
+     "ci": [
+      0.15365797460210903,
+      0.6269500334355179
+     ],
+     "verdict": "above zero",
+     "half_width": 0.23664602941670443,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_100_base_minus_0": {
+     "diff": 0.23622569938359414,
+     "ci": [
+      0.04833121717956726,
+      0.39192922919670353
+     ],
+     "verdict": "above zero",
+     "half_width": 0.17179900600856812,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_100_fm_50_minus_0": {
+     "diff": 0.34006638217164536,
+     "ci": [
+      0.1171433502443993,
+      0.5385340821420328
+     ],
+     "verdict": "above zero",
+     "half_width": 0.21069536594881674,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_100_guidance_w2_minus_0": {
+     "diff": 0.28360992571518895,
+     "ci": [
+      0.0384677541729249,
+      0.4969999167219735
+     ],
+     "verdict": "above zero",
+     "half_width": 0.2292660812745243,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_100_attn_cross_minus_0": {
+     "diff": 0.3042832305990201,
+     "ci": [
+      0.06275542133585914,
+      0.5154195358536395
+     ],
+     "verdict": "above zero",
+     "half_width": 0.2263320572588902,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_100_mlp_ctrl_minus_0": {
+     "diff": 0.31972498814604083,
+     "ci": [
+      0.07935793438666501,
+      0.5268612481845633
+     ],
+     "verdict": "above zero",
+     "half_width": 0.22375165689894913,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_1000_ridge_S7_minus_0": {
+     "diff": 0.3232969811917181,
+     "ci": [
+      -0.014333717695943127,
+      0.6138896438139076
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.3141116807549254,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_1000_ridge_train_minus_0": {
+     "diff": 0.32977714556661936,
+     "ci": [
+      -0.02891218870481784,
+      0.6050321458055287
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.31697216725517324,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_1000_base_minus_0": {
+     "diff": 0.2370475738896792,
+     "ci": [
+      -0.04902682665996704,
+      0.47706411458182035
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.2630454706208937,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_1000_fm_50_minus_0": {
+     "diff": 0.4409672830725463,
+     "ci": [
+      0.14670787660736784,
+      0.6664182179493426
+     ],
+     "verdict": "above zero",
+     "half_width": 0.2598551706709874,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_1000_guidance_w2_minus_0": {
+     "diff": 0.339845108266161,
+     "ci": [
+      0.03554664623100786,
+      0.5776202110254105
+     ],
+     "verdict": "above zero",
+     "half_width": 0.2710367823972013,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_1000_attn_cross_minus_0": {
+     "diff": 0.481333965544492,
+     "ci": [
+      0.17339711771071203,
+      0.7103639936191879
+     ],
+     "verdict": "above zero",
+     "half_width": 0.2684834379542379,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_1000_mlp_ctrl_minus_0": {
+     "diff": 0.43385490753911815,
+     "ci": [
+      0.11991536850152898,
+      0.6667169722902558
+     ],
+     "verdict": "above zero",
+     "half_width": 0.27340080189436344,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10000_ridge_S7_minus_0": {
+     "diff": 0.3914109598320125,
+     "ci": [
+      0.055326321511447174,
+      0.6546821955060935
+     ],
+     "verdict": "above zero",
+     "half_width": 0.29967793699732315,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10000_ridge_train_minus_0": {
+     "diff": 0.477430061640588,
+     "ci": [
+      0.1553230128618909,
+      0.7084767138815652
+     ],
+     "verdict": "above zero",
+     "half_width": 0.27657685050983716,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10000_base_minus_0": {
+     "diff": 0.26671363092415723,
+     "ci": [
+      -0.024828483090078936,
+      0.4999184332382378
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.26237345816415836,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10000_fm_50_minus_0": {
+     "diff": 0.41696358012147494,
+     "ci": [
+      0.11617180730122185,
+      0.6361647469972246
+     ],
+     "verdict": "above zero",
+     "half_width": 0.25999646984800134,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10000_guidance_w2_minus_0": {
+     "diff": 0.3416252342568133,
+     "ci": [
+      0.018506473471588108,
+      0.5973030644665637
+     ],
+     "verdict": "above zero",
+     "half_width": 0.2893982954974878,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10000_attn_cross_minus_0": {
+     "diff": 0.4653606990449097,
+     "ci": [
+      0.13352866894547383,
+      0.7002412340395159
+     ],
+     "verdict": "above zero",
+     "half_width": 0.28335628254702105,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10000_mlp_ctrl_minus_0": {
+     "diff": 0.4090591343222923,
+     "ci": [
+      0.10599204271263322,
+      0.6387422371935523
+     ],
+     "verdict": "above zero",
+     "half_width": 0.26637509724045955,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_A549_ridge_S7_minus_0": {
+     "diff": 0.29664532954006645,
+     "ci": [
+      0.01893707094746157,
+      0.509366036649979
+     ],
+     "verdict": "above zero",
+     "half_width": 0.24521448285125874,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_A549_ridge_train_minus_0": {
+     "diff": 0.32550972024656244,
+     "ci": [
+      0.011530045367349516,
+      0.5760175906212244
+     ],
+     "verdict": "above zero",
+     "half_width": 0.28224377262693745,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_A549_base_minus_0": {
+     "diff": 0.19409672830725466,
+     "ci": [
+      -0.0019203200931132481,
+      0.36679792338608536
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.1843591217395993,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_A549_fm_50_minus_0": {
+     "diff": 0.24500948316737792,
+     "ci": [
+      -0.006824460435369996,
+      0.4690841831226001
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.23795432177898504,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_A549_guidance_w2_minus_0": {
+     "diff": 0.2560099573257469,
+     "ci": [
+      -0.01859382632289605,
+      0.49860263244875513
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.2585982293858256,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_A549_attn_cross_minus_0": {
+     "diff": 0.27163347558084405,
+     "ci": [
+      0.005386215092097444,
+      0.5096745119485047
+     ],
+     "verdict": "above zero",
+     "half_width": 0.2521441484282036,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_A549_mlp_ctrl_minus_0": {
+     "diff": 0.23240872451398772,
+     "ci": [
+      -0.009681986140708993,
+      0.45345267444022086
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.23156733029046492,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_K562_ridge_S7_minus_0": {
+     "diff": 0.3565620131409606,
+     "ci": [
+      0.06669340357734341,
+      0.5881356975973971
+     ],
+     "verdict": "above zero",
+     "half_width": 0.26072114701002685,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_K562_ridge_train_minus_0": {
+     "diff": 0.47104077761972507,
+     "ci": [
+      0.20339598773393908,
+      0.6812526779605745
+     ],
+     "verdict": "above zero",
+     "half_width": 0.23892834511331773,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_K562_base_minus_0": {
+     "diff": 0.23852502878818668,
+     "ci": [
+      0.024947769588419696,
+      0.41966657986708295
+     ],
+     "verdict": "above zero",
+     "half_width": 0.19735940513933162,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_K562_fm_50_minus_0": {
+     "diff": 0.45460272302377563,
+     "ci": [
+      0.2114946791337315,
+      0.6479903204769203
+     ],
+     "verdict": "above zero",
+     "half_width": 0.2182478206715944,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_K562_guidance_w2_minus_0": {
+     "diff": 0.39678317415159525,
+     "ci": [
+      0.15438411262074872,
+      0.6011412783111606
+     ],
+     "verdict": "above zero",
+     "half_width": 0.22337858284520595,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_K562_attn_cross_minus_0": {
+     "diff": 0.4492220415904627,
+     "ci": [
+      0.20392835639196719,
+      0.6441371923700742
+     ],
+     "verdict": "above zero",
+     "half_width": 0.2201044179890535,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_K562_mlp_ctrl_minus_0": {
+     "diff": 0.44682517103569735,
+     "ci": [
+      0.20613374625759126,
+      0.644712041767646
+     ],
+     "verdict": "above zero",
+     "half_width": 0.21928914775502734,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_MCF7_ridge_S7_minus_0": {
+     "diff": 0.18018018018018023,
+     "ci": [
+      -0.12670335042064343,
+      0.46161358265706004
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.29415846653885175,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_MCF7_ridge_train_minus_0": {
+     "diff": 0.41151019440493136,
+     "ci": [
+      0.09992878123153176,
+      0.6565404622057036
+     ],
+     "verdict": "above zero",
+     "half_width": 0.27830584048708595,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_MCF7_base_minus_0": {
+     "diff": 0.24970365101944053,
+     "ci": [
+      0.035974036953000214,
+      0.4357798260203235
+     ],
+     "verdict": "above zero",
+     "half_width": 0.19990289453366164,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_MCF7_fm_50_minus_0": {
+     "diff": 0.3026434329065909,
+     "ci": [
+      0.07200157224927389,
+      0.49438922522298756
+     ],
+     "verdict": "above zero",
+     "half_width": 0.21119382648685683,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_MCF7_guidance_w2_minus_0": {
+     "diff": 0.21761498340445712,
+     "ci": [
+      -0.03712899679068109,
+      0.43558947940340126
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.23635923809704118,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_MCF7_attn_cross_minus_0": {
+     "diff": 0.3464793741109532,
+     "ci": [
+      0.11809444141718131,
+      0.5439213798825849
+     ],
+     "verdict": "above zero",
+     "half_width": 0.21291346923270182,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_MCF7_mlp_ctrl_minus_0": {
+     "diff": 0.3034613560929351,
+     "ci": [
+      0.04007501896182307,
+      0.5236150499229514
+     ],
+     "verdict": "above zero",
+     "half_width": 0.24177001548056415,
+     "n_nan": 0
+    }
+   },
+   "inputs": {
+    "fm_50": [
+     {
+      "tag": "sw_fm_gaussian_seed_0_n50",
+      "vectors_sha256": "0c84385c6566a34024c759f35ae0d88232dba2ca2784cbe4782dd3edc4632aa5",
+      "per_cell_sha256": "b17898338551de21d891ebb4dcd5678a7796b2cb095f411d1f1acaa81f408a66",
+      "checkpoint_sha256": null
+     },
+     {
+      "tag": "sw_fm_gaussian_seed_1_n50",
+      "vectors_sha256": "dcbc9f61e1635d386b7a77997934827a2285bc6600817a33448f43d7de67ccdc",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": null
+     },
+     {
+      "tag": "sw_fm_gaussian_seed_2_n50",
+      "vectors_sha256": "f50eb51dd8ae07b4d384853ecc25562a4924e96fab0bc74a50b1101bed674417",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": null
+     },
+     {
+      "tag": "sw_fm_gaussian_seed_3_n50",
+      "vectors_sha256": "3037a123dfeff0cbe1c547ec88628653bc43e08246527157e8151d30a3e2f806",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": null
+     },
+     {
+      "tag": "sw_fm_gaussian_seed_4_n50",
+      "vectors_sha256": "8f346c77828d0a69490513c612e74698e31f0a86a54bf4cf4e5c279850dfca62",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": null
+     }
+    ],
+    "guidance_w2": [
+     {
+      "tag": "s12_cfg_w2_seed_0",
+      "vectors_sha256": "facef0747bc75a0a1fe1db89f3392c098739fbd19119a240ee6887253d363edb",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "ed8a913b4286ca6a310105c92d41492edb56483f371eb2c5ceacd11fdf485aaa"
+     },
+     {
+      "tag": "s12_cfg_w2_seed_1",
+      "vectors_sha256": "174e88dd36a24b5f92f0f8fdcc2fb45c58c0918a3ae3860d7c4f1eb72bf2bac8",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "e51dd410dbf0c2de87af5cbbb6e8abf051a74688112b7d727fb3d9515b9390f1"
+     },
+     {
+      "tag": "s12_cfg_w2_seed_2",
+      "vectors_sha256": "71fd76ecd455e48f75cc44702c97300bb8dcaed6522cc329ee6251c4e0687c8f",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "2c2d274d90577f10fe52cd1bcd56312ba8d2e93c3b2710b3d33c49e13677fa51"
+     },
+     {
+      "tag": "s12_cfg_w2_seed_3",
+      "vectors_sha256": "f9a989b83eff78c8f71a662a651e69cf51a535328a7a018f752ea7de79714aea",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "0ba8579e92702dc063ea92aa6b1708fd0b2b7eef23c420b3ad35a64bcd5fb1b1"
+     },
+     {
+      "tag": "s12_cfg_w2_seed_4",
+      "vectors_sha256": "71a040ec30186ee5a025bf7428fb0a6fb834b3304aec1564c4edbe9671731747",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "38836661da54d6b41ae805690e4e4cabe2c94db551497f4c656c9ef665fac28e"
+     }
+    ],
+    "attn_cross": [
+     {
+      "tag": "s13_drug_split_1_attn_cross_seed_0",
+      "vectors_sha256": "ee19bea9393713e614b7e5de038ad995e7c004c720c4dfa7f779d46c4cbdd262",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "da28d6948077c692675712ea4c05899065f83882dc7300a443d9c17db873c9da"
+     },
+     {
+      "tag": "s13_drug_split_1_attn_cross_seed_1",
+      "vectors_sha256": "cf4538d023da2d236867ec55d573637461a5667561e2c46647b7fc0116a43dc8",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "c1c45dc62990ca0f0a022c184ff61af7ca2ea8669d186b37eabd46e7d452d563"
+     },
+     {
+      "tag": "s13_drug_split_1_attn_cross_seed_2",
+      "vectors_sha256": "b161d9ce69be1a83920ae50cbb4249e5f981885996b83eb5e6a7a5d049863a50",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "78f27b9e66811425fe2b4811393850ad0771678de8db77d8c1ed7cf846f022a2"
+     },
+     {
+      "tag": "s13_drug_split_1_attn_cross_seed_3",
+      "vectors_sha256": "61bbde82e32a9ffde2c46c33381ffb642a9e47abbe281a3ea5df33e7e921ea91",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "67dd30f2ac8b6a50647fa6cb964afe9f2ef1db3e8339a0850f24517956eba66e"
+     },
+     {
+      "tag": "s13_drug_split_1_attn_cross_seed_4",
+      "vectors_sha256": "1f87497e0de69cf893dbd663a10b9428a3b5048386dff6cc9b5820fcf85d16d1",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "43161f1763c906daaf569807006f6b0a327b7a92ee2b8c698e4652eb3d001b99"
+     }
+    ],
+    "mlp_ctrl": [
+     {
+      "tag": "s13_drug_split_1_mlp_ctrl_seed_0",
+      "vectors_sha256": "133dc5fc3d70a6db28022c1f6e6d0c8b961aa59191da7d785605512c35162048",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "ce159308fb24bd0b99cfacbcee36f00e031556f962984f8446868442ecedf443"
+     },
+     {
+      "tag": "s13_drug_split_1_mlp_ctrl_seed_1",
+      "vectors_sha256": "58886872ec36fa021783f88dde3ab694aee3b5297a0b1ff0e603a6bd242c1e84",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "fa1a26756ca60b087eba3d666339bbbfae44349ed2cca0e36d14b57c5039b85a"
+     },
+     {
+      "tag": "s13_drug_split_1_mlp_ctrl_seed_2",
+      "vectors_sha256": "7f23db58aeaf78b401707e2763c1f97b2bb7aaeabada37ece48c0c633cc730dd",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "2227063ba82624dee29d0a2734784d80096b02f082399c408b0cce11d6ef43b7"
+     },
+     {
+      "tag": "s13_drug_split_1_mlp_ctrl_seed_3",
+      "vectors_sha256": "a8408c18e3716a117533a3c50fb966264daab9ef63a31dcfcc49b0db951925b9",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "4a1dfff7cf7a0d3fb3e021836b2a7ee84a40ad0c5403fc425246a6de70b4f40d"
+     },
+     {
+      "tag": "s13_drug_split_1_mlp_ctrl_seed_4",
+      "vectors_sha256": "0156daeb29f5325f243fc84f88503833dc980fa8389d907889979d54815d6021",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "3dfb804da18236b0f4ff86e8edb2dee9b30a2d563dcd7c9dd2fd18c2373ef877"
+     }
+    ],
+    "base": [
+     {
+      "tag": "step5_base_seed_0",
+      "vectors_sha256": "46387783f9b43bf2bfae1ac61d86626d3ab9425bf21513d26faf1ea7a333d502",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "d2c0a06348950274f9de24923bb168d3191b6f4627f549ed58c3e6d1df53a2e4"
+     },
+     {
+      "tag": "step5_base_seed_1",
+      "vectors_sha256": "d8e6e18d8e85ddb5973d000ad682507c7b1b9067dc00a40780dd01a478a6f4e1",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "0e2e787f2be445a01aa6568732f2006328e53e81c4f4dadf66da4493ba492276"
+     },
+     {
+      "tag": "step5_base_seed_2",
+      "vectors_sha256": "6b365d1220bb8d1f24883482049211a3d3db25ac01d35fc2249c4159bf64e457",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "94d99babdffebed2dfe664d17118b46138bebcd7c9834129513f1ce5a562ce7a"
+     },
+     {
+      "tag": "step5_base_seed_3",
+      "vectors_sha256": "48ea989a461ff3b088ba78ba0e342204a32d1e732fdb14d915f5d2b05542288d",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "477fd28f94c542ea8eda518e7ab85d2c48d75409083710b436cab8a5c0d040a4"
+     },
+     {
+      "tag": "step5_base_seed_4",
+      "vectors_sha256": "2762155866fb19cab6af965e3c1cb6499f24da2b343d3fca2cfe3aa4cfea371f",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "01ac028a1904addcc5fb0ace5fb6093e7f2ec13ebce39d58b89a2fbd2f027017"
+     }
+    ]
+   }
+  },
+  "drug_split_0": {
+   "n_conditions": 444,
+   "n_compounds": 37,
+   "n_genes": 200,
+   "n_contexts": 12,
+   "n_contexts_used": 12,
+   "conditions_per_context": [
+    37,
+    37
+   ],
+   "dose_levels": [
+    10.0,
+    100.0,
+    1000.0,
+    10000.0
+   ],
+   "lines": [
+    "A549",
+    "K562",
+    "MCF7"
+   ],
+   "cells": {
+    "stored_min": 15,
+    "stored_max": 200,
+    "distinct_min": 15,
+    "distinct_max": 199,
+    "recovered": 444,
+    "recovered_exact": 444,
+    "recovered_within_1e5": 0,
+    "n_at_least_min_cells": 442
+   },
+   "ridge_S7_dpc_median": 0.24729523062705994,
+   "step7_record": 0.24729523062705994,
+   "metrics": {
+    "ridge_S7": {
+     "mra": 0.12671882408724516,
+     "mra_per_seed": [
+      0.12671882408724516
+     ],
+     "mra_worst_seed": 0.12671882408724516,
+     "per_dose": {
+      "dose 10": -0.09340919867235659,
+      "dose 100": 0.10976766239924136,
+      "dose 1000": 0.20222854433380755,
+      "dose 10000": 0.2882882882882884
+     },
+     "per_line": {
+      "line A549": 0.14218824087245144,
+      "line K562": 0.01623992413466098,
+      "line MCF7": 0.2217283072546231
+     },
+     "de_overlap": 0.5684209600925474,
+     "dpc_mean": 0.20232724068993324
+    },
+    "ridge_train": {
+     "mra": 0.08951714872767506,
+     "mra_per_seed": [
+      0.08951714872767506
+     ],
+     "mra_worst_seed": 0.08951714872767506,
+     "per_dose": {
+      "dose 10": 0.10210210210210213,
+      "dose 100": -0.04401770191243878,
+      "dose 1000": 0.16777303619408887,
+      "dose 10000": 0.13221115852694804
+     },
+     "per_line": {
+      "line A549": -0.03502844950213373,
+      "line K562": 0.2839023233760076,
+      "line MCF7": 0.019677572309151254
+     },
+     "de_overlap": 0.5369054812955749,
+     "dpc_mean": 0.12342477683420627
+    },
+    "mean_response": {
+     "mra": 0.0,
+     "mra_per_seed": [
+      0.0
+     ],
+     "mra_worst_seed": 0.0,
+     "per_dose": {
+      "dose 10": 0.0,
+      "dose 100": 0.0,
+      "dose 1000": 0.0,
+      "dose 10000": 0.0
+     },
+     "per_line": {
+      "line A549": 0.0,
+      "line K562": 0.0,
+      "line MCF7": 0.0
+     },
+     "de_overlap": 0.5538089707001903,
+     "dpc_mean": 0.2504410263149193
+    },
+    "control_paste": {
+     "mra": 0.0,
+     "mra_per_seed": [
+      0.0
+     ],
+     "mra_worst_seed": 0.0,
+     "per_dose": {
+      "dose 10": 0.0,
+      "dose 100": 0.0,
+      "dose 1000": 0.0,
+      "dose 10000": 0.0
+     },
+     "per_line": {
+      "line A549": 0.0,
+      "line K562": 0.0,
+      "line MCF7": 0.0
+     },
+     "de_overlap": NaN,
+     "dpc_mean": NaN
+    },
+    "base": {
+     "mra": 0.18181997787260948,
+     "mra_per_seed": [
+      0.16868183973447134,
+      0.20750355618776675,
+      0.19462225383278017,
+      0.2002133712660029,
+      0.13807886834202623
+     ],
+     "mra_worst_seed": 0.13807886834202623,
+     "per_dose": {
+      "dose 10": 0.24790580053737954,
+      "dose 100": 0.1252568357831516,
+      "dose 1000": 0.19168642326537066,
+      "dose 10000": 0.16243085190453616
+     },
+     "per_line": {
+      "line A549": 0.12037695590327173,
+      "line K562": 0.31863442389758184,
+      "line MCF7": 0.1064485538169749
+     },
+     "de_overlap": 0.5047170669013372,
+     "dpc_mean": 0.009682878523070643
+    },
+    "fm_50": {
+     "mra": 0.2406748854117276,
+     "mra_per_seed": [
+      0.2960723881776514,
+      0.23295005531847637,
+      0.19738817765133562,
+      0.2417219851430378,
+      0.2352418207681366
+     ],
+     "mra_worst_seed": 0.19738817765133562,
+     "per_dose": {
+      "dose 10": 0.28275644065117755,
+      "dose 100": 0.14332226963805916,
+      "dose 1000": 0.20746009167061805,
+      "dose 10000": 0.32916073968705556
+     },
+     "per_line": {
+      "line A549": 0.18712660028449507,
+      "line K562": 0.3135135135135136,
+      "line MCF7": 0.22138454243717404
+     },
+     "de_overlap": 0.6123708868486173,
+     "dpc_mean": 0.06978223392528343
+    },
+    "guidance_w2": {
+     "mra": 0.2105579263474001,
+     "mra_per_seed": [
+      0.23269321953532485,
+      0.20240635372214322,
+      0.21769796111901382,
+      0.17613007744586698,
+      0.22386201991465152
+     ],
+     "mra_worst_seed": 0.17613007744586698,
+     "per_dose": {
+      "dose 10": 0.2413782203255888,
+      "dose 100": 0.14126758337284656,
+      "dose 1000": 0.1775881144302197,
+      "dose 10000": 0.28199778726094527
+     },
+     "per_line": {
+      "line A549": 0.14018492176386915,
+      "line K562": 0.3046823138928403,
+      "line MCF7": 0.1868065433854908
+     },
+     "de_overlap": 0.6275233886975983,
+     "dpc_mean": 0.07934849131261645
+    },
+    "attn_cross": {
+     "mra": 0.2685712027817292,
+     "mra_per_seed": [
+      0.2846728307254624,
+      0.26641773352299675,
+      0.2645803698435278,
+      0.2665560297139245,
+      0.26062905010273435
+     ],
+     "mra_worst_seed": 0.26062905010273435,
+     "per_dose": {
+      "dose 10": 0.3313418681839735,
+      "dose 100": 0.14297455350086935,
+      "dose 1000": 0.2750276592381856,
+      "dose 10000": 0.32494073020388814
+     },
+     "per_line": {
+      "line A549": 0.14913466097676628,
+      "line K562": 0.3673186344238977,
+      "line MCF7": 0.28926031294452353
+     },
+     "de_overlap": 0.6109705425924302,
+     "dpc_mean": 0.07895568648690483
+    },
+    "mlp_ctrl": {
+     "mra": 0.2654812707444287,
+     "mra_per_seed": [
+      0.2669314050892999,
+      0.25406985933301723,
+      0.27801485696222544,
+      0.2718903113639956,
+      0.25649992097360524
+     ],
+     "mra_worst_seed": 0.25406985933301723,
+     "per_dose": {
+      "dose 10": 0.3460249723407619,
+      "dose 100": 0.16189347241978824,
+      "dose 1000": 0.23259048522206424,
+      "dose 10000": 0.3214161529951004
+     },
+     "per_line": {
+      "line A549": 0.18623755334281653,
+      "line K562": 0.3528212422949266,
+      "line MCF7": 0.25738501659554297
+     },
+     "de_overlap": 0.6123169206917644,
+     "dpc_mean": 0.0675459259688269
+    }
+   },
+   "anchor": {
+    "mra": 0.3958116010747591,
+    "per_half_split": [
+     0.43549470523154743,
+     0.4007033349138613,
+     0.39720641694325914,
+     0.38890864548759296,
+     0.35674490279753446
+    ]
+   },
+   "contrasts": {
+    "Q1_primary_mra_fm_50_minus_0": {
+     "diff": 0.2406748854117276,
+     "ci": [
+      0.11130035758715907,
+      0.35512169507834623
+     ],
+     "verdict": "above zero",
+     "half_width": 0.12191066874559359,
+     "n_nan": 0
+    },
+    "Q2_coprimary_mra_fm_50_minus_ridge_train": {
+     "diff": 0.15115773668405252,
+     "ci": [
+      -0.04544552877562347,
+      0.34101357271487076
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.19322955074524711,
+     "n_nan": 0
+    },
+    "secondary_mra_base_minus_0": {
+     "diff": 0.18181997787260948,
+     "ci": [
+      0.06555164758823677,
+      0.2913769756704649
+     ],
+     "verdict": "above zero",
+     "half_width": 0.11291266404111405,
+     "n_nan": 0
+    },
+    "secondary_mra_ridge_S7_minus_0": {
+     "diff": 0.12671882408724516,
+     "ci": [
+      -0.02010219894046516,
+      0.2621006384123208
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.14110141867639298,
+     "n_nan": 0
+    },
+    "secondary_mra_ridge_train_minus_0": {
+     "diff": 0.08951714872767506,
+     "ci": [
+      -0.07790787095608637,
+      0.2588141559167212
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.16836101343640378,
+     "n_nan": 0
+    },
+    "secondary_mra_guidance_w2_minus_0": {
+     "diff": 0.2105579263474001,
+     "ci": [
+      0.0766689150490811,
+      0.32700577943537873
+     ],
+     "verdict": "above zero",
+     "half_width": 0.12516843219314883,
+     "n_nan": 0
+    },
+    "secondary_mra_attn_cross_minus_0": {
+     "diff": 0.2685712027817292,
+     "ci": [
+      0.1312914539180714,
+      0.3902993107659738
+     ],
+     "verdict": "above zero",
+     "half_width": 0.1295039284239512,
+     "n_nan": 0
+    },
+    "secondary_mra_mlp_ctrl_minus_0": {
+     "diff": 0.2654812707444287,
+     "ci": [
+      0.13635851646064218,
+      0.3765352226130815
+     ],
+     "verdict": "above zero",
+     "half_width": 0.12008835307621965,
+     "n_nan": 0
+    },
+    "secondary_mra_fm_50_minus_ridge_S7": {
+     "diff": 0.11395606132448244,
+     "ci": [
+      -0.039266043314705776,
+      0.28349862498863027
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.16138233415166803,
+     "n_nan": 0
+    },
+    "secondary_mra_guidance_w2_minus_fm_50": {
+     "diff": -0.030116959064327514,
+     "ci": [
+      -0.08119211864661961,
+      0.023505047562140054
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.052348583104379835,
+     "n_nan": 0
+    },
+    "secondary_mra_attn_cross_minus_fm_50": {
+     "diff": 0.02789631737000159,
+     "ci": [
+      -0.029000726395020878,
+      0.08053972372001521
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.054770225057518045,
+     "n_nan": 0
+    },
+    "secondary_mra_mlp_ctrl_minus_fm_50": {
+     "diff": 0.024806385332701075,
+     "ci": [
+      -0.007763642614017301,
+      0.05428911122978938
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.031026376921903343,
+     "n_nan": 0
+    },
+    "descriptive_mra_anchor_minus_0": {
+     "diff": 0.3958116010747591,
+     "ci": [
+      0.26712323475387306,
+      0.5118769598632567
+     ],
+     "verdict": "above zero",
+     "half_width": 0.1223768625546918,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10_ridge_S7_minus_0": {
+     "diff": -0.09340919867235659,
+     "ci": [
+      -0.275601758863603,
+      0.09601139500513668
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.18580657693436983,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10_ridge_train_minus_0": {
+     "diff": 0.10210210210210213,
+     "ci": [
+      -0.14411240373185732,
+      0.34275805440021123
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.24343522906603426,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10_base_minus_0": {
+     "diff": 0.24790580053737954,
+     "ci": [
+      0.06936801298494269,
+      0.40664395633056416
+     ],
+     "verdict": "above zero",
+     "half_width": 0.16863797167281075,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10_fm_50_minus_0": {
+     "diff": 0.28275644065117755,
+     "ci": [
+      0.04916516927618865,
+      0.48975639613922606
+     ],
+     "verdict": "above zero",
+     "half_width": 0.2202956134315187,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10_guidance_w2_minus_0": {
+     "diff": 0.2413782203255888,
+     "ci": [
+      0.0016498063535226404,
+      0.4526983791727122
+     ],
+     "verdict": "above zero",
+     "half_width": 0.2255242864095948,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10_attn_cross_minus_0": {
+     "diff": 0.3313418681839735,
+     "ci": [
+      0.10273430066603237,
+      0.533072326262931
+     ],
+     "verdict": "above zero",
+     "half_width": 0.2151690127984493,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10_mlp_ctrl_minus_0": {
+     "diff": 0.3460249723407619,
+     "ci": [
+      0.12920900269221736,
+      0.5402507286687775
+     ],
+     "verdict": "above zero",
+     "half_width": 0.2055208629882801,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_100_ridge_S7_minus_0": {
+     "diff": 0.10976766239924136,
+     "ci": [
+      -0.13802549338231831,
+      0.3266373221253263
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.23233140775382233,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_100_ridge_train_minus_0": {
+     "diff": -0.04401770191243878,
+     "ci": [
+      -0.23979213412311237,
+      0.15802099703293113
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.19890656557802175,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_100_base_minus_0": {
+     "diff": 0.1252568357831516,
+     "ci": [
+      -0.08083501843701676,
+      0.3198806092072689
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.20035781382214285,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_100_fm_50_minus_0": {
+     "diff": 0.14332226963805916,
+     "ci": [
+      -0.04564551891622698,
+      0.3237494644608976
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.18469749168856228,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_100_guidance_w2_minus_0": {
+     "diff": 0.14126758337284656,
+     "ci": [
+      -0.03352836676726473,
+      0.29226740869904605
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.1628978877331554,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_100_attn_cross_minus_0": {
+     "diff": 0.14297455350086935,
+     "ci": [
+      -0.06473312529153903,
+      0.3280921426821685
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.19641263398685377,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_100_mlp_ctrl_minus_0": {
+     "diff": 0.16189347241978824,
+     "ci": [
+      -0.04629392864848439,
+      0.344135603442027
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.19521476604525567,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_1000_ridge_S7_minus_0": {
+     "diff": 0.20222854433380755,
+     "ci": [
+      -0.008080050955334135,
+      0.39444190385306993
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.20126097740420204,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_1000_ridge_train_minus_0": {
+     "diff": 0.16777303619408887,
+     "ci": [
+      -0.09079288689552203,
+      0.39184804043919774
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.24132046366735987,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_1000_base_minus_0": {
+     "diff": 0.19168642326537066,
+     "ci": [
+      -0.027443963972291343,
+      0.3904322202342667
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.20893809210327902,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_1000_fm_50_minus_0": {
+     "diff": 0.20746009167061805,
+     "ci": [
+      -0.015076501913172722,
+      0.40845922466952705
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.2117678632913499,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_1000_guidance_w2_minus_0": {
+     "diff": 0.1775881144302197,
+     "ci": [
+      -0.05488428938186432,
+      0.3910854147362568
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.22298485205906055,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_1000_attn_cross_minus_0": {
+     "diff": 0.2750276592381856,
+     "ci": [
+      0.02345259415179388,
+      0.486135712949718
+     ],
+     "verdict": "above zero",
+     "half_width": 0.23134155939896206,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_1000_mlp_ctrl_minus_0": {
+     "diff": 0.23259048522206424,
+     "ci": [
+      0.013453134742081856,
+      0.4241658376605864
+     ],
+     "verdict": "above zero",
+     "half_width": 0.20535635145925227,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10000_ridge_S7_minus_0": {
+     "diff": 0.2882882882882884,
+     "ci": [
+      0.006973000322850037,
+      0.515909365213646
+     ],
+     "verdict": "above zero",
+     "half_width": 0.254468182445398,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10000_ridge_train_minus_0": {
+     "diff": 0.13221115852694804,
+     "ci": [
+      -0.13846628207705708,
+      0.3918033756894998
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.26513482888327844,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10000_base_minus_0": {
+     "diff": 0.16243085190453616,
+     "ci": [
+      -0.007770668686205698,
+      0.3187115095385101
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.16324108911235788,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10000_fm_50_minus_0": {
+     "diff": 0.32916073968705556,
+     "ci": [
+      0.1619776922037658,
+      0.45853460210303515
+     ],
+     "verdict": "above zero",
+     "half_width": 0.14827845494963468,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10000_guidance_w2_minus_0": {
+     "diff": 0.28199778726094527,
+     "ci": [
+      0.10601653728299834,
+      0.43472343238228073
+     ],
+     "verdict": "above zero",
+     "half_width": 0.1643534475496412,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10000_attn_cross_minus_0": {
+     "diff": 0.32494073020388814,
+     "ci": [
+      0.14042262820742799,
+      0.48153585559310985
+     ],
+     "verdict": "above zero",
+     "half_width": 0.17055661369284092,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10000_mlp_ctrl_minus_0": {
+     "diff": 0.3214161529951004,
+     "ci": [
+      0.14151056333074985,
+      0.47214512228961036
+     ],
+     "verdict": "above zero",
+     "half_width": 0.16531727947943026,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_A549_ridge_S7_minus_0": {
+     "diff": 0.14218824087245144,
+     "ci": [
+      -0.07039470144896177,
+      0.32962309188643385
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.2000088966676978,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_A549_ridge_train_minus_0": {
+     "diff": -0.03502844950213373,
+     "ci": [
+      -0.27746983249340895,
+      0.21414995037763382
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.2458098914355214,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_A549_base_minus_0": {
+     "diff": 0.12037695590327173,
+     "ci": [
+      -0.047472235362843486,
+      0.28997506258579453
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.16872364897431902,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_A549_fm_50_minus_0": {
+     "diff": 0.18712660028449507,
+     "ci": [
+      -0.009395971583317399,
+      0.37752612422975534
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.19346104790653637,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_A549_guidance_w2_minus_0": {
+     "diff": 0.14018492176386915,
+     "ci": [
+      -0.07724715664971717,
+      0.34917497404753994
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.21321106534862855,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_A549_attn_cross_minus_0": {
+     "diff": 0.14913466097676628,
+     "ci": [
+      -0.06505605087969568,
+      0.3593482783332937
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.2122021646064947,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_A549_mlp_ctrl_minus_0": {
+     "diff": 0.18623755334281653,
+     "ci": [
+      -0.014762560649922889,
+      0.3756987841511243
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.19523067240052358,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_K562_ridge_S7_minus_0": {
+     "diff": 0.01623992413466098,
+     "ci": [
+      -0.2744033792086288,
+      0.3172588693698457
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.29583112428923725,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_K562_ridge_train_minus_0": {
+     "diff": 0.2839023233760076,
+     "ci": [
+      0.003952421778129083,
+      0.5212243659695664
+     ],
+     "verdict": "above zero",
+     "half_width": 0.2586359720957187,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_K562_base_minus_0": {
+     "diff": 0.31863442389758184,
+     "ci": [
+      0.12913796355260734,
+      0.4774025312606626
+     ],
+     "verdict": "above zero",
+     "half_width": 0.17413228385402763,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_K562_fm_50_minus_0": {
+     "diff": 0.3135135135135136,
+     "ci": [
+      0.069766218931206,
+      0.5200971364068441
+     ],
+     "verdict": "above zero",
+     "half_width": 0.22516545873781904,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_K562_guidance_w2_minus_0": {
+     "diff": 0.3046823138928403,
+     "ci": [
+      0.05658507469986951,
+      0.5088891320639505
+     ],
+     "verdict": "above zero",
+     "half_width": 0.22615202868204048,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_K562_attn_cross_minus_0": {
+     "diff": 0.3673186344238977,
+     "ci": [
+      0.11974489899454638,
+      0.5734714088820242
+     ],
+     "verdict": "above zero",
+     "half_width": 0.2268632549437389,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_K562_mlp_ctrl_minus_0": {
+     "diff": 0.3528212422949266,
+     "ci": [
+      0.11445533675472526,
+      0.5500739662547528
+     ],
+     "verdict": "above zero",
+     "half_width": 0.21780931475001378,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_MCF7_ridge_S7_minus_0": {
+     "diff": 0.2217283072546231,
+     "ci": [
+      0.005396096699089214,
+      0.41580179053791705
+     ],
+     "verdict": "above zero",
+     "half_width": 0.20520284691941393,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_MCF7_ridge_train_minus_0": {
+     "diff": 0.019677572309151254,
+     "ci": [
+      -0.20822434352498137,
+      0.2507581905221676
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.22949126702357447,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_MCF7_base_minus_0": {
+     "diff": 0.1064485538169749,
+     "ci": [
+      -0.08640511509381298,
+      0.28726468359635576
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.18683489934508438,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_MCF7_fm_50_minus_0": {
+     "diff": 0.22138454243717404,
+     "ci": [
+      0.08310390121511778,
+      0.36046959241631193
+     ],
+     "verdict": "above zero",
+     "half_width": 0.13868284560059707,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_MCF7_guidance_w2_minus_0": {
+     "diff": 0.1868065433854908,
+     "ci": [
+      0.02233968051439581,
+      0.33758371717490043
+     ],
+     "verdict": "above zero",
+     "half_width": 0.1576220183302523,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_MCF7_attn_cross_minus_0": {
+     "diff": 0.28926031294452353,
+     "ci": [
+      0.1495443201993914,
+      0.41440754149687253
+     ],
+     "verdict": "above zero",
+     "half_width": 0.13243161064874057,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_MCF7_mlp_ctrl_minus_0": {
+     "diff": 0.25738501659554297,
+     "ci": [
+      0.12086881331717694,
+      0.38730296878745873
+     ],
+     "verdict": "above zero",
+     "half_width": 0.1332170777351409,
+     "n_nan": 0
+    }
+   },
+   "inputs": {
+    "fm_50": [
+     {
+      "tag": "s11_drug_split_0_fm_gaussian_nfe50_seed_0",
+      "vectors_sha256": "0374f8f365bb63faaa3f1f09e16cf348b2b230a6699c1bc7d01041366b1d0017",
+      "per_cell_sha256": "4db8707021a12ba12af93f54194036c1bad06c0aa7accd020f01e4e1d348c400",
+      "checkpoint_sha256": "2a943f5818fc1de119ea81adfa242bd40cc9c9fd5d2d1ad62040332bfeb4456e"
+     },
+     {
+      "tag": "s11_drug_split_0_fm_gaussian_nfe50_seed_1",
+      "vectors_sha256": "7d6f03b6e419a5b194ea4867fceba0c67e3c08b56ad51b1e9ec64d461af267b4",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "b28426d3e117e5980d525c6028a2321ccec125c363c3a7aa6731b8eb292e34b2"
+     },
+     {
+      "tag": "s11_drug_split_0_fm_gaussian_nfe50_seed_2",
+      "vectors_sha256": "6a3b57077f5ac769e33eb822e0f5978d20f7be0ba614de4e8126708245a7b440",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "12c8d9ca7561c57f238d7c4ad50ff8fc307ef10deffee277690c16d9c46481ee"
+     },
+     {
+      "tag": "s11_drug_split_0_fm_gaussian_nfe50_seed_3",
+      "vectors_sha256": "04dce5a144b2b1710d61d94dcefad7cc683a3a8aa21d626aaa681899430281c1",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "8fac3f05099b613dc52e1153c0909053ec2b3dcd4a0796e1dfbd26dfee448a17"
+     },
+     {
+      "tag": "s11_drug_split_0_fm_gaussian_nfe50_seed_4",
+      "vectors_sha256": "d5abe8ce9f7afcd111724995b684abccc47591adf0eca6ff6a737ebbc11b1e80",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "cb786316200a18fcdc9f0aa8c36826f13ea1c520b993b52e236b6251100f33b3"
+     }
+    ],
+    "guidance_w2": [
+     {
+      "tag": "s12b_drug_split_0_w2_seed_0",
+      "vectors_sha256": "3483b5cef851995e80865dbd4b15dd7bc617ff8005707f14ffba77688c1f014c",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "50461ca1b51ed1091df242414f4ca5173774f1fb9e1d37bb797894d406cf40ba"
+     },
+     {
+      "tag": "s12b_drug_split_0_w2_seed_1",
+      "vectors_sha256": "540eae1676f021e884e6bc1d39990c7761fe9d67638d4de480be4c1309ab5f02",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "06cacc61b01785aa57cfd8ede9e6baa03d9ec9470ce092ac77626151729eef31"
+     },
+     {
+      "tag": "s12b_drug_split_0_w2_seed_2",
+      "vectors_sha256": "efd4815500b489da94b8b0e076702851dbc6ca12f25cc5f6ccd0a8651abf8786",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "169521d49b9c2470585df64bd02471051da5766d7235d58c94d9715fbc2a5c07"
+     },
+     {
+      "tag": "s12b_drug_split_0_w2_seed_3",
+      "vectors_sha256": "83c0d16813638110e3efdaafbdcb4074fb96f9e3dacc24fa7f7d5e1d94be390d",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "56cccc24dc03a1f5bc7573e3b06bf1fcc9265a16deb07a7f1e4ea8df02361658"
+     },
+     {
+      "tag": "s12b_drug_split_0_w2_seed_4",
+      "vectors_sha256": "3ffc87ffd0946b378c18976c2c4c33b5f0420557a4ab02bd472cbb0804bf3d9e",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "2e15752f03699ace512d2aee3862afca525374974febac52393196be112ea605"
+     }
+    ],
+    "attn_cross": [
+     {
+      "tag": "s13b_drug_split_0_attn_cross_seed_0",
+      "vectors_sha256": "3c7bf5998ea1311452cf5ceec7cf47bfef5d0d512328c9fd0d67b048c1566355",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "827a9610ce89950179fcbea24ccfc7f9bcac5d197d702fc8186b072bb14b5dc6"
+     },
+     {
+      "tag": "s13b_drug_split_0_attn_cross_seed_1",
+      "vectors_sha256": "9c03a92db0e2951396fdc4dbec20e1b0f6dd6ebb3ffd5359b77a9eec943229f2",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "3b4abc597bbaa302a83a569b66f35cce1bf6124f5d6c74cd3aae1e57ec664b7f"
+     },
+     {
+      "tag": "s13b_drug_split_0_attn_cross_seed_2",
+      "vectors_sha256": "aca215472c28ca4819fa2dd080466293ccb1f3ee91761e7b31eb6d68c5e6920b",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "b21f3d37e55000caf55ed4d8623b87d431f5a6a7536b8a948581572c6f2039ea"
+     },
+     {
+      "tag": "s13b_drug_split_0_attn_cross_seed_3",
+      "vectors_sha256": "77a756378b50356fb097eb7bea84513b57d8fa77c8219261948a01eb7d8f2465",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "10352baa3c40b5cc0738087efa87d22bbdfffb65c534067a82695d6e35feee9d"
+     },
+     {
+      "tag": "s13b_drug_split_0_attn_cross_seed_4",
+      "vectors_sha256": "580f7cdede218692ee3d56c4c72c2430aa5c6d3a2357985fc5ba94330fd0010f",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "4afab7661e4f1f1bcebbd9bc72017ff43f3e1301d4238c89bceb7d114d6c1cfd"
+     }
+    ],
+    "mlp_ctrl": [
+     {
+      "tag": "s13b_drug_split_0_mlp_ctrl_seed_0",
+      "vectors_sha256": "d2168cf07054c92fdfd5d395a1b9a142341b4113a17361962b7221d0c2814ce2",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "392750aa746759e7c0137503e69e0681b683aa3297fb94be367c34a1531ebbbd"
+     },
+     {
+      "tag": "s13b_drug_split_0_mlp_ctrl_seed_1",
+      "vectors_sha256": "8f05b714738ac25c59288f31c09476e2b606890f32bc5b666ce4fcf282157ad1",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "5aeee87c1fc46304269e373bbf65bf7d2e6a17798e68b5bcef03ee89e7c6b017"
+     },
+     {
+      "tag": "s13b_drug_split_0_mlp_ctrl_seed_2",
+      "vectors_sha256": "9e09c9256b9fb449887d62193c973d0191630a4adeca3243f2e73a4ce113c5f7",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "b6fe9aeec215d743d1f90fd5b5e6a13e54d5be344c2a7bf732b12440d496af65"
+     },
+     {
+      "tag": "s13b_drug_split_0_mlp_ctrl_seed_3",
+      "vectors_sha256": "90829edfc263a081355cfe9e7301cd61e44bda5d3b57c9d3de63fb04f327c166",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "d46627cd24a7a99b6b8714a24f4263ba7fe34b35e262876ac106a3d4c029a856"
+     },
+     {
+      "tag": "s13b_drug_split_0_mlp_ctrl_seed_4",
+      "vectors_sha256": "1c53d81082a62633e4277c33dc5b34c43025b693791326a3fc3b31797c963550",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "c70e5b0607197596bc75f7eabb069110d8e02ab7e58732dc6aa4eb1fb7a243e5"
+     }
+    ],
+    "base": [
+     {
+      "tag": "repl_drug_split_0_base_seed_0",
+      "vectors_sha256": "d7ba3d6b0f0ac076d73c019d702b1b4968ad83441d19464cccabe27d4e51cc22",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "e6275cb483c4cd26252f5cf825f2a2240ce1c96c6892821befaee3e2400531c3"
+     },
+     {
+      "tag": "repl_drug_split_0_base_seed_1",
+      "vectors_sha256": "75e4b06e0778c2cf50d72749aaf9b7ec914b4b98475d70043b88399eb3f1f9f8",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "6c97aec774122bc392fb2edbd12f1de2a33948527c85f8103c5060d7cea639ad"
+     },
+     {
+      "tag": "repl_drug_split_0_base_seed_2",
+      "vectors_sha256": "4ccfb3f8500aa8c625733dd01fc6caa724a87beb7b4cf14de661c0b808a491c4",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "0c35ae36f72fd22bbd127195b0ea297f7b3bd3fcebf12e93b72fa6b4a469c272"
+     },
+     {
+      "tag": "repl_drug_split_0_base_seed_3",
+      "vectors_sha256": "8ea290a59177e343f03723ef79156dc07bd94f074d8628c9d6735a29f34e8f93",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "a6940532ad253df162722ccf43b77415e9462a6d740c136fc127ffada7eccb75"
+     },
+     {
+      "tag": "repl_drug_split_0_base_seed_4",
+      "vectors_sha256": "883f9a98af9ddf92d28756451a0bbf43db05564a7f1c96d938032f27790806e9",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "479ff26beb89097023b790c08eb4f5f073d1b56117d712da3944f9ef33b35f0e"
+     }
+    ]
+   }
+  },
+  "drug_split_2": {
+   "n_conditions": 455,
+   "n_compounds": 38,
+   "n_genes": 200,
+   "n_contexts": 12,
+   "n_contexts_used": 12,
+   "conditions_per_context": [
+    37,
+    38
+   ],
+   "dose_levels": [
+    10.0,
+    100.0,
+    1000.0,
+    10000.0
+   ],
+   "lines": [
+    "A549",
+    "K562",
+    "MCF7"
+   ],
+   "cells": {
+    "stored_min": 10,
+    "stored_max": 200,
+    "distinct_min": 10,
+    "distinct_max": 200,
+    "recovered": 455,
+    "recovered_exact": 455,
+    "recovered_within_1e5": 0,
+    "n_at_least_min_cells": 452
+   },
+   "ridge_S7_dpc_median": 0.08158174157142639,
+   "step7_record": 0.08158174157142639,
+   "metrics": {
+    "ridge_S7": {
+     "mra": 0.23866275182064653,
+     "mra_per_seed": [
+      0.23866275182064653
+     ],
+     "mra_worst_seed": 0.23866275182064653,
+     "per_dose": {
+      "dose 10": 0.16876390560601084,
+      "dose 100": 0.2951818214976109,
+      "dose 1000": 0.2104898420687894,
+      "dose 10000": 0.28021543811017496
+     },
+     "per_line": {
+      "line A549": 0.23076923076923073,
+      "line K562": 0.21680891417733522,
+      "line MCF7": 0.2684101105153736
+     },
+     "de_overlap": 0.5535459719948924,
+     "dpc_mean": 0.09822721317102025
+    },
+    "ridge_train": {
+     "mra": 0.20873465422757587,
+     "mra_per_seed": [
+      0.20873465422757587
+     ],
+     "mra_worst_seed": 0.20873465422757587,
+     "per_dose": {
+      "dose 10": 0.24285531943483107,
+      "dose 100": 0.06215462065439353,
+      "dose 1000": 0.2475242111271799,
+      "dose 10000": 0.2824044656938988
+     },
+     "per_line": {
+      "line A549": 0.25045138736398453,
+      "line K562": 0.15033264829752702,
+      "line MCF7": 0.225419927021216
+     },
+     "de_overlap": 0.547291916801038,
+     "dpc_mean": 0.12114258783311055
+    },
+    "mean_response": {
+     "mra": 0.0,
+     "mra_per_seed": [
+      0.0
+     ],
+     "mra_worst_seed": 0.0,
+     "per_dose": {
+      "dose 10": 0.0,
+      "dose 100": 0.0,
+      "dose 1000": 0.0,
+      "dose 10000": 0.0
+     },
+     "per_line": {
+      "line A549": 0.0,
+      "line K562": 0.0,
+      "line MCF7": 0.0
+     },
+     "de_overlap": 0.5324895596845568,
+     "dpc_mean": 0.13100886932162106
+    },
+    "control_paste": {
+     "mra": 0.0,
+     "mra_per_seed": [
+      0.0
+     ],
+     "mra_worst_seed": 0.0,
+     "per_dose": {
+      "dose 10": 0.0,
+      "dose 100": 0.0,
+      "dose 1000": 0.0,
+      "dose 10000": 0.0
+     },
+     "per_line": {
+      "line A549": 0.0,
+      "line K562": 0.0,
+      "line MCF7": 0.0
+     },
+     "de_overlap": NaN,
+     "dpc_mean": NaN
+    },
+    "base": {
+     "mra": 0.18402207875892082,
+     "mra_per_seed": [
+      0.2106630922420396,
+      0.20053099658362816,
+      0.17023957155536099,
+      0.16770464796780585,
+      0.1709720854457696
+     ],
+     "mra_worst_seed": 0.16770464796780585,
+     "per_dose": {
+      "dose 10": 0.11363022941970309,
+      "dose 100": 0.09069555385344856,
+      "dose 1000": 0.18290111974322495,
+      "dose 10000": 0.34886141201930676
+     },
+     "per_line": {
+      "line A549": 0.1700295437137542,
+      "line K562": 0.18094248094248097,
+      "line MCF7": 0.20109421162052737
+     },
+     "de_overlap": 0.49079658007035143,
+     "dpc_mean": 0.050848205254913
+    },
+    "fm_50": {
+     "mra": 0.26988638436006857,
+     "mra_per_seed": [
+      0.28133092606776816,
+      0.2924250161092266,
+      0.26845722240459075,
+      0.25638442085810503,
+      0.2508343363606521
+     ],
+     "mra_worst_seed": 0.2508343363606521,
+     "per_dose": {
+      "dose 10": 0.26528796002480204,
+      "dose 100": 0.21505635189845718,
+      "dose 1000": 0.2629390524127366,
+      "dose 10000": 0.3362621731042784
+     },
+     "per_line": {
+      "line A549": 0.15552029762556077,
+      "line K562": 0.3424636174636174,
+      "line MCF7": 0.3116752379910274
+     },
+     "de_overlap": 0.6105673745843068,
+     "dpc_mean": 0.0691494588817182
+    },
+    "guidance_w2": {
+     "mra": 0.25846403083245184,
+     "mra_per_seed": [
+      0.22576777182040333,
+      0.26554540370329843,
+      0.22912335412335408,
+      0.2685316895843211,
+      0.30335193493088225
+     ],
+     "mra_worst_seed": 0.22576777182040333,
+     "per_dose": {
+      "dose 10": 0.27462523251996934,
+      "dose 100": 0.21140897983003243,
+      "dose 1000": 0.2512674617937775,
+      "dose 10000": 0.29655444918602814
+     },
+     "per_line": {
+      "line A549": 0.21983805668016193,
+      "line K562": 0.2872861728124886,
+      "line MCF7": 0.26826786300470506
+     },
+     "de_overlap": 0.6221522011514206,
+     "dpc_mean": 0.07806846132443745
+    },
+    "attn_cross": {
+     "mra": 0.29238124764440554,
+     "mra_per_seed": [
+      0.287455471665998,
+      0.2767656320287899,
+      0.3038428104217578,
+      0.2972896986054881,
+      0.2965526254999939
+     ],
+     "mra_worst_seed": 0.2767656320287899,
+     "per_dose": {
+      "dose 10": 0.30790385527227626,
+      "dose 100": 0.23447496079075023,
+      "dose 1000": 0.2956340956340956,
+      "dose 10000": 0.33151207888049994
+     },
+     "per_line": {
+      "line A549": 0.22224532224532217,
+      "line K562": 0.38193638983112665,
+      "line MCF7": 0.2729620308567676
+     },
+     "de_overlap": 0.6115947109213439,
+     "dpc_mean": 0.08564325064672199
+    },
+    "mlp_ctrl": {
+     "mra": 0.23430809351861978,
+     "mra_per_seed": [
+      0.23300628563786455,
+      0.21059926323084213,
+      0.21389709547604283,
+      0.2382372250793303,
+      0.2758005981690192
+     ],
+     "mra_worst_seed": 0.21059926323084213,
+     "per_dose": {
+      "dose 10": 0.23537950906371954,
+      "dose 100": 0.1799394536236641,
+      "dose 1000": 0.23545245650508803,
+      "dose 10000": 0.2864609548820075
+     },
+     "per_line": {
+      "line A549": 0.12294561768245975,
+      "line K562": 0.32323284823284826,
+      "line MCF7": 0.25674581464055146
+     },
+     "de_overlap": 0.6135487769960114,
+     "dpc_mean": 0.08475677846234118
+    }
+   },
+   "anchor": {
+    "mra": 0.5359196240775187,
+    "per_half_split": [
+     0.5458429076850128,
+     0.5408536066430802,
+     0.5135484674958359,
+     0.5259480127901179,
+     0.5534051257735467
+    ]
+   },
+   "contrasts": {
+    "Q1_primary_mra_fm_50_minus_0": {
+     "diff": 0.26988638436006857,
+     "ci": [
+      0.07162317066755251,
+      0.4656545011136423
+     ],
+     "verdict": "above zero",
+     "half_width": 0.1970156652230449,
+     "n_nan": 0
+    },
+    "Q2_coprimary_mra_fm_50_minus_ridge_train": {
+     "diff": 0.0611517301324927,
+     "ci": [
+      -0.08865099814545144,
+      0.22466076110180244
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.15665587962362693,
+     "n_nan": 0
+    },
+    "secondary_mra_base_minus_0": {
+     "diff": 0.18402207875892082,
+     "ci": [
+      -0.0010244056334461963,
+      0.3744507065544152
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.1877375560939307,
+     "n_nan": 0
+    },
+    "secondary_mra_ridge_S7_minus_0": {
+     "diff": 0.23866275182064653,
+     "ci": [
+      -0.007957965950188665,
+      0.4510160340673279
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.22948700000875827,
+     "n_nan": 0
+    },
+    "secondary_mra_ridge_train_minus_0": {
+     "diff": 0.20873465422757587,
+     "ci": [
+      -0.05650964898371349,
+      0.4539867034903411
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.2552481762370273,
+     "n_nan": 0
+    },
+    "secondary_mra_guidance_w2_minus_0": {
+     "diff": 0.25846403083245184,
+     "ci": [
+      0.06920231235932096,
+      0.44885083770522805
+     ],
+     "verdict": "above zero",
+     "half_width": 0.18982426267295355,
+     "n_nan": 0
+    },
+    "secondary_mra_attn_cross_minus_0": {
+     "diff": 0.29238124764440554,
+     "ci": [
+      0.06345020027790271,
+      0.4973180596908544
+     ],
+     "verdict": "above zero",
+     "half_width": 0.21693392970647585,
+     "n_nan": 0
+    },
+    "secondary_mra_mlp_ctrl_minus_0": {
+     "diff": 0.23430809351861978,
+     "ci": [
+      0.029741315310108856,
+      0.4442059083754504
+     ],
+     "verdict": "above zero",
+     "half_width": 0.20723229653267075,
+     "n_nan": 0
+    },
+    "secondary_mra_fm_50_minus_ridge_S7": {
+     "diff": 0.031223632539422036,
+     "ci": [
+      -0.12817628625591135,
+      0.1915589327770787
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.15986760951649504,
+     "n_nan": 0
+    },
+    "secondary_mra_guidance_w2_minus_fm_50": {
+     "diff": -0.011422353527616724,
+     "ci": [
+      -0.05816258576210949,
+      0.037701342482737134
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.047931964122423315,
+     "n_nan": 0
+    },
+    "secondary_mra_attn_cross_minus_fm_50": {
+     "diff": 0.022494863284336974,
+     "ci": [
+      -0.029697720305874014,
+      0.07075044714616394
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.05022408372601898,
+     "n_nan": 0
+    },
+    "secondary_mra_mlp_ctrl_minus_fm_50": {
+     "diff": -0.035578290841448784,
+     "ci": [
+      -0.06554423129897752,
+      -0.006484332706008305
+     ],
+     "verdict": "below zero",
+     "half_width": 0.029529949296484607,
+     "n_nan": 0
+    },
+    "descriptive_mra_anchor_minus_0": {
+     "diff": 0.5359196240775187,
+     "ci": [
+      0.3989541676035403,
+      0.6529383645834668
+     ],
+     "verdict": "above zero",
+     "half_width": 0.12699209848996323,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10_ridge_S7_minus_0": {
+     "diff": 0.16876390560601084,
+     "ci": [
+      -0.09105138118018266,
+      0.40974907131960414
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.2504002262498934,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10_ridge_train_minus_0": {
+     "diff": 0.24285531943483107,
+     "ci": [
+      -0.04989377859247043,
+      0.4948802454305627
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.27238701201151655,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10_base_minus_0": {
+     "diff": 0.11363022941970309,
+     "ci": [
+      -0.07011072977345195,
+      0.2918513899926452
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.18098105988304858,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10_fm_50_minus_0": {
+     "diff": 0.26528796002480204,
+     "ci": [
+      0.01753642410893392,
+      0.4877328876156161
+     ],
+     "verdict": "above zero",
+     "half_width": 0.2350982317533411,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10_guidance_w2_minus_0": {
+     "diff": 0.27462523251996934,
+     "ci": [
+      0.041495633310139064,
+      0.49402759584649425
+     ],
+     "verdict": "above zero",
+     "half_width": 0.2262659812681776,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10_attn_cross_minus_0": {
+     "diff": 0.30790385527227626,
+     "ci": [
+      0.05918383648039439,
+      0.5285944373239853
+     ],
+     "verdict": "above zero",
+     "half_width": 0.23470530042179544,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10_mlp_ctrl_minus_0": {
+     "diff": 0.23537950906371954,
+     "ci": [
+      -0.013467792217351414,
+      0.4682931883898831
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.24088049030361725,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_100_ridge_S7_minus_0": {
+     "diff": 0.2951818214976109,
+     "ci": [
+      0.037658170456315636,
+      0.5195407554729018
+     ],
+     "verdict": "above zero",
+     "half_width": 0.24094129250829308,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_100_ridge_train_minus_0": {
+     "diff": 0.06215462065439353,
+     "ci": [
+      -0.21885137364032592,
+      0.35451296944641497
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.28668217154337045,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_100_base_minus_0": {
+     "diff": 0.09069555385344856,
+     "ci": [
+      -0.14700340544920193,
+      0.33874970392918113
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.24287655468919153,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_100_fm_50_minus_0": {
+     "diff": 0.21505635189845718,
+     "ci": [
+      -0.02806809043528705,
+      0.44100957497350424
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.23453883270439566,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_100_guidance_w2_minus_0": {
+     "diff": 0.21140897983003243,
+     "ci": [
+      -0.017096108333189686,
+      0.43782088182008017
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.22745849507663493,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_100_attn_cross_minus_0": {
+     "diff": 0.23447496079075023,
+     "ci": [
+      -0.0253136436832089,
+      0.47603700064708804
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.2506753221651485,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_100_mlp_ctrl_minus_0": {
+     "diff": 0.1799394536236641,
+     "ci": [
+      -0.07585490887078608,
+      0.42712748148245727
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.25149119517662166,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_1000_ridge_S7_minus_0": {
+     "diff": 0.2104898420687894,
+     "ci": [
+      -0.12423519954276567,
+      0.4887608676780584
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.306498033610412,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_1000_ridge_train_minus_0": {
+     "diff": 0.2475242111271799,
+     "ci": [
+      -0.1039531878315811,
+      0.5661027701376307
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.3350279789846059,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_1000_base_minus_0": {
+     "diff": 0.18290111974322495,
+     "ci": [
+      -0.09927368260483303,
+      0.4461605049714613
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.2727170937881472,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_1000_fm_50_minus_0": {
+     "diff": 0.2629390524127366,
+     "ci": [
+      -0.014070030750504845,
+      0.5142211416249011
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.26414558618770295,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_1000_guidance_w2_minus_0": {
+     "diff": 0.2512674617937775,
+     "ci": [
+      -0.0022106980075087823,
+      0.4850801058922132
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.24364540194986098,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_1000_attn_cross_minus_0": {
+     "diff": 0.2956340956340956,
+     "ci": [
+      -0.020309392873649537,
+      0.5588993131312169
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.2896043530024332,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_1000_mlp_ctrl_minus_0": {
+     "diff": 0.23545245650508803,
+     "ci": [
+      -0.04970643107989465,
+      0.49565279706046533
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.27267961407018,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10000_ridge_S7_minus_0": {
+     "diff": 0.28021543811017496,
+     "ci": [
+      -0.09846530738448528,
+      0.6119976362406019
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.35523147181254355,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10000_ridge_train_minus_0": {
+     "diff": 0.2824044656938988,
+     "ci": [
+      -0.06689222190348719,
+      0.5839280021444503
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.32541011202396875,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10000_base_minus_0": {
+     "diff": 0.34886141201930676,
+     "ci": [
+      0.11127113514553752,
+      0.5622596420557081
+     ],
+     "verdict": "above zero",
+     "half_width": 0.22549425345508528,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10000_fm_50_minus_0": {
+     "diff": 0.3362621731042784,
+     "ci": [
+      0.08536117883996214,
+      0.5630557991950007
+     ],
+     "verdict": "above zero",
+     "half_width": 0.23884731017751928,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10000_guidance_w2_minus_0": {
+     "diff": 0.29655444918602814,
+     "ci": [
+      0.040565839652539015,
+      0.53433998262288
+     ],
+     "verdict": "above zero",
+     "half_width": 0.24688707148517047,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10000_attn_cross_minus_0": {
+     "diff": 0.33151207888049994,
+     "ci": [
+      0.01039003780902865,
+      0.6094453988042755
+     ],
+     "verdict": "above zero",
+     "half_width": 0.2995276804976234,
+     "n_nan": 0
+    },
+    "descriptive_mra_dose_10000_mlp_ctrl_minus_0": {
+     "diff": 0.2864609548820075,
+     "ci": [
+      0.013169075619359791,
+      0.5394403970621758
+     ],
+     "verdict": "above zero",
+     "half_width": 0.26313566072140804,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_A549_ridge_S7_minus_0": {
+     "diff": 0.23076923076923073,
+     "ci": [
+      -0.03972513928252315,
+      0.4581804564909475
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.24895279788673533,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_A549_ridge_train_minus_0": {
+     "diff": 0.25045138736398453,
+     "ci": [
+      -0.03486626061823423,
+      0.501784853214141
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.26832555691618765,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_A549_base_minus_0": {
+     "diff": 0.1700295437137542,
+     "ci": [
+      -0.057383671794846235,
+      0.3995485512864362
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.2284661115406412,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_A549_fm_50_minus_0": {
+     "diff": 0.15552029762556077,
+     "ci": [
+      -0.10580069094868261,
+      0.4260115513957123
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.2659061211721975,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_A549_guidance_w2_minus_0": {
+     "diff": 0.21983805668016193,
+     "ci": [
+      -0.042198525274008566,
+      0.46397212505238566
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.2530853251631971,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_A549_attn_cross_minus_0": {
+     "diff": 0.22224532224532217,
+     "ci": [
+      -0.05119909331225816,
+      0.4850511471198362
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.2681251202160472,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_A549_mlp_ctrl_minus_0": {
+     "diff": 0.12294561768245975,
+     "ci": [
+      -0.14673822482700696,
+      0.40069311549541325
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.2737156701612101,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_K562_ridge_S7_minus_0": {
+     "diff": 0.21680891417733522,
+     "ci": [
+      -0.07331723633423559,
+      0.4709384151253853
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.2721278257298104,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_K562_ridge_train_minus_0": {
+     "diff": 0.15033264829752702,
+     "ci": [
+      -0.185686760032107,
+      0.4750993337188518
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.33039304687547943,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_K562_base_minus_0": {
+     "diff": 0.18094248094248097,
+     "ci": [
+      -0.029515108118887284,
+      0.3660418942360012
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.19777850117744425,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_K562_fm_50_minus_0": {
+     "diff": 0.3424636174636174,
+     "ci": [
+      0.07838943831672376,
+      0.5477334042978106
+     ],
+     "verdict": "above zero",
+     "half_width": 0.23467198299054343,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_K562_guidance_w2_minus_0": {
+     "diff": 0.2872861728124886,
+     "ci": [
+      0.019015558902057056,
+      0.5130562839469257
+     ],
+     "verdict": "above zero",
+     "half_width": 0.2470203625224343,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_K562_attn_cross_minus_0": {
+     "diff": 0.38193638983112665,
+     "ci": [
+      0.09955007045520152,
+      0.5917293327976717
+     ],
+     "verdict": "above zero",
+     "half_width": 0.24608963117123508,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_K562_mlp_ctrl_minus_0": {
+     "diff": 0.32323284823284826,
+     "ci": [
+      0.06736575326906409,
+      0.5286577458347592
+     ],
+     "verdict": "above zero",
+     "half_width": 0.23064599628284757,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_MCF7_ridge_S7_minus_0": {
+     "diff": 0.2684101105153736,
+     "ci": [
+      -0.02730566830301805,
+      0.5222804352961447
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.27479305179958136,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_MCF7_ridge_train_minus_0": {
+     "diff": 0.225419927021216,
+     "ci": [
+      -0.0821714819753696,
+      0.4962752371012585
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.289223359538314,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_MCF7_base_minus_0": {
+     "diff": 0.20109421162052737,
+     "ci": [
+      -0.027305945510282793,
+      0.4141096093054451
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.22070777740786396,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_MCF7_fm_50_minus_0": {
+     "diff": 0.3116752379910274,
+     "ci": [
+      0.10400810433527824,
+      0.5096178532817477
+     ],
+     "verdict": "above zero",
+     "half_width": 0.20280487447323473,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_MCF7_guidance_w2_minus_0": {
+     "diff": 0.26826786300470506,
+     "ci": [
+      0.06606731056346994,
+      0.47227476028440074
+     ],
+     "verdict": "above zero",
+     "half_width": 0.2031037248604654,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_MCF7_attn_cross_minus_0": {
+     "diff": 0.2729620308567676,
+     "ci": [
+      0.0385596087716891,
+      0.4899608967457101
+     ],
+     "verdict": "above zero",
+     "half_width": 0.2257006439870105,
+     "n_nan": 0
+    },
+    "descriptive_mra_line_MCF7_mlp_ctrl_minus_0": {
+     "diff": 0.25674581464055146,
+     "ci": [
+      0.028267207050904953,
+      0.4789826309514408
+     ],
+     "verdict": "above zero",
+     "half_width": 0.2253577119502679,
+     "n_nan": 0
+    }
+   },
+   "inputs": {
+    "fm_50": [
+     {
+      "tag": "s11_drug_split_2_fm_gaussian_nfe50_seed_0",
+      "vectors_sha256": "a7eabe1e39ee2f6d67692c236670fa2c310437e5fd1adac0a45672a8f002000c",
+      "per_cell_sha256": "3c1e532ff1285eb6a035be2a95dd3d78c521fe735df253be1975868bfeaafefc",
+      "checkpoint_sha256": "5de47290bb750cd3ea00fae33f106ebac24080151f1a2215c12da307d213be0e"
+     },
+     {
+      "tag": "s11_drug_split_2_fm_gaussian_nfe50_seed_1",
+      "vectors_sha256": "5af2aac14ccb5a3a982db31dc0c4d588a7c610ab72cb1825264c4d879164f01b",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "2e1292a41bc2e99cbd0feeb17464d2121f974cf1eb6c7763682d62d2012469f4"
+     },
+     {
+      "tag": "s11_drug_split_2_fm_gaussian_nfe50_seed_2",
+      "vectors_sha256": "1cade180f436bc871c8586b0a1a1ccba020a84bc0af530e56832aa503d60ab39",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "b5e4500f18c1ef2982a8bd9d6409d4a7a6d9b27730fae83d87770b00fb11b1a7"
+     },
+     {
+      "tag": "s11_drug_split_2_fm_gaussian_nfe50_seed_3",
+      "vectors_sha256": "806eca9cc6f2a818009bb32d9b4b7f51be413e02820c6678011f59edca80a299",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "5b9e65e131ee4e6c79b27a10896597f75cfbccf208fc4b49671550ff27c823e6"
+     },
+     {
+      "tag": "s11_drug_split_2_fm_gaussian_nfe50_seed_4",
+      "vectors_sha256": "0f7d7e7f396add09b155949ed5966be34f0a9aa2d5f5f657d4c67d55ba9ab60c",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "86805522f16b29230c83f762692a81482c94e03b7a31265612f18f3fcf10e04e"
+     }
+    ],
+    "guidance_w2": [
+     {
+      "tag": "s12b_drug_split_2_w2_seed_0",
+      "vectors_sha256": "a5c381af673003644221c09181969cad5d3ef0655746168de8117b8867d910fb",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "de71de3fbeaf27b02cdbc60987b7a07ac16b7750f9ceb9c7e16ee7c44700c211"
+     },
+     {
+      "tag": "s12b_drug_split_2_w2_seed_1",
+      "vectors_sha256": "080e14d5b25bf9df1f4987f73dc0420e870ee958f657a475d09cf42337f5dc67",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "599b469b8d48029ac1442fce1561fdec37c6a8314c5dbbadc5ba4b980b3ae83c"
+     },
+     {
+      "tag": "s12b_drug_split_2_w2_seed_2",
+      "vectors_sha256": "2968bbc0378daa9176912a78ac5621ae8076a7eaacce6a8b50ded847b4e7205e",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "8109792f599b20a3ff7c2328ef9bca88c0e0299ae51b9d4f66a9b33fa131b1eb"
+     },
+     {
+      "tag": "s12b_drug_split_2_w2_seed_3",
+      "vectors_sha256": "f566a710108cfda4cf973e30e4fa9fe2069d629881968a0c29801ba5a3add199",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "52d4cef770f5b03ce6cb99f8e4fb1e59355961a40f24a4a976cb122683be1811"
+     },
+     {
+      "tag": "s12b_drug_split_2_w2_seed_4",
+      "vectors_sha256": "5f9011a06727ec114d3fca4b29f685d9ad893a9f84e21c8faded0327ede28c30",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "cc5ddee184c29d4ee896b6e1ebc929c5e54f6347521053267f51ece9a09905ac"
+     }
+    ],
+    "attn_cross": [
+     {
+      "tag": "s13b_drug_split_2_attn_cross_seed_0",
+      "vectors_sha256": "ac17033d8f3215cad1d6638a30a82f834c6c5fb300b93a087149a23794797559",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "9f52e9146d43418bb85eb47fca7fd99f7b240e959c485c914154fe553e2101f1"
+     },
+     {
+      "tag": "s13b_drug_split_2_attn_cross_seed_1",
+      "vectors_sha256": "2dd590f320c77a8eae2a9970c9cd5784c6869fecd0a6c71764d539fe3d6a0a7f",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "02ff0742faf38699908557bb9dc4ac6156f26fbbe3ea136e4793f7fea338b4fc"
+     },
+     {
+      "tag": "s13b_drug_split_2_attn_cross_seed_2",
+      "vectors_sha256": "317ab94337384377df9098440f74a344deec63f6eac05809b4a2a43576f17390",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "43322584893a5ec5ad7271264c6bed181a1ec73e49448f41e4fbc85661a833af"
+     },
+     {
+      "tag": "s13b_drug_split_2_attn_cross_seed_3",
+      "vectors_sha256": "a0fe56a4c782003379f7eb867fb94137140a34e4a105257a89c53eb024d80fa8",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "566d8104939b0174855b43d8b9613be7364ee21975de950d06357e5534e0454b"
+     },
+     {
+      "tag": "s13b_drug_split_2_attn_cross_seed_4",
+      "vectors_sha256": "bd4465d9f1931a9d516f9bf9cb213e1df1c2af8feabfbeccddc8d63d54f2babc",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "a7d02315903fd2cc7e9de87fe066550e4a75ac01197c5554f6893a1c69808aae"
+     }
+    ],
+    "mlp_ctrl": [
+     {
+      "tag": "s13b_drug_split_2_mlp_ctrl_seed_0",
+      "vectors_sha256": "34c1714073186ba1705613f7fedc53ee179903bb0f8a10b3d58a97f2358ae4e9",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "9024902eca3d45bae459e7e31e651edddbc1e7e0ca50f417874799366cf19e97"
+     },
+     {
+      "tag": "s13b_drug_split_2_mlp_ctrl_seed_1",
+      "vectors_sha256": "a9a49ca14281926dbe4194d945b09bc56bdd134a64b55c7b8dd218ffa6cc2959",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "576459d2b333619cde3c00a81779c51a646dda1309b839973f04f3c8aa300daa"
+     },
+     {
+      "tag": "s13b_drug_split_2_mlp_ctrl_seed_2",
+      "vectors_sha256": "8e053a0bfbee773e79a711b23b9406040b31c5941e18fad026ae5bcfce998ddc",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "af78ed1999deecd434e1d11cda6e5e8ef04d9a4d032a63b2ac3488c8b970195a"
+     },
+     {
+      "tag": "s13b_drug_split_2_mlp_ctrl_seed_3",
+      "vectors_sha256": "c1b84a51513d54734d2cdfbd7eb9b55a5d35b0cb6676b472404877ea8891d0a9",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "56fac88b9751099b923e39c5dbb0566a5ffe5ffabd46ef9ed3bd2584a3e4917f"
+     },
+     {
+      "tag": "s13b_drug_split_2_mlp_ctrl_seed_4",
+      "vectors_sha256": "4d3b2b2d4f8288cfc2853a8a154f032a0c7a2947c65e1ab07b39b8ff6ee0e71f",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "44d8133d15c59a9a76c1804868aa2306208a58795fb04a34b8340e7782d4e40c"
+     }
+    ],
+    "base": [
+     {
+      "tag": "repl_drug_split_2_base_seed_0",
+      "vectors_sha256": "7c8ceccb634005c76995a259d0b5eb4789fbeb4bfd00f8e99f562afd7eff469d",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "42cb63fa56bc22797e2e2985a1f0b187606386da6d5da1d4c0793c4164eedece"
+     },
+     {
+      "tag": "repl_drug_split_2_base_seed_1",
+      "vectors_sha256": "27b760c0de5dc530a53b76fa85b73d7fea08302a0b1011dc09ffee10c0bfb3a1",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "8f435fbe350e2d90eac8f1bb2a7cc66ba2c9de8988d2059de3c68c68e046e195"
+     },
+     {
+      "tag": "repl_drug_split_2_base_seed_2",
+      "vectors_sha256": "b493fc50e13355d468ce18d15fce350b25bd63fcdffbf7412156fbd14a6b1a4d",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "7adda447a3f3b7af0813bed4db2f8d392e797ebeda0b92b567b2f1893ffa688b"
+     },
+     {
+      "tag": "repl_drug_split_2_base_seed_3",
+      "vectors_sha256": "076e6f17530375eacb6cc580e2d82a01e23e2e9603915d9904ac291a2ddda803",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "2c4c194c24e55d167c39b7e1e0e7b506367c9feb7378540a2e9cc0232f773a8f"
+     },
+     {
+      "tag": "repl_drug_split_2_base_seed_4",
+      "vectors_sha256": "833408c3cae50efbdb5ee8588234ed2f3b69e26d7a4ce6e87f11bd17c54147c5",
+      "per_cell_sha256": null,
+      "checkpoint_sha256": "f60bbd84ef61e0294911caf084ad611fab8e1f95db8e3f552ba665bca8b4638f"
+     }
+    ]
+   }
+  }
+ },
+ "commit": "e8306358820cbe1904d72a9ee6465d5f6613228a",
+ "seconds": 1190
+}

@@ -1,0 +1,31 @@
+"panel","intervention","quantity","split","level","point","lo","hi","source","excludes_zero"
+"b","Mechanism-of-action labels","Response correlation
+(paired median difference)","Split 1","95 %",0.00233439207077024,-0.00272941440343857,0.00868933573365212,"step9_analysis.json",FALSE
+"b","Learned chemical embedding","Response correlation
+(paired median difference)","Split 1","95 %",-0.0225528134686786,-0.0598956296397214,0.00277671626612508,"step10_analysis.json",FALSE
+"b","Chemical embedding + fingerprint","Response correlation
+(paired median difference)","Split 1","95 %",-0.0104522520293537,-0.0361185300927536,0.00538068350575008,"step10_analysis.json",FALSE
+"b","Fingerprint self-attention","Gene identity
+(mean difference)","Split 1","95 %",-0.000320280985716456,-0.00288355612827688,0.0024470087962766,"step13_analysis.json",FALSE
+"b","Attention over similar training compounds","Gene identity
+(mean difference)","Split 1","95 %",0.00164292293386009,-0.000607988954569555,0.003866236700575,"step13_analysis.json",FALSE
+"b","Cross-attention, compound × cell state","Gene identity
+(mean difference)","Split 1","95 %",0.00570246209744649,0.00276446033065381,0.00875096491590988,"step13_analysis.json",TRUE
+"c","Cross-attention","Gene identity
+vs rewired model","Split 1","95 %",0.00570246209744649,0.00276446033065381,0.00875096491590988,"step13_analysis.json",TRUE
+"c","Cross-attention","Gene identity
+vs matched control","Split 1","95 %",0.00316324282456595,0.001325610921318,0.00518678644780583,"step13_analysis.json",TRUE
+"c","Cross-attention","Population distance
+vs rewired model","Split 1","95 %",-0.020839089291665,-0.0431403830908537,-0.00636931296029961,"step13_analysis.json",TRUE
+"c","Cross-attention","Gene identity
+vs rewired model","Split 0","97.5 %",-0.00140034425618709,-0.00405363413901924,0.00156333483438861,"step13b_analysis.json",FALSE
+"c","Cross-attention","Gene identity
+vs matched control","Split 0","97.5 %",-0.00134637809933411,-0.00383509077495625,0.0011176726604337,"step13b_analysis.json",FALSE
+"c","Cross-attention","Population distance
+vs rewired model","Split 0","97.5 %",-0.00762705998171555,-0.0101060823564428,-0.00554400708938126,"step13b_analysis.json",TRUE
+"c","Cross-attention","Gene identity
+vs rewired model","Split 2","97.5 %",0.00102733633703706,-0.00159631370120172,0.00368000161316111,"step13b_analysis.json",FALSE
+"c","Cross-attention","Gene identity
+vs matched control","Split 2","97.5 %",-0.00195406607466747,-0.00465557221918615,0.00071010409546245,"step13b_analysis.json",FALSE
+"c","Cross-attention","Population distance
+vs rewired model","Split 2","97.5 %",-0.0107128611606349,-0.0356025286117166,0.000682015789261298,"step13b_analysis.json",FALSE

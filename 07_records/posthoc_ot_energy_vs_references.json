@@ -1,0 +1,82 @@
+{
+  "source": "tahoe_results/step18_per_condition.csv",
+  "n_boot": 5000,
+  "level": 0.975,
+  "seed": 0,
+  "resampling": "held-out structures with replacement (cluster bootstrap)",
+  "note": "post hoc: computed after the step 18 run; no pre-registered interval for these contrasts",
+  "results": [
+    {
+      "split": "drug_split_1",
+      "contrast": "ot_pair - control_paste",
+      "reference": "unaltered vehicle cells",
+      "n_conditions": 2899,
+      "n_structures": 75,
+      "point": -0.03406639920576406,
+      "lo": -0.054082220202839364,
+      "hi": -0.015198627535437383,
+      "verdict": "below zero",
+      "frac_conditions_closer": 0.595722662987237
+    },
+    {
+      "split": "drug_split_1",
+      "contrast": "ot_pair - mean_response",
+      "reference": "compound-blind average",
+      "n_conditions": 2899,
+      "n_structures": 75,
+      "point": 0.0020812523081301234,
+      "lo": -0.01319517350327372,
+      "hi": 0.01730670998038741,
+      "verdict": "includes zero",
+      "frac_conditions_closer": 0.47292169713694376
+    },
+    {
+      "split": "drug_split_0",
+      "contrast": "ot_pair - control_paste",
+      "reference": "unaltered vehicle cells",
+      "n_conditions": 3115,
+      "n_structures": 75,
+      "point": -0.053549820010815374,
+      "lo": -0.13185056438120907,
+      "hi": -0.012129061054120557,
+      "verdict": "below zero",
+      "frac_conditions_closer": 0.5897271268057785
+    },
+    {
+      "split": "drug_split_0",
+      "contrast": "ot_pair - mean_response",
+      "reference": "compound-blind average",
+      "n_conditions": 3115,
+      "n_structures": 75,
+      "point": -0.02148700098131076,
+      "lo": -0.09249400792992127,
+      "hi": 0.015518866053967555,
+      "verdict": "includes zero",
+      "frac_conditions_closer": 0.4914927768860353
+    },
+    {
+      "split": "drug_split_2",
+      "contrast": "ot_pair - control_paste",
+      "reference": "unaltered vehicle cells",
+      "n_conditions": 2853,
+      "n_structures": 75,
+      "point": -0.028745645636522064,
+      "lo": -0.05329466125365743,
+      "hi": -0.004244361507187123,
+      "verdict": "below zero",
+      "frac_conditions_closer": 0.5923589204346302
+    },
+    {
+      "split": "drug_split_2",
+      "contrast": "ot_pair - mean_response",
+      "reference": "compound-blind average",
+      "n_conditions": 2853,
+      "n_structures": 75,
+      "point": 0.004368807762219173,
+      "lo": -0.014307478303337876,
+      "hi": 0.023096396288411106,
+      "verdict": "includes zero",
+      "frac_conditions_closer": 0.4738871363477042
+    }
+  ]
+}

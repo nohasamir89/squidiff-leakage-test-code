@@ -1,0 +1,478 @@
+{
+  "prereg": "PREREG_step13_attention.md",
+  "split": "drug_split_1",
+  "categories": {
+    "attn_fp": "UNRESOLVED",
+    "attn_mem": "UNRESOLVED",
+    "attn_cross": "ATTENTION HELPS"
+  },
+  "interval": "95% percentile, drug-clustered",
+  "n_boot": 5000,
+  "statistic": "mean over conditions of seed-mean per-condition values (DPC vs ridge: paired median)",
+  "reference": "Step 6 checkpoints at 50 NFE (sw_fm_gaussian_seed_k_n50)",
+  "results": {
+    "arm_means": {
+      "ref": {
+        "jac": 0.6100026207918294,
+        "en": 0.17951438304582473,
+        "dpc": 0.09910120588502212,
+        "bc": 0.0027359197065942808,
+        "mag": 0.007407762842729089,
+        "magt": 0.010391678457492847
+      },
+      "attn_fp": {
+        "jac": 0.6096823398061131,
+        "en": 0.16627295112785317,
+        "dpc": 0.10890416052682687,
+        "bc": 0.008269937937259086,
+        "mag": 0.007608932436715216,
+        "magt": 0.010391678457492847
+      },
+      "attn_mem": {
+        "jac": 0.6116455437256895,
+        "en": 0.16886944044205857,
+        "dpc": 0.10125651752766392,
+        "bc": 0.006569962110073317,
+        "mag": 0.007502251730533985,
+        "magt": 0.010391678457492847
+      },
+      "attn_cross": {
+        "jac": 0.615705082889276,
+        "en": 0.15867529375415976,
+        "dpc": 0.1183198601399416,
+        "bc": 0.01121546286109554,
+        "mag": 0.007043020832040637,
+        "magt": 0.010391678457492847
+      },
+      "mlp_ctrl": {
+        "jac": 0.61254184006471,
+        "en": 0.17623828607343803,
+        "dpc": 0.10719958059249088,
+        "bc": 0.006304647071368488,
+        "mag": 0.007251864525849368,
+        "magt": 0.010391678457492847
+      }
+    },
+    "control_minus_reference": {
+      "jac": {
+        "diff": 0.0025392192728805425,
+        "ci": [
+          0.0004978306828065017,
+          0.004581475139096619
+        ],
+        "verdict": "above zero",
+        "half_width": 0.002041822228145059
+      },
+      "en": {
+        "diff": -0.003276096972386676,
+        "ci": [
+          -0.008559771979729201,
+          0.0007005250145787891
+        ],
+        "verdict": "includes zero",
+        "half_width": 0.004630148497153996
+      },
+      "dpc": {
+        "diff": 0.008098374707468738,
+        "ci": [
+          -0.0016041339383272074,
+          0.018259326588553358
+        ],
+        "verdict": "includes zero",
+        "half_width": 0.009931730263440283
+      }
+    },
+    "arms": {
+      "attn_fp": {
+        "de_overlap_minus_reference": {
+          "diff": -0.00032028098571645577,
+          "ci": [
+            -0.0028835561282768755,
+            0.0024470087962766033
+          ],
+          "verdict": "includes zero",
+          "half_width": 0.002665282462276739
+        },
+        "energy_minus_reference": {
+          "diff": -0.013241431917971521,
+          "ci": [
+            -0.03192116038748248,
+            0.0018373777160608682
+          ],
+          "verdict": "includes zero",
+          "half_width": 0.016879269051771676
+        },
+        "de_overlap_minus_control": {
+          "diff": -0.002859500258596998,
+          "ci": [
+            -0.0052608158562734465,
+            -0.0006177572346921368
+          ],
+          "verdict": "below zero",
+          "half_width": 0.0023215293107906546
+        },
+        "dpc_minus_reference": {
+          "diff": 0.009802954641804714,
+          "ci": [
+            0.001398511497104473,
+            0.01872684735206879
+          ],
+          "verdict": "above zero",
+          "half_width": 0.008664167927482157
+        },
+        "bc_minus_reference": {
+          "diff": 0.005534018230664803,
+          "ci": [
+            -0.0008756831691513193,
+            0.013833584191590635
+          ],
+          "verdict": "includes zero",
+          "half_width": 0.007354633680370978
+        },
+        "category": "UNRESOLVED"
+      },
+      "attn_mem": {
+        "de_overlap_minus_reference": {
+          "diff": 0.001642922933860095,
+          "ci": [
+            -0.0006079889545695552,
+            0.003866236700575002
+          ],
+          "verdict": "includes zero",
+          "half_width": 0.0022371128275722784
+        },
+        "energy_minus_reference": {
+          "diff": -0.010644942603766177,
+          "ci": [
+            -0.022215733081203334,
+            -0.0016960295505883821
+          ],
+          "verdict": "below zero",
+          "half_width": 0.010259851765307476
+        },
+        "de_overlap_minus_control": {
+          "diff": -0.0008962963390204474,
+          "ci": [
+            -0.0027381833880949454,
+            0.0008784097951515916
+          ],
+          "verdict": "includes zero",
+          "half_width": 0.0018082965916232686
+        },
+        "dpc_minus_reference": {
+          "diff": 0.002155311642641782,
+          "ci": [
+            -0.004216491376905486,
+            0.008905530871949688
+          ],
+          "verdict": "includes zero",
+          "half_width": 0.0065610111244275866
+        },
+        "bc_minus_reference": {
+          "diff": 0.003834042403479036,
+          "ci": [
+            0.00018898807839908878,
+            0.008417880189561423
+          ],
+          "verdict": "above zero",
+          "half_width": 0.004114446055581167
+        },
+        "category": "UNRESOLVED"
+      },
+      "attn_cross": {
+        "de_overlap_minus_reference": {
+          "diff": 0.005702462097446495,
+          "ci": [
+            0.002764460330653813,
+            0.008750964915909877
+          ],
+          "verdict": "above zero",
+          "half_width": 0.002993252292628032
+        },
+        "energy_minus_reference": {
+          "diff": -0.020839089291664975,
+          "ci": [
+            -0.04314038309085374,
+            -0.0063693129602996135
+          ],
+          "verdict": "below zero",
+          "half_width": 0.018385535065277063
+        },
+        "de_overlap_minus_control": {
+          "diff": 0.0031632428245659525,
+          "ci": [
+            0.0013256109213179996,
+            0.005186786447805826
+          ],
+          "verdict": "above zero",
+          "half_width": 0.001930587763243913
+        },
+        "dpc_minus_reference": {
+          "diff": 0.01921865425491947,
+          "ci": [
+            0.005923781832501344,
+            0.032341205358025295
+          ],
+          "verdict": "above zero",
+          "half_width": 0.013208711762761975
+        },
+        "bc_minus_reference": {
+          "diff": 0.00847954315450126,
+          "ci": [
+            0.003455916364943399,
+            0.015445273172500329
+          ],
+          "verdict": "above zero",
+          "half_width": 0.005994678403778465
+        },
+        "category": "ATTENTION HELPS"
+      }
+    },
+    "dpc_vs_interaction_ridge": {
+      "ref": {
+        "paired_median": -0.06856132907936485,
+        "ci": [
+          -0.1276267109330044,
+          -0.01659555979767087
+        ],
+        "verdict": "below zero",
+        "arm_marginal_median": 0.09399072613990966,
+        "frac_positive": 0.41309255079006774
+      },
+      "attn_fp": {
+        "paired_median": -0.07018725428203398,
+        "ci": [
+          -0.12853473642694468,
+          -0.009166083554603327
+        ],
+        "verdict": "below zero",
+        "arm_marginal_median": 0.10732347137831111,
+        "frac_positive": 0.43340857787810383
+      },
+      "attn_mem": {
+        "paired_median": -0.07269449371723369,
+        "ci": [
+          -0.1355131121077922,
+          -0.02814163431683592
+        ],
+        "verdict": "below zero",
+        "arm_marginal_median": 0.09276794474370156,
+        "frac_positive": 0.417607223476298
+      },
+      "attn_cross": {
+        "paired_median": -0.04664269603854093,
+        "ci": [
+          -0.11480205612887473,
+          -0.008884407120928542
+        ],
+        "verdict": "below zero",
+        "arm_marginal_median": 0.12131465806249256,
+        "frac_positive": 0.435665914221219
+      },
+      "mlp_ctrl": {
+        "paired_median": -0.06878760497554626,
+        "ci": [
+          -0.13112594356468338,
+          -0.013704371517497482
+        ],
+        "verdict": "below zero",
+        "arm_marginal_median": 0.10493044359034251,
+        "frac_positive": 0.43115124153498874
+      }
+    },
+    "attn_mem_memory_attention": {
+      "mean_entropy_nats": 4.507210731506348,
+      "effective_compounds": 90.6685562133789,
+      "mean_max_weight": 0.07178493589162827,
+      "memory_size": 112
+    }
+  },
+  "inputs": {
+    "ref": [
+      {
+        "tag": "sw_fm_gaussian_seed_0_n50",
+        "vectors_sha256": "0c84385c6566a34024c759f35ae0d88232dba2ca2784cbe4782dd3edc4632aa5",
+        "per_cell_sha256": "b17898338551de21d891ebb4dcd5678a7796b2cb095f411d1f1acaa81f408a66",
+        "checkpoint_sha256": null,
+        "checkpoint": null
+      },
+      {
+        "tag": "sw_fm_gaussian_seed_1_n50",
+        "vectors_sha256": "dcbc9f61e1635d386b7a77997934827a2285bc6600817a33448f43d7de67ccdc",
+        "per_cell_sha256": "3c0267415447cac62ac3f482c14d03bbab2792ab546129cf78cf597b2590ac23",
+        "checkpoint_sha256": null,
+        "checkpoint": null
+      },
+      {
+        "tag": "sw_fm_gaussian_seed_2_n50",
+        "vectors_sha256": "f50eb51dd8ae07b4d384853ecc25562a4924e96fab0bc74a50b1101bed674417",
+        "per_cell_sha256": "12b0cf45c466450d171a95768127c4446874151cc6fa0998eaacfe0d1f76af27",
+        "checkpoint_sha256": null,
+        "checkpoint": null
+      },
+      {
+        "tag": "sw_fm_gaussian_seed_3_n50",
+        "vectors_sha256": "3037a123dfeff0cbe1c547ec88628653bc43e08246527157e8151d30a3e2f806",
+        "per_cell_sha256": "c3f5b7cef0db0c4341a48181c8eb8eb2c6a99bba89bdbd9dfce9dfce245e37a3",
+        "checkpoint_sha256": null,
+        "checkpoint": null
+      },
+      {
+        "tag": "sw_fm_gaussian_seed_4_n50",
+        "vectors_sha256": "8f346c77828d0a69490513c612e74698e31f0a86a54bf4cf4e5c279850dfca62",
+        "per_cell_sha256": "7a03c36db3d2c3a8cf6c87a4d30384ecb0f7477fcd1a09e89cebad05de68e9f4",
+        "checkpoint_sha256": null,
+        "checkpoint": null
+      }
+    ],
+    "attn_fp": [
+      {
+        "tag": "s13_drug_split_1_attn_fp_seed_0",
+        "vectors_sha256": "f328149227de48792fef9de02385ff0099f98d8c34553a163b63cf6ecdfda19e",
+        "per_cell_sha256": "2dece6fbb94ffefbeea43317589d5eb9454a6749d928481ec6ce9cc586248eac",
+        "checkpoint_sha256": "edb59f12ec6103da46d8d28b476ca765d24f991406c5d43dddc345f9f0b651a7",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13/attn_fp/seed_0/model_0.9999.pt"
+      },
+      {
+        "tag": "s13_drug_split_1_attn_fp_seed_1",
+        "vectors_sha256": "5cddb543cf07eeeda3d7ae164e41bdc2e6410e625d9bfa9288e160e5e7ff4049",
+        "per_cell_sha256": "0d5eccfc9610e8397d2d3a9db3a8835a65417e29d3e7caafe3c425ec68fe14bd",
+        "checkpoint_sha256": "b143beb1343dfecff0fb525bd88a8276006b092adfae40391026e110ef7b292b",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13/attn_fp/seed_1/model_0.9999.pt"
+      },
+      {
+        "tag": "s13_drug_split_1_attn_fp_seed_2",
+        "vectors_sha256": "bee166a3aec6dc92f16cd914640408921bf72159044ce2635a7a247966e4299f",
+        "per_cell_sha256": "72d6c8f10453d5a3e85a19472bdfd75b1bf8c8b875b74f58774c40c4abfec0dd",
+        "checkpoint_sha256": "ac23216a8af746327eca14fd550f2e3c4c815834ac6cf1c587c01acacbd8ce59",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13/attn_fp/seed_2/model_0.9999.pt"
+      },
+      {
+        "tag": "s13_drug_split_1_attn_fp_seed_3",
+        "vectors_sha256": "3dac596996838594a29ca5eb0ae0852bacadc99acb73dc3f2022fc4f39a563ad",
+        "per_cell_sha256": "642de98c68fe86bf7b9b8745767fef8cca43ffc0117ebfa47167d7628f7bdc06",
+        "checkpoint_sha256": "56e8787a62c8100a2564a08ce040ec451aa488757e35e8a8871eb8a93316302d",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13/attn_fp/seed_3/model_0.9999.pt"
+      },
+      {
+        "tag": "s13_drug_split_1_attn_fp_seed_4",
+        "vectors_sha256": "5b8d7e8bc3b7f958718b0eb8f8da5d0910283ecfffb8bcd8ec5af545510dfe58",
+        "per_cell_sha256": "3c30ffaea48368eba1a7be3a9aef18a56b0191198bc433aa6edce04c0ce1ed95",
+        "checkpoint_sha256": "40682c4d2c1b9c26d0fc0226fd785bd1c5b8c10b0e512490bd2b7915b3c01882",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13/attn_fp/seed_4/model_0.9999.pt"
+      }
+    ],
+    "attn_mem": [
+      {
+        "tag": "s13_drug_split_1_attn_mem_seed_0",
+        "vectors_sha256": "b1c0b292153141e2d530d46b4c48f12402bc219da23d7c72eafcb521a46f0e5f",
+        "per_cell_sha256": "cdbbe233fbc3f2b96bf5b1b82bf1d7588c836ee05c602a6c3028af7217b68965",
+        "checkpoint_sha256": "bd07d233d6e7b67c2d7bcdf4c38370a67490035f748a11d900e80c5a426e2cfe",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13/attn_mem/seed_0/model_0.9999.pt"
+      },
+      {
+        "tag": "s13_drug_split_1_attn_mem_seed_1",
+        "vectors_sha256": "9bb86ba5999c5578813dd20f537ed08a301ecf9da2ce125337ab91eba1f5e5fd",
+        "per_cell_sha256": "87cbdd594293967163f836b361ad7c6497027a1f67dcc96f797298eacc7b3a04",
+        "checkpoint_sha256": "984740eb1562cdca6d5b89a5310ccd9363a54e48946874231444d9226692ded9",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13/attn_mem/seed_1/model_0.9999.pt"
+      },
+      {
+        "tag": "s13_drug_split_1_attn_mem_seed_2",
+        "vectors_sha256": "01e2f18621eaa04ead387797eab267d27e1ea6634e9fabd9d7d1ab7b4b3d0c17",
+        "per_cell_sha256": "f431e1fa65dfb5aa551dd55fbc81f541aba7bf14fffd96cc785896aa6d55c2d7",
+        "checkpoint_sha256": "763d7d0f370968d3a8d5e6ea3b5ae1b20c75245042f611abe965dfd82ad8a750",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13/attn_mem/seed_2/model_0.9999.pt"
+      },
+      {
+        "tag": "s13_drug_split_1_attn_mem_seed_3",
+        "vectors_sha256": "658c13d89eb29a8e16db27699ef87dd53c45eba819dc7a1e3b2961e224d66f26",
+        "per_cell_sha256": "a05a510d38ac16fb275e53b336e71af22b66d7226d18e96d1431b6de233536d0",
+        "checkpoint_sha256": "51a0c609989186e0426a77c9aa8d6dfa16e0ec03328c71064bf402574391a260",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13/attn_mem/seed_3/model_0.9999.pt"
+      },
+      {
+        "tag": "s13_drug_split_1_attn_mem_seed_4",
+        "vectors_sha256": "918cf966ed0596776f887f70911d3abd067a590aa67b73273aab72ecef7cf828",
+        "per_cell_sha256": "69ddfe965e2a71d882dbc4bf788a4e3b216d8e182c34a4ba8e039faf79ebfbfd",
+        "checkpoint_sha256": "3d1c7120ff24b501045578b2034a3326c01cdb73b8911c0b66b5f1af3b6ca7db",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13/attn_mem/seed_4/model_0.9999.pt"
+      }
+    ],
+    "attn_cross": [
+      {
+        "tag": "s13_drug_split_1_attn_cross_seed_0",
+        "vectors_sha256": "ee19bea9393713e614b7e5de038ad995e7c004c720c4dfa7f779d46c4cbdd262",
+        "per_cell_sha256": "d6f8be4369062f761f4b7bdcf37da997c4908fd3e9cfa167b081b618934c367e",
+        "checkpoint_sha256": "da28d6948077c692675712ea4c05899065f83882dc7300a443d9c17db873c9da",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13/attn_cross/seed_0/model_0.9999.pt"
+      },
+      {
+        "tag": "s13_drug_split_1_attn_cross_seed_1",
+        "vectors_sha256": "cf4538d023da2d236867ec55d573637461a5667561e2c46647b7fc0116a43dc8",
+        "per_cell_sha256": "afd667bf03439bcaaaa4b817dcd2bd5d380e2c857ccdd16c8abdeb54a431fb8c",
+        "checkpoint_sha256": "c1c45dc62990ca0f0a022c184ff61af7ca2ea8669d186b37eabd46e7d452d563",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13/attn_cross/seed_1/model_0.9999.pt"
+      },
+      {
+        "tag": "s13_drug_split_1_attn_cross_seed_2",
+        "vectors_sha256": "b161d9ce69be1a83920ae50cbb4249e5f981885996b83eb5e6a7a5d049863a50",
+        "per_cell_sha256": "be2d85ca75fde0763888a0bbab7669cbf738dcf3a5787e74be5cdf997d04c7f2",
+        "checkpoint_sha256": "78f27b9e66811425fe2b4811393850ad0771678de8db77d8c1ed7cf846f022a2",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13/attn_cross/seed_2/model_0.9999.pt"
+      },
+      {
+        "tag": "s13_drug_split_1_attn_cross_seed_3",
+        "vectors_sha256": "61bbde82e32a9ffde2c46c33381ffb642a9e47abbe281a3ea5df33e7e921ea91",
+        "per_cell_sha256": "7f82becffd8b50c33c76c1e527935d8b02642db76e643a65f480ebb5787d11ba",
+        "checkpoint_sha256": "67dd30f2ac8b6a50647fa6cb964afe9f2ef1db3e8339a0850f24517956eba66e",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13/attn_cross/seed_3/model_0.9999.pt"
+      },
+      {
+        "tag": "s13_drug_split_1_attn_cross_seed_4",
+        "vectors_sha256": "1f87497e0de69cf893dbd663a10b9428a3b5048386dff6cc9b5820fcf85d16d1",
+        "per_cell_sha256": "747d95ef3465ae225f3a7877e4d06a59d394bab0059374b6220bc98b68068279",
+        "checkpoint_sha256": "43161f1763c906daaf569807006f6b0a327b7a92ee2b8c698e4652eb3d001b99",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13/attn_cross/seed_4/model_0.9999.pt"
+      }
+    ],
+    "mlp_ctrl": [
+      {
+        "tag": "s13_drug_split_1_mlp_ctrl_seed_0",
+        "vectors_sha256": "133dc5fc3d70a6db28022c1f6e6d0c8b961aa59191da7d785605512c35162048",
+        "per_cell_sha256": "87b9dd461f7e6215c57c17357d55141591296d1cf1afa245003ced2682a2a645",
+        "checkpoint_sha256": "ce159308fb24bd0b99cfacbcee36f00e031556f962984f8446868442ecedf443",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13/mlp_ctrl/seed_0/model_0.9999.pt"
+      },
+      {
+        "tag": "s13_drug_split_1_mlp_ctrl_seed_1",
+        "vectors_sha256": "58886872ec36fa021783f88dde3ab694aee3b5297a0b1ff0e603a6bd242c1e84",
+        "per_cell_sha256": "3f1e2cd59c932eab4a423ab5171caea4d77b3b73ab0d1ac39b40bbffa4ad746b",
+        "checkpoint_sha256": "fa1a26756ca60b087eba3d666339bbbfae44349ed2cca0e36d14b57c5039b85a",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13/mlp_ctrl/seed_1/model_0.9999.pt"
+      },
+      {
+        "tag": "s13_drug_split_1_mlp_ctrl_seed_2",
+        "vectors_sha256": "7f23db58aeaf78b401707e2763c1f97b2bb7aaeabada37ece48c0c633cc730dd",
+        "per_cell_sha256": "08d7305f29d294a08a56af9362e67d49d65bb090db5cae27ffd58cf285b7a1d2",
+        "checkpoint_sha256": "2227063ba82624dee29d0a2734784d80096b02f082399c408b0cce11d6ef43b7",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13/mlp_ctrl/seed_2/model_0.9999.pt"
+      },
+      {
+        "tag": "s13_drug_split_1_mlp_ctrl_seed_3",
+        "vectors_sha256": "a8408c18e3716a117533a3c50fb966264daab9ef63a31dcfcc49b0db951925b9",
+        "per_cell_sha256": "c53e245b61f185a3458443bfe7004c7a54c387c03b4aaa01240cb5c9702438d3",
+        "checkpoint_sha256": "4a1dfff7cf7a0d3fb3e021836b2a7ee84a40ad0c5403fc425246a6de70b4f40d",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13/mlp_ctrl/seed_3/model_0.9999.pt"
+      },
+      {
+        "tag": "s13_drug_split_1_mlp_ctrl_seed_4",
+        "vectors_sha256": "0156daeb29f5325f243fc84f88503833dc980fa8389d907889979d54815d6021",
+        "per_cell_sha256": "9bc5afb01b9e47879f28d7878b787c77ee1bfa1ca34cc731de7c5310316aac2d",
+        "checkpoint_sha256": "3dfb804da18236b0f4ff86e8edb2dee9b30a2d563dcd7c9dd2fd18c2373ef877",
+        "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13/mlp_ctrl/seed_4/model_0.9999.pt"
+      }
+    ]
+  },
+  "commit": "f2325bb36eca55a2c727155991e35430dba81d77"
+}

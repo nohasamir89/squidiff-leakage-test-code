@@ -1,0 +1,14 @@
+{
+ "split": "drug_split_0",
+ "m": 32,
+ "path": "/scratch/ni2071/Diffusion/tahoe/datasets_step15/tahoe_train_drug_split_0_control_mb32.h5ad",
+ "sha256": "81fc1a89a6e9b2000af0f85f5d8a124db9ee8bbe764e59e9b8c691b6f6270e4f",
+ "rows": 1682011,
+ "source_control_sha256": "0209c1d1d06ef5a52302b2fe3c0d4befc0a9f6be29b48ef450be86995d0791b5",
+ "measured_cos": 0.2799634613543611,
+ "measure_record": "tahoe_results/minibatch_pairing_check.json",
+ "measure_record_sha256": "fccbc0ec109c7dcd4dbdeb4b712d71386602888fd31fa95a7d2392ed0a423c0b",
+ "script": "check_minibatch_pairing_tahoe.py",
+ "commit": "f5abcd7febc77658b1e23ed02a28d7f5e111026d",
+ "seconds": 58
+}
