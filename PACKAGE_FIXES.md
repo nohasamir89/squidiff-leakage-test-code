@@ -97,6 +97,36 @@ Expected: `--test: suite passed` with `34 passed, 1 deselected` (no failure, no 
 and its sha256. If `test_local_imports_resolve_inside_package` names a module that is a library rather
 than a repository file, add that library to `THIRD_PARTY` in `tests/test_package.py`.
 
+Done 21 Oct 2026: package v2 built from commit `6c57d60` (tag `manuscript-v2`), 243 files, suite green,
+pushed to github.com/nohasamir89/squidiff-leakage-test-code with the CI run green.
+
+## G. Package v3 (22 Oct 2026): the records the scorers read
+
+A second class of gap, found while tracing the section D numbers: packaged scorers, extractors and
+data-preparation scripts read about twenty records of earlier steps that were never packaged, so any
+number the text quotes from them had no source in the package. The figure-value tests could not see this
+because the figures read only the final records.
+
+Added to `manuscript_code_list.txt` (all present in the repository on 22 Oct 2026, sizes in brackets):
+
+- `leakage_results/`: `step6_analysis.json`, `step6b_analysis.json`, `step6_p2_energy.json` (392 K), `step7_interaction_baseline.json` (read by five scorers), `step8_linear_check_v2.json`, `step12_analysis.json`, `pathway_vs_fingerprint.json`, `ridge_vs_fm.json`, `chemicalvae_comparison.json`
+- `tahoe_results/`: `step15e_pooled.json`, `step16_diag_mra_ceiling.json`, `step15_coverage_inventory.json`, `step15_coverage_inventory_c.json`, `step15_targets_curated.csv`, `step15_targets_curated_hgnc.csv`, `step15_model_per_condition.csv` (5.4 M), `step15c_pds_per_condition.csv` (2.5 M), `step15c_pds_per_condition_development.csv`, `step16_per_condition.csv` (9.9 M)
+- `tahoe_results/step22/` (28 M: the fingerprinting stage outputs the Step 22 scorer reads, including the gzipped cell-level maps) → `07_records/step22/<split>/`
+- `provenance/*.json` (695 files, 3 M: the per-run evaluation provenance records every scorer verifies its inputs against) → `07_records/provenance/`
+- external: `gbm_squidiff_robustness_test/gene_sensitivity_results.csv`, `tahoe/external/cptac/cptac_fetch_record.json`
+- found by the new test on the first v3 build (read by the scripts added in v2): `tahoe_results/step15_coverage_inventory_d.json`, `step15d_utility.json`, `step20_long_development.csv`, `step21_long.csv`, `tahoe_results/external/prism_figshare_9393293_files.json` (the PRISM download record)
+- documented in `tests/data_files_not_packaged.txt` instead of packaged: the two PRISM secondary-screen CSVs (third-party DepMap data; the download record carries their md5), and `step20_analysis.json` / `step20_long.csv`, the final-mode Step 20 files that were never produced (Step 20 ran in development mode only)
+
+New test `tests/test_data_inputs.py` (see `tests/README.md`) fails the build if this happens again;
+`tests/data_files_not_packaged.txt` documents the records that are deliberately not packaged, each with its reason.
+
+Section D status after this:
+
+1. "77–94 % of conditions had no gene significantly changed" — **no script in the repository computes it** (checked 22 Oct 2026); the Step 14 per-condition table (`step14_long_v2.csv`) holds facet values per line, not significant-gene counts. Either a diagnostic script recomputes it from the per-cell arrays and commits a record, or the sentence goes.
+2. "20–44 % of entries set to zero" — printed by `score_step14.py` / `score_step15_tahoe.py` (`entries clipped at 0: X%`), but no log in `logger_files/` contains the line (22 Oct 2026); same two options as D1, and the same arrays serve both.
+3. "+0.024" in Supplementary Note 1 — **resolved**: `pathway_vs_fingerprint.json` (now packaged) gives the ridge DPC-50 with pathway × line minus fingerprint × line labels as +0.018 / **+0.024** / +0.046 on drug splits 0 / 1 / 2; the Note quotes drug split 1 and should say so. Step 9's +0.019 is Squidiff given the same labels, a different model.
+4. Table S10 — the linear rows now have their record (`step8_linear_check_v2.json`); the feedforward rows' record `step8_convergence.json` does not exist in the repository (only the linear checks were kept): re-run `run_step8_conv.sh` to regenerate it, or remove those rows.
+
 ## D. Numbers in the manuscript that need a committed record
 
 1. "77–94 % of conditions had no gene significantly changed" (sci-Plex) — no packaged record holds it.

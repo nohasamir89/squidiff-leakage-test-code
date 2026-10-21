@@ -1,0 +1,17 @@
+{
+  "status": "completed",
+  "arm": "fm_gaussian",
+  "seed": "2",
+  "tag": "s6pc_fm_gaussian_seed_2",
+  "prereg": "PREREG_step6_flow_matching.md amendment 12",
+  "commit": "ede47d90010868cbd2247167a6826ac6c60148d2",
+  "completed_at": "2026-08-19T11:42:11.012413+00:00",
+  "verified_bitwise_against": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/leakage_results/vectors_step6_fm_gaussian_seed_2.npz",
+  "per_cell_npz": "leakage_results/vectors_s6pc_fm_gaussian_seed_2_pc.npz",
+  "per_cell_sha256": "fb30b0acaea4a1e07caba4e99922cc1e1894b372b233c413e95d29d0132db4e3",
+  "n_conditions": 443,
+  "cells_min": 7,
+  "cells_max": 200,
+  "node": "cn274",
+  "gpu": "NVIDIA H100 NVL"
+}

@@ -1,0 +1,21 @@
+{
+  "status": "completed",
+  "arm": "fm_control_ot",
+  "seed": "1",
+  "split": "drug_split_1",
+  "tag": "step6_fm_control_ot_seed_1",
+  "nfe": 20,
+  "solver": "euler",
+  "prereg": "PREREG_step6_flow_matching.md",
+  "commit": "1ef31130c8687f5d25373c3aec357dca60e3d4f5",
+  "completed_at": "2026-08-18T20:38:12.939087+00:00",
+  "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step6/fm_control_ot/seed_1/model_0.9999.pt",
+  "checkpoint_sha256": "4e254911368865d7ea2cfd357fb609bf11081749eb0e129160c57af565471bf1",
+  "vectors_npz": "leakage_results/vectors_step6_fm_control_ot_seed_1.npz",
+  "vectors_sha256": "6c2bac17c9e0f90423e5515ce076f009fb04af9d2798362ebe0923bca9f7dfc4",
+  "n_conditions": 443,
+  "node": "cn274",
+  "gpu": "NVIDIA H100 NVL",
+  "harness_sha256": "f8fd1c8984be755b43a5bd231330c70a00bfd18371a1c700d82922297c7f083b",
+  "sampler_sha256": "9db50358c4e69ec52e1908dfb074bab30cf7e22df77294f4cd5be6eaddefca58"
+}

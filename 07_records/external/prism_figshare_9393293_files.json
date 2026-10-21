@@ -1,0 +1,172 @@
+[
+ {
+  "id": 20237700,
+  "name": "primary-screen-readme.txt",
+  "size": 5919,
+  "is_link_only": false,
+  "download_url": "https://ndownloader.figshare.com/files/20237700",
+  "supplied_md5": "0cb01777a60e7bacee187d85159d279e",
+  "computed_md5": "0cb01777a60e7bacee187d85159d279e",
+  "mimetype": "text/plain"
+ },
+ {
+  "id": 20237703,
+  "name": "primary-screen-logfold-change.csv",
+  "size": 112957828,
+  "is_link_only": false,
+  "download_url": "https://ndownloader.figshare.com/files/20237703",
+  "supplied_md5": "351345427187cb841a18060c18608fc9",
+  "computed_md5": "351345427187cb841a18060c18608fc9",
+  "mimetype": "text/plain"
+ },
+ {
+  "id": 20237706,
+  "name": "primary-screen-primary-mfi.csv",
+  "size": 67490506,
+  "is_link_only": false,
+  "download_url": "https://ndownloader.figshare.com/files/20237706",
+  "supplied_md5": "7bd61305cccd9810555268a959aa1282",
+  "computed_md5": "7bd61305cccd9810555268a959aa1282",
+  "mimetype": "text/plain"
+ },
+ {
+  "id": 20237709,
+  "name": "primary-screen-replicate-collapsed-logfold-change.csv",
+  "size": 41254209,
+  "is_link_only": false,
+  "download_url": "https://ndownloader.figshare.com/files/20237709",
+  "supplied_md5": "47ee90bbca457ed07c238f1803018033",
+  "computed_md5": "47ee90bbca457ed07c238f1803018033",
+  "mimetype": "text/plain"
+ },
+ {
+  "id": 20237712,
+  "name": "primary-screen-replicate-treatment-info.csv",
+  "size": 5171151,
+  "is_link_only": false,
+  "download_url": "https://ndownloader.figshare.com/files/20237712",
+  "supplied_md5": "7773b82427a0342791ea609b9b5a5d7c",
+  "computed_md5": "7773b82427a0342791ea609b9b5a5d7c",
+  "mimetype": "text/plain"
+ },
+ {
+  "id": 20237715,
+  "name": "primary-screen-replicate-collapsed-treatment-info.csv",
+  "size": 1185606,
+  "is_link_only": false,
+  "download_url": "https://ndownloader.figshare.com/files/20237715",
+  "supplied_md5": "ec1da11ef0710944269cdd783b5bd341",
+  "computed_md5": "ec1da11ef0710944269cdd783b5bd341",
+  "mimetype": "text/plain"
+ },
+ {
+  "id": 20237721,
+  "name": "primary-screen-pooling-info.csv",
+  "size": 151201,
+  "is_link_only": false,
+  "download_url": "https://ndownloader.figshare.com/files/20237721",
+  "supplied_md5": "011b2faa74664e72ca10eb4ea98256c0",
+  "computed_md5": "011b2faa74664e72ca10eb4ea98256c0",
+  "mimetype": "text/plain"
+ },
+ {
+  "id": 20237718,
+  "name": "primary-screen-cell-line-info.csv",
+  "size": 46849,
+  "is_link_only": false,
+  "download_url": "https://ndownloader.figshare.com/files/20237718",
+  "supplied_md5": "580b9f0b5118d44f473ffa4efac7e0c2",
+  "computed_md5": "580b9f0b5118d44f473ffa4efac7e0c2",
+  "mimetype": "text/plain"
+ },
+ {
+  "id": 20237730,
+  "name": "secondary-screen-logfold-change.csv",
+  "size": 237567060,
+  "is_link_only": false,
+  "download_url": "https://ndownloader.figshare.com/files/20237730",
+  "supplied_md5": "75ec978029df82b128f989d25923a693",
+  "computed_md5": "75ec978029df82b128f989d25923a693",
+  "mimetype": "text/plain"
+ },
+ {
+  "id": 20237739,
+  "name": "secondary-screen-dose-response-curve-parameters.csv",
+  "size": 264340589,
+  "is_link_only": false,
+  "download_url": "https://ndownloader.figshare.com/files/20237739",
+  "supplied_md5": "e629b9d505ad3d6bf65fde96f1c54bee",
+  "computed_md5": "e629b9d505ad3d6bf65fde96f1c54bee",
+  "mimetype": "text/plain"
+ },
+ {
+  "id": 20237742,
+  "name": "secondary-screen-mfi.csv",
+  "size": 168971270,
+  "is_link_only": false,
+  "download_url": "https://ndownloader.figshare.com/files/20237742",
+  "supplied_md5": "a42a697c04ee8f1fa521a5d26faab419",
+  "computed_md5": "a42a697c04ee8f1fa521a5d26faab419",
+  "mimetype": "text/plain"
+ },
+ {
+  "id": 20237757,
+  "name": "secondary-screen-replicate-collapsed-logfold-change.csv",
+  "size": 91620551,
+  "is_link_only": false,
+  "download_url": "https://ndownloader.figshare.com/files/20237757",
+  "supplied_md5": "3d53c46ea6476eaadb4615a266f77110",
+  "computed_md5": "3d53c46ea6476eaadb4615a266f77110",
+  "mimetype": "text/plain"
+ },
+ {
+  "id": 20237760,
+  "name": "secondary-screen-replicate-treatment-info.csv",
+  "size": 15690740,
+  "is_link_only": false,
+  "download_url": "https://ndownloader.figshare.com/files/20237760",
+  "supplied_md5": "bd7bd6f2ab7b99abf1f2d4167f40e43a",
+  "computed_md5": "bd7bd6f2ab7b99abf1f2d4167f40e43a",
+  "mimetype": "text/plain"
+ },
+ {
+  "id": 20237763,
+  "name": "secondary-screen-replicate-collapsed-treatment-info.csv",
+  "size": 3788355,
+  "is_link_only": false,
+  "download_url": "https://ndownloader.figshare.com/files/20237763",
+  "supplied_md5": "54765b3639f91cede751378d694e3583",
+  "computed_md5": "54765b3639f91cede751378d694e3583",
+  "mimetype": "text/plain"
+ },
+ {
+  "id": 20237766,
+  "name": "secondary-screen-pooling-info.csv",
+  "size": 264680,
+  "is_link_only": false,
+  "download_url": "https://ndownloader.figshare.com/files/20237766",
+  "supplied_md5": "74d2e9b1d9c8a574f2a9db3bc206f397",
+  "computed_md5": "74d2e9b1d9c8a574f2a9db3bc206f397",
+  "mimetype": "text/plain"
+ },
+ {
+  "id": 20237769,
+  "name": "secondary-screen-cell-line-info.csv",
+  "size": 40979,
+  "is_link_only": false,
+  "download_url": "https://ndownloader.figshare.com/files/20237769",
+  "supplied_md5": "6737b4aa9fd85404fd2f0cf825b037e4",
+  "computed_md5": "6737b4aa9fd85404fd2f0cf825b037e4",
+  "mimetype": "text/plain"
+ },
+ {
+  "id": 20238123,
+  "name": "secondary-screen-readme.txt",
+  "size": 7647,
+  "is_link_only": false,
+  "download_url": "https://ndownloader.figshare.com/files/20238123",
+  "supplied_md5": "421d0bbadec381adc0d7981ee7e16bd7",
+  "computed_md5": "421d0bbadec381adc0d7981ee7e16bd7",
+  "mimetype": "text/plain"
+ }
+]

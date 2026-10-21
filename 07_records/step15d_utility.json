@@ -1,0 +1,2814 @@
+{
+ "prereg": "PREREG_step15d_tahoe_validation.md",
+ "commit": "832d7b271f5ebc644852106a41ba208b277ff0ff",
+ "final": true,
+ "splits": [
+  "drug_split_1",
+  "drug_split_0",
+  "drug_split_2"
+ ],
+ "prism_files": {
+  "secondary-screen-dose-response-curve-parameters.csv": "e629b9d505ad3d6bf65fde96f1c54bee",
+  "secondary-screen-cell-line-info.csv": "6737b4aa9fd85404fd2f0cf825b037e4"
+ },
+ "n_labels": 1234,
+ "lines": [
+  "A-172",
+  "H4",
+  "HCT15",
+  "HT-29",
+  "LS 180",
+  "LoVo",
+  "RKO",
+  "SW 1088",
+  "SW48",
+  "SW480"
+ ],
+ "min_pairs_per_line": 8,
+ "min_lines_per_drug": 6,
+ "n_boot": 5000,
+ "alphas": [
+  0.1,
+  1.0,
+  10.0,
+  100.0,
+  1000.0
+ ],
+ "per_split": {
+  "drug_split_1": {
+   "n_conditions": 2899,
+   "n_held_structures": 75,
+   "dose_levels": [
+    50.0,
+    500.0,
+    5000.0
+   ],
+   "top_dose": 5000.0,
+   "n_training_pairs": 534,
+   "n_training_drugs": 61,
+   "alpha_f": 1000.0,
+   "alpha_qsar": 1000.0,
+   "n_heldout_pairs_top_dose": 422,
+   "n_labelled_pairs": 152,
+   "n_labelled_drugs": 17,
+   "n_unlabelled_pairs": 270,
+   "pairs_per_line": {
+    "A-172": 16,
+    "H4": 16,
+    "HCT15": 16,
+    "HT-29": 16,
+    "LS 180": 17,
+    "LoVo": 17,
+    "RKO": 16,
+    "SW 1088": 8,
+    "SW48": 14,
+    "SW480": 16
+   },
+   "n_lines_scored": 10,
+   "U": {
+    "ridge_S7": -0.010439560439560435,
+    "ridge_train": 0.19235994397759104,
+    "mean_response": 0.00819920061690788,
+    "control_paste": 0.0,
+    "base": -0.09692577030812324,
+    "recipe": -0.25168821374703726,
+    "guidance_w2": -0.2643078000430942,
+    "attn_cross": -0.2271837965955613,
+    "mlp_ctrl": -0.22037438052143937,
+    "ceiling": -0.09944139194139197,
+    "qsar": 0.2746487825899591,
+    "effect_size": 0.08986156000861881,
+    "effect_size_measured": 0.41355472958414136
+   },
+   "U_per_seed": {
+    "base": [
+     -0.11629174746821805,
+     -0.15169683257918556,
+     -0.03268315018315018
+    ],
+    "recipe": [
+     -0.26006302521008406,
+     -0.26010611937082523,
+     -0.2441456582633053
+    ],
+    "guidance_w2": [
+     -0.2937470372764491,
+     -0.2460541909071321,
+     -0.2774595992243051
+    ],
+    "attn_cross": [
+     -0.22673023055376001,
+     -0.22544279250161608,
+     -0.2300307045895281
+    ],
+    "mlp_ctrl": [
+     -0.18781135531135534,
+     -0.24947909933204052,
+     -0.20652876535229475
+    ]
+   },
+   "within_drug": {
+    "ridge_S7": 0.3140947288006112,
+    "ridge_train": 0.1447288006111536,
+    "mean_response": 0.22944996180290303,
+    "control_paste": 0.0,
+    "base": 0.07773109243697479,
+    "recipe": 0.18020117137764197,
+    "guidance_w2": 0.15383244206773616,
+    "attn_cross": 0.1533358798064681,
+    "mlp_ctrl": 0.16349630761395467,
+    "ceiling": 0.1254647313470843,
+    "qsar": 0.33511586452762926,
+    "effect_size": -0.11167557932263815,
+    "effect_size_measured": -0.2682836771072065
+   },
+   "contrasts": {
+    "Q1_primary_U_recipe_minus_0": {
+     "diff": -0.25168821374703726,
+     "ci": [
+      -0.6086419787020164,
+      0.235245676271302
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.4219438274866592
+    },
+    "Q2_coprimary_U_recipe_minus_ridge_train": {
+     "diff": -0.4440481577246283,
+     "ci": [
+      -0.8538533700529144,
+      0.03658246576321262
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.44521791790806353
+    },
+    "secondary_U_ridge_S7_minus_0": {
+     "diff": -0.010439560439560435,
+     "ci": [
+      -0.34763226299059297,
+      0.3213728496291399
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.3345025563098665
+    },
+    "secondary_U_ridge_train_minus_0": {
+     "diff": 0.19235994397759104,
+     "ci": [
+      -0.12657968361396185,
+      0.5333386630903864
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.3299591733521741
+    },
+    "secondary_U_mean_response_minus_0": {
+     "diff": 0.00819920061690788,
+     "ci": [
+      -0.030768723088847472,
+      0.048290240971519814
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.039529482030183645
+    },
+    "secondary_U_control_paste_minus_0": {
+     "diff": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.0
+    },
+    "secondary_U_base_minus_0": {
+     "diff": -0.09692577030812324,
+     "ci": [
+      -0.3924095899180078,
+      0.22559172814130335
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.30900065902965557
+    },
+    "secondary_U_guidance_w2_minus_0": {
+     "diff": -0.2643078000430942,
+     "ci": [
+      -0.6192460991566131,
+      0.25151148198728146
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.4353787905719473
+    },
+    "secondary_U_attn_cross_minus_0": {
+     "diff": -0.2271837965955613,
+     "ci": [
+      -0.5990550847644822,
+      0.25627122879533504
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.4276631567799086
+    },
+    "secondary_U_mlp_ctrl_minus_0": {
+     "diff": -0.22037438052143937,
+     "ci": [
+      -0.5973370322792438,
+      0.277005916626518
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.43717147445288096
+    },
+    "secondary_U_ceiling_minus_0": {
+     "diff": -0.09944139194139197,
+     "ci": [
+      -0.46822338643340466,
+      0.2785282125151072
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.3733757994742559
+    },
+    "secondary_U_qsar_minus_0": {
+     "diff": 0.2746487825899591,
+     "ci": [
+      -0.17698369581126677,
+      0.6564851592151852
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.416734427513226
+    },
+    "secondary_U_effect_size_minus_0": {
+     "diff": 0.08986156000861881,
+     "ci": [
+      -0.4383973413506128,
+      0.6595177980574999
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.5489575697040563
+    },
+    "secondary_U_effect_size_measured_minus_0": {
+     "diff": 0.41355472958414136,
+     "ci": [
+      -0.025536308419438457,
+      0.6915374898689157
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.3585368991441771
+    },
+    "secondary_U_recipe_minus_ceiling": {
+     "diff": -0.1522468218056453,
+     "ci": [
+      -0.4999057007833089,
+      0.22716305459941044
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.36353437769135966
+    },
+    "secondary_U_recipe_minus_qsar": {
+     "diff": -0.5263369963369964,
+     "ci": [
+      -0.9808620662829309,
+      -0.011021463781871922
+     ],
+     "verdict": "below zero",
+     "half_width": 0.4849203012505295
+    },
+    "secondary_U_recipe_minus_effect_size": {
+     "diff": -0.3415497737556561,
+     "ci": [
+      -0.8173528549173559,
+      0.04815821253659179
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.43275553372697384
+    },
+    "secondary_U_recipe_minus_ridge_S7": {
+     "diff": -0.24124865330747683,
+     "ci": [
+      -0.7262705862489767,
+      0.32970864571801295
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.5279896159834948
+    },
+    "secondary_U_guidance_w2_minus_recipe": {
+     "diff": -0.012619586296056917,
+     "ci": [
+      -0.121562833352577,
+      0.11755745954928118
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.11956014645092909
+    },
+    "exploratory_U_attn_cross_minus_mlp_ctrl": {
+     "diff": -0.006809416074121916,
+     "ci": [
+      -0.09389836476345602,
+      0.06703601532491643
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.08046719004418623
+    },
+    "secondary_withindrug_recipe_minus_0": {
+     "diff": 0.18020117137764197,
+     "ci": [
+      -0.013213649096002065,
+      0.3722381907308378
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.19272591991341995
+    },
+    "secondary_withindrug_ridge_train_minus_0": {
+     "diff": 0.1447288006111536,
+     "ci": [
+      -0.03245304940157881,
+      0.3208813980137506
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.1766672237076647
+    },
+    "secondary_withindrug_ceiling_minus_0": {
+     "diff": 0.1254647313470843,
+     "ci": [
+      -0.02335179526355997,
+      0.2828000063661827
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.15307590081487132
+    },
+    "secondary_withindrug_qsar_minus_0": {
+     "diff": 0.33511586452762926,
+     "ci": [
+      0.15167048637636873,
+      0.5087937675070028
+     ],
+     "verdict": "above zero",
+     "half_width": 0.17856164056531704
+    }
+   },
+   "exploratory": {
+    "lost_pairs_top_dose": 101,
+    "labelled_heldout_pairs_prism_lines": 253,
+    "heldout_drugs_without_top_dose": [
+     "Alpelisib",
+     "Bexarotene",
+     "Bortezomib",
+     "Crizotinib (hydrochloride)",
+     "Digitoxin",
+     "Imiquimod (hydrochloride)",
+     "Imiquimod (maleate)",
+     "Ouabain (Octahydrate)",
+     "Volasertib",
+     "olaparib"
+    ],
+    "dose_levels_available_per_heldout_drug": {
+     "(R)-Verapamil (hydrochloride)": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "18\u03b2-Glycyrrhetinic acid": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "AZD-8055": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Abemaciclib": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Acetohexamide": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Adenosine": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Almonertinib (hydrochloride)": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Alpelisib": [
+      50.0,
+      500.0
+     ],
+     "Artemether": [
+      50.0,
+      500.0
+     ],
+     "Artesunate": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Ataluren": [
+      50.0,
+      500.0
+     ],
+     "Atazanavir (sulfate)": [
+      50.0,
+      500.0
+     ],
+     "Bergenin": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Bestatin (hydrochloride)": [
+      50.0,
+      500.0
+     ],
+     "Bexarotene": [
+      50.0,
+      500.0
+     ],
+     "Bortezomib": [
+      50.0,
+      500.0
+     ],
+     "CP21R7": [
+      50.0,
+      500.0
+     ],
+     "Celecoxib": [
+      50.0,
+      500.0
+     ],
+     "Clobetasol propionate": [
+      50.0,
+      500.0
+     ],
+     "Clonidine (hydrochloride)": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Crizotinib (hydrochloride)": [
+      50.0,
+      500.0
+     ],
+     "Cytarabine": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Darolutamide": [
+      50.0,
+      500.0
+     ],
+     "Dexamethasone": [
+      50.0,
+      500.0
+     ],
+     "Digitoxin": [
+      50.0,
+      500.0
+     ],
+     "Doxycycline (monohydrate)": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Entrectinib": [
+      50.0,
+      500.0
+     ],
+     "Erlotinib": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Fenofibrate": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Ferulic acid": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Fluvoxamine": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Fusidic acid": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Futibatinib": [
+      50.0,
+      500.0
+     ],
+     "GSK1059615": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Gallic acid (hydrate)": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Gemfibrozil": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Hesperidin": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Imiquimod (hydrochloride)": [
+      50.0,
+      500.0
+     ],
+     "Imiquimod (maleate)": [
+      500.0
+     ],
+     "Irinotecan (hydrochloride)": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Isocorydine": [
+      50.0,
+      5000.0
+     ],
+     "Lidocaine (hydrochloride)": [
+      5000.0
+     ],
+     "Loperamide (hydrochloride)": [
+      50.0,
+      500.0
+     ],
+     "Lopinavir": [
+      50.0,
+      500.0
+     ],
+     "Lucanthone": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Lumateperone (tosylate)": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Methylprednisolone succinate": [
+      50.0,
+      500.0
+     ],
+     "NG25": [
+      50.0,
+      500.0
+     ],
+     "Naproxen": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "OTS514": [
+      50.0,
+      500.0
+     ],
+     "Ornidazole": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Ouabain (Octahydrate)": [
+      50.0,
+      500.0
+     ],
+     "PF-06260933": [
+      50.0,
+      500.0
+     ],
+     "Paclitaxel": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Pentamidine (isethionate)": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Pentoxifylline": [
+      50.0,
+      500.0
+     ],
+     "Phenytoin (sodium)": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Pravastatin (sodium)": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Rapamycin": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Ribociclib": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Ropivacaine (hydrochloride monohydrate)": [
+      50.0,
+      5000.0
+     ],
+     "Roxadustat": [
+      500.0,
+      5000.0
+     ],
+     "Rutin (trihydrate)": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Sapanisertib": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Silodosin": [
+      50.0,
+      500.0
+     ],
+     "Simotinib": [
+      50.0,
+      500.0
+     ],
+     "Sinomenine": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Thymopentin": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Tranilast": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Triclosan": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Tucatinib": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Vinblastine (sulfate)": [
+      50.0,
+      5000.0
+     ],
+     "Volasertib": [
+      50.0,
+      500.0
+     ],
+     "Voriconazole": [
+      50.0,
+      500.0
+     ],
+     "olaparib": [
+      50.0,
+      500.0
+     ]
+    },
+    "training_names_not_in_match": 0,
+    "cv": {
+     "f": {
+      "alpha": 1000.0,
+      "mse": 0.08562965582323698,
+      "r2": 0.01441587736624561
+     },
+     "qsar": {
+      "alpha": 1000.0,
+      "mse": 0.11026612880961066,
+      "r2": -0.2691461243681603
+     },
+     "f_extended_grid": {
+      "alpha": 1000.0,
+      "mse": 0.08562965582323698,
+      "r2": 0.01441587736624561
+     },
+     "f_highest_dose": {
+      "alpha": 1000.0,
+      "mse": 0.08457087346727296,
+      "r2": 0.06383788340018925
+     },
+     "qsar_highest_dose": {
+      "alpha": 1000.0,
+      "mse": 0.08755925843016017,
+      "r2": 0.03075778528397255
+     },
+     "label_variance_training": 0.08688213807098552
+    },
+    "variants": {
+     "extended_alpha_grid": {
+      "n_pairs": 152,
+      "n_drugs": 17,
+      "U": {
+       "recipe": -0.25168821374703726,
+       "ridge_train": 0.19235994397759104,
+       "ceiling": -0.09944139194139197,
+       "qsar": 0.2746487825899591,
+       "effect_size": 0.08986156000861881,
+       "effect_size_measured": 0.41355472958414136
+      },
+      "contrasts": {
+       "U_recipe_minus_0": {
+        "diff": -0.25168821374703726,
+        "ci": [
+         -0.5992291381519069,
+         0.23473104514682336
+        ],
+        "verdict": "includes zero"
+       },
+       "U_recipe_minus_ridge_train": {
+        "diff": -0.4440481577246283,
+        "ci": [
+         -0.8466197762782637,
+         0.01847750303558168
+        ],
+        "verdict": "includes zero"
+       },
+       "U_ceiling_minus_0": {
+        "diff": -0.09944139194139197,
+        "ci": [
+         -0.4755052795598637,
+         0.2870283424150926
+        ],
+        "verdict": "includes zero"
+       },
+       "U_qsar_minus_0": {
+        "diff": 0.2746487825899591,
+        "ci": [
+         -0.17563438307504592,
+         0.6676852349150696
+        ],
+        "verdict": "includes zero"
+       },
+       "U_recipe_minus_qsar": {
+        "diff": -0.5263369963369964,
+        "ci": [
+         -0.9973511249873679,
+         -0.0228030935871965
+        ],
+        "verdict": "below zero"
+       },
+       "U_effect_size_measured_minus_0": {
+        "diff": 0.41355472958414136,
+        "ci": [
+         -0.04459152389346038,
+         0.6795199615801307
+        ],
+        "verdict": "includes zero"
+       },
+       "U_recipe_minus_ceiling": {
+        "diff": -0.1522468218056453,
+        "ci": [
+         -0.4711562534041837,
+         0.23201954276727121
+        ],
+        "verdict": "includes zero"
+       }
+      }
+     },
+     "highest_dose": {
+      "n_pairs": 240,
+      "n_drugs": 27,
+      "U": {
+       "recipe": -0.13394109231621568,
+       "ridge_train": 0.23983902851527708,
+       "ceiling": 0.3323568651149207,
+       "qsar": 0.5170251174259032,
+       "effect_size": 0.0830752577741297,
+       "effect_size_measured": 0.5090110289959686
+      },
+      "contrasts": {
+       "U_recipe_minus_0": {
+        "diff": -0.13394109231621568,
+        "ci": [
+         -0.4415427487317697,
+         0.214417484334927
+        ],
+        "verdict": "includes zero"
+       },
+       "U_recipe_minus_ridge_train": {
+        "diff": -0.37378012083149276,
+        "ci": [
+         -0.7328048879279002,
+         0.006005893726047961
+        ],
+        "verdict": "includes zero"
+       },
+       "U_ceiling_minus_0": {
+        "diff": 0.3323568651149207,
+        "ci": [
+         0.07687541552653779,
+         0.5478462986211198
+        ],
+        "verdict": "above zero"
+       },
+       "U_qsar_minus_0": {
+        "diff": 0.5170251174259032,
+        "ci": [
+         0.2160253309715936,
+         0.7162158309557304
+        ],
+        "verdict": "above zero"
+       },
+       "U_recipe_minus_qsar": {
+        "diff": -0.6509662097421188,
+        "ci": [
+         -1.0055804086199012,
+         -0.21448008267330682
+        ],
+        "verdict": "below zero"
+       },
+       "U_effect_size_measured_minus_0": {
+        "diff": 0.5090110289959686,
+        "ci": [
+         0.1589966965565265,
+         0.7287875078289053
+        ],
+        "verdict": "above zero"
+       },
+       "U_recipe_minus_ceiling": {
+        "diff": -0.46629795743113633,
+        "ci": [
+         -0.6892075494618958,
+         -0.17371407127325947
+        ],
+        "verdict": "below zero"
+       }
+      }
+     }
+    }
+   }
+  },
+  "drug_split_0": {
+   "n_conditions": 3115,
+   "n_held_structures": 75,
+   "dose_levels": [
+    50.0,
+    500.0,
+    5000.0
+   ],
+   "top_dose": 5000.0,
+   "n_training_pairs": 536,
+   "n_training_drugs": 61,
+   "alpha_f": 1000.0,
+   "alpha_qsar": 1000.0,
+   "n_heldout_pairs_top_dose": 444,
+   "n_labelled_pairs": 150,
+   "n_labelled_drugs": 17,
+   "n_unlabelled_pairs": 294,
+   "pairs_per_line": {
+    "A-172": 16,
+    "H4": 15,
+    "HCT15": 17,
+    "HT-29": 15,
+    "LS 180": 15,
+    "LoVo": 16,
+    "RKO": 15,
+    "SW 1088": 12,
+    "SW48": 15,
+    "SW480": 14
+   },
+   "n_lines_scored": 10,
+   "U": {
+    "ridge_S7": 0.016675089616266094,
+    "ridge_train": 0.1762074200309494,
+    "mean_response": 0.0,
+    "control_paste": 0.0,
+    "base": 0.021739143209731443,
+    "recipe": 0.1582893577011224,
+    "guidance_w2": 0.15823994632818156,
+    "attn_cross": 0.2186386652563123,
+    "mlp_ctrl": 0.16933669271904567,
+    "ceiling": 0.14241479109126168,
+    "qsar": 0.01722125913302384,
+    "effect_size": 0.3802044034396975,
+    "effect_size_measured": 0.26263843999138115
+   },
+   "U_per_seed": {
+    "base": [
+     0.07579915182856359,
+     0.07050067579479347,
+     -0.09197131300072474
+    ],
+    "recipe": [
+     0.13938566335625158,
+     0.12536365595189125,
+     0.1936713776419659
+    ],
+    "guidance_w2": [
+     0.16047712091829736,
+     0.14212160388630976,
+     0.1682596325243384
+    ],
+    "attn_cross": [
+     0.19763657910716736,
+     0.2340752384870032,
+     0.20539005112534525
+    ],
+    "mlp_ctrl": [
+     0.12773809523809523,
+     0.20469917337564394,
+     0.1585640340052105
+    ]
+   },
+   "within_drug": {
+    "ridge_S7": 0.08531958237840594,
+    "ridge_train": -0.00793226381461678,
+    "mean_response": 0.210873440285205,
+    "control_paste": 0.0,
+    "base": 0.08520499108734401,
+    "recipe": 0.054227145403615985,
+    "guidance_w2": 0.016959511077158134,
+    "attn_cross": 0.07626687038451745,
+    "mlp_ctrl": 0.0362872421695951,
+    "ceiling": 0.12439521263050676,
+    "qsar": 0.3185892538833715,
+    "effect_size": -0.156646294881589,
+    "effect_size_measured": -0.1330786860198625
+   },
+   "contrasts": {
+    "Q1_primary_U_recipe_minus_0": {
+     "diff": 0.1582893577011224,
+     "ci": [
+      -0.20506317912563257,
+      0.5033865820657292
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.35422488059568086
+    },
+    "Q2_coprimary_U_recipe_minus_ridge_train": {
+     "diff": -0.01791806232982701,
+     "ci": [
+      -0.274225895265389,
+      0.2232797937133811
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.24875284448938506
+    },
+    "secondary_U_ridge_S7_minus_0": {
+     "diff": 0.016675089616266094,
+     "ci": [
+      -0.28668870179851264,
+      0.3355801368862929
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.31113441934240277
+    },
+    "secondary_U_ridge_train_minus_0": {
+     "diff": 0.1762074200309494,
+     "ci": [
+      -0.1619582372923125,
+      0.4741615154309647
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.31805987636163857
+    },
+    "secondary_U_mean_response_minus_0": {
+     "diff": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.0
+    },
+    "secondary_U_control_paste_minus_0": {
+     "diff": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.0
+    },
+    "secondary_U_base_minus_0": {
+     "diff": 0.021739143209731443,
+     "ci": [
+      -0.25532063358941315,
+      0.35204436447156373
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.30368249903048844
+    },
+    "secondary_U_guidance_w2_minus_0": {
+     "diff": 0.15823994632818156,
+     "ci": [
+      -0.22390623555326375,
+      0.5137290476021386
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.36881764157770114
+    },
+    "secondary_U_attn_cross_minus_0": {
+     "diff": 0.2186386652563123,
+     "ci": [
+      -0.15272390238310843,
+      0.5377160749921381
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.34521998868762327
+    },
+    "secondary_U_mlp_ctrl_minus_0": {
+     "diff": 0.16933669271904567,
+     "ci": [
+      -0.18156944021511304,
+      0.5012098375753782
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.3413896388952456
+    },
+    "secondary_U_ceiling_minus_0": {
+     "diff": 0.14241479109126168,
+     "ci": [
+      -0.22386142431988473,
+      0.4870471593596698
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.3554542918397773
+    },
+    "secondary_U_qsar_minus_0": {
+     "diff": 0.01722125913302384,
+     "ci": [
+      -0.49435768824652093,
+      0.4590664291761964
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.4767120587113587
+    },
+    "secondary_U_effect_size_minus_0": {
+     "diff": 0.3802044034396975,
+     "ci": [
+      -0.020212580927056103,
+      0.6747302779186104
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.34747142942283327
+    },
+    "secondary_U_effect_size_measured_minus_0": {
+     "diff": 0.26263843999138115,
+     "ci": [
+      -0.13858317560442254,
+      0.603690342281166
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.3711367589427943
+    },
+    "secondary_U_recipe_minus_ceiling": {
+     "diff": 0.015874566609860724,
+     "ci": [
+      -0.2776482333173233,
+      0.29140049871716517
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.28452436601724423
+    },
+    "secondary_U_recipe_minus_qsar": {
+     "diff": 0.14106809856809857,
+     "ci": [
+      -0.27488831203042535,
+      0.5779691196073558
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.4264287158188905
+    },
+    "secondary_U_recipe_minus_effect_size": {
+     "diff": -0.22191504573857512,
+     "ci": [
+      -0.4685585572015346,
+      0.03392131762964772
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.25123993741559114
+    },
+    "secondary_U_recipe_minus_ridge_S7": {
+     "diff": 0.1416142680848563,
+     "ci": [
+      -0.420329384054901,
+      0.6920476447744905
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.5561885144146957
+    },
+    "secondary_U_guidance_w2_minus_recipe": {
+     "diff": -4.941137294084408e-05,
+     "ci": [
+      -0.1257952820087704,
+      0.129636810156432
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.1277160460826012
+    },
+    "exploratory_U_attn_cross_minus_mlp_ctrl": {
+     "diff": 0.04930197253726662,
+     "ci": [
+      -0.023421435854596006,
+      0.11345215556411496
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.06843679570935549
+    },
+    "secondary_withindrug_recipe_minus_0": {
+     "diff": 0.054227145403615985,
+     "ci": [
+      -0.101088298955946,
+      0.19719951617010437
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.14914390756302517
+    },
+    "secondary_withindrug_ridge_train_minus_0": {
+     "diff": -0.00793226381461678,
+     "ci": [
+      -0.27312611408199644,
+      0.25220524573465747
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.26266567990832695
+    },
+    "secondary_withindrug_ceiling_minus_0": {
+     "diff": 0.12439521263050676,
+     "ci": [
+      -0.0443022663610899,
+      0.29144050802139015
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.16787138719124003
+    },
+    "secondary_withindrug_qsar_minus_0": {
+     "diff": 0.3185892538833715,
+     "ci": [
+      0.13324213776419658,
+      0.5025023873185639
+     ],
+     "verdict": "above zero",
+     "half_width": 0.18463012477718366
+    }
+   },
+   "exploratory": {
+    "lost_pairs_top_dose": 153,
+    "labelled_heldout_pairs_prism_lines": 303,
+    "heldout_drugs_without_top_dose": [
+     "Belumosudil (mesylate)",
+     "Bicalutamide",
+     "Cobimetinib",
+     "Drospirenone",
+     "Filgotinib",
+     "Idoxuridine",
+     "Niclosamide (olamine)",
+     "Omeprazole",
+     "Panobinostat",
+     "Penfluridol",
+     "Ponatinib",
+     "Sonidegib",
+     "Sunitinib",
+     "Uridine",
+     "venetoclax",
+     "vincristine"
+    ],
+    "dose_levels_available_per_heldout_drug": {
+     "APTO-253": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Adagrasib": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Afatinib": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Aliskiren": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Allantoin": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Anethole trithione": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Auranofin": [
+      50.0,
+      500.0
+     ],
+     "Balsalazide (sodium hydrate)": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Belumosudil (mesylate)": [
+      50.0,
+      500.0
+     ],
+     "Benproperine (phosphate)": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Benztropine (mesylate)": [
+      50.0,
+      500.0
+     ],
+     "Berbamine": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Berberine (chloride hydrate)": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Bicalutamide": [
+      50.0,
+      500.0
+     ],
+     "Chlorhexidine (diacetate)": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Ciclopirox": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Clopidogrel": [
+      50.0,
+      500.0
+     ],
+     "Cobimetinib": [
+      500.0
+     ],
+     "Cytarabine (hydrochloride)": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "DTP3": [
+      50.0,
+      500.0
+     ],
+     "Daptomycin": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Dexmedetomidine": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Dimethyl fumarate": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Dorzolamide (hydrochloride)": [
+      500.0,
+      5000.0
+     ],
+     "Drospirenone": [
+      50.0,
+      500.0
+     ],
+     "EX229": [
+      50.0,
+      500.0
+     ],
+     "Econazole": [
+      50.0,
+      500.0
+     ],
+     "Elimusertib hydrochloride": [
+      50.0,
+      500.0
+     ],
+     "Erdafitinib": [
+      50.0,
+      5000.0
+     ],
+     "Esmolol (hydrochloride)": [
+      50.0,
+      500.0
+     ],
+     "Filgotinib": [
+      50.0,
+      500.0
+     ],
+     "Finasteride": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Flumatinib (mesylate)": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Furosemide": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Homoharringtonine": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Idoxuridine": [
+      50.0,
+      500.0
+     ],
+     "Irinotecan": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Ixazomib citrate": [
+      50.0,
+      500.0
+     ],
+     "L-Thyroxine (sodium salt pentahydrate)": [
+      50.0,
+      5000.0
+     ],
+     "Lenalidomide (hemihydrate)": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Lipoic acid": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Megestrol": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Minodronic acid": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Nevirapine": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Niclosamide (olamine)": [
+      50.0,
+      500.0
+     ],
+     "Nimesulide": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Omeprazole": [
+      50.0
+     ],
+     "Oxaliplatin": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Panobinostat": [
+      50.0,
+      500.0
+     ],
+     "Pemetrexed": [
+      50.0,
+      500.0
+     ],
+     "Penfluridol": [
+      50.0,
+      500.0
+     ],
+     "Pentagastrin": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Peretinoin": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Pioglitazone": [
+      50.0,
+      500.0
+     ],
+     "Ponatinib": [
+      50.0,
+      500.0
+     ],
+     "Posaconazole": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Pyridoxine": [
+      50.0,
+      5000.0
+     ],
+     "Pyridoxine (hydrochloride)": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Quinestrol": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Quinidine (15% dihydroquinidine)": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "RMC-6236": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Resveratrol": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Rifaximin": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Sildenafil": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Sonidegib": [
+      50.0,
+      500.0
+     ],
+     "Sunitinib": [
+      50.0,
+      500.0
+     ],
+     "Talc": [
+      50.0,
+      500.0
+     ],
+     "Temsirolimus": [
+      50.0,
+      5000.0
+     ],
+     "Torkinib": [
+      50.0,
+      500.0
+     ],
+     "Trimetrexate": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Tucidinostat": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Uridine": [
+      50.0,
+      500.0
+     ],
+     "Vemurafenib": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "venetoclax": [
+      50.0,
+      500.0
+     ],
+     "vincristine": [
+      50.0
+     ]
+    },
+    "training_names_not_in_match": 0,
+    "cv": {
+     "f": {
+      "alpha": 1000.0,
+      "mse": 0.09593865135794444,
+      "r2": 0.017829079639362977
+     },
+     "qsar": {
+      "alpha": 1000.0,
+      "mse": 0.1020096387005242,
+      "r2": -0.04432258855026472
+     },
+     "f_extended_grid": {
+      "alpha": 1000.0,
+      "mse": 0.09593865135794444,
+      "r2": 0.017829079639362977
+     },
+     "f_highest_dose": {
+      "alpha": 1000.0,
+      "mse": 0.08875254437467975,
+      "r2": 0.07570365346455465
+     },
+     "qsar_highest_dose": {
+      "alpha": 1000.0,
+      "mse": 0.08685954657857087,
+      "r2": 0.0954179158473496
+     },
+     "label_variance_training": 0.09768019941245801
+    },
+    "variants": {
+     "extended_alpha_grid": {
+      "n_pairs": 150,
+      "n_drugs": 17,
+      "U": {
+       "recipe": 0.1582893577011224,
+       "ridge_train": 0.1762074200309494,
+       "ceiling": 0.14241479109126168,
+       "qsar": 0.01722125913302384,
+       "effect_size": 0.3802044034396975,
+       "effect_size_measured": 0.26263843999138115
+      },
+      "contrasts": {
+       "U_recipe_minus_0": {
+        "diff": 0.1582893577011224,
+        "ci": [
+         -0.2113595819884808,
+         0.4903282415674623
+        ],
+        "verdict": "includes zero"
+       },
+       "U_recipe_minus_ridge_train": {
+        "diff": -0.01791806232982701,
+        "ci": [
+         -0.2881053910255059,
+         0.2253201312494659
+        ],
+        "verdict": "includes zero"
+       },
+       "U_ceiling_minus_0": {
+        "diff": 0.14241479109126168,
+        "ci": [
+         -0.21822096711521466,
+         0.46850068611882323
+        ],
+        "verdict": "includes zero"
+       },
+       "U_qsar_minus_0": {
+        "diff": 0.01722125913302384,
+        "ci": [
+         -0.4580276975140738,
+         0.4586924885129226
+        ],
+        "verdict": "includes zero"
+       },
+       "U_recipe_minus_qsar": {
+        "diff": 0.14106809856809857,
+        "ci": [
+         -0.2728804524203303,
+         0.5507099176864728
+        ],
+        "verdict": "includes zero"
+       },
+       "U_effect_size_measured_minus_0": {
+        "diff": 0.26263843999138115,
+        "ci": [
+         -0.13524875394135658,
+         0.5852231588807648
+        ],
+        "verdict": "includes zero"
+       },
+       "U_recipe_minus_ceiling": {
+        "diff": 0.015874566609860724,
+        "ci": [
+         -0.285739460030957,
+         0.2952955248537671
+        ],
+        "verdict": "includes zero"
+       }
+      }
+     },
+     "highest_dose": {
+      "n_pairs": 289,
+      "n_drugs": 33,
+      "U": {
+       "recipe": 0.18694985628997274,
+       "ridge_train": 0.14568067028611423,
+       "ceiling": 0.2645773966376924,
+       "qsar": 0.15864125759516062,
+       "effect_size": 0.17479389005071133,
+       "effect_size_measured": 0.3449264086259441
+      },
+      "contrasts": {
+       "U_recipe_minus_0": {
+        "diff": 0.18694985628997274,
+        "ci": [
+         -0.0901774058222415,
+         0.43854703414130036
+        ],
+        "verdict": "includes zero"
+       },
+       "U_recipe_minus_ridge_train": {
+        "diff": 0.04126918600385851,
+        "ci": [
+         -0.2525247462253793,
+         0.3443746439532932
+        ],
+        "verdict": "includes zero"
+       },
+       "U_ceiling_minus_0": {
+        "diff": 0.2645773966376924,
+        "ci": [
+         0.04201095952399487,
+         0.44712429393930064
+        ],
+        "verdict": "above zero"
+       },
+       "U_qsar_minus_0": {
+        "diff": 0.15864125759516062,
+        "ci": [
+         -0.18273246642822014,
+         0.4570278812888904
+        ],
+        "verdict": "includes zero"
+       },
+       "U_recipe_minus_qsar": {
+        "diff": 0.028308598694812115,
+        "ci": [
+         -0.3270459408131372,
+         0.4082666757655269
+        ],
+        "verdict": "includes zero"
+       },
+       "U_effect_size_measured_minus_0": {
+        "diff": 0.3449264086259441,
+        "ci": [
+         0.034845441717451436,
+         0.5911277473675877
+        ],
+        "verdict": "above zero"
+       },
+       "U_recipe_minus_ceiling": {
+        "diff": -0.07762754034771968,
+        "ci": [
+         -0.30462642592012495,
+         0.13954658112885793
+        ],
+        "verdict": "includes zero"
+       }
+      }
+     }
+    }
+   }
+  },
+  "drug_split_2": {
+   "n_conditions": 2853,
+   "n_held_structures": 75,
+   "dose_levels": [
+    50.0,
+    500.0,
+    5000.0
+   ],
+   "top_dose": 5000.0,
+   "n_training_pairs": 581,
+   "n_training_drugs": 65,
+   "alpha_f": 1000.0,
+   "alpha_qsar": 1000.0,
+   "n_heldout_pairs_top_dose": 435,
+   "n_labelled_pairs": 105,
+   "n_labelled_drugs": 13,
+   "n_unlabelled_pairs": 330,
+   "pairs_per_line": {
+    "A-172": 10,
+    "H4": 9,
+    "HCT15": 13,
+    "HT-29": 13,
+    "LS 180": 12,
+    "LoVo": 8,
+    "RKO": 11,
+    "SW 1088": 9,
+    "SW48": 9,
+    "SW480": 11
+   },
+   "n_lines_scored": 10,
+   "U": {
+    "ridge_S7": 0.10500499500499501,
+    "ridge_train": 0.10858141858141859,
+    "mean_response": 0.0,
+    "control_paste": 0.0,
+    "base": 0.39028471528471526,
+    "recipe": 0.4428771228771229,
+    "guidance_w2": 0.5258208458208459,
+    "attn_cross": 0.49626706626706624,
+    "mlp_ctrl": 0.5037012987012986,
+    "ceiling": 0.4724675324675324,
+    "qsar": -0.19832667332667334,
+    "effect_size": 0.4061122211122211,
+    "effect_size_measured": 0.4667965367965368
+   },
+   "U_per_seed": {
+    "base": [
+     0.3592840492840493,
+     0.3823526473526474,
+     0.2965750915750916
+    ],
+    "recipe": [
+     0.3978155178155178,
+     0.41767898767898776,
+     0.489935064935065
+    ],
+    "guidance_w2": [
+     0.5044405594405594,
+     0.516953046953047,
+     0.5613669663669665
+    ],
+    "attn_cross": [
+     0.46659174159174166,
+     0.47510656010656016,
+     0.5043356643356642
+    ],
+    "mlp_ctrl": [
+     0.4970962370962371,
+     0.47897102897102906,
+     0.47894272394272397
+    ]
+   },
+   "within_drug": {
+    "ridge_S7": -0.0016317016317016252,
+    "ridge_train": -0.1574259074259074,
+    "mean_response": 0.07079587079587081,
+    "control_paste": 0.0,
+    "base": 0.04482184482184481,
+    "recipe": 0.10008325008325006,
+    "guidance_w2": 0.07287712287712285,
+    "attn_cross": 0.06103896103896104,
+    "mlp_ctrl": 0.10246420246420246,
+    "ceiling": 0.035814185814185814,
+    "qsar": 0.08509823509823512,
+    "effect_size": -0.020812520812520833,
+    "effect_size_measured": -0.0029137529137529114
+   },
+   "contrasts": {
+    "Q1_primary_U_recipe_minus_0": {
+     "diff": 0.4428771228771229,
+     "ci": [
+      0.04664176046250237,
+      0.693968129420088
+     ],
+     "verdict": "above zero",
+     "half_width": 0.32366318447879283
+    },
+    "Q2_coprimary_U_recipe_minus_ridge_train": {
+     "diff": 0.3342957042957043,
+     "ci": [
+      -0.17039635882777307,
+      0.6917280654044877
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.4310622121161304
+    },
+    "secondary_U_ridge_S7_minus_0": {
+     "diff": 0.10500499500499501,
+     "ci": [
+      -0.35455104342163357,
+      0.6093008637074394
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.4819259535645365
+    },
+    "secondary_U_ridge_train_minus_0": {
+     "diff": 0.10858141858141859,
+     "ci": [
+      -0.2972959935148007,
+      0.6067678298461662
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.4520319116804834
+    },
+    "secondary_U_mean_response_minus_0": {
+     "diff": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.0
+    },
+    "secondary_U_control_paste_minus_0": {
+     "diff": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.0
+    },
+    "secondary_U_base_minus_0": {
+     "diff": 0.39028471528471526,
+     "ci": [
+      0.09421285342592067,
+      0.6148361386822873
+     ],
+     "verdict": "above zero",
+     "half_width": 0.2603116426281833
+    },
+    "secondary_U_guidance_w2_minus_0": {
+     "diff": 0.5258208458208459,
+     "ci": [
+      0.12048814258442524,
+      0.7283361497649248
+     ],
+     "verdict": "above zero",
+     "half_width": 0.3039240035902498
+    },
+    "secondary_U_attn_cross_minus_0": {
+     "diff": 0.49626706626706624,
+     "ci": [
+      0.10025966840237387,
+      0.7030980716268688
+     ],
+     "verdict": "above zero",
+     "half_width": 0.30141920161224744
+    },
+    "secondary_U_mlp_ctrl_minus_0": {
+     "diff": 0.5037012987012986,
+     "ci": [
+      0.09125750410488406,
+      0.7241417222142142
+     ],
+     "verdict": "above zero",
+     "half_width": 0.3164421090546651
+    },
+    "secondary_U_ceiling_minus_0": {
+     "diff": 0.4724675324675324,
+     "ci": [
+      -0.05511048116871854,
+      0.786749022836325
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.42092975200252175
+    },
+    "secondary_U_qsar_minus_0": {
+     "diff": -0.19832667332667334,
+     "ci": [
+      -0.7295613210226433,
+      0.5894431974207807
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.6595022592217119
+    },
+    "secondary_U_effect_size_minus_0": {
+     "diff": 0.4061122211122211,
+     "ci": [
+      -0.0914697093337455,
+      0.646316315782983
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.36889301255836426
+    },
+    "secondary_U_effect_size_measured_minus_0": {
+     "diff": 0.4667965367965368,
+     "ci": [
+      -0.030763436436396587,
+      0.7414118101561635
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.38608762329628005
+    },
+    "secondary_U_recipe_minus_ceiling": {
+     "diff": -0.02959040959040954,
+     "ci": [
+      -0.43028626397968317,
+      0.3523251910421581
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.39130572751092063
+    },
+    "secondary_U_recipe_minus_qsar": {
+     "diff": 0.6412037962037962,
+     "ci": [
+      -0.059492650398337704,
+      1.080053737133333
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.5697731937658354
+    },
+    "secondary_U_recipe_minus_effect_size": {
+     "diff": 0.03676490176490177,
+     "ci": [
+      -0.2613281819689012,
+      0.3970840607723215
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.32920612137061134
+    },
+    "secondary_U_recipe_minus_ridge_S7": {
+     "diff": 0.3378721278721279,
+     "ci": [
+      -0.2850332494449998,
+      0.7965553815460785
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.5407943154955391
+    },
+    "secondary_U_guidance_w2_minus_recipe": {
+     "diff": 0.08294372294372299,
+     "ci": [
+      -0.060029855986252524,
+      0.28070011436045594
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.17036498517335424
+    },
+    "exploratory_U_attn_cross_minus_mlp_ctrl": {
+     "diff": -0.007434232434232413,
+     "ci": [
+      -0.08112785803573565,
+      0.0818986589121648
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.08151325847395022
+    },
+    "secondary_withindrug_recipe_minus_0": {
+     "diff": 0.10008325008325006,
+     "ci": [
+      -0.17939560439560442,
+      0.3373634698634698
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.2583795371295371
+    },
+    "secondary_withindrug_ridge_train_minus_0": {
+     "diff": -0.1574259074259074,
+     "ci": [
+      -0.37520458707958715,
+      0.059873459873459864
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.2175390234765235
+    },
+    "secondary_withindrug_ceiling_minus_0": {
+     "diff": 0.035814185814185814,
+     "ci": [
+      -0.16831959706959707,
+      0.24223026973026965
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.20527493339993336
+    },
+    "secondary_withindrug_qsar_minus_0": {
+     "diff": 0.08509823509823512,
+     "ci": [
+      -0.16626040626040628,
+      0.3310381285381285
+     ],
+     "verdict": "includes zero",
+     "half_width": 0.24864926739926738
+    }
+   },
+   "exploratory": {
+    "lost_pairs_top_dose": 118,
+    "labelled_heldout_pairs_prism_lines": 223,
+    "heldout_drugs_without_top_dose": [
+     "AZD2858",
+     "Belinostat",
+     "Binimetinib",
+     "Dihydroartemisinin",
+     "Doxorubicin (hydrochloride)",
+     "Ivermectin",
+     "Lonafarnib",
+     "NVP-BHG712",
+     "Neratinib",
+     "Osimertinib (mesylate)",
+     "Vandetanib",
+     "palbociclib"
+    ],
+    "dose_levels_available_per_heldout_drug": {
+     "AZD-7648": [
+      50.0,
+      500.0
+     ],
+     "AZD2858": [
+      50.0
+     ],
+     "Abiraterone acetate": [
+      50.0,
+      500.0
+     ],
+     "Adenine": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Allopurinol": [
+      50.0,
+      500.0
+     ],
+     "Almonertinib (mesylate)": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Altretamine": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Amsacrine": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Aprepitant": [
+      50.0,
+      500.0
+     ],
+     "BI-3406": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Baicalin": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Belinostat": [
+      50.0
+     ],
+     "Bentamapimod": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Bimatoprost": [
+      50.0,
+      5000.0
+     ],
+     "Binimetinib": [
+      50.0,
+      500.0
+     ],
+     "Bisoprolol (hemifumarate)": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Canagliflozin": [
+      500.0
+     ],
+     "Cilostazol": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Cysteamine (hydrochloride)": [
+      50.0,
+      5000.0
+     ],
+     "DT-061": [
+      50.0,
+      500.0
+     ],
+     "Dapagliflozin": [
+      50.0,
+      500.0
+     ],
+     "Decitabine": [
+      500.0,
+      5000.0
+     ],
+     "Delamanid": [
+      50.0,
+      500.0
+     ],
+     "Demeclocycline": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Dihydroartemisinin": [
+      50.0,
+      500.0
+     ],
+     "Doxorubicin (hydrochloride)": [
+      50.0,
+      500.0
+     ],
+     "ERK5-IN-2": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Edoxaban (tosylate monohydrate)": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Entecavir (monohydrate)": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Epirubicin (hydrochloride)": [
+      500.0,
+      5000.0
+     ],
+     "Eplerenone": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Fedratinib (hydrochloride hydrate)": [
+      50.0,
+      500.0
+     ],
+     "Fluvoxamine (maleate)": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Folic acid": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Gallic acid": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Gemcitabine": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Hydroxyfasudil": [
+      50.0,
+      500.0
+     ],
+     "Indacaterol (maleate)": [
+      50.0,
+      500.0
+     ],
+     "Ipatasertib": [
+      50.0,
+      5000.0
+     ],
+     "Ivermectin": [
+      50.0
+     ],
+     "L-Eflornithine (monohydrochloride)": [
+      50.0,
+      500.0
+     ],
+     "Lactate (calcium)": [
+      50.0,
+      500.0
+     ],
+     "Levobupivacaine (hydrochloride)": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Lonafarnib": [
+      50.0,
+      500.0
+     ],
+     "ML264": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Malotilate": [
+      50.0,
+      500.0
+     ],
+     "Mebendazole": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Menadione": [
+      500.0,
+      5000.0
+     ],
+     "Mitoxantrone (dihydrochloride)": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "NVP-BHG712": [
+      50.0,
+      500.0
+     ],
+     "Neratinib": [
+      50.0,
+      500.0
+     ],
+     "Olanzapine": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Oleic acid": [
+      50.0,
+      500.0
+     ],
+     "Osimertinib (mesylate)": [
+      50.0,
+      500.0
+     ],
+     "Palmatine (chloride)": [
+      50.0,
+      5000.0
+     ],
+     "Pasireotide (acetate)": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Pexidartinib (hydrochloride)": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Plicamycin": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Pralsetinib": [
+      50.0,
+      500.0
+     ],
+     "Procainamide (hydrochloride)": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Proglumide": [
+      50.0,
+      500.0
+     ],
+     "Radotinib": [
+      50.0,
+      5000.0
+     ],
+     "Ranolazine": [
+      50.0,
+      500.0
+     ],
+     "Relugolix": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Rimonabant (Hydrochloride)": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Ritonavir": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Salicylic acid": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Sivelestat (sodium tetrahydrate)": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Sulfatinib": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Sulfisoxazole": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "TAK-901": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Tofacitinib": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Trifluridine": [
+      50.0,
+      500.0,
+      5000.0
+     ],
+     "Vandetanib": [
+      50.0,
+      500.0
+     ],
+     "Zileuton": [
+      50.0,
+      500.0
+     ],
+     "palbociclib": [
+      50.0,
+      500.0
+     ]
+    },
+    "training_names_not_in_match": 0,
+    "cv": {
+     "f": {
+      "alpha": 1000.0,
+      "mse": 0.08333587664878642,
+      "r2": 0.003811591916413337
+     },
+     "qsar": {
+      "alpha": 1000.0,
+      "mse": 0.08679035425772677,
+      "r2": -0.037482874385463605
+     },
+     "f_extended_grid": {
+      "alpha": 1000.0,
+      "mse": 0.08333587664878642,
+      "r2": 0.003811591916413337
+     },
+     "f_highest_dose": {
+      "alpha": 1000.0,
+      "mse": 0.077351215603858,
+      "r2": 0.08803288797811304
+     },
+     "qsar_highest_dose": {
+      "alpha": 1000.0,
+      "mse": 0.07422623584359153,
+      "r2": 0.12487624906622141
+     },
+     "label_variance_training": 0.08365473435803521
+    },
+    "variants": {
+     "extended_alpha_grid": {
+      "n_pairs": 105,
+      "n_drugs": 13,
+      "U": {
+       "recipe": 0.4428771228771229,
+       "ridge_train": 0.10858141858141859,
+       "ceiling": 0.4724675324675324,
+       "qsar": -0.19832667332667334,
+       "effect_size": 0.4061122211122211,
+       "effect_size_measured": 0.4667965367965368
+      },
+      "contrasts": {
+       "U_recipe_minus_0": {
+        "diff": 0.4428771228771229,
+        "ci": [
+         0.04327839643567273,
+         0.7067101717965266
+        ],
+        "verdict": "above zero"
+       },
+       "U_recipe_minus_ridge_train": {
+        "diff": 0.3342957042957043,
+        "ci": [
+         -0.1876198589902344,
+         0.6988181440231866
+        ],
+        "verdict": "includes zero"
+       },
+       "U_ceiling_minus_0": {
+        "diff": 0.4724675324675324,
+        "ci": [
+         -0.018759390589272913,
+         0.7874001264050826
+        ],
+        "verdict": "includes zero"
+       },
+       "U_qsar_minus_0": {
+        "diff": -0.19832667332667334,
+        "ci": [
+         -0.7191660779868128,
+         0.6137605813049772
+        ],
+        "verdict": "includes zero"
+       },
+       "U_recipe_minus_qsar": {
+        "diff": 0.6412037962037962,
+        "ci": [
+         -0.0634111179679607,
+         1.0767496143239206
+        ],
+        "verdict": "includes zero"
+       },
+       "U_effect_size_measured_minus_0": {
+        "diff": 0.4667965367965368,
+        "ci": [
+         0.011030463557523282,
+         0.7407640250401343
+        ],
+        "verdict": "above zero"
+       },
+       "U_recipe_minus_ceiling": {
+        "diff": -0.02959040959040954,
+        "ci": [
+         -0.4392646277831012,
+         0.3401121113442286
+        ],
+        "verdict": "includes zero"
+       }
+      }
+     },
+     "highest_dose": {
+      "n_pairs": 214,
+      "n_drugs": 25,
+      "U": {
+       "recipe": 0.4100045125526958,
+       "ridge_train": 0.14415572569771212,
+       "ceiling": 0.13423321157985912,
+       "qsar": 0.18737756735594058,
+       "effect_size": 0.3442045742248371,
+       "effect_size_measured": 0.2895818094918311
+      },
+      "contrasts": {
+       "U_recipe_minus_0": {
+        "diff": 0.4100045125526958,
+        "ci": [
+         0.15333095732970436,
+         0.5694422399736222
+        ],
+        "verdict": "above zero"
+       },
+       "U_recipe_minus_ridge_train": {
+        "diff": 0.2658487868549837,
+        "ci": [
+         -0.13549013765927193,
+         0.6307721676787896
+        ],
+        "verdict": "includes zero"
+       },
+       "U_ceiling_minus_0": {
+        "diff": 0.13423321157985912,
+        "ci": [
+         -0.15812153295665396,
+         0.3745453140333718
+        ],
+        "verdict": "includes zero"
+       },
+       "U_qsar_minus_0": {
+        "diff": 0.18737756735594058,
+        "ci": [
+         -0.22171257931463906,
+         0.5208959431693464
+        ],
+        "verdict": "includes zero"
+       },
+       "U_recipe_minus_qsar": {
+        "diff": 0.22262694519675524,
+        "ci": [
+         -0.21266071671692874,
+         0.6549780090910803
+        ],
+        "verdict": "includes zero"
+       },
+       "U_effect_size_measured_minus_0": {
+        "diff": 0.2895818094918311,
+        "ci": [
+         0.009361718358747695,
+         0.5118923583261138
+        ],
+        "verdict": "above zero"
+       },
+       "U_recipe_minus_ceiling": {
+        "diff": 0.2757713009728367,
+        "ci": [
+         0.03510803849453593,
+         0.5037595201376845
+        ],
+        "verdict": "above zero"
+       }
+      }
+     }
+    }
+   }
+  }
+ },
+ "inputs": {
+  "drug_split_1": {
+   "base": [
+    {
+     "tag": "s15_drug_split_1_base_seed_0",
+     "vectors_sha256": "0706db3dff21c012e1d7410779ee6e4692260ad82ab3c95787ed29770264d95c",
+     "checkpoint_sha256": "d820bb96df364db9ce444bba96f33d155bdad8fb0cb017c224f3485297d96524"
+    },
+    {
+     "tag": "s15_drug_split_1_base_seed_1",
+     "vectors_sha256": "ef0e5b1c93bb0baac19c2942c255c2770f2692f0d65994fd87312d6c783e2d5a",
+     "checkpoint_sha256": "47b85cdb42a8a79a7abed1257a5e9de828284b217681fab94f390644d0125a67"
+    },
+    {
+     "tag": "s15_drug_split_1_base_seed_2",
+     "vectors_sha256": "3dd22b15c309be5f7f299005bd091854561a527ce11f163c157777873abab99f",
+     "checkpoint_sha256": "4c79d3e22d42089dd2796655008d9e9b2ca70fee74d40b12210a70e2e10e671b"
+    }
+   ],
+   "recipe": [
+    {
+     "tag": "s15_drug_split_1_recipe_seed_0",
+     "vectors_sha256": "18dee6b31e5f5428a77ff8d75492f1ee88db30eeaaa92d9aa00f8eaaa3021160",
+     "checkpoint_sha256": "6ad100e4ce89269fb663648115da002c7f94921d50342bb60512a406ccb40335"
+    },
+    {
+     "tag": "s15_drug_split_1_recipe_seed_1",
+     "vectors_sha256": "d52300a3774543b80f39ace00a06204121952b77a61853522f5c47c71c58064b",
+     "checkpoint_sha256": "18baa18bd226c760239dd5ea06993386491eae5d163cf29a4da811e95e567d27"
+    },
+    {
+     "tag": "s15_drug_split_1_recipe_seed_2",
+     "vectors_sha256": "4cf558198597a48dd52021442fc65e43ded1fa1e5e9ca6b2e60f199c8153c8e4",
+     "checkpoint_sha256": "25cf06b5b36e5a5b398c78bb958b205cfaebc7504b28ab3fd2a839d832a520bb"
+    }
+   ],
+   "guidance_w2": [
+    {
+     "tag": "s15_drug_split_1_guidance_w2_seed_0",
+     "vectors_sha256": "079280cf6307247b7bb8dc8b3a5c44e02deda5c51e7a63f33e20de1a48095587",
+     "checkpoint_sha256": "7bc9141df5d95cb3b2ce75f1f3e0452efee87dcf6d3782809c969420137ae0ec"
+    },
+    {
+     "tag": "s15_drug_split_1_guidance_w2_seed_1",
+     "vectors_sha256": "b0f1f16cb45517dbcaa7a87ec8f33f67181a973f3dd4a8087a5411ec4cd6f281",
+     "checkpoint_sha256": "3ef3deba84887d3a431f209f462ba4a493c4488a4f80f924f2eddf3a6398cf5f"
+    },
+    {
+     "tag": "s15_drug_split_1_guidance_w2_seed_2",
+     "vectors_sha256": "b9672a823bc27f8d1469136a85d3eb37a9a2b2d19024fded90bd65a2e3cbfd0c",
+     "checkpoint_sha256": "402dac4394b237b295c279ed4c499753a0da9cb0106987800456c92f21e503a9"
+    }
+   ],
+   "attn_cross": [
+    {
+     "tag": "s15_drug_split_1_attn_cross_seed_0",
+     "vectors_sha256": "6de44389078ce2ff419736e472ff711a2bfa8e56281a53b48b90a612f919ef56",
+     "checkpoint_sha256": "043abf4f4b335ca17217ae6321d869f3eb98f1e11f58ad2cfd72b87765891867"
+    },
+    {
+     "tag": "s15_drug_split_1_attn_cross_seed_1",
+     "vectors_sha256": "a41f58f816b7ce3a73a54054624b1fb6b726555cb10a6e3620dbe873e63afa06",
+     "checkpoint_sha256": "9c56de3f1ade66fdcdfb7a4861cc907d6699911ef32ef3a3246c3d19ae5ad819"
+    },
+    {
+     "tag": "s15_drug_split_1_attn_cross_seed_2",
+     "vectors_sha256": "0b143b9c0282cdf4802dfdace61fcb06122180f4a8d83cf0f34218064d3230da",
+     "checkpoint_sha256": "dd42e131a221a62934d9e48cbce00dee3c3c6d8ca6c08f1a30bb66067c49e6af"
+    }
+   ],
+   "mlp_ctrl": [
+    {
+     "tag": "s15_drug_split_1_mlp_ctrl_seed_0",
+     "vectors_sha256": "e0e374fafb0b931c6d29395adb7aa511760a5a332696383883416adecc22f3cd",
+     "checkpoint_sha256": "b0ac3d80c2334c984e667c0560184f7c1a518cba049da73f363c22408a9e63c9"
+    },
+    {
+     "tag": "s15_drug_split_1_mlp_ctrl_seed_1",
+     "vectors_sha256": "0667f2ff0b6fdeb40b2f6576dbb1a27abf6bf5773cd14933dbd0fbb71c9abbdb",
+     "checkpoint_sha256": "5b2ee7969436c6a371347e8b83e98de0c1fd19f0c2ea5ee8b33549ab27f37bd4"
+    },
+    {
+     "tag": "s15_drug_split_1_mlp_ctrl_seed_2",
+     "vectors_sha256": "ee4af67da715d70e2a249e4b25bec2aede90359ea5a912bf2a0623a7089250e0",
+     "checkpoint_sha256": "2538cd8e085a2675531078ae4277ee6bb34311a2a8ebf4d91eb00e97d1e70842"
+    }
+   ]
+  },
+  "drug_split_0": {
+   "base": [
+    {
+     "tag": "s15_drug_split_0_base_seed_0",
+     "vectors_sha256": "777b4d2a68ae24a06c52f2348f8fb9688b24aeaf44dc5f81532c861f60dae509",
+     "checkpoint_sha256": "9124fe73b2bf72b73798f6c2a81a5b5784e9958db41ca9a5a07e6d7d458cdcb9"
+    },
+    {
+     "tag": "s15_drug_split_0_base_seed_1",
+     "vectors_sha256": "ae3df4d22980381478ea81c659073ee07edb9da146d6c587b8e297f640708308",
+     "checkpoint_sha256": "09527d6948e423f62ff11b4724e2b6864e85f45ba5e971f3198ccafad82ea13f"
+    },
+    {
+     "tag": "s15_drug_split_0_base_seed_2",
+     "vectors_sha256": "558c28ba52d6ee494ecbfdef2737313728c0051eba5ab67077868262864948e4",
+     "checkpoint_sha256": "b54b65a8efefb35605b4b716dd1e4465f74070a520e3c71c6724a60f869af9e3"
+    }
+   ],
+   "recipe": [
+    {
+     "tag": "s15_drug_split_0_recipe_seed_0",
+     "vectors_sha256": "1825feda119c3c9430fbfa224b225d3e1ec10650aa06b169b92e4b5278cddd93",
+     "checkpoint_sha256": "33e7c6f1d68155812622710a424c3008e79bc490d9f91cd2c08f222ff0ea9f55"
+    },
+    {
+     "tag": "s15_drug_split_0_recipe_seed_1",
+     "vectors_sha256": "f7af5d459684a6f1fdd71420f7ccf7bc50f6c6337234606011324e83fd8a0191",
+     "checkpoint_sha256": "0fdb3f463b4075f64f471debe44971932b5ffc8aa5531f5b45d947665bed72a8"
+    },
+    {
+     "tag": "s15_drug_split_0_recipe_seed_2",
+     "vectors_sha256": "65d9f9777236edba38778d8933126ad8a596406629275c3f031e95bef4e98353",
+     "checkpoint_sha256": "0efa6fbaed200e9ab294e318f1a7fc8ab0a5588b7a6f1b281c3d3ee946946ed3"
+    }
+   ],
+   "guidance_w2": [
+    {
+     "tag": "s15_drug_split_0_guidance_w2_seed_0",
+     "vectors_sha256": "47aa6dc64f498f5254971515de3ddc17be2f7993eb1ea02164f5b81594578f70",
+     "checkpoint_sha256": "a0655bcacee1c3f7903b7ee71ed067478d8aad442496f157d235673a62b3a194"
+    },
+    {
+     "tag": "s15_drug_split_0_guidance_w2_seed_1",
+     "vectors_sha256": "a64237c84220b3b9bb9dd1a2b65a1befb29117801ded86c2c50fe36d0e263f68",
+     "checkpoint_sha256": "33acfeffdb8c6b01175fa44c6166b61cc149ccc54f0dae82cf0145398f729e97"
+    },
+    {
+     "tag": "s15_drug_split_0_guidance_w2_seed_2",
+     "vectors_sha256": "2283aebc33000111f663a349690f5d9ca2e5fe4e5527e2cfa3f167531576a315",
+     "checkpoint_sha256": "03e8c7a00aca77e7581b3af1d0cff3d61ca944e3427dada9a1c5f928029be47e"
+    }
+   ],
+   "attn_cross": [
+    {
+     "tag": "s15_drug_split_0_attn_cross_seed_0",
+     "vectors_sha256": "bce7394bb80a701d8e1c141999449e2ab7fcb5d462322c970d53a0ab1c56a686",
+     "checkpoint_sha256": "263e88ac448c114a8060094a5b4e24b6c3b198cf4b4c4c022fccd10222b564cb"
+    },
+    {
+     "tag": "s15_drug_split_0_attn_cross_seed_1",
+     "vectors_sha256": "10c531d15a986559a2d843ad4ee6702b20a46952f374c0caeffa181ef3280a73",
+     "checkpoint_sha256": "1af1ac3199e97648b9b8a0c1529a490e87025ae0669a44bb779a08ecc69b2bfe"
+    },
+    {
+     "tag": "s15_drug_split_0_attn_cross_seed_2",
+     "vectors_sha256": "aa3249373b9cf33919e792d914e983ba66ee3017d8dfafb9d59b8e85a63eaba3",
+     "checkpoint_sha256": "55dbcfb6c3b50d4dfed0a7fb6b749332c7296509c7e3e9f42473b2c0174d8069"
+    }
+   ],
+   "mlp_ctrl": [
+    {
+     "tag": "s15_drug_split_0_mlp_ctrl_seed_0",
+     "vectors_sha256": "fa5c119ae1c74417925327385cc03b4127f4b84e7f25b7f34f2b70454a076b14",
+     "checkpoint_sha256": "6038181d9e52a5e738c49466ad49af7be15c17479ab61e351f4cddc4decc6d6f"
+    },
+    {
+     "tag": "s15_drug_split_0_mlp_ctrl_seed_1",
+     "vectors_sha256": "c7e3c10d76b4f8f5e7cf6286a160c5f38770ace4e1268b6cb34eae805799bae7",
+     "checkpoint_sha256": "3ab11b5692991d92e9b64b8066de8d854e01cd1c4c6a661c1416856fe12a01b2"
+    },
+    {
+     "tag": "s15_drug_split_0_mlp_ctrl_seed_2",
+     "vectors_sha256": "152471b01a79d14be36d4016fa15e0a3db3382037ca95b5f699e9b17bbea3e24",
+     "checkpoint_sha256": "b36ac30e454d0f42932cd8dc52cd24837ac6e33bf5e9afa086ccd7b41ed05985"
+    }
+   ]
+  },
+  "drug_split_2": {
+   "base": [
+    {
+     "tag": "s15_drug_split_2_base_seed_0",
+     "vectors_sha256": "376dad753c7568cd7f83cabdbd4c796f4b442c7a150d6fd1ff4762bfe8f3d2f8",
+     "checkpoint_sha256": "438fe5006919fd7519329d1bf78d4889eb3eaf511fdad15f953f532d9184698d"
+    },
+    {
+     "tag": "s15_drug_split_2_base_seed_1",
+     "vectors_sha256": "694a8167c5403161eb74c947944490deaca46f37c8ccb6f004b1b9509ce0337b",
+     "checkpoint_sha256": "df70907145e3703d0b8deec803f4d5935993c0961c15765a0d089650067a68c4"
+    },
+    {
+     "tag": "s15_drug_split_2_base_seed_2",
+     "vectors_sha256": "99967af815bb2ec966cd7e797d20601e984f95fcceab3acce6794ad73f72e170",
+     "checkpoint_sha256": "97cddce1c2a460c17b75d734a6982ff666262c3e1eaef95c199b7e0331fc171d"
+    }
+   ],
+   "recipe": [
+    {
+     "tag": "s15_drug_split_2_recipe_seed_0",
+     "vectors_sha256": "b24a2a2f200a1aba9549dd4d6ed77ba41478b538bc660ff68295518fb63aa878",
+     "checkpoint_sha256": "ab482ee09144628c79d3fadde950c49ba28e32369547311cc05dd49ca1a5aca6"
+    },
+    {
+     "tag": "s15_drug_split_2_recipe_seed_1",
+     "vectors_sha256": "e8690b3392ce8f63f3871f058151bffd659f377dac55544bc801661814e69d79",
+     "checkpoint_sha256": "3f506a19c2760382c8da507981cfecd5a0f40ccf7f72074aabac3ed034807a70"
+    },
+    {
+     "tag": "s15_drug_split_2_recipe_seed_2",
+     "vectors_sha256": "9ba872c160e93861b3e08420965de075ef737948e038e113281c3f1f2e9143d4",
+     "checkpoint_sha256": "7cc301d87d544bc226a317f3688c4879b5abca99c75041de9f4f735e195ecb97"
+    }
+   ],
+   "guidance_w2": [
+    {
+     "tag": "s15_drug_split_2_guidance_w2_seed_0",
+     "vectors_sha256": "30d46a83e5c25c6cabde4516a0675fb4d0006a0b4a2a6cb216d07e03a76f4fe2",
+     "checkpoint_sha256": "b2b9876258b6bce14adb13c40d83c41a70073962e9f81d2756492e80ee851688"
+    },
+    {
+     "tag": "s15_drug_split_2_guidance_w2_seed_1",
+     "vectors_sha256": "c3e94d0a633839361a35fd85acfa395f47d119805a7320e37438a9edd020b655",
+     "checkpoint_sha256": "fcb4b9a8d49b0a6d1ad4d99e600cea07347f7a3e713f34af5b86bd8e99f77702"
+    },
+    {
+     "tag": "s15_drug_split_2_guidance_w2_seed_2",
+     "vectors_sha256": "b7a4c47d6e11ac2fcb5036f9a5d96dcd6f9ae97f35c1cfc0601e5dc8bc1ee470",
+     "checkpoint_sha256": "e95c2d6813b093639d433ee7d386c8b9d0a7cef16cd7d5c85df95e14ddd2250f"
+    }
+   ],
+   "attn_cross": [
+    {
+     "tag": "s15_drug_split_2_attn_cross_seed_0",
+     "vectors_sha256": "2bbf7295b9236c4106710a51f58472a5911727fe83c4c99cef6893f35597a0a2",
+     "checkpoint_sha256": "6f54f966dfea94f8e77aa2ad17083ca100cd3b8f525ae8a8e956beb966c9eb2a"
+    },
+    {
+     "tag": "s15_drug_split_2_attn_cross_seed_1",
+     "vectors_sha256": "fe0ec4a9d1114413c4e64174c4a83a16d5b5c811476ef61a8cde7118b167bbff",
+     "checkpoint_sha256": "35622426d61edc13f0ddf137de7365f5b4d2651188162e5f2f069d7a1e13ee0c"
+    },
+    {
+     "tag": "s15_drug_split_2_attn_cross_seed_2",
+     "vectors_sha256": "a4db0176b4265e0c55488718612f68cb6d6fe78c96064ef850e59a0185d1d28b",
+     "checkpoint_sha256": "2c25fa5259edbf9097dcc524cbc2bc82e0321aa581bd6ef5fb565244aace4f29"
+    }
+   ],
+   "mlp_ctrl": [
+    {
+     "tag": "s15_drug_split_2_mlp_ctrl_seed_0",
+     "vectors_sha256": "82a5259c2c9def7f09e0256b5cb88fd4092731fab425a97eb86a7012934b12bc",
+     "checkpoint_sha256": "92f456e2c437cf7d9e1541d2eb994440e5593512149b87711ce9a54b609a39f1"
+    },
+    {
+     "tag": "s15_drug_split_2_mlp_ctrl_seed_1",
+     "vectors_sha256": "ae5b5e603a0250d39331012672851eac1ae97c3799b050e9646badb97603e368",
+     "checkpoint_sha256": "2b01163671654ec982fec7977a302d959fe126e5246e317b06df149352db430f"
+    },
+    {
+     "tag": "s15_drug_split_2_mlp_ctrl_seed_2",
+     "vectors_sha256": "8bb7878e8954cffa4b762ebd93b98742e15e962ab195a0cdfebb5d7a2b936cb5",
+     "checkpoint_sha256": "cf4927b158a015d0209ce8ce7bcf55f56a2b5943ce1adb45563101d5d78c8eb2"
+    }
+   ]
+  }
+ },
+ "elapsed_s": 2343,
+ "verdict": "5 UNRESOLVED",
+ "ceiling_verdicts": [
+  "includes zero",
+  "includes zero",
+  "includes zero"
+ ]
+}

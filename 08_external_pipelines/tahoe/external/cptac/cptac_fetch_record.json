@@ -1,0 +1,251 @@
+{
+ "cptac_version": "1.5.14",
+ "date": "2026-10-03",
+ "zenodo_static_doi": "10.5281/zenodo.8394329",
+ "zenodo_index_doi": "10.5281/zenodo.7897498",
+ "cohorts": {
+  "gbm": {
+   "offered": {
+    "CNV": [
+     "bcm",
+     "washu"
+    ],
+    "circular_RNA": [
+     "bcm"
+    ],
+    "miRNA": [
+     "bcm",
+     "washu"
+    ],
+    "phosphoproteomics": [
+     "bcm",
+     "umich"
+    ],
+    "proteomics": [
+     "bcm",
+     "umich"
+    ],
+    "transcriptomics": [
+     "bcm",
+     "broad",
+     "washu"
+    ],
+    "ancestry_prediction": [
+     "harmonized"
+    ],
+    "somatic_mutation": [
+     "harmonized",
+     "washu"
+    ],
+    "clinical": [
+     "mssm"
+    ],
+    "follow-up": [
+     "mssm"
+    ],
+    "medical_history": [
+     "mssm"
+    ],
+    "acetylproteomics": [
+     "umich"
+    ],
+    "cibersort": [
+     "washu"
+    ],
+    "hla_typing": [
+     "washu"
+    ],
+    "tumor_purity": [
+     "washu"
+    ],
+    "xcell": [
+     "washu"
+    ]
+   },
+   "tables": {
+    "proteomics": {
+     "source": "umich",
+     "file": "gbm_proteomics_umich.csv.gz",
+     "sha256": "73ff89ef1198886a77530e658788dbb0594065e06492841809bf8204ab6f4b69",
+     "n_rows": 110,
+     "n_cols": 13002,
+     "n_tumor": 100,
+     "n_normal": 10,
+     "index_name": "Patient_ID",
+     "column_levels": [
+      "Name",
+      "Database_ID"
+     ],
+     "n_gene_symbols": 12100,
+     "genes_file": "gbm_proteomics_umich_genes.txt",
+     "genes_sha256": "1ee230623c105ab32be2bdf1b6f0b45c15124ee48132edb409fea11f90690c54",
+     "example_genes": [
+      "A1BG",
+      "A2M",
+      "AAAS",
+      "AACS",
+      "AADAT"
+     ]
+    },
+    "transcriptomics": {
+     "source": "washu",
+     "file": "gbm_transcriptomics_washu.csv.gz",
+     "sha256": "b52a110f280beeaff133490912593f2b945218132b24049783deac7831198765",
+     "n_rows": 99,
+     "n_cols": 60483,
+     "n_tumor": 99,
+     "n_normal": 0,
+     "index_name": "Patient_ID",
+     "column_levels": [
+      "Name",
+      "Database_ID"
+     ],
+     "n_gene_symbols": 58387,
+     "genes_file": "gbm_transcriptomics_washu_genes.txt",
+     "genes_sha256": "3d0ce9bb274758f2ff14e9bc6dde87c452ee13eccf40d22f50d2aef8408a335a",
+     "example_genes": [
+      "5S_rRNA",
+      "5_8S_rRNA",
+      "7SK",
+      "A1BG",
+      "A1BG-AS1"
+     ]
+    },
+    "clinical": {
+     "source": "mssm",
+     "file": "gbm_clinical_mssm.csv.gz",
+     "sha256": "b92b17b290c195ed7c81d1b685ace2d5c4199ab5b63e68638c96832b9f1bbcfe",
+     "n_rows": 100,
+     "n_cols": 124,
+     "n_tumor": 100,
+     "n_normal": 0,
+     "index_name": "Patient_ID",
+     "column_levels": [
+      "Name"
+     ]
+    }
+   },
+   "errors": {},
+   "prefetched": []
+  },
+  "coad": {
+   "offered": {
+    "CNV": [
+     "bcm",
+     "washu"
+    ],
+    "miRNA": [
+     "bcm"
+    ],
+    "phosphoproteomics": [
+     "bcm",
+     "umich"
+    ],
+    "proteomics": [
+     "bcm",
+     "umich"
+    ],
+    "transcriptomics": [
+     "bcm",
+     "broad",
+     "washu"
+    ],
+    "ancestry_prediction": [
+     "harmonized"
+    ],
+    "somatic_mutation": [
+     "harmonized",
+     "washu"
+    ],
+    "clinical": [
+     "mssm"
+    ],
+    "follow-up": [
+     "mssm"
+    ],
+    "medical_history": [
+     "mssm"
+    ],
+    "cibersort": [
+     "washu"
+    ],
+    "hla_typing": [
+     "washu"
+    ],
+    "tumor_purity": [
+     "washu"
+    ],
+    "xcell": [
+     "washu"
+    ]
+   },
+   "tables": {
+    "proteomics": {
+     "source": "umich",
+     "file": "coad_proteomics_umich.csv.gz",
+     "sha256": "afcc62032dd9b9eb1ff91083e8a4405ccd0d915140a6648146719f22faebce14",
+     "n_rows": 197,
+     "n_cols": 9457,
+     "n_tumor": 97,
+     "n_normal": 100,
+     "index_name": "Patient_ID",
+     "column_levels": [
+      "Name",
+      "Database_ID"
+     ],
+     "n_gene_symbols": 9153,
+     "genes_file": "coad_proteomics_umich_genes.txt",
+     "genes_sha256": "bae9a48012805ad297ce6114534e6598e3b0ea91d3561bf9d83b133a968f56c1",
+     "example_genes": [
+      "A1BG",
+      "A1CF",
+      "A2M",
+      "AAAS",
+      "AACS"
+     ]
+    },
+    "transcriptomics": {
+     "source": "washu",
+     "file": "coad_transcriptomics_washu.csv.gz",
+     "sha256": "dfaa63ceee488061483d00ad58e5e5813a15370dbb62afbf5a330e0b8929f1f2",
+     "n_rows": 106,
+     "n_cols": 60483,
+     "n_tumor": 106,
+     "n_normal": 0,
+     "index_name": "Patient_ID",
+     "column_levels": [
+      "Name",
+      "Database_ID"
+     ],
+     "n_gene_symbols": 58387,
+     "genes_file": "coad_transcriptomics_washu_genes.txt",
+     "genes_sha256": "3d0ce9bb274758f2ff14e9bc6dde87c452ee13eccf40d22f50d2aef8408a335a",
+     "example_genes": [
+      "5S_rRNA",
+      "5_8S_rRNA",
+      "7SK",
+      "A1BG",
+      "A1BG-AS1"
+     ]
+    },
+    "clinical": {
+     "source": "mssm",
+     "file": "coad_clinical_mssm.csv.gz",
+     "sha256": "ef30627ffb1bf34c3b9cde08b91cfe5013d9f4a070fd92b7a33ef68e48823622",
+     "n_rows": 109,
+     "n_cols": 124,
+     "n_tumor": 109,
+     "n_normal": 0,
+     "index_name": "Patient_ID",
+     "column_levels": [
+      "Name"
+     ]
+    }
+   },
+   "errors": {},
+   "prefetched": [
+    "umich-coad-mapping-CRC_Prospective sample info.xlsx"
+   ]
+  }
+ }
+}

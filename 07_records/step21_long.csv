@@ -1,0 +1,77 @@
+split,arm,level,key,value,ci_lo,ci_hi,verdict
+drug_split_0,recipe,metric,energy,0.2437552672690484,,,
+drug_split_0,recipe,metric,de_overlap,0.46030092437370224,,,
+drug_split_0,recipe,metric,pds_mean,0.7181058161983257,,,
+drug_split_0,recipe,metric,dpc_mean,0.5005284053416328,,,
+drug_split_0,recipe,metric,mra,0.28639758304506197,,,
+drug_split_0,recipe,metric,tracking,0.014889469846825031,,,
+drug_split_0,ot_pair,metric,energy,0.17550529266365023,,,
+drug_split_0,ot_pair,metric,de_overlap,0.44789338570496934,,,
+drug_split_0,ot_pair,metric,pds_mean,0.6899031210653904,,,
+drug_split_0,ot_pair,metric,dpc_mean,0.4852691878013674,,,
+drug_split_0,ot_pair,metric,mra,0.33463901735272716,,,
+drug_split_0,ot_pair,metric,tracking,0.3027772510657205,,,
+drug_split_0,mb32,metric,energy,0.17471894171027094,,,
+drug_split_0,mb32,metric,de_overlap,0.449987537498295,,,
+drug_split_0,mb32,metric,pds_mean,0.7055648105561403,,,
+drug_split_0,mb32,metric,dpc_mean,0.5012949558286085,,,
+drug_split_0,mb32,metric,mra,0.3411941123648528,,,
+drug_split_0,mb32,metric,tracking,0.22063623374534475,,,
+drug_split_0,mb32,contrast,Q1_energy_mb32_minus_ot_pair,-0.0007863509533792683,-0.0041381130871222995,0.0027688979035162963,includes zero
+drug_split_0,mb32,contrast,Q2_pds_mb32_minus_ot_pair,0.01566168949074984,0.00759070687145724,0.023805888664109372,above zero
+drug_split_0,mb32,contrast,secondary_de_mb32_minus_ot_pair,0.002094151793325728,0.0004698375971095871,0.003646611061814031,above zero
+drug_split_0,mb32,contrast,secondary_energy_mb32_minus_recipe,-0.06903632555877741,-0.09786213836527162,-0.045689614234001724,below zero
+drug_split_0,mb32,contrast,secondary_de_mb32_minus_recipe,-0.010313386875407237,-0.014248417478543964,-0.006660549556224739,below zero
+drug_split_0,mb32,contrast,secondary_pds_mb32_minus_recipe,-0.012541005642185465,-0.03313315836674888,0.005061822130478961,includes zero
+drug_split_0,mb32,contrast,secondary_dpc_mb32_minus_recipe,0.0007665504869756371,-0.016494490049717543,0.017253168277300845,includes zero
+drug_split_0,mb32,contrast,secondary_mra_mb32_minus_recipe,0.05479652931979084,-0.03452440419362951,0.13000350449806078,includes zero
+drug_split_0,mb32,contrast,secondary_tracking_mb32_minus_recipe,0.20574676389851973,0.20290155960019216,0.20843883062946703,above zero
+drug_split_0,mb32,contrast,secondary_tracking_mb32_minus_null,0.22028546264029986,0.21694966210456423,0.22336343693757313,above zero
+drug_split_0,mb32,contrast,exploratory_excess_energy_over_line,-0.017223178915466885,-0.022805946373353248,-0.012681935683491978,below zero
+drug_split_0,mb32,contrast,exploratory_excess_de_over_line,-0.0008939896632834439,-0.002173376058814904,0.0004080827491891111,includes zero
+drug_split_0,mb32,contrast,exploratory_excess_pds_over_line,0.008869557322973197,0.003449016125147463,0.01423268435296649,above zero
+drug_split_0,ot_pair,contrast,reference_energy_ot_pair_minus_recipe,-0.06824997460539814,-0.09927989556059978,-0.04302269614059188,below zero
+drug_split_0,ot_pair,contrast,reference_de_ot_pair_minus_recipe,-0.012407538668732964,-0.017037244820886612,-0.00800251403477219,below zero
+drug_split_0,ot_pair,contrast,reference_pds_ot_pair_minus_recipe,-0.02820269513293531,-0.0534375135313684,-0.005278590630166032,below zero
+drug_split_0,ot_pair,contrast,reference_tracking_ot_pair_minus_recipe,0.2878877812188955,0.28416045381781607,0.29141989195545737,above zero
+drug_split_0,mb32,margin,delta,0.01088166396220913,,,
+drug_split_2,recipe,metric,energy,0.2180960511310767,,,
+drug_split_2,recipe,metric,de_overlap,0.4584607547682541,,,
+drug_split_2,recipe,metric,pds_mean,0.7142028455365138,,,
+drug_split_2,recipe,metric,dpc_mean,0.523113144002375,,,
+drug_split_2,recipe,metric,mra,0.31172243156332596,,,
+drug_split_2,recipe,metric,tracking,0.015202971661144654,,,
+drug_split_2,ot_pair,metric,energy,0.15007325346873726,,,
+drug_split_2,ot_pair,metric,de_overlap,0.44633235699595886,,,
+drug_split_2,ot_pair,metric,pds_mean,0.6775927812704059,,,
+drug_split_2,ot_pair,metric,dpc_mean,0.48501170700142293,,,
+drug_split_2,ot_pair,metric,mra,0.3484736735657405,,,
+drug_split_2,ot_pair,metric,tracking,0.2967751849579417,,,
+drug_split_2,mb32,metric,energy,0.1494429979774716,,,
+drug_split_2,mb32,metric,de_overlap,0.44902668899838416,,,
+drug_split_2,mb32,metric,pds_mean,0.6927321238149635,,,
+drug_split_2,mb32,metric,dpc_mean,0.5089683010133573,,,
+drug_split_2,mb32,metric,mra,0.3715787427795283,,,
+drug_split_2,mb32,metric,tracking,0.21563262489185048,,,
+drug_split_2,mb32,contrast,Q1_energy_mb32_minus_ot_pair,-0.00063025549126565,-0.003396574109524339,0.0021270567008278927,includes zero
+drug_split_2,mb32,contrast,Q2_pds_mb32_minus_ot_pair,0.015139342544557571,0.00744150438281601,0.0240462347333002,above zero
+drug_split_2,mb32,contrast,secondary_de_mb32_minus_ot_pair,0.0026943320024252954,0.0009443205351966069,0.004460122774321842,above zero
+drug_split_2,mb32,contrast,secondary_energy_mb32_minus_recipe,-0.0686530531536051,-0.09354869746243676,-0.04453897640347213,below zero
+drug_split_2,mb32,contrast,secondary_de_mb32_minus_recipe,-0.009434065769869937,-0.01344650250025968,-0.005380360371171539,below zero
+drug_split_2,mb32,contrast,secondary_pds_mb32_minus_recipe,-0.021470721721550273,-0.05236569731104668,0.0057452733792458955,includes zero
+drug_split_2,mb32,contrast,secondary_dpc_mb32_minus_recipe,-0.01414484298901758,-0.033896918696450146,0.0038955119594357834,includes zero
+drug_split_2,mb32,contrast,secondary_mra_mb32_minus_recipe,0.05985631121620233,-0.03613732389186883,0.15507580566929952,includes zero
+drug_split_2,mb32,contrast,secondary_tracking_mb32_minus_recipe,0.20042965323070586,0.1972551895323697,0.2037604767888284,above zero
+drug_split_2,mb32,contrast,secondary_tracking_mb32_minus_null,0.21510099151841808,0.2115911694069681,0.21866725779926546,above zero
+drug_split_2,mb32,contrast,exploratory_excess_energy_over_line,-0.016978630537157497,-0.021711151805246808,-0.012415414823535791,below zero
+drug_split_2,mb32,contrast,exploratory_excess_de_over_line,-0.0002205671534648823,-0.001590280832605207,0.0011087074697721945,includes zero
+drug_split_2,mb32,contrast,exploratory_excess_pds_over_line,0.006340600333931036,-0.00029153234403040735,0.012197125753165672,includes zero
+drug_split_2,ot_pair,contrast,reference_energy_ot_pair_minus_recipe,-0.06802279766233947,-0.09473493232220302,-0.04211844174327717,below zero
+drug_split_2,ot_pair,contrast,reference_de_ot_pair_minus_recipe,-0.01212839777229523,-0.01703877300127472,-0.0071144368227795355,below zero
+drug_split_2,ot_pair,contrast,reference_pds_ot_pair_minus_recipe,-0.03661006426610785,-0.07276705895541725,-0.0032911452781857822,below zero
+drug_split_2,ot_pair,contrast,reference_tracking_ot_pair_minus_recipe,0.281572213296797,0.27721022246842486,0.2860018227473868,above zero
+drug_split_2,mb32,margin,delta,0.010383860551896242,,,
+drug_split_1,mb32,development_descriptive,Q1_energy_mb32_minus_ot_pair,0.00011379017898685471,-0.0046913826431204345,0.004461261017994776,includes zero
+drug_split_1,mb32,development_descriptive,Q2_pds_mb32_minus_ot_pair,0.01895528469201794,0.011937057343466876,0.02669769427331988,above zero
+drug_split_1,mb32,development_descriptive,secondary_de_mb32_minus_ot_pair,0.00218361329359933,0.00020074092210014554,0.004194239232983369,above zero
+drug_split_1,mb32,margin,delta,0.010390895816473138,,,

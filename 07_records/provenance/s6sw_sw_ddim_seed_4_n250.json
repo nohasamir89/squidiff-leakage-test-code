@@ -1,0 +1,17 @@
+{
+  "status": "completed",
+  "analysis": "SECONDARY non-gated step sweep",
+  "ddim_sweep_posthoc": true,
+  "arm": "ddim",
+  "seed": "4",
+  "steps": 250,
+  "tag": "sw_ddim_seed_4_n250",
+  "completed_at": "2026-08-19T19:19:24.395890+00:00",
+  "commit": "105767a9eccafe4b568b2822d556c21786b10584",
+  "node": "cn274",
+  "gpu": "NVIDIA H100 NVL",
+  "vectors_npz": "leakage_results/vectors_sw_ddim_seed_4_n250.npz",
+  "vectors_sha256": "8465e3cafb4623956195cb128ad01c4e55556576ecd86acc3fdcf6c405b9c67b",
+  "per_cell_npz": "leakage_results/vectors_sw_ddim_seed_4_n250_pc.npz",
+  "per_cell_sha256": "b1fde1cec684f5feea15df3fa4370974cb8084cdcfc08694a9f033445bd180f8"
+}

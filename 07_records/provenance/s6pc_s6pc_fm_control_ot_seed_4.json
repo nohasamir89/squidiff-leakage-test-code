@@ -1,0 +1,17 @@
+{
+  "status": "completed",
+  "arm": "fm_control_ot",
+  "seed": "4",
+  "tag": "s6pc_fm_control_ot_seed_4",
+  "prereg": "PREREG_step6_flow_matching.md amendment 12",
+  "commit": "ede47d90010868cbd2247167a6826ac6c60148d2",
+  "completed_at": "2026-08-19T11:50:06.485169+00:00",
+  "verified_bitwise_against": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/leakage_results/vectors_step6_fm_control_ot_seed_4.npz",
+  "per_cell_npz": "leakage_results/vectors_s6pc_fm_control_ot_seed_4_pc.npz",
+  "per_cell_sha256": "e18f399f6ffe99e4672636dee889120838b116c49668b9059e4f84ba475e7cb7",
+  "n_conditions": 443,
+  "cells_min": 7,
+  "cells_max": 200,
+  "node": "cn274",
+  "gpu": "NVIDIA H100 NVL"
+}

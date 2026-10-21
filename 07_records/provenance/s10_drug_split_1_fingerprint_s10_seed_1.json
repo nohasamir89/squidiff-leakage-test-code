@@ -1,0 +1,17 @@
+{
+  "status": "completed",
+  "arm": "fingerprint_s10",
+  "drug_encoding": "fingerprint_s10",
+  "seed": "1",
+  "split": "drug_split_1",
+  "prereg": "PREREG_step10_chemvae_stochastic.md",
+  "commit": "6e62a7f712867396083485778e5f2abc8969f312",
+  "fm_source": "gaussian",
+  "completed_at": "2026-09-14T13:01:06.492178+00:00",
+  "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step10/fingerprint_s10/seed_1/model_0.9999.pt",
+  "checkpoint_sha256": "97dcb12f1d9a846ffe9af30b8af20bb3d2cedab6b60a15f30f07ac2bc9db91f1",
+  "n_state_dict": 58186374,
+  "encoding_sidecar": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step10/fingerprint_s10/seed_1/model_0.9999.pt.encoding.json",
+  "node": "cn274",
+  "gpu": "NVIDIA H100 NVL"
+}

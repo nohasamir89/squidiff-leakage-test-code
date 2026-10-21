@@ -1,0 +1,10 @@
+{
+  "commit": "236f7da8876acc1e6cf63b55801a5168812ed042",
+  "branch": "step4-adaln-zero",
+  "dirty": "?? provenance/",
+  "seed": "3",
+  "split": "drug_split_1",
+  "use_adaln": true,
+  "slurm_job": "16908679",
+  "gpu": "NVIDIA H100 NVL"
+}

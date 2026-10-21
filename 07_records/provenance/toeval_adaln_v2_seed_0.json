@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "kind": "semantic",
+  "tag": "adaln_v2_seed_0",
+  "seed": "0",
+  "backfilled": true,
+  "backfill_note": "written after evaluation from the job log; eval_adaln_v2.sh lacked the post-check step",
+  "source_log": "logger_files/adalnv2_17004767_0.out",
+  "source_log_sha256": "0d3aa8f2183fd5ec81a3cf4eacd9ca96e0e2b661e189b2bf3f15ae46384d8f84",
+  "completed_at": "2026-07-30T14:48:07.995438+00:00",
+  "prereg": "PREREG_step4_replication.md section 13",
+  "commit": "b3241e265857ce9a1b090313400a273fbde8847b",
+  "checkpoint": "adaln/seed_0/model_0.9999.pt",
+  "checkpoint_sha256": "a7dc9ddf78c59a03864604df609ddf9f325aa065187ab1405c656e2e99fdef2f",
+  "effective_mode_line": "effective use_adaln=True use_adaln_timeonly=False (3 blocks)",
+  "vectors_npz": "leakage_results/vectors_adaln_v2_seed_0.npz",
+  "vectors_sha256": "1da5697fabadbcc8546bcb7dd4cdf99cc0da2f9fb44301408c5889ad902dfa1c",
+  "sampler_sha256": "eca3737ab6948ba6805b06a7ceb4ea6ea4a089f07562afec0298d97a76ad8f39",
+  "harness_sha256": "250368f3fa706a5726ec840f107d4c9d45b2c32a92adba38cf0fc358799b70a7"
+}

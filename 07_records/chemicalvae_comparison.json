@@ -1,0 +1,42 @@
+{
+  "analysis": "EXPLORATORY, not pre-registered",
+  "question": "does a learned continuous chemical embedding beat the Morgan fingerprint",
+  "source": "PerturbNet, Yu et al., Mol Syst Biol 21:960-982 (2025)",
+  "weights": "cyclopeta/PerturbNet_reproduce pretrained_model/chemicalVAE/model_params_525.pt",
+  "repo_commit": "e1375b2ca71c87d5b7277c45648ed06fe335a38d",
+  "tokeniser": "their smiles_to_hot and pad_smile, loaded verbatim from perturbnet/util.py, char_list=None so their default 35-character list is used",
+  "standardisation": "(z - mu) / std using their published mu.npy and std.npy",
+  "latent_dim": 196,
+  "our_step": "RDKit canonicalisation and salt stripping (largest covalent fragment). Their smiles_to_hot does not canonicalise. Salt stripping is INFERRED from their Methods phrase about canonical forms, not stated; without it 162 of 188 encode, with it 183, against their reported 180",
+  "n_encodable": 183,
+  "n_total": 188,
+  "dropped": [
+    "CC1(CCC(=C(C1)CN2CCN(CC2)C3=CC=C(C=C3)C(=O)NS(=O)(=O)C4=CC(=C(C=C4)N[C@H](CCN5CCOCC5)CSC6=CC=CC=C6)S(=O)(=O)C(F)(F)F)C7=CC=C(C=C7)Cl)C",
+    "COC1CC(CCC1OC(=O)C(C)(CO)CO)CC(C)C2CC(=O)C(C)\\C=C(C)\\C(O)C(OC)C(=O)C(C)CC(C)/C=C/C=C/C=C(C)/C(CC3CCC(C)C(O)(O3)C(=O)C(=O)N4CCCCC4C(=O)O2)OC",
+    "O.O.O.NCCCC(O)([P](O)(O)=O)[P](O)(=O)O[Na]",
+    "[Na]OC(=O)CCCC1=CC=CC=C1",
+    "nan"
+  ],
+  "dpc50_by_split": {
+    "drug_split_0": {
+      "chemicalvae": 0.1247,
+      "fingerprint": 0.2331,
+      "pathway": 0.2555,
+      "n_conditions": 432
+    },
+    "drug_split_1": {
+      "chemicalvae": 0.0183,
+      "fingerprint": 0.1769,
+      "pathway": 0.2251,
+      "n_conditions": 443
+    },
+    "drug_split_2": {
+      "chemicalvae": 0.0498,
+      "fingerprint": 0.0827,
+      "pathway": 0.1534,
+      "n_conditions": 455
+    }
+  },
+  "conclusion": "ChemicalVAE loses to the Morgan fingerprint on all three splits and to pathway annotation by a wide margin",
+  "commit": "87c5d52d094ad143b4f3762360516cfaa9212284"
+}

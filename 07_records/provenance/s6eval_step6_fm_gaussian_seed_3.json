@@ -1,0 +1,21 @@
+{
+  "status": "completed",
+  "arm": "fm_gaussian",
+  "seed": "3",
+  "split": "drug_split_1",
+  "tag": "step6_fm_gaussian_seed_3",
+  "nfe": 20,
+  "solver": "euler",
+  "prereg": "PREREG_step6_flow_matching.md",
+  "commit": "40f2d26e61d9c62767e11e9e173a0aa6e7a191cc",
+  "completed_at": "2026-08-18T19:32:04.288553+00:00",
+  "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step6/fm_gaussian/seed_3/model_0.9999.pt",
+  "checkpoint_sha256": "dd4dcceefd22cef2913902b15bbb5d6d8b5f20de8ecdabd96aca07fc1a19dee8",
+  "vectors_npz": "leakage_results/vectors_step6_fm_gaussian_seed_3.npz",
+  "vectors_sha256": "3415f09813fbb924a4ae18bdd2954e02c5c7d0a6117e320134750518c0c03911",
+  "n_conditions": 443,
+  "node": "cn274",
+  "gpu": "NVIDIA H100 NVL",
+  "harness_sha256": "68a2492dd52bf6f000ae55297140c93c5d291337e2d61cad85f7a9248a8a7949",
+  "sampler_sha256": "9db50358c4e69ec52e1908dfb074bab30cf7e22df77294f4cd5be6eaddefca58"
+}

@@ -1,0 +1,17 @@
+{
+  "seed": 0,
+  "tolerance": 1e-06,
+  "max_abs_diff_condition_means": {
+    "true": 0.0,
+    "A": 1.7881393432617188e-07,
+    "B": 1.7881393432617188e-07,
+    "C": 0.0
+  },
+  "max_abs_diff_sampled": 1.7881393432617188e-07,
+  "true_and_C_bitwise_identical": true,
+  "per_cell_max_abs_diff": 1.5497207641601562e-06,
+  "unguided": "s12_cfg_wnone_seed_0",
+  "guided_w1": "s12_cfg_w1_seed_0",
+  "checkpoint_sha256": "ed8a913b4286ca6a310105c92d41492edb56483f371eb2c5ceacd11fdf485aaa",
+  "pass": true
+}

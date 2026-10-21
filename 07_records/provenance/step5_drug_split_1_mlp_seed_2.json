@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "arm": "mlp",
+  "seed": "2",
+  "split": "drug_split_1",
+  "prereg": "PREREG_step5_gene_module.md",
+  "commit": "ae786858892a7b249a38541e24cf1cc1ce2269aa",
+  "completed_at": "2026-08-05T22:13:45.561247+00:00",
+  "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step5/mlp/seed_2/model_0.9999.pt",
+  "checkpoint_sha256": "7d3f0be4be1129b8e9f23ca67586bc6b7e2ac193c140603c29eeece33c516ba6",
+  "n_state_dict": 61442694,
+  "n_adaln_tensors": 12,
+  "n_gene_module_tensors": 4,
+  "detected_architecture": "mlp",
+  "node": "cn270",
+  "gpu": "NVIDIA H100 NVL",
+  "torch": "2.5.1+cu121",
+  "cuda": "12.1",
+  "cudnn": 90100
+}

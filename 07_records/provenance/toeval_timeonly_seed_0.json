@@ -1,0 +1,18 @@
+{
+  "status": "completed",
+  "kind": "timeonly",
+  "tag": "timeonly_seed_0",
+  "seed": "0",
+  "completed_at": "2026-07-30T05:21:58.317299+00:00",
+  "prereg": "PREREG_step4_replication.md section 13",
+  "commit": "0c1abd8dfd92c266df9a86c234b1ce3895ab0ea3",
+  "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/timeonly/drug_split_1_timeonly/seed_0/model_0.9999.pt",
+  "checkpoint_sha256": "a671c82f7da9dbbe8c5a93da361a4dbb052d293d890aedc7627e69af23a09d76",
+  "effective_mode_line": "effective use_adaln=True use_adaln_timeonly=True (3 blocks)",
+  "n_conditions": 443,
+  "vectors_npz": "leakage_results/vectors_timeonly_seed_0.npz",
+  "vectors_sha256": "f05eea8aa3fd70228c582048804194f6db12caa0cf39210bad6f8ac981d71dd7",
+  "harness_sha256": "250368f3fa706a5726ec840f107d4c9d45b2c32a92adba38cf0fc358799b70a7",
+  "sampler_sha256": "f03d30a504a0decbb6d6d84253b5140bee9b333f32110ccaf9867f028a3822b8",
+  "arm_identity_basis": "mode sidecar plus the sampler effective-mode assertion; NOT recoverable from the state dict"
+}

@@ -1,0 +1,19 @@
+{
+  "status": "completed",
+  "arm": "base",
+  "seed": "4",
+  "split": "drug_split_1",
+  "tag": "step5_base_seed_4",
+  "prereg": "PREREG_step5_gene_module.md",
+  "commit": "2ebf14cb2d9adc8a9fd40a39dee6024597153f19",
+  "completed_at": "2026-08-06T06:35:38.303671+00:00",
+  "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step5/base/seed_4/model_0.9999.pt",
+  "checkpoint_sha256": "01ac028a1904addcc5fb0ace5fb6093e7f2ec13ebce39d58b89a2fbd2f027017",
+  "vectors_npz": "leakage_results/vectors_step5_base_seed_4.npz",
+  "vectors_sha256": "2762155866fb19cab6af965e3c1cb6499f24da2b343d3fca2cfe3aa4cfea371f",
+  "n_conditions": 443,
+  "node": "cn270",
+  "gpu": "NVIDIA H100 NVL",
+  "harness_sha256": "250368f3fa706a5726ec840f107d4c9d45b2c32a92adba38cf0fc358799b70a7",
+  "sampler_sha256": "9db50358c4e69ec52e1908dfb074bab30cf7e22df77294f4cd5be6eaddefca58"
+}

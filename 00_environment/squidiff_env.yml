@@ -123,6 +123,7 @@ dependencies:
       - referencing==0.37.0
       - requests==2.34.2
       - rpds-py==0.30.0
+      - ruff==0.17.1
       - scanpy==1.11.5
       - scikit-learn==1.7.2
       - scikit-misc==0.5.2

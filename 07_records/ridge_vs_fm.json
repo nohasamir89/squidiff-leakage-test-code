@@ -1,0 +1,144 @@
+{
+  "verdict": "MIXED",
+  "per_split": {
+    "drug_split_0": {
+      "paired_median": -0.021931262324719054,
+      "ci": [
+        -0.04923623040399957,
+        0.031143252814263334
+      ],
+      "frac_fm_better": 0.47297297297297297,
+      "marginal_median_fm": 0.08877518363296985,
+      "marginal_median_ridge": 0.07189960478212817,
+      "n_conditions": 444,
+      "n_drugs": 37,
+      "n_undefined": 0,
+      "resolved": false,
+      "verdict": "unresolved"
+    },
+    "drug_split_1": {
+      "paired_median": -0.05063167766085527,
+      "ci": [
+        -0.09971088270608555,
+        -0.013227419579434962
+      ],
+      "frac_fm_better": 0.42437923250564336,
+      "marginal_median_fm": 0.09243626594543457,
+      "marginal_median_ridge": 0.10900749105795901,
+      "n_conditions": 443,
+      "n_drugs": 37,
+      "n_undefined": 0,
+      "resolved": true,
+      "verdict": "ridge exceeds flow matching"
+    },
+    "drug_split_2": {
+      "paired_median": -0.011809432559788918,
+      "ci": [
+        -0.06747646029084198,
+        0.019739308645740583
+      ],
+      "frac_fm_better": 0.48131868131868133,
+      "marginal_median_fm": 0.06263827979564666,
+      "marginal_median_ridge": 0.06383994111251781,
+      "n_conditions": 455,
+      "n_drugs": 38,
+      "n_undefined": 0,
+      "resolved": false,
+      "verdict": "unresolved"
+    }
+  },
+  "prereg": "PREREG_step6c_ridge.md",
+  "estimand": "median of paired per-condition differences, fm minus ridge",
+  "bootstrap": {
+    "unit": "drug",
+    "n_replicates": 5000,
+    "seed": 0
+  },
+  "nfe": 20,
+  "solver": "euler",
+  "inputs": {
+    "drug_split_0": [
+      {
+        "vector": "vectors_s6b_drug_split_0_fm_gaussian_seed_0.npz",
+        "vector_sha256": "e708bbb1cc98c80b7bb2c58b583d07e85e0fea5620d6bc71158e28c7b0ebb131",
+        "provenance": "s6bev_s6b_drug_split_0_fm_gaussian_seed_0.json"
+      },
+      {
+        "vector": "vectors_s6b_drug_split_0_fm_gaussian_seed_1.npz",
+        "vector_sha256": "22ae23da435d15c1778de61ed25a087fe9957776c2e1b1db70dac0a29ebd2173",
+        "provenance": "s6bev_s6b_drug_split_0_fm_gaussian_seed_1.json"
+      },
+      {
+        "vector": "vectors_s6b_drug_split_0_fm_gaussian_seed_2.npz",
+        "vector_sha256": "46aa14b6b87d9ea09534b9c00ccb18ed2e28368249928047541269070ac65fef",
+        "provenance": "s6bev_s6b_drug_split_0_fm_gaussian_seed_2.json"
+      },
+      {
+        "vector": "vectors_s6b_drug_split_0_fm_gaussian_seed_3.npz",
+        "vector_sha256": "5348112046f727f273792ad799d4d0a5fac3812461eaa5b0ea301d38a04e60bb",
+        "provenance": "s6bev_s6b_drug_split_0_fm_gaussian_seed_3.json"
+      },
+      {
+        "vector": "vectors_s6b_drug_split_0_fm_gaussian_seed_4.npz",
+        "vector_sha256": "bbcb6ae62a35664f842767325964423e6d5662d679d9e9327d174d414ebbd617",
+        "provenance": "s6bev_s6b_drug_split_0_fm_gaussian_seed_4.json"
+      }
+    ],
+    "drug_split_1": [
+      {
+        "vector": "vectors_step6_fm_gaussian_seed_0.npz",
+        "vector_sha256": "128b32e16a9ab7d8527e88c742fafde3564e09f4ca0be3d6b3686fddd8567563",
+        "provenance": "s6eval_step6_fm_gaussian_seed_0.json"
+      },
+      {
+        "vector": "vectors_step6_fm_gaussian_seed_1.npz",
+        "vector_sha256": "9d5619d56460eb15901e7f8994e1b160b627f72f8bdb397b04d293a6ef728065",
+        "provenance": "s6eval_step6_fm_gaussian_seed_1.json"
+      },
+      {
+        "vector": "vectors_step6_fm_gaussian_seed_2.npz",
+        "vector_sha256": "342f57d2f607c647d78a933264dbd16f601ac12a3ed749780a9121d52a99e1ef",
+        "provenance": "s6eval_step6_fm_gaussian_seed_2.json"
+      },
+      {
+        "vector": "vectors_step6_fm_gaussian_seed_3.npz",
+        "vector_sha256": "3415f09813fbb924a4ae18bdd2954e02c5c7d0a6117e320134750518c0c03911",
+        "provenance": "s6eval_step6_fm_gaussian_seed_3.json"
+      },
+      {
+        "vector": "vectors_step6_fm_gaussian_seed_4.npz",
+        "vector_sha256": "57db905388deb824a20b3665e36ccb885c74d85a184b2be41644dd23fc6d692a",
+        "provenance": "s6eval_step6_fm_gaussian_seed_4.json"
+      }
+    ],
+    "drug_split_2": [
+      {
+        "vector": "vectors_s6b_drug_split_2_fm_gaussian_seed_0.npz",
+        "vector_sha256": "feef6ac13296617fd99c4a5468c65b70b0295b7291714f6ca85c7abcf07a0310",
+        "provenance": "s6bev_s6b_drug_split_2_fm_gaussian_seed_0.json"
+      },
+      {
+        "vector": "vectors_s6b_drug_split_2_fm_gaussian_seed_1.npz",
+        "vector_sha256": "809eae8a720e5226a418639867846363b33317ba034c4ddef171fc3a01031163",
+        "provenance": "s6bev_s6b_drug_split_2_fm_gaussian_seed_1.json"
+      },
+      {
+        "vector": "vectors_s6b_drug_split_2_fm_gaussian_seed_2.npz",
+        "vector_sha256": "2522d992ee4a5ad543af5595cf2cb0a77be6b1069fcda0f639142f7022c73b4f",
+        "provenance": "s6bev_s6b_drug_split_2_fm_gaussian_seed_2.json"
+      },
+      {
+        "vector": "vectors_s6b_drug_split_2_fm_gaussian_seed_3.npz",
+        "vector_sha256": "7013dff0e2fd288a4b027e46249fce06b39102d397e5b31ab187911128da91e9",
+        "provenance": "s6bev_s6b_drug_split_2_fm_gaussian_seed_3.json"
+      },
+      {
+        "vector": "vectors_s6b_drug_split_2_fm_gaussian_seed_4.npz",
+        "vector_sha256": "c883ac462103637c2393928518fce7e77b1da8ac6196262c70f8f1d78049f686",
+        "provenance": "s6bev_s6b_drug_split_2_fm_gaussian_seed_4.json"
+      }
+    ]
+  },
+  "commit": "f493baeb315b5434c16d2dc5e1f97f465f3bc9f0",
+  "script_sha256": "d673f824b1721f83235b9408d35563fbc1aa1d02abe65f04db133350078b18ed"
+}

@@ -1,0 +1,17 @@
+{
+  "status": "completed",
+  "analysis": "SECONDARY non-gated step sweep",
+  "ddim_sweep_posthoc": false,
+  "arm": "fm_gaussian",
+  "seed": "0",
+  "steps": 5,
+  "tag": "sw_fm_gaussian_seed_0_n5",
+  "completed_at": "2026-08-19T19:36:13.683774+00:00",
+  "commit": "105767a9eccafe4b568b2822d556c21786b10584",
+  "node": "cn274",
+  "gpu": "NVIDIA H100 NVL",
+  "vectors_npz": "leakage_results/vectors_sw_fm_gaussian_seed_0_n5.npz",
+  "vectors_sha256": "e46fc4b2202daa0a9840d18de920d1876406f2642a5e6e3f58aa30680e96cfb4",
+  "per_cell_npz": "leakage_results/vectors_sw_fm_gaussian_seed_0_n5_pc.npz",
+  "per_cell_sha256": "5653ab4b349b88e5e91e64af32fe1b9eaa4f7b02a54f5b8e76f4d9af1de6ed56"
+}

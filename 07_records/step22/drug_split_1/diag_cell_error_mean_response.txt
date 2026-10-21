@@ -1,0 +1,16 @@
+set mean_response: 28990 cell-level cells, 140223 control-B cells, K = 63, cores 16
+FAILING CELL LoVo_18β-Glycyrrhetinic acid_0.5_p14|Q|52 | condition LoVo_18β-Glycyrrhetinic acid_0.5_p14 | label P075
+   error: 'dims' cannot be of length 0
+   standardised values: clipped at +10: 0, at -10: 0, max |z| 6.890, mean 0.081, sd 1.300
+   residual after control-PCA baseline: max |r| 5.177, var 1.087, |r| >= 10: 0, outlier terms the package adds: 5
+   top |r| genes: SERPINA1=5.18, FGF2=4.16, IQCJ-SCHIP1=3.99, ENSG00000286134=3.79, LINC02582=3.38
+FAILING CELL LoVo_18β-Glycyrrhetinic acid_0.5_p14|Q|177 | condition LoVo_18β-Glycyrrhetinic acid_0.5_p14 | label P075
+   error: 'dims' cannot be of length 0
+   standardised values: clipped at +10: 0, at -10: 0, max |z| 8.780, mean 0.090, sd 1.208
+   residual after control-PCA baseline: max |r| 5.994, var 0.8429, |r| >= 10: 0, outlier terms the package adds: 5
+   top |r| genes: MARCOL=5.99, LINC03000=4.07, ENSG00000229618=3.82, SPINK13=-3.69, P3H2=-3.19
+FAILING CELL LoVo_18β-Glycyrrhetinic acid_0.5_p14|Q|94 | condition LoVo_18β-Glycyrrhetinic acid_0.5_p14 | label P075
+   error: 'dims' cannot be of length 0
+   standardised values: clipped at +10: 0, at -10: 0, max |z| 7.336, mean 0.057, sd 1.208
+   residual after control-PCA baseline: max |r| 4.076, var 0.6071, |r| >= 10: 0, outlier terms the package adds: 5
+   top |r| genes: ENSG00000230975=-4.08, P3H2=3.80, ENSG00000286134=3.44, CALB1=-3.03, LINC00540=2.64

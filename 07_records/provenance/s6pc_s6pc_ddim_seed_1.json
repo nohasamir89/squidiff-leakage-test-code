@@ -1,0 +1,17 @@
+{
+  "status": "completed",
+  "arm": "ddim",
+  "seed": "1",
+  "tag": "s6pc_ddim_seed_1",
+  "prereg": "PREREG_step6_flow_matching.md amendment 12",
+  "commit": "ede47d90010868cbd2247167a6826ac6c60148d2",
+  "completed_at": "2026-08-19T11:06:12.377525+00:00",
+  "verified_bitwise_against": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/leakage_results/vectors_step6_ddim_seed_1.npz",
+  "per_cell_npz": "leakage_results/vectors_s6pc_ddim_seed_1_pc.npz",
+  "per_cell_sha256": "272e8f5db8297e2cae303de48c8a1a54623ff411e5a37ba3cfe556378b90fb89",
+  "n_conditions": 443,
+  "cells_min": 7,
+  "cells_max": 200,
+  "node": "cn274",
+  "gpu": "NVIDIA H100 NVL"
+}

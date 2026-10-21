@@ -1,0 +1,17 @@
+{
+  "status": "completed",
+  "arm": "both",
+  "drug_encoding": "both",
+  "seed": "3",
+  "split": "drug_split_1",
+  "prereg": "PREREG_step9_pathway_conditioning.md",
+  "commit": "11b55f75ad363f7054835d4422b39499552e6f1b",
+  "fm_source": "gaussian",
+  "completed_at": "2026-09-09T06:28:33.656602+00:00",
+  "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step9/both/seed_3/model_0.9999.pt",
+  "checkpoint_sha256": "29471e854ae754a1329d0e3c00518019461b447f6649974aa7bcc1f8fce98e61",
+  "n_state_dict": 58299014,
+  "encoding_sidecar": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step9/both/seed_3/model_0.9999.pt.encoding.json",
+  "node": "cn270",
+  "gpu": "NVIDIA H100 NVL"
+}

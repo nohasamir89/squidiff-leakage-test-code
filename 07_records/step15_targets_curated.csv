@@ -1,0 +1,376 @@
+tahoe_drug,hub_names,matched_by,agreement,tahoe_targets_gpt,hub_targets,hub_moa,curated_targets,curated_source
+(R)-Verapamil (hydrochloride),verapamil,inchikey,disjoint,ABCB1,CACNA1A|CACNA1B|CACNA1C|CACNA1D|CACNA1F|CACNA1G|CACNA1I|CACNA1S|CACNB1|CACNB2|CACNB3|CACNB4|CYP3A4|KCNA10|KCNA7|KCNH2|KCNJ11|NALCN|SCN5A|SLC29A4|SLC6A4,calcium channel blocker,CACNA1A|CACNA1B|CACNA1C|CACNA1D|CACNA1F|CACNA1G|CACNA1I|CACNA1S|CACNB1|CACNB2|CACNB3|CACNB4|CYP3A4|KCNA10|KCNA7|KCNH2|KCNJ11|NALCN|SCN5A|SLC29A4|SLC6A4,repurposing_hub_20200324
+(S)-Crizotinib,crizotinib-(S),cid,identical,NUDT1,NUDT1,MTH1 inhibitor,NUDT1,repurposing_hub_20200324
+18β-Glycyrrhetinic acid,enoxolone,cid,"hub targets, no tahoe targets",,HSD11B1,gap junction modulator,HSD11B1,repurposing_hub_20200324
+4EGI-1,4EGI-1,inchikey,identical,EIF4E,EIF4E,protein synthesis inhibitor,EIF4E,repurposing_hub_20200324
+5-Azacytidine,azacitidine,cid,tahoe subset of hub,DNMT1,DNMT1|DNMT3A,DNA methyltransferase inhibitor,DNMT1|DNMT3A,repurposing_hub_20200324
+5-Fluorouracil,5-fluorouracil,cid,tahoe subset of hub,TYMS,DPYD|TYMS,thymidylate synthase inhibitor,DPYD|TYMS,repurposing_hub_20200324
+8-Hydroxyquinoline,oxyquinoline,cid,"hub targets, no tahoe targets",,METAP2,chelating agent,METAP2,repurposing_hub_20200324
+9-ING-41,,,no hub match,GSK3B,,,,
+APTO-253,APTO-253,cid,hub subset of tahoe,KLF4|MYC,KLF4,krüppel-like factor expression enhancer,KLF4,repurposing_hub_20200324
+AT7519,AT-7519,cid,hub subset of tahoe,CDK1|CDK2|CDK4|CDK5|CDK6|CDK7|CDK9|GSK3B,CDK1|CDK2|CDK4|CDK5|CDK6|CDK9,CDK inhibitor,CDK1|CDK2|CDK4|CDK5|CDK6|CDK9,repurposing_hub_20200324
+AZD-7648,,,no hub match,PRKDC,,,,
+AZD-8055,AZD8055,cid,identical,MTOR,MTOR,mTOR inhibitor,MTOR,repurposing_hub_20200324
+AZD1390,AZD1390,cid,"hub match, no hub targets",ATM,,ATM kinase inhibitor,,
+AZD2858,AZD2858,cid,hub subset of tahoe,GSK3A|GSK3B,GSK3B,glycogen synthase kinase inhibitor,GSK3B,repurposing_hub_20200324
+Abemaciclib,abemaciclib,cid,identical,CDK4|CDK6,CDK4|CDK6,CDK inhibitor,CDK4|CDK6,repurposing_hub_20200324
+Abiraterone acetate,abiraterone-acetate,cid,identical,CYP17A1,CYP17A1,androgen biosynthesis inhibitor,CYP17A1,repurposing_hub_20200324
+Acetazolamide,acetazolamide,cid,"hub targets, no tahoe targets",,AQP1|CA1|CA12|CA14|CA2|CA3|CA4|CA7,carbonic anhydrase inhibitor,AQP1|CA1|CA12|CA14|CA2|CA3|CA4|CA7,repurposing_hub_20200324
+Acetohexamide,acetohexamide,cid,"hub targets, no tahoe targets",,ABCC8|KCNJ1|KCNJ10|KCNJ11,ATP channel blocker,ABCC8|KCNJ1|KCNJ10|KCNJ11,repurposing_hub_20200324
+Adagrasib,,,no hub match,KRAS,,,,
+Adenine,adenine,cid,"hub targets, no tahoe targets",,ACACB|ACP1|APRT|MTAP|PECR|SRPK2,protein synthesis stimulant,ACACB|ACP1|APRT|MTAP|PECR|SRPK2,repurposing_hub_20200324
+Adenosine,adenosine,cid,tahoe subset of hub,ADORA1|ADORA2A|ADORA2B|ADORA3,ADORA1|ADORA2A|ADORA2B|ADORA3|PI4K2A|PI4K2B|TRPM4,adenosine receptor agonist,ADORA1|ADORA2A|ADORA2B|ADORA3|PI4K2A|PI4K2B|TRPM4,repurposing_hub_20200324
+Afatinib,afatinib,cid,tahoe subset of hub,EGFR|ERBB2,EGFR|ERBB2|ERBB4,EGFR inhibitor,EGFR|ERBB2|ERBB4,repurposing_hub_20200324
+Aliskiren,aliskiren-hemifumarate,cid,identical,REN,REN,renin inhibitor,REN,repurposing_hub_20200324
+Allantoin,allantoin,inchikey,"hub match, no hub targets",,,cosmetic,,
+Allopurinol,allopurinol,cid,identical,XDH,XDH,xanthine oxidase inhibitor,XDH,repurposing_hub_20200324
+Almonertinib (hydrochloride),,,no hub match,EGFR,,,,
+Almonertinib (mesylate),,,no hub match,EGFR,,,,
+Alpelisib,alpelisib,cid,tahoe subset of hub,PIK3CA,PIK3CA|PIK3CB|PIK3CD|PIK3CG,PI3K inhibitor,PIK3CA|PIK3CB|PIK3CD|PIK3CG,repurposing_hub_20200324
+Altretamine,altretamine,cid,"hub match, no hub targets",,,DNA synthesis inhibitor,,
+Amsacrine,amsacrine,cid,tahoe subset of hub,TOP2A,KCNH2|TOP2A,topoisomerase inhibitor,KCNH2|TOP2A,repurposing_hub_20200324
+Anastrozole,anastrozole,cid,identical,CYP19A1,CYP19A1,aromatase inhibitor,CYP19A1,repurposing_hub_20200324
+Anethole trithione,anethole-trithione,cid,"hub match, no hub targets",,,glutathione transferase stimulant,,
+Apalutamide,apalutamide,cid,"hub match, no hub targets",AR,,androgen receptor antagonist,,
+Aprepitant,aprepitant,cid,identical,TACR1,TACR1,tachykinin antagonist,TACR1,repurposing_hub_20200324
+Arbutin,arbutin,cid,disjoint,KLF4|MYC,TYR,melanin inhibitor,TYR,repurposing_hub_20200324
+Artemether,artemether,cid,"hub targets, no tahoe targets",,ATP1A1,antimalarial agent,ATP1A1,repurposing_hub_20200324
+Artesunate,artesunate,cid,"hub match, no hub targets",,,DNA synthesis inhibitor,,
+Asciminib,asciminib,cid,"hub match, no hub targets",ABL1,,Bcr-Abl kinase inhibitor,,
+Aspirin,aspirin,cid,tahoe subset of hub,PTGS1|PTGS2,AKR1C1|ASIC3|EDNRA|HSPA5|IKBKB|NFKB1|NFKB2|NFKBIA|PRKAA1|PRKAA2|PRKAB1|PRKAB2|PRKAG1|PRKAG2|PRKAG3|PTGS1|PTGS2|RPS6KA3|TP53,cyclooxygenase inhibitor,AKR1C1|ASIC3|EDNRA|HSPA5|IKBKB|NFKB1|NFKB2|NFKBIA|PRKAA1|PRKAA2|PRKAB1|PRKAB2|PRKAG1|PRKAG2|PRKAG3|PTGS1|PTGS2|RPS6KA3|TP53,repurposing_hub_20200324
+Ataluren,ataluren,cid,disjoint,CFTR,DMD,CFTR channel agonist|dystrophin stimulant,DMD,repurposing_hub_20200324
+Atazanavir (sulfate),atazanavir,inchikey,"hub match, no hub targets",CYP3A4,,HIV protease inhibitor,,
+Auranofin,auranofin,name,disjoint,TXNRD1|TXNRD2,IKBKB|PRDX5|TRPA1,NFkB pathway inhibitor,IKBKB|PRDX5|TRPA1,repurposing_hub_20200324
+Azithromycin (hydrate),azithromycin,inchikey,"hub targets, no tahoe targets",,MLNR,bacterial 50S ribosomal subunit inhibitor,MLNR,repurposing_hub_20200324
+BAY1125976,BAY1125976,cid,"hub match, no hub targets",AKT1|AKT2|AKT3,,AKT inhibitor,,
+BI-3406,,,no hub match,KRAS|SOS1,,,,
+BI-78D3,BI-78D3,cid,"hub targets, no tahoe targets",,MAPK8,JNK inhibitor,MAPK8,repurposing_hub_20200324
+Baicalin,baicalin,name,"hub targets, no tahoe targets",,PREP,beta glucuronidase inhibitor,PREP,repurposing_hub_20200324
+Balsalazide (sodium hydrate),balsalazide,inchikey,disjoint,IL6|STAT3,ALOX5|PPARG|PTGS1|PTGS2,cyclooxygenase inhibitor,ALOX5|PPARG|PTGS1|PTGS2,repurposing_hub_20200324
+Belinostat,belinostat,cid,tahoe subset of hub,HDAC6,HDAC1|HDAC10|HDAC11|HDAC2|HDAC3|HDAC4|HDAC5|HDAC6|HDAC7|HDAC8|HDAC9,HDAC inhibitor,HDAC1|HDAC10|HDAC11|HDAC2|HDAC3|HDAC4|HDAC5|HDAC6|HDAC7|HDAC8|HDAC9,repurposing_hub_20200324
+Belumosudil,KD025,cid,hub subset of tahoe,ROCK1|ROCK2,ROCK2,rho associated kinase inhibitor,ROCK2,repurposing_hub_20200324
+Belumosudil (mesylate),KD025,inchikey,hub subset of tahoe,ROCK1|ROCK2,ROCK2,rho associated kinase inhibitor,ROCK2,repurposing_hub_20200324
+Belzutifan,,,no hub match,EPAS1,,,,
+Bendamustine,bendamustine,cid,"hub match, no hub targets",,,DNA inhibitor,,
+Benproperine (phosphate),benproperine,inchikey,disjoint,ARPC2,SCN5A,antitussive,SCN5A,repurposing_hub_20200324
+Bentamapimod,PGL5001,inchikey,identical,MAPK10|MAPK8|MAPK9,MAPK10|MAPK8|MAPK9,JNK inhibitor,MAPK10|MAPK8|MAPK9,repurposing_hub_20200324
+Benztropine (mesylate),benztropine-mesylate,inchikey,"hub targets, no tahoe targets",,CHRM1|HRH1|SLC6A3,acetylcholine receptor antagonist,CHRM1|HRH1|SLC6A3,repurposing_hub_20200324
+Berbamine,,,no hub match,CACNA1C,,,,
+Berbamine (dihydrochloride),,,no hub match,,,,,
+Berberine (chloride hydrate),berberine,inchikey,"hub targets, no tahoe targets",,LDLR,LDL receptor activator,LDLR,repurposing_hub_20200324
+Bergenin,bergenin,cid,"hub targets, no tahoe targets",,IL1B|TNF,interleukin inhibitor,IL1B|TNF,repurposing_hub_20200324
+Bestatin,ubenimex,cid,disjoint,ANPEP,LTA4H|RNPEP,leukotriene synthesis inhibitor,LTA4H|RNPEP,repurposing_hub_20200324
+Bestatin (hydrochloride),ubenimex,inchikey,"hub targets, no tahoe targets",,LTA4H|RNPEP,leukotriene synthesis inhibitor,LTA4H|RNPEP,repurposing_hub_20200324
+Betamethasone dipropionate,betamethasone-dipropionate,cid,identical,NR3C1,NR3C1,anti-inflammatory agent,NR3C1,repurposing_hub_20200324
+Bexarotene,bexarotene,cid,identical,RXRA|RXRB|RXRG,RXRA|RXRB|RXRG,retinoid receptor agonist,RXRA|RXRB|RXRG,repurposing_hub_20200324
+Bicalutamide,bicalutamide,cid,identical,AR,AR,androgen receptor antagonist,AR,repurposing_hub_20200324
+Bimatoprost,bimatoprost,cid,"hub targets, no tahoe targets",,AKR1C3|PTGER1|PTGER3|PTGFR,prostanoid receptor agonist,AKR1C3|PTGER1|PTGER3|PTGFR,repurposing_hub_20200324
+Bimiralisib,PI3K-IN-2,cid,"hub match, no hub targets",MTOR|PIK3CA|PIK3CB,,PI3K inhibitor,,
+Binimetinib,binimetinib,cid,identical,MAP2K1|MAP2K2,MAP2K1|MAP2K2,MEK inhibitor,MAP2K1|MAP2K2,repurposing_hub_20200324
+Bisoprolol (hemifumarate),bisoprolol,inchikey,identical,ADRB1,ADRB1,adrenergic receptor antagonist,ADRB1,repurposing_hub_20200324
+Bortezomib,bortezomib,cid,tahoe subset of hub,PSMB5,PSMA1|PSMA2|PSMA3|PSMA4|PSMA5|PSMA6|PSMA7|PSMA8|PSMB1|PSMB10|PSMB11|PSMB2|PSMB3|PSMB4|PSMB5|PSMB6|PSMB7|PSMB8|PSMB9|PSMD1|PSMD2|RELA,NFkB pathway inhibitor|proteasome inhibitor,PSMA1|PSMA2|PSMA3|PSMA4|PSMA5|PSMA6|PSMA7|PSMA8|PSMB1|PSMB10|PSMB11|PSMB2|PSMB3|PSMB4|PSMB5|PSMB6|PSMB7|PSMB8|PSMB9|PSMD1|PSMD2|RELA,repurposing_hub_20200324
+Bosentan (hydrate),bosentan,inchikey,identical,EDNRA|EDNRB,EDNRA|EDNRB,endothelin receptor antagonist,EDNRA|EDNRB,repurposing_hub_20200324
+Brimonidine,brimonidine,cid,identical,ADRA2A|ADRA2B|ADRA2C,ADRA2A|ADRA2B|ADRA2C,adrenergic receptor agonist,ADRA2A|ADRA2B|ADRA2C,repurposing_hub_20200324
+Brivudine,brivudine,cid,"hub match, no hub targets",,,DNA directed DNA polymerase inhibitor,,
+Budesonide,budesonide,inchikey,identical,NR3C1,NR3C1,glucocorticoid receptor agonist,NR3C1,repurposing_hub_20200324
+Busulfan,busulfan,cid,"hub match, no hub targets",,,DNA inhibitor,,
+CP21R7,,,no hub match,GSK3B|PRKCA,,,,
+Cabozantinib (S-malate),cabozantinib,inchikey,partial overlap,AXL|KDR|MET,KDR|MET|RET,RET tyrosine kinase inhibitor|VEGFR inhibitor,KDR|MET|RET,repurposing_hub_20200324
+Canagliflozin,canagliflozin,cid,tahoe subset of hub,SLC5A2,SLC5A1|SLC5A2,sodium/glucose cotransporter inhibitor,SLC5A1|SLC5A2,repurposing_hub_20200324
+Canagliflozin (hemihydrate),canagliflozin,inchikey,tahoe subset of hub,SLC5A2,SLC5A1|SLC5A2,sodium/glucose cotransporter inhibitor,SLC5A1|SLC5A2,repurposing_hub_20200324
+Capivasertib,AZD5363,cid,hub subset of tahoe,AKT1|AKT2|AKT3|PRKACA|ROCK1|ROCK2|RPS6KB1,AKT1|AKT2|AKT3,AKT inhibitor,AKT1|AKT2|AKT3,repurposing_hub_20200324
+Capmatinib,INC-280,cid,identical,MET,MET,c-Met inhibitor,MET,repurposing_hub_20200324
+Captopril,captopril,cid,tahoe subset of hub,ACE,ACE|LTA4H|MMP2|MMP9,angiotensin converting enzyme inhibitor,ACE|LTA4H|MMP2|MMP9,repurposing_hub_20200324
+Carbamazepine,carbamazepine,cid,"hub targets, no tahoe targets",,SCN10A|SCN11A|SCN1A|SCN2A|SCN3A|SCN4A|SCN5A|SCN7A|SCN8A|SCN9A,carboxamide antiepileptic,SCN10A|SCN11A|SCN1A|SCN2A|SCN3A|SCN4A|SCN5A|SCN7A|SCN8A|SCN9A,repurposing_hub_20200324
+Carbidopa (monohydrate),carbidopa,inchikey,disjoint,AHR,DDC,aromatic L-amino acid decarboxylase inhibitor,DDC,repurposing_hub_20200324
+Celecoxib,celecoxib,cid,tahoe subset of hub,PTGS2,CA12|PDPK1|PTGS2,cyclooxygenase inhibitor,CA12|PDPK1|PTGS2,repurposing_hub_20200324
+Cepharanthine,cepharanthine,cid,"hub match, no hub targets",CYP2C9|CYP2E1|CYP3A4,,NFkB pathway inhibitor,,
+Chlorhexidine (diacetate),chlorhexidine,inchikey,"hub match, no hub targets",,,membrane integrity inhibitor,,
+Ciclopirox,ciclopirox,cid,"hub targets, no tahoe targets",,ATP1A1,membrane integrity inhibitor,ATP1A1,repurposing_hub_20200324
+Cilostazol,cilostazol,cid,tahoe subset of hub,PDE3A,PDE3A|PDE3B,phosphodiesterase inhibitor,PDE3A|PDE3B,repurposing_hub_20200324
+Cinacalcet,cinacalcet,cid,identical,CASR,CASR,calcium channel activator,CASR,repurposing_hub_20200324
+Citalopram (hydrobromide),citalopram|escitalopram,inchikey,tahoe subset of hub,SLC6A4,ADRA1A|CHRM1|HRH1|SLC6A2|SLC6A3|SLC6A4,selective serotonin reuptake inhibitor (SSRI),ADRA1A|CHRM1|HRH1|SLC6A2|SLC6A3|SLC6A4,repurposing_hub_20200324
+Clobetasol propionate,clobetasol-propionate,cid,disjoint,CYP3A4|CYP3A5,NR3C1|PLA2G1B,glucocorticoid receptor agonist,NR3C1|PLA2G1B,repurposing_hub_20200324
+Clofarabine,clofarabine,cid,"hub targets, no tahoe targets",,POLA1|POLD1|POLE|RRM1|RRM2|RRM2B,ribonucleotide reductase inhibitor,POLA1|POLD1|POLE|RRM1|RRM2|RRM2B,repurposing_hub_20200324
+Clonidine (hydrochloride),clonidine,inchikey,tahoe subset of hub,ADRA2A|ADRA2B|ADRA2C,ADRA1A|ADRA1B|ADRA1D|ADRA2A|ADRA2B|ADRA2C,adrenergic receptor agonist,ADRA1A|ADRA1B|ADRA1D|ADRA2A|ADRA2B|ADRA2C,repurposing_hub_20200324
+Clopidogrel,clopidogrel,cid,identical,P2RY12,P2RY12,purinergic receptor antagonist,P2RY12,repurposing_hub_20200324
+Clotrimazole,clotrimazole,cid,disjoint,CYP2A6|CYP51A1,CYP3A4|KCNN4|NR1I2|NR1I3|TRPM2|TRPM4|TRPM8,cytochrome P450 inhibitor|imidazoline receptor ligand,CYP3A4|KCNN4|NR1I2|NR1I3|TRPM2|TRPM4|TRPM8,repurposing_hub_20200324
+Cloxacillin (sodium),cloxacillin,inchikey,"hub match, no hub targets",,,bacterial cell wall synthesis inhibitor,,
+Cobimetinib,cobimetinib,cid,identical,MAP2K1,MAP2K1,MEK inhibitor,MAP2K1,repurposing_hub_20200324
+Crizotinib (hydrochloride),crizotinib|crizotinib-(S),inchikey,partial overlap,ALK|MET|ROS1,ALK|MET|NUDT1,ALK tyrosine kinase receptor inhibitor; MTH1 inhibitor,ALK|MET|NUDT1,repurposing_hub_20200324
+Cyclosporin A,cyclosporin-A,cid,partial overlap,PPP3CA|PPP3CB|PPP3CC,ABCB11|CAMLG|FPR1|PPIA|PPIF|PPP3CA|PPP3R2|SLC10A1|SLCO1B1|SLCO1B3,calcineurin inhibitor,ABCB11|CAMLG|FPR1|PPIA|PPIF|PPP3CA|PPP3R2|SLC10A1|SLCO1B1|SLCO1B3,repurposing_hub_20200324
+Cysteamine (hydrochloride),cysteamine,inchikey,"hub targets, no tahoe targets",,NPY2R|SST,tissue transglutaminase inhibitor,NPY2R|SST,repurposing_hub_20200324
+Cytarabine,cytarabine,cid,"hub targets, no tahoe targets",,POLA1|POLB|POLD1|POLE,ribonucleotide reductase inhibitor,POLA1|POLB|POLD1|POLE,repurposing_hub_20200324
+Cytarabine (hydrochloride),cytarabine|cytidine,inchikey,"hub targets, no tahoe targets",,POLA1|POLB|POLD1|POLE,ribonucleotide reductase inhibitor,POLA1|POLB|POLD1|POLE,repurposing_hub_20200324
+DT-061,,,no hub match,,,,,
+DTP3,,,no hub match,,,,,
+Dabrafenib,dabrafenib,cid,tahoe subset of hub,BRAF|RAF1,BRAF|LIMK1|NEK11|RAF1|SIK1,RAF inhibitor,BRAF|LIMK1|NEK11|RAF1|SIK1,repurposing_hub_20200324
+Daidzin,daidzin,cid,identical,ALDH2,ALDH2,antioxidant,ALDH2,repurposing_hub_20200324
+Dapagliflozin,dapagliflozin,cid,tahoe subset of hub,SLC5A2,SLC5A1|SLC5A2,sodium/glucose cotransporter inhibitor,SLC5A1|SLC5A2,repurposing_hub_20200324
+"Dapagliflozin ((2S)-1,2-propanediol, hydrate)",dapagliflozin,inchikey,tahoe subset of hub,SLC5A2,SLC5A1|SLC5A2,sodium/glucose cotransporter inhibitor,SLC5A1|SLC5A2,repurposing_hub_20200324
+Daptomycin,daptomycin,cid,"hub match, no hub targets",,,bacterial cell wall synthesis inhibitor,,
+Darinaparsin,,,no hub match,,,,,
+Darolutamide,darolutamide,inchikey,identical,AR,AR,androgen receptor antagonist,AR,repurposing_hub_20200324
+Decitabine,decitabine,cid,hub subset of tahoe,DNMT1|DNMT3A|DNMT3B,DNMT1|DNMT3A,DNA methyltransferase inhibitor,DNMT1|DNMT3A,repurposing_hub_20200324
+Delamanid,delamanid,cid,"hub match, no hub targets",,,bacterial cell wall synthesis inhibitor,,
+Demeclocycline,demeclocycline,name,"hub match, no hub targets",,,bacterial 30S ribosomal subunit inhibitor,,
+Dexamethasone,dexamethasone,cid,tahoe subset of hub,NR3C1,ANXA1|NOS2|NR0B1|NR3C1|NR3C2,glucocorticoid receptor agonist,ANXA1|NOS2|NR0B1|NR3C1|NR3C2,repurposing_hub_20200324
+Dexmedetomidine,dexmedetomidine,cid,identical,ADRA2A|ADRA2B|ADRA2C,ADRA2A|ADRA2B|ADRA2C,adrenergic receptor agonist,ADRA2A|ADRA2B|ADRA2C,repurposing_hub_20200324
+Diammonium Glycyrrhizinate,ammonium-glycyrrhizinate,inchikey,"hub targets, no tahoe targets",,HSD11B1|HSD11B2|SLCO1B1|SLCO1B3,thrombin inhibitor,HSD11B1|HSD11B2|SLCO1B1|SLCO1B3,repurposing_hub_20200324
+Digitoxin,digitoxin,cid,"hub targets, no tahoe targets",,ATP1A1|ATP1A2|ATP1A3|ATP1A4|ATP1B1|ATP1B2|ATP1B3|FXYD2,ATPase inhibitor,ATP1A1|ATP1A2|ATP1A3|ATP1A4|ATP1B1|ATP1B2|ATP1B3|FXYD2,repurposing_hub_20200324
+Dihydroartemisinin,dihydroartemisinin,cid,"hub match, no hub targets",,,antimalarial agent,,
+Dimethyl fumarate,dimethyl-fumarate,cid,disjoint,NFE2L2,KEAP1,nuclear factor erythroid derived|like (NRF2) activator,KEAP1,repurposing_hub_20200324
+Diphenhydramine,diphenhydramine,cid,identical,HRH1,HRH1,histamine receptor antagonist,HRH1,repurposing_hub_20200324
+Docetaxel,docetaxel,cid,"hub targets, no tahoe targets",,BCL2|MAP2|MAP4|MAPT|NR1I2|TUBA1A|TUBA1B|TUBA1C|TUBA3C|TUBA3D|TUBA3E|TUBA4A|TUBB|TUBB1|TUBB2A|TUBB2B|TUBB3|TUBB4A|TUBB4B|TUBB6|TUBB8,tubulin polymerization inhibitor,BCL2|MAP2|MAP4|MAPT|NR1I2|TUBA1A|TUBA1B|TUBA1C|TUBA3C|TUBA3D|TUBA3E|TUBA4A|TUBB|TUBB1|TUBB2A|TUBB2B|TUBB3|TUBB4A|TUBB4B|TUBB6|TUBB8,repurposing_hub_20200324
+Docetaxel (Trihydrate),docetaxel,inchikey,tahoe subset of hub,TUBB1|TUBB2A|TUBB2B|TUBB3|TUBB4A|TUBB4B,BCL2|MAP2|MAP4|MAPT|NR1I2|TUBA1A|TUBA1B|TUBA1C|TUBA3C|TUBA3D|TUBA3E|TUBA4A|TUBB|TUBB1|TUBB2A|TUBB2B|TUBB3|TUBB4A|TUBB4B|TUBB6|TUBB8,tubulin polymerization inhibitor,BCL2|MAP2|MAP4|MAPT|NR1I2|TUBA1A|TUBA1B|TUBA1C|TUBA3C|TUBA3D|TUBA3E|TUBA4A|TUBB|TUBB1|TUBB2A|TUBB2B|TUBB3|TUBB4A|TUBB4B|TUBB6|TUBB8,repurposing_hub_20200324
+Dorzolamide (hydrochloride),dorzolamide,inchikey,tahoe subset of hub,CA2,CA1|CA12|CA14|CA2|CA4|CA7,carbonic anhydrase inhibitor,CA1|CA12|CA14|CA2|CA4|CA7,repurposing_hub_20200324
+Doxorubicin (hydrochloride),doxorubicin|epirubicin,inchikey,partial overlap,TOP1|TOP2A|TOP2B,CHD1|TOP2A,topoisomerase inhibitor,CHD1|TOP2A,repurposing_hub_20200324
+Doxycycline (monohydrate),doxycycline,name,hub subset of tahoe,MMP13|MMP14|MMP7|MMP8|MMP9,MMP8,bacterial 30S ribosomal subunit inhibitor|metalloproteinase inhibitor,MMP8,repurposing_hub_20200324
+Drospirenone,drospirenone,cid,"hub targets, no tahoe targets",,AR|NR3C2|PGR,mineralocorticoid receptor antagonist,AR|NR3C2|PGR,repurposing_hub_20200324
+ERK5-IN-2,,,no hub match,MAPK7,,,,
+ETC-206,ETC-206,cid,"hub match, no hub targets",,,MAPK-interacting kinase inhibitor,,
+EX229,,,no hub match,PRKAA1,,,,
+Econazole,econazole,inchikey,"hub targets, no tahoe targets",,NPY1R|NPY2R|TRPM2|TRPV5,lanosterol demethylase inhibitor|sterol demethylase inhibitor,NPY1R|NPY2R|TRPM2|TRPV5,repurposing_hub_20200324
+Edoxaban (tosylate monohydrate),edoxaban,inchikey,identical,F10,F10,coagulation factor inhibitor,F10,repurposing_hub_20200324
+Elagolix sodium,elagolix,inchikey,identical,GNRHR,GNRHR,gonadotropin releasing factor hormone receptor antagonist,GNRHR,repurposing_hub_20200324
+Elimusertib hydrochloride,BAY-1895344,cid,"hub match, no hub targets",ATR,,ATR kinase inhibitor,,
+Encorafenib,encorafenib,cid,identical,BRAF,BRAF,RAF inhibitor,BRAF,repurposing_hub_20200324
+Entecavir (monohydrate),entecavir,inchikey,"hub match, no hub targets",,,DNA replication inhibitor|nucleoside reverse transcriptase inhibitor,,
+Entrectinib,entrectinib,cid,identical,ALK|NTRK1|NTRK2|NTRK3|ROS1,ALK|NTRK1|NTRK2|NTRK3|ROS1,ALK tyrosine kinase receptor inhibitor|proto-oncogene tyrosine protein kinase inhibitor,ALK|NTRK1|NTRK2|NTRK3|ROS1,repurposing_hub_20200324
+Epirubicin (hydrochloride),doxorubicin|epirubicin,inchikey,tahoe subset of hub,TOP2A,CHD1|TOP2A,topoisomerase inhibitor,CHD1|TOP2A,repurposing_hub_20200324
+Eplerenone,eplerenone,cid,identical,NR3C2,NR3C2,cytochrome P450 inhibitor,NR3C2,repurposing_hub_20200324
+Erdafitinib,erdafitinib,cid,identical,FGFR1|FGFR2|FGFR3|FGFR4,FGFR1|FGFR2|FGFR3|FGFR4,FGFR inhibitor,FGFR1|FGFR2|FGFR3|FGFR4,repurposing_hub_20200324
+Erlotinib,erlotinib,cid,tahoe subset of hub,EGFR,EGFR|NR1I2,EGFR inhibitor,EGFR|NR1I2,repurposing_hub_20200324
+Erythromycin,erythromycin,inchikey,"hub targets, no tahoe targets",,MLNR,NFkB pathway inhibitor,MLNR,repurposing_hub_20200324
+Esmolol (hydrochloride),esmolol,inchikey,identical,ADRB1,ADRB1,adrenergic receptor antagonist,ADRB1,repurposing_hub_20200324
+Estrone sulfate (potassium),estropipate,inchikey,"hub targets, no tahoe targets",,ESR1|ESR2,estrogen receptor agonist,ESR1|ESR2,repurposing_hub_20200324
+Everolimus,everolimus,inchikey,hub subset of tahoe,FKBP1A|MTOR,MTOR,mTOR inhibitor,MTOR,repurposing_hub_20200324
+Fedratinib (hydrochloride hydrate),fedratinib,inchikey,partial overlap,FLT3|JAK2|RET,BRD4|JAK1|JAK2|JAK3|TYK2,FLT3 inhibitor|JAK inhibitor,BRD4|JAK1|JAK2|JAK3|TYK2,repurposing_hub_20200324
+Fenofibrate,fenofibrate,cid,partial overlap,CYP2B6|CYP2C19|CYP2C8|CYP2C9|CYP3A4|PPARA,MMP25|PPARA,PPAR receptor agonist,MMP25|PPARA,repurposing_hub_20200324
+Ferulic acid,ferulic-acid,cid,disjoint,FGFR1|FGFR2,CA1|CA12|CA14|CA2|CA4|CA6|CA9,antioxidant,CA1|CA12|CA14|CA2|CA4|CA6|CA9,repurposing_hub_20200324
+Filgotinib,filgotinib,cid,identical,JAK1|JAK2|JAK3|TYK2,JAK1|JAK2|JAK3|TYK2,JAK inhibitor,JAK1|JAK2|JAK3|TYK2,repurposing_hub_20200324
+Finasteride,finasteride,cid,tahoe subset of hub,SRD5A2,AKR1D1|SRD5A1|SRD5A2,5 alpha reductase inhibitor,AKR1D1|SRD5A1|SRD5A2,repurposing_hub_20200324
+Fingolimod (hydrochloride),fingolimod,inchikey,disjoint,PAK1,S1PR1|S1PR5,immunosuppressant|sphingosine 1-phosphate receptor agonist,S1PR1|S1PR5,repurposing_hub_20200324
+Flumatinib (mesylate),flumatinib,inchikey,tahoe subset of hub,ABL1,ABL1|PDGFRB,Bcr-Abl kinase inhibitor,ABL1|PDGFRB,repurposing_hub_20200324
+Flutamide,flutamide,cid,tahoe subset of hub,AR,AHR|AR,androgen receptor antagonist,AHR|AR,repurposing_hub_20200324
+Fluvoxamine,fluvoxamine,cid,identical,SLC6A4,SLC6A4,selective serotonin reuptake inhibitor (SSRI),SLC6A4,repurposing_hub_20200324
+Fluvoxamine (maleate),fluvoxamine,inchikey,"hub targets, no tahoe targets",,SLC6A4,selective serotonin reuptake inhibitor (SSRI),SLC6A4,repurposing_hub_20200324
+Folic acid,folic-acid,inchikey,"hub targets, no tahoe targets",,FOLR2|FOLR3|SLC19A1|SLC46A1,folate receptor ligand,FOLR2|FOLR3|SLC19A1|SLC46A1,repurposing_hub_20200324
+Fostamatinib (disodium hexahydrate),fostamatinib,inchikey,hub subset of tahoe,FLT3|LCK|LYN|SYK,SYK,SYK inhibitor,SYK,repurposing_hub_20200324
+Fulvestrant,fulvestrant,inchikey,tahoe subset of hub,ESR1,ESR1|ESR2|GPER1,estrogen receptor antagonist,ESR1|ESR2|GPER1,repurposing_hub_20200324
+Fumaric acid,,,no hub match,,,,,
+Furosemide,furosemide,cid,tahoe subset of hub,SLC12A1|SLC12A2,CA2|GPR35|SLC12A1|SLC12A2,diuretic,CA2|GPR35|SLC12A1|SLC12A2,repurposing_hub_20200324
+Fusidic acid,fusidic-acid,cid,"hub match, no hub targets",,,bacterial 30S ribosomal subunit inhibitor,,
+Futibatinib,futibatinib,cid,"hub match, no hub targets",FGFR1|FGFR2|FGFR3|FGFR4,,FGFR inhibitor,,
+GSK1059615,GSK1059615,cid,hub subset of tahoe,MTOR|PIK3CA|PIK3CB|PIK3CD|PIK3CG,PIK3CG,PI3K inhibitor,PIK3CG,repurposing_hub_20200324
+Gallic acid,gallic-acid,cid,"hub targets, no tahoe targets",,CA1|CA12|CA14|CA2|CA4|CA6|CA9|SELP,beta amyloid protein neurotoxicity inhibitor|PPAR receptor agonist,CA1|CA12|CA14|CA2|CA4|CA6|CA9|SELP,repurposing_hub_20200324
+Gallic acid (hydrate),gallic-acid,inchikey,"hub targets, no tahoe targets",,CA1|CA12|CA14|CA2|CA4|CA6|CA9|SELP,beta amyloid protein neurotoxicity inhibitor|PPAR receptor agonist,CA1|CA12|CA14|CA2|CA4|CA6|CA9|SELP,repurposing_hub_20200324
+Gefitinib,gefitinib,cid,identical,EGFR,EGFR,EGFR inhibitor,EGFR,repurposing_hub_20200324
+Gemcitabine,gemcitabine,cid,"hub targets, no tahoe targets",,CMPK1|RRM1|RRM2|TYMS,ribonucleotide reductase inhibitor,CMPK1|RRM1|RRM2|TYMS,repurposing_hub_20200324
+Gemfibrozil,gemfibrozil,cid,partial overlap,CYP1A2|CYP2C19|CYP2C8|CYP2C9|PPARA,LPL|PPARA|SLCO1B1|SLCO1B3|SLCO2B1,lipoprotein lipase activator,LPL|PPARA|SLCO1B1|SLCO1B3|SLCO2B1,repurposing_hub_20200324
+Glasdegib,glasdegib,cid,identical,SMO,SMO,hedgehog pathway inhibitor,SMO,repurposing_hub_20200324
+Glycyrrhizic acid,ammonium-glycyrrhizinate,cid,"hub targets, no tahoe targets",,HSD11B1|HSD11B2|SLCO1B1|SLCO1B3,thrombin inhibitor,HSD11B1|HSD11B2|SLCO1B1|SLCO1B3,repurposing_hub_20200324
+Goserelin (acetate),goserelin-acetate,inchikey,tahoe subset of hub,GNRHR,GNRHR|LHCGR,gonadotropin releasing factor hormone receptor agonist,GNRHR|LHCGR,repurposing_hub_20200324
+HI-TOPK-032,,,no hub match,PBK,,,,
+Harringtonine,harringtonine,cid,"hub match, no hub targets",,,protein synthesis inhibitor,,
+Hesperidin,hesperidin,cid,"hub targets, no tahoe targets",,AURKB|CACNA1B,flavanone glycoside,AURKB|CACNA1B,repurposing_hub_20200324
+Hexylresorcinol,hexylresorcinol,cid,"hub targets, no tahoe targets",,TYR,local anesthetic,TYR,repurposing_hub_20200324
+Homoharringtonine,homoharringtonine,cid,"hub targets, no tahoe targets",,RPL3,protein synthesis inhibitor,RPL3,repurposing_hub_20200324
+Hydroxyfasudil,hydroxyfasudil,cid,partial overlap,PRKACA|ROCK1|ROCK2,PKIA|PRKACA|ROCK1,rho associated kinase inhibitor,PKIA|PRKACA|ROCK1,repurposing_hub_20200324
+Hydroxyurea,hydroxyurea,cid,tahoe subset of hub,RRM1|RRM2,RRM1|RRM2|RRM2B,ribonucleotide reductase inhibitor,RRM1|RRM2|RRM2B,repurposing_hub_20200324
+IQ 1,,,no hub match,,,,,
+Idarubicin (hydrochloride),idarubicin,inchikey,identical,TOP2A,TOP2A,topoisomerase inhibitor,TOP2A,repurposing_hub_20200324
+Idoxuridine,idoxuridine,cid,"hub match, no hub targets",,,DNA directed DNA polymerase inhibitor|DNA synthesis inhibitor,,
+Imiquimod (hydrochloride),imiquimod,inchikey,tahoe subset of hub,TLR7,TLR7|TLR8,interferon inducer|toll-like receptor agonist,TLR7|TLR8,repurposing_hub_20200324
+Imiquimod (maleate),imiquimod,inchikey,tahoe subset of hub,TLR7,TLR7|TLR8,interferon inducer|toll-like receptor agonist,TLR7|TLR8,repurposing_hub_20200324
+Indacaterol (maleate),indacaterol,inchikey,tahoe subset of hub,ADRB2,ADRB1|ADRB2,adrenergic receptor agonist,ADRB1|ADRB2,repurposing_hub_20200324
+Infigratinib,NVP-BGJ398,cid,tahoe subset of hub,FGFR1|FGFR2|FGFR3|FGFR4,FGFR1|FGFR2|FGFR3|FGFR4|KDR,FGFR inhibitor,FGFR1|FGFR2|FGFR3|FGFR4|KDR,repurposing_hub_20200324
+Ipatasertib,GDC-0068,cid,tahoe subset of hub,AKT1|AKT2|AKT3,AKT1|AKT2|AKT3|PRKG1,AKT inhibitor,AKT1|AKT2|AKT3|PRKG1,repurposing_hub_20200324
+Irinotecan,irinotecan,cid,tahoe subset of hub,TOP1,TOP1|TOP1MT,topoisomerase inhibitor,TOP1|TOP1MT,repurposing_hub_20200324
+Irinotecan (hydrochloride),irinotecan,inchikey,tahoe subset of hub,TOP1,TOP1|TOP1MT,topoisomerase inhibitor,TOP1|TOP1MT,repurposing_hub_20200324
+Isocorydine,,,no hub match,,,,,
+Ivabradine (hydrochloride),ivabradine,inchikey,tahoe subset of hub,HCN4,HCN1|HCN3|HCN4,HCN channel blocker|potassium channel blocker|sodium channel blocker,HCN1|HCN3|HCN4,repurposing_hub_20200324
+Ivermectin,ivermectin,cid,"hub targets, no tahoe targets",,CHRNA7|P2RX7,benzodiazepine receptor agonist,CHRNA7|P2RX7,repurposing_hub_20200324
+Ixazomib,ixazomib,cid,"hub match, no hub targets",PSMB5,,proteasome inhibitor,,
+Ixazomib citrate,MLN9708,cid,"hub match, no hub targets",PSMB1|PSMB2|PSMB5,,proteasome inhibitor,,
+L-Eflornithine (monohydrochloride),eflornithine,inchikey,tahoe subset of hub,ODC1,ARG2|ODC1,ornithine decarboxylase inhibitor,ARG2|ODC1,repurposing_hub_20200324
+L-Thyroxine (sodium salt pentahydrate),levothyroxine,inchikey,"hub targets, no tahoe targets",,THRA|THRB,thyroid hormone stimulant,THRA|THRB,repurposing_hub_20200324
+LB-100,LB-100,inchikey,"hub match, no hub targets",PPP2CA|PPP2CB,,protein phosphatase inhibitor,,
+LJI308,,,no hub match,RPS6KA1|RPS6KA2|RPS6KA3,,,,
+LY-2584702 (tosylate salt),LY2584702,inchikey,identical,RPS6KB1,RPS6KB1,ribosomal protein inhibitor,RPS6KB1,repurposing_hub_20200324
+LY2090314,LY2090314,cid,hub subset of tahoe,GSK3A|GSK3B,GSK3B,glycogen synthase kinase inhibitor,GSK3B,repurposing_hub_20200324
+Lactate (calcium),,,no hub match,,,,,
+Lapatinib ditosylate,lapatinib,inchikey,identical,EGFR|ERBB2,EGFR|ERBB2,EGFR inhibitor,EGFR|ERBB2,repurposing_hub_20200324
+Larotrectinib,larotrectinib,cid,identical,NTRK1|NTRK2|NTRK3,NTRK1|NTRK2|NTRK3,tropomyosin receptor kinase inhibitor,NTRK1|NTRK2|NTRK3,repurposing_hub_20200324
+Larotrectinib sulfate,larotrectinib,inchikey,identical,NTRK1|NTRK2|NTRK3,NTRK1|NTRK2|NTRK3,tropomyosin receptor kinase inhibitor,NTRK1|NTRK2|NTRK3,repurposing_hub_20200324
+Lenalidomide (hemihydrate),lenalidomide,inchikey,disjoint,CRBN|IKZF1|IKZF3,TNF,anticancer agent,TNF,repurposing_hub_20200324
+Levobupivacaine (hydrochloride),bupivacaine,inchikey,disjoint,SCN5A,KCNA5|SCN10A,sodium channel blocker,KCNA5|SCN10A,repurposing_hub_20200324
+Lidocaine (hydrochloride),lidocaine,inchikey,disjoint,MAP2K1|MAPK1|NFKB1,EGFR|SCN10A|SCN5A|SCN9A,histamine receptor agonist,EGFR|SCN10A|SCN5A|SCN9A,repurposing_hub_20200324
+Ligustrazine,chuanxiongzine,cid,"hub match, no hub targets",,,,,
+Lipoic acid,thioctic-acid,inchikey,"hub targets, no tahoe targets",,ACHE|PTGS2,reducing agent,ACHE|PTGS2,repurposing_hub_20200324
+Lonafarnib,lonafarnib,cid,tahoe subset of hub,HRAS|KRAS|NRAS,FNTA|HRAS|KRAS|NRAS,farnesyltransferase inhibitor,FNTA|HRAS|KRAS|NRAS,repurposing_hub_20200324
+Loperamide (hydrochloride),loperamide,inchikey,"hub targets, no tahoe targets",,CACNA1A|CALM1|OPRD1|OPRK1|OPRM1|POMC,opioid receptor agonist,CACNA1A|CALM1|OPRD1|OPRK1|OPRM1|POMC,repurposing_hub_20200324
+Lopinavir,lopinavir,cid,"hub match, no hub targets",,,HIV protease inhibitor,,
+Lucanthone,lucanthone,cid,"hub targets, no tahoe targets",,APEX1|TOP1|TOP2A,endonuclease inhibitor,APEX1|TOP1|TOP2A,repurposing_hub_20200324
+Lumateperone (tosylate),lumateperone,inchikey,identical,DRD2|HTR2A,DRD2|HTR2A,dopamine receptor modulator|serotonin receptor antagonist,DRD2|HTR2A,repurposing_hub_20200324
+MK-3903,,,no hub match,PRKAA1,,,,
+MK-8353,,,no hub match,MAPK1|MAPK3,,,,
+ML264,,,no hub match,KLF5,,,,
+Macitentan,macitentan,cid,identical,EDNRA|EDNRB,EDNRA|EDNRB,endothelin receptor antagonist,EDNRA|EDNRB,repurposing_hub_20200324
+Malotilate,malotilate,cid,"hub match, no hub targets",ALOX5,,protein synthesis stimulant,,
+Mebendazole,mebendazole,cid,hub subset of tahoe,TUBA1A|TUBA1B|TUBA1C|TUBB|TUBB1|TUBB2A|TUBB3|TUBB4A|TUBB4B|TUBB6,TUBA1A|TUBB|TUBB4B,tubulin polymerization inhibitor,TUBA1A|TUBB|TUBB4B,repurposing_hub_20200324
+Medroxyprogesterone acetate,medroxyprogesterone-acetate,cid,tahoe subset of hub,PGR,ESR1|PGR,progesterone receptor agonist,ESR1|PGR,repurposing_hub_20200324
+Megestrol,megestrol,cid,"hub match, no hub targets",,,progesterone receptor agonist,,
+Meloxicam,meloxicam,cid,identical,PTGS1|PTGS2,PTGS1|PTGS2,cyclooxygenase inhibitor,PTGS1|PTGS2,repurposing_hub_20200324
+Menadione,menadione,cid,"hub targets, no tahoe targets",,AOX1|BGLAP|F10|F2|F7|F9|GGCX|NQO1|NQO2|PROC|PROS1|PROZ|VKORC1|VKORC1L1,mitochondrial DNA polymerase inhibitor|phosphatase inhibitor,AOX1|BGLAP|F10|F2|F7|F9|GGCX|NQO1|NQO2|PROC|PROS1|PROZ|VKORC1|VKORC1L1,repurposing_hub_20200324
+Methotrexate,methotrexate,cid,identical,DHFR,DHFR,dihydrofolate reductase inhibitor,DHFR,repurposing_hub_20200324
+Methyl aminolevulinate (hydrochloride),methyl-aminolevulinate,inchikey,"hub targets, no tahoe targets",,FCGR1A|FECH,oxidizing agent,FCGR1A|FECH,repurposing_hub_20200324
+Methylprednisolone succinate,methylprednisolone-sodium-succinate,cid,"hub match, no hub targets",NR3C1,,glucocorticoid receptor agonist,,
+Methylthiouracil,methylthiouracil,cid,"hub match, no hub targets",,,,,
+Mifepristone,mifepristone,cid,tahoe subset of hub,NR3C1|PGR,AR|NR1I2|NR3C1|PGR,glucocorticoid receptor antagonist|progesterone receptor antagonist,AR|NR1I2|NR3C1|PGR,repurposing_hub_20200324
+Minodronic acid,minodronic-acid,cid,disjoint,P2RX2|P2RX3,FDPS|GGPS1,bone resorption inhibitor,FDPS|GGPS1,repurposing_hub_20200324
+Mitoxantrone (dihydrochloride),mitoxantrone,inchikey,hub subset of tahoe,PRKCA|TOP2A|TOP2B,TOP2A,topoisomerase inhibitor,TOP2A,repurposing_hub_20200324
+Monocrotaline,monocrotaline,cid,"hub match, no hub targets",SLC22A1|SLC22A2,,antitumor agent,,
+Mozavaptan,mozavaptan,inchikey,tahoe subset of hub,AVPR2,AVPR1A|AVPR1B|AVPR2,vasopressin receptor antagonist,AVPR1A|AVPR1B|AVPR2,repurposing_hub_20200324
+NG25,,,no hub match,ABL1|ABL2|EPHA2|EPHB2|EPHB4|FER|LYN|MAP3K7|MAP4K2|RAF1|SRC|ZAK|ZKSCAN1,,,,
+NVP-BHG712,NVP-BHG712,cid,identical,EPHB4,EPHB4,ephrin inhibitor,EPHB4,repurposing_hub_20200324
+Nafamostat (mesylate),nafamostat,inchikey,"hub targets, no tahoe targets",,ASIC1|ASIC2|ASIC3|C1R|PRSS1|TPSAB1|TRPM7,serine protease inhibitor,ASIC1|ASIC2|ASIC3|C1R|PRSS1|TPSAB1|TRPM7,repurposing_hub_20200324
+Naproxen,naproxen,cid,identical,PTGS1|PTGS2,PTGS1|PTGS2,cyclooxygenase inhibitor,PTGS1|PTGS2,repurposing_hub_20200324
+Neratinib,neratinib,cid,tahoe subset of hub,EGFR|ERBB2,EGFR|ERBB2|KDR,EGFR inhibitor,EGFR|ERBB2|KDR,repurposing_hub_20200324
+Neratinib (maleate),neratinib,inchikey,tahoe subset of hub,EGFR|ERBB2,EGFR|ERBB2|KDR,EGFR inhibitor,EGFR|ERBB2|KDR,repurposing_hub_20200324
+Nevirapine,nevirapine,cid,"hub targets, no tahoe targets",,CYP1A2|CYP2A6|CYP2B6|CYP2C9|CYP2D6|CYP3A4|CYP3A5,non-nucleoside reverse transcriptase inhibitor,CYP1A2|CYP2A6|CYP2B6|CYP2C9|CYP2D6|CYP3A4|CYP3A5,repurposing_hub_20200324
+Niclosamide (olamine),niclosamide,inchikey,identical,STAT3,STAT3,DNA replication inhibitor|STAT inhibitor,STAT3,repurposing_hub_20200324
+Nimesulide,nimesulide,cid,tahoe subset of hub,PTGS2,LTF|PLA2G2E|PTGS1|PTGS2,cyclooxygenase inhibitor,LTF|PLA2G2E|PTGS1|PTGS2,repurposing_hub_20200324
+Norepinephrine (hydrochloride),norepinephrine,inchikey,tahoe subset of hub,ADRA1A|ADRA1B|ADRA1D|ADRA2A|ADRA2B|ADRA2C|ADRB1,ADRA1A|ADRA1B|ADRA1D|ADRA2A|ADRA2B|ADRA2C|ADRB1|ADRB2|ADRB3|PAH|SLC18A1|SLC18A2,adrenergic receptor agonist,ADRA1A|ADRA1B|ADRA1D|ADRA2A|ADRA2B|ADRA2C|ADRB1|ADRB2|ADRB3|PAH|SLC18A1|SLC18A2,repurposing_hub_20200324
+OTS514,OTS514,cid,"hub match, no hub targets",MAP3K8,,TOPK inhibitor,,
+Olanzapine,olanzapine,cid,partial overlap,ADRA1A|ADRA1B|ADRA1D|CHRM1|CHRM2|CHRM3|CHRM4|CHRM5|DRD2|DRD4|HTR2A|HTR2C|HTR6,ADRA1A|ADRA1B|ADRA2A|ADRA2B|ADRA2C|ADRB1|ADRB2|ADRB3|CHRM1|CHRM2|CHRM3|CHRM4|CHRM5|DRD1|DRD2|DRD3|DRD4|DRD5|GABRA1|GABRA2|GABRA3|GABRA4|GABRA5|GABRA6|GABRB1|GABRB2|GABRB3|GABRD|GABRE|GABRG1|GABRG2|GABRG3|GABRP|GABRQ|HRH1|HRH2|HRH4|HTR1A|HTR1B|HTR1D|HTR1E|HTR1F|HTR2A|HTR2B|HTR2C|HTR3A|HTR5A|HTR6|HTR7,dopamine receptor antagonist|serotonin receptor antagonist,ADRA1A|ADRA1B|ADRA2A|ADRA2B|ADRA2C|ADRB1|ADRB2|ADRB3|CHRM1|CHRM2|CHRM3|CHRM4|CHRM5|DRD1|DRD2|DRD3|DRD4|DRD5|GABRA1|GABRA2|GABRA3|GABRA4|GABRA5|GABRA6|GABRB1|GABRB2|GABRB3|GABRD|GABRE|GABRG1|GABRG2|GABRG3|GABRP|GABRQ|HRH1|HRH2|HRH4|HTR1A|HTR1B|HTR1D|HTR1E|HTR1F|HTR2A|HTR2B|HTR2C|HTR3A|HTR5A|HTR6|HTR7,repurposing_hub_20200324
+Oleic acid,,,no hub match,,,,,
+Omeprazole,esomeprazole|omeprazole,inchikey,"hub targets, no tahoe targets",,ATP4A|CLCN2,ATPase inhibitor,ATP4A|CLCN2,repurposing_hub_20200324
+Omeprazole (sodium),omeprazole,name,"hub targets, no tahoe targets",,ATP4A|CLCN2,ATPase inhibitor,ATP4A|CLCN2,repurposing_hub_20200324
+Orlistat,orlistat,cid,"hub targets, no tahoe targets",,CNR1|DAGLA|DAGLB|FASN|LIPF|PNLIP,lipase inhibitor,CNR1|DAGLA|DAGLB|FASN|LIPF|PNLIP,repurposing_hub_20200324
+Ornidazole,ornidazole,inchikey,"hub match, no hub targets",,,antiprotozoal agent,,
+Osimertinib (mesylate),osimertinib,inchikey,identical,EGFR,EGFR,EGFR inhibitor,EGFR,repurposing_hub_20200324
+Ouabain (Octahydrate),ouabain,inchikey,"hub targets, no tahoe targets",,ATP1A1,ATPase inhibitor,ATP1A1,repurposing_hub_20200324
+Oxaliplatin,oxaliplatin,name,"hub match, no hub targets",,,DNA inhibitor,,
+Oxaprozin,oxaprozin,cid,hub subset of tahoe,NFKB1|PTGS1|PTGS2,PTGS1|PTGS2,cyclooxygenase inhibitor,PTGS1|PTGS2,repurposing_hub_20200324
+PF-06260933,,,no hub match,MAP4K4,,,,
+PH-797804,PH-797804,cid,tahoe subset of hub,MAPK14,MAPK11|MAPK14,p38 MAPK inhibitor,MAPK11|MAPK14,repurposing_hub_20200324
+Paclitaxel,paclitaxel,cid,"hub targets, no tahoe targets",,BCL2|MAP2|MAP4|MAPT|NR1I2|TLR4|TUBA1A|TUBA1B|TUBA1C|TUBA3C|TUBA3D|TUBA3E|TUBA4A|TUBB|TUBB1|TUBB2A|TUBB2B|TUBB3|TUBB4A|TUBB4B|TUBB6|TUBB8,tubulin polymerization inhibitor,BCL2|MAP2|MAP4|MAPT|NR1I2|TLR4|TUBA1A|TUBA1B|TUBA1C|TUBA3C|TUBA3D|TUBA3E|TUBA4A|TUBB|TUBB1|TUBB2A|TUBB2B|TUBB3|TUBB4A|TUBB4B|TUBB6|TUBB8,repurposing_hub_20200324
+Palmatine (chloride),palmatine-chloride,inchikey,disjoint,IDO1|WNV NS2B-NS3,CYP3A4,dopamine synthesis inhibitor,CYP3A4,repurposing_hub_20200324
+Panobinostat,panobinostat,cid,partial overlap,HDAC1|HDAC10|HDAC11|HDAC2|HDAC3|HDAC6|HDAC8,HDAC1|HDAC2|HDAC3|HDAC4|HDAC6|HDAC7|HDAC8|HDAC9,HDAC inhibitor,HDAC1|HDAC2|HDAC3|HDAC4|HDAC6|HDAC7|HDAC8|HDAC9,repurposing_hub_20200324
+Pasireotide (acetate),pasireotide,inchikey,identical,SSTR1|SSTR2|SSTR3|SSTR5,SSTR1|SSTR2|SSTR3|SSTR5,somatostatin receptor agonist,SSTR1|SSTR2|SSTR3|SSTR5,repurposing_hub_20200324
+Pemetrexed,pemetrexed,cid,tahoe subset of hub,DHFR|GART|TYMS,ATIC|DHFR|GART|TYMS,dihydrofolate reductase inhibitor|thymidylate synthase inhibitor,ATIC|DHFR|GART|TYMS,repurposing_hub_20200324
+Pemigatinib,,,no hub match,FGFR1|FGFR2|FGFR3|FGFR4,,,,
+Penfluridol,penfluridol,cid,disjoint,DRD2,CACNA1G,T-type calcium channel blocker,CACNA1G,repurposing_hub_20200324
+Pentagastrin,pentagastrin,cid,identical,CCKBR,CCKBR,CCK receptor agonist,CCKBR,repurposing_hub_20200324
+Pentamidine (isethionate),pentamidine,inchikey,disjoint,PRLR,TRDMT1,anti-pneumocystis agent,TRDMT1,repurposing_hub_20200324
+Pentoxifylline,pentoxifylline,cid,"hub targets, no tahoe targets",,ADORA1|ADORA2A|ADORA2B|ADRA2B|NT5E|PDE10A|PDE1A|PDE1B|PDE1C|PDE2A|PDE3A|PDE3B|PDE4A|PDE4B|PDE4C|PDE4D|PDE5A|PDE6A|PDE6B|PDE6C|PDE6D|PDE6G|PDE6H|PDE7A|PDE7B|PDE8A|PDE8B|PDE9A|TNF,phosphodiesterase inhibitor,ADORA1|ADORA2A|ADORA2B|ADRA2B|NT5E|PDE10A|PDE1A|PDE1B|PDE1C|PDE2A|PDE3A|PDE3B|PDE4A|PDE4B|PDE4C|PDE4D|PDE5A|PDE6A|PDE6B|PDE6C|PDE6D|PDE6G|PDE6H|PDE7A|PDE7B|PDE8A|PDE8B|PDE9A|TNF,repurposing_hub_20200324
+Peretinoin,peretinoin,cid,hub subset of tahoe,RXRA|RXRB|RXRG,RXRA,retinoid receptor agonist,RXRA,repurposing_hub_20200324
+Perindopril (erbumine),perindopril,inchikey,hub subset of tahoe,ACE|STAT3,ACE,angiotensin converting enzyme inhibitor,ACE,repurposing_hub_20200324
+Pexidartinib (hydrochloride),pexidartinib,inchikey,identical,CSF1R|FLT3|KIT,CSF1R|FLT3|KIT,tyrosine kinase inhibitor,CSF1R|FLT3|KIT,repurposing_hub_20200324
+Phenylephrine (hydrochloride),phenylephrine,inchikey,identical,ADRA1A|ADRA1B|ADRA1D,ADRA1A|ADRA1B|ADRA1D,adrenergic receptor agonist,ADRA1A|ADRA1B|ADRA1D,repurposing_hub_20200324
+Phenytoin (sodium),phenytoin,inchikey,"hub targets, no tahoe targets",,SCN10A|SCN11A|SCN1A|SCN2A|SCN3A|SCN4A|SCN5A|SCN7A|SCN8A|SCN9A,hydantoin antiepileptic,SCN10A|SCN11A|SCN1A|SCN2A|SCN3A|SCN4A|SCN5A|SCN7A|SCN8A|SCN9A,repurposing_hub_20200324
+Pimitespib,,,no hub match,HSP90AA1|HSP90AB1,,,,
+Pioglitazone,pioglitazone,inchikey,tahoe subset of hub,PPARG,PPARG|TRPM3,insulin sensitizer|PPAR receptor agonist,PPARG|TRPM3,repurposing_hub_20200324
+Piroxicam,piroxicam,cid,identical,PTGS1|PTGS2,PTGS1|PTGS2,cyclooxygenase inhibitor,PTGS1|PTGS2,repurposing_hub_20200324
+Plicamycin,plicamycin,inchikey,"hub match, no hub targets",GSTM2|SP1,,alcohol dehydrogenase inhibitor,,
+Ponatinib,ponatinib,cid,tahoe subset of hub,ABL1|FGFR1|KDR|KIT|PDGFRA|SRC,ABL1|BCR|FGFR1|FGFR2|FGFR3|FGFR4|FLT3|KDR|KIT|LCK|LYN|PDGFRA|RET|SRC|TEK,Bcr-Abl kinase inhibitor|FLT3 inhibitor|PDGFR tyrosine kinase receptor inhibitor,ABL1|BCR|FGFR1|FGFR2|FGFR3|FGFR4|FLT3|KDR|KIT|LCK|LYN|PDGFRA|RET|SRC|TEK,repurposing_hub_20200324
+Posaconazole,posaconazole,cid,"hub targets, no tahoe targets",,CYP3A4,sterol demethylase inhibitor,CYP3A4,repurposing_hub_20200324
+Pralsetinib,,,no hub match,RET,,,,
+Pravastatin (sodium),pravastatin,inchikey,tahoe subset of hub,HMGCR,HMGCR|SLCO1B1,HMGCR inhibitor,HMGCR|SLCO1B1,repurposing_hub_20200324
+Procainamide (hydrochloride),procainamide,inchikey,tahoe subset of hub,DNMT1,DNMT1|SCN5A,sodium channel blocker,DNMT1|SCN5A,repurposing_hub_20200324
+Proglumide,proglumide,inchikey,identical,CCKAR|CCKBR,CCKAR|CCKBR,CCK receptor antagonist,CCKAR|CCKBR,repurposing_hub_20200324
+Pyridoxine,pyridoxine,cid,"hub targets, no tahoe targets",,DDC|PDXK,vitamin B,DDC|PDXK,repurposing_hub_20200324
+Pyridoxine (hydrochloride),pyridoxine,inchikey,"hub targets, no tahoe targets",,DDC|PDXK,vitamin B,DDC|PDXK,repurposing_hub_20200324
+Quinestrol,quinestrol,cid,"hub targets, no tahoe targets",,ESR1|ESR2,estrogen receptor agonist,ESR1|ESR2,repurposing_hub_20200324
+Quinidine (15% dihydroquinidine),quinidine,cid,tahoe subset of hub,KCNH2,KCNA5|KCNA7|KCNH1|KCNH2|KCNH5|KCNK1|KCNK6|SCN5A|SLC29A4,sodium channel blocker,KCNA5|KCNA7|KCNH1|KCNH2|KCNH5|KCNK1|KCNK6|SCN5A|SLC29A4,repurposing_hub_20200324
+RMC-6236,,,no hub match,KRAS,,,,
+Radotinib,radotinib,cid,"hub match, no hub targets",ABL1,,Bcr-Abl kinase inhibitor,,
+Ralimetinib dimesylate,LY2228820,inchikey,hub subset of tahoe,MAPK11|MAPK14|MAPKAPK2,MAPK14,p38 MAPK inhibitor,MAPK14,repurposing_hub_20200324
+Raltitrexed,raltitrexed,cid,tahoe subset of hub,TYMS,FPGS|TYMS,thymidylate synthase inhibitor,FPGS|TYMS,repurposing_hub_20200324
+Ranolazine,ranolazine,inchikey,"hub targets, no tahoe targets",,SCN10A|SCN9A,sodium channel blocker,SCN10A|SCN9A,repurposing_hub_20200324
+Rapamycin,sirolimus,inchikey,identical,FKBP1A|MTOR,FKBP1A|MTOR,mTOR inhibitor,FKBP1A|MTOR,repurposing_hub_20200324
+Regorafenib,regorafenib,cid,tahoe subset of hub,BRAF|FLT1|FLT4|KDR|KIT|PDGFRB|RAF1|RET|TEK,ABL1|BRAF|DDR2|EPHA2|FGFR1|FGFR2|FLT1|FLT4|FRK|KDR|KIT|MAPK11|NTRK1|PDGFRA|PDGFRB|RAF1|RET|TEK,FGFR inhibitor|KIT inhibitor|PDGFR tyrosine kinase receptor inhibitor|RAF inhibitor|RET tyrosine kinase inhibitor|VEGFR inhibitor,ABL1|BRAF|DDR2|EPHA2|FGFR1|FGFR2|FLT1|FLT4|FRK|KDR|KIT|MAPK11|NTRK1|PDGFRA|PDGFRB|RAF1|RET|TEK,repurposing_hub_20200324
+Relugolix,relugolix,cid,"hub match, no hub targets",GNRHR,,gonadotropin releasing factor hormone receptor antagonist,,
+Resveratrol,resveratrol,cid,disjoint,SIRT1,CSNK2A1|NQO2|PTGS1|PTGS2,cytochrome P450 inhibitor|SIRT activator,CSNK2A1|NQO2|PTGS1|PTGS2,repurposing_hub_20200324
+Retinoic acid,tretinoin,cid,tahoe subset of hub,PPARD|RARA|RARB|RARG,ALDH1A1|ALDH1A2|GPRC5A|NR0B1|NR2C2|PPARD|RARA|RARB|RARG|RARRES1|RORB|RORC|RXRB|RXRG,retinoid receptor agonist|retinoid receptor ligand,ALDH1A1|ALDH1A2|GPRC5A|NR0B1|NR2C2|PPARD|RARA|RARB|RARG|RARRES1|RORB|RORC|RXRB|RXRG,repurposing_hub_20200324
+Ribociclib,ribociclib,cid,identical,CDK4|CDK6,CDK4|CDK6,CDK inhibitor,CDK4|CDK6,repurposing_hub_20200324
+Rifaximin,rifaximin,inchikey,"hub match, no hub targets",,,RNA synthesis inhibitor,,
+Riluzole hydrochloride,riluzole,inchikey,"hub targets, no tahoe targets",,KCNK10|KCNK2|KCNK4|KCNN4|SCN10A|SCN11A|SCN1A|SCN2A|SCN3A|SCN4A|SCN5A|SCN7A|SCN8A|SCN9A|SLC7A11,glutamate inhibitor,KCNK10|KCNK2|KCNK4|KCNN4|SCN10A|SCN11A|SCN1A|SCN2A|SCN3A|SCN4A|SCN5A|SCN7A|SCN8A|SCN9A|SLC7A11,repurposing_hub_20200324
+Rimonabant,rimonabant,cid,tahoe subset of hub,CNR1,CNR1|GPR55,cannabinoid receptor antagonist,CNR1|GPR55,repurposing_hub_20200324
+Rimonabant (Hydrochloride),rimonabant,inchikey,tahoe subset of hub,CNR1,CNR1|GPR55,cannabinoid receptor antagonist,CNR1|GPR55,repurposing_hub_20200324
+Ritonavir,ritonavir,cid,"hub targets, no tahoe targets",,CYP1A2|CYP2B6|CYP2C19|CYP2C8|CYP2C9|CYP2D6|CYP2E1|CYP3A4|CYP3A5|CYP3A7,HIV protease inhibitor,CYP1A2|CYP2B6|CYP2C19|CYP2C8|CYP2C9|CYP2D6|CYP2E1|CYP3A4|CYP3A5|CYP3A7,repurposing_hub_20200324
+Ropivacaine (hydrochloride monohydrate),ropivacaine,inchikey,"hub targets, no tahoe targets",,SCN10A,sodium channel blocker,SCN10A,repurposing_hub_20200324
+Rosiglitazone,rosiglitazone,inchikey,tahoe subset of hub,PPARG|TRPC5|TRPM3,FFAR1|PPARG|TRPC5|TRPM3,insulin sensitizer|PPAR receptor agonist,FFAR1|PPARG|TRPC5|TRPM3,repurposing_hub_20200324
+Roxadustat,FG-4592,cid,"hub targets, no tahoe targets",,EGLN1|EGLN2|EGLN3,hypoxia inducible factor prolyl hydroxylase inhibitor,EGLN1|EGLN2|EGLN3,repurposing_hub_20200324
+Rucaparib (phosphate),rucaparib,inchikey,hub subset of tahoe,PARP1|PARP2|PARP3,PARP1|PARP2,PARP inhibitor,PARP1|PARP2,repurposing_hub_20200324
+Rutin (trihydrate),rutin,inchikey,"hub targets, no tahoe targets",,AKR1C3,antioxidant|capillary stabilizing agent|nitric oxide scavenger,AKR1C3,repurposing_hub_20200324
+S-Adenosyl-L-methionine (disulfate tosylate),ademetionine,inchikey,"hub match, no hub targets",,,methyltransferase stimulant|phosphodiesterase inhibitor,,
+SBI-0640756,,,no hub match,,,,,
+Salicylic acid,salicylic-acid,cid,"hub targets, no tahoe targets",,AKR1C1|ASIC3|PTGS1|PTGS2,cyclooxygenase inhibitor|prostanoid receptor antagonist,AKR1C1|ASIC3|PTGS1|PTGS2,repurposing_hub_20200324
+Sapanisertib,MLN0128,cid,tahoe subset of hub,MTOR,MTOR|PIK3CA|PIK3CD|PIK3CG,mTOR inhibitor,MTOR|PIK3CA|PIK3CD|PIK3CG,repurposing_hub_20200324
+Saquinavir,saquinavir,cid,"hub targets, no tahoe targets",,CYP3A4,HIV protease inhibitor,CYP3A4,repurposing_hub_20200324
+Selinexor,selinexor,cid,identical,XPO1,XPO1,exportin antagonist,XPO1,repurposing_hub_20200324
+Sildenafil,sildenafil,cid,tahoe subset of hub,PDE5A,PDE5A|PDE6G|PDE6H|SLCO1B1|SLCO1B3,phosphodiesterase inhibitor,PDE5A|PDE6G|PDE6H|SLCO1B1|SLCO1B3,repurposing_hub_20200324
+Silodosin,silodosin,cid,identical,ADRA1A|ADRA1B|ADRA1D,ADRA1A|ADRA1B|ADRA1D,adrenergic receptor antagonist,ADRA1A|ADRA1B|ADRA1D,repurposing_hub_20200324
+Simotinib,,,no hub match,EGFR,,,,
+Sinomenine,sinomenine,cid,"hub match, no hub targets",OPRM1,,angiogenesis inhibitor,,
+Sivelestat (sodium tetrahydrate),sivelestat,inchikey,tahoe subset of hub,ELANE,CELA1|ELANE,elastase inhibitor,CELA1|ELANE,repurposing_hub_20200324
+Sodium Salicylate,salicylic-acid,inchikey,tahoe subset of hub,PTGS2,AKR1C1|ASIC3|PTGS1|PTGS2,cyclooxygenase inhibitor|prostanoid receptor antagonist,AKR1C1|ASIC3|PTGS1|PTGS2,repurposing_hub_20200324
+Sonidegib,sonidegib,cid,identical,SMO,SMO,smoothened receptor antagonist,SMO,repurposing_hub_20200324
+Sulfatinib,sulfatinib,cid,"hub match, no hub targets",CSF1R|FGFR1|FLT1|FLT4|KDR,,tyrosine kinase inhibitor,,
+Sulfisoxazole,sulfafurazole,cid,"hub match, no hub targets",EDNRA|EDNRB,,bacterial antifolate,,
+Sunitinib,sunitinib,cid,tahoe subset of hub,KDR|PDGFRB,CSF1R|FGFR1|FLT1|FLT3|FLT4|KDR|KIT|PDGFRA|PDGFRB|RET,FLT3 inhibitor|KIT inhibitor|PDGFR tyrosine kinase receptor inhibitor|RET tyrosine kinase inhibitor|VEGFR inhibitor,CSF1R|FGFR1|FLT1|FLT3|FLT4|KDR|KIT|PDGFRA|PDGFRB|RET,repurposing_hub_20200324
+TAK-733,TAK-733,cid,identical,MAP2K1,MAP2K1,MEK inhibitor,MAP2K1,repurposing_hub_20200324
+TAK-901,TAK-901,cid,identical,AURKB,AURKB,Aurora kinase inhibitor,AURKB,repurposing_hub_20200324
+Tadalafil,tadalafil,cid,tahoe subset of hub,PDE5A,PDE11A|PDE5A,phosphodiesterase inhibitor,PDE11A|PDE5A,repurposing_hub_20200324
+Talc,,,no hub match,,,,,
+Tazarotene,tazarotene,cid,tahoe subset of hub,RARA|RARB|RARG,RARA|RARB|RARG|RXRB,retinoid receptor agonist,RARA|RARB|RARG|RXRB,repurposing_hub_20200324
+Temsirolimus,temsirolimus,inchikey,identical,MTOR,MTOR,mTOR inhibitor,MTOR,repurposing_hub_20200324
+Temuterkib,LY3214996,cid,"hub match, no hub targets",,,ERK inhibitor,,
+Terfenadine,terfenadine,inchikey,tahoe subset of hub,HRH1,HRH1|KCNH1|KCNH2,histamine receptor antagonist,HRH1|KCNH1|KCNH2,repurposing_hub_20200324
+Tetracycline (hydrochloride),tetracycline,name,"hub match, no hub targets",,,bacterial 30S ribosomal subunit inhibitor,,
+Thymol,thymol,cid,identical,TRPA1,TRPA1,GABA receptor positive allosteric modulator,TRPA1,repurposing_hub_20200324
+Thymopentin,thymopentin,cid,"hub match, no hub targets",,,immune response stimulator,,
+Tirabrutinib,ONO-4059,cid,identical,BTK,BTK,Bruton's tyrosine kinase (BTK) inhibitor,BTK,repurposing_hub_20200324
+Tirabrutinib (hydrochloride),ONO-4059,inchikey,identical,BTK,BTK,Bruton's tyrosine kinase (BTK) inhibitor,BTK,repurposing_hub_20200324
+Tofacitinib,tofacitinib,cid,identical,JAK1|JAK2|JAK3,JAK1|JAK2|JAK3,JAK inhibitor,JAK1|JAK2|JAK3,repurposing_hub_20200324
+Tofacitinib (citrate),tofacitinib,inchikey,identical,JAK1|JAK2|JAK3,JAK1|JAK2|JAK3,JAK inhibitor,JAK1|JAK2|JAK3,repurposing_hub_20200324
+Tolcapone,tolcapone,cid,identical,COMT,COMT,catechol O methyltransferase inhibitor,COMT,repurposing_hub_20200324
+Tolmetin,tolmetin,cid,identical,PTGS1|PTGS2,PTGS1|PTGS2,cyclooxygenase inhibitor,PTGS1|PTGS2,repurposing_hub_20200324
+Tomivosertib,tomivosertib,cid,"hub match, no hub targets",,,MAPK-interacting kinase inhibitor,,
+Topotecan (hydrochloride),topotecan,inchikey,tahoe subset of hub,TOP1,TOP1|TOP1MT,topoisomerase inhibitor,TOP1|TOP1MT,repurposing_hub_20200324
+Torkinib,PP242,cid,partial overlap,ABL1|EGFR|EPHB4|HCK|KDR|MTOR|PDGFRA|PIK3CA|PIK3CB|PIK3CD|PIK3CG|PRKDC|SRC,MTOR|PASK,mTOR inhibitor,MTOR|PASK,repurposing_hub_20200324
+Trametinib,trametinib,cid,identical,MAP2K1|MAP2K2,MAP2K1|MAP2K2,MEK inhibitor,MAP2K1|MAP2K2,repurposing_hub_20200324
+Trametinib (DMSO_TF solvate),trametinib,cid,identical,MAP2K1|MAP2K2,MAP2K1|MAP2K2,MEK inhibitor,MAP2K1|MAP2K2,repurposing_hub_20200324
+Tranilast,tranilast,cid,disjoint,EGR1|PLA2G2A,HPGDS|HRH1,angiogenesis inhibitor,HPGDS|HRH1,repurposing_hub_20200324
+Triamcinolone,triamcinolone,cid,identical,NR3C1,NR3C1,glucocorticoid receptor agonist,NR3C1,repurposing_hub_20200324
+Triclosan,triclosan,cid,"hub targets, no tahoe targets",,DNMT1,antibacterial agent,DNMT1,repurposing_hub_20200324
+Trifluridine,trifluridine,cid,"hub targets, no tahoe targets",,TYMS,DNA directed DNA polymerase inhibitor|thymidylate synthase inhibitor,TYMS,repurposing_hub_20200324
+Trimetrexate,trimetrexate,cid,identical,DHFR,DHFR,dihydrofolate reductase inhibitor,DHFR,repurposing_hub_20200324
+Tubulin inhibitor 6,,,no hub match,,,,,
+Tucatinib,tucatinib,cid,identical,ERBB2,ERBB2,EGFR inhibitor,ERBB2,repurposing_hub_20200324
+Tucidinostat,tucidinostat,cid,"hub match, no hub targets",HDAC1|HDAC10|HDAC11|HDAC2|HDAC3|HDAC8,,HDAC inhibitor,,
+ULK-101,,,no hub match,ULK1|ULK2,,,,
+Uridine,uridine,cid,"hub targets, no tahoe targets",,LSM6|TYMP,dopamine receptor agonist,LSM6|TYMP,repurposing_hub_20200324
+Valdecoxib,valdecoxib,cid,tahoe subset of hub,PTGS2,CA12|PTGS2,cyclooxygenase inhibitor,CA12|PTGS2,repurposing_hub_20200324
+Vandetanib,vandetanib,cid,tahoe subset of hub,EGFR|KDR,EGFR|EPHA1|EPHA10|EPHA2|EPHA3|EPHA4|EPHA5|EPHA6|EPHA7|EPHA8|EPHB1|EPHB2|EPHB3|EPHB4|EPHB6|ERBB2|ERBB3|ERBB4|FLT1|FLT4|KDR|PTK6|RET|SRC|TEK|VEGFA,EGFR inhibitor|RET tyrosine kinase inhibitor|VEGFR inhibitor,EGFR|EPHA1|EPHA10|EPHA2|EPHA3|EPHA4|EPHA5|EPHA6|EPHA7|EPHA8|EPHB1|EPHB2|EPHB3|EPHB4|EPHB6|ERBB2|ERBB3|ERBB4|FLT1|FLT4|KDR|PTK6|RET|SRC|TEK|VEGFA,repurposing_hub_20200324
+Vemurafenib,vemurafenib,cid,tahoe subset of hub,BRAF,BRAF|RAF1,RAF inhibitor,BRAF|RAF1,repurposing_hub_20200324
+Verapamil,verapamil,cid,partial overlap,ABCB1|CYP3A4,CACNA1A|CACNA1B|CACNA1C|CACNA1D|CACNA1F|CACNA1G|CACNA1I|CACNA1S|CACNB1|CACNB2|CACNB3|CACNB4|CYP3A4|KCNA10|KCNA7|KCNH2|KCNJ11|NALCN|SCN5A|SLC29A4|SLC6A4,calcium channel blocker,CACNA1A|CACNA1B|CACNA1C|CACNA1D|CACNA1F|CACNA1G|CACNA1I|CACNA1S|CACNB1|CACNB2|CACNB3|CACNB4|CYP3A4|KCNA10|KCNA7|KCNH2|KCNJ11|NALCN|SCN5A|SLC29A4|SLC6A4,repurposing_hub_20200324
+Verteporfin,verteporfin,name,"hub match, no hub targets",YAP1,,photosensitizing agent,,
+Vilanterol,vilanterol,name,identical,ADRB2,ADRB2,adrenergic receptor agonist,ADRB2,repurposing_hub_20200324
+Vinblastine (sulfate),vinblastine,inchikey,"hub targets, no tahoe targets",,JUN|TUBA1A|TUBB|TUBD1|TUBE1|TUBG1,microtubule inhibitor|tubulin polymerization inhibitor,JUN|TUBA1A|TUBB|TUBD1|TUBE1|TUBG1,repurposing_hub_20200324
+Vismodegib,vismodegib,cid,hub subset of tahoe,ABCB1|ABCG2|SMO,SMO,hedgehog pathway inhibitor|smoothened receptor antagonist,SMO,repurposing_hub_20200324
+Vitamin K4,,,no hub match,,,,,
+Volasertib,volasertib,inchikey,hub subset of tahoe,PLK1|PLK2|PLK3,PLK1,PLK inhibitor,PLK1,repurposing_hub_20200324
+Voriconazole,voriconazole,cid,"hub targets, no tahoe targets",,CYP2C19|CYP2C9|CYP3A4|CYP3A5|PTGS1,cytochrome P450 inhibitor,CYP2C19|CYP2C9|CYP3A4|CYP3A5|PTGS1,repurposing_hub_20200324
+Vortioxetine,vortioxetine,cid,tahoe subset of hub,HTR3A|HTR7|SLC6A4,HTR1A|HTR1B|HTR2A|HTR2C|HTR3A|HTR5A|HTR6|HTR7|SLC6A4,serotonin receptor agonist|serotonin receptor antagonist,HTR1A|HTR1B|HTR2A|HTR2C|HTR3A|HTR5A|HTR6|HTR7|SLC6A4,repurposing_hub_20200324
+XRK3F2,,,no hub match,,,,,
+Zileuton,zileuton,inchikey,identical,ALOX5,ALOX5,leukotriene synthesis inhibitor|lipoxygenase inhibitor,ALOX5,repurposing_hub_20200324
+c-Kit-IN-1,DCC-2618,cid,hub subset of tahoe,KDR|KIT|MET|PDGFRA|PDGFRB,KIT|PDGFRA,KIT inhibitor|PDGFR tyrosine kinase receptor inhibitor,KIT|PDGFRA,repurposing_hub_20200324
+crizotinib,crizotinib,cid,hub subset of tahoe,ALK|MET|ROS1,ALK|MET,ALK tyrosine kinase receptor inhibitor,ALK|MET,repurposing_hub_20200324
+olaparib,olaparib,cid,identical,PARP1|PARP2,PARP1|PARP2,PARP inhibitor,PARP1|PARP2,repurposing_hub_20200324
+palbociclib,palbociclib,cid,identical,CDK4|CDK6,CDK4|CDK6,CDK inhibitor,CDK4|CDK6,repurposing_hub_20200324
+venetoclax,venetoclax,cid,identical,BCL2,BCL2,BCL inhibitor,BCL2,repurposing_hub_20200324
+vincristine,vincristine,inchikey,"hub targets, no tahoe targets",,TUBA4A|TUBB,tubulin polymerization inhibitor,TUBA4A|TUBB,repurposing_hub_20200324
+γ-Oryzanol,,,no hub match,,,,,

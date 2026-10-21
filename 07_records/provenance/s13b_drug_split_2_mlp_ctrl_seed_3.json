@@ -1,0 +1,31 @@
+{
+  "status": "completed",
+  "arm": "mlp_ctrl",
+  "encoder_arm": "mlp_ctrl",
+  "drug_encoding": "fingerprint",
+  "cond_drop": 0.0,
+  "seed": "3",
+  "split": "drug_split_2",
+  "prereg": "PREREG_step13b_confirmation.md",
+  "commit": "40558712ae46369ff70c610cb59ef56bc2b4d525",
+  "fm_source": "gaussian",
+  "n_params": 58532300,
+  "arm_state_keys": [
+    "encoder.arm.fc1.bias",
+    "encoder.arm.fc1.weight",
+    "encoder.arm.fc2.bias",
+    "encoder.arm.fc2.weight",
+    "encoder.arm.out.bias",
+    "encoder.arm.out.weight"
+  ],
+  "memory_size": 0,
+  "smiles_sha256": null,
+  "n_test_compounds": null,
+  "completed_at": "2026-09-22T15:25:10.661566+00:00",
+  "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13b/drug_split_2_mlp_ctrl/seed_3/model_0.9999.pt",
+  "checkpoint_sha256": "56fac88b9751099b923e39c5dbb0566a5ffe5ffabd46ef9ed3bd2584a3e4917f",
+  "n_state_dict": 58540494,
+  "encoding_sidecar": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step13b/drug_split_2_mlp_ctrl/seed_3/model_0.9999.pt.encoding.json",
+  "node": "cn274",
+  "gpu": "NVIDIA H100 NVL"
+}

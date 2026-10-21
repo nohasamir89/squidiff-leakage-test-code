@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "arm": "attention",
+  "seed": "0",
+  "split": "drug_split_1",
+  "prereg": "PREREG_step5_gene_module.md",
+  "commit": "ae786858892a7b249a38541e24cf1cc1ce2269aa",
+  "completed_at": "2026-08-05T21:38:25.204411+00:00",
+  "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step5/attention/seed_0/model_0.9999.pt",
+  "checkpoint_sha256": "6851c95f2b2d8045679f337ae7295ef9ffcdb9c784b32bb7bba64077d988a050",
+  "n_state_dict": 61442695,
+  "n_adaln_tensors": 12,
+  "n_gene_module_tensors": 17,
+  "detected_architecture": "attention",
+  "node": "cn270",
+  "gpu": "NVIDIA H100 NVL",
+  "torch": "2.5.1+cu121",
+  "cuda": "12.1",
+  "cudnn": 90100
+}

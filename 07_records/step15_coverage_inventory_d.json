@@ -1,0 +1,2945 @@
+{
+ "source": {
+  "figshare": "10.6084/m9.figshare.9393293.v4",
+  "files": {
+   "secondary-screen-dose-response-curve-parameters.csv": "88d1013506e0cd6f191a51c5f3fdd3fb2be54f8afb4e19a5d1f8538e81fbfec8",
+   "secondary-screen-cell-line-info.csv": "b93436b5f4bcf5fd14589697be4ca8f99ffd99d639223080380bc514c3718d27"
+  }
+ },
+ "lines": {
+  "A-172": {
+   "ccle_name": "A172_CENTRAL_NERVOUS_SYSTEM",
+   "depmap_id": "ACH-000558"
+  },
+  "COLO 205": null,
+  "H4": {
+   "ccle_name": "H4_CENTRAL_NERVOUS_SYSTEM",
+   "depmap_id": "ACH-000389"
+  },
+  "HCT15": {
+   "ccle_name": "HCT15_LARGE_INTESTINE",
+   "depmap_id": "ACH-000997"
+  },
+  "HT-29": {
+   "ccle_name": "HT29_LARGE_INTESTINE",
+   "depmap_id": "ACH-000552"
+  },
+  "KATO III": null,
+  "LS 180": {
+   "ccle_name": "LS180_LARGE_INTESTINE",
+   "depmap_id": "ACH-000957"
+  },
+  "LoVo": {
+   "ccle_name": "LOVO_LARGE_INTESTINE",
+   "depmap_id": "ACH-000950"
+  },
+  "RKO": {
+   "ccle_name": "RKO_LARGE_INTESTINE",
+   "depmap_id": "ACH-000943"
+  },
+  "SNU-1": null,
+  "SW 1088": {
+   "ccle_name": "SW1088_CENTRAL_NERVOUS_SYSTEM",
+   "depmap_id": "ACH-000437"
+  },
+  "SW1417": null,
+  "SW48": {
+   "ccle_name": "SW48_LARGE_INTESTINE",
+   "depmap_id": "ACH-000958"
+  },
+  "SW480": {
+   "ccle_name": "SW480_LARGE_INTESTINE",
+   "depmap_id": "ACH-000842"
+  }
+ },
+ "n_lines_found": 10,
+ "n_usable": 375,
+ "n_matched": 135,
+ "matched_by_name_only": [
+  "5-Fluorouracil",
+  "Afatinib",
+  "Alpelisib",
+  "Altretamine",
+  "Amsacrine",
+  "Anastrozole",
+  "Artesunate",
+  "Aspirin",
+  "Azithromycin (hydrate)",
+  "BI-78D3",
+  "Baicalin",
+  "Belinostat",
+  "Bendamustine",
+  "Berberine (chloride hydrate)",
+  "Bicalutamide",
+  "Bortezomib",
+  "Busulfan",
+  "Cabozantinib (S-malate)",
+  "Chlorhexidine (diacetate)",
+  "Ciclopirox",
+  "Cinacalcet",
+  "Clofarabine",
+  "Clotrimazole",
+  "Cobimetinib",
+  "Crizotinib (hydrochloride)",
+  "Cytarabine",
+  "Cytarabine (hydrochloride)",
+  "Dabrafenib",
+  "Decitabine",
+  "Digitoxin",
+  "Dihydroartemisinin",
+  "Docetaxel",
+  "Docetaxel (Trihydrate)",
+  "Dorzolamide (hydrochloride)",
+  "Doxorubicin (hydrochloride)",
+  "Doxycycline (monohydrate)",
+  "Drospirenone",
+  "Epirubicin (hydrochloride)",
+  "Eplerenone",
+  "Erlotinib",
+  "Everolimus",
+  "Fenofibrate",
+  "Flutamide",
+  "Fulvestrant",
+  "Gefitinib",
+  "Gemcitabine",
+  "Harringtonine",
+  "Homoharringtonine",
+  "Hydroxyurea",
+  "Idarubicin (hydrochloride)",
+  "Idoxuridine",
+  "Imiquimod (hydrochloride)",
+  "Imiquimod (maleate)",
+  "Irinotecan",
+  "Irinotecan (hydrochloride)",
+  "Ivermectin",
+  "Ixazomib",
+  "Lidocaine (hydrochloride)",
+  "Lonafarnib",
+  "Meloxicam",
+  "Menadione",
+  "Methotrexate",
+  "Mifepristone",
+  "Mitoxantrone (dihydrochloride)",
+  "Naproxen",
+  "Neratinib",
+  "Neratinib (maleate)",
+  "Niclosamide (olamine)",
+  "Norepinephrine (hydrochloride)",
+  "Omeprazole",
+  "Omeprazole (sodium)",
+  "Ouabain (Octahydrate)",
+  "Oxaliplatin",
+  "Paclitaxel",
+  "Panobinostat",
+  "Penfluridol",
+  "Pentagastrin",
+  "Pentamidine (isethionate)",
+  "Piroxicam",
+  "Ponatinib",
+  "Posaconazole",
+  "Quinidine (15% dihydroquinidine)",
+  "Raltitrexed",
+  "Ribociclib",
+  "Rutin (trihydrate)",
+  "Selinexor",
+  "Sonidegib",
+  "Sunitinib",
+  "TAK-733",
+  "Temsirolimus",
+  "Terfenadine",
+  "Topotecan (hydrochloride)",
+  "Trametinib",
+  "Trametinib (DMSO_TF solvate)",
+  "Tranilast",
+  "Triamcinolone",
+  "Trifluridine",
+  "Uridine",
+  "Vemurafenib",
+  "Vinblastine (sulfate)",
+  "Volasertib",
+  "crizotinib",
+  "olaparib",
+  "palbociclib",
+  "venetoclax",
+  "vincristine"
+ ],
+ "matched_by_structure_only": [
+  "8-Hydroxyquinoline",
+  "Belumosudil",
+  "Belumosudil (mesylate)",
+  "Bimiralisib",
+  "Binimetinib",
+  "Capmatinib",
+  "Encorafenib",
+  "Palmatine (chloride)",
+  "Sapanisertib"
+ ],
+ "unmatched": [
+  "(R)-Verapamil (hydrochloride)",
+  "(S)-Crizotinib",
+  "18\u03b2-Glycyrrhetinic acid",
+  "4EGI-1",
+  "5-Azacytidine",
+  "9-ING-41",
+  "APTO-253",
+  "AT7519",
+  "AZD-7648",
+  "AZD-8055",
+  "AZD1390",
+  "Abiraterone acetate",
+  "Acetohexamide",
+  "Adagrasib",
+  "Adenine",
+  "Adenosine",
+  "Aliskiren",
+  "Allantoin",
+  "Allopurinol",
+  "Almonertinib (hydrochloride)",
+  "Almonertinib (mesylate)",
+  "Anethole trithione",
+  "Apalutamide",
+  "Aprepitant",
+  "Arbutin",
+  "Artemether",
+  "Asciminib",
+  "Ataluren",
+  "Atazanavir (sulfate)",
+  "Auranofin",
+  "BAY1125976",
+  "BI-3406",
+  "Balsalazide (sodium hydrate)",
+  "Belzutifan",
+  "Benproperine (phosphate)",
+  "Bentamapimod",
+  "Benztropine (mesylate)",
+  "Berbamine",
+  "Berbamine (dihydrochloride)",
+  "Bergenin",
+  "Bestatin",
+  "Bestatin (hydrochloride)",
+  "Betamethasone dipropionate",
+  "Bimatoprost",
+  "Bisoprolol (hemifumarate)",
+  "Brimonidine",
+  "Brivudine",
+  "Budesonide",
+  "CP21R7",
+  "Canagliflozin",
+  "Canagliflozin (hemihydrate)",
+  "Capivasertib",
+  "Captopril",
+  "Carbamazepine",
+  "Carbidopa (monohydrate)",
+  "Celecoxib",
+  "Cepharanthine",
+  "Cilostazol",
+  "Citalopram (hydrobromide)",
+  "Clobetasol propionate",
+  "Clonidine (hydrochloride)",
+  "Clopidogrel",
+  "Cloxacillin (sodium)",
+  "Cyclosporin A",
+  "Cysteamine (hydrochloride)",
+  "DT-061",
+  "DTP3",
+  "Daidzin",
+  "Dapagliflozin",
+  "Dapagliflozin ((2S)-1,2-propanediol, hydrate)",
+  "Daptomycin",
+  "Darinaparsin",
+  "Darolutamide",
+  "Delamanid",
+  "Demeclocycline",
+  "Dexamethasone",
+  "Dexmedetomidine",
+  "Diammonium Glycyrrhizinate",
+  "Dimethyl fumarate",
+  "Diphenhydramine",
+  "ERK5-IN-2",
+  "ETC-206",
+  "EX229",
+  "Econazole",
+  "Edoxaban (tosylate monohydrate)",
+  "Elagolix sodium",
+  "Elimusertib hydrochloride",
+  "Entecavir (monohydrate)",
+  "Entrectinib",
+  "Erythromycin",
+  "Esmolol (hydrochloride)",
+  "Estrone sulfate (potassium)",
+  "Fedratinib (hydrochloride hydrate)",
+  "Ferulic acid",
+  "Finasteride",
+  "Fingolimod (hydrochloride)",
+  "Fluvoxamine",
+  "Fluvoxamine (maleate)",
+  "Folic acid",
+  "Fostamatinib (disodium hexahydrate)",
+  "Fumaric acid",
+  "Furosemide",
+  "Fusidic acid",
+  "Futibatinib",
+  "GSK1059615",
+  "Gallic acid",
+  "Gallic acid (hydrate)",
+  "Gemfibrozil",
+  "Glasdegib",
+  "Glycyrrhizic acid",
+  "Goserelin (acetate)",
+  "HI-TOPK-032",
+  "Hesperidin",
+  "Hydroxyfasudil",
+  "IQ 1",
+  "Indacaterol (maleate)",
+  "Infigratinib",
+  "Ipatasertib",
+  "Isocorydine",
+  "Ivabradine (hydrochloride)",
+  "Ixazomib citrate",
+  "L-Eflornithine (monohydrochloride)",
+  "L-Thyroxine (sodium salt pentahydrate)",
+  "LB-100",
+  "LJI308",
+  "LY-2584702 (tosylate salt)",
+  "Lactate (calcium)",
+  "Lapatinib ditosylate",
+  "Larotrectinib",
+  "Larotrectinib sulfate",
+  "Levobupivacaine (hydrochloride)",
+  "Ligustrazine",
+  "Lipoic acid",
+  "Loperamide (hydrochloride)",
+  "Lopinavir",
+  "Lucanthone",
+  "Lumateperone (tosylate)",
+  "MK-3903",
+  "MK-8353",
+  "ML264",
+  "Macitentan",
+  "Malotilate",
+  "Medroxyprogesterone acetate",
+  "Megestrol",
+  "Methyl aminolevulinate (hydrochloride)",
+  "Methylprednisolone succinate",
+  "Methylthiouracil",
+  "Minodronic acid",
+  "Monocrotaline",
+  "NG25",
+  "Nafamostat (mesylate)",
+  "Nevirapine",
+  "Nimesulide",
+  "OTS514",
+  "Olanzapine",
+  "Oleic acid",
+  "Orlistat",
+  "Ornidazole",
+  "Oxaprozin",
+  "PF-06260933",
+  "PH-797804",
+  "Pasireotide (acetate)",
+  "Pemetrexed",
+  "Pemigatinib",
+  "Pentoxifylline",
+  "Peretinoin",
+  "Perindopril (erbumine)",
+  "Pexidartinib (hydrochloride)",
+  "Phenylephrine (hydrochloride)",
+  "Phenytoin (sodium)",
+  "Pimitespib",
+  "Pioglitazone",
+  "Plicamycin",
+  "Pralsetinib",
+  "Pravastatin (sodium)",
+  "Procainamide (hydrochloride)",
+  "Proglumide",
+  "Pyridoxine",
+  "Pyridoxine (hydrochloride)",
+  "Quinestrol",
+  "RMC-6236",
+  "Radotinib",
+  "Ralimetinib dimesylate",
+  "Ranolazine",
+  "Rapamycin",
+  "Relugolix",
+  "Resveratrol",
+  "Retinoic acid",
+  "Rifaximin",
+  "Riluzole hydrochloride",
+  "Rimonabant",
+  "Rimonabant (Hydrochloride)",
+  "Ritonavir",
+  "Ropivacaine (hydrochloride monohydrate)",
+  "Rosiglitazone",
+  "Roxadustat",
+  "Rucaparib (phosphate)",
+  "S-Adenosyl-L-methionine (disulfate tosylate)",
+  "SBI-0640756",
+  "Salicylic acid",
+  "Saquinavir",
+  "Sildenafil",
+  "Silodosin",
+  "Simotinib",
+  "Sinomenine",
+  "Sivelestat (sodium tetrahydrate)",
+  "Sodium Salicylate",
+  "Sulfatinib",
+  "Sulfisoxazole",
+  "Tadalafil",
+  "Talc",
+  "Tazarotene",
+  "Temuterkib",
+  "Tetracycline (hydrochloride)",
+  "Thymol",
+  "Thymopentin",
+  "Tirabrutinib",
+  "Tirabrutinib (hydrochloride)",
+  "Tofacitinib",
+  "Tofacitinib (citrate)",
+  "Tolcapone",
+  "Tolmetin",
+  "Tomivosertib",
+  "Torkinib",
+  "Triclosan",
+  "Trimetrexate",
+  "Tubulin inhibitor 6",
+  "Tucidinostat",
+  "ULK-101",
+  "Valdecoxib",
+  "Verapamil",
+  "Verteporfin",
+  "Vilanterol",
+  "Vitamin K4",
+  "Voriconazole",
+  "Vortioxetine",
+  "XRK3F2",
+  "Zileuton",
+  "c-Kit-IN-1",
+  "\u03b3-Oryzanol"
+ ],
+ "pairs_with_auc": 1234,
+ "pairs_passed": 1234,
+ "per_split": {
+  "drug_split_0": {
+   "n_held": 75,
+   "held_in_screen": 33,
+   "held_pairs_with_auc": 303,
+   "held_pairs_passed": 303
+  },
+  "drug_split_1": {
+   "n_held": 75,
+   "held_in_screen": 27,
+   "held_pairs_with_auc": 253,
+   "held_pairs_passed": 253
+  },
+  "drug_split_2": {
+   "n_held": 76,
+   "held_in_screen": 25,
+   "held_pairs_with_auc": 223,
+   "held_pairs_passed": 223
+  }
+ },
+ "match": {
+  "(R)-Verapamil (hydrochloride)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "(S)-Crizotinib": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "18\u03b2-Glycyrrhetinic acid": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "4EGI-1": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "5-Azacytidine": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "5-Fluorouracil": {
+   "by_name": [
+    "BRD-K24844714-001-24-5"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K24844714-001-24-5"
+   ]
+  },
+  "8-Hydroxyquinoline": {
+   "by_name": [],
+   "by_structure": [
+    "BRD-K66808046-065-03-7"
+   ],
+   "broad_ids": [
+    "BRD-K66808046-065-03-7"
+   ]
+  },
+  "9-ING-41": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "APTO-253": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "AT7519": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "AZD-7648": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "AZD-8055": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "AZD1390": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "AZD2858": {
+   "by_name": [
+    "BRD-K85849709-001-01-5"
+   ],
+   "by_structure": [
+    "BRD-K85849709-001-01-5"
+   ],
+   "broad_ids": [
+    "BRD-K85849709-001-01-5"
+   ]
+  },
+  "Abemaciclib": {
+   "by_name": [
+    "BRD-K33622447-066-01-9"
+   ],
+   "by_structure": [
+    "BRD-K33622447-066-01-9"
+   ],
+   "broad_ids": [
+    "BRD-K33622447-066-01-9"
+   ]
+  },
+  "Abiraterone acetate": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Acetazolamide": {
+   "by_name": [
+    "BRD-K43457670-001-27-8"
+   ],
+   "by_structure": [
+    "BRD-K43457670-001-27-8"
+   ],
+   "broad_ids": [
+    "BRD-K43457670-001-27-8"
+   ]
+  },
+  "Acetohexamide": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Adagrasib": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Adenine": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Adenosine": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Afatinib": {
+   "by_name": [
+    "BRD-K66175015-001-09-0",
+    "BRD-K66175015-001-12-4"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K66175015-001-09-0",
+    "BRD-K66175015-001-12-4"
+   ]
+  },
+  "Aliskiren": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Allantoin": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Allopurinol": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Almonertinib (hydrochloride)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Almonertinib (mesylate)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Alpelisib": {
+   "by_name": [
+    "BRD-K54997624-001-06-0"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K54997624-001-06-0"
+   ]
+  },
+  "Altretamine": {
+   "by_name": [
+    "BRD-K67043667-001-26-4"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K67043667-001-26-4"
+   ]
+  },
+  "Amsacrine": {
+   "by_name": [
+    "BRD-K68346641-001-01-4"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K68346641-001-01-4"
+   ]
+  },
+  "Anastrozole": {
+   "by_name": [
+    "BRD-K52172416-001-11-4"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K52172416-001-11-4"
+   ]
+  },
+  "Anethole trithione": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Apalutamide": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Aprepitant": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Arbutin": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Artemether": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Artesunate": {
+   "by_name": [
+    "BRD-K54634444-001-05-9"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K54634444-001-05-9"
+   ]
+  },
+  "Asciminib": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Aspirin": {
+   "by_name": [
+    "BRD-K11433652-001-17-0"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K11433652-001-17-0"
+   ]
+  },
+  "Ataluren": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Atazanavir (sulfate)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Auranofin": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Azithromycin (hydrate)": {
+   "by_name": [
+    "BRD-K74501079-001-18-1"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K74501079-001-18-1"
+   ]
+  },
+  "BAY1125976": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "BI-3406": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "BI-78D3": {
+   "by_name": [
+    "BRD-K73982490-001-02-9"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K73982490-001-02-9"
+   ]
+  },
+  "Baicalin": {
+   "by_name": [
+    "BRD-K49962337-001-02-9"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K49962337-001-02-9"
+   ]
+  },
+  "Balsalazide (sodium hydrate)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Belinostat": {
+   "by_name": [
+    "BRD-K17743125-001-08-4"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K17743125-001-08-4"
+   ]
+  },
+  "Belumosudil": {
+   "by_name": [],
+   "by_structure": [
+    "BRD-K88506063-001-01-8"
+   ],
+   "broad_ids": [
+    "BRD-K88506063-001-01-8"
+   ]
+  },
+  "Belumosudil (mesylate)": {
+   "by_name": [],
+   "by_structure": [
+    "BRD-K88506063-001-01-8"
+   ],
+   "broad_ids": [
+    "BRD-K88506063-001-01-8"
+   ]
+  },
+  "Belzutifan": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Bendamustine": {
+   "by_name": [
+    "BRD-K17068645-003-04-2"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K17068645-003-04-2"
+   ]
+  },
+  "Benproperine (phosphate)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Bentamapimod": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Benztropine (mesylate)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Berbamine": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Berbamine (dihydrochloride)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Berberine (chloride hydrate)": {
+   "by_name": [
+    "BRD-K14796088-003-26-8"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K14796088-003-26-8"
+   ]
+  },
+  "Bergenin": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Bestatin": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Bestatin (hydrochloride)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Betamethasone dipropionate": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Bexarotene": {
+   "by_name": [
+    "BRD-K92441787-001-04-1"
+   ],
+   "by_structure": [
+    "BRD-K92441787-001-04-1"
+   ],
+   "broad_ids": [
+    "BRD-K92441787-001-04-1"
+   ]
+  },
+  "Bicalutamide": {
+   "by_name": [
+    "BRD-A29485665-001-12-8"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-A29485665-001-12-8"
+   ]
+  },
+  "Bimatoprost": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Bimiralisib": {
+   "by_name": [],
+   "by_structure": [
+    "BRD-K62374002-001-01-5"
+   ],
+   "broad_ids": [
+    "BRD-K62374002-001-01-5"
+   ]
+  },
+  "Binimetinib": {
+   "by_name": [],
+   "by_structure": [
+    "BRD-K82244583-001-01-3"
+   ],
+   "broad_ids": [
+    "BRD-K82244583-001-01-3"
+   ]
+  },
+  "Bisoprolol (hemifumarate)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Bortezomib": {
+   "by_name": [
+    "BRD-K88510285-001-11-1",
+    "BRD-K88510285-001-17-8"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K88510285-001-11-1",
+    "BRD-K88510285-001-17-8"
+   ]
+  },
+  "Bosentan (hydrate)": {
+   "by_name": [
+    "BRD-K74763371-002-04-0"
+   ],
+   "by_structure": [
+    "BRD-K74763371-002-04-0"
+   ],
+   "broad_ids": [
+    "BRD-K74763371-002-04-0"
+   ]
+  },
+  "Brimonidine": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Brivudine": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Budesonide": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Busulfan": {
+   "by_name": [
+    "BRD-K23204545-001-16-4"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K23204545-001-16-4"
+   ]
+  },
+  "CP21R7": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Cabozantinib (S-malate)": {
+   "by_name": [
+    "BRD-K51544265-001-04-2"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K51544265-001-04-2"
+   ]
+  },
+  "Canagliflozin": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Canagliflozin (hemihydrate)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Capivasertib": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Capmatinib": {
+   "by_name": [],
+   "by_structure": [
+    "BRD-K81016934-001-02-0"
+   ],
+   "broad_ids": [
+    "BRD-K81016934-001-02-0"
+   ]
+  },
+  "Captopril": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Carbamazepine": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Carbidopa (monohydrate)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Celecoxib": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Cepharanthine": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Chlorhexidine (diacetate)": {
+   "by_name": [
+    "BRD-K52256627-300-06-6"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K52256627-300-06-6"
+   ]
+  },
+  "Ciclopirox": {
+   "by_name": [
+    "BRD-K13044802-213-20-7"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K13044802-213-20-7"
+   ]
+  },
+  "Cilostazol": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Cinacalcet": {
+   "by_name": [
+    "BRD-K73838513-003-05-5"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K73838513-003-05-5"
+   ]
+  },
+  "Citalopram (hydrobromide)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Clobetasol propionate": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Clofarabine": {
+   "by_name": [
+    "BRD-K34022604-001-06-6"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K34022604-001-06-6"
+   ]
+  },
+  "Clonidine (hydrochloride)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Clopidogrel": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Clotrimazole": {
+   "by_name": [
+    "BRD-K15916496-001-27-9"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K15916496-001-27-9"
+   ]
+  },
+  "Cloxacillin (sodium)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Cobimetinib": {
+   "by_name": [
+    "BRD-K03390685-001-01-7"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K03390685-001-01-7"
+   ]
+  },
+  "Crizotinib (hydrochloride)": {
+   "by_name": [
+    "BRD-K78431006-001-10-2",
+    "BRD-K78431006-001-15-1"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K78431006-001-10-2",
+    "BRD-K78431006-001-15-1"
+   ]
+  },
+  "Cyclosporin A": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Cysteamine (hydrochloride)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Cytarabine": {
+   "by_name": [
+    "BRD-K71847383-001-12-5"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K71847383-001-12-5"
+   ]
+  },
+  "Cytarabine (hydrochloride)": {
+   "by_name": [
+    "BRD-K71847383-001-12-5"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K71847383-001-12-5"
+   ]
+  },
+  "DT-061": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "DTP3": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Dabrafenib": {
+   "by_name": [
+    "BRD-K09951645-001-06-8",
+    "BRD-K09951645-001-11-8"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K09951645-001-06-8",
+    "BRD-K09951645-001-11-8"
+   ]
+  },
+  "Daidzin": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Dapagliflozin": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Dapagliflozin ((2S)-1,2-propanediol, hydrate)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Daptomycin": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Darinaparsin": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Darolutamide": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Decitabine": {
+   "by_name": [
+    "BRD-K79254416-001-21-8",
+    "BRD-K79254416-001-22-6"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K79254416-001-21-8",
+    "BRD-K79254416-001-22-6"
+   ]
+  },
+  "Delamanid": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Demeclocycline": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Dexamethasone": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Dexmedetomidine": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Diammonium Glycyrrhizinate": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Digitoxin": {
+   "by_name": [
+    "BRD-A93236127-001-04-5"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-A93236127-001-04-5"
+   ]
+  },
+  "Dihydroartemisinin": {
+   "by_name": [
+    "BRD-K62213621-001-01-6"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K62213621-001-01-6"
+   ]
+  },
+  "Dimethyl fumarate": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Diphenhydramine": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Docetaxel": {
+   "by_name": [
+    "BRD-K30577245-001-05-0",
+    "BRD-K30577245-341-01-9"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K30577245-001-05-0",
+    "BRD-K30577245-341-01-9"
+   ]
+  },
+  "Docetaxel (Trihydrate)": {
+   "by_name": [
+    "BRD-K30577245-001-05-0",
+    "BRD-K30577245-341-01-9"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K30577245-001-05-0",
+    "BRD-K30577245-341-01-9"
+   ]
+  },
+  "Dorzolamide (hydrochloride)": {
+   "by_name": [
+    "BRD-K71075609-003-01-0"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K71075609-003-01-0"
+   ]
+  },
+  "Doxorubicin (hydrochloride)": {
+   "by_name": [
+    "BRD-K92093830-003-30-8"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K92093830-003-30-8"
+   ]
+  },
+  "Doxycycline (monohydrate)": {
+   "by_name": [
+    "BRD-A08545410-003-07-8",
+    "BRD-A08545410-311-03-4"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-A08545410-003-07-8",
+    "BRD-A08545410-311-03-4"
+   ]
+  },
+  "Drospirenone": {
+   "by_name": [
+    "BRD-K04394237-001-03-7"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K04394237-001-03-7"
+   ]
+  },
+  "ERK5-IN-2": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "ETC-206": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "EX229": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Econazole": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Edoxaban (tosylate monohydrate)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Elagolix sodium": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Elimusertib hydrochloride": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Encorafenib": {
+   "by_name": [],
+   "by_structure": [
+    "BRD-A56085258-001-01-8"
+   ],
+   "broad_ids": [
+    "BRD-A56085258-001-01-8"
+   ]
+  },
+  "Entecavir (monohydrate)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Entrectinib": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Epirubicin (hydrochloride)": {
+   "by_name": [
+    "BRD-K04548931-003-16-5"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K04548931-003-16-5"
+   ]
+  },
+  "Eplerenone": {
+   "by_name": [
+    "BRD-K19761926-001-03-6"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K19761926-001-03-6"
+   ]
+  },
+  "Erdafitinib": {
+   "by_name": [
+    "BRD-K84868168-001-01-0"
+   ],
+   "by_structure": [
+    "BRD-K84868168-001-01-0"
+   ],
+   "broad_ids": [
+    "BRD-K84868168-001-01-0"
+   ]
+  },
+  "Erlotinib": {
+   "by_name": [
+    "BRD-K70401845-001-15-7",
+    "BRD-K70401845-003-09-6"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K70401845-001-15-7",
+    "BRD-K70401845-003-09-6"
+   ]
+  },
+  "Erythromycin": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Esmolol (hydrochloride)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Estrone sulfate (potassium)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Everolimus": {
+   "by_name": [
+    "BRD-K13514097-001-04-6",
+    "BRD-K13514097-001-05-3"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K13514097-001-04-6",
+    "BRD-K13514097-001-05-3"
+   ]
+  },
+  "Fedratinib (hydrochloride hydrate)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Fenofibrate": {
+   "by_name": [
+    "BRD-K50388907-001-30-4"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K50388907-001-30-4"
+   ]
+  },
+  "Ferulic acid": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Filgotinib": {
+   "by_name": [
+    "BRD-K16803204-001-01-6"
+   ],
+   "by_structure": [
+    "BRD-K16803204-001-01-6"
+   ],
+   "broad_ids": [
+    "BRD-K16803204-001-01-6"
+   ]
+  },
+  "Finasteride": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Fingolimod (hydrochloride)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Flumatinib (mesylate)": {
+   "by_name": [
+    "BRD-K68870568-066-01-5"
+   ],
+   "by_structure": [
+    "BRD-K68870568-066-01-5"
+   ],
+   "broad_ids": [
+    "BRD-K68870568-066-01-5"
+   ]
+  },
+  "Flutamide": {
+   "by_name": [
+    "BRD-K28307902-001-21-7"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K28307902-001-21-7"
+   ]
+  },
+  "Fluvoxamine": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Fluvoxamine (maleate)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Folic acid": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Fostamatinib (disodium hexahydrate)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Fulvestrant": {
+   "by_name": [
+    "BRD-A85667082-001-12-7"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-A85667082-001-12-7"
+   ]
+  },
+  "Fumaric acid": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Furosemide": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Fusidic acid": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Futibatinib": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "GSK1059615": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Gallic acid": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Gallic acid (hydrate)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Gefitinib": {
+   "by_name": [
+    "BRD-K64052750-001-17-5",
+    "BRD-K64052750-001-22-5"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K64052750-001-17-5",
+    "BRD-K64052750-001-22-5"
+   ]
+  },
+  "Gemcitabine": {
+   "by_name": [
+    "BRD-K15108141-001-06-6"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K15108141-001-06-6"
+   ]
+  },
+  "Gemfibrozil": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Glasdegib": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Glycyrrhizic acid": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Goserelin (acetate)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "HI-TOPK-032": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Harringtonine": {
+   "by_name": [
+    "BRD-K96358241-001-01-9"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K96358241-001-01-9"
+   ]
+  },
+  "Hesperidin": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Hexylresorcinol": {
+   "by_name": [
+    "BRD-K99946902-001-07-5"
+   ],
+   "by_structure": [
+    "BRD-K99946902-001-07-5"
+   ],
+   "broad_ids": [
+    "BRD-K99946902-001-07-5"
+   ]
+  },
+  "Homoharringtonine": {
+   "by_name": [
+    "BRD-K76674262-001-03-3"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K76674262-001-03-3"
+   ]
+  },
+  "Hydroxyfasudil": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Hydroxyurea": {
+   "by_name": [
+    "BRD-K51747290-001-13-1"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K51747290-001-13-1"
+   ]
+  },
+  "IQ 1": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Idarubicin (hydrochloride)": {
+   "by_name": [
+    "BRD-K69650333-003-14-0"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K69650333-003-14-0"
+   ]
+  },
+  "Idoxuridine": {
+   "by_name": [
+    "BRD-K76634210-001-14-7"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K76634210-001-14-7"
+   ]
+  },
+  "Imiquimod (hydrochloride)": {
+   "by_name": [
+    "BRD-K26657438-001-15-2"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K26657438-001-15-2"
+   ]
+  },
+  "Imiquimod (maleate)": {
+   "by_name": [
+    "BRD-K26657438-001-15-2"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K26657438-001-15-2"
+   ]
+  },
+  "Indacaterol (maleate)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Infigratinib": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Ipatasertib": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Irinotecan": {
+   "by_name": [
+    "BRD-K08547377-001-04-4",
+    "BRD-K08547377-394-03-5"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K08547377-001-04-4",
+    "BRD-K08547377-394-03-5"
+   ]
+  },
+  "Irinotecan (hydrochloride)": {
+   "by_name": [
+    "BRD-K08547377-001-04-4",
+    "BRD-K08547377-394-03-5"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K08547377-001-04-4",
+    "BRD-K08547377-394-03-5"
+   ]
+  },
+  "Isocorydine": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Ivabradine (hydrochloride)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Ivermectin": {
+   "by_name": [
+    "BRD-K85554912-001-06-3"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K85554912-001-06-3"
+   ]
+  },
+  "Ixazomib": {
+   "by_name": [
+    "BRD-K78659596-001-03-9"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K78659596-001-03-9"
+   ]
+  },
+  "Ixazomib citrate": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "L-Eflornithine (monohydrochloride)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "L-Thyroxine (sodium salt pentahydrate)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "LB-100": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "LJI308": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "LY-2584702 (tosylate salt)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "LY2090314": {
+   "by_name": [
+    "BRD-K78055238-001-01-8"
+   ],
+   "by_structure": [
+    "BRD-K78055238-001-01-8"
+   ],
+   "broad_ids": [
+    "BRD-K78055238-001-01-8"
+   ]
+  },
+  "Lactate (calcium)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Lapatinib ditosylate": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Larotrectinib": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Larotrectinib sulfate": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Lenalidomide (hemihydrate)": {
+   "by_name": [
+    "BRD-A17883755-001-06-1"
+   ],
+   "by_structure": [
+    "BRD-A17883755-001-06-1"
+   ],
+   "broad_ids": [
+    "BRD-A17883755-001-06-1"
+   ]
+  },
+  "Levobupivacaine (hydrochloride)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Lidocaine (hydrochloride)": {
+   "by_name": [
+    "BRD-K52662033-003-21-2"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K52662033-003-21-2"
+   ]
+  },
+  "Ligustrazine": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Lipoic acid": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Lonafarnib": {
+   "by_name": [
+    "BRD-K41599323-001-02-3"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K41599323-001-02-3"
+   ]
+  },
+  "Loperamide (hydrochloride)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Lopinavir": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Lucanthone": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Lumateperone (tosylate)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "MK-3903": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "MK-8353": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "ML264": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Macitentan": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Malotilate": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Mebendazole": {
+   "by_name": [
+    "BRD-K77987382-001-13-2"
+   ],
+   "by_structure": [
+    "BRD-K77987382-001-13-2"
+   ],
+   "broad_ids": [
+    "BRD-K77987382-001-13-2"
+   ]
+  },
+  "Medroxyprogesterone acetate": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Megestrol": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Meloxicam": {
+   "by_name": [
+    "BRD-A84174393-236-07-1"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-A84174393-236-07-1"
+   ]
+  },
+  "Menadione": {
+   "by_name": [
+    "BRD-K78126613-001-28-5"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K78126613-001-28-5"
+   ]
+  },
+  "Methotrexate": {
+   "by_name": [
+    "BRD-A55424491-001-19-9"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-A55424491-001-19-9"
+   ]
+  },
+  "Methyl aminolevulinate (hydrochloride)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Methylprednisolone succinate": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Methylthiouracil": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Mifepristone": {
+   "by_name": [
+    "BRD-K37270826-001-27-6"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K37270826-001-27-6"
+   ]
+  },
+  "Minodronic acid": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Mitoxantrone (dihydrochloride)": {
+   "by_name": [
+    "BRD-K21680192-300-14-4"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K21680192-300-14-4"
+   ]
+  },
+  "Monocrotaline": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Mozavaptan": {
+   "by_name": [
+    "BRD-A31095847-001-02-3"
+   ],
+   "by_structure": [
+    "BRD-A31095847-001-02-3"
+   ],
+   "broad_ids": [
+    "BRD-A31095847-001-02-3"
+   ]
+  },
+  "NG25": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "NVP-BHG712": {
+   "by_name": [
+    "BRD-K79259477-001-04-9"
+   ],
+   "by_structure": [
+    "BRD-K79259477-001-04-9"
+   ],
+   "broad_ids": [
+    "BRD-K79259477-001-04-9"
+   ]
+  },
+  "Nafamostat (mesylate)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Naproxen": {
+   "by_name": [
+    "BRD-K59197931-001-04-5"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K59197931-001-04-5"
+   ]
+  },
+  "Neratinib": {
+   "by_name": [
+    "BRD-K85606544-001-09-1"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K85606544-001-09-1"
+   ]
+  },
+  "Neratinib (maleate)": {
+   "by_name": [
+    "BRD-K85606544-001-09-1"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K85606544-001-09-1"
+   ]
+  },
+  "Nevirapine": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Niclosamide (olamine)": {
+   "by_name": [
+    "BRD-K35960502-001-20-0"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K35960502-001-20-0"
+   ]
+  },
+  "Nimesulide": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Norepinephrine (hydrochloride)": {
+   "by_name": [
+    "BRD-K87349682-347-03-8"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K87349682-347-03-8"
+   ]
+  },
+  "OTS514": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Olanzapine": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Oleic acid": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Omeprazole": {
+   "by_name": [
+    "BRD-A55962179-001-22-1"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-A55962179-001-22-1"
+   ]
+  },
+  "Omeprazole (sodium)": {
+   "by_name": [
+    "BRD-A55962179-001-22-1"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-A55962179-001-22-1"
+   ]
+  },
+  "Orlistat": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Ornidazole": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Osimertinib (mesylate)": {
+   "by_name": [
+    "BRD-K42805893-001-04-9"
+   ],
+   "by_structure": [
+    "BRD-K42805893-001-04-9"
+   ],
+   "broad_ids": [
+    "BRD-K42805893-001-04-9"
+   ]
+  },
+  "Ouabain (Octahydrate)": {
+   "by_name": [
+    "BRD-K33277808-331-01-3"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K33277808-331-01-3"
+   ]
+  },
+  "Oxaliplatin": {
+   "by_name": [
+    "BRD-K78960041-001-05-7"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K78960041-001-05-7"
+   ]
+  },
+  "Oxaprozin": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "PF-06260933": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "PH-797804": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Paclitaxel": {
+   "by_name": [
+    "BRD-K62008436-001-22-1",
+    "BRD-K62008436-001-23-9"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K62008436-001-22-1",
+    "BRD-K62008436-001-23-9"
+   ]
+  },
+  "Palmatine (chloride)": {
+   "by_name": [],
+   "by_structure": [
+    "BRD-K58466253-003-14-0"
+   ],
+   "broad_ids": [
+    "BRD-K58466253-003-14-0"
+   ]
+  },
+  "Panobinostat": {
+   "by_name": [
+    "BRD-K02130563-001-11-4"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K02130563-001-11-4"
+   ]
+  },
+  "Pasireotide (acetate)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Pemetrexed": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Pemigatinib": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Penfluridol": {
+   "by_name": [
+    "BRD-K15409150-001-05-8"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K15409150-001-05-8"
+   ]
+  },
+  "Pentagastrin": {
+   "by_name": [
+    "BRD-K78789465-001-01-6"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K78789465-001-01-6"
+   ]
+  },
+  "Pentamidine (isethionate)": {
+   "by_name": [
+    "BRD-K13183738-317-10-2"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K13183738-317-10-2"
+   ]
+  },
+  "Pentoxifylline": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Peretinoin": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Perindopril (erbumine)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Pexidartinib (hydrochloride)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Phenylephrine (hydrochloride)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Phenytoin (sodium)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Pimitespib": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Pioglitazone": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Piroxicam": {
+   "by_name": [
+    "BRD-A57382968-001-29-0"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-A57382968-001-29-0"
+   ]
+  },
+  "Plicamycin": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Ponatinib": {
+   "by_name": [
+    "BRD-K44227013-001-06-4"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K44227013-001-06-4"
+   ]
+  },
+  "Posaconazole": {
+   "by_name": [
+    "BRD-K06222852-001-03-2"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K06222852-001-03-2"
+   ]
+  },
+  "Pralsetinib": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Pravastatin (sodium)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Procainamide (hydrochloride)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Proglumide": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Pyridoxine": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Pyridoxine (hydrochloride)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Quinestrol": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Quinidine (15% dihydroquinidine)": {
+   "by_name": [
+    "BRD-K59632282-052-03-1"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K59632282-052-03-1"
+   ]
+  },
+  "RMC-6236": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Radotinib": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Ralimetinib dimesylate": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Raltitrexed": {
+   "by_name": [
+    "BRD-K89839824-001-05-3"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K89839824-001-05-3"
+   ]
+  },
+  "Ranolazine": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Rapamycin": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Regorafenib": {
+   "by_name": [
+    "BRD-K16730910-001-07-3",
+    "BRD-K16730910-001-10-7"
+   ],
+   "by_structure": [
+    "BRD-K16730910-001-07-3",
+    "BRD-K16730910-001-10-7"
+   ],
+   "broad_ids": [
+    "BRD-K16730910-001-07-3",
+    "BRD-K16730910-001-10-7"
+   ]
+  },
+  "Relugolix": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Resveratrol": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Retinoic acid": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Ribociclib": {
+   "by_name": [
+    "BRD-K36788280-001-01-2"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K36788280-001-01-2"
+   ]
+  },
+  "Rifaximin": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Riluzole hydrochloride": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Rimonabant": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Rimonabant (Hydrochloride)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Ritonavir": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Ropivacaine (hydrochloride monohydrate)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Rosiglitazone": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Roxadustat": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Rucaparib (phosphate)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Rutin (trihydrate)": {
+   "by_name": [
+    "BRD-K20482099-001-09-4"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K20482099-001-09-4"
+   ]
+  },
+  "S-Adenosyl-L-methionine (disulfate tosylate)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "SBI-0640756": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Salicylic acid": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Sapanisertib": {
+   "by_name": [],
+   "by_structure": [
+    "BRD-K59317601-001-05-5"
+   ],
+   "broad_ids": [
+    "BRD-K59317601-001-05-5"
+   ]
+  },
+  "Saquinavir": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Selinexor": {
+   "by_name": [
+    "BRD-K21361524-001-01-1"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K21361524-001-01-1"
+   ]
+  },
+  "Sildenafil": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Silodosin": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Simotinib": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Sinomenine": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Sivelestat (sodium tetrahydrate)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Sodium Salicylate": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Sonidegib": {
+   "by_name": [
+    "BRD-K19796430-001-05-6"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K19796430-001-05-6"
+   ]
+  },
+  "Sulfatinib": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Sulfisoxazole": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Sunitinib": {
+   "by_name": [
+    "BRD-K42828737-001-03-3",
+    "BRD-K42828737-044-09-0"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K42828737-001-03-3",
+    "BRD-K42828737-044-09-0"
+   ]
+  },
+  "TAK-733": {
+   "by_name": [
+    "BRD-K26667523-001-02-5"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K26667523-001-02-5"
+   ]
+  },
+  "TAK-901": {
+   "by_name": [
+    "BRD-K01683783-001-02-6"
+   ],
+   "by_structure": [
+    "BRD-K01683783-001-02-6"
+   ],
+   "broad_ids": [
+    "BRD-K01683783-001-02-6"
+   ]
+  },
+  "Tadalafil": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Talc": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Tazarotene": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Temsirolimus": {
+   "by_name": [
+    "BRD-K42898655-001-01-8"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K42898655-001-01-8"
+   ]
+  },
+  "Temuterkib": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Terfenadine": {
+   "by_name": [
+    "BRD-A06352418-001-25-9"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-A06352418-001-25-9"
+   ]
+  },
+  "Tetracycline (hydrochloride)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Thymol": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Thymopentin": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Tirabrutinib": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Tirabrutinib (hydrochloride)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Tofacitinib": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Tofacitinib (citrate)": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Tolcapone": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Tolmetin": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Tomivosertib": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Topotecan (hydrochloride)": {
+   "by_name": [
+    "BRD-K55696337-003-24-4"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K55696337-003-24-4"
+   ]
+  },
+  "Torkinib": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Trametinib": {
+   "by_name": [
+    "BRD-K12343256-001-08-9",
+    "BRD-K12343256-001-14-7"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K12343256-001-08-9",
+    "BRD-K12343256-001-14-7"
+   ]
+  },
+  "Trametinib (DMSO_TF solvate)": {
+   "by_name": [
+    "BRD-K12343256-001-08-9",
+    "BRD-K12343256-001-14-7"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K12343256-001-08-9",
+    "BRD-K12343256-001-14-7"
+   ]
+  },
+  "Tranilast": {
+   "by_name": [
+    "BRD-K17849083-001-32-9"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K17849083-001-32-9"
+   ]
+  },
+  "Triamcinolone": {
+   "by_name": [
+    "BRD-K77554836-001-11-6"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K77554836-001-11-6"
+   ]
+  },
+  "Triclosan": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Trifluridine": {
+   "by_name": [
+    "BRD-K03243820-001-23-8"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K03243820-001-23-8"
+   ]
+  },
+  "Trimetrexate": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Tubulin inhibitor 6": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Tucatinib": {
+   "by_name": [
+    "BRD-K26026438-001-01-0"
+   ],
+   "by_structure": [
+    "BRD-K26026438-001-01-0"
+   ],
+   "broad_ids": [
+    "BRD-K26026438-001-01-0"
+   ]
+  },
+  "Tucidinostat": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "ULK-101": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Uridine": {
+   "by_name": [
+    "BRD-K13050303-001-17-3"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K13050303-001-17-3"
+   ]
+  },
+  "Valdecoxib": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Vandetanib": {
+   "by_name": [
+    "BRD-K77625799-001-07-7"
+   ],
+   "by_structure": [
+    "BRD-K77625799-001-07-7"
+   ],
+   "broad_ids": [
+    "BRD-K77625799-001-07-7"
+   ]
+  },
+  "Vemurafenib": {
+   "by_name": [
+    "BRD-K56343971-001-10-6",
+    "BRD-K56343971-001-14-8"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K56343971-001-10-6",
+    "BRD-K56343971-001-14-8"
+   ]
+  },
+  "Verapamil": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Verteporfin": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Vilanterol": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Vinblastine (sulfate)": {
+   "by_name": [
+    "BRD-K06519765-065-01-6"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K06519765-065-01-6"
+   ]
+  },
+  "Vismodegib": {
+   "by_name": [
+    "BRD-K44827188-001-06-0"
+   ],
+   "by_structure": [
+    "BRD-K44827188-001-06-0"
+   ],
+   "broad_ids": [
+    "BRD-K44827188-001-06-0"
+   ]
+  },
+  "Vitamin K4": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Volasertib": {
+   "by_name": [
+    "BRD-K69776681-001-03-8"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K69776681-001-03-8"
+   ]
+  },
+  "Voriconazole": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Vortioxetine": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "XRK3F2": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "Zileuton": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "c-Kit-IN-1": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  },
+  "crizotinib": {
+   "by_name": [
+    "BRD-K78431006-001-10-2",
+    "BRD-K78431006-001-15-1"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K78431006-001-10-2",
+    "BRD-K78431006-001-15-1"
+   ]
+  },
+  "olaparib": {
+   "by_name": [
+    "BRD-K02113016-001-15-4",
+    "BRD-K02113016-001-19-6"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K02113016-001-15-4",
+    "BRD-K02113016-001-19-6"
+   ]
+  },
+  "palbociclib": {
+   "by_name": [
+    "BRD-K51313569-001-07-8",
+    "BRD-K51313569-003-03-3"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K51313569-001-07-8",
+    "BRD-K51313569-003-03-3"
+   ]
+  },
+  "venetoclax": {
+   "by_name": [
+    "BRD-K62391742-001-03-0",
+    "BRD-K62391742-001-09-7"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K62391742-001-03-0",
+    "BRD-K62391742-001-09-7"
+   ]
+  },
+  "vincristine": {
+   "by_name": [
+    "BRD-K12251893-065-04-7"
+   ],
+   "by_structure": [],
+   "broad_ids": [
+    "BRD-K12251893-065-04-7"
+   ]
+  },
+  "\u03b3-Oryzanol": {
+   "by_name": [],
+   "by_structure": [],
+   "broad_ids": []
+  }
+ }
+}

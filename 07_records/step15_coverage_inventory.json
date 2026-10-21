@@ -1,0 +1,3860 @@
+{
+ "drug_table": "/scratch/ni2071/Tahoa_2/preprocessing/tahoe_drug_metadata.csv",
+ "n_usable": 375,
+ "found": 375,
+ "with_targets": 260,
+ "moa_fine_not_unclear": 179,
+ "moa_broad_not_unclear": 299,
+ "n_target_symbols": 278,
+ "per_split": {
+  "drug_split_0": {
+   "n_held": 75,
+   "with_targets": 48,
+   "moa_fine_not_unclear": 29,
+   "held_with_in_panel_target": 2
+  },
+  "drug_split_1": {
+   "n_held": 75,
+   "with_targets": 48,
+   "moa_fine_not_unclear": 34,
+   "held_with_in_panel_target": 3
+  },
+  "drug_split_2": {
+   "n_held": 76,
+   "with_targets": 54,
+   "moa_fine_not_unclear": 36,
+   "held_with_in_panel_target": 4
+  }
+ },
+ "moa_broad_counts": {
+  "inhibitor/antagonist": 272,
+  "unclear": 76,
+  "activator/agonist": 27
+ },
+ "panel_size": 200,
+ "targets_in_panel": [
+  "CYP3A5",
+  "FGFR2",
+  "SLC12A2",
+  "TOP2A"
+ ],
+ "drugs_with_in_panel_target": [
+  "Amsacrine",
+  "Clobetasol propionate",
+  "Doxorubicin (hydrochloride)",
+  "Epirubicin (hydrochloride)",
+  "Erdafitinib",
+  "Ferulic acid",
+  "Furosemide",
+  "Futibatinib",
+  "Idarubicin (hydrochloride)",
+  "Infigratinib",
+  "Mitoxantrone (dihydrochloride)",
+  "Pemigatinib"
+ ],
+ "note": "targets/moa provenance in the Tahoe release not verified here; gpt-notes-approval column present in the table",
+ "per_drug": {
+  "(R)-Verapamil (hydrochloride)": {
+   "found": true,
+   "targets": [
+    "ABCB1"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "(S)-Crizotinib": {
+   "found": true,
+   "targets": [
+    "NUDT1"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "18\u03b2-Glycyrrhetinic acid": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "4EGI-1": {
+   "found": true,
+   "targets": [
+    "EIF4E"
+   ],
+   "moa_fine": "Protein synthesis inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "no"
+  },
+  "5-Azacytidine": {
+   "found": true,
+   "targets": [
+    "DNMT1"
+   ],
+   "moa_fine": "DNA methyltransferase inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "5-Fluorouracil": {
+   "found": true,
+   "targets": [
+    "TYMS"
+   ],
+   "moa_fine": "DNA synthesis/repair inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "8-Hydroxyquinoline": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "9-ING-41": {
+   "found": true,
+   "targets": [
+    "GSK3B"
+   ],
+   "moa_fine": "GSK3 inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "APTO-253": {
+   "found": true,
+   "targets": [
+    "MYC",
+    "KLF4"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "AT7519": {
+   "found": true,
+   "targets": [
+    "CDK2",
+    "CDK4",
+    "CDK5",
+    "CDK6",
+    "CDK9",
+    "CDK1",
+    "CDK7",
+    "GSK3B"
+   ],
+   "moa_fine": "CDK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "AZD-7648": {
+   "found": true,
+   "targets": [
+    "PRKDC"
+   ],
+   "moa_fine": "DNA synthesis/repair inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "AZD-8055": {
+   "found": true,
+   "targets": [
+    "MTOR"
+   ],
+   "moa_fine": "MTOR inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "AZD1390": {
+   "found": true,
+   "targets": [
+    "ATM"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "AZD2858": {
+   "found": true,
+   "targets": [
+    "GSK3B",
+    "GSK3A"
+   ],
+   "moa_fine": "GSK3 inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "no"
+  },
+  "Abemaciclib": {
+   "found": true,
+   "targets": [
+    "CDK4",
+    "CDK6"
+   ],
+   "moa_fine": "CDK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Abiraterone acetate": {
+   "found": true,
+   "targets": [
+    "CYP17A1"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Acetazolamide": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Acetohexamide": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "activator/agonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Adagrasib": {
+   "found": true,
+   "targets": [
+    "KRAS"
+   ],
+   "moa_fine": "RAS inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Adenine": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "no",
+   "trials": "no"
+  },
+  "Adenosine": {
+   "found": true,
+   "targets": [
+    "ADORA1",
+    "ADORA2A",
+    "ADORA2B",
+    "ADORA3"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Afatinib": {
+   "found": true,
+   "targets": [
+    "EGFR",
+    "ERBB2"
+   ],
+   "moa_fine": "EGFR/ERBB inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Aliskiren": {
+   "found": true,
+   "targets": [
+    "REN"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Allantoin": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Allopurinol": {
+   "found": true,
+   "targets": [
+    "XDH"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Almonertinib (hydrochloride)": {
+   "found": true,
+   "targets": [
+    "EGFR"
+   ],
+   "moa_fine": "EGFR/ERBB inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Almonertinib (mesylate)": {
+   "found": true,
+   "targets": [
+    "EGFR"
+   ],
+   "moa_fine": "EGFR/ERBB inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Alpelisib": {
+   "found": true,
+   "targets": [
+    "PIK3CA"
+   ],
+   "moa_fine": "PI3K/AKT inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Altretamine": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "DNA synthesis/repair inhibitor",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Amsacrine": {
+   "found": true,
+   "targets": [
+    "TOP2A"
+   ],
+   "moa_fine": "DNA synthesis/repair inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Anastrozole": {
+   "found": true,
+   "targets": [
+    "CYP19A1"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Anethole trithione": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Apalutamide": {
+   "found": true,
+   "targets": [
+    "AR"
+   ],
+   "moa_fine": "Androgen receptor antagonist",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Aprepitant": {
+   "found": true,
+   "targets": [
+    "TACR1"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Arbutin": {
+   "found": true,
+   "targets": [
+    "MYC",
+    "KLF4"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Artemether": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Artesunate": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "JAK/STAT inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Asciminib": {
+   "found": true,
+   "targets": [
+    "ABL1"
+   ],
+   "moa_fine": "Other TK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Aspirin": {
+   "found": true,
+   "targets": [
+    "PTGS1",
+    "PTGS2"
+   ],
+   "moa_fine": "Cyclooxygenase inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Ataluren": {
+   "found": true,
+   "targets": [
+    "CFTR"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Atazanavir (sulfate)": {
+   "found": true,
+   "targets": [
+    "CYP3A4"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Auranofin": {
+   "found": true,
+   "targets": [
+    "TXNRD1",
+    "TXNRD2"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Azithromycin (hydrate)": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "BAY1125976": {
+   "found": true,
+   "targets": [
+    "AKT1",
+    "AKT2",
+    "AKT3"
+   ],
+   "moa_fine": "PI3K/AKT inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "BI-3406": {
+   "found": true,
+   "targets": [
+    "KRAS",
+    "SOS1"
+   ],
+   "moa_fine": "RAS inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "BI-78D3": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "Other MAPK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Baicalin": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "activator/agonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Balsalazide (sodium hydrate)": {
+   "found": true,
+   "targets": [
+    "IL6",
+    "STAT3"
+   ],
+   "moa_fine": "JAK/STAT inhibitor",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Belinostat": {
+   "found": true,
+   "targets": [
+    "HDAC6"
+   ],
+   "moa_fine": "HDAC inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Belumosudil": {
+   "found": true,
+   "targets": [
+    "ROCK2",
+    "ROCK1"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Belumosudil (mesylate)": {
+   "found": true,
+   "targets": [
+    "ROCK2",
+    "ROCK1"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Belzutifan": {
+   "found": true,
+   "targets": [
+    "EPAS1"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Bendamustine": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "DNA synthesis/repair inhibitor",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Benproperine (phosphate)": {
+   "found": true,
+   "targets": [
+    "ARPC2"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Bentamapimod": {
+   "found": true,
+   "targets": [
+    "MAPK8",
+    "MAPK9",
+    "MAPK10"
+   ],
+   "moa_fine": "Other MAPK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Benztropine (mesylate)": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Berbamine": {
+   "found": true,
+   "targets": [
+    "CACNA1C"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "no"
+  },
+  "Berbamine (dihydrochloride)": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "no"
+  },
+  "Berberine (chloride hydrate)": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Bergenin": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Bestatin": {
+   "found": true,
+   "targets": [
+    "ANPEP"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Bestatin (hydrochloride)": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Betamethasone dipropionate": {
+   "found": true,
+   "targets": [
+    "NR3C1"
+   ],
+   "moa_fine": "Glucocorticoid receptor agonist",
+   "moa_broad": "activator/agonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Bexarotene": {
+   "found": true,
+   "targets": [
+    "RXRA",
+    "RXRB",
+    "RXRG"
+   ],
+   "moa_fine": "Retinoic receptor agonist",
+   "moa_broad": "activator/agonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Bicalutamide": {
+   "found": true,
+   "targets": [
+    "AR"
+   ],
+   "moa_fine": "Androgen receptor antagonist",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Bimatoprost": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Bimiralisib": {
+   "found": true,
+   "targets": [
+    "PIK3CA",
+    "PIK3CB",
+    "MTOR"
+   ],
+   "moa_fine": "PI3K/AKT inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Binimetinib": {
+   "found": true,
+   "targets": [
+    "MAP2K1",
+    "MAP2K2"
+   ],
+   "moa_fine": "MEK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Bisoprolol (hemifumarate)": {
+   "found": true,
+   "targets": [
+    "ADRB1"
+   ],
+   "moa_fine": "Adrenoceptor agonist",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Bortezomib": {
+   "found": true,
+   "targets": [
+    "PSMB5"
+   ],
+   "moa_fine": "Proteasome inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Bosentan (hydrate)": {
+   "found": true,
+   "targets": [
+    "EDNRA",
+    "EDNRB"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Brimonidine": {
+   "found": true,
+   "targets": [
+    "ADRA2A",
+    "ADRA2B",
+    "ADRA2C"
+   ],
+   "moa_fine": "Adrenoceptor agonist",
+   "moa_broad": "activator/agonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Brivudine": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Budesonide": {
+   "found": true,
+   "targets": [
+    "NR3C1"
+   ],
+   "moa_fine": "Glucocorticoid receptor agonist",
+   "moa_broad": "activator/agonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Busulfan": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "DNA synthesis/repair inhibitor",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "CP21R7": {
+   "found": true,
+   "targets": [
+    "GSK3B",
+    "PRKCA"
+   ],
+   "moa_fine": "GSK3 inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Cabozantinib (S-malate)": {
+   "found": true,
+   "targets": [
+    "MET",
+    "KDR",
+    "AXL"
+   ],
+   "moa_fine": "Multi-TK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Canagliflozin": {
+   "found": true,
+   "targets": [
+    "SLC5A2"
+   ],
+   "moa_fine": "Glucose transporter inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Canagliflozin (hemihydrate)": {
+   "found": true,
+   "targets": [
+    "SLC5A2"
+   ],
+   "moa_fine": "Glucose transporter inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Capivasertib": {
+   "found": true,
+   "targets": [
+    "AKT1",
+    "AKT2",
+    "AKT3",
+    "RPS6KB1",
+    "PRKACA",
+    "ROCK2",
+    "ROCK1"
+   ],
+   "moa_fine": "PI3K/AKT inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Capmatinib": {
+   "found": true,
+   "targets": [
+    "MET"
+   ],
+   "moa_fine": "EGFR/ERBB inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Captopril": {
+   "found": true,
+   "targets": [
+    "ACE"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Carbamazepine": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "HDAC inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Carbidopa (monohydrate)": {
+   "found": true,
+   "targets": [
+    "AHR"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Celecoxib": {
+   "found": true,
+   "targets": [
+    "PTGS2"
+   ],
+   "moa_fine": "Cyclooxygenase inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Cepharanthine": {
+   "found": true,
+   "targets": [
+    "CYP3A4",
+    "CYP2E1",
+    "CYP2C9"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Chlorhexidine (diacetate)": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Ciclopirox": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Cilostazol": {
+   "found": true,
+   "targets": [
+    "PDE3A"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Cinacalcet": {
+   "found": true,
+   "targets": [
+    "CASR"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "activator/agonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Citalopram (hydrobromide)": {
+   "found": true,
+   "targets": [
+    "SLC6A4"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Clobetasol propionate": {
+   "found": true,
+   "targets": [
+    "CYP3A5",
+    "CYP3A4"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Clofarabine": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "DNA synthesis/repair inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Clonidine (hydrochloride)": {
+   "found": true,
+   "targets": [
+    "ADRA2A",
+    "ADRA2B",
+    "ADRA2C"
+   ],
+   "moa_fine": "Adrenoceptor agonist",
+   "moa_broad": "activator/agonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Clopidogrel": {
+   "found": true,
+   "targets": [
+    "P2RY12"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Clotrimazole": {
+   "found": true,
+   "targets": [
+    "CYP2A6",
+    "CYP51A1"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Cloxacillin (sodium)": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Cobimetinib": {
+   "found": true,
+   "targets": [
+    "MAP2K1"
+   ],
+   "moa_fine": "MEK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Crizotinib (hydrochloride)": {
+   "found": true,
+   "targets": [
+    "ALK",
+    "MET",
+    "ROS1"
+   ],
+   "moa_fine": "Multi-TK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Cyclosporin A": {
+   "found": true,
+   "targets": [
+    "PPP3CA",
+    "PPP3CB",
+    "PPP3CC"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Cysteamine (hydrochloride)": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Cytarabine": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "DNA synthesis/repair inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Cytarabine (hydrochloride)": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "DNA synthesis/repair inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "DT-061": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "activator/agonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "DTP3": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Dabrafenib": {
+   "found": true,
+   "targets": [
+    "BRAF",
+    "RAF1"
+   ],
+   "moa_fine": "RAF inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Daidzin": {
+   "found": true,
+   "targets": [
+    "ALDH2"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Dapagliflozin": {
+   "found": true,
+   "targets": [
+    "SLC5A2"
+   ],
+   "moa_fine": "Glucose transporter inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Dapagliflozin ((2S)-1,2-propanediol, hydrate)": {
+   "found": true,
+   "targets": [
+    "SLC5A2"
+   ],
+   "moa_fine": "Glucose transporter inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Daptomycin": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Darinaparsin": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Darolutamide": {
+   "found": true,
+   "targets": [
+    "AR"
+   ],
+   "moa_fine": "Androgen receptor antagonist",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Decitabine": {
+   "found": true,
+   "targets": [
+    "DNMT1",
+    "DNMT3A",
+    "DNMT3B"
+   ],
+   "moa_fine": "DNA methyltransferase inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Delamanid": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Demeclocycline": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Dexamethasone": {
+   "found": true,
+   "targets": [
+    "NR3C1"
+   ],
+   "moa_fine": "Glucocorticoid receptor agonist",
+   "moa_broad": "activator/agonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Dexmedetomidine": {
+   "found": true,
+   "targets": [
+    "ADRA2A",
+    "ADRA2B",
+    "ADRA2C"
+   ],
+   "moa_fine": "Adrenoceptor agonist",
+   "moa_broad": "activator/agonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Diammonium Glycyrrhizinate": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Digitoxin": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Dihydroartemisinin": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Dimethyl fumarate": {
+   "found": true,
+   "targets": [
+    "NFE2L2"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "activator/agonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Diphenhydramine": {
+   "found": true,
+   "targets": [
+    "HRH1"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Docetaxel": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "Microtubule inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Docetaxel (Trihydrate)": {
+   "found": true,
+   "targets": [
+    "TUBB1",
+    "TUBB3",
+    "TUBB4B",
+    "TUBB4A",
+    "TUBB2A",
+    "TUBB2B"
+   ],
+   "moa_fine": "Microtubule inhibitor",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Dorzolamide (hydrochloride)": {
+   "found": true,
+   "targets": [
+    "CA2"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Doxorubicin (hydrochloride)": {
+   "found": true,
+   "targets": [
+    "TOP2A",
+    "TOP2B",
+    "TOP1"
+   ],
+   "moa_fine": "DNA synthesis/repair inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Doxycycline (monohydrate)": {
+   "found": true,
+   "targets": [
+    "MMP7",
+    "MMP8",
+    "MMP9",
+    "MMP13",
+    "MMP14"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Drospirenone": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "ERK5-IN-2": {
+   "found": true,
+   "targets": [
+    "MAPK7"
+   ],
+   "moa_fine": "Other MAPK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "no"
+  },
+  "ETC-206": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "Protein synthesis inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "EX229": {
+   "found": true,
+   "targets": [
+    "PRKAA1"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "activator/agonist",
+   "approved": "no",
+   "trials": "no"
+  },
+  "Econazole": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Edoxaban (tosylate monohydrate)": {
+   "found": true,
+   "targets": [
+    "F10"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Elagolix sodium": {
+   "found": true,
+   "targets": [
+    "GNRHR"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Elimusertib hydrochloride": {
+   "found": true,
+   "targets": [
+    "ATR"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Encorafenib": {
+   "found": true,
+   "targets": [
+    "BRAF"
+   ],
+   "moa_fine": "RAF inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Entecavir (monohydrate)": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Entrectinib": {
+   "found": true,
+   "targets": [
+    "NTRK1",
+    "NTRK2",
+    "NTRK3",
+    "ROS1",
+    "ALK"
+   ],
+   "moa_fine": "Other TK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Epirubicin (hydrochloride)": {
+   "found": true,
+   "targets": [
+    "TOP2A"
+   ],
+   "moa_fine": "DNA synthesis/repair inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Eplerenone": {
+   "found": true,
+   "targets": [
+    "NR3C2"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Erdafitinib": {
+   "found": true,
+   "targets": [
+    "FGFR1",
+    "FGFR2",
+    "FGFR3",
+    "FGFR4"
+   ],
+   "moa_fine": "Other TK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Erlotinib": {
+   "found": true,
+   "targets": [
+    "EGFR"
+   ],
+   "moa_fine": "EGFR/ERBB inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Erythromycin": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Esmolol (hydrochloride)": {
+   "found": true,
+   "targets": [
+    "ADRB1"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Estrone sulfate (potassium)": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Everolimus": {
+   "found": true,
+   "targets": [
+    "MTOR",
+    "FKBP1A"
+   ],
+   "moa_fine": "MTOR inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Fedratinib (hydrochloride hydrate)": {
+   "found": true,
+   "targets": [
+    "JAK2",
+    "FLT3",
+    "RET"
+   ],
+   "moa_fine": "JAK/STAT inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Fenofibrate": {
+   "found": true,
+   "targets": [
+    "CYP2C19",
+    "CYP2B6",
+    "CYP2C9",
+    "CYP2C8",
+    "CYP3A4",
+    "PPARA"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Ferulic acid": {
+   "found": true,
+   "targets": [
+    "FGFR1",
+    "FGFR2"
+   ],
+   "moa_fine": "Other TK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Filgotinib": {
+   "found": true,
+   "targets": [
+    "JAK1",
+    "JAK2",
+    "TYK2",
+    "JAK3"
+   ],
+   "moa_fine": "JAK/STAT inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Finasteride": {
+   "found": true,
+   "targets": [
+    "SRD5A2"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Fingolimod (hydrochloride)": {
+   "found": true,
+   "targets": [
+    "PAK1"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Flumatinib (mesylate)": {
+   "found": true,
+   "targets": [
+    "ABL1"
+   ],
+   "moa_fine": "Other TK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Flutamide": {
+   "found": true,
+   "targets": [
+    "AR"
+   ],
+   "moa_fine": "Androgen receptor antagonist",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Fluvoxamine": {
+   "found": true,
+   "targets": [
+    "SLC6A4"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Fluvoxamine (maleate)": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Folic acid": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Fostamatinib (disodium hexahydrate)": {
+   "found": true,
+   "targets": [
+    "SYK",
+    "FLT3",
+    "LYN",
+    "LCK"
+   ],
+   "moa_fine": "Other TK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Fulvestrant": {
+   "found": true,
+   "targets": [
+    "ESR1"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Fumaric acid": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Furosemide": {
+   "found": true,
+   "targets": [
+    "SLC12A1",
+    "SLC12A2"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Fusidic acid": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Futibatinib": {
+   "found": true,
+   "targets": [
+    "FGFR1",
+    "FGFR2",
+    "FGFR3",
+    "FGFR4"
+   ],
+   "moa_fine": "Other TK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "GSK1059615": {
+   "found": true,
+   "targets": [
+    "PIK3CA",
+    "PIK3CB",
+    "PIK3CD",
+    "PIK3CG",
+    "MTOR"
+   ],
+   "moa_fine": "PI3K/AKT inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Gallic acid": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "Cyclooxygenase inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Gallic acid (hydrate)": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "Cyclooxygenase inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Gefitinib": {
+   "found": true,
+   "targets": [
+    "EGFR"
+   ],
+   "moa_fine": "EGFR/ERBB inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Gemcitabine": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "DNA synthesis/repair inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Gemfibrozil": {
+   "found": true,
+   "targets": [
+    "PPARA",
+    "CYP2C9",
+    "CYP2C19",
+    "CYP2C8",
+    "CYP1A2"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Glasdegib": {
+   "found": true,
+   "targets": [
+    "SMO"
+   ],
+   "moa_fine": "Sonic inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Glycyrrhizic acid": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Goserelin (acetate)": {
+   "found": true,
+   "targets": [
+    "GNRHR"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "activator/agonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "HI-TOPK-032": {
+   "found": true,
+   "targets": [
+    "PBK"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "no"
+  },
+  "Harringtonine": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "Protein synthesis inhibitor",
+   "moa_broad": "unclear",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Hesperidin": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Hexylresorcinol": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Homoharringtonine": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "Protein synthesis inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Hydroxyfasudil": {
+   "found": true,
+   "targets": [
+    "ROCK1",
+    "ROCK2",
+    "PRKACA"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Hydroxyurea": {
+   "found": true,
+   "targets": [
+    "RRM2",
+    "RRM1"
+   ],
+   "moa_fine": "DNA synthesis/repair inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "IQ 1": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Idarubicin (hydrochloride)": {
+   "found": true,
+   "targets": [
+    "TOP2A"
+   ],
+   "moa_fine": "DNA synthesis/repair inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Idoxuridine": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "DNA synthesis/repair inhibitor",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Imiquimod (hydrochloride)": {
+   "found": true,
+   "targets": [
+    "TLR7"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "activator/agonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Imiquimod (maleate)": {
+   "found": true,
+   "targets": [
+    "TLR7"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "activator/agonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Indacaterol (maleate)": {
+   "found": true,
+   "targets": [
+    "ADRB2"
+   ],
+   "moa_fine": "Adrenoceptor agonist",
+   "moa_broad": "activator/agonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Infigratinib": {
+   "found": true,
+   "targets": [
+    "FGFR1",
+    "FGFR2",
+    "FGFR3",
+    "FGFR4"
+   ],
+   "moa_fine": "Other TK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Ipatasertib": {
+   "found": true,
+   "targets": [
+    "AKT1",
+    "AKT2",
+    "AKT3"
+   ],
+   "moa_fine": "PI3K/AKT inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Irinotecan": {
+   "found": true,
+   "targets": [
+    "TOP1"
+   ],
+   "moa_fine": "DNA synthesis/repair inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Irinotecan (hydrochloride)": {
+   "found": true,
+   "targets": [
+    "TOP1"
+   ],
+   "moa_fine": "DNA synthesis/repair inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Isocorydine": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "no",
+   "trials": "no"
+  },
+  "Ivabradine (hydrochloride)": {
+   "found": true,
+   "targets": [
+    "HCN4"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Ivermectin": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Ixazomib": {
+   "found": true,
+   "targets": [
+    "PSMB5"
+   ],
+   "moa_fine": "Proteasome inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Ixazomib citrate": {
+   "found": true,
+   "targets": [
+    "PSMB1",
+    "PSMB2",
+    "PSMB5"
+   ],
+   "moa_fine": "Proteasome inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "L-Eflornithine (monohydrochloride)": {
+   "found": true,
+   "targets": [
+    "ODC1"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "L-Thyroxine (sodium salt pentahydrate)": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "LB-100": {
+   "found": true,
+   "targets": [
+    "PPP2CA",
+    "PPP2CB"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "LJI308": {
+   "found": true,
+   "targets": [
+    "RPS6KA1",
+    "RPS6KA3",
+    "RPS6KA2"
+   ],
+   "moa_fine": "Other MAPK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "LY-2584702 (tosylate salt)": {
+   "found": true,
+   "targets": [
+    "RPS6KB1"
+   ],
+   "moa_fine": "MTOR inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "LY2090314": {
+   "found": true,
+   "targets": [
+    "GSK3B",
+    "GSK3A"
+   ],
+   "moa_fine": "GSK3 inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Lactate (calcium)": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Lapatinib ditosylate": {
+   "found": true,
+   "targets": [
+    "EGFR",
+    "ERBB2"
+   ],
+   "moa_fine": "EGFR/ERBB inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Larotrectinib": {
+   "found": true,
+   "targets": [
+    "NTRK1",
+    "NTRK2",
+    "NTRK3"
+   ],
+   "moa_fine": "Other TK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Larotrectinib sulfate": {
+   "found": true,
+   "targets": [
+    "NTRK1",
+    "NTRK2",
+    "NTRK3"
+   ],
+   "moa_fine": "Other TK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Lenalidomide (hemihydrate)": {
+   "found": true,
+   "targets": [
+    "CRBN",
+    "IKZF1",
+    "IKZF3"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Levobupivacaine (hydrochloride)": {
+   "found": true,
+   "targets": [
+    "SCN5A"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Lidocaine (hydrochloride)": {
+   "found": true,
+   "targets": [
+    "MAP2K1",
+    "MAPK1",
+    "NFKB1"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Ligustrazine": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Lipoic acid": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Lonafarnib": {
+   "found": true,
+   "targets": [
+    "HRAS",
+    "KRAS",
+    "NRAS"
+   ],
+   "moa_fine": "RAS inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Loperamide (hydrochloride)": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Lopinavir": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Lucanthone": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Lumateperone (tosylate)": {
+   "found": true,
+   "targets": [
+    "HTR2A",
+    "DRD2"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "MK-3903": {
+   "found": true,
+   "targets": [
+    "PRKAA1"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "activator/agonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "MK-8353": {
+   "found": true,
+   "targets": [
+    "MAPK3",
+    "MAPK1"
+   ],
+   "moa_fine": "Other MAPK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "ML264": {
+   "found": true,
+   "targets": [
+    "KLF5"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "no"
+  },
+  "Macitentan": {
+   "found": true,
+   "targets": [
+    "EDNRA",
+    "EDNRB"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Malotilate": {
+   "found": true,
+   "targets": [
+    "ALOX5"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Mebendazole": {
+   "found": true,
+   "targets": [
+    "TUBA1A",
+    "TUBA1B",
+    "TUBA1C",
+    "TUBB",
+    "TUBB1",
+    "TUBB2A",
+    "TUBB3",
+    "TUBB4A",
+    "TUBB4B",
+    "TUBB6"
+   ],
+   "moa_fine": "Microtubule inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Medroxyprogesterone acetate": {
+   "found": true,
+   "targets": [
+    "PGR"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Megestrol": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Meloxicam": {
+   "found": true,
+   "targets": [
+    "PTGS1",
+    "PTGS2"
+   ],
+   "moa_fine": "Cyclooxygenase inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Menadione": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Methotrexate": {
+   "found": true,
+   "targets": [
+    "DHFR"
+   ],
+   "moa_fine": "DNA synthesis/repair inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Methyl aminolevulinate (hydrochloride)": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Methylprednisolone succinate": {
+   "found": true,
+   "targets": [
+    "NR3C1"
+   ],
+   "moa_fine": "Glucocorticoid receptor agonist",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Methylthiouracil": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Mifepristone": {
+   "found": true,
+   "targets": [
+    "NR3C1",
+    "PGR"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Minodronic acid": {
+   "found": true,
+   "targets": [
+    "P2RX2",
+    "P2RX3"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Mitoxantrone (dihydrochloride)": {
+   "found": true,
+   "targets": [
+    "TOP2A",
+    "TOP2B",
+    "PRKCA"
+   ],
+   "moa_fine": "DNA synthesis/repair inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Monocrotaline": {
+   "found": true,
+   "targets": [
+    "SLC22A1",
+    "SLC22A2"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "no"
+  },
+  "Mozavaptan": {
+   "found": true,
+   "targets": [
+    "AVPR2"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "NG25": {
+   "found": true,
+   "targets": [
+    "MAP4K2",
+    "MAP3K7",
+    "LYN",
+    "ABL1",
+    "ABL2",
+    "FER",
+    "SRC",
+    "EPHA2",
+    "EPHB2",
+    "EPHB4",
+    "ZAK",
+    "ZKSCAN1",
+    "RAF1"
+   ],
+   "moa_fine": "Other MAPK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "NVP-BHG712": {
+   "found": true,
+   "targets": [
+    "EPHB4"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Nafamostat (mesylate)": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Naproxen": {
+   "found": true,
+   "targets": [
+    "PTGS1",
+    "PTGS2"
+   ],
+   "moa_fine": "Cyclooxygenase inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Neratinib": {
+   "found": true,
+   "targets": [
+    "EGFR",
+    "ERBB2"
+   ],
+   "moa_fine": "EGFR/ERBB inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Neratinib (maleate)": {
+   "found": true,
+   "targets": [
+    "EGFR",
+    "ERBB2"
+   ],
+   "moa_fine": "EGFR/ERBB inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Nevirapine": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Niclosamide (olamine)": {
+   "found": true,
+   "targets": [
+    "STAT3"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Nimesulide": {
+   "found": true,
+   "targets": [
+    "PTGS2"
+   ],
+   "moa_fine": "Cyclooxygenase inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Norepinephrine (hydrochloride)": {
+   "found": true,
+   "targets": [
+    "ADRA1A",
+    "ADRA1B",
+    "ADRA1D",
+    "ADRA2A",
+    "ADRA2B",
+    "ADRA2C",
+    "ADRB1"
+   ],
+   "moa_fine": "Adrenoceptor agonist",
+   "moa_broad": "activator/agonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "OTS514": {
+   "found": true,
+   "targets": [
+    "MAP3K8"
+   ],
+   "moa_fine": "Other MAPK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Olanzapine": {
+   "found": true,
+   "targets": [
+    "HTR2A",
+    "HTR2C",
+    "DRD2",
+    "DRD4",
+    "ADRA1A",
+    "ADRA1B",
+    "ADRA1D",
+    "HTR6",
+    "CHRM1",
+    "CHRM2",
+    "CHRM3",
+    "CHRM4",
+    "CHRM5"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Oleic acid": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "activator/agonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Omeprazole": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Omeprazole (sodium)": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Orlistat": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Ornidazole": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Osimertinib (mesylate)": {
+   "found": true,
+   "targets": [
+    "EGFR"
+   ],
+   "moa_fine": "EGFR/ERBB inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Ouabain (Octahydrate)": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Oxaliplatin": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "DNA synthesis/repair inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Oxaprozin": {
+   "found": true,
+   "targets": [
+    "PTGS1",
+    "PTGS2",
+    "NFKB1"
+   ],
+   "moa_fine": "Cyclooxygenase inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "PF-06260933": {
+   "found": true,
+   "targets": [
+    "MAP4K4"
+   ],
+   "moa_fine": "Other MAPK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "PH-797804": {
+   "found": true,
+   "targets": [
+    "MAPK14"
+   ],
+   "moa_fine": "Other MAPK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Paclitaxel": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "Microtubule inhibitor",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Palmatine (chloride)": {
+   "found": true,
+   "targets": [
+    "IDO1",
+    "WNV NS2B-NS3"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Panobinostat": {
+   "found": true,
+   "targets": [
+    "HDAC1",
+    "HDAC2",
+    "HDAC3",
+    "HDAC6",
+    "HDAC8",
+    "HDAC10",
+    "HDAC11"
+   ],
+   "moa_fine": "HDAC inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Pasireotide (acetate)": {
+   "found": true,
+   "targets": [
+    "SSTR1",
+    "SSTR2",
+    "SSTR3",
+    "SSTR5"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "activator/agonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Pemetrexed": {
+   "found": true,
+   "targets": [
+    "TYMS",
+    "DHFR",
+    "GART"
+   ],
+   "moa_fine": "DNA synthesis/repair inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Pemigatinib": {
+   "found": true,
+   "targets": [
+    "FGFR1",
+    "FGFR2",
+    "FGFR3",
+    "FGFR4"
+   ],
+   "moa_fine": "Other TK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Penfluridol": {
+   "found": true,
+   "targets": [
+    "DRD2"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Pentagastrin": {
+   "found": true,
+   "targets": [
+    "CCKBR"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Pentamidine (isethionate)": {
+   "found": true,
+   "targets": [
+    "PRLR"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Pentoxifylline": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Peretinoin": {
+   "found": true,
+   "targets": [
+    "RXRA",
+    "RXRB",
+    "RXRG"
+   ],
+   "moa_fine": "Retinoic receptor agonist",
+   "moa_broad": "unclear",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Perindopril (erbumine)": {
+   "found": true,
+   "targets": [
+    "STAT3",
+    "ACE"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Pexidartinib (hydrochloride)": {
+   "found": true,
+   "targets": [
+    "CSF1R",
+    "KIT",
+    "FLT3"
+   ],
+   "moa_fine": "Multi-TK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Phenylephrine (hydrochloride)": {
+   "found": true,
+   "targets": [
+    "ADRA1A",
+    "ADRA1B",
+    "ADRA1D"
+   ],
+   "moa_fine": "Adrenoceptor agonist",
+   "moa_broad": "activator/agonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Phenytoin (sodium)": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Pimitespib": {
+   "found": true,
+   "targets": [
+    "HSP90AA1",
+    "HSP90AB1"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Pioglitazone": {
+   "found": true,
+   "targets": [
+    "PPARG"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "activator/agonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Piroxicam": {
+   "found": true,
+   "targets": [
+    "PTGS1",
+    "PTGS2"
+   ],
+   "moa_fine": "Cyclooxygenase inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Plicamycin": {
+   "found": true,
+   "targets": [
+    "SP1",
+    "GSTM2"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Ponatinib": {
+   "found": true,
+   "targets": [
+    "ABL1",
+    "PDGFRA",
+    "KDR",
+    "FGFR1",
+    "SRC",
+    "KIT"
+   ],
+   "moa_fine": "Multi-TK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Posaconazole": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Pralsetinib": {
+   "found": true,
+   "targets": [
+    "RET"
+   ],
+   "moa_fine": "Other TK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Pravastatin (sodium)": {
+   "found": true,
+   "targets": [
+    "HMGCR"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Procainamide (hydrochloride)": {
+   "found": true,
+   "targets": [
+    "DNMT1"
+   ],
+   "moa_fine": "DNA methyltransferase inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Proglumide": {
+   "found": true,
+   "targets": [
+    "CCKBR",
+    "CCKAR"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Pyridoxine": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Pyridoxine (hydrochloride)": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Quinestrol": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Quinidine (15% dihydroquinidine)": {
+   "found": true,
+   "targets": [
+    "KCNH2"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "RMC-6236": {
+   "found": true,
+   "targets": [
+    "KRAS"
+   ],
+   "moa_fine": "RAS inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Radotinib": {
+   "found": true,
+   "targets": [
+    "ABL1"
+   ],
+   "moa_fine": "Other TK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Ralimetinib dimesylate": {
+   "found": true,
+   "targets": [
+    "MAPKAPK2",
+    "MAPK14",
+    "MAPK11"
+   ],
+   "moa_fine": "Other MAPK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Raltitrexed": {
+   "found": true,
+   "targets": [
+    "TYMS"
+   ],
+   "moa_fine": "DNA synthesis/repair inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Ranolazine": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Rapamycin": {
+   "found": true,
+   "targets": [
+    "MTOR",
+    "FKBP1A"
+   ],
+   "moa_fine": "MTOR inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Regorafenib": {
+   "found": true,
+   "targets": [
+    "BRAF",
+    "FLT1",
+    "FLT4",
+    "KDR",
+    "KIT",
+    "PDGFRB",
+    "RAF1",
+    "RET",
+    "TEK"
+   ],
+   "moa_fine": "Multi-TK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Relugolix": {
+   "found": true,
+   "targets": [
+    "GNRHR"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Resveratrol": {
+   "found": true,
+   "targets": [
+    "SIRT1"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Retinoic acid": {
+   "found": true,
+   "targets": [
+    "RARB",
+    "RARG",
+    "RARA",
+    "PPARD"
+   ],
+   "moa_fine": "Retinoic receptor agonist",
+   "moa_broad": "activator/agonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Ribociclib": {
+   "found": true,
+   "targets": [
+    "CDK4",
+    "CDK6"
+   ],
+   "moa_fine": "CDK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Rifaximin": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Riluzole hydrochloride": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Rimonabant": {
+   "found": true,
+   "targets": [
+    "CNR1"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Rimonabant (Hydrochloride)": {
+   "found": true,
+   "targets": [
+    "CNR1"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Ritonavir": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Ropivacaine (hydrochloride monohydrate)": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Rosiglitazone": {
+   "found": true,
+   "targets": [
+    "PPARG",
+    "TRPC5",
+    "TRPM3"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Roxadustat": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Rucaparib (phosphate)": {
+   "found": true,
+   "targets": [
+    "PARP1",
+    "PARP2",
+    "PARP3"
+   ],
+   "moa_fine": "DNA synthesis/repair inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Rutin (trihydrate)": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "no",
+   "trials": "no"
+  },
+  "S-Adenosyl-L-methionine (disulfate tosylate)": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "SBI-0640756": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "Protein synthesis inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "no"
+  },
+  "Salicylic acid": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "Cyclooxygenase inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Sapanisertib": {
+   "found": true,
+   "targets": [
+    "MTOR"
+   ],
+   "moa_fine": "MTOR inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Saquinavir": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Selinexor": {
+   "found": true,
+   "targets": [
+    "XPO1"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Sildenafil": {
+   "found": true,
+   "targets": [
+    "PDE5A"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Silodosin": {
+   "found": true,
+   "targets": [
+    "ADRA1A",
+    "ADRA1B",
+    "ADRA1D"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Simotinib": {
+   "found": true,
+   "targets": [
+    "EGFR"
+   ],
+   "moa_fine": "EGFR/ERBB inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Sinomenine": {
+   "found": true,
+   "targets": [
+    "OPRM1"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Sivelestat (sodium tetrahydrate)": {
+   "found": true,
+   "targets": [
+    "ELANE"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Sodium Salicylate": {
+   "found": true,
+   "targets": [
+    "PTGS2"
+   ],
+   "moa_fine": "Cyclooxygenase inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Sonidegib": {
+   "found": true,
+   "targets": [
+    "SMO"
+   ],
+   "moa_fine": "Sonic inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Sulfatinib": {
+   "found": true,
+   "targets": [
+    "FLT1",
+    "KDR",
+    "FLT4",
+    "FGFR1",
+    "CSF1R"
+   ],
+   "moa_fine": "Multi-TK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Sulfisoxazole": {
+   "found": true,
+   "targets": [
+    "EDNRA",
+    "EDNRB"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Sunitinib": {
+   "found": true,
+   "targets": [
+    "KDR",
+    "PDGFRB"
+   ],
+   "moa_fine": "Multi-TK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "TAK-733": {
+   "found": true,
+   "targets": [
+    "MAP2K1"
+   ],
+   "moa_fine": "MEK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "TAK-901": {
+   "found": true,
+   "targets": [
+    "AURKB"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Tadalafil": {
+   "found": true,
+   "targets": [
+    "PDE5A"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Talc": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Tazarotene": {
+   "found": true,
+   "targets": [
+    "RARA",
+    "RARB",
+    "RARG"
+   ],
+   "moa_fine": "Retinoic receptor agonist",
+   "moa_broad": "activator/agonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Temsirolimus": {
+   "found": true,
+   "targets": [
+    "MTOR"
+   ],
+   "moa_fine": "MTOR inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Temuterkib": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "Other MAPK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Terfenadine": {
+   "found": true,
+   "targets": [
+    "HRH1"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Tetracycline (hydrochloride)": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Thymol": {
+   "found": true,
+   "targets": [
+    "TRPA1"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "activator/agonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Thymopentin": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Tirabrutinib": {
+   "found": true,
+   "targets": [
+    "BTK"
+   ],
+   "moa_fine": "Other TK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Tirabrutinib (hydrochloride)": {
+   "found": true,
+   "targets": [
+    "BTK"
+   ],
+   "moa_fine": "Other TK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Tofacitinib": {
+   "found": true,
+   "targets": [
+    "JAK1",
+    "JAK2",
+    "JAK3"
+   ],
+   "moa_fine": "JAK/STAT inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Tofacitinib (citrate)": {
+   "found": true,
+   "targets": [
+    "JAK1",
+    "JAK2",
+    "JAK3"
+   ],
+   "moa_fine": "JAK/STAT inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Tolcapone": {
+   "found": true,
+   "targets": [
+    "COMT"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Tolmetin": {
+   "found": true,
+   "targets": [
+    "PTGS1",
+    "PTGS2"
+   ],
+   "moa_fine": "Cyclooxygenase inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Tomivosertib": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "Protein synthesis inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Topotecan (hydrochloride)": {
+   "found": true,
+   "targets": [
+    "TOP1"
+   ],
+   "moa_fine": "DNA synthesis/repair inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Torkinib": {
+   "found": true,
+   "targets": [
+    "MTOR",
+    "PDGFRA",
+    "PRKDC",
+    "PIK3CD",
+    "PIK3CG",
+    "PIK3CA",
+    "PIK3CB",
+    "HCK",
+    "SRC",
+    "KDR",
+    "ABL1",
+    "EPHB4",
+    "EGFR"
+   ],
+   "moa_fine": "MTOR inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Trametinib": {
+   "found": true,
+   "targets": [
+    "MAP2K1",
+    "MAP2K2"
+   ],
+   "moa_fine": "MEK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Trametinib (DMSO_TF solvate)": {
+   "found": true,
+   "targets": [
+    "MAP2K1",
+    "MAP2K2"
+   ],
+   "moa_fine": "MEK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Tranilast": {
+   "found": true,
+   "targets": [
+    "PLA2G2A",
+    "EGR1"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Triamcinolone": {
+   "found": true,
+   "targets": [
+    "NR3C1"
+   ],
+   "moa_fine": "Glucocorticoid receptor agonist",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Triclosan": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Trifluridine": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "DNA synthesis/repair inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Trimetrexate": {
+   "found": true,
+   "targets": [
+    "DHFR"
+   ],
+   "moa_fine": "DNA synthesis/repair inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Tubulin inhibitor 6": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "Microtubule inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "no"
+  },
+  "Tucatinib": {
+   "found": true,
+   "targets": [
+    "ERBB2"
+   ],
+   "moa_fine": "EGFR/ERBB inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Tucidinostat": {
+   "found": true,
+   "targets": [
+    "HDAC1",
+    "HDAC2",
+    "HDAC3",
+    "HDAC10",
+    "HDAC8",
+    "HDAC11"
+   ],
+   "moa_fine": "HDAC inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "ULK-101": {
+   "found": true,
+   "targets": [
+    "ULK1",
+    "ULK2"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "no"
+  },
+  "Uridine": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Valdecoxib": {
+   "found": true,
+   "targets": [
+    "PTGS2"
+   ],
+   "moa_fine": "Cyclooxygenase inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Vandetanib": {
+   "found": true,
+   "targets": [
+    "EGFR",
+    "KDR"
+   ],
+   "moa_fine": "Multi-TK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Vemurafenib": {
+   "found": true,
+   "targets": [
+    "BRAF"
+   ],
+   "moa_fine": "RAF inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Verapamil": {
+   "found": true,
+   "targets": [
+    "CYP3A4",
+    "ABCB1"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Verteporfin": {
+   "found": true,
+   "targets": [
+    "YAP1"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Vilanterol": {
+   "found": true,
+   "targets": [
+    "ADRB2"
+   ],
+   "moa_fine": "Adrenoceptor agonist",
+   "moa_broad": "activator/agonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Vinblastine (sulfate)": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "Microtubule inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Vismodegib": {
+   "found": true,
+   "targets": [
+    "SMO",
+    "ABCB1",
+    "ABCG2"
+   ],
+   "moa_fine": "Sonic inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Vitamin K4": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Volasertib": {
+   "found": true,
+   "targets": [
+    "PLK1",
+    "PLK2",
+    "PLK3"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  },
+  "Voriconazole": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "Vortioxetine": {
+   "found": true,
+   "targets": [
+    "SLC6A4",
+    "HTR3A",
+    "HTR7"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "XRK3F2": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "no"
+  },
+  "Zileuton": {
+   "found": true,
+   "targets": [
+    "ALOX5"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "c-Kit-IN-1": {
+   "found": true,
+   "targets": [
+    "KIT",
+    "MET",
+    "KDR",
+    "PDGFRA",
+    "PDGFRB"
+   ],
+   "moa_fine": "Multi-TK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "no"
+  },
+  "crizotinib": {
+   "found": true,
+   "targets": [
+    "ALK",
+    "MET",
+    "ROS1"
+   ],
+   "moa_fine": "Multi-TK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "olaparib": {
+   "found": true,
+   "targets": [
+    "PARP1",
+    "PARP2"
+   ],
+   "moa_fine": "DNA synthesis/repair inhibitor",
+   "moa_broad": "unclear",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "palbociclib": {
+   "found": true,
+   "targets": [
+    "CDK4",
+    "CDK6"
+   ],
+   "moa_fine": "CDK inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "venetoclax": {
+   "found": true,
+   "targets": [
+    "BCL2"
+   ],
+   "moa_fine": "unclear",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "vincristine": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "Microtubule inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "yes",
+   "trials": "yes"
+  },
+  "\u03b3-Oryzanol": {
+   "found": true,
+   "targets": [],
+   "moa_fine": "DNA methyltransferase inhibitor",
+   "moa_broad": "inhibitor/antagonist",
+   "approved": "no",
+   "trials": "yes"
+  }
+ }
+}

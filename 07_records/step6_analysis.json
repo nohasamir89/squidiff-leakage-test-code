@@ -1,0 +1,150 @@
+{
+  "prereg": "PREREG_step6_flow_matching.md",
+  "alpha": 0.975,
+  "n_conditions": 443,
+  "M_s": 147,
+  "c_s": 0.20622817540376331,
+  "p1": {
+    "ddim": [
+      0.5575402118919297,
+      0.5542357642030444,
+      0.5571183091302091,
+      0.5583555500295033,
+      0.5465971683153293
+    ],
+    "fm_gaussian": [
+      0.5891529933070115,
+      0.5732047752243494,
+      0.5852951028692353,
+      0.5927811992724935,
+      0.588533898524028
+    ],
+    "fm_control_ot": [
+      0.5909163814782464,
+      0.5804118270553257,
+      0.5840273511777646,
+      0.5892277532140094,
+      0.5848472841195637
+    ]
+  },
+  "p2": {
+    "ddim": [
+      0.18063090409103935,
+      0.1849766910576591,
+      0.1974443773527608,
+      0.18581649701715738,
+      0.19540927214485246
+    ],
+    "fm_gaussian": [
+      0.18845788264734137,
+      0.18888382847482468,
+      0.1845414715341699,
+      0.18175300542556944,
+      0.18745485811505255
+    ],
+    "fm_control_ot": [
+      0.27347124916115134,
+      0.3137645489274779,
+      0.276085972364932,
+      0.2734864248638137,
+      0.279026065480172
+    ]
+  },
+  "contrasts": {
+    "P1 DE-overlap Jaccard": {
+      "B - A  (objective)": {
+        "delta": 0.031024193125420263,
+        "ci": [
+          0.021521196971540518,
+          0.040527189279300005
+        ],
+        "welch_df": 6.814918043414401,
+        "se": 0.003996709234823263,
+        "perm_p": 0.007936507936507936,
+        "n_alloc": 252,
+        "direction": "second arm better",
+        "resolved": true,
+        "better": "higher",
+        "favours": "the second arm"
+      },
+      "C - B  (source)": {
+        "delta": 9.25255695584104e-05,
+        "ci": [
+          -0.009239547542108567,
+          0.009424598681225388
+        ],
+        "welch_df": 6.283881244525458,
+        "se": 0.0038556480612717187,
+        "perm_p": 0.9841269841269841,
+        "n_alloc": 252,
+        "direction": "unresolved",
+        "resolved": false,
+        "better": "higher",
+        "favours": "the second arm"
+      }
+    },
+    "P2 energy distance": {
+      "B - A  (objective)": {
+        "delta": -0.0026373390933022434,
+        "ci": [
+          -0.011458976560864764,
+          0.006184298374260277
+        ],
+        "welch_df": 5.354461629214473,
+        "se": 0.0035003276779301627,
+        "perm_p": 0.4523809523809524,
+        "n_alloc": 252,
+        "direction": "unresolved",
+        "resolved": false,
+        "better": "lower",
+        "favours": "the second arm"
+      },
+      "C - B  (source)": {
+        "delta": 0.09694864292011779,
+        "ci": [
+          0.07568117058138625,
+          0.11821611525884933
+        ],
+        "welch_df": 4.244230409586242,
+        "se": 0.007834602314023185,
+        "perm_p": 0.007936507936507936,
+        "n_alloc": 252,
+        "direction": "first arm better",
+        "resolved": true,
+        "better": "lower",
+        "favours": "the first arm"
+      }
+    }
+  },
+  "joint_verdicts": {
+    "B - A  (objective)": "PARTIAL: second arm better on one endpoint, unresolved on the other",
+    "C - B  (source)": "PARTIAL: first arm better on one endpoint, unresolved on the other"
+  },
+  "p2_source": "step6_p2_energy.json",
+  "p2_sha256": "7e18d01b9e0ee2581f90417dd68d733da1790ddb7649d3ad102fec19aaddd0b9",
+  "commit": "3345b2b494bcef0cc220570783821a2a0b5ee2c6",
+  "script_sha256": "90c9384c45c5ad8f0c8e187618c6db677f76d4af85f1c196341a9f3f0db81597",
+  "inputs": {
+    "ddim": [
+      "03ddc9190f4309e9d57349cf47d82cffafc924a0ab9593e7ce05362cf1efdfa6",
+      "2e46ad9531250d5848d6ae890d31b283544ab36e4d81a8453865453dc52573a8",
+      "857599030f2f914595190e868afcdb842e8144a3eb90866b01cf2e099385806a",
+      "2bfbd7a0bcbf574a66edac781efd116fdf58adc408af1958293303ab95fded0c",
+      "c39af299edb62e29043c807d57f574cf00796befee32d0a5ad785d609374a9cf"
+    ],
+    "fm_gaussian": [
+      "128b32e16a9ab7d8527e88c742fafde3564e09f4ca0be3d6b3686fddd8567563",
+      "9d5619d56460eb15901e7f8994e1b160b627f72f8bdb397b04d293a6ef728065",
+      "342f57d2f607c647d78a933264dbd16f601ac12a3ed749780a9121d52a99e1ef",
+      "3415f09813fbb924a4ae18bdd2954e02c5c7d0a6117e320134750518c0c03911",
+      "57db905388deb824a20b3665e36ccb885c74d85a184b2be41644dd23fc6d692a"
+    ],
+    "fm_control_ot": [
+      "9b9c13900a3bf1794a112fa73e6cdf3322f8264605415496aab1dc84b63e686c",
+      "6c2bac17c9e0f90423e5515ce076f009fb04af9d2798362ebe0923bca9f7dfc4",
+      "ae80b2a7f8c1af9cd410de5f25a976331ae8a449793376b221b2a5187a8380bf",
+      "bdd9fb0001b74435878dc2441892ba0fc754736fb5bef3f80a76cfcf9332c4b3",
+      "e4a38478b181328ebcf1bf53f32e1c136b4ef15cb55afa18e2b4a427021752b5"
+    ]
+  }
+}

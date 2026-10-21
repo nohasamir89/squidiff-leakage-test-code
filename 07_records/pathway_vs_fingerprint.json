@@ -1,0 +1,36 @@
+{
+  "analysis": "EXPLORATORY, not pre-registered; best of nine feature sets on drug_split_1, replicated here",
+  "per_split": {
+    "drug_split_0": {
+      "n": 444,
+      "n_drugs": 37,
+      "pathway_x_line": 0.26491859555244446,
+      "fp_x_line": 0.2473304271697998,
+      "target_x_line": 0.26388537883758545,
+      "n_pathways": 23,
+      "n_targets": 27,
+      "pathway_beats_fp": true
+    },
+    "drug_split_1": {
+      "n": 443,
+      "n_drugs": 37,
+      "pathway_x_line": 0.21330033242702484,
+      "fp_x_line": 0.18925991654396057,
+      "target_x_line": 0.16955780982971191,
+      "n_pathways": 20,
+      "n_targets": 24,
+      "pathway_beats_fp": true
+    },
+    "drug_split_2": {
+      "n": 455,
+      "n_drugs": 38,
+      "pathway_x_line": 0.12867532670497894,
+      "fp_x_line": 0.0823490172624588,
+      "target_x_line": 0.10116969794034958,
+      "n_pathways": 21,
+      "n_targets": 27,
+      "pathway_beats_fp": true
+    }
+  },
+  "pathway_beats_fp_on_all": true
+}

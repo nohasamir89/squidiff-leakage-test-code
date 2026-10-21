@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "arm": "cfg_fingerprint",
+  "drug_encoding": "fingerprint",
+  "cond_drop": 0.1,
+  "empirical_cond_drop": 0.0999,
+  "cond_drop_calls": 100000,
+  "seed": "2",
+  "split": "drug_split_0",
+  "prereg": "PREREG_step12b_confirmation.md",
+  "commit": "5e182dea08a676a8f06e45740ae38f8f8a17259f",
+  "fm_source": "gaussian",
+  "completed_at": "2026-09-20T22:41:47.686143+00:00",
+  "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step12b/drug_split_0_cfg_fingerprint/seed_2/model_0.9999.pt",
+  "checkpoint_sha256": "169521d49b9c2470585df64bd02471051da5766d7235d58c94d9715fbc2a5c07",
+  "n_state_dict": 58186374,
+  "encoding_sidecar": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step12b/drug_split_0_cfg_fingerprint/seed_2/model_0.9999.pt.encoding.json",
+  "node": "cn273",
+  "gpu": "NVIDIA H100 NVL"
+}

@@ -1,0 +1,100 @@
+{
+  "per_split": {
+    "drug_split_0": {
+      "interaction - plain ridge": {
+        "paired_median": 0.049888040870428085,
+        "ci": [
+          0.025868579745292664,
+          0.07242727279663086
+        ],
+        "verdict": "above zero",
+        "frac_positive": 0.6531531531531531
+      },
+      "flow matching - interaction": {
+        "paired_median": -0.1345760177820921,
+        "ci": [
+          -0.20380126237869264,
+          -0.06578355729579927
+        ],
+        "verdict": "below zero",
+        "frac_positive": 0.3761261261261261
+      },
+      "marginal": {
+        "plain": 0.11535651236772537,
+        "interaction": 0.24729523062705994,
+        "flow_matching": 0.08877518363296985
+      },
+      "n_conditions": 444,
+      "n_drugs": 37
+    },
+    "drug_split_1": {
+      "interaction - plain ridge": {
+        "paired_median": 0.0451197624206543,
+        "ci": [
+          0.024464160203933716,
+          0.07198438048362732
+        ],
+        "verdict": "above zero",
+        "frac_positive": 0.6523702031602708
+      },
+      "flow matching - interaction": {
+        "paired_median": -0.06917160749435425,
+        "ci": [
+          -0.12864855378866197,
+          -0.020797199010848998
+        ],
+        "verdict": "below zero",
+        "frac_positive": 0.4153498871331828
+      },
+      "marginal": {
+        "plain": 0.11548734456300735,
+        "interaction": 0.18838950991630554,
+        "flow_matching": 0.09243626594543457
+      },
+      "n_conditions": 443,
+      "n_drugs": 37
+    },
+    "drug_split_2": {
+      "interaction - plain ridge": {
+        "paired_median": 0.024810045957565308,
+        "ci": [
+          -0.002977060619741675,
+          0.04849839899688956
+        ],
+        "verdict": "includes zero",
+        "frac_positive": 0.5494505494505495
+      },
+      "flow matching - interaction": {
+        "paired_median": -0.02908250391483308,
+        "ci": [
+          -0.09488905966281891,
+          0.007646580040454865
+        ],
+        "verdict": "includes zero",
+        "frac_positive": 0.45054945054945056
+      },
+      "marginal": {
+        "plain": 0.061873506754636765,
+        "interaction": 0.08158174157142639,
+        "flow_matching": 0.06263827979564666
+      },
+      "n_conditions": 455,
+      "n_drugs": 38
+    }
+  },
+  "verdicts": {
+    "interaction - plain ridge": "MIXED (above: ['drug_split_0', 'drug_split_1'] | below: none)",
+    "flow matching - interaction": "MIXED (above: none | below: ['drug_split_0', 'drug_split_1'])"
+  },
+  "prereg": "PREREG_step7_interaction_baseline.md",
+  "blind": false,
+  "feature_set": "FP + line + FP x line",
+  "alpha": 1.0,
+  "bootstrap": {
+    "unit": "drug",
+    "n_replicates": 5000,
+    "seed": 0
+  },
+  "commit": "dad42cc91719b3864a2d47e4f1248b73fdbee31a",
+  "script_sha256": "1f50da750248b2c322318f20bbcc7c02db121c82f932881448a8b5ddd27b85b9"
+}

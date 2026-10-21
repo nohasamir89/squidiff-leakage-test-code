@@ -1,0 +1,21 @@
+{
+  "status": "completed",
+  "arm": "ddim",
+  "seed": "1",
+  "split": "drug_split_1",
+  "tag": "step6_ddim_seed_1",
+  "nfe": 20,
+  "solver": "euler",
+  "prereg": "PREREG_step6_flow_matching.md",
+  "commit": "40f2d26e61d9c62767e11e9e173a0aa6e7a191cc",
+  "completed_at": "2026-08-18T18:55:32.294851+00:00",
+  "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step6/ddim/seed_1/model_0.9999.pt",
+  "checkpoint_sha256": "d8fcd3289aa46bc69a4ad3b7671fec0644fd64ced620fa91b8e484fe771b2945",
+  "vectors_npz": "leakage_results/vectors_step6_ddim_seed_1.npz",
+  "vectors_sha256": "2e46ad9531250d5848d6ae890d31b283544ab36e4d81a8453865453dc52573a8",
+  "n_conditions": 443,
+  "node": "cn274",
+  "gpu": "NVIDIA H100 NVL",
+  "harness_sha256": "68a2492dd52bf6f000ae55297140c93c5d291337e2d61cad85f7a9248a8a7949",
+  "sampler_sha256": "9db50358c4e69ec52e1908dfb074bab30cf7e22df77294f4cd5be6eaddefca58"
+}

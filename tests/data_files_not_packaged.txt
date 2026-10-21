@@ -1,0 +1,9 @@
+# Data files that packaged scripts read but that are deliberately not in the package.
+# One file name per line, then "# reason". tests/test_data_inputs.py accepts a missing
+# file only if it is listed here, and fails if a listed file is in fact packaged
+# (delete the line then). Keep reasons concrete: what the file is and why it is left out.
+step8_convergence.json   # output of step8_convergence.py (Table S10 feedforward rows); not present in the repository on 22 Oct 2026 - the run's record was not kept; pending a re-run (run_step8_conv.sh) or removal of those rows
+secondary-screen-dose-response-curve-parameters.csv   # PRISM Repurposing secondary screen (DepMap, figshare 9393293): third-party raw data read by score_step15d_utility.py from /scratch/ni2071/Diffusion/tahoe/external/prism; not redistributed - the packaged download record 07_records/external/prism_figshare_9393293_files.json names the files and the scorer checks their md5
+secondary-screen-cell-line-info.csv   # same PRISM download as above
+step20_analysis.json   # final-mode record of Step 20, never produced: Step 20 ran in development mode only (record step20_analysis_development.json); the final-mode branch of plot_step20.py has no input
+step20_long.csv   # same: final-mode per-condition table of Step 20, never produced (the development table step20_long_development.csv is packaged)

@@ -1,0 +1,18 @@
+{
+  "split": "drug_split_0",
+  "seed": 4,
+  "tolerance": 1e-06,
+  "max_abs_diff_condition_means": {
+    "true": 0.0,
+    "A": 1.7881393432617188e-07,
+    "B": 2.384185791015625e-07,
+    "C": 0.0
+  },
+  "max_abs_diff_sampled": 2.384185791015625e-07,
+  "true_and_C_bitwise_identical": true,
+  "per_cell_max_abs_diff": 1.3709068298339844e-06,
+  "unguided": "s12b_drug_split_0_wnone_seed_4",
+  "guided_w1": "s12b_drug_split_0_w1_seed_4",
+  "checkpoint_sha256": "2e15752f03699ace512d2aee3862afca525374974febac52393196be112ea605",
+  "pass": true
+}

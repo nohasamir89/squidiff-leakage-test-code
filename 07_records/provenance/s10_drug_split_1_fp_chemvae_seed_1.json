@@ -1,0 +1,17 @@
+{
+  "status": "completed",
+  "arm": "fp_chemvae",
+  "drug_encoding": "fp_chemvae",
+  "seed": "1",
+  "split": "drug_split_1",
+  "prereg": "PREREG_step10_chemvae_stochastic.md",
+  "commit": "6e62a7f712867396083485778e5f2abc8969f312",
+  "fm_source": "gaussian",
+  "completed_at": "2026-09-14T14:17:13.254781+00:00",
+  "checkpoint": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step10/fp_chemvae/seed_1/model_0.9999.pt",
+  "checkpoint_sha256": "bc2e1719979248597c9dfbbd97703bf4f2230d40bef2ce0d739ee84bf7914f57",
+  "n_state_dict": 58587782,
+  "encoding_sidecar": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step10/fp_chemvae/seed_1/model_0.9999.pt.encoding.json",
+  "node": "cn274",
+  "gpu": "NVIDIA H100 NVL"
+}
