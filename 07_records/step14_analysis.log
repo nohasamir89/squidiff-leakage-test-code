@@ -1,0 +1,191 @@
+nohup: ignoring input
+[prereg] committed; scoring code committed
+
+########################################################################
+# drug_split_1
+########################################################################
+[design] 443 conditions | 37 drugs | lines ['A549', 'K562', 'MCF7'] | stored cells per condition 7-200, distinct 7-200 | DE gate >= 20 distinct cells: 439 pass | harness draw recovered in 443 conditions (443 exact, 0 within 1e-5), seeded draw for 0 | conditions with duplicate stored cells 263
+[ridge-S7] reproduced from vectors_step6_fm_gaussian_seed_0.npz: marginal median DPC-50 0.188390 (Step 7 record 0.188390); max |true - C| difference between that file and the 50 NFE file 5.96e-08
+[ridge-train] fitted on 1344 training conditions (112 compounds), predicting 443 held-out conditions
+[baseline] ridge_S7       DE-overlap 0.5544  energy 0.2308  DPC-50 mean 0.1891  median 0.1884  (entries clipped at 0: 29.6754%)
+[baseline] ridge_train    DE-overlap 0.5644  energy 0.1630  DPC-50 mean 0.1963  median 0.1795  (entries clipped at 0: 43.6629%)
+[baseline] control_paste  DE-overlap nan  energy 0.2000  DPC-50 mean nan  median nan  (entries clipped at 0: 0.0000%)
+[baseline] mean_response  DE-overlap 0.5440  energy 0.2082  DPC-50 mean 0.1795  median 0.1264  (entries clipped at 0: 11.6041%)
+[arm] adaln_ddim_1000 DE-overlap 0.5548  energy 0.1889  DPC-50 mean 0.0875  median 0.0644
+[arm] fm_20          DE-overlap 0.5858  energy 0.1862  DPC-50 mean 0.0977  median 0.0924
+[arm] fm_50          DE-overlap 0.6100  energy 0.1795  DPC-50 mean 0.0991  median 0.0940
+[arm] guidance_w2    DE-overlap 0.6172  energy 0.1846  DPC-50 mean 0.1177  median 0.0927
+[arm] attn_cross     DE-overlap 0.6157  energy 0.1587  DPC-50 mean 0.1183  median 0.1213
+[arm] mlp_ctrl       DE-overlap 0.6125  energy 0.1762  DPC-50 mean 0.1072  median 0.1049
+[arm] s9_pathway     DE-overlap 0.5858  energy 0.1768  DPC-50 mean 0.1137  median 0.1084
+[arm] s9_both        DE-overlap 0.5890  energy 0.1807  DPC-50 mean 0.1057  median 0.1056
+[arm] s10_chemvae    DE-overlap 0.5794  energy 0.2237  DPC-50 mean 0.0550  median 0.0445
+[arm] s10_fp_chemvae DE-overlap 0.5820  energy 0.2056  DPC-50 mean 0.0823  median 0.0810
+[replicate] per line: {"A549": {"pds": 0.6902, "mse": 0.1914, "fidelity": 0.8099, "reach": 1.0, "sig_jaccard": 0.921, "lfc_nmae": 0.1733}, "K562": {"pds": 0.6461, "mse": 0.4706, "fidelity": 0.6468, "reach": 0.9722, "sig_jaccard": 0.8931, "lfc_nmae": NaN}, "MCF7": {"pds": 0.6593, "mse": 0.0635, "fidelity": 0.7494, "reach": 0.9656, "sig_jaccard": 0.9147, "lfc_nmae": 0.4175}}
+[facets] ridge_S7       raw  pds 0.5544  mse 0.8726  fidelity 0.5873  reach 0.8227  sig_jaccard 0.0161  lfc_nmae 0.3031
+                        scaled pds +0.335  mse +0.068  fidelity +0.006  reach +1.784  sig_jaccard +0.001  lfc_nmae -0.154  overall 0.340
+[facets] ridge_train    raw  pds 0.5919  mse 0.6503  fidelity 0.5868  reach 0.8154  sig_jaccard 0.0128  lfc_nmae 0.2414
+                        scaled pds +0.569  mse +0.386  fidelity -0.005  reach +1.537  sig_jaccard -0.003  lfc_nmae +0.534  overall 0.503
+[facets] control_paste  raw  pds 0.5000  mse 1.0000  fidelity 0.0000  reach 0.2649  sig_jaccard 0.7949  lfc_nmae 1.0000
+                        scaled pds +0.000  mse +0.000  fidelity -4.377  reach +2.382  sig_jaccard +0.872  lfc_nmae +0.116  overall -0.168
+[facets] mean_response  raw  pds 0.5000  mse 0.9175  fidelity 0.5861  reach 0.9413  sig_jaccard 0.0153  lfc_nmae 0.3380
+                        scaled pds +0.000  mse +0.000  fidelity +0.000  reach +0.000  sig_jaccard +0.000  lfc_nmae +0.000  overall 0.000
+[facets] adaln_ddim_1000 raw  pds 0.5187  mse 1.0033  fidelity 0.7149  reach 0.7588  sig_jaccard 0.0081  lfc_nmae 0.3475
+                        scaled pds +0.124  mse +0.000  fidelity +0.947  reach -0.677  sig_jaccard -0.008  lfc_nmae -0.273  overall 0.019
+[facets] fm_20          raw  pds 0.5305  mse 0.9278  fidelity 0.7410  reach 0.7527  sig_jaccard 0.0081  lfc_nmae 0.3306
+                        scaled pds +0.198  mse +0.014  fidelity +1.143  reach +2.289  sig_jaccard -0.008  lfc_nmae -0.224  overall 0.569
+[facets] fm_50          raw  pds 0.5303  mse 0.9305  fidelity 0.7391  reach 0.7632  sig_jaccard 0.0081  lfc_nmae 0.3340
+                        scaled pds +0.196  mse +0.014  fidelity +1.129  reach +1.813  sig_jaccard -0.008  lfc_nmae -0.289  overall 0.476
+[facets] guidance_w2    raw  pds 0.5565  mse 0.9558  fidelity 0.7311  reach 0.7808  sig_jaccard 0.0081  lfc_nmae 0.2761
+                        scaled pds +0.354  mse +0.033  fidelity +1.075  reach +2.620  sig_jaccard -0.008  lfc_nmae +0.128  overall 0.700
+[facets] attn_cross     raw  pds 0.5379  mse 0.8445  fidelity 0.7457  reach 0.7652  sig_jaccard 0.0081  lfc_nmae 0.3242
+                        scaled pds +0.241  mse +0.100  fidelity +1.170  reach +1.971  sig_jaccard -0.008  lfc_nmae -0.241  overall 0.539
+[facets] mlp_ctrl       raw  pds 0.5296  mse 0.9122  fidelity 0.7422  reach 0.7608  sig_jaccard 0.0081  lfc_nmae 0.3361
+                        scaled pds +0.193  mse +0.026  fidelity +1.148  reach +1.782  sig_jaccard -0.008  lfc_nmae -0.195  overall 0.491
+[facets] s9_pathway     raw  pds 0.5371  mse 0.9048  fidelity 0.7417  reach 0.7181  sig_jaccard 0.0080  lfc_nmae 0.3055
+                        scaled pds +0.225  mse +0.071  fidelity +1.140  reach +2.010  sig_jaccard -0.008  lfc_nmae -0.161  overall 0.546
+[facets] s9_both        raw  pds 0.5359  mse 0.9057  fidelity 0.7420  reach 0.7561  sig_jaccard 0.0081  lfc_nmae 0.3205
+                        scaled pds +0.232  mse +0.023  fidelity +1.150  reach +2.157  sig_jaccard -0.008  lfc_nmae -0.187  overall 0.561
+[facets] s10_chemvae    raw  pds 0.4938  mse 1.1189  fidelity 0.7259  reach 0.5952  sig_jaccard 0.0080  lfc_nmae 0.4269
+                        scaled pds -0.048  mse +0.000  fidelity +1.024  reach +3.355  sig_jaccard -0.008  lfc_nmae -0.726  overall 0.599
+[facets] s10_fp_chemvae raw  pds 0.5152  mse 1.0189  fidelity 0.7342  reach 0.6691  sig_jaccard 0.0081  lfc_nmae 0.3680
+                        scaled pds +0.093  mse +0.000  fidelity +1.086  reach +2.832  sig_jaccard -0.008  lfc_nmae -0.365  overall 0.606
+[facets] base           raw  pds 0.5019  mse 1.3997  fidelity nan  reach nan  sig_jaccard nan  lfc_nmae nan
+                        scaled pds +0.022  mse +0.000  fidelity +nan  reach +nan  sig_jaccard +nan  lfc_nmae +nan  overall nan
+
+PRIMARY     DE-overlap, ridge-S7 minus unguided 50 NFE   -0.05564  97.5% CI [-0.07220, -0.03546] -> below zero
+CO-PRIMARY  energy,     ridge-S7 minus unguided 50 NFE   +0.05125  97.5% CI [+0.00611, +0.10616] -> above zero
+secondary   DE-overlap ridge_train   minus unguided 50 NFE   -0.04562  [-0.06448, -0.02327] -> below zero
+secondary   energy     ridge_train   minus unguided 50 NFE   -0.01656  [-0.08163, +0.03765] -> includes zero
+secondary   DE-overlap mean_response minus unguided 50 NFE   -0.06596  [-0.08584, -0.04186] -> below zero
+secondary   energy     mean_response minus unguided 50 NFE   +0.02870  [+0.01026, +0.05155] -> above zero
+secondary   DE-overlap control_paste minus unguided 50 NFE   undefined (metric not defined for this submission)
+secondary   energy     control_paste minus unguided 50 NFE   +0.02054  [-0.01423, +0.06749] -> includes zero
+secondary   DE-overlap ridge-S7 minus guidance w = 2           -0.06284  [-0.07951, -0.04239] -> below zero
+secondary   energy     ridge-S7 minus guidance w = 2           +0.04621  [-0.01124, +0.11702] -> includes zero
+facet       pds          ridge-S7 minus unguided 50 NFE          +0.02414  [-0.02475, +0.07230] -> includes zero
+facet       fidelity     ridge-S7 minus unguided 50 NFE          -0.15198  [-0.17369, -0.12630] -> below zero
+facet       reach        ridge-S7 minus unguided 50 NFE          undefined (metric not defined for this submission)
+facet       sig_jaccard  ridge-S7 minus unguided 50 NFE          +0.00796  [+0.00167, +0.01689] -> above zero
+facet       lfc_nmae     ridge-S7 minus unguided 50 NFE          undefined (metric not defined for this submission)
+
+########################################################################
+# drug_split_0
+########################################################################
+[design] 444 conditions | 37 drugs | lines ['A549', 'K562', 'MCF7'] | stored cells per condition 15-200, distinct 15-199 | DE gate >= 20 distinct cells: 442 pass | harness draw recovered in 444 conditions (444 exact, 0 within 1e-5), seeded draw for 0 | conditions with duplicate stored cells 280
+[ridge-S7] reproduced from vectors_s6b_drug_split_0_fm_gaussian_seed_0.npz: marginal median DPC-50 0.247295 (Step 7 record 0.247295); max |true - C| difference between that file and the 50 NFE file 5.22e-08
+[ridge-train] fitted on 1344 training conditions (112 compounds), predicting 444 held-out conditions
+[baseline] ridge_S7       DE-overlap 0.5684  energy 0.0322  DPC-50 mean 0.2023  median 0.2473  (entries clipped at 0: 35.2013%)
+[baseline] ridge_train    DE-overlap 0.5369  energy 0.0591  DPC-50 mean 0.1234  median 0.1058  (entries clipped at 0: 39.6962%)
+[baseline] control_paste  DE-overlap nan  energy 0.0304  DPC-50 mean nan  median nan  (entries clipped at 0: 0.0000%)
+[baseline] mean_response  DE-overlap 0.5538  energy 0.0288  DPC-50 mean 0.2504  median 0.3042  (entries clipped at 0: 14.6525%)
+[arm] adaln_ddim_1000 DE-overlap 0.5585  energy 0.0563  DPC-50 mean 0.0602  median 0.0921
+[arm] fm_20          DE-overlap 0.5906  energy 0.0531  DPC-50 mean 0.0670  median 0.0888
+[arm] fm_50          DE-overlap 0.6124  energy 0.0483  DPC-50 mean 0.0698  median 0.1004
+[arm] guidance_w2    DE-overlap 0.6275  energy 0.0697  DPC-50 mean 0.0793  median 0.0935
+[arm] attn_cross     DE-overlap 0.6110  energy 0.0406  DPC-50 mean 0.0790  median 0.0886
+[arm] mlp_ctrl       DE-overlap 0.6123  energy 0.0465  DPC-50 mean 0.0675  median 0.0801
+[replicate] per line: {"A549": {"pds": 0.6029, "mse": 0.6969, "fidelity": 0.7643, "reach": 0.9786, "sig_jaccard": 0.9839, "lfc_nmae": NaN}, "K562": {"pds": 0.633, "mse": 0.6771, "fidelity": 0.6098, "reach": 0.9607, "sig_jaccard": 0.9325, "lfc_nmae": NaN}, "MCF7": {"pds": 0.583, "mse": 0.4333, "fidelity": 0.4914, "reach": 0.86, "sig_jaccard": 0.948, "lfc_nmae": 0.4717}}
+[facets] ridge_S7       raw  pds 0.5373  mse 1.0392  fidelity 0.5811  reach 0.8317  sig_jaccard 0.0026  lfc_nmae 0.5467
+                        scaled pds +0.339  mse +0.000  fidelity -0.017  reach -0.838  sig_jaccard +0.000  lfc_nmae +8.566  overall 1.342
+[facets] ridge_train    raw  pds 0.5365  mse 1.9269  fidelity 0.5516  reach 0.7483  sig_jaccard 0.0020  lfc_nmae 0.3820
+                        scaled pds +0.363  mse +0.000  fidelity -0.273  reach -3.079  sig_jaccard -0.001  lfc_nmae -6.000  overall -1.498
+[facets] control_paste  raw  pds 0.5000  mse 1.0000  fidelity 0.0000  reach 0.4440  sig_jaccard 0.9185  lfc_nmae 1.0000
+                        scaled pds +0.000  mse +0.000  fidelity -2.794  reach -7.688  sig_jaccard +0.962  lfc_nmae +25.899  overall 2.730
+[facets] mean_response  raw  pds 0.5000  mse 0.9449  fidelity 0.5807  reach 0.9236  sig_jaccard 0.0026  lfc_nmae 0.5081
+                        scaled pds +0.000  mse +0.000  fidelity +0.000  reach +0.000  sig_jaccard +0.000  lfc_nmae +0.000  overall 0.000
+[facets] adaln_ddim_1000 raw  pds 0.5201  mse 2.1034  fidelity 0.7104  reach 0.6325  sig_jaccard 0.0014  lfc_nmae 0.3862
+                        scaled pds +0.210  mse +0.000  fidelity +0.708  reach -5.006  sig_jaccard -0.001  lfc_nmae -5.988  overall -1.680
+[facets] fm_20          raw  pds 0.5292  mse 1.6097  fidelity 0.7376  reach 0.5958  sig_jaccard 0.0015  lfc_nmae 0.3962
+                        scaled pds +0.277  mse +0.000  fidelity +0.956  reach -3.885  sig_jaccard -0.001  lfc_nmae -4.951  overall -1.267
+[facets] fm_50          raw  pds 0.5300  mse 1.6078  fidelity 0.7380  reach 0.6283  sig_jaccard 0.0014  lfc_nmae 0.4018
+                        scaled pds +0.287  mse +0.000  fidelity +0.943  reach -4.092  sig_jaccard -0.001  lfc_nmae -4.664  overall -1.254
+[facets] guidance_w2    raw  pds 0.5430  mse 2.1413  fidelity 0.7329  reach 0.5825  sig_jaccard 0.0014  lfc_nmae 0.4134
+                        scaled pds +0.400  mse +0.000  fidelity +0.934  reach -3.071  sig_jaccard -0.001  lfc_nmae -3.623  overall -0.894
+[facets] attn_cross     raw  pds 0.5309  mse 1.4359  fidelity 0.7451  reach 0.6392  sig_jaccard 0.0015  lfc_nmae 0.4155
+                        scaled pds +0.295  mse +0.000  fidelity +0.946  reach -4.165  sig_jaccard -0.001  lfc_nmae -3.847  overall -1.129
+[facets] mlp_ctrl       raw  pds 0.5248  mse 1.5711  fidelity 0.7395  reach 0.6282  sig_jaccard 0.0014  lfc_nmae 0.4169
+                        scaled pds +0.233  mse +0.000  fidelity +0.934  reach -3.355  sig_jaccard -0.001  lfc_nmae -3.727  overall -0.986
+[facets] base           raw  pds 0.5059  mse 4.2804  fidelity nan  reach nan  sig_jaccard nan  lfc_nmae nan
+                        scaled pds +0.083  mse +0.000  fidelity +nan  reach +nan  sig_jaccard +nan  lfc_nmae +nan  overall nan
+
+PRIMARY     DE-overlap, ridge-S7 minus unguided 50 NFE   -0.04395  97.5% CI [-0.05357, -0.03400] -> below zero
+CO-PRIMARY  energy,     ridge-S7 minus unguided 50 NFE   -0.01611  97.5% CI [-0.02602, -0.00868] -> below zero
+secondary   DE-overlap ridge_train   minus unguided 50 NFE   -0.07547  [-0.08562, -0.06554] -> below zero
+secondary   energy     ridge_train   minus unguided 50 NFE   +0.01086  [-0.00317, +0.02818] -> includes zero
+secondary   DE-overlap mean_response minus unguided 50 NFE   -0.05856  [-0.06524, -0.05177] -> below zero
+secondary   energy     mean_response minus unguided 50 NFE   -0.01949  [-0.02946, -0.01170] -> below zero
+secondary   DE-overlap control_paste minus unguided 50 NFE   undefined (metric not defined for this submission)
+secondary   energy     control_paste minus unguided 50 NFE   -0.01789  [-0.02840, -0.00931] -> below zero
+secondary   DE-overlap ridge-S7 minus guidance w = 2           -0.05910  [-0.06994, -0.04791] -> below zero
+secondary   energy     ridge-S7 minus guidance w = 2           -0.03759  [-0.06142, -0.02019] -> below zero
+facet       pds          ridge-S7 minus unguided 50 NFE          +0.00732  [-0.04626, +0.06079] -> includes zero
+facet       fidelity     ridge-S7 minus unguided 50 NFE          -0.15687  [-0.16995, -0.14380] -> below zero
+facet       reach        ridge-S7 minus unguided 50 NFE          undefined (metric not defined for this submission)
+facet       sig_jaccard  ridge-S7 minus unguided 50 NFE          +0.00113  [+0.00030, +0.00229] -> above zero
+facet       lfc_nmae     ridge-S7 minus unguided 50 NFE          undefined (metric not defined for this submission)
+
+########################################################################
+# drug_split_2
+########################################################################
+[design] 455 conditions | 38 drugs | lines ['A549', 'K562', 'MCF7'] | stored cells per condition 10-200, distinct 10-200 | DE gate >= 20 distinct cells: 452 pass | harness draw recovered in 455 conditions (455 exact, 0 within 1e-5), seeded draw for 0 | conditions with duplicate stored cells 279
+[ridge-S7] reproduced from vectors_s6b_drug_split_2_fm_gaussian_seed_0.npz: marginal median DPC-50 0.081582 (Step 7 record 0.081582); max |true - C| difference between that file and the 50 NFE file 1.08e-07
+[ridge-train] fitted on 1332 training conditions (111 compounds), predicting 455 held-out conditions
+[baseline] ridge_S7       DE-overlap 0.5535  energy 0.1612  DPC-50 mean 0.0982  median 0.0816  (entries clipped at 0: 31.7294%)
+[baseline] ridge_train    DE-overlap 0.5473  energy 0.1420  DPC-50 mean 0.1211  median 0.0950  (entries clipped at 0: 42.0180%)
+[baseline] control_paste  DE-overlap nan  energy 0.1388  DPC-50 mean nan  median nan  (entries clipped at 0: 0.0000%)
+[baseline] mean_response  DE-overlap 0.5325  energy 0.1428  DPC-50 mean 0.1310  median 0.0858  (entries clipped at 0: 12.8489%)
+[arm] adaln_ddim_1000 DE-overlap 0.5579  energy 0.1370  DPC-50 mean 0.0708  median 0.0743
+[arm] fm_20          DE-overlap 0.5859  energy 0.1235  DPC-50 mean 0.0661  median 0.0626
+[arm] fm_50          DE-overlap 0.6106  energy 0.1178  DPC-50 mean 0.0691  median 0.0538
+[arm] guidance_w2    DE-overlap 0.6222  energy 0.1238  DPC-50 mean 0.0781  median 0.0647
+[arm] attn_cross     DE-overlap 0.6116  energy 0.1071  DPC-50 mean 0.0856  median 0.0979
+[arm] mlp_ctrl       DE-overlap 0.6135  energy 0.1127  DPC-50 mean 0.0848  median 0.0967
+[replicate] per line: {"A549": {"pds": 0.665, "mse": 0.2612, "fidelity": 0.7434, "reach": 1.0, "sig_jaccard": 0.9539, "lfc_nmae": 0.2468}, "K562": {"pds": 0.6552, "mse": 0.5462, "fidelity": 0.5737, "reach": 0.9495, "sig_jaccard": 0.8679, "lfc_nmae": NaN}, "MCF7": {"pds": 0.6358, "mse": 0.0711, "fidelity": 0.7514, "reach": 0.97, "sig_jaccard": 0.9132, "lfc_nmae": 0.474}}
+[facets] ridge_S7       raw  pds 0.5010  mse 0.8902  fidelity 0.5807  reach 0.7557  sig_jaccard 0.0108  lfc_nmae 0.3629
+                        scaled pds +0.003  mse +0.086  fidelity -0.524  reach +8.887  sig_jaccard +0.001  lfc_nmae -3.509  overall 0.824
+[facets] ridge_train    raw  pds 0.5520  mse 0.7873  fidelity 0.5724  reach 0.7147  sig_jaccard 0.0085  lfc_nmae 0.3387
+                        scaled pds +0.344  mse +0.207  fidelity -0.554  reach +15.491  sig_jaccard -0.002  lfc_nmae -3.695  overall 1.965
+[facets] control_paste  raw  pds 0.5000  mse 1.0000  fidelity 0.0000  reach 0.4213  sig_jaccard 0.8076  lfc_nmae 1.0000
+                        scaled pds +0.000  mse +0.000  fidelity -13.145  reach +17.887  sig_jaccard +0.885  lfc_nmae +29.681  overall 5.885
+[facets] mean_response  raw  pds 0.5000  mse 0.9407  fidelity 0.5863  reach 0.9023  sig_jaccard 0.0103  lfc_nmae 0.4348
+                        scaled pds +0.000  mse +0.000  fidelity +0.000  reach +0.000  sig_jaccard +0.000  lfc_nmae +0.000  overall 0.000
+[facets] adaln_ddim_1000 raw  pds 0.5158  mse 1.0515  fidelity 0.7134  reach 0.6363  sig_jaccard 0.0054  lfc_nmae 0.4260
+                        scaled pds +0.105  mse +0.033  fidelity +2.817  reach +18.841  sig_jaccard -0.005  lfc_nmae -1.383  overall 3.401
+[facets] fm_20          raw  pds 0.5152  mse 0.9021  fidelity 0.7360  reach 0.6461  sig_jaccard 0.0054  lfc_nmae 0.3948
+                        scaled pds +0.100  mse +0.120  fidelity +3.382  reach +16.672  sig_jaccard -0.005  lfc_nmae -2.180  overall 3.015
+[facets] fm_50          raw  pds 0.5158  mse 0.9059  fidelity 0.7366  reach 0.6637  sig_jaccard 0.0054  lfc_nmae 0.3951
+                        scaled pds +0.104  mse +0.119  fidelity +3.395  reach +16.592  sig_jaccard -0.005  lfc_nmae -2.130  overall 3.013
+[facets] guidance_w2    raw  pds 0.5325  mse 0.9304  fidelity 0.7314  reach 0.6459  sig_jaccard 0.0054  lfc_nmae 0.3503
+                        scaled pds +0.213  mse +0.170  fidelity +3.356  reach +17.336  sig_jaccard -0.005  lfc_nmae -3.501  overall 2.928
+[facets] attn_cross     raw  pds 0.5246  mse 0.8357  fidelity 0.7415  reach 0.6808  sig_jaccard 0.0054  lfc_nmae 0.3854
+                        scaled pds +0.159  mse +0.199  fidelity +3.458  reach +16.340  sig_jaccard -0.005  lfc_nmae -2.498  overall 2.942
+[facets] mlp_ctrl       raw  pds 0.5206  mse 0.8627  fidelity 0.7393  reach 0.6595  sig_jaccard 0.0054  lfc_nmae 0.3761
+                        scaled pds +0.135  mse +0.167  fidelity +3.425  reach +17.352  sig_jaccard -0.005  lfc_nmae -3.009  overall 3.011
+[facets] base           raw  pds 0.5074  mse 1.5242  fidelity nan  reach nan  sig_jaccard nan  lfc_nmae nan
+                        scaled pds +0.049  mse +0.039  fidelity +nan  reach +nan  sig_jaccard +nan  lfc_nmae +nan  overall nan
+
+PRIMARY     DE-overlap, ridge-S7 minus unguided 50 NFE   -0.05702  97.5% CI [-0.07015, -0.04432] -> below zero
+CO-PRIMARY  energy,     ridge-S7 minus unguided 50 NFE   +0.04342  97.5% CI [+0.00414, +0.09080] -> above zero
+secondary   DE-overlap ridge_train   minus unguided 50 NFE   -0.06328  [-0.07668, -0.04924] -> below zero
+secondary   energy     ridge_train   minus unguided 50 NFE   +0.02416  [-0.02028, +0.07227] -> includes zero
+secondary   DE-overlap mean_response minus unguided 50 NFE   -0.07808  [-0.08916, -0.06612] -> below zero
+secondary   energy     mean_response minus unguided 50 NFE   +0.02502  [-0.01574, +0.09296] -> includes zero
+secondary   DE-overlap control_paste minus unguided 50 NFE   undefined (metric not defined for this submission)
+secondary   energy     control_paste minus unguided 50 NFE   +0.02100  [-0.02510, +0.09861] -> includes zero
+secondary   DE-overlap ridge-S7 minus guidance w = 2           -0.06861  [-0.08051, -0.05587] -> below zero
+secondary   energy     ridge-S7 minus guidance w = 2           +0.03747  [-0.04098, +0.14440] -> includes zero
+facet       pds          ridge-S7 minus unguided 50 NFE          -0.01484  [-0.06669, +0.04020] -> includes zero
+facet       fidelity     ridge-S7 minus unguided 50 NFE          -0.15586  [-0.17857, -0.13308] -> below zero
+facet       reach        ridge-S7 minus unguided 50 NFE          undefined (metric not defined for this submission)
+facet       sig_jaccard  ridge-S7 minus unguided 50 NFE          +0.00534  [+0.00130, +0.01125] -> above zero
+facet       lfc_nmae     ridge-S7 minus unguided 50 NFE          undefined (metric not defined for this submission)
+
+========================================================================
+PRE-REGISTERED VERDICT: PARTIAL
+  primary (DE-overlap) per split: {'drug_split_1': 'below zero', 'drug_split_0': 'below zero', 'drug_split_2': 'below zero'}
+  co-primary (energy) per split: {'drug_split_1': 'above zero', 'drug_split_0': 'below zero', 'drug_split_2': 'above zero'}
+  Section 7 expected TRADE: ridge shift above on DE-overlap (splits 0 and 1), worse on energy on all three.
+========================================================================
+
+wrote leakage_results/step14_analysis.json and leakage_results/step14_long.csv  (1147 s)

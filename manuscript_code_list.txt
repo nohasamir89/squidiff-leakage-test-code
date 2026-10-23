@@ -207,3 +207,11 @@ tahoe_results/step15d_utility.json
 tahoe_results/step20_long_development.csv
 tahoe_results/step21_long.csv
 tahoe_results/external/prism_figshare_9393293_files.json
+ridge_vs_mlp_v2.py
+diag_reference_empty_fraction.py
+run_ridge_vs_mlp_v2.sh
+leakage_results/ridge_vs_mlp_v2.json
+leakage_results/reference_empty_fraction.json
+leakage_results/step14_long_v2.csv
+leakage_results/step14_analysis.log
+tahoe_results/step15_score_logs/s15score_final.log

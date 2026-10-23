@@ -1,0 +1,27 @@
+{
+  "what": "fraction of gated conditions whose DE reference set (measured treated vs paired vehicle, Wilcoxon, BH 5 % within condition, 200 genes) is empty; equals the raw significant-set Jaccard of the control-paste submission, read from the Step 14 facets-v2 record",
+  "source_csv": "leakage_results/step14_long_v2.csv",
+  "facet": "sig_jaccard",
+  "submission": "control_paste",
+  "per_split": {
+    "drug_split_1": {
+      "A549": 0.8175675675675675,
+      "K562": 0.7931034482758621,
+      "MCF7": 0.773972602739726
+    },
+    "drug_split_0": {
+      "A549": 0.9387755102040817,
+      "K562": 0.891156462585034,
+      "MCF7": 0.9256756756756757
+    },
+    "drug_split_2": {
+      "A549": 0.86,
+      "K562": 0.7880794701986755,
+      "MCF7": 0.7748344370860927
+    }
+  },
+  "min": 0.773972602739726,
+  "max": 0.9387755102040817,
+  "commit": "6ec3d3682744919486f50c9b4c0292db21696f19",
+  "written": "2026-10-22T00:02:02.827395+00:00"
+}

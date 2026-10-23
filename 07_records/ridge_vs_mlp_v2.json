@@ -1,0 +1,354 @@
+{
+  "analysis": "EXPLORATORY, not pre-registered; re-creation of leakage_results/ridge_vs_mlp.json (commit 82c19c3), whose script was never committed; this record supersedes it",
+  "settings": {
+    "features": "[FP(1024, dose-scaled), line one-hot, FP x line] = 4,099",
+    "folds": "GroupKFold(5) by SMILES",
+    "ridge": "sklearn Ridge(alpha=1.0), intercept, unscaled",
+    "mlp": "one hidden layer, ReLU, AdamW, MSE, standardised inputs, minibatch 32, lr 0.001",
+    "widths": [
+      64,
+      256,
+      1024
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "sweep": {
+      "split": "drug_split_1",
+      "width": 1024,
+      "seed": 0,
+      "weight_decay": [
+        0.01,
+        0.1,
+        1.0,
+        10.0
+      ],
+      "epochs": [
+        25,
+        100,
+        400
+      ]
+    },
+    "score": "DPC-50: Pearson on argsort(|Y|)[-50:] per condition; median (and mean) over conditions",
+    "mock": false
+  },
+  "sweep": {
+    "wd0.01_ep25": {
+      "median": 0.07060082235810405,
+      "mean": 0.08649920581815827
+    },
+    "wd0.01_ep100": {
+      "median": 0.077521145680476,
+      "mean": 0.09144630540873155
+    },
+    "wd0.01_ep400": {
+      "median": 0.06154766611663682,
+      "mean": 0.08180817077506272
+    },
+    "wd0.1_ep25": {
+      "median": 0.07973884475252786,
+      "mean": 0.08773636793820457
+    },
+    "wd0.1_ep100": {
+      "median": 0.09360870980497257,
+      "mean": 0.09443046524130155
+    },
+    "wd0.1_ep400": {
+      "median": 0.07348121128129705,
+      "mean": 0.0928228586563355
+    },
+    "wd1_ep25": {
+      "median": 0.09027820577760728,
+      "mean": 0.10408492027452639
+    },
+    "wd1_ep100": {
+      "median": 0.12609946957900794,
+      "mean": 0.13488988405963528
+    },
+    "wd1_ep400": {
+      "median": 0.10195366259460552,
+      "mean": 0.12517745404582792
+    },
+    "wd10_ep25": {
+      "median": 0.1769682881660865,
+      "mean": 0.19001747383784276
+    },
+    "wd10_ep100": {
+      "median": 0.16072420300512893,
+      "mean": 0.18232338730205527
+    },
+    "wd10_ep400": {
+      "median": 0.18530115440946196,
+      "mean": 0.19992050574010878
+    }
+  },
+  "per_split": {
+    "drug_split_1": {
+      "n": 443,
+      "n_drugs": 37,
+      "ridge": {
+        "median": 0.18835633796710116,
+        "mean": 0.18912991999722759
+      },
+      "mlp": {
+        "64": {
+          "seeds": [
+            {
+              "seed": 0,
+              "median": 0.1917645373682339,
+              "mean": 0.197145984854117
+            },
+            {
+              "seed": 1,
+              "median": 0.19800576775221745,
+              "mean": 0.2023285078990909
+            },
+            {
+              "seed": 2,
+              "median": 0.18896276357021524,
+              "mean": 0.19260830097309437
+            }
+          ],
+          "median_mean_over_seeds": 0.19291102289688888
+        },
+        "256": {
+          "seeds": [
+            {
+              "seed": 0,
+              "median": 0.16683794388825268,
+              "mean": 0.1816464377737784
+            },
+            {
+              "seed": 1,
+              "median": 0.18069722179517095,
+              "mean": 0.19042302712594314
+            },
+            {
+              "seed": 2,
+              "median": 0.14817079414565013,
+              "mean": 0.18248742178573768
+            }
+          ],
+          "median_mean_over_seeds": 0.16523531994302457
+        },
+        "1024": {
+          "seeds": [
+            {
+              "seed": 0,
+              "median": 0.18530115440946196,
+              "mean": 0.19992050574010878
+            },
+            {
+              "seed": 1,
+              "median": 0.2033430075196127,
+              "mean": 0.19794828492923638
+            },
+            {
+              "seed": 2,
+              "median": 0.18337726037305646,
+              "mean": 0.20124013433240098
+            }
+          ],
+          "median_mean_over_seeds": 0.19067380743404372
+        }
+      },
+      "mlp_best": 0.19291102289688888,
+      "ratio_ridge_over_mlp": 0.9763897113737134
+    },
+    "drug_split_0": {
+      "n": 444,
+      "n_drugs": 37,
+      "ridge": {
+        "median": 0.24732322054649925,
+        "mean": 0.20232916804435835
+      },
+      "mlp": {
+        "64": {
+          "seeds": [
+            {
+              "seed": 0,
+              "median": 0.19272575199337172,
+              "mean": 0.17369778993148505
+            },
+            {
+              "seed": 1,
+              "median": 0.23140258231042904,
+              "mean": 0.19408602747983228
+            },
+            {
+              "seed": 2,
+              "median": 0.2094539084099669,
+              "mean": 0.17872935162674572
+            }
+          ],
+          "median_mean_over_seeds": 0.21119408090458922
+        },
+        "256": {
+          "seeds": [
+            {
+              "seed": 0,
+              "median": 0.15616878969015102,
+              "mean": 0.1566596529673498
+            },
+            {
+              "seed": 1,
+              "median": 0.18948333976041154,
+              "mean": 0.1696666400081968
+            },
+            {
+              "seed": 2,
+              "median": 0.17725535305987905,
+              "mean": 0.16827655544337844
+            }
+          ],
+          "median_mean_over_seeds": 0.1743024941701472
+        },
+        "1024": {
+          "seeds": [
+            {
+              "seed": 0,
+              "median": 0.1547135646665696,
+              "mean": 0.1534060327654529
+            },
+            {
+              "seed": 1,
+              "median": 0.16027023091540332,
+              "mean": 0.15601565781239557
+            },
+            {
+              "seed": 2,
+              "median": 0.155382403519151,
+              "mean": 0.15437238817546095
+            }
+          ],
+          "median_mean_over_seeds": 0.15678873303370797
+        }
+      },
+      "mlp_best": 0.21119408090458922,
+      "ratio_ridge_over_mlp": 1.1710707965259313
+    },
+    "drug_split_2": {
+      "n": 455,
+      "n_drugs": 38,
+      "ridge": {
+        "median": 0.08158444016805105,
+        "mean": 0.09822806412006879
+      },
+      "mlp": {
+        "64": {
+          "seeds": [
+            {
+              "seed": 0,
+              "median": 0.10248298341856457,
+              "mean": 0.1272211369954233
+            },
+            {
+              "seed": 1,
+              "median": 0.11485553966926824,
+              "mean": 0.1234418286069891
+            },
+            {
+              "seed": 2,
+              "median": 0.10715793931898115,
+              "mean": 0.1189677506770177
+            }
+          ],
+          "median_mean_over_seeds": 0.10816548746893799
+        },
+        "256": {
+          "seeds": [
+            {
+              "seed": 0,
+              "median": 0.05589965263919286,
+              "mean": 0.09905627146881127
+            },
+            {
+              "seed": 1,
+              "median": 0.06215032179570199,
+              "mean": 0.09784074671713447
+            },
+            {
+              "seed": 2,
+              "median": 0.0920170612087135,
+              "mean": 0.11963937463392131
+            }
+          ],
+          "median_mean_over_seeds": 0.07002234521453611
+        },
+        "1024": {
+          "seeds": [
+            {
+              "seed": 0,
+              "median": 0.11621932650089326,
+              "mean": 0.11570028363292427
+            },
+            {
+              "seed": 1,
+              "median": 0.10084913563607194,
+              "mean": 0.1125083164313004
+            },
+            {
+              "seed": 2,
+              "median": 0.11417253496010163,
+              "mean": 0.12109970966258324
+            }
+          ],
+          "median_mean_over_seeds": 0.11041366569902226
+        }
+      },
+      "mlp_best": 0.11041366569902226,
+      "ratio_ridge_over_mlp": 0.7388980308872537
+    }
+  },
+  "inputs": {
+    "drug_split_1": {
+      "vectors": "leakage_results/vectors_step6_fm_gaussian_seed_0.npz",
+      "vectors_sha256": "128b32e16a9ab7d8527e88c742fafde3564e09f4ca0be3d6b3686fddd8567563",
+      "test_h5ad": "/scratch/ni2071/Diffusion/sciplex/datasets_corrected/sci_plex_test_drug_split_1.h5ad",
+      "n_conditions": 443,
+      "n_drugs": 37,
+      "n_features": 4099,
+      "lines": [
+        "A549",
+        "K562",
+        "MCF7"
+      ]
+    },
+    "drug_split_0": {
+      "vectors": "leakage_results/vectors_s6b_drug_split_0_fm_gaussian_seed_0.npz",
+      "vectors_sha256": "e708bbb1cc98c80b7bb2c58b583d07e85e0fea5620d6bc71158e28c7b0ebb131",
+      "test_h5ad": "/scratch/ni2071/Diffusion/sciplex/datasets_corrected/sci_plex_test_drug_split_0.h5ad",
+      "n_conditions": 444,
+      "n_drugs": 37,
+      "n_features": 4099,
+      "lines": [
+        "A549",
+        "K562",
+        "MCF7"
+      ]
+    },
+    "drug_split_2": {
+      "vectors": "leakage_results/vectors_s6b_drug_split_2_fm_gaussian_seed_0.npz",
+      "vectors_sha256": "feef6ac13296617fd99c4a5468c65b70b0295b7291714f6ca85c7abcf07a0310",
+      "test_h5ad": "/scratch/ni2071/Diffusion/sciplex/datasets_corrected/sci_plex_test_drug_split_2.h5ad",
+      "n_conditions": 455,
+      "n_drugs": 38,
+      "n_features": 4099,
+      "lines": [
+        "A549",
+        "K562",
+        "MCF7"
+      ]
+    }
+  },
+  "commit": "84822ad766dc8bd85bac75bc5fadc76e1c898898",
+  "torch": "2.5.1+cu121",
+  "written": "2026-10-22T00:25:59.751376+00:00",
+  "chosen": {
+    "weight_decay": 10.0,
+    "epochs": 400,
+    "chosen_on": "drug_split_1 (development split)"
+  }
+}
