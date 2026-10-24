@@ -1,0 +1,44 @@
+GPU: NVIDIA A100-SXM4-80GB  Start: Sat Oct 24 03:58:43 +04 2026
+160cad4ba37c19b72ad675d9ae7b95df  /scratch/ni2071/Diffusion/gbm_run/eval_gbm_deltaz_v2.py
+cad1435eb31bfc1ed14cd4d7984439f5  /scratch/ni2071/Diffusion/gbm_run/results/model_0.9999.pt
+[scale] v2: predictions compared on the training (log1p) scale; the second log1p of the original evaluation is removed
+======================================================================
+GBM Delta-z eval (Fig 3f) — CORRECTED decode (batch decode then average)
+Started: 2026-10-24 03:59:36.061254
+======================================================================
+load model and diffusion...
+diffusion num of steps =  1000
+
+Dz norms (myeloid):
+  panobinostat  : ||Dz|| = 0.041
+  RO4929097     : ||Dz|| = 0.029
+  tazemetostat  : ||Dz|| = 0.038
+  ispinesib     : ||Dz|| = 0.027
+  ANA-12        : ||Dz|| = 0.020
+
+Reconstruction sanity (vehicle batch, no Dz):
+
+[decoder debug] decoded batch shape=(300, 2000), per-gene-mean min=12.886 max=80.144
+  tumor           : recon R = 0.433  r2 = -30743.838  (n_enc=300)
+  oligodendrocyte : recon R = 0.514  r2 = -27561.814  (n_enc=300)
+
+Per-(cell_type, drug) R:
+  cell_type       drug                 R      r2  n_test
+  tumor           panobinostat     0.414-26428.695    5272
+  tumor           RO4929097        0.364-37818.727    2278
+  tumor           tazemetostat     0.350-41687.434    1508
+  tumor           ispinesib        0.397-35116.348     920
+  tumor           ANA-12           0.409-36930.660    2011
+  oligodendrocyte panobinostat     0.434-27545.418     688
+  oligodendrocyte RO4929097        0.445-28002.309     240
+  oligodendrocyte tazemetostat     0.446-31500.469     280
+  oligodendrocyte ispinesib        0.465-29335.209     183
+  oligodendrocyte ANA-12           0.469-28165.764     367
+
+======================================================================
+Fig 3f reproduction — mean Pearson R per cell type (over held-out drugs):
+  tumor           : R = 0.387  (paper ~0.91; n_drugs=5)
+  oligodendrocyte : R = 0.452  (paper ~0.91; n_drugs=5)
+======================================================================
+Finished: 2026-10-24 04:01:02.500851
+Finished: Sat Oct 24 04:01:06 +04 2026

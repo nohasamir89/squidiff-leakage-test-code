@@ -1,0 +1,44 @@
+GPU: NVIDIA A100-SXM4-80GB  Start: Sat Oct 24 03:58:43 +04 2026
+f2917bd43e29f88c3faa7b40e2fe9840  /scratch/ni2071/Diffusion/gbm_run_200/eval_gbm_deltaz_200_v2.py
+f7695c845ddc3ea883980c00026f1102  /scratch/ni2071/Diffusion/gbm_run_200/results/model_0.9999.pt
+[scale] v2: predictions compared on the training (log1p) scale; the second log1p of the original evaluation is removed
+======================================================================
+GBM Delta-z eval (Fig 3f) — CORRECTED decode (batch decode then average)
+Started: 2026-10-24 03:59:36.061172
+======================================================================
+load model and diffusion...
+diffusion num of steps =  1000
+
+Dz norms (myeloid):
+  panobinostat  : ||Dz|| = 0.863
+  RO4929097     : ||Dz|| = 0.554
+  tazemetostat  : ||Dz|| = 0.566
+  ispinesib     : ||Dz|| = 0.530
+  ANA-12        : ||Dz|| = 0.632
+
+Reconstruction sanity (vehicle batch, no Dz):
+
+[decoder debug] decoded batch shape=(300, 200), per-gene-mean min=0.006 max=0.836
+  tumor           : recon R = 0.990  r2 = 0.973  (n_enc=300)
+  oligodendrocyte : recon R = 0.996  r2 = 0.987  (n_enc=300)
+
+Per-(cell_type, drug) R:
+  cell_type       drug                 R      r2  n_test
+  tumor           panobinostat     0.831   0.676    5114
+  tumor           RO4929097        0.890   0.766    2274
+  tumor           tazemetostat     0.795   0.626    1617
+  tumor           ispinesib        0.857   0.692     972
+  tumor           ANA-12           0.846   0.692    2148
+  oligodendrocyte panobinostat     0.858   0.704     629
+  oligodendrocyte RO4929097        0.960   0.897     239
+  oligodendrocyte tazemetostat     0.937   0.874     248
+  oligodendrocyte ispinesib        0.940   0.881     165
+  oligodendrocyte ANA-12           0.954   0.898     348
+
+======================================================================
+Fig 3f reproduction — mean Pearson R per cell type (over held-out drugs):
+  tumor           : R = 0.844  (paper ~0.91; n_drugs=5)
+  oligodendrocyte : R = 0.930  (paper ~0.91; n_drugs=5)
+======================================================================
+Finished: 2026-10-24 04:00:58.085668
+Finished: Sat Oct 24 04:00:59 +04 2026

@@ -215,3 +215,13 @@ leakage_results/reference_empty_fraction.json
 leakage_results/step14_long_v2.csv
 leakage_results/step14_analysis.log
 tahoe_results/step15_score_logs/s15score_final.log
+/scratch/ni2071/Diffusion/gbm_squidiff_robustness_test/eval_gbm_sensitivity_v2.py
+/scratch/ni2071/Diffusion/gbm_squidiff_robustness_test/run_gbm_seeded_reeval_v2.sh
+/scratch/ni2071/Diffusion/gbm_squidiff_robustness_test/gene_sensitivity_SEEDED_v2.csv
+/scratch/ni2071/Diffusion/gbm_run/eval_gbm_deltaz_v2.py
+/scratch/ni2071/Diffusion/gbm_run/run_eval_gbm_v2.sh
+/scratch/ni2071/Diffusion/gbm_run/logs/eval_v2_18927697.out
+/scratch/ni2071/Diffusion/gbm_run_200/eval_gbm_deltaz_200_v2.py
+/scratch/ni2071/Diffusion/gbm_run_200/run_eval_200_v2.sh
+/scratch/ni2071/Diffusion/gbm_run_200/logs/eval_200_v2_18927698.out
+patch_gbm_eval_scale.py
