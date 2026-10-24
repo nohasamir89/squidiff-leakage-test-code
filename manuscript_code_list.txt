@@ -225,3 +225,4 @@ tahoe_results/step15_score_logs/s15score_final.log
 /scratch/ni2071/Diffusion/gbm_run_200/run_eval_200_v2.sh
 /scratch/ni2071/Diffusion/gbm_run_200/logs/eval_200_v2_18927698.out
 patch_gbm_eval_scale.py
+plot_fig1d_v2.R
