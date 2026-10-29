@@ -1,0 +1,308 @@
+structure_id,molecule_chembl_id,target_chembl_id,action_type,mechanism_of_action
+S0187,CHEMBL1201182,CHEMBL1902,INHIBITOR,FK506-binding protein 1A inhibitor
+S0134,CHEMBL1200963,CHEMBL1987,AGONIST,Prostanoid FP receptor agonist
+S0321,CHEMBL1201129,CHEMBL1992,INHIBITOR,DNA (cytosine-5)-methyltransferase 3A inhibitor
+S0321,CHEMBL1201129,CHEMBL1993,INHIBITOR,DNA (cytosine-5)-methyltransferase 1 inhibitor
+S0173,CHEMBL1095097,CHEMBL1994,ANTAGONIST,Mineralocorticoid receptor antagonist
+S0103,CHEMBL1159650,CHEMBL2034,AGONIST,Glucocorticoid receptor agonist
+S0104,CHEMBL1200384,CHEMBL2034,AGONIST,Glucocorticoid receptor agonist
+S0120,CHEMBL1098,CHEMBL2072,BLOCKER,Sodium channel protein type IV alpha subunit blocker
+S0002,CHEMBL1201165,CHEMBL2093866,AGONIST,Estrogen receptor agonist
+S0342,CHEMBL1071,CHEMBL2094253,INHIBITOR,Cyclooxygenase inhibitor
+S0291,CHEMBL104,CHEMBL1780,INHIBITOR,Cytochrome P450 51 inhibitor
+S0251,CHEMBL118,CHEMBL230,INHIBITOR,Cyclooxygenase-2 inhibitor
+S0323,CHEMBL1090,CHEMBL1872,INHIBITOR,Human herpesvirus 1 DNA polymerase inhibitor
+S0043,CHEMBL114,CHEMBL243,INHIBITOR,Human immunodeficiency virus type 1 protease inhibitor
+S0007,CHEMBL1023,CHEMBL2363070,AGONIST,Retinoid X receptor agonist
+S0321,CHEMBL1201129,CHEMBL2311221,INHIBITOR,DNA inhibitor
+S0355,CHEMBL1129,CHEMBL2366042,INHIBITOR,DNA inhibitor
+S0304,CHEMBL108,CHEMBL2331043,BLOCKER,Sodium channel alpha subunit blocker
+S0005,CHEMBL1200559,,,pH lowering agent
+S0168,CHEMBL1088751,CHEMBL260,INHIBITOR,MAP kinase p38 alpha inhibitor
+S0171,CHEMBL1173055,CHEMBL3390820,INHIBITOR,"PARP 1, 2 and 3 inhibitor"
+S0240,CHEMBL111,CHEMBL218,ANTAGONIST,Cannabinoid CB1 receptor antagonist
+S0241,CHEMBL111,CHEMBL218,ANTAGONIST,Cannabinoid CB1 receptor antagonist
+S0254,CHEMBL1324,CHEMBL2023,INHIBITOR,Catechol O-methyltransferase inhibitor
+S0017,CHEMBL1276308,CHEMBL2034,ANTAGONIST,Glucocorticoid receptor antagonist
+S0124,CHEMBL1229517,CHEMBL5145,INHIBITOR,Serine/threonine-protein kinase B-raf inhibitor
+S0017,CHEMBL1276308,CHEMBL208,ANTAGONIST,Progesterone receptor antagonist
+S0056,CHEMBL1282,CHEMBL5936,AGONIST,Toll-like receptor 7 agonist
+S0055,CHEMBL1282,CHEMBL5936,AGONIST,Toll-like receptor 7 agonist
+S0111,CHEMBL1233528,CHEMBL3024,INHIBITOR,Serine/threonine-protein kinase PLK1 inhibitor
+S0270,CHEMBL1287853,CHEMBL1974,INHIBITOR,Tyrosine-protein kinase receptor FLT3 inhibitor
+S0270,CHEMBL1287853,CHEMBL2971,INHIBITOR,Tyrosine-protein kinase JAK2 inhibitor
+S0223,CHEMBL1208155,CHEMBL1855,ANTAGONIST,Gonadotropin-releasing hormone receptor antagonist
+S0155,CHEMBL121,CHEMBL235,AGONIST,Peroxisome proliferator-activated receptor gamma agonist
+S0039,CHEMBL1399,CHEMBL1978,INHIBITOR,Cytochrome P450 19A1 inhibitor
+S0225,CHEMBL1404,CHEMBL1980,BLOCKER,Sodium channel protein type V alpha subunit blocker
+S0114,CHEMBL1370,CHEMBL2034,AGONIST,Glucocorticoid receptor agonist
+S0225,CHEMBL1404,CHEMBL2072,BLOCKER,Sodium channel protein type IV alpha subunit blocker
+S0087,CHEMBL1358,CHEMBL206,ANTAGONIST,Estrogen receptor alpha antagonist
+S0282,CHEMBL134,CHEMBL2095158,AGONIST,Adrenergic receptor alpha-2 agonist
+S0105,CHEMBL1397,CHEMBL1780,INHIBITOR,Cytochrome P450 51 inhibitor
+S0244,CHEMBL1413,CHEMBL2363058,CHELATING AGENT,Iron chelating agent
+S0244,CHEMBL1413,CHEMBL2366381,CHELATING AGENT,Aluminium chelating agent
+S0087,CHEMBL1358,CHEMBL206,DEGRADER,Estrogen receptor degrader
+S0360,CHEMBL1467,CHEMBL1929,INHIBITOR,Xanthine dehydrogenase inhibitor
+S0322,CHEMBL1489,CHEMBL1992,INHIBITOR,DNA (cytosine-5)-methyltransferase 3A inhibitor
+S0322,CHEMBL1489,CHEMBL1993,INHIBITOR,DNA (cytosine-5)-methyltransferase 1 inhibitor
+S0086,CHEMBL1509,CHEMBL1994,ANTAGONIST,Mineralocorticoid receptor antagonist
+S0085,CHEMBL1451,CHEMBL2034,AGONIST,Glucocorticoid receptor agonist
+S0086,CHEMBL1509,CHEMBL208,AGONIST,Progesterone receptor agonist
+S0222,CHEMBL1503,CHEMBL2095173,INHIBITOR,Potassium-transporting ATPase inhibitor
+S0218,CHEMBL154,CHEMBL2094253,INHIBITOR,Cyclooxygenase inhibitor
+S0075,CHEMBL1471,CHEMBL249,ANTAGONIST,Neurokinin 1 receptor antagonist
+S0154,CHEMBL1455,CHEMBL2311221,INHIBITOR,DNA inhibitor
+S0322,CHEMBL1489,CHEMBL2311221,INHIBITOR,DNA inhibitor
+S0322,CHEMBL1489,CHEMBL2311222,INHIBITOR,RNA inhibitor
+S0310,CHEMBL1448,CHEMBL2366043,INHIBITOR,DNA inhibitor
+S0310,CHEMBL1448,CHEMBL2366044,INHIBITOR,DNA inhibitor
+S0277,CHEMBL1449676,,,Produces reactive intermediates
+S0068,CHEMBL1560,CHEMBL1808,INHIBITOR,Angiotensin-converting enzyme inhibitor
+S0102,CHEMBL160,CHEMBL1949,MODULATOR,Cyclophilin A modulator
+S0038,CHEMBL1589,CHEMBL2096972,BLOCKER,"Sulfonylurea receptor 1, Kir6.2 blocker"
+S0185,CHEMBL1617,CHEMBL2364672,INHIBITOR,Bacterial DNA-directed RNA polymerase inhibitor
+S0062,CHEMBL163,CHEMBL243,INHIBITOR,Human immunodeficiency virus type 1 protease inhibitor
+S0136,CHEMBL1657,CHEMBL2363069,AGONIST,Retinoic acid receptor agonist
+S0352,CHEMBL16,CHEMBL2331043,BLOCKER,Sodium channel alpha subunit blocker
+S0292,CHEMBL1615025,CHEMBL3587,INHIBITOR,Dual specificity mitogen-activated protein kinase kinase 1 inhibitor
+S0292,CHEMBL1615025,CHEMBL2964,INHIBITOR,Dual specificity mitogen-activated protein kinase kinase 2 inhibitor
+S0062,CHEMBL163,CHEMBL2364675,INHIBITOR,Cytochrome P450 3A inhibitor
+S0117,CHEMBL175247,CHEMBL1796,INHIBITOR,Gastric lipase inhibitor
+S0117,CHEMBL175247,CHEMBL1812,INHIBITOR,Pancreatic lipase inhibitor
+S0166,CHEMBL1946170,CHEMBL1862,INHIBITOR,Tyrosine-protein kinase ABL inhibitor
+S0188,CHEMBL1908360,CHEMBL1902,INHIBITOR,FK506-binding protein 1A inhibitor
+S0166,CHEMBL1946170,CHEMBL1906,INHIBITOR,Serine/threonine-protein kinase RAF inhibitor
+S0166,CHEMBL1946170,CHEMBL1936,INHIBITOR,Stem cell growth factor receptor inhibitor
+S0358,CHEMBL185,CHEMBL1952,INHIBITOR,Thymidylate synthase inhibitor
+S0166,CHEMBL1946170,CHEMBL3650,INHIBITOR,Fibroblast growth factor receptor 1 inhibitor
+S0166,CHEMBL1946170,CHEMBL3961,INHIBITOR,MAP kinase p38 beta inhibitor
+S0166,CHEMBL1946170,CHEMBL4142,INHIBITOR,Fibroblast growth factor receptor 2 inhibitor
+S0166,CHEMBL1946170,CHEMBL4223,INHIBITOR,Tyrosine-protein kinase FRK inhibitor
+S0166,CHEMBL1946170,CHEMBL5122,INHIBITOR,Discoidin domain-containing receptor 2 inhibitor
+S0166,CHEMBL1946170,CHEMBL5145,INHIBITOR,Serine/threonine-protein kinase B-raf inhibitor
+S0166,CHEMBL1946170,CHEMBL4128,INHIBITOR,Tyrosine-protein kinase TIE-2 inhibitor
+S0166,CHEMBL1946170,CHEMBL2095189,INHIBITOR,Platelet-derived growth factor receptor inhibitor
+S0318,CHEMBL1750,CHEMBL2095215,INHIBITOR,Ribonucleoside-diphosphate reductase RR1 inhibitor
+S0166,CHEMBL1946170,CHEMBL2095227,INHIBITOR,Vascular endothelial growth factor receptor inhibitor
+S0166,CHEMBL1946170,CHEMBL2041,INHIBITOR,Tyrosine-protein kinase receptor RET inhibitor
+S0318,CHEMBL1750,CHEMBL2311221,INHIBITOR,DNA inhibitor
+S0358,CHEMBL185,CHEMBL2311221,INHIBITOR,DNA inhibitor
+S0358,CHEMBL185,CHEMBL2311222,INHIBITOR,RNA inhibitor
+S0318,CHEMBL1750,CHEMBL2363042,INHIBITOR,DNA polymerase (alpha/delta/epsilon) inhibitor
+S0036,CHEMBL189963,CHEMBL2111455,INHIBITOR,CDK6/cyclin D1 inhibitor
+S0036,CHEMBL189963,CHEMBL1907601,INHIBITOR,Cyclin-dependent kinase 4/cyclin D1 inhibitor
+S0211,CHEMBL1801204,CHEMBL2842,INHIBITOR,Serine/threonine-protein kinase mTOR inhibitor
+S0133,CHEMBL1852688,CHEMBL2095217,INHIBITOR,Fibroblast growth factor receptor inhibitor
+S0193,CHEMBL1800159,CHEMBL1855,ANTAGONIST,Gonadotropin-releasing hormone receptor antagonist
+S0137,CHEMBL180022,CHEMBL203,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor
+S0138,CHEMBL180022,CHEMBL203,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor
+S0137,CHEMBL180022,CHEMBL1824,INHIBITOR,Receptor protein-tyrosine kinase erbB-2 inhibitor
+S0138,CHEMBL180022,CHEMBL1824,INHIBITOR,Receptor protein-tyrosine kinase erbB-2 inhibitor
+S0045,CHEMBL17157,CHEMBL231,ANTAGONIST,Histamine H1 receptor antagonist
+S0137,CHEMBL180022,CHEMBL3009,INHIBITOR,Receptor protein-tyrosine kinase erbB-4 inhibitor
+S0138,CHEMBL180022,CHEMBL3009,INHIBITOR,Receptor protein-tyrosine kinase erbB-4 inhibitor
+S0163,CHEMBL1983268,CHEMBL3559684,INHIBITOR,Neurotrophic tyrosine kinase receptor inhibitor
+S0163,CHEMBL1983268,CHEMBL5568,INHIBITOR,Proto-oncogene tyrosine-protein kinase ROS inhibitor
+S0163,CHEMBL1983268,CHEMBL4247,INHIBITOR,ALK tyrosine kinase receptor inhibitor
+S0166,CHEMBL1946170,CHEMBL2068,INHIBITOR,Ephrin type-A receptor 2 inhibitor
+S0166,CHEMBL1946170,CHEMBL2815,INHIBITOR,Nerve growth factor receptor Trk-A inhibitor
+S0023,CHEMBL20,CHEMBL261,INHIBITOR,Carbonic anhydrase I inhibitor
+S0023,CHEMBL20,CHEMBL205,INHIBITOR,Carbonic anhydrase II inhibitor
+S0023,CHEMBL20,CHEMBL3242,INHIBITOR,Carbonic anhydrase XII inhibitor
+S0023,CHEMBL20,CHEMBL3729,INHIBITOR,Carbonic anhydrase IV inhibitor
+S0174,CHEMBL2107333,CHEMBL2069156,INHIBITOR,Kelch-like ECH-associated protein 1 inhibitor
+S0123,CHEMBL2103873,CHEMBL2096678,ANTAGONIST,"Endothelin receptor, ET-A/ET-B antagonist"
+S0160,CHEMBL2043437,CHEMBL5971,ANTAGONIST,Smoothened homolog antagonist
+S0199,CHEMBL2103830,CHEMBL2599,INHIBITOR,Tyrosine-protein kinase SYK inhibitor
+S0022,CHEMBL2103875,CHEMBL2111289,INHIBITOR,Dual specificity mitogen-activated protein kinase kinase; MEK1/2 inhibitor
+S0053,CHEMBL2141296,CHEMBL2364701,INHIBITOR,26S proteasome inhibitor
+S0057,CHEMBL2005186,CHEMBL2973,INHIBITOR,Rho-associated protein kinase 2 inhibitor
+S0058,CHEMBL2005186,CHEMBL2973,INHIBITOR,Rho-associated protein kinase 2 inhibitor
+S0069,CHEMBL24778,CHEMBL229,ANTAGONIST,Alpha-1a adrenergic receptor antagonist
+S0201,CHEMBL24828,CHEMBL267,INHIBITOR,Tyrosine-protein kinase SRC inhibitor
+S0201,CHEMBL24828,CHEMBL4601,INHIBITOR,Tyrosine-protein kinase BRK inhibitor
+S0201,CHEMBL24828,CHEMBL4128,INHIBITOR,Tyrosine-protein kinase TIE-2 inhibitor
+S0035,CHEMBL25,CHEMBL2094253,INHIBITOR,Cyclooxygenase inhibitor
+S0201,CHEMBL24828,CHEMBL2095227,INHIBITOR,Vascular endothelial growth factor receptor inhibitor
+S0201,CHEMBL24828,CHEMBL2041,INHIBITOR,Tyrosine-protein kinase receptor RET inhibitor
+S0201,CHEMBL24828,CHEMBL2363043,INHIBITOR,Ephrin receptor inhibitor
+S0201,CHEMBL24828,CHEMBL2363049,INHIBITOR,Epidermal growth factor receptor inhibitor
+S0273,CHEMBL2396661,CHEMBL4005,INHIBITOR,PI3-kinase p110-alpha subunit inhibitor
+S0041,CHEMBL2364626,CHEMBL260,INHIBITOR,MAP kinase p38 alpha inhibitor
+S0059,CHEMBL2177390,CHEMBL2111353,INHIBITOR,Serine/threonine-protein kinase AKT inhibitor
+S0348,CHEMBL2146883,CHEMBL3587,INHIBITOR,Dual specificity mitogen-activated protein kinase kinase 1 inhibitor
+S0348,CHEMBL2146883,CHEMBL2964,INHIBITOR,Dual specificity mitogen-activated protein kinase kinase 2 inhibitor
+S0084,CHEMBL218650,CHEMBL2111188,INHIBITOR,Mycobacterium tuberculosis H37Rv inhibitor
+S0271,CHEMBL2338329,CHEMBL3831261,INHIBITOR,Hypoxia-inducible factor prolyl hydroxylase inhibitor
+S0274,CHEMBL225071,CHEMBL1952,INHIBITOR,Thymidylate synthase inhibitor
+S0309,CHEMBL2325741,CHEMBL2111353,INHIBITOR,Serine/threonine-protein kinase AKT inhibitor
+S0365,CHEMBL232202,CHEMBL1973,INHIBITOR,Tyrosinase inhibitor
+S0319,CHEMBL225072,CHEMBL202,INHIBITOR,Dihydrofolate reductase inhibitor
+S0319,CHEMBL225072,CHEMBL1952,INHIBITOR,Thymidylate synthase inhibitor
+S0319,CHEMBL225072,CHEMBL3972,INHIBITOR,GAR transformylase inhibitor
+S0032,CHEMBL271227,CHEMBL3522,INHIBITOR,Cytochrome P450 17A1 inhibitor
+S0098,CHEMBL254219,CHEMBL2095186,INHIBITOR,Sodium/potassium-transporting ATPase inhibitor
+S0303,CHEMBL298734,CHEMBL2094108,INHIBITOR,Protein farnesyltransferase inhibitor
+S0344,CHEMBL256997,CHEMBL3987582,MODULATOR,80S Ribosome modulator
+S0093,CHEMBL307261,CHEMBL613897,BINDING AGENT,Ferriprotoporphyrin IX binding agent
+S0050,CHEMBL325041,CHEMBL2364701,INHIBITOR,26S proteasome inhibitor
+S0336,CHEMBL3301607,CHEMBL2835,INHIBITOR,Tyrosine-protein kinase JAK1 inhibitor
+S0132,CHEMBL3301610,CHEMBL331,INHIBITOR,Cyclin-dependent kinase 4 inhibitor
+S0132,CHEMBL3301610,CHEMBL2508,INHIBITOR,Cyclin-dependent kinase 6 inhibitor
+S0167,CHEMBL3188267,CHEMBL3717,INHIBITOR,Hepatocyte growth factor receptor inhibitor
+S0169,CHEMBL3183409,CHEMBL1871,ANTAGONIST,Androgen Receptor antagonist
+S0180,CHEMBL3301612,CHEMBL5145,INHIBITOR,Serine/threonine-protein kinase B-raf inhibitor
+S0297,CHEMBL3187723,CHEMBL3587,INHIBITOR,Dual specificity mitogen-activated protein kinase kinase 1 inhibitor
+S0297,CHEMBL3187723,CHEMBL2964,INHIBITOR,Dual specificity mitogen-activated protein kinase kinase 2 inhibitor
+S0164,CHEMBL3306803,CHEMBL224,ANTAGONIST,Serotonin 2a (5-HT2a) receptor antagonist
+S0164,CHEMBL3306803,CHEMBL217,ANTAGONIST,Dopamine D2 receptor antagonist
+S0164,CHEMBL3306803,CHEMBL228,INHIBITOR,Serotonin transporter inhibitor
+S0083,CHEMBL3137309,CHEMBL4860,INHIBITOR,Apoptosis regulator Bcl-2 inhibitor
+S0121,CHEMBL316561,CHEMBL2095185,ANTAGONIST,Cholecystokinin receptor antagonist
+S0353,CHEMBL319144,CHEMBL1782,INHIBITOR,Farnesyl diphosphate synthase inhibitor
+S0236,CHEMBL3247378,,,Unknown
+S0336,CHEMBL3301607,CHEMBL2971,INHIBITOR,Tyrosine-protein kinase JAK2 inhibitor
+S0336,CHEMBL3301607,CHEMBL3553,INHIBITOR,Tyrosine-protein kinase TYK2 inhibitor
+S0336,CHEMBL3301607,CHEMBL2148,INHIBITOR,Tyrosine-protein kinase JAK3 inhibitor
+S0311,CHEMBL35,CHEMBL1874,INHIBITOR,Sodium-(potassium)-chloride cotransporter 2 inhibitor
+S0156,CHEMBL34259,CHEMBL202,INHIBITOR,Dihydrofolate reductase inhibitor
+S0065,CHEMBL3545097,CHEMBL2842,INHIBITOR,Serine/threonine-protein kinase mTOR inhibitor
+S0350,CHEMBL3544966,CHEMBL3559703,INHIBITOR,PI3-kinase class I inhibitor
+S0262,CHEMBL3545076,CHEMBL4501,INHIBITOR,Ribosomal protein S6 kinase 1 inhibitor
+S0140,CHEMBL3544932,CHEMBL2185,INHIBITOR,Serine/threonine-protein kinase Aurora-B inhibitor
+S0299,CHEMBL3545213,CHEMBL2096667,INHIBITOR,"c-Jun N-terminal kinase, JNK inhibitor"
+S0010,CHEMBL3353410,CHEMBL203,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor
+S0230,CHEMBL3545413,CHEMBL1862,INHIBITOR,Tyrosine-protein kinase ABL inhibitor
+S0149,CHEMBL3545110,CHEMBL331,INHIBITOR,Cyclin-dependent kinase 4 inhibitor
+S0149,CHEMBL3545110,CHEMBL2508,INHIBITOR,Cyclin-dependent kinase 6 inhibitor
+S0209,CHEMBL3545235,CHEMBL203,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor
+S0329,CHEMBL3545185,CHEMBL5661,INHIBITOR,Exportin-1 inhibitor
+S0200,CHEMBL3545376,CHEMBL2095217,INHIBITOR,Fibroblast growth factor receptor inhibitor
+S0092,CHEMBL384467,CHEMBL2034,AGONIST,Glucocorticoid receptor agonist
+S0066,CHEMBL38,CHEMBL2363069,AGONIST,Retinoic acid receptor agonist
+S0116,CHEMBL387675,CHEMBL2364031,INHIBITOR,Cell membrane inhibitor
+S0094,CHEMBL361497,,,Unknown
+S0054,CHEMBL3545432,CHEMBL2364701,INHIBITOR,26S proteasome inhibitor
+S0335,CHEMBL3889654,CHEMBL3559684,INHIBITOR,Neurotrophic tyrosine kinase receptor inhibitor
+S0334,CHEMBL3889654,CHEMBL3559684,INHIBITOR,Neurotrophic tyrosine kinase receptor inhibitor
+S0351,CHEMBL362558,CHEMBL262,INHIBITOR,Glycogen synthase kinase-3 beta inhibitor
+S0351,CHEMBL362558,CHEMBL2850,INHIBITOR,Glycogen synthase kinase-3 alpha inhibitor
+S0283,CHEMBL3813873,CHEMBL1844,INHIBITOR,Macrophage colony stimulating factor receptor inhibitor
+S0283,CHEMBL3813873,CHEMBL1974,INHIBITOR,Tyrosine-protein kinase receptor FLT3 inhibitor
+S0283,CHEMBL3813873,CHEMBL1936,INHIBITOR,Stem cell growth factor receptor inhibitor
+S0009,CHEMBL3701238,CHEMBL2095217,INHIBITOR,Fibroblast growth factor receptor inhibitor
+S0031,CHEMBL374975,CHEMBL4665583,INHIBITOR,Elongation factor G inhibitor
+S0186,CHEMBL413,CHEMBL1902,INHIBITOR,FK506-binding protein 1A inhibitor
+S0073,CHEMBL409,CHEMBL1871,ANTAGONIST,Androgen Receptor antagonist
+S0327,CHEMBL408513,CHEMBL2093865,INHIBITOR,Histone deacetylase inhibitor
+S0332,CHEMBL4208229,CHEMBL1862,INHIBITOR,Tyrosine-protein kinase ABL inhibitor
+S0015,CHEMBL4071161,CHEMBL5251,INHIBITOR,Tyrosine-protein kinase BTK inhibitor
+S0016,CHEMBL4071161,CHEMBL5251,INHIBITOR,Tyrosine-protein kinase BTK inhibitor
+S0246,CHEMBL3989868,CHEMBL1824,INHIBITOR,Receptor protein-tyrosine kinase erbB-2 inhibitor
+S0266,CHEMBL420762,CHEMBL1790,ANTAGONIST,Vasopressin V2 receptor antagonist
+S0245,CHEMBL4073443,CHEMBL3883293,INHIBITOR,MAP kinase-interacting serine/threonine-protein kinase 1/2 inhibitor
+S0030,CHEMBL428647,CHEMBL2095182,INHIBITOR,Tubulin inhibitor
+S0249,CHEMBL4297190,CHEMBL3650,INHIBITOR,Fibroblast growth factor receptor 1 inhibitor
+S0249,CHEMBL4297190,CHEMBL2095227,INHIBITOR,Vascular endothelial growth factor receptor inhibitor
+S0234,CHEMBL4213970,CHEMBL3385,INHIBITOR,MAP kinase ERK1 inhibitor
+S0234,CHEMBL4213970,CHEMBL4040,INHIBITOR,MAP kinase ERK2 inhibitor
+S0071,CHEMBL4297185,CHEMBL1871,ANTAGONIST,Androgen Receptor antagonist
+S0198,CHEMBL43,CHEMBL2094255,INHIBITOR,DNA topoisomerase II inhibitor
+S0074,CHEMBL429910,CHEMBL3884,INHIBITOR,Sodium/glucose cotransporter 2 inhibitor
+S0139,CHEMBL429910,CHEMBL3884,INHIBITOR,Sodium/glucose cotransporter 2 inhibitor
+S0130,CHEMBL4297522,CHEMBL4142,INHIBITOR,Fibroblast growth factor receptor 2 inhibitor
+S0130,CHEMBL4297522,CHEMBL2742,INHIBITOR,Fibroblast growth factor receptor 3 inhibitor
+S0130,CHEMBL4297522,CHEMBL3650,INHIBITOR,Fibroblast growth factor receptor 1 inhibitor
+S0161,CHEMBL4297300,CHEMBL4703,INHIBITOR,"Serine/threonine protein phosphatase 2A, catalytic subunit, alpha isoform inhibitor"
+S0268,CHEMBL4297524,CHEMBL2096618,INHIBITOR,Bcr/Abl fusion protein inhibitor
+S0161,CHEMBL4297300,CHEMBL2435,INHIBITOR,"Serine/threonine protein phosphatase 2A, catalytic subunit, beta isoform inhibitor"
+S0161,CHEMBL4297300,CHEMBL3425389,INHIBITOR,Serine/threonine-protein phosphatase 5 inhibitor
+S0257,CHEMBL457,CHEMBL239,AGONIST,Peroxisome proliferator-activated receptor alpha agonist
+S0278,CHEMBL453,CHEMBL2364668,INHIBITOR,Bacterial dihydropteroate synthase inhibitor
+S0176,CHEMBL46286,,,Protein synthesis inhibitor
+S0331,CHEMBL445813,CHEMBL3559691,INHIBITOR,Cyclin-dependent kinase inhibitor
+S0183,CHEMBL4582651,CHEMBL2041,INHIBITOR,Tyrosine-protein kinase receptor RET inhibitor
+S0183,CHEMBL4582651,CHEMBL3430904,INHIBITOR,Coiled-coil domain-containing protein 6/Tyrosine-protein kinase receptor RET inhibitor
+S0183,CHEMBL4582651,CHEMBL3430888,INHIBITOR,Kinesin-1 heavy chain/ Tyrosine-protein kinase receptor RET inhibitor
+S0233,CHEMBL4585668,CHEMBL1744522,INHIBITOR,Endothelial PAS domain-containing protein 1 inhibitor
+S0006,CHEMBL4594350,CHEMBL2189121,INHIBITOR,GTPase KRas inhibitor
+S0232,CHEMBL473417,CHEMBL5971,INHIBITOR,Smoothened homolog inhibitor
+S0323,CHEMBL477,CHEMBL2111329,AGONIST,Adenosine receptor agonist
+S0306,CHEMBL467,CHEMBL2095215,INHIBITOR,Ribonucleoside-diphosphate reductase RR1 inhibitor
+S0307,CHEMBL4751394,CHEMBL4282,INHIBITOR,Serine/threonine-protein kinase AKT inhibitor
+S0307,CHEMBL4751394,CHEMBL2431,INHIBITOR,Serine/threonine-protein kinase AKT2 inhibitor
+S0203,CHEMBL471737,CHEMBL1250417,BLOCKER,Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 4 blocker
+S0296,CHEMBL483465,CHEMBL262,INHIBITOR,Glycogen synthase kinase-3 beta inhibitor
+S0012,CHEMBL4761468,CHEMBL203,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor
+S0011,CHEMBL4761468,CHEMBL203,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor
+S0012,CHEMBL4761468,CHEMBL203,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor
+S0011,CHEMBL4761468,CHEMBL203,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor
+S0298,CHEMBL4650285,CHEMBL1907606,INHIBITOR,Mitogen-activated protein kinase; ERK1/ERK2 inhibitor
+S0097,CHEMBL4647810,CHEMBL5024,INHIBITOR,Serine-protein kinase ATR inhibitor
+S0157,CHEMBL527,CHEMBL2094253,INHIBITOR,Cyclooxygenase inhibitor
+S0112,CHEMBL532,CHEMBL2363135,INHIBITOR,Bacterial 70S ribosome inhibitor
+S0113,CHEMBL529,CHEMBL2363135,INHIBITOR,Bacterial 70S ribosome inhibitor
+S0347,CHEMBL521686,CHEMBL3390820,INHIBITOR,"PARP 1, 2 and 3 inhibitor"
+S0066,CHEMBL547,CHEMBL2363069,AGONIST,Retinoic acid receptor agonist
+S0127,CHEMBL535,CHEMBL1844,INHIBITOR,Macrophage colony stimulating factor receptor inhibitor
+S0127,CHEMBL535,CHEMBL279,INHIBITOR,Vascular endothelial growth factor receptor 2 inhibitor
+S0127,CHEMBL535,CHEMBL1936,INHIBITOR,Stem cell growth factor receptor inhibitor
+S0127,CHEMBL535,CHEMBL1913,INHIBITOR,Platelet-derived growth factor receptor beta inhibitor
+S0127,CHEMBL535,CHEMBL2007,INHIBITOR,Platelet-derived growth factor receptor alpha inhibitor
+S0127,CHEMBL535,CHEMBL1868,INHIBITOR,Vascular endothelial growth factor receptor 1 inhibitor
+S0127,CHEMBL535,CHEMBL1955,INHIBITOR,Vascular endothelial growth factor receptor 3 inhibitor
+S0127,CHEMBL535,CHEMBL1974,INHIBITOR,Tyrosine-protein kinase receptor FLT3 inhibitor
+S0127,CHEMBL535,CHEMBL2041,INHIBITOR,Tyrosine-protein kinase receptor RET inhibitor
+S0061,CHEMBL672,CHEMBL239,AGONIST,Peroxisome proliferator-activated receptor alpha agonist
+S0092,CHEMBL632,CHEMBL2034,AGONIST,Glucocorticoid receptor agonist
+S0267,CHEMBL57,CHEMBL247,INHIBITOR,Human immunodeficiency virus type 1 reverse transcriptase inhibitor
+S0077,CHEMBL601719,CHEMBL3717,INHIBITOR,Hepatocyte growth factor receptor inhibitor
+S0076,CHEMBL601719,CHEMBL3717,INHIBITOR,Hepatocyte growth factor receptor inhibitor
+S0077,CHEMBL601719,CHEMBL4247,INHIBITOR,ALK tyrosine kinase receptor inhibitor
+S0076,CHEMBL601719,CHEMBL4247,INHIBITOR,ALK tyrosine kinase receptor inhibitor
+S0189,CHEMBL566534,CHEMBL613897,INHIBITOR,Ferriprotoporphyrin IX inhibitor
+S0020,CHEMBL628,CHEMBL2094257,ANTAGONIST,Adenosine A2 receptor antagonist
+S0308,CHEMBL559,CHEMBL2111462,AGONIST,Thyroid hormone receptor agonist
+S0079,CHEMBL638,CHEMBL1780,INHIBITOR,Cytochrome P450 51 inhibitor
+S0269,CHEMBL599,CHEMBL230,INHIBITOR,Cyclooxygenase-2 inhibitor
+S0020,CHEMBL628,CHEMBL2363066,INHIBITOR,"3',5'-cyclic phosphodiesterase inhibitor"
+S0077,CHEMBL601719,CHEMBL3883330,INHIBITOR,EML4-ALK inhibitor
+S0076,CHEMBL601719,CHEMBL3883330,INHIBITOR,EML4-ALK inhibitor
+S0077,CHEMBL601719,CHEMBL2111387,INHIBITOR,NPM/ALK (Nucleophosmin/ALK tyrosine kinase receptor) inhibitor
+S0076,CHEMBL601719,CHEMBL2111387,INHIBITOR,NPM/ALK (Nucleophosmin/ALK tyrosine kinase receptor) inhibitor
+S0077,CHEMBL601719,CHEMBL5568,INHIBITOR,Proto-oncogene tyrosine-protein kinase ROS inhibitor
+S0076,CHEMBL601719,CHEMBL5568,INHIBITOR,Proto-oncogene tyrosine-protein kinase ROS inhibitor
+S0077,CHEMBL601719,CHEMBL2689,INHIBITOR,Macrophage-stimulating protein receptor inhibitor
+S0076,CHEMBL601719,CHEMBL2689,INHIBITOR,Macrophage-stimulating protein receptor inhibitor
+S0159,CHEMBL779,CHEMBL1827,INHIBITOR,Phosphodiesterase 5A inhibitor
+S0208,CHEMBL939,CHEMBL203,INHIBITOR,Epidermal growth factor receptor erbB1 inhibitor
+S0044,CHEMBL710,CHEMBL1856,INHIBITOR,Steroid 5-alpha-reductase 2 inhibitor
+S0078,CHEMBL93,CHEMBL215,INHIBITOR,Arachidonate 5-lipoxygenase inhibitor
+S0248,CHEMBL715,CHEMBL224,ANTAGONIST,Serotonin 2a (5-HT2a) receptor antagonist
+S0248,CHEMBL715,CHEMBL225,ANTAGONIST,Serotonin 2c (5-HT2c) receptor antagonist
+S0027,CHEMBL717,CHEMBL208,AGONIST,Progesterone receptor agonist
+S0048,CHEMBL806,CHEMBL1871,ANTAGONIST,Androgen Receptor antagonist
+S0349,CHEMBL799,CHEMBL241,INHIBITOR,Phosphodiesterase 3A inhibitor
+S0368,CHEMBL849,CHEMBL2364678,INHIBITOR,Bacterial enoyl-[acyl-carrier-protein] reductase inhibitor
+S0181,CHEMBL685,CHEMBL2364704,INHIBITOR,Tubulin inhibitor
+S0181,CHEMBL685,CHEMBL2364705,INHIBITOR,Tubulin inhibitor
+S0279,CHEMBL865,CHEMBL230,INHIBITOR,Cyclooxygenase-2 inhibitor
+S0265,CHEMBL729,CHEMBL243,INHIBITOR,Human immunodeficiency virus type 1 protease inhibitor
+S0066,CHEMBL705,CHEMBL2363071,AGONIST,Retinoid receptor agonist
+S0231,CHEMBL820,CHEMBL2311221,INHIBITOR,DNA inhibitor
+S0287,CHEMBL803,CHEMBL2311221,INHIBITOR,DNA inhibitor
+S0317,CHEMBL803,CHEMBL2311221,INHIBITOR,DNA inhibitor
+S0287,CHEMBL803,CHEMBL2311222,INHIBITOR,RNA inhibitor
+S0317,CHEMBL803,CHEMBL2311222,INHIBITOR,RNA inhibitor
+S0287,CHEMBL803,CHEMBL2363042,INHIBITOR,DNA polymerase (alpha/delta/epsilon) inhibitor
+S0317,CHEMBL803,CHEMBL2363042,INHIBITOR,DNA polymerase (alpha/delta/epsilon) inhibitor
+S0357,CHEMBL788,CHEMBL2366042,INHIBITOR,DNA inhibitor
+S0288,CHEMBL744,CHEMBL2331043,BLOCKER,Sodium channel alpha subunit blocker
+S0126,CHEMBL79,CHEMBL2331043,BLOCKER,Sodium channel alpha subunit blocker
+S0248,CHEMBL715,CHEMBL2331075,ANTAGONIST,D2-like dopamine receptor antagonist
+S0315,CHEMBL848,CHEMBL3833061,INHIBITOR,CRL4(CRBN) E3 ubiquitin ligase inhibitor
+S0040,CHEMBL76688,CHEMBL248,INHIBITOR,Leukocyte elastase inhibitor
+S0029,CHEMBL92,CHEMBL2095182,STABILISER,Tubulin stabiliser
+S0028,CHEMBL92,CHEMBL2095182,STABILISER,Tubulin stabiliser
+S0226,CHEMBL957,CHEMBL2096678,ANTAGONIST,"Endothelin receptor, ET-A/ET-B antagonist"

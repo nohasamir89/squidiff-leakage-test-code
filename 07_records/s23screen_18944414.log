@@ -1,0 +1,92 @@
+[guards] pre-registration, scripts, records and feature tables committed and clean; commit e2830e7; feature tables built at 6056ae9; split drug_split_1 (development only)
+[self-check] pds_sets == pds_cosine on full candidate sets (two random cases incl. zero-norm rows)
+[design] 2899 held-out conditions | 75 held-out structures | 14 lines | doses ['50', '500', '5000']
+[identity] every held-out SMILES maps to one structure id; held-out ids equal the record; fcfp4_asis equals the model encoder for all 372 structures and the dose-scaled input of every held-out condition
+[reproduction] ridge-train rebuilt from the training files and the recipe reproduce the Step 15c per-condition PDS to 1e-9 on all 2899 conditions (candidate sets 31-75)
+[reproduction] MRA reproduces step16_findings.md section 4.4, drug_split_1, printed to four decimals: ridge-S7 -0.0499, ridge-train +0.1537, recipe +0.3205 (seeds 0.3112 0.3237 0.3265), base -0.0755
+[reproduction] bootstrap reproduces step15c_findings.md section 1, drug_split_1, Q1 recipe PDS - 0.5, printed to five decimals: +0.22234 [+0.18829, +0.25411] above zero
+[check] the vectorised bootstrap equals the literal resamples (mean and MRA, replicates 0-2)
+[check] partial Spearman: the residual construction equals the closed formula on 42 well-conditioned contexts; the vectorised replicates equal the literal resamples (replicates 0-2)
+[scored set] 8 of 75 held-out structures have their parent molecule among the 297 training structures and are not scored: S0012 (Almonertinib (hydrochloride)); S0052 (Bestatin (hydrochloride)); S0077 (Crizotinib (hydrochloride)); S0142 (Irinotecan (hydrochloride)); S0190 (Fluvoxamine); S0216 ((R)-Verapamil (hydrochloride)); S0317 (Cytarabine); S0326 (Gallic acid (hydrate))
+[scored set] 2515 conditions of 67 structures scored; candidate sets unchanged (Step 15c)
+[features] 297 training structures as neighbours; numbers: 49 columns (0 constant among training structures), 2 missing values set to the training median
+
+====================================================================================================
+STAGE 1 SCREEN, drug_split_1, 2515 scored conditions, 67 structures; PDS (chance 0.5); 97.5 % structure-clustered intervals
+====================================================================================================
+  R1   FCFP4 as encoded (the model input)                         PDS k=10 0.5230  k=5 0.5195 | MRA k=10 +0.0875 | DE-overlap 0.4655 | DPC-50 0.4609
+  R2   FCFP4 of the parent                                        PDS k=10 0.5190  k=5 0.5126 | MRA k=10 +0.0806 | DE-overlap 0.4666 | DPC-50 0.4563
+  R3   FCFP4 parent + ECFP4 parent                                PDS k=10 0.5172  k=5 0.5090 | MRA k=10 +0.0736 | DE-overlap 0.4639 | DPC-50 0.4555
+  R4   FCFP4 parent + 2D pharmacophores (1,024 bits)              PDS k=10 0.5171  k=5 0.5086 | MRA k=10 +0.0137 | DE-overlap 0.4617 | DPC-50 0.4499
+  R5   FCFP4 parent + 49 numbers                                  PDS k=10 0.5077  k=5 0.4934 | MRA k=10 +0.1177 | DE-overlap 0.4595 | DPC-50 0.4556
+  E1   ECFP4 parent alone                                         PDS k=10 0.5292  k=5 0.5245 | MRA k=10 +0.0145 | DE-overlap 0.4637 | DPC-50 0.4647
+  E2   2D pharmacophore fingerprint alone                         PDS k=10 0.5313  k=5 0.5363 | MRA k=10 +0.0298 | DE-overlap 0.4631 | DPC-50 0.4603
+  E3   49 numbers alone                                           PDS k=10 0.5183  k=5 0.5151 | MRA k=10 +0.1891 | DE-overlap 0.4622 | DPC-50 0.4597
+  E3a  16 descriptors alone                                       PDS k=10 0.5404  k=5 0.5163 | MRA k=10 +0.0710 | DE-overlap 0.4679 | DPC-50 0.4640
+  E3b  25 atom and bond counts alone                              PDS k=10 0.5145  k=5 0.5181 | MRA k=10 +0.1579 | DE-overlap 0.4618 | DPC-50 0.4436
+  E3c  8 pharmacophore counts alone                               PDS k=10 0.5255  k=5 0.5126 | MRA k=10 +0.2160 | DE-overlap 0.4622 | DPC-50 0.4417
+  E4   FCFP4 parent + 2D pharmacophores unfolded                  PDS k=10 0.5185  k=5 0.5185 | MRA k=10 +0.0234 | DE-overlap 0.4643 | DPC-50 0.4505
+  X1   response profile in the other lines (reference)            PDS k=10 0.8851  k=5 0.8900 | MRA k=10 +0.7330 | DE-overlap 0.5289 | DPC-50 0.7675
+  X2   FCFP4 parent + response profile (method check)             PDS k=10 0.8103  k=5 0.8142 | MRA k=10 +0.6716 | DE-overlap 0.5125 | DPC-50 0.7267
+  recipe on the scored set: PDS 0.7286, MRA +0.3321 (seed mean)
+  not scored (twins, 384 conditions): R1 PDS 0.4435, recipe PDS 0.6810 (descriptive)
+
+GATED (k = 10, PDS):
+  P    R1 - 0.5   +0.02297 [-0.03653, +0.07916] includes zero
+  Q1a  R2 - R1    -0.00393 [-0.01534, +0.00524] includes zero
+  Q1b  R3 - R2    -0.00185 [-0.01930, +0.01521] includes zero
+  Q1c  R4 - R2    -0.00195 [-0.02341, +0.01983] includes zero
+  Q1d  R5 - R2    -0.01135 [-0.03101, +0.00812] includes zero
+
+secondary (k = 5, PDS):
+  P    R1 - 0.5   +0.01951 [-0.03716, +0.07523] includes zero
+  Q1a  R2 - R1    -0.00688 [-0.01855, +0.00381] includes zero
+  Q1b  R3 - R2    -0.00364 [-0.03282, +0.02481] includes zero
+  Q1c  R4 - R2    -0.00404 [-0.04374, +0.03408] includes zero
+  Q1d  R5 - R2    -0.01926 [-0.04892, +0.00992] includes zero
+
+exploratory and references (k = 10, PDS):
+  E1   - R2      +0.01017 [-0.01971, +0.04346] includes zero
+  E2   - R2      +0.01223 [-0.01925, +0.04484] includes zero
+  E3   - R2      -0.00078 [-0.03261, +0.03257] includes zero
+  E3a  - R2      +0.02132 [-0.01407, +0.05626] includes zero
+  E3b  - R2      -0.00455 [-0.03700, +0.03186] includes zero
+  E3c  - R2      +0.00641 [-0.02965, +0.04399] includes zero
+  E4   - R2      -0.00050 [-0.02372, +0.02327] includes zero
+  X2   - R2      +0.29127 [+0.24131, +0.33912] above zero
+  X1   - 0.5     +0.38508 [+0.36310, +0.40620] above zero
+  E4   - R4      +0.00145 [-0.01544, +0.01737] includes zero   (unfolded minus folded)
+
+secondary (k = 10, MRA, recomputed per replicate):
+  R1   - 0       +0.08751 [-0.06883, +0.24163] includes zero
+  R2   - 0       +0.08061 [-0.06909, +0.22896] includes zero
+  R3   - 0       +0.07362 [-0.07855, +0.22671] includes zero
+  R4   - 0       +0.01366 [-0.11575, +0.14849] includes zero
+  R5   - 0       +0.11765 [-0.06901, +0.28347] includes zero
+  Q1a  R2 - R1    -0.00689 [-0.05356, +0.04043] includes zero
+  Q1b  R3 - R2    -0.00700 [-0.12342, +0.11407] includes zero
+  Q1c  R4 - R2    -0.06696 [-0.18174, +0.05601] includes zero
+  Q1d  R5 - R2    +0.03704 [-0.10275, +0.17489] includes zero
+  recipe - 0     +0.33213 [+0.15697, +0.46782] above zero
+
+Qp: potency against measured response size, on the scored conditions of structures with a value. (a) MRA; (b) partial Spearman beyond the recipe's predicted size - gated for the protein-target value:
+  pchembl_protein_max      59 structures, 2196 conditions  [GATED, Qp]
+      (a) MRA +0.21155 [-0.00363, +0.40890] includes zero | recipe on the same conditions +0.2958
+      (b) partial +0.20800 [-0.02338, +0.40986] includes zero
+  pchembl_mechanism_max    20 structures,  708 conditions
+      (a) MRA +0.25650 [-0.09706, +0.51458] includes zero | recipe on the same conditions +0.0746
+      (b) partial +0.26826 [-0.11253, +0.52759] includes zero
+  pchembl_cellline_median  38 structures, 1407 conditions
+      (a) MRA +0.34789 [+0.07721, +0.53817] above zero | recipe on the same conditions +0.2846
+      (b) partial +0.39581 [+0.15950, +0.54930] above zero
+
+====================================================================================================
+PRE-REGISTERED SELECTION (section 5)
+  chemistry route, rule 5.3: P includes zero | Q1a includes zero | Q1b includes zero | Q1c includes zero | Q1d includes zero
+    The chemistry arms are not run. Reading: screen uninformative: the probe does not read the fingerprint's information.
+  potency route, rule 5.4: Qp includes zero
+    The potency arms are not run.
+  Section 7 expected: rule 5.3 with P above zero (no chemistry arms); Qp includes zero (no potency arms).
+====================================================================================================
+
+wrote tahoe_results/step23_screen.json, tahoe_results/step23_screen_per_condition.csv and tahoe_results/step23_screen_summary.csv  (342 s)

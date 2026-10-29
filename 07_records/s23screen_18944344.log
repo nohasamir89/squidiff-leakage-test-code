@@ -1,0 +1,3 @@
+[guards] pre-registration, scripts, records and feature tables committed and clean; commit e2830e7; feature tables built at 6056ae9; split drug_split_1 (development only)
+[self-check] pds_sets == pds_cosine on full candidate sets (two random cases incl. zero-norm rows)
+FATAL: missing tahoe_results/vectors_s15_drug_split_1_recipe_seed_0.npz

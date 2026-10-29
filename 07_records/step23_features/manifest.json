@@ -1,0 +1,87 @@
+{
+  "rdkit": "2022.09.5",
+  "commit": "6056ae9887c146d56f0402a3649d6671d43ba2d6",
+  "written_utc": "2026-10-25T22:58:52.554092+00:00",
+  "inputs": {
+    "tahoe_results/step15_data_record.json": "06c4b547a8a1831a8e7fcaa1e7dc1d91c1bfbec850c8893b5b643b5b7c7195ba",
+    "tahoe_results/step23_chembl/structure_potency.csv": "f49253d581919d76511ae55430727996f57227fe5ae38314e42879b1a1d46c4e"
+  },
+  "n_structures": 372,
+  "n_parent_molecules": 350,
+  "descriptors": [
+    "MolLogP",
+    "MolMR",
+    "NumHDonors",
+    "NumHAcceptors",
+    "MolWt",
+    "HeavyAtomCount",
+    "NumRotatableBonds",
+    "RingCount",
+    "NumAromaticRings",
+    "FractionCSP3",
+    "LabuteASA",
+    "TPSA",
+    "MaxPartialCharge",
+    "MinPartialCharge",
+    "MaxEStateIndex",
+    "MinEStateIndex"
+  ],
+  "atom_bond_columns": [
+    "n_N",
+    "n_O",
+    "n_S",
+    "n_P",
+    "n_F",
+    "n_Cl",
+    "n_Br",
+    "n_I",
+    "n_B",
+    "net_formal_charge",
+    "n_pos_charged_atoms",
+    "n_neg_charged_atoms",
+    "n_sp_atoms",
+    "n_sp2_atoms",
+    "n_sp3_atoms",
+    "n_rings_size_3",
+    "n_rings_size_4",
+    "n_rings_size_5",
+    "n_rings_size_6",
+    "n_rings_size_7",
+    "n_rings_size_8plus",
+    "n_double_bonds",
+    "n_triple_bonds",
+    "n_aromatic_bonds",
+    "n_conjugated_bonds"
+  ],
+  "pharmacophore_count_columns": [
+    "pharm_n_Donor",
+    "pharm_n_Acceptor",
+    "pharm_n_NegIonizable",
+    "pharm_n_PosIonizable",
+    "pharm_n_Aromatic",
+    "pharm_n_Hydrophobe",
+    "pharm_n_LumpedHydrophobe",
+    "pharm_n_ZnBinder"
+  ],
+  "pharm2d": {
+    "factory": "Gobbi_Pharm2D (RDKit Pharm2D)",
+    "signature_size": 39972,
+    "on_bits_per_structure_median": 480,
+    "structures_with_no_on_bits": 0
+  },
+  "potency_columns": [
+    "pchembl_protein_max",
+    "pchembl_mechanism_max",
+    "pchembl_cellline_median",
+    "n_protein_targets"
+  ],
+  "missing_values": {
+    "MaxPartialCharge": 1,
+    "MinPartialCharge": 1,
+    "pchembl_protein_max": 60,
+    "pchembl_mechanism_max": 253,
+    "pchembl_cellline_median": 179
+  },
+  "structures_whose_fingerprint_changes_without_counter_ions": 65,
+  "encoder_check": "identical to Squidiff.scrna_datasets.Drug_dose_encoder at dose 9 nM for all structures"
+}

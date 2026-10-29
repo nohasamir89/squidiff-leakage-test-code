@@ -1,0 +1,784 @@
+{
+  "prereg": "PREREG_step23_compound_features.md",
+  "split": "drug_split_1",
+  "commit": "e2830e77dfe4b8cbb2a388c9aa583bf6c3643407",
+  "feature_commit": "6056ae9887c146d56f0402a3649d6671d43ba2d6",
+  "k": [
+    10,
+    5
+  ],
+  "n_boot": 5000,
+  "interval": "97.5% percentile, structure-clustered, fresh RandomState(0) per scored set",
+  "reference": {
+    "source_mra": "step16_findings.md section 4.4, drug_split_1, printed to four decimals",
+    "mra": {
+      "ridge_S7": -0.0499,
+      "ridge_train": 0.1537,
+      "base_mean": -0.0755,
+      "recipe_seeds": [
+        0.3112,
+        0.3237,
+        0.3265
+      ],
+      "recipe_mean": 0.3205
+    },
+    "mra_tol": 5.0001000000000005e-05,
+    "source_boot": "step15c_findings.md section 1, drug_split_1, Q1 recipe PDS - 0.5, printed to five decimals",
+    "boot_q1": {
+      "diff": 0.22234,
+      "lo": 0.18829,
+      "hi": 0.25411
+    },
+    "boot_tol": 5.001e-06
+  },
+  "test_reference_override": null,
+  "reproduction": {
+    "mra": {
+      "ridge_S7": -0.04991813862002353,
+      "ridge_train": 0.15368105176553193,
+      "recipe_seeds": [
+        0.31123509250871156,
+        0.32372442277128627,
+        0.32651488175532895
+      ],
+      "base_seeds": [
+        -0.05749599039850633,
+        -0.07390153947656941,
+        -0.09501831559871152
+      ],
+      "recipe_mean": 0.3204914656784423,
+      "base_mean": -0.07547194849126242
+    },
+    "bootstrap_q1": {
+      "diff": 0.2223364678478754,
+      "ci": [
+        0.1882852898779534,
+        0.2541092161666785
+      ],
+      "verdict": "above zero",
+      "half_width": 0.03291196314436254
+    }
+  },
+  "design": {
+    "n_conditions": 2899,
+    "n_structures": 75,
+    "n_training_structures": 297,
+    "twins": [
+      {
+        "structure_id": "S0012",
+        "names": [
+          "Almonertinib (hydrochloride)"
+        ],
+        "parent_block": "DOEOECWDNSEFDN"
+      },
+      {
+        "structure_id": "S0052",
+        "names": [
+          "Bestatin (hydrochloride)"
+        ],
+        "parent_block": "VGGGPCQERPFHOB"
+      },
+      {
+        "structure_id": "S0077",
+        "names": [
+          "Crizotinib (hydrochloride)"
+        ],
+        "parent_block": "KTEIFNKAUNYNJU"
+      },
+      {
+        "structure_id": "S0142",
+        "names": [
+          "Irinotecan (hydrochloride)"
+        ],
+        "parent_block": "UWKQSNNFCGGAFS"
+      },
+      {
+        "structure_id": "S0190",
+        "names": [
+          "Fluvoxamine"
+        ],
+        "parent_block": "CJOFXWAVKWHTFT"
+      },
+      {
+        "structure_id": "S0216",
+        "names": [
+          "(R)-Verapamil (hydrochloride)"
+        ],
+        "parent_block": "SGTNSNPWRIOYBX"
+      },
+      {
+        "structure_id": "S0317",
+        "names": [
+          "Cytarabine"
+        ],
+        "parent_block": "UHDGCWIWMRVCDJ"
+      },
+      {
+        "structure_id": "S0326",
+        "names": [
+          "Gallic acid (hydrate)"
+        ],
+        "parent_block": "LNTHITQWFMADLM"
+      }
+    ],
+    "n_scored_conditions": 2515,
+    "n_scored_structures": 67,
+    "candidates_per_condition": [
+      31,
+      75
+    ],
+    "numeric_columns": 49,
+    "numeric_constant": 0,
+    "numeric_imputed": 2
+  },
+  "representations": {
+    "R1": {
+      "label": "FCFP4 as encoded (the model input)",
+      "blocks": [
+        "fa"
+      ]
+    },
+    "R2": {
+      "label": "FCFP4 of the parent",
+      "blocks": [
+        "fp"
+      ]
+    },
+    "R3": {
+      "label": "FCFP4 parent + ECFP4 parent",
+      "blocks": [
+        "fp",
+        "ep"
+      ]
+    },
+    "R4": {
+      "label": "FCFP4 parent + 2D pharmacophores (1,024 bits)",
+      "blocks": [
+        "fp",
+        "phf"
+      ]
+    },
+    "R5": {
+      "label": "FCFP4 parent + 49 numbers",
+      "blocks": [
+        "fp",
+        "num"
+      ]
+    },
+    "E1": {
+      "label": "ECFP4 parent alone",
+      "blocks": [
+        "ep"
+      ]
+    },
+    "E2": {
+      "label": "2D pharmacophore fingerprint alone",
+      "blocks": [
+        "ph"
+      ]
+    },
+    "E3": {
+      "label": "49 numbers alone",
+      "blocks": [
+        "num"
+      ]
+    },
+    "E3a": {
+      "label": "16 descriptors alone",
+      "blocks": [
+        "desc"
+      ]
+    },
+    "E3b": {
+      "label": "25 atom and bond counts alone",
+      "blocks": [
+        "ab"
+      ]
+    },
+    "E3c": {
+      "label": "8 pharmacophore counts alone",
+      "blocks": [
+        "pc"
+      ]
+    },
+    "E4": {
+      "label": "FCFP4 parent + 2D pharmacophores unfolded",
+      "blocks": [
+        "fp",
+        "ph"
+      ]
+    },
+    "X1": {
+      "label": "response profile in the other lines (reference)",
+      "blocks": [
+        "resp"
+      ]
+    },
+    "X2": {
+      "label": "FCFP4 parent + response profile (method check)",
+      "blocks": [
+        "fp",
+        "resp"
+      ]
+    }
+  },
+  "values": {
+    "pds": {
+      "R1_k10": 0.522971014510955,
+      "R1_k5": 0.5195109135947156,
+      "R2_k10": 0.5190366714023614,
+      "R2_k5": 0.5126340417034778,
+      "R3_k10": 0.517185616123777,
+      "R3_k5": 0.5089984107401481,
+      "R4_k10": 0.5170875499089445,
+      "R4_k5": 0.5085956559223995,
+      "R5_k10": 0.5076905670318993,
+      "R5_k5": 0.49337131782060517,
+      "E1_k10": 0.5292108562358487,
+      "E1_k5": 0.5244787307658959,
+      "E2_k10": 0.5312701441848537,
+      "E2_k5": 0.5362638079916902,
+      "E3_k10": 0.5182554315410342,
+      "E3_k5": 0.515090994857077,
+      "E3a_k10": 0.5403573237686838,
+      "E3a_k5": 0.5163154512389271,
+      "E3b_k10": 0.5144905376435595,
+      "E3b_k5": 0.5180658683843182,
+      "E3c_k10": 0.5254509632047928,
+      "E3c_k5": 0.5125920400370176,
+      "E4_k10": 0.5185363081724619,
+      "E4_k5": 0.5185472565652085,
+      "X1_k10": 0.8850808095749606,
+      "X1_k5": 0.8900428023409993,
+      "X2_k10": 0.8103057309176637,
+      "X2_k5": 0.8142140674086208
+    },
+    "mra": {
+      "R1_k10": 0.08750845486735859,
+      "R2_k10": 0.08061439749554752,
+      "R3_k10": 0.0736174321959773,
+      "R4_k10": 0.013655361338803719,
+      "R5_k10": 0.11765450991387921,
+      "E1_k10": 0.014508728194380564,
+      "E2_k10": 0.02979475880105098,
+      "E3_k10": 0.18913234745149454,
+      "E3a_k10": 0.07097610005091617,
+      "E3b_k10": 0.15789035527969708,
+      "E3c_k10": 0.21601947221543422,
+      "E4_k10": 0.023416628796816576,
+      "X1_k10": 0.7330031387825341,
+      "X2_k10": 0.671604626296876,
+      "R1_k5": 0.11099664696926485,
+      "R2_k5": 0.10776289822474627,
+      "R3_k5": 0.0428163078916148,
+      "R4_k5": 0.026838100870892265,
+      "R5_k5": 0.1121771553878453,
+      "E1_k5": 0.03762290267098284,
+      "E2_k5": 0.14091335659730633,
+      "E3_k5": 0.13662204707808,
+      "E3a_k5": 0.06849652949369293,
+      "E3b_k5": 0.09271024858326096,
+      "E3c_k5": 0.13488333363726007,
+      "E4_k5": 0.006834135438618745,
+      "X1_k5": 0.6838180539422251,
+      "X2_k5": 0.6674110175672457
+    },
+    "de_overlap": {
+      "R1_k10": 0.4654538826401575,
+      "R1_k5": 0.44676235212725784,
+      "R2_k10": 0.46661335961550277,
+      "R2_k5": 0.4459699787180881,
+      "R3_k10": 0.46385646334837255,
+      "R3_k5": 0.44639432626219794,
+      "R4_k10": 0.46167192279348707,
+      "R4_k5": 0.44549527006552214,
+      "R5_k10": 0.4595163141370298,
+      "R5_k5": 0.4460554406183481,
+      "E1_k10": 0.4637257404683554,
+      "E1_k5": 0.4507740893421795,
+      "E2_k10": 0.46312661419327594,
+      "E2_k5": 0.4475387827748761,
+      "E3_k10": 0.4621744046678433,
+      "E3_k5": 0.4483552019920777,
+      "E3a_k10": 0.46792872911118377,
+      "E3a_k5": 0.45082839935163066,
+      "E3b_k10": 0.4617582650996947,
+      "E3b_k5": 0.448370743501156,
+      "E3c_k10": 0.4621633085470414,
+      "E3c_k5": 0.4474926092114011,
+      "E4_k10": 0.4642510041245528,
+      "E4_k5": 0.446023007199903,
+      "X1_k10": 0.528872462891158,
+      "X1_k5": 0.5094038391104531,
+      "X2_k10": 0.5124691182419291,
+      "X2_k5": 0.4950932085387382
+    },
+    "dpc50": {
+      "R1_k10": 0.4609471161867898,
+      "R1_k5": 0.39233571350972196,
+      "R2_k10": 0.45634368352425336,
+      "R2_k5": 0.3820335245681373,
+      "R3_k10": 0.45547173572886274,
+      "R3_k5": 0.396759138601556,
+      "R4_k10": 0.44994472509381833,
+      "R4_k5": 0.38764587585248705,
+      "R5_k10": 0.45563062758544887,
+      "R5_k5": 0.37655010977133196,
+      "E1_k10": 0.46471335630125155,
+      "E1_k5": 0.40961290466272476,
+      "E2_k10": 0.46028689468335393,
+      "E2_k5": 0.4206370813709658,
+      "E3_k10": 0.45973704264884535,
+      "E3_k5": 0.39863011601177717,
+      "E3a_k10": 0.4640474294613679,
+      "E3a_k5": 0.3853294892104671,
+      "E3b_k10": 0.4436300564218083,
+      "E3b_k5": 0.39983357397495717,
+      "E3c_k10": 0.44169194170328074,
+      "E3c_k5": 0.3750042589973901,
+      "E4_k10": 0.4505126609822592,
+      "E4_k5": 0.39861972267923423,
+      "X1_k10": 0.7675237463016672,
+      "X1_k5": 0.7417632647091358,
+      "X2_k10": 0.7266915454221032,
+      "X2_k5": 0.6952091792645531
+    }
+  },
+  "recipe_on_scored_set": {
+    "pds": 0.728641828820581,
+    "mra": 0.3321254844643851
+  },
+  "twins_descriptive": {
+    "R1_pds": 0.4435248055118741,
+    "recipe_pds": 0.6810396375188267
+  },
+  "contrasts": {
+    "gated_P": {
+      "diff": 0.022971014510954967,
+      "ci": [
+        -0.0365328867358209,
+        0.07916409942624734
+      ],
+      "verdict": "includes zero",
+      "half_width": 0.057848493081034125
+    },
+    "gated_Q1a": {
+      "diff": -0.003934343108593537,
+      "ci": [
+        -0.015335176981434254,
+        0.00524215941565113
+      ],
+      "verdict": "includes zero",
+      "half_width": 0.010288668198542692
+    },
+    "gated_Q1b": {
+      "diff": -0.0018510552785843818,
+      "ci": [
+        -0.019298274722340008,
+        0.015211968182527895
+      ],
+      "verdict": "includes zero",
+      "half_width": 0.01725512145243395
+    },
+    "gated_Q1c": {
+      "diff": -0.001949121493416961,
+      "ci": [
+        -0.02341206010912757,
+        0.019826382104176893
+      ],
+      "verdict": "includes zero",
+      "half_width": 0.02161922110665223
+    },
+    "gated_Q1d": {
+      "diff": -0.01134610437046225,
+      "ci": [
+        -0.03101298596453271,
+        0.008117727924801066
+      ],
+      "verdict": "includes zero",
+      "half_width": 0.01956535694466689
+    },
+    "k5_P": {
+      "diff": 0.01951091359471558,
+      "ci": [
+        -0.03716352164905977,
+        0.07522802293511063
+      ],
+      "verdict": "includes zero",
+      "half_width": 0.0561957722920852
+    },
+    "k5_Q1a": {
+      "diff": -0.006876871891237752,
+      "ci": [
+        -0.018551480292971167,
+        0.0038120651717692966
+      ],
+      "verdict": "includes zero",
+      "half_width": 0.011181772732370232
+    },
+    "k5_Q1b": {
+      "diff": -0.0036356309633297588,
+      "ci": [
+        -0.03282373618203575,
+        0.024813161316968625
+      ],
+      "verdict": "includes zero",
+      "half_width": 0.028818448749502186
+    },
+    "k5_Q1c": {
+      "diff": -0.004038385781078296,
+      "ci": [
+        -0.04374270176080949,
+        0.034081322955928715
+      ],
+      "verdict": "includes zero",
+      "half_width": 0.0389120123583691
+    },
+    "k5_Q1d": {
+      "diff": -0.019262723882872652,
+      "ci": [
+        -0.04891955088652226,
+        0.009923725160358776
+      ],
+      "verdict": "includes zero",
+      "half_width": 0.029421638023440517
+    },
+    "pds_E1_minus_R2": {
+      "diff": 0.01017418483348728,
+      "ci": [
+        -0.019709169891087078,
+        0.04346363324397917
+      ],
+      "verdict": "includes zero",
+      "half_width": 0.031586401567533125
+    },
+    "pds_E2_minus_R2": {
+      "diff": 0.012233472782492323,
+      "ci": [
+        -0.01925350769467513,
+        0.04483967218799245
+      ],
+      "verdict": "includes zero",
+      "half_width": 0.03204658994133379
+    },
+    "pds_E3_minus_R2": {
+      "diff": -0.000781239861327226,
+      "ci": [
+        -0.03260808848842823,
+        0.03256767063741854
+      ],
+      "verdict": "includes zero",
+      "half_width": 0.03258787956292339
+    },
+    "pds_E3a_minus_R2": {
+      "diff": 0.021320652366322343,
+      "ci": [
+        -0.014073178475779888,
+        0.056258583237322295
+      ],
+      "verdict": "includes zero",
+      "half_width": 0.03516588085655109
+    },
+    "pds_E3b_minus_R2": {
+      "diff": -0.0045461337588019474,
+      "ci": [
+        -0.03700302305663063,
+        0.0318583795037391
+      ],
+      "verdict": "includes zero",
+      "half_width": 0.03443070128018486
+    },
+    "pds_E3c_minus_R2": {
+      "diff": 0.006414291802431339,
+      "ci": [
+        -0.029654032750554428,
+        0.043987259129033056
+      ],
+      "verdict": "includes zero",
+      "half_width": 0.03682064593979374
+    },
+    "pds_E4_minus_R2": {
+      "diff": -0.0005003632298995886,
+      "ci": [
+        -0.023718977149093875,
+        0.023265054683986854
+      ],
+      "verdict": "includes zero",
+      "half_width": 0.023492015916540362
+    },
+    "pds_X2_minus_R2": {
+      "diff": 0.29126905951530224,
+      "ci": [
+        0.24130805920282916,
+        0.33911512026363416
+      ],
+      "verdict": "above zero",
+      "half_width": 0.0489035305304025
+    },
+    "pds_X1_minus_0.5": {
+      "diff": 0.38508080957496066,
+      "ci": [
+        0.3630950985883477,
+        0.4062048716519555
+      ],
+      "verdict": "above zero",
+      "half_width": 0.021554886531803902
+    },
+    "pds_E4_minus_R4": {
+      "diff": 0.0014487582635173725,
+      "ci": [
+        -0.015441023353893635,
+        0.017370336057491765
+      ],
+      "verdict": "includes zero",
+      "half_width": 0.016405679705692698
+    },
+    "mra_R1": {
+      "diff": 0.08750845486735859,
+      "ci": [
+        -0.06882628463428422,
+        0.24163406115095523
+      ],
+      "verdict": "includes zero",
+      "half_width": 0.15523017289261973
+    },
+    "mra_R2": {
+      "diff": 0.08061439749554752,
+      "ci": [
+        -0.06909231625670753,
+        0.22895898222479963
+      ],
+      "verdict": "includes zero",
+      "half_width": 0.14902564924075357
+    },
+    "mra_R3": {
+      "diff": 0.07361743219597729,
+      "ci": [
+        -0.07855195086857038,
+        0.22670591450140004
+      ],
+      "verdict": "includes zero",
+      "half_width": 0.1526289326849852
+    },
+    "mra_R4": {
+      "diff": 0.013655361338803714,
+      "ci": [
+        -0.11574702220674367,
+        0.1484927804534914
+      ],
+      "verdict": "includes zero",
+      "half_width": 0.13211990133011753
+    },
+    "mra_R5": {
+      "diff": 0.1176545099138792,
+      "ci": [
+        -0.06901013192223605,
+        0.28346604691761007
+      ],
+      "verdict": "includes zero",
+      "half_width": 0.17623808941992306
+    },
+    "mra_Q1a": {
+      "diff": -0.006894057371811063,
+      "ci": [
+        -0.05356492895876078,
+        0.040429934940349105
+      ],
+      "verdict": "includes zero",
+      "half_width": 0.04699743194955494
+    },
+    "mra_Q1b": {
+      "diff": -0.0069969652995702375,
+      "ci": [
+        -0.12342213720863059,
+        0.11406516263323918
+      ],
+      "verdict": "includes zero",
+      "half_width": 0.11874364992093489
+    },
+    "mra_Q1c": {
+      "diff": -0.06695903615674381,
+      "ci": [
+        -0.18173595477376678,
+        0.0560088724452458
+      ],
+      "verdict": "includes zero",
+      "half_width": 0.11887241360950629
+    },
+    "mra_Q1d": {
+      "diff": 0.037040112418331675,
+      "ci": [
+        -0.10275148065688057,
+        0.17488968673158317
+      ],
+      "verdict": "includes zero",
+      "half_width": 0.13882058369423186
+    },
+    "mra_recipe": {
+      "diff": 0.33212548446438506,
+      "ci": [
+        0.15697370323843032,
+        0.4678241941305623
+      ],
+      "verdict": "above zero",
+      "half_width": 0.155425245446066
+    }
+  },
+  "qp_potency": {
+    "pchembl_protein_max": {
+      "gated": true,
+      "n_structures": 59,
+      "n_conditions": 2196,
+      "mra": {
+        "diff": 0.21155183226734195,
+        "ci": [
+          -0.003625518986943831,
+          0.40890250111324644
+        ],
+        "verdict": "includes zero",
+        "half_width": 0.20626401005009515
+      },
+      "recipe_mra_same_conditions": {
+        "diff": 0.29576130362183256,
+        "ci": [
+          0.08911905968513112,
+          0.4526138658008434
+        ],
+        "verdict": "above zero",
+        "half_width": 0.18174740305785614
+      },
+      "partial_beyond_recipe": {
+        "diff": 0.2080024230774965,
+        "ci": [
+          -0.023375696871896993,
+          0.4098627228316821
+        ],
+        "verdict": "includes zero",
+        "half_width": 0.21661920985178956
+      }
+    },
+    "pchembl_mechanism_max": {
+      "gated": false,
+      "n_structures": 20,
+      "n_conditions": 708,
+      "mra": {
+        "diff": 0.2564950203854692,
+        "ci": [
+          -0.09705548393791892,
+          0.5145787775684492
+        ],
+        "verdict": "includes zero",
+        "half_width": 0.30581713075318406
+      },
+      "recipe_mra_same_conditions": {
+        "diff": 0.07458164225081519,
+        "ci": [
+          -0.3016967090787497,
+          0.4058894827864621
+        ],
+        "verdict": "includes zero",
+        "half_width": 0.3537930959326059
+      },
+      "partial_beyond_recipe": {
+        "diff": 0.2682646393168572,
+        "ci": [
+          -0.11252615737168124,
+          0.5275886244513733
+        ],
+        "verdict": "includes zero",
+        "half_width": 0.3200573909115273
+      }
+    },
+    "pchembl_cellline_median": {
+      "gated": false,
+      "n_structures": 38,
+      "n_conditions": 1407,
+      "mra": {
+        "diff": 0.3478895049885158,
+        "ci": [
+          0.0772140024937273,
+          0.5381712593401249
+        ],
+        "verdict": "above zero",
+        "half_width": 0.2304786284231988
+      },
+      "recipe_mra_same_conditions": {
+        "diff": 0.28456061733277344,
+        "ci": [
+          0.08984841821987902,
+          0.4401993273884605
+        ],
+        "verdict": "above zero",
+        "half_width": 0.17517545458429074
+      },
+      "partial_beyond_recipe": {
+        "diff": 0.3958124419136997,
+        "ci": [
+          0.15949844857909598,
+          0.549296435420395
+        ],
+        "verdict": "above zero",
+        "half_width": 0.19489899342064948
+      }
+    }
+  },
+  "selection": {
+    "chemistry": {
+      "rule": "5.3",
+      "stage2": false,
+      "selected": null,
+      "arms": [],
+      "reading": "screen uninformative: the probe does not read the fingerprint's information"
+    },
+    "potency": {
+      "rule": "5.4",
+      "gated": "Qp: partial Spearman of pchembl_protein_max beyond the recipe's predicted size",
+      "verdict": "includes zero",
+      "stage2": false,
+      "arms": []
+    }
+  },
+  "inputs": {
+    "vectors": {
+      "recipe": [
+        {
+          "tag": "s15_drug_split_1_recipe_seed_0",
+          "vectors_sha256": "18dee6b31e5f5428a77ff8d75492f1ee88db30eeaaa92d9aa00f8eaaa3021160",
+          "checkpoint_sha256": "6ad100e4ce89269fb663648115da002c7f94921d50342bb60512a406ccb40335"
+        },
+        {
+          "tag": "s15_drug_split_1_recipe_seed_1",
+          "vectors_sha256": "d52300a3774543b80f39ace00a06204121952b77a61853522f5c47c71c58064b",
+          "checkpoint_sha256": "18baa18bd226c760239dd5ea06993386491eae5d163cf29a4da811e95e567d27"
+        },
+        {
+          "tag": "s15_drug_split_1_recipe_seed_2",
+          "vectors_sha256": "4cf558198597a48dd52021442fc65e43ded1fa1e5e9ca6b2e60f199c8153c8e4",
+          "checkpoint_sha256": "25cf06b5b36e5a5b398c78bb958b205cfaebc7504b28ab3fd2a839d832a520bb"
+        }
+      ],
+      "base": [
+        {
+          "tag": "s15_drug_split_1_base_seed_0",
+          "vectors_sha256": "0706db3dff21c012e1d7410779ee6e4692260ad82ab3c95787ed29770264d95c",
+          "checkpoint_sha256": "d820bb96df364db9ce444bba96f33d155bdad8fb0cb017c224f3485297d96524"
+        },
+        {
+          "tag": "s15_drug_split_1_base_seed_1",
+          "vectors_sha256": "ef0e5b1c93bb0baac19c2942c255c2770f2692f0d65994fd87312d6c783e2d5a",
+          "checkpoint_sha256": "47b85cdb42a8a79a7abed1257a5e9de828284b217681fab94f390644d0125a67"
+        },
+        {
+          "tag": "s15_drug_split_1_base_seed_2",
+          "vectors_sha256": "3dd22b15c309be5f7f299005bd091854561a527ce11f163c157777873abab99f",
+          "checkpoint_sha256": "4c79d3e22d42089dd2796655008d9e9b2ca70fee74d40b12210a70e2e10e671b"
+        }
+      ]
+    },
+    "feature_manifest_sha256": "60a6f665308a500cd70b9d9a7664bd73c2766e72547bfbc60ee1eb2673ea6616",
+    "fingerprints_sha256": "bbeb6599957e259fe69df0dbbd13cfcb90125284cb396855d9057dc6f6a3e5c9",
+    "structures_sha256": "331c600637286118c4504f9c3331c1f7089a26e5dc80e101e8b25d16b353f7fe",
+    "step15c_per_condition_sha256": "485ef8f6d212cc67578519efc77b124bb39df58d7c6996e04381ab42c8373f50"
+  },
+  "seconds": 341
+}

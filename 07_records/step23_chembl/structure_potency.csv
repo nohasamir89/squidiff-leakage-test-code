@@ -1,0 +1,373 @@
+structure_id,names,n_protein_targets,max_protein_pchembl,mechanism_targets,max_pchembl_on_mechanism_target,n_cell_lines,median_cell_line_pchembl,tahoe_lines_tested
+S0000,Citalopram (hydrobromide),12,9.32,,,0,,
+S0001,Brimonidine,10,8.85,,,0,,
+S0002,Quinestrol,0,,CHEMBL2093866,,0,,
+S0003,Erlotinib,118,10.54,,,216,4.72,HT-29 | LoVo | RKO | SW480
+S0004,Bisoprolol (hemifumarate),1,6.82,,,0,,
+S0005,Lactate (calcium),0,,,,2,4.6,
+S0006,Adagrasib,3,8.89,CHEMBL2189121,8.3,6,5.685,
+S0007,Bexarotene,10,8.23,CHEMBL2363070,,304,4.495,A-172 | HCT15 | LoVo | RKO | SW 1088 | SW1417 | SW48
+S0008,Entecavir (monohydrate),0,,,,0,,
+S0009,Futibatinib,6,9.49,CHEMBL2095217,,11,6.82,
+S0010,Osimertinib (mesylate),21,10.7,CHEMBL203,10.7,32,5.8075,HT-29 | LoVo
+S0011,Almonertinib (mesylate),1,9.74,CHEMBL203,9.74,2,7.76,
+S0012,Almonertinib (hydrochloride),1,9.74,CHEMBL203,9.74,2,7.76,
+S0013,Quinidine (15% dihydroquinidine),17,8.7,,,2,4.1525,
+S0014,Verteporfin,0,,,,0,,
+S0015,Tirabrutinib,9,8.66,CHEMBL5251,8.66,0,,
+S0016,Tirabrutinib (hydrochloride),9,8.66,CHEMBL5251,8.66,0,,
+S0017,Mifepristone,17,10.68,CHEMBL2034 CHEMBL208,10.68,2,4.720000000000001,
+S0018,Megestrol,0,,,,0,,
+S0019,Idarubicin (hydrochloride),3,8.59,,,7,5.47,
+S0020,Pentoxifylline,4,5.29,CHEMBL2094257 CHEMBL2363066,,1,4.96,
+S0021,DTP3,0,,,,0,,
+S0022,Trametinib | Trametinib (DMSO_TF solvate),3,9.32,CHEMBL2111289,8.7,9,8.0,HT-29
+S0023,Acetazolamide,15,10.22,CHEMBL205 CHEMBL261 CHEMBL3242 CHEMBL3729,9.46,3,4.84,HT-29
+S0024,Chlorhexidine (diacetate),12,6.68,,,0,,
+S0025,Goserelin (acetate),0,,,,0,,
+S0026,Pasireotide (acetate),4,9.9,,,0,,
+S0027,Medroxyprogesterone acetate,12,9.47,CHEMBL208,9.47,4,4.359999999999999,
+S0028,Docetaxel,7,9.85,CHEMBL2095182,6.7,609,8.29,A-172 | H4 | HCT15 | HT-29 | LoVo | RKO | SNU-1 | SW 1088 | SW1417 | SW48
+S0029,Docetaxel (Trihydrate),7,9.85,CHEMBL2095182,6.7,609,8.29,A-172 | H4 | HCT15 | HT-29 | LoVo | RKO | SNU-1 | SW 1088 | SW1417 | SW48
+S0030,Paclitaxel,15,8.11,CHEMBL2095182,,547,7.45,COLO 205 | HCT15 | HT-29 | LS 180 | LoVo | RKO | SNU-1 | SW48 | SW480
+S0031,Fusidic acid,3,5.0,CHEMBL4665583,,0,,
+S0032,Abiraterone acetate,1,8.6,CHEMBL3522,8.6,3,4.42,
+S0033,Auranofin,0,,,,0,,
+S0034,Vitamin K4,0,,,,0,,
+S0035,Aspirin,7,9.3,CHEMBL2094253,4.82,2,4.74,
+S0036,palbociclib,70,9.7,CHEMBL1907601 CHEMBL2111455,9.7,462,5.19,COLO 205 | H4 | HT-29 | LoVo | RKO | SNU-1 | SW 1088 | SW1417 | SW48
+S0037,IQ 1,0,,,,0,,
+S0038,Acetohexamide,0,,CHEMBL2096972,,0,,
+S0039,Anastrozole,2,9.89,CHEMBL1978,9.89,1,5.92,
+S0040,Sivelestat (sodium tetrahydrate),3,8.46,CHEMBL248,8.46,0,,
+S0041,Ralimetinib dimesylate,0,,CHEMBL260,,0,,
+S0042,Perindopril (erbumine),1,8.82,,,0,,
+S0043,Saquinavir,15,6.77,CHEMBL243,,8,8.145,
+S0044,Finasteride,7,9.74,CHEMBL1856,9.74,4,4.8025,
+S0045,Terfenadine,25,9.0,CHEMBL231,9.0,0,,
+S0046,Dabrafenib,54,9.4,,,5,8.52,COLO 205
+S0047,Peretinoin,0,,,,0,,
+S0048,Flutamide,5,7.26,CHEMBL1871,7.26,6,4.2925,
+S0049,Thymopentin,0,,,,0,,
+S0050,Bortezomib,35,9.3,CHEMBL2364701,8.62,385,8.31,HT-29 | RKO | SNU-1 | SW480
+S0051,Bestatin,7,9.3,,,8,4.5,
+S0052,Bestatin (hydrochloride),7,9.3,,,8,4.5,
+S0053,Ixazomib,9,8.57,CHEMBL2364701,,6,7.23,
+S0054,Ixazomib citrate,1,9.03,CHEMBL2364701,,0,,
+S0055,Imiquimod (hydrochloride),4,6.19,CHEMBL5936,,2,4.305,
+S0056,Imiquimod (maleate),4,6.19,CHEMBL5936,,2,4.305,
+S0057,Belumosudil,10,7.62,CHEMBL2973,7.4,0,,
+S0058,Belumosudil (mesylate),10,7.62,CHEMBL2973,7.4,0,,
+S0059,Ipatasertib,5,9.19,CHEMBL2111353,,13,6.18,
+S0060,Malotilate,0,,,,0,,
+S0061,Fenofibrate,11,6.22,CHEMBL239,6.0,4,4.84,LoVo
+S0062,Ritonavir,26,7.89,CHEMBL2364675 CHEMBL243,7.89,2,7.34,
+S0063,AZD1390,2,10.05,,,2,4.675000000000001,
+S0064,Torkinib,206,8.68,,,0,,
+S0065,Sapanisertib,8,10.04,CHEMBL2842,10.04,14,6.9,
+S0066,Retinoic acid,22,10.4,CHEMBL2363069 CHEMBL2363071,,206,4.475,COLO 205 | HT-29 | SNU-1
+S0067,Benproperine (phosphate),0,,,,0,,
+S0068,Captopril,8,9.92,CHEMBL1808,9.92,0,,
+S0069,Silodosin,18,10.44,CHEMBL229,10.44,0,,
+S0070,Carbidopa (monohydrate),3,5.7,,,0,,
+S0071,Darolutamide,1,7.96,CHEMBL1871,7.96,2,5.145,
+S0072,Cinacalcet,26,7.4,,,0,,
+S0073,Bicalutamide,5,8.0,CHEMBL1871,8.0,371,4.16,A-172 | COLO 205 | H4 | HCT15 | HT-29 | RKO | SNU-1 | SW 1088 | SW1417 | SW48
+S0074,"Dapagliflozin ((2S)-1,2-propanediol, hydrate)",3,9.31,CHEMBL3884,9.31,0,,
+S0075,Aprepitant,7,10.1,CHEMBL249,10.1,2,4.640000000000001,
+S0076,(S)-Crizotinib | crizotinib,177,9.7,CHEMBL2111387 CHEMBL2689 CHEMBL3717 CHEMBL3883330 CHEMBL4247 CHEMBL5568,9.7,215,4.64,COLO 205 | RKO
+S0077,Crizotinib (hydrochloride),177,9.7,CHEMBL2111387 CHEMBL2689 CHEMBL3717 CHEMBL3883330 CHEMBL4247 CHEMBL5568,9.7,215,4.64,COLO 205 | RKO
+S0078,Zileuton,10,6.82,CHEMBL215,6.82,0,,
+S0079,Voriconazole,6,7.96,CHEMBL1780,,0,,
+S0080,18β-Glycyrrhetinic acid,12,8.92,,,25,4.1,HT-29 | SW480
+S0081,Glycyrrhizic acid,5,9.4,,,2,4.135,
+S0082,Diammonium Glycyrrhizinate,5,9.4,,,2,4.135,
+S0083,venetoclax,10,10.74,CHEMBL4860,10.74,10,6.3,
+S0084,Delamanid,0,,CHEMBL2111188,,0,,
+S0085,Triamcinolone,3,7.58,CHEMBL2034,7.58,0,,
+S0086,Drospirenone,5,8.48,CHEMBL1994 CHEMBL208,8.48,0,,
+S0087,Fulvestrant,8,10.22,CHEMBL206,10.22,3,7.75,
+S0088,Estrone sulfate (potassium),4,7.34,,,0,,
+S0089,Menadione,14,6.7,,,23,4.9399999999999995,HT-29
+S0090,Monocrotaline,0,,,,0,,
+S0091,Methylprednisolone succinate,0,,,,0,,
+S0092,Dexamethasone,8,9.44,CHEMBL2034,9.3,5,8.19,
+S0093,Dihydroartemisinin,1,5.02,CHEMBL613897,,39,4.87,A-172 | COLO 205 | HCT15 | HT-29
+S0094,Artesunate,1,5.8,,,29,4.87,
+S0095,Tofacitinib,53,9.8,,,10,6.695,
+S0096,Tofacitinib (citrate),53,9.8,,,10,6.695,
+S0097,Elimusertib hydrochloride,11,9.22,CHEMBL5024,9.22,4,7.16,HT-29 | LoVo
+S0098,Digitoxin,8,8.1,CHEMBL2095186,8.1,19,6.405,HT-29
+S0099,Ouabain (Octahydrate),4,6.78,,,7,6.42,
+S0100,Rutin (trihydrate),12,8.42,,,0,,
+S0101,Doxycycline (monohydrate),0,,,,0,,
+S0102,Cyclosporin A,25,8.82,CHEMBL1949,8.82,14,5.325,SW480
+S0103,Clobetasol propionate,4,9.18,CHEMBL2034,9.18,0,,
+S0104,Betamethasone dipropionate,0,,CHEMBL2034,,0,,
+S0105,Posaconazole,9,7.68,CHEMBL1780,,0,,
+S0106,Pravastatin (sodium),4,8.25,,,1,5.29,
+S0107,Ivermectin,0,,,,0,,
+S0108,Topotecan (hydrochloride),7,7.68,,,71,6.39,HT-29 | LoVo | RKO | SW480
+S0109,Vinblastine (sulfate),13,7.16,,,609,7.81,A-172 | H4 | HCT15 | HT-29 | LoVo | RKO | SNU-1 | SW 1088 | SW1417 | SW48 | SW480
+S0110,vincristine,5,6.41,,,64,7.6425,COLO 205 | HT-29
+S0111,Volasertib,10,9.09,CHEMBL3024,9.09,12,7.045,HT-29
+S0112,Erythromycin,9,7.41,CHEMBL2363135,,0,,
+S0113,Azithromycin (hydrate),0,,CHEMBL2363135,,0,,
+S0114,Budesonide,8,9.3,CHEMBL2034,9.3,1,9.02,
+S0115,Oleic acid,15,6.73,,,1,4.1,
+S0116,Daptomycin,2,5.1,CHEMBL2364031,,0,,
+S0117,Orlistat,12,9.6,CHEMBL1796 CHEMBL1812,8.8,3,4.89,
+S0118,Fingolimod (hydrochloride),6,6.22,,,13,5.21,
+S0119,Hexylresorcinol,2,6.25,,,0,,
+S0120,Levobupivacaine (hydrochloride),4,6.71,CHEMBL2072,,0,,
+S0121,Proglumide,0,,CHEMBL2095185,,0,,
+S0122,Ropivacaine (hydrochloride monohydrate),1,4.29,,,0,,
+S0123,Macitentan,5,9.3,CHEMBL2096678,,0,,
+S0124,Vemurafenib,20,8.68,CHEMBL5145,8.49,13,5.53,COLO 205 | HT-29
+S0125,Sildenafil,25,9.3,,,0,,
+S0126,Lidocaine (hydrochloride),4,5.7,CHEMBL2331043,,0,,
+S0127,Sunitinib,290,10.12,CHEMBL1844 CHEMBL1868 CHEMBL1913 CHEMBL1936 CHEMBL1955 CHEMBL1974 CHEMBL2007 CHEMBL2041 CHEMBL279,10.12,293,5.12,COLO 205 | HT-29 | RKO | SNU-1
+S0128,Procainamide (hydrochloride),3,6.0,,,0,,
+S0129,Lucanthone,3,7.05,,,5,5.24,
+S0130,Pemigatinib,5,10.0,CHEMBL2742 CHEMBL3650 CHEMBL4142,10.0,6,7.630000000000001,
+S0131,NG25,17,7.89,,,0,,
+S0132,Abemaciclib,71,9.59,CHEMBL2508 CHEMBL331,9.59,34,6.41,COLO 205
+S0133,Infigratinib,32,9.34,CHEMBL2095217,,12,7.199999999999999,
+S0134,Bimatoprost,2,5.3,CHEMBL1987,,0,,
+S0135,Dorzolamide (hydrochloride),13,10.37,,,0,,
+S0136,Tazarotene,1,5.5,CHEMBL2363069,,0,,
+S0137,Neratinib,109,10.7,CHEMBL1824 CHEMBL203 CHEMBL3009,10.7,20,6.38,
+S0138,Neratinib (maleate),109,10.7,CHEMBL1824 CHEMBL203 CHEMBL3009,10.7,20,6.38,
+S0139,Dapagliflozin,3,9.31,CHEMBL3884,9.31,0,,
+S0140,TAK-901,82,10.7,CHEMBL2185,7.36,0,,
+S0141,Irinotecan,11,7.3,,,64,5.4399999999999995,COLO 205 | HCT15 | HT-29 | LoVo | RKO | SW480
+S0142,Irinotecan (hydrochloride),11,7.3,,,64,5.4399999999999995,COLO 205 | HCT15 | HT-29 | LoVo | RKO | SW480
+S0143,Pimitespib,2,7.67,,,1,6.48,
+S0144,Indacaterol (maleate),14,7.69,,,1,5.13,
+S0145,Pioglitazone,9,7.21,,,4,5.6325,HT-29
+S0146,RMC-6236,3,7.26,,,2,8.885,
+S0147,ML264,1,7.27,,,16,6.165,COLO 205 | HT-29 | RKO
+S0148,Loperamide (hydrochloride),26,9.57,,,0,,
+S0149,Ribociclib,19,8.7,CHEMBL2508 CHEMBL331,8.7,11,4.97,
+S0150,Demeclocycline,0,,,,0,,
+S0151,Tetracycline (hydrochloride),0,,,,0,,
+S0152,Afatinib,47,10.21,,,583,4.93,A-172 | H4 | HCT15 | HT-29 | LoVo | RKO | SNU-1 | SW 1088 | SW1417 | SW48
+S0153,Diphenhydramine,14,7.83,,,0,,
+S0154,Altretamine,1,5.4,CHEMBL2311221,,0,,
+S0155,Rosiglitazone,14,8.92,CHEMBL235,8.92,5,4.8,HT-29
+S0156,Methotrexate,14,11.0,CHEMBL202,11.0,576,5.6,A-172 | COLO 205 | H4 | HCT15 | HT-29 | LoVo | RKO | SNU-1 | SW 1088 | SW1417 | SW48 | SW480
+S0157,Piroxicam,4,5.89,CHEMBL2094253,,1,4.705,
+S0158,Benztropine (mesylate),20,9.88,,,0,,
+S0159,Tadalafil,7,8.92,CHEMBL1827,8.92,3,4.84,
+S0160,Glasdegib,0,,CHEMBL5971,,0,,
+S0161,LB-100,4,6.4,CHEMBL2435 CHEMBL3425389 CHEMBL4703,6.4,6,5.005,
+S0162,AZD2858,3,8.31,,,0,,
+S0163,Entrectinib,64,9.7,CHEMBL3559684 CHEMBL4247 CHEMBL5568,9.7,8,7.13,
+S0164,Lumateperone (tosylate),9,9.27,CHEMBL217 CHEMBL224 CHEMBL228,9.27,0,,
+S0165,Edoxaban (tosylate monohydrate),3,9.25,,,0,,
+S0166,Regorafenib,32,9.3,CHEMBL1862 CHEMBL1906 CHEMBL1936 CHEMBL2041 CHEMBL2068 CHEMBL2095189 CHEMBL2095227 CHEMBL2815 CHEMBL3650 CHEMBL3961 CHEMBL4128 CHEMBL4142 CHEMBL4223 CHEMBL5122 CHEMBL5145,8.82,14,5.545,HT-29
+S0167,Capmatinib,2,9.89,CHEMBL3717,9.89,3,8.64,
+S0168,PH-797804,5,8.98,CHEMBL260,8.98,2,8.1875,
+S0169,Apalutamide,2,7.81,CHEMBL1871,7.81,1,6.76,
+S0170,Phenylephrine (hydrochloride),4,6.41,,,0,,
+S0171,Rucaparib (phosphate),22,9.4,CHEMBL3390820,,299,4.54,A-172 | H4 | LoVo | SW48
+S0172,Clopidogrel,5,6.7,,,0,,
+S0173,Eplerenone,4,7.2,CHEMBL1994,7.2,0,,
+S0174,Dimethyl fumarate,1,6.89,CHEMBL2069156,,1,4.97,
+S0175,Harringtonine,0,,,,2,6.3575,
+S0176,Homoharringtonine,0,,,,19,7.68,
+S0177,Methyl aminolevulinate (hydrochloride),0,,,,0,,
+S0178,Esmolol (hydrochloride),1,6.94,,,0,,
+S0179,Atazanavir (sulfate),6,6.52,,,1,7.16,
+S0180,Encorafenib,21,9.52,CHEMBL5145,9.52,0,,
+S0181,Mebendazole,3,5.44,CHEMBL2364704 CHEMBL2364705,,0,,
+S0182,Plicamycin,1,5.47,,,0,,
+S0183,Pralsetinib,6,9.52,CHEMBL2041 CHEMBL3430888 CHEMBL3430904,9.52,0,,
+S0184,Sinomenine,0,,,,1,4.43,
+S0185,Rifaximin,4,4.81,CHEMBL2364672,,0,,
+S0186,Rapamycin,14,10.3,CHEMBL1902,9.89,365,5.93,RKO | SNU-1
+S0187,Temsirolimus,5,5.75,CHEMBL1902,,576,6.49,A-172 | H4 | HCT15 | HT-29 | LoVo | RKO | SNU-1 | SW 1088 | SW1417 | SW48
+S0188,Everolimus,7,10.3,CHEMBL1902,,12,4.71,COLO 205 | HT-29
+S0189,Artemether,1,5.14,CHEMBL613897,,6,5.07,HCT15
+S0190,Fluvoxamine,7,8.84,,,0,,
+S0191,Fluvoxamine (maleate),7,8.84,,,0,,
+S0192,Aliskiren,1,9.4,,,0,,
+S0193,Relugolix,2,10.1,CHEMBL1855,10.1,0,,
+S0194,Bergenin,2,6.68,,,4,4.545,
+S0195,Ferulic acid,14,6.39,,,5,5.5600000000000005,LoVo
+S0196,γ-Oryzanol,0,,,,1,4.1,
+S0197,Trimetrexate,1,10.4,,,9,8.02,
+S0198,Amsacrine,10,6.68,CHEMBL2094255,6.0,40,6.0,COLO 205 | HCT15 | HT-29 | SW480
+S0199,Fostamatinib (disodium hexahydrate),22,7.77,CHEMBL2599,7.77,1,6.57,
+S0200,Erdafitinib,7,10.27,CHEMBL2095217,,12,7.5975,
+S0201,Vandetanib,117,9.96,CHEMBL2041 CHEMBL2095227 CHEMBL2363043 CHEMBL2363049 CHEMBL267 CHEMBL4128 CHEMBL4601,9.89,12,5.605,HT-29
+S0202,Palmatine (chloride),4,6.05,,,0,,
+S0203,Ivabradine (hydrochloride),0,,CHEMBL1250417,,0,,
+S0204,Berbamine,3,6.55,,,3,5.005,
+S0205,Berbamine (dihydrochloride),3,6.55,,,3,5.005,
+S0206,BI-3406,9,8.52,,,13,6.984999999999999,LoVo
+S0207,Cabozantinib (S-malate),37,10.52,,,39,5.365,COLO 205 | HT-29 | LoVo
+S0208,Gefitinib,97,10.0,CHEMBL203,10.0,605,5.04,A-172 | H4 | HCT15 | HT-29 | LoVo | RKO | SNU-1 | SW 1088 | SW1417 | SW48 | SW480
+S0209,Simotinib,0,,CHEMBL203,,0,,
+S0210,Anethole trithione,0,,,,0,,
+S0211,AZD-8055,7,9.89,CHEMBL2842,9.89,549,5.9,H4 | HT-29 | LoVo | RKO | SNU-1 | SW 1088 | SW1417 | SW48
+S0212,Tubulin inhibitor 6,2,5.28,,,4,5.295,HT-29
+S0213,Hesperidin,5,5.02,,,0,,
+S0214,Tranilast,3,6.0,,,1,4.08,
+S0215,Verapamil,25,8.53,,,24,6.395,
+S0216,(R)-Verapamil (hydrochloride),25,8.53,,,24,6.395,
+S0217,Isocorydine,0,,,,0,,
+S0218,Naproxen,5,7.3,CHEMBL2094253,,0,,
+S0219,Cepharanthine,2,5.96,,,6,5.3149999999999995,SW480
+S0220,Berberine (chloride hydrate),27,7.52,,,36,4.715,HCT15 | HT-29
+S0221,Omeprazole (sodium),0,,,,0,,
+S0222,Omeprazole,14,6.6,CHEMBL2095173,6.6,0,,
+S0223,Elagolix sodium,3,9.05,CHEMBL1855,9.05,0,,
+S0224,Doxorubicin (hydrochloride) | Epirubicin (hydrochloride),23,8.52,,,804,6.65,A-172 | COLO 205 | H4 | HCT15 | HT-29 | LS 180 | LoVo | RKO | SNU-1 | SW 1088 | SW1417 | SW48 | SW480
+S0225,Ranolazine,2,5.17,CHEMBL1980 CHEMBL2072,5.17,0,,
+S0226,Bosentan (hydrate),6,8.44,CHEMBL2096678,,2,4.22,
+S0227,Lapatinib ditosylate,25,10.22,,,207,4.84,COLO 205 | HT-29 | RKO | SW480
+S0228,Nimesulide,6,7.82,,,4,4.3100000000000005,
+S0229,Nafamostat (mesylate),14,10.7,,,4,4.425,
+S0230,Flumatinib (mesylate),3,8.92,CHEMBL1862,,0,,
+S0231,Busulfan,1,5.28,CHEMBL2311221,,3,4.59,
+S0232,Vismodegib,5,9.4,CHEMBL5971,9.4,115,4.28,A-172 | HT-29 | LS 180 | SNU-1
+S0233,Belzutifan,1,8.05,CHEMBL1744522,8.05,0,,
+S0234,MK-8353,4,8.15,CHEMBL3385 CHEMBL4040,8.15,3,7.29,COLO 205 | HT-29
+S0235,Pentagastrin,1,9.0,,,0,,
+S0236,Darinaparsin,0,,,,0,,
+S0237,S-Adenosyl-L-methionine (disulfate tosylate),11,8.55,,,0,,
+S0238,APTO-253,0,,,,0,,
+S0239,Panobinostat,19,10.0,,,21,7.67,COLO 205 | HT-29
+S0240,Rimonabant,10,9.72,CHEMBL218,9.72,0,,
+S0241,Rimonabant (Hydrochloride),10,9.72,CHEMBL218,9.72,0,,
+S0242,Sonidegib,2,8.6,,,0,,
+S0243,Methylthiouracil,1,5.83,,,0,,
+S0244,Ciclopirox,2,5.42,CHEMBL2363058 CHEMBL2366381,,1,4.63,
+S0245,Tomivosertib,6,9.0,CHEMBL3883293,8.22,7,4.87,
+S0246,Tucatinib,6,8.7,CHEMBL1824,8.7,0,,
+S0247,OTS514,3,8.59,,,35,8.0,HCT15
+S0248,Olanzapine,33,10.06,CHEMBL224 CHEMBL225 CHEMBL2331075,9.38,0,,
+S0249,Sulfatinib,7,9.0,CHEMBL2095227 CHEMBL3650,7.82,0,,
+S0250,AZD-7648,12,9.22,,,2,5.345000000000001,
+S0251,Celecoxib,35,9.33,CHEMBL230,9.33,23,4.54,HT-29 | SW480
+S0252,Ponatinib,75,9.96,,,654,5.34,A-172 | COLO 205 | H4 | HCT15 | HT-29 | LoVo | RKO | SNU-1 | SW 1088 | SW1417 | SW48
+S0253,NVP-BHG712,1265,10.07,,,0,,
+S0254,Tolcapone,6,7.69,CHEMBL2023,6.9,0,,
+S0255,Tolmetin,5,7.39,,,0,,
+S0256,Thymol,0,,,,0,,
+S0257,Gemfibrozil,6,7.0,CHEMBL239,,0,,
+S0258,Canagliflozin,2,8.66,,,0,,
+S0259,Canagliflozin (hemihydrate),2,8.66,,,0,,
+S0260,MK-3903,1,5.75,,,0,,
+S0261,EX229,0,,,,0,,
+S0262,LY-2584702 (tosylate salt),2,8.42,CHEMBL4501,8.4,0,,
+S0263,Vortioxetine,19,8.8,,,2,6.725,
+S0264,Dexmedetomidine,9,10.82,,,0,,
+S0265,Lopinavir,7,6.39,CHEMBL243,,1,6.9,
+S0266,Mozavaptan,4,8.03,CHEMBL1790,8.03,0,,
+S0267,Nevirapine,0,,CHEMBL247,,7,6.52,
+S0268,Radotinib,1,8.92,CHEMBL2096618,8.92,0,,
+S0269,Meloxicam,3,7.45,CHEMBL230,7.28,0,,
+S0270,Fedratinib (hydrochloride hydrate),281,9.12,CHEMBL1974 CHEMBL2971,9.12,13,6.13,
+S0271,Roxadustat,5,7.85,CHEMBL3831261,,0,,
+S0272,Ligustrazine,0,,,,9,5.0,
+S0273,Alpelisib,11,8.77,CHEMBL4005,8.77,16,6.1,HT-29
+S0274,Raltitrexed,7,8.2,CHEMBL1952,8.05,11,5.455,
+S0275,Pyridoxine,0,,,,0,,
+S0276,Pyridoxine (hydrochloride),0,,,,0,,
+S0277,Ornidazole,0,,,,0,,
+S0278,Sulfisoxazole,2,6.22,CHEMBL2364668,,0,,
+S0279,Valdecoxib,16,8.3,CHEMBL230,8.3,0,,
+S0280,Cloxacillin (sodium),1,4.38,,,0,,
+S0281,Mitoxantrone (dihydrochloride),28,8.82,,,44,7.265000000000001,HT-29 | LoVo
+S0282,Clonidine (hydrochloride),17,8.42,CHEMBL2095158,8.42,0,,
+S0283,Pexidartinib (hydrochloride),13,8.77,CHEMBL1844 CHEMBL1936 CHEMBL1974,8.77,2,6.4350000000000005,
+S0284,Norepinephrine (hydrochloride),13,7.52,,,0,,
+S0285,L-Eflornithine (monohydrochloride),1,4.41,,,0,,
+S0286,Cysteamine (hydrochloride),0,,,,1,4.15,
+S0287,Cytarabine (hydrochloride),4,7.7,CHEMBL2311221 CHEMBL2311222 CHEMBL2363042,,575,5.79,A-172 | H4 | HCT15 | HT-29 | LoVo | RKO | SNU-1 | SW 1088 | SW1417 | SW48
+S0288,Riluzole hydrochloride,4,5.76,CHEMBL2331043,,0,,
+S0289,XRK3F2,0,,,,1,5.34,
+S0290,Econazole,56,7.54,,,0,,
+S0291,Clotrimazole,67,8.74,CHEMBL1780,,1,5.29,
+S0292,TAK-733,3,8.75,CHEMBL2964 CHEMBL3587,8.75,0,,
+S0293,Bendamustine,8,8.22,,,5,4.88,
+S0294,c-Kit-IN-1,0,,,,0,,
+S0295,CP21R7,2,8.74,,,0,,
+S0296,9-ING-41,1,6.15,CHEMBL262,6.15,3,6.0,
+S0297,Binimetinib,4,7.92,CHEMBL2964 CHEMBL3587,7.92,3,6.0,
+S0298,Temuterkib,2,10.19,CHEMBL1907606,,1,6.0,
+S0299,Bentamapimod,3,7.1,CHEMBL2096667,,0,,
+S0300,HI-TOPK-032,0,,,,0,,
+S0301,ETC-206,4,8.03,,,4,4.85,
+S0302,Pentamidine (isethionate),30,6.66,,,8,4.885,
+S0303,Lonafarnib,4,8.72,CHEMBL2094108,8.72,2,7.23,
+S0304,Carbamazepine,3,4.66,CHEMBL2331043,,0,,
+S0305,Allantoin,0,,,,0,,
+S0306,Hydroxyurea,3,4.64,CHEMBL2095215,,0,,
+S0307,BAY1125976,7,9.05,CHEMBL2431 CHEMBL4282,9.05,0,,
+S0308,L-Thyroxine (sodium salt pentahydrate),8,6.4,CHEMBL2111462,,0,,
+S0309,Capivasertib,29,9.05,CHEMBL2111353,8.52,22,4.74,HT-29
+S0310,Niclosamide (olamine),14,7.55,CHEMBL2366043 CHEMBL2366044,,29,6.1,HT-29 | LoVo | SW480
+S0311,Furosemide,15,7.28,CHEMBL1874,,0,,
+S0312,Bimiralisib,12,8.82,,,2,6.125,
+S0313,Tucidinostat,9,8.05,,,40,5.77,HT-29
+S0314,PF-06260933,5,8.43,,,0,,
+S0315,Lenalidomide (hemihydrate),5,7.24,CHEMBL3833061,,133,4.32,
+S0316,Gemcitabine,1,6.72,,,671,6.98,A-172 | COLO 205 | H4 | HCT15 | HT-29 | LoVo | RKO | SNU-1 | SW 1088 | SW1417 | SW48 | SW480
+S0317,Cytarabine,4,7.7,CHEMBL2311221 CHEMBL2311222 CHEMBL2363042,,575,5.79,A-172 | H4 | HCT15 | HT-29 | LoVo | RKO | SNU-1 | SW 1088 | SW1417 | SW48
+S0318,Clofarabine,1,5.51,CHEMBL2095215 CHEMBL2311221 CHEMBL2363042,,10,7.045,
+S0319,Pemetrexed,11,8.89,CHEMBL1952 CHEMBL202 CHEMBL3972,8.89,15,5.79,
+S0320,Folic acid,3,5.01,,,2,5.675,
+S0321,Decitabine,1,7.52,CHEMBL1992 CHEMBL1993 CHEMBL2311221,7.52,0,,
+S0322,5-Azacytidine,1,6.52,CHEMBL1992 CHEMBL1993 CHEMBL2311221 CHEMBL2311222,6.52,8,5.75,HT-29
+S0323,Adenosine,13,8.94,CHEMBL1872 CHEMBL2111329,,5,4.73,
+S0324,Adenine,3,5.17,,,1,4.92,
+S0325,Balsalazide (sodium hydrate),1,5.41,,,0,,
+S0326,Gallic acid (hydrate),18,7.22,,,4,4.83,
+S0327,Belinostat,17,9.07,CHEMBL2093865,8.0,22,6.4,COLO 205 | HT-29
+S0328,SBI-0640756,1,4.94,,,0,,
+S0329,Selinexor,1,7.73,CHEMBL5661,7.73,7,7.47,
+S0330,ULK-101,4,8.08,,,0,,
+S0331,AT7519,57,9.02,CHEMBL3559691,,14,6.33,
+S0332,Asciminib,3,9.35,CHEMBL1862,9.3,1,8.81,
+S0333,ERK5-IN-2,2,6.09,,,0,,
+S0334,Larotrectinib,6,9.7,CHEMBL3559684,,2,6.640000000000001,
+S0335,Larotrectinib sulfate,6,9.7,CHEMBL3559684,,2,6.640000000000001,
+S0336,Filgotinib,29,8.95,CHEMBL2148 CHEMBL2835 CHEMBL2971 CHEMBL3553,8.0,0,,
+S0337,Oxaliplatin,0,,,,0,,
+S0338,4EGI-1,1,4.36,,,8,4.4,
+S0339,Baicalin,8,5.52,,,2,4.6,
+S0340,Fumaric acid,2,4.72,,,0,,
+S0341,Lipoic acid,3,9.0,,,4,4.75,HT-29
+S0342,Oxaprozin,9,6.96,CHEMBL2094253,,0,,
+S0343,Gallic acid,18,7.22,,,4,4.83,
+S0344,Ataluren,2,6.7,CHEMBL3987582,,0,,
+S0345,Salicylic acid,10,9.8,,,0,,
+S0346,Sodium Salicylate,10,9.8,,,0,,
+S0347,olaparib,17,10.0,CHEMBL3390820,7.68,278,4.59,H4 | HCT15 | HT-29 | LoVo | SNU-1 | SW48 | SW480
+S0348,Cobimetinib,5,9.7,CHEMBL2964 CHEMBL3587,9.7,2,7.73,
+S0349,Cilostazol,6,8.41,CHEMBL241,8.41,0,,
+S0350,GSK1059615,27,9.4,CHEMBL3559703,,0,,
+S0351,LY2090314,29,9.15,CHEMBL262 CHEMBL2850,9.15,14,6.359999999999999,COLO 205
+S0352,Phenytoin (sodium),7,5.22,CHEMBL2331043,,0,,
+S0353,Minodronic acid,2,8.72,CHEMBL1782,8.72,1,5.73,
+S0354,DT-061,0,,,,4,4.9399999999999995,
+S0355,Trifluridine,0,,CHEMBL2366042,,0,,
+S0356,Brivudine,1,7.0,,,3,6.7,
+S0357,Idoxuridine,1,7.05,CHEMBL2366042,,0,,
+S0358,5-Fluorouracil,1,6.2,CHEMBL1952 CHEMBL2311221 CHEMBL2311222,,188,5.047499999999999,COLO 205 | HCT15 | HT-29 | LS 180 | LoVo | RKO | SW48 | SW480
+S0359,Hydroxyfasudil,13,7.5,,,0,,
+S0360,Allopurinol,0,,CHEMBL1929,,0,,
+S0361,BI-78D3,0,,,,0,,
+S0362,Daidzin,0,,,,0,,
+S0363,Uridine,0,,,,0,,
+S0364,Penfluridol,25,6.9,,,1,5.295,
+S0365,Arbutin,1,4.52,CHEMBL1973,4.52,0,,
+S0366,Vilanterol,0,,,,0,,
+S0367,LJI308,3,8.4,,,0,,
+S0368,Triclosan,3,7.22,CHEMBL2364678,,0,,
+S0369,Resveratrol,51,9.22,,,44,4.445,HT-29 | LoVo | SW480
+S0370,8-Hydroxyquinoline,4,5.9,,,10,4.675,
+S0371,Talc,0,,,,0,,

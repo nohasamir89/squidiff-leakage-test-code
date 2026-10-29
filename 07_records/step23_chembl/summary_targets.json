@@ -1,0 +1,52 @@
+{
+  "records_by_target_type": {
+    "CELL-LINE": 27846,
+    "SINGLE PROTEIN": 21544,
+    "PROTEIN COMPLEX": 490,
+    "PROTEIN FAMILY": 232,
+    "CHIMERIC PROTEIN": 130,
+    "ORGANISM": 61,
+    "PROTEIN COMPLEX GROUP": 42,
+    "PROTEIN-PROTEIN INTERACTION": 20,
+    "NUCLEIC-ACID": 10,
+    "TISSUE": 6,
+    "SELECTIVITY GROUP": 2,
+    "SUBCELLULAR": 1
+  },
+  "structures_by_target_type": {
+    "SINGLE PROTEIN": 311,
+    "CELL-LINE": 193,
+    "PROTEIN FAMILY": 71,
+    "PROTEIN COMPLEX": 44,
+    "ORGANISM": 17,
+    "PROTEIN COMPLEX GROUP": 16,
+    "CHIMERIC PROTEIN": 14,
+    "PROTEIN-PROTEIN INTERACTION": 10,
+    "TISSUE": 6,
+    "SELECTIVITY GROUP": 2,
+    "NUCLEIC-ACID": 2,
+    "SUBCELLULAR": 1
+  },
+  "n_structures": 372,
+  "structures_with_protein_potency": 312,
+  "structures_with_mechanism_annotation": 198,
+  "structures_with_potency_on_mechanism_target": 119,
+  "structures_with_cell_line_potency": 193,
+  "structures_tested_in_a_tahoe_line": 75,
+  "structures_per_tahoe_line": {
+    "HT-29": 60,
+    "LoVo": 32,
+    "RKO": 29,
+    "COLO 205": 28,
+    "HCT15": 24,
+    "SNU-1": 22,
+    "SW480": 21,
+    "SW48": 20,
+    "A-172": 17,
+    "H4": 17,
+    "SW 1088": 16,
+    "SW1417": 16,
+    "LS 180": 4
+  },
+  "untyped_target_ids": 0
+}

@@ -1,0 +1,158 @@
+{
+  "chembl_release": "ChEMBL_37",
+  "chembl_release_date": "2026-05-01",
+  "queried_utc": "2026-10-25T20:17:54.652023+00:00",
+  "mock": false,
+  "filters": {
+    "standard_type": [
+      "IC50",
+      "Ki",
+      "Kd"
+    ],
+    "pchembl_value": "not null",
+    "target_organism": "Homo sapiens",
+    "identity": "parent fragment, InChIKey connectivity block, ChEMBL parents pooled"
+  },
+  "n_structures": 372,
+  "n_parent_molecules": 350,
+  "parent_molecules_with_any_record": 305,
+  "structures_in_chembl": 365,
+  "structures_with_any_record": 326,
+  "structures_with_10plus_records": 230,
+  "structures_with_IC50": 317,
+  "structures_with_Ki": 190,
+  "structures_with_Kd": 135,
+  "n_records": 50473,
+  "records_without_target_id": 89,
+  "n_distinct_targets": 3087,
+  "targets_shared_by_10plus_structures": 819,
+  "targets_shared_by_30plus_structures": 39,
+  "top_targets_by_structures": [
+    {
+      "target": "CHEMBL392",
+      "name": "A549",
+      "n_structures": 97
+    },
+    {
+      "target": "CHEMBL387",
+      "name": "MCF7",
+      "n_structures": 85
+    },
+    {
+      "target": "CHEMBL400",
+      "name": "MDA-MB-231",
+      "n_structures": 77
+    },
+    {
+      "target": "CHEMBL394",
+      "name": "HCT-116",
+      "n_structures": 77
+    },
+    {
+      "target": "CHEMBL395",
+      "name": "HepG2",
+      "n_structures": 66
+    },
+    {
+      "target": "CHEMBL390",
+      "name": "PC-3",
+      "n_structures": 62
+    },
+    {
+      "target": "CHEMBL384",
+      "name": "HT-29",
+      "n_structures": 60
+    },
+    {
+      "target": "CHEMBL399",
+      "name": "HeLa",
+      "n_structures": 59
+    },
+    {
+      "target": "CHEMBL385",
+      "name": "K562",
+      "n_structures": 56
+    },
+    {
+      "target": "CHEMBL383",
+      "name": "HL-60",
+      "n_structures": 55
+    },
+    {
+      "target": "CHEMBL6020",
+      "name": "Bile salt export pump",
+      "n_structures": 49
+    },
+    {
+      "target": "CHEMBL240",
+      "name": "Voltage-gated inwardly rectifying potassium channel KCNH2",
+      "n_structures": 45
+    },
+    {
+      "target": "CHEMBL614925",
+      "name": "SK-OV-3",
+      "n_structures": 44
+    },
+    {
+      "target": "CHEMBL613508",
+      "name": "DU-145",
+      "n_structures": 44
+    },
+    {
+      "target": "CHEMBL614004",
+      "name": "A2780",
+      "n_structures": 41
+    },
+    {
+      "target": "CHEMBL612262",
+      "name": "SW-620",
+      "n_structures": 39
+    },
+    {
+      "target": "CHEMBL396",
+      "name": "NCI-H460",
+      "n_structures": 39
+    },
+    {
+      "target": "CHEMBL382",
+      "name": "CCRF-CEM",
+      "n_structures": 39
+    },
+    {
+      "target": "CHEMBL340",
+      "name": "Cytochrome P450 3A4",
+      "n_structures": 37
+    },
+    {
+      "target": "CHEMBL614725",
+      "name": "MIA PaCa-2",
+      "n_structures": 36
+    },
+    {
+      "target": "CHEMBL614361",
+      "name": "T47D",
+      "n_structures": 36
+    },
+    {
+      "target": "CHEMBL613859",
+      "name": "A-375",
+      "n_structures": 36
+    },
+    {
+      "target": "CHEMBL613835",
+      "name": "MV4-11",
+      "n_structures": 36
+    },
+    {
+      "target": "CHEMBL614247",
+      "name": "U-87 MG",
+      "n_structures": 35
+    },
+    {
+      "target": "CHEMBL614069",
+      "name": "A-431",
+      "n_structures": 35
+    }
+  ],
+  "stereo_marked_table_smiles": 4
+}
