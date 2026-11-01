@@ -1,0 +1,59 @@
+[port] generated harness files are current (sciplex -> tahoe -> step24)
+[permutation] 75 held-out structures, derangement, sha256 69ff344f2ce3
+[sidecar] recipe split=drug_split_1 seed=1 encoder_arm=mlp n_params=58178180 trained_at=116b9f5  checkpoint bound
+[prereg] 9 sections committed | [commit] 6785133b8d74096cdb661b24f111db915c024c17 | [node] cn274
+[task] T=4  s24_drug_split_1_fpzero_seed_1  arm=fpzero  S24_MODE=zero  expect_conditions=2899  nfe=50
+[fm-eval] arm=fm_gaussian  nfe=50  solver=euler
+[step12] guidance_w=None  guide_t_min=0.00
+[harness] drug encoder = fingerprint (drug_dimension=1024)
+[step24] mode=zero
+======================================================================
+BASE Squidiff sci-Plex LEAKAGE TEST  A=cf-treated  B=cf-control  C=control-mean
+Started: 2026-11-01 20:39:47.347965
+======================================================================
+
+========================================
+Split: drug_split_1
+========================================
+  model: /scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step15/recipe/drug_split_1_seed_1/model_0.9999.pt
+load model and diffusion...
+drug encoding detected from checkpoint: fingerprint (drug_dimension=1024)
+encoder arm detected from checkpoint: mlp (memory_size=0)
+checkpoint architecture: adaLN-Zero
+diffusion num of steps =  1000
+effective use_adaln=True use_adaln_timeonly=False (3 blocks)
+  A (cf=TREATED):  E[r2] all 0.9348 | DEGs 0.8920
+  B (cf=CONTROL):  E[r2] all 0.9335 | DEGs 0.8877  <-- genuine prediction
+  C (control mean):E[r2] all 0.9384 | DEGs 0.8703
+  --> leakage gap (A - B): r2 all = 0.0013
+  [Pearson] A 0.9727 | B 0.9729 | C 0.9777
+  --> model-above-baseline (B - C): Pearson all -0.0048 | DEGs 0.0001   <-- PRIMARY QUANTITY
+
+  Per-cell-line (A vs B vs C, all-gene E[r2]):
+  Cell line   A treat   B ctrl   C base
+  A-172         0.961    0.960    0.957
+  KATO III      0.961    0.960    0.953
+  SNU-1         0.962    0.960    0.950
+  RKO           0.957    0.950    0.957
+  SW480         0.950    0.944    0.949
+  SW48          0.945    0.943    0.947
+  SW 1088       0.936    0.939    0.924
+  COLO 205      0.936    0.935    0.931
+  LS 180        0.929    0.927    0.927
+  LoVo          0.926    0.924    0.940
+  SW1417        0.920    0.921    0.938
+  HT-29         0.918    0.918    0.918
+  H4            0.922    0.918    0.924
+  HCT15         0.867    0.874    0.915
+
+  wrote /scratch/ni2071/Diffusion/Squidiff_git/Squidiff_ms/tahoe_results/leakage_s24_drug_split_1_fpzero_seed_1.json
+  wrote /scratch/ni2071/Diffusion/Squidiff_git/Squidiff_ms/tahoe_results/vectors_s24_drug_split_1_fpzero_seed_1_pc.npz  2899 conditions, per-cell
+  wrote /scratch/ni2071/Diffusion/Squidiff_git/Squidiff_ms/tahoe_results/vectors_s24_drug_split_1_fpzero_seed_1.npz  shape (2899, 200)
+  median r2 (all ): A 0.9490 | B 0.9506 | C 0.9606
+  negative r2 (all ): A 0 | B 3 | C 1  of 2899
+  median r2 (DEGs): A 0.9175 | B 0.9194 | C 0.9160
+  negative r2 (DEGs): A 6 | B 14 | C 21  of 2899
+[step24] encoder calls through the substituting shim: 2899
+[step24] 2899 encoder calls went through the substituting shim
+[post] s24_drug_split_1_fpzero_seed_1: 2899 conditions (record 2899), cells 95-200, finite, non-negative, mode zero
+[Sun Nov  1 20:53:14 +04 2026] s24_drug_split_1_fpzero_seed_1 DONE

@@ -1,0 +1,854 @@
+{
+  "prereg": "PREREG_step24_fingerprint_swap.md",
+  "split": "drug_split_1",
+  "n_structures": 75,
+  "structures": [
+    "S0003",
+    "S0007",
+    "S0009",
+    "S0012",
+    "S0020",
+    "S0030",
+    "S0031",
+    "S0038",
+    "S0049",
+    "S0050",
+    "S0052",
+    "S0055",
+    "S0056",
+    "S0061",
+    "S0065",
+    "S0069",
+    "S0071",
+    "S0077",
+    "S0079",
+    "S0080",
+    "S0091",
+    "S0092",
+    "S0094",
+    "S0098",
+    "S0099",
+    "S0100",
+    "S0101",
+    "S0103",
+    "S0106",
+    "S0109",
+    "S0111",
+    "S0122",
+    "S0126",
+    "S0129",
+    "S0131",
+    "S0132",
+    "S0142",
+    "S0148",
+    "S0149",
+    "S0163",
+    "S0164",
+    "S0179",
+    "S0184",
+    "S0186",
+    "S0189",
+    "S0190",
+    "S0194",
+    "S0195",
+    "S0209",
+    "S0211",
+    "S0213",
+    "S0214",
+    "S0216",
+    "S0217",
+    "S0218",
+    "S0246",
+    "S0247",
+    "S0251",
+    "S0257",
+    "S0265",
+    "S0271",
+    "S0273",
+    "S0277",
+    "S0282",
+    "S0295",
+    "S0302",
+    "S0314",
+    "S0317",
+    "S0323",
+    "S0326",
+    "S0344",
+    "S0347",
+    "S0350",
+    "S0352",
+    "S0368"
+  ],
+  "draws_until_derangement": 7,
+  "rng": "RandomState(0), rejection: redraw while a structure maps to itself or to identical bits",
+  "map": {
+    "S0003": "S0094",
+    "S0007": "S0069",
+    "S0009": "S0314",
+    "S0012": "S0061",
+    "S0020": "S0109",
+    "S0030": "S0071",
+    "S0031": "S0213",
+    "S0038": "S0350",
+    "S0049": "S0273",
+    "S0050": "S0079",
+    "S0052": "S0302",
+    "S0055": "S0100",
+    "S0056": "S0344",
+    "S0061": "S0323",
+    "S0065": "S0179",
+    "S0069": "S0077",
+    "S0071": "S0317",
+    "S0077": "S0098",
+    "S0079": "S0009",
+    "S0080": "S0052",
+    "S0091": "S0295",
+    "S0092": "S0246",
+    "S0094": "S0247",
+    "S0098": "S0132",
+    "S0099": "S0065",
+    "S0100": "S0055",
+    "S0101": "S0195",
+    "S0103": "S0277",
+    "S0106": "S0368",
+    "S0109": "S0271",
+    "S0111": "S0148",
+    "S0122": "S0216",
+    "S0126": "S0209",
+    "S0129": "S0184",
+    "S0131": "S0217",
+    "S0132": "S0326",
+    "S0142": "S0122",
+    "S0148": "S0080",
+    "S0149": "S0218",
+    "S0163": "S0194",
+    "S0164": "S0149",
+    "S0179": "S0189",
+    "S0184": "S0103",
+    "S0186": "S0092",
+    "S0189": "S0282",
+    "S0190": "S0211",
+    "S0194": "S0091",
+    "S0195": "S0049",
+    "S0209": "S0111",
+    "S0211": "S0038",
+    "S0213": "S0265",
+    "S0214": "S0030",
+    "S0216": "S0050",
+    "S0217": "S0214",
+    "S0218": "S0190",
+    "S0246": "S0126",
+    "S0247": "S0101",
+    "S0251": "S0020",
+    "S0257": "S0106",
+    "S0265": "S0129",
+    "S0271": "S0164",
+    "S0273": "S0251",
+    "S0277": "S0131",
+    "S0282": "S0352",
+    "S0295": "S0031",
+    "S0302": "S0142",
+    "S0314": "S0347",
+    "S0317": "S0099",
+    "S0323": "S0163",
+    "S0326": "S0003",
+    "S0344": "S0007",
+    "S0347": "S0257",
+    "S0350": "S0056",
+    "S0352": "S0012",
+    "S0368": "S0186"
+  },
+  "sha256": "69ff344f2ce3a34db23a2c9ffe95d0c583ec91848b4193c29949d49b40b5f242",
+  "smiles_source": {
+    "test_file": "/scratch/ni2071/Diffusion/tahoe/datasets_step15/tahoe_test_drug_split_1.h5ad",
+    "column": "SMILES",
+    "distinct_strings": 75,
+    "equal_to_record_canonical": 0
+  },
+  "smiles": {
+    "S0003": {
+      "own": "COCCOC1=C(C=C2C(=C1)C(=NC=N2)NC3=CC=CC(=C3)C#C)OCCOC",
+      "substituted": "CC1CCC2C(C(OC3C24C1CCC(O3)(OO4)C)OC(=O)CCC(=O)O)C",
+      "names": [
+        "Erlotinib"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0007": {
+      "own": "CC1=CC2=C(C=C1C(=C)C3=CC=C(C=C3)C(=O)O)C(CCC2(C)C)(C)C",
+      "substituted": "CC(CC1=CC2=C(C(=C1)C(=O)N)N(CC2)CCCO)NCCOC3=CC=CC=C3OCC(F)(F)F",
+      "names": [
+        "Bexarotene"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0009": {
+      "own": "COC1=CC(=CC(=C1)C#CC2=NN(C3=NC=NC(=C23)N)C4CCN(C4)C(=O)C=C)OC",
+      "substituted": "C1=CC(=CC=C1C2=C(N=CC(=C2)C3=CN=C(C=C3)N)N)Cl",
+      "names": [
+        "Futibatinib"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0012": {
+      "own": "CN(C)CCN(C)C1=CC(=C(C=C1NC(=O)C=C)NC2=NC=CC(=N2)C3=CN(C4=CC=CC=C43)C5CC5)OC.Cl",
+      "substituted": "CC(C)OC(=O)C(C)(C)OC1=CC=C(C=C1)C(=O)C2=CC=C(C=C2)Cl",
+      "names": [
+        "Almonertinib (hydrochloride)"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0020": {
+      "own": "CC(=O)CCCCN1C(=O)C2=C(N=CN2C)N(C1=O)C",
+      "substituted": "CCC1(CC2CC(C3=C(CCN(C2)C1)C4=CC=CC=C4N3)(C5=C(C=C6C(=C5)C78CCN9C7C(C=CC9)(C(C(C8N6C)(C(=O)OC)O)OC(=O)C)CC)OC)C(=O)OC)O.OS(=O)(=O)O",
+      "names": [
+        "Pentoxifylline"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0030": {
+      "own": "CC1=C2C(C(=O)C3(C(CC4C(C3C(C(C2(C)C)(CC1OC(=O)C(C(C5=CC=CC=C5)NC(=O)C6=CC=CC=C6)O)O)OC(=O)C7=CC=CC=C7)(CO4)OC(=O)C)O)C)OC(=O)C",
+      "substituted": "CC(CN1C=CC(=N1)C2=CC(=C(C=C2)C#N)Cl)NC(=O)C3=NNC(=C3)C(C)O",
+      "names": [
+        "Paclitaxel"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0031": {
+      "own": "CC1C2CCC3(C(C2(CCC1O)C)C(CC4C3(CC(C4=C(CCC=C(C)C)C(=O)O)OC(=O)C)C)O)C",
+      "substituted": "CC1C(C(C(C(O1)OCC2C(C(C(C(O2)OC3=CC(=C4C(=O)CC(OC4=C3)C5=CC(=C(C=C5)OC)O)O)O)O)O)O)O)O",
+      "names": [
+        "Fusidic acid"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0038": {
+      "own": "CC(=O)C1=CC=C(C=C1)S(=O)(=O)NC(=O)NC2CCCCC2",
+      "substituted": "C1=CC2=NC=CC(=C2C=C1C=C3C(=O)NC(=O)S3)C4=CC=NC=C4",
+      "names": [
+        "Acetohexamide"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0049": {
+      "own": "CC(C)C(C(=O)NC(CC1=CC=C(C=C1)O)C(=O)O)NC(=O)C(CC(=O)O)NC(=O)C(CCCCN)NC(=O)C(CCCN=C(N)N)N",
+      "substituted": "CC1=C(SC(=N1)NC(=O)N2CCCC2C(=O)N)C3=CC(=NC=C3)C(C)(C)C(F)(F)F",
+      "names": [
+        "Thymopentin"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0050": {
+      "own": "B(C(CC(C)C)NC(=O)C(CC1=CC=CC=C1)NC(=O)C2=NC=CN=C2)(O)O",
+      "substituted": "CC(C1=NC=NC=C1F)C(CN2C=NC=N2)(C3=C(C=C(C=C3)F)F)O",
+      "names": [
+        "Bortezomib"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0052": {
+      "own": "CC(C)CC(C(=O)O)NC(=O)C(C(CC1=CC=CC=C1)N)O.Cl",
+      "substituted": "C1=CC(=CC=C1C(=N)N)OCCCCCOC2=CC=C(C=C2)C(=N)N.C(CS(=O)(=O)O)O.C(CS(=O)(=O)O)O",
+      "names": [
+        "Bestatin (hydrochloride)"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0055": {
+      "own": "CC(C)CN1C=NC2=C1C3=CC=CC=C3N=C2N.Cl",
+      "substituted": "CC1C(C(C(C(O1)OCC2C(C(C(C(O2)OC3=C(OC4=CC(=CC(=C4C3=O)O)O)C5=CC(=C(C=C5)O)O)O)O)O)O)O)O.O.O.O",
+      "names": [
+        "Imiquimod (hydrochloride)"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0056": {
+      "own": "CC(C)CN1C=NC2=C1C3=CC=CC=C3N=C2N.C(=CC(=O)O)C(=O)O",
+      "substituted": "C1=CC=C(C(=C1)C2=NC(=NO2)C3=CC(=CC=C3)C(=O)O)F",
+      "names": [
+        "Imiquimod (maleate)"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0061": {
+      "own": "CC(C)OC(=O)C(C)(C)OC1=CC=C(C=C1)C(=O)C2=CC=C(C=C2)Cl",
+      "substituted": "C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)CO)O)O)N",
+      "names": [
+        "Fenofibrate"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0065": {
+      "own": "CC(C)N1C2=NC=NC(=C2C(=N1)C3=CC4=C(C=C3)OC(=N4)N)N",
+      "substituted": "CC(C)(C)C(C(=O)NC(CC1=CC=CC=C1)C(CN(CC2=CC=C(C=C2)C3=CC=CC=N3)NC(=O)C(C(C)(C)C)NC(=O)OC)O)NC(=O)OC.OS(=O)(=O)O",
+      "names": [
+        "Sapanisertib"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0069": {
+      "own": "CC(CC1=CC2=C(C(=C1)C(=O)N)N(CC2)CCCO)NCCOC3=CC=CC=C3OCC(F)(F)F",
+      "substituted": "CC(C1=C(C=CC(=C1Cl)F)Cl)OC2=C(N=CC(=C2)C3=CN(N=C3)C4CCNCC4)N.Cl",
+      "names": [
+        "Silodosin"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0071": {
+      "own": "CC(CN1C=CC(=N1)C2=CC(=C(C=C2)C#N)Cl)NC(=O)C3=NNC(=C3)C(C)O",
+      "substituted": "C1=CN(C(=O)N=C1N)C2C(C(C(O2)CO)O)O",
+      "names": [
+        "Darolutamide"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0077": {
+      "own": "CC(C1=C(C=CC(=C1Cl)F)Cl)OC2=C(N=CC(=C2)C3=CN(N=C3)C4CCNCC4)N.Cl",
+      "substituted": "CC1C(C(CC(O1)OC2C(OC(CC2O)OC3C(OC(CC3O)OC4CCC5(C(C4)CCC6C5CCC7(C6(CCC7C8=CC(=O)OC8)O)C)C)C)C)O)O",
+      "names": [
+        "Crizotinib (hydrochloride)"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0079": {
+      "own": "CC(C1=NC=NC=C1F)C(CN2C=NC=N2)(C3=C(C=C(C=C3)F)F)O",
+      "substituted": "COC1=CC(=CC(=C1)C#CC2=NN(C3=NC=NC(=C23)N)C4CCN(C4)C(=O)C=C)OC",
+      "names": [
+        "Voriconazole"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0080": {
+      "own": "C[C@]12CC[C@](C[C@H]1C3=CC(=O)[C@@H]4[C@]5(CC[C@@H](C([C@@H]5CC[C@]4([C@@]3(CC2)C)C)(C)C)O)C)(C)C(=O)O",
+      "substituted": "CC(C)CC(C(=O)O)NC(=O)C(C(CC1=CC=CC=C1)N)O.Cl",
+      "names": [
+        "18\u03b2-Glycyrrhetinic acid"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0091": {
+      "own": "CC1CC2C3CCC(C3(CC(C2C4(C1=CC(=O)C=C4)C)O)C)(C(=O)COC(=O)CCC(=O)O)O",
+      "substituted": "CN1C=C(C2=CC=CC=C21)C3=C(C(=O)NC3=O)C4=CC(=CC=C4)N",
+      "names": [
+        "Methylprednisolone succinate"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0092": {
+      "own": "CC1CC2C3CCC4=CC(=O)C=CC4(C3(C(CC2(C1(C(=O)CO)O)C)O)F)C",
+      "substituted": "CC1=C(C=CC(=C1)NC2=NC=NC3=C2C=C(C=C3)NC4=NC(CO4)(C)C)OC5=CC6=NC=NN6C=C5",
+      "names": [
+        "Dexamethasone"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0094": {
+      "own": "CC1CCC2C(C(OC3C24C1CCC(O3)(OO4)C)OC(=O)CCC(=O)O)C",
+      "substituted": "CC1=CC(=C(C2=C1NC(=O)C3=C2C=CS3)C4=CC=C(C=C4)C(C)CN)O",
+      "names": [
+        "Artesunate"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0098": {
+      "own": "CC1C(C(CC(O1)OC2C(OC(CC2O)OC3C(OC(CC3O)OC4CCC5(C(C4)CCC6C5CCC7(C6(CCC7C8=CC(=O)OC8)O)C)C)C)C)O)O",
+      "substituted": "CCN1CCN(CC1)CC2=CN=C(C=C2)NC3=NC=C(C(=N3)C4=CC5=C(C(=C4)F)N=C(N5C(C)C)C)F",
+      "names": [
+        "Digitoxin"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0099": {
+      "own": "CC1C(C(C(C(O1)OC2CC(C3(C4C(CCC3(C2)O)C5(CCC(C5(CC4O)C)C6=CC(=O)OC6)O)CO)O)O)O)O.O.O.O.O.O.O.O.O",
+      "substituted": "CC(C)N1C2=NC=NC(=C2C(=N1)C3=CC4=C(C=C3)OC(=N4)N)N",
+      "names": [
+        "Ouabain (Octahydrate)"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0100": {
+      "own": "CC1C(C(C(C(O1)OCC2C(C(C(C(O2)OC3=C(OC4=CC(=CC(=C4C3=O)O)O)C5=CC(=C(C=C5)O)O)O)O)O)O)O)O.O.O.O",
+      "substituted": "CC(C)CN1C=NC2=C1C3=CC=CC=C3N=C2N.Cl",
+      "names": [
+        "Rutin (trihydrate)"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0101": {
+      "own": "CC1C2C(C3C(C(=O)C(=C(C3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O.O",
+      "substituted": "COC1=C(C=CC(=C1)C=CC(=O)O)O",
+      "names": [
+        "Doxycycline (monohydrate)"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0103": {
+      "own": "CCC(=O)OC1(C(CC2C1(CC(C3(C2CCC4=CC(=O)C=CC43C)F)O)C)C)C(=O)CCl",
+      "substituted": "CC1=NC=C(N1CC(CCl)O)[N+](=O)[O-]",
+      "names": [
+        "Clobetasol propionate"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0106": {
+      "own": "CCC(C)C(=O)OC1CC(C=C2C1C(C(C=C2)C)CCC(CC(CC(=O)[O-])O)O)O.[Na+]",
+      "substituted": "C1=CC(=C(C=C1Cl)O)OC2=C(C=C(C=C2)Cl)Cl",
+      "names": [
+        "Pravastatin (sodium)"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0109": {
+      "own": "CCC1(CC2CC(C3=C(CCN(C2)C1)C4=CC=CC=C4N3)(C5=C(C=C6C(=C5)C78CCN9C7C(C=CC9)(C(C(C8N6C)(C(=O)OC)O)OC(=O)C)CC)OC)C(=O)OC)O.OS(=O)(=O)O",
+      "substituted": "CC1=C2C=C(C=CC2=C(C(=N1)C(=O)NCC(=O)O)O)OC3=CC=CC=C3",
+      "names": [
+        "Vinblastine (sulfate)"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0111": {
+      "own": "CCC1C(=O)N(C2=CN=C(N=C2N1C(C)C)NC3=C(C=C(C=C3)C(=O)NC4CCC(CC4)N5CCN(CC5)CC6CC6)OC)C",
+      "substituted": "CN(C)C(=O)C(CCN1CCC(CC1)(C2=CC=C(C=C2)Cl)O)(C3=CC=CC=C3)C4=CC=CC=C4.Cl",
+      "names": [
+        "Volasertib"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0122": {
+      "own": "CCCN1CCCCC1C(=O)NC2=C(C=CC=C2C)C.O.Cl",
+      "substituted": "CC(C)C(CCCN(C)CCC1=CC(=C(C=C1)OC)OC)(C#N)C2=CC(=C(C=C2)OC)OC.Cl",
+      "names": [
+        "Ropivacaine (hydrochloride monohydrate)"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0126": {
+      "own": "CCN(CC)CC(=O)NC1=C(C=CC=C1C)C.Cl",
+      "substituted": "COC1=C(C=C2C(=C1)N=CN=C2NC3=CC(=C(C=C3)F)Cl)OCCN4CC5(CC5)C6(C4)OCCO6",
+      "names": [
+        "Lidocaine (hydrochloride)"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0129": {
+      "own": "CCN(CC)CCNC1=C2C(=C(C=C1)C)SC3=CC=CC=C3C2=O",
+      "substituted": "CN1CCC23CC(=O)C(=CC2C1CC4=C3C(=C(C=C4)OC)O)OC",
+      "names": [
+        "Lucanthone"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0131": {
+      "own": "CCN1CCN(CC1)CC2=C(C=C(C=C2)NC(=O)C3=CC(=C(C=C3)C)OC4=C5C=CNC5=NC=C4)C(F)(F)F",
+      "substituted": "CN1CCC2=CC(=C(C3=C2C1CC4=C3C(=C(C=C4)OC)O)OC)OC",
+      "names": [
+        "NG25"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0132": {
+      "own": "CCN1CCN(CC1)CC2=CN=C(C=C2)NC3=NC=C(C(=N3)C4=CC5=C(C(=C4)F)N=C(N5C(C)C)C)F",
+      "substituted": "C1=C(C=C(C(=C1O)O)O)C(=O)O.O",
+      "names": [
+        "Abemaciclib"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0142": {
+      "own": "CCC1=C2CN3C(=CC4=C(C3=O)COC(=O)C4(CC)O)C2=NC5=C1C=C(C=C5)OC(=O)N6CCC(CC6)N7CCCCC7.Cl",
+      "substituted": "CCCN1CCCCC1C(=O)NC2=C(C=CC=C2C)C.O.Cl",
+      "names": [
+        "Irinotecan (hydrochloride)"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0148": {
+      "own": "CN(C)C(=O)C(CCN1CCC(CC1)(C2=CC=C(C=C2)Cl)O)(C3=CC=CC=C3)C4=CC=CC=C4.Cl",
+      "substituted": "C[C@]12CC[C@](C[C@H]1C3=CC(=O)[C@@H]4[C@]5(CC[C@@H](C([C@@H]5CC[C@]4([C@@]3(CC2)C)C)(C)C)O)C)(C)C(=O)O",
+      "names": [
+        "Loperamide (hydrochloride)"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0149": {
+      "own": "CN(C)C(=O)C1=CC2=CN=C(N=C2N1C3CCCC3)NC4=NC=C(C=C4)N5CCNCC5",
+      "substituted": "CC(C1=CC2=C(C=C1)C=C(C=C2)OC)C(=O)O",
+      "names": [
+        "Ribociclib"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0163": {
+      "own": "CN1CCN(CC1)C2=CC(=C(C=C2)C(=O)NC3=NNC4=C3C=C(C=C4)CC5=CC(=CC(=C5)F)F)NC6CCOCC6",
+      "substituted": "COC1=C(C=C2C(=C1O)C3C(C(C(C(O3)CO)O)O)OC2=O)O",
+      "names": [
+        "Entrectinib"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0164": {
+      "own": "CC1=CC=C(C=C1)S(=O)(=O)O.CN1CCN2C3CCN(CC3C4=C2C1=CC=C4)CCCC(=O)C5=CC=C(C=C5)F",
+      "substituted": "CN(C)C(=O)C1=CC2=CN=C(N=C2N1C3CCCC3)NC4=NC=C(C=C4)N5CCNCC5",
+      "names": [
+        "Lumateperone (tosylate)"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0179": {
+      "own": "CC(C)(C)C(C(=O)NC(CC1=CC=CC=C1)C(CN(CC2=CC=C(C=C2)C3=CC=CC=N3)NC(=O)C(C(C)(C)C)NC(=O)OC)O)NC(=O)OC.OS(=O)(=O)O",
+      "substituted": "CC1CCC2C(C(OC3C24C1CCC(O3)(OO4)C)OC)C",
+      "names": [
+        "Atazanavir (sulfate)"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0184": {
+      "own": "CN1CCC23CC(=O)C(=CC2C1CC4=C3C(=C(C=C4)OC)O)OC",
+      "substituted": "CCC(=O)OC1(C(CC2C1(CC(C3(C2CCC4=CC(=O)C=CC43C)F)O)C)C)C(=O)CCl",
+      "names": [
+        "Sinomenine"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0186": {
+      "own": "CC1CCC2CC(C(=CC=CC=CC(CC(C(=O)C(C(C(=CC(C(=O)CC(OC(=O)C3CCCCN3C(=O)C(=O)C1(O2)O)C(C)CC4CCC(C(C4)OC)O)C)C)O)OC)C)C)C)OC",
+      "substituted": "CC1CC2C3CCC4=CC(=O)C=CC4(C3(C(CC2(C1(C(=O)CO)O)C)O)F)C",
+      "names": [
+        "Rapamycin"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0189": {
+      "own": "CC1CCC2C(C(OC3C24C1CCC(O3)(OO4)C)OC)C",
+      "substituted": "C1CN=C(N1)NC2=C(C=CC=C2Cl)Cl.Cl",
+      "names": [
+        "Artemether"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0190": {
+      "own": "COCCCCC(=NOCCN)C1=CC=C(C=C1)C(F)(F)F",
+      "substituted": "CC1COCCN1C2=NC(=NC3=C2C=CC(=N3)C4=CC(=C(C=C4)OC)CO)N5CCOCC5C",
+      "names": [
+        "Fluvoxamine"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0194": {
+      "own": "COC1=C(C=C2C(=C1O)C3C(C(C(C(O3)CO)O)O)OC2=O)O",
+      "substituted": "CC1CC2C3CCC(C3(CC(C2C4(C1=CC(=O)C=C4)C)O)C)(C(=O)COC(=O)CCC(=O)O)O",
+      "names": [
+        "Bergenin"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0195": {
+      "own": "COC1=C(C=CC(=C1)C=CC(=O)O)O",
+      "substituted": "CC(C)C(C(=O)NC(CC1=CC=C(C=C1)O)C(=O)O)NC(=O)C(CC(=O)O)NC(=O)C(CCCCN)NC(=O)C(CCCN=C(N)N)N",
+      "names": [
+        "Ferulic acid"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0209": {
+      "own": "COC1=C(C=C2C(=C1)N=CN=C2NC3=CC(=C(C=C3)F)Cl)OCCN4CC5(CC5)C6(C4)OCCO6",
+      "substituted": "CCC1C(=O)N(C2=CN=C(N=C2N1C(C)C)NC3=C(C=C(C=C3)C(=O)NC4CCC(CC4)N5CCN(CC5)CC6CC6)OC)C",
+      "names": [
+        "Simotinib"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0211": {
+      "own": "CC1COCCN1C2=NC(=NC3=C2C=CC(=N3)C4=CC(=C(C=C4)OC)CO)N5CCOCC5C",
+      "substituted": "CC(=O)C1=CC=C(C=C1)S(=O)(=O)NC(=O)NC2CCCCC2",
+      "names": [
+        "AZD-8055"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0213": {
+      "own": "CC1C(C(C(C(O1)OCC2C(C(C(C(O2)OC3=CC(=C4C(=O)CC(OC4=C3)C5=CC(=C(C=C5)OC)O)O)O)O)O)O)O)O",
+      "substituted": "CC1=C(C(=CC=C1)C)OCC(=O)NC(CC2=CC=CC=C2)C(CC(CC3=CC=CC=C3)NC(=O)C(C(C)C)N4CCCNC4=O)O",
+      "names": [
+        "Hesperidin"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0214": {
+      "own": "COC1=C(C=C(C=C1)C=CC(=O)NC2=CC=CC=C2C(=O)O)OC",
+      "substituted": "CC1=C2C(C(=O)C3(C(CC4C(C3C(C(C2(C)C)(CC1OC(=O)C(C(C5=CC=CC=C5)NC(=O)C6=CC=CC=C6)O)O)OC(=O)C7=CC=CC=C7)(CO4)OC(=O)C)O)C)OC(=O)C",
+      "names": [
+        "Tranilast"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0216": {
+      "own": "CC(C)C(CCCN(C)CCC1=CC(=C(C=C1)OC)OC)(C#N)C2=CC(=C(C=C2)OC)OC.Cl",
+      "substituted": "B(C(CC(C)C)NC(=O)C(CC1=CC=CC=C1)NC(=O)C2=NC=CN=C2)(O)O",
+      "names": [
+        "(R)-Verapamil (hydrochloride)"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0217": {
+      "own": "CN1CCC2=CC(=C(C3=C2C1CC4=C3C(=C(C=C4)OC)O)OC)OC",
+      "substituted": "COC1=C(C=C(C=C1)C=CC(=O)NC2=CC=CC=C2C(=O)O)OC",
+      "names": [
+        "Isocorydine"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0218": {
+      "own": "CC(C1=CC2=C(C=C1)C=C(C=C2)OC)C(=O)O",
+      "substituted": "COCCCCC(=NOCCN)C1=CC=C(C=C1)C(F)(F)F",
+      "names": [
+        "Naproxen"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0246": {
+      "own": "CC1=C(C=CC(=C1)NC2=NC=NC3=C2C=C(C=C3)NC4=NC(CO4)(C)C)OC5=CC6=NC=NN6C=C5",
+      "substituted": "CCN(CC)CC(=O)NC1=C(C=CC=C1C)C.Cl",
+      "names": [
+        "Tucatinib"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0247": {
+      "own": "CC1=CC(=C(C2=C1NC(=O)C3=C2C=CS3)C4=CC=C(C=C4)C(C)CN)O",
+      "substituted": "CC1C2C(C3C(C(=O)C(=C(C3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O.O",
+      "names": [
+        "OTS514"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0251": {
+      "own": "CC1=CC=C(C=C1)C2=CC(=NN2C3=CC=C(C=C3)S(=O)(=O)N)C(F)(F)F",
+      "substituted": "CC(=O)CCCCN1C(=O)C2=C(N=CN2C)N(C1=O)C",
+      "names": [
+        "Celecoxib"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0257": {
+      "own": "CC1=CC(=C(C=C1)C)OCCCC(C)(C)C(=O)O",
+      "substituted": "CCC(C)C(=O)OC1CC(C=C2C1C(C(C=C2)C)CCC(CC(CC(=O)[O-])O)O)O.[Na+]",
+      "names": [
+        "Gemfibrozil"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0265": {
+      "own": "CC1=C(C(=CC=C1)C)OCC(=O)NC(CC2=CC=CC=C2)C(CC(CC3=CC=CC=C3)NC(=O)C(C(C)C)N4CCCNC4=O)O",
+      "substituted": "CCN(CC)CCNC1=C2C(=C(C=C1)C)SC3=CC=CC=C3C2=O",
+      "names": [
+        "Lopinavir"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0271": {
+      "own": "CC1=C2C=C(C=CC2=C(C(=N1)C(=O)NCC(=O)O)O)OC3=CC=CC=C3",
+      "substituted": "CC1=CC=C(C=C1)S(=O)(=O)O.CN1CCN2C3CCN(CC3C4=C2C1=CC=C4)CCCC(=O)C5=CC=C(C=C5)F",
+      "names": [
+        "Roxadustat"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0273": {
+      "own": "CC1=C(SC(=N1)NC(=O)N2CCCC2C(=O)N)C3=CC(=NC=C3)C(C)(C)C(F)(F)F",
+      "substituted": "CC1=CC=C(C=C1)C2=CC(=NN2C3=CC=C(C=C3)S(=O)(=O)N)C(F)(F)F",
+      "names": [
+        "Alpelisib"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0277": {
+      "own": "CC1=NC=C(N1CC(CCl)O)[N+](=O)[O-]",
+      "substituted": "CCN1CCN(CC1)CC2=C(C=C(C=C2)NC(=O)C3=CC(=C(C=C3)C)OC4=C5C=CNC5=NC=C4)C(F)(F)F",
+      "names": [
+        "Ornidazole"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0282": {
+      "own": "C1CN=C(N1)NC2=C(C=CC=C2Cl)Cl.Cl",
+      "substituted": "C1=CC=C(C=C1)C2(C(=O)NC(=N2)[O-])C3=CC=CC=C3.[Na+]",
+      "names": [
+        "Clonidine (hydrochloride)"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0295": {
+      "own": "CN1C=C(C2=CC=CC=C21)C3=C(C(=O)NC3=O)C4=CC(=CC=C4)N",
+      "substituted": "CC1C2CCC3(C(C2(CCC1O)C)C(CC4C3(CC(C4=C(CCC=C(C)C)C(=O)O)OC(=O)C)C)O)C",
+      "names": [
+        "CP21R7"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0302": {
+      "own": "C1=CC(=CC=C1C(=N)N)OCCCCCOC2=CC=C(C=C2)C(=N)N.C(CS(=O)(=O)O)O.C(CS(=O)(=O)O)O",
+      "substituted": "CCC1=C2CN3C(=CC4=C(C3=O)COC(=O)C4(CC)O)C2=NC5=C1C=C(C=C5)OC(=O)N6CCC(CC6)N7CCCCC7.Cl",
+      "names": [
+        "Pentamidine (isethionate)"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0314": {
+      "own": "C1=CC(=CC=C1C2=C(N=CC(=C2)C3=CN=C(C=C3)N)N)Cl",
+      "substituted": "C1CC1C(=O)N2CCN(CC2)C(=O)C3=C(C=CC(=C3)CC4=NNC(=O)C5=CC=CC=C54)F",
+      "names": [
+        "PF-06260933"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0317": {
+      "own": "C1=CN(C(=O)N=C1N)C2C(C(C(O2)CO)O)O",
+      "substituted": "CC1C(C(C(C(O1)OC2CC(C3(C4C(CCC3(C2)O)C5(CCC(C5(CC4O)C)C6=CC(=O)OC6)O)CO)O)O)O)O.O.O.O.O.O.O.O.O",
+      "names": [
+        "Cytarabine"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0323": {
+      "own": "C1=NC(=C2C(=N1)N(C=N2)C3C(C(C(O3)CO)O)O)N",
+      "substituted": "CN1CCN(CC1)C2=CC(=C(C=C2)C(=O)NC3=NNC4=C3C=C(C=C4)CC5=CC(=CC(=C5)F)F)NC6CCOCC6",
+      "names": [
+        "Adenosine"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0326": {
+      "own": "C1=C(C=C(C(=C1O)O)O)C(=O)O.O",
+      "substituted": "COCCOC1=C(C=C2C(=C1)C(=NC=N2)NC3=CC=CC(=C3)C#C)OCCOC",
+      "names": [
+        "Gallic acid (hydrate)"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0344": {
+      "own": "C1=CC=C(C(=C1)C2=NC(=NO2)C3=CC(=CC=C3)C(=O)O)F",
+      "substituted": "CC1=CC2=C(C=C1C(=C)C3=CC=C(C=C3)C(=O)O)C(CCC2(C)C)(C)C",
+      "names": [
+        "Ataluren"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0347": {
+      "own": "C1CC1C(=O)N2CCN(CC2)C(=O)C3=C(C=CC(=C3)CC4=NNC(=O)C5=CC=CC=C54)F",
+      "substituted": "CC1=CC(=C(C=C1)C)OCCCC(C)(C)C(=O)O",
+      "names": [
+        "olaparib"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0350": {
+      "own": "C1=CC2=NC=CC(=C2C=C1C=C3C(=O)NC(=O)S3)C4=CC=NC=C4",
+      "substituted": "CC(C)CN1C=NC2=C1C3=CC=CC=C3N=C2N.C(=CC(=O)O)C(=O)O",
+      "names": [
+        "GSK1059615"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0352": {
+      "own": "C1=CC=C(C=C1)C2(C(=O)NC(=N2)[O-])C3=CC=CC=C3.[Na+]",
+      "substituted": "CN(C)CCN(C)C1=CC(=C(C=C1NC(=O)C=C)NC2=NC=CC(=N2)C3=CN(C4=CC=CC=C43)C5CC5)OC.Cl",
+      "names": [
+        "Phenytoin (sodium)"
+      ],
+      "own_is_record_canonical": false
+    },
+    "S0368": {
+      "own": "C1=CC(=C(C=C1Cl)O)OC2=C(C=C(C=C2)Cl)Cl",
+      "substituted": "CC1CCC2CC(C(=CC=CC=CC(CC(C(=O)C(C(C(=CC(C(=O)CC(OC(=O)C3CCCCN3C(=O)C(=O)C1(O2)O)C(C)CC4CCC(C(C4)OC)O)C)C)O)OC)C)C)C)OC",
+      "names": [
+        "Triclosan"
+      ],
+      "own_is_record_canonical": false
+    }
+  },
+  "identical_bit_pairs": [],
+  "tanimoto_own_vs_substituted": {
+    "S0003": 0.0704,
+    "S0007": 0.1515,
+    "S0009": 0.1385,
+    "S0012": 0.1235,
+    "S0020": 0.0762,
+    "S0030": 0.1579,
+    "S0031": 0.1667,
+    "S0038": 0.1923,
+    "S0049": 0.1279,
+    "S0050": 0.2,
+    "S0052": 0.25,
+    "S0055": 0.1791,
+    "S0056": 0.1897,
+    "S0061": 0.1071,
+    "S0065": 0.1235,
+    "S0069": 0.1948,
+    "S0071": 0.1053,
+    "S0077": 0.0723,
+    "S0079": 0.1711,
+    "S0080": 0.2295,
+    "S0091": 0.0533,
+    "S0092": 0.0421,
+    "S0094": 0.0685,
+    "S0098": 0.0316,
+    "S0099": 0.0526,
+    "S0100": 0.1791,
+    "S0101": 0.1935,
+    "S0103": 0.129,
+    "S0106": 0.0714,
+    "S0109": 0.1456,
+    "S0111": 0.1829,
+    "S0122": 0.3137,
+    "S0126": 0.1343,
+    "S0129": 0.1594,
+    "S0131": 0.1646,
+    "S0132": 0.0435,
+    "S0142": 0.24,
+    "S0148": 0.1613,
+    "S0149": 0.1364,
+    "S0163": 0.093,
+    "S0164": 0.1294,
+    "S0179": 0.1111,
+    "S0184": 0.137,
+    "S0186": 0.2027,
+    "S0189": 0.0667,
+    "S0190": 0.1449,
+    "S0194": 0.1143,
+    "S0195": 0.2206,
+    "S0209": 0.2105,
+    "S0211": 0.125,
+    "S0213": 0.1948,
+    "S0214": 0.1341,
+    "S0216": 0.1905,
+    "S0217": 0.2456,
+    "S0218": 0.1569,
+    "S0246": 0.1026,
+    "S0247": 0.1558,
+    "S0251": 0.1186,
+    "S0257": 0.0984,
+    "S0265": 0.1429,
+    "S0271": 0.2143,
+    "S0273": 0.2258,
+    "S0277": 0.1316,
+    "S0282": 0.1622,
+    "S0295": 0.0694,
+    "S0302": 0.1728,
+    "S0314": 0.1207,
+    "S0317": 0.1515,
+    "S0323": 0.0682,
+    "S0326": 0.0727,
+    "S0344": 0.25,
+    "S0347": 0.1311,
+    "S0350": 0.2097,
+    "S0352": 0.137,
+    "S0368": 0.058
+  },
+  "tanimoto_summary": {
+    "median": 0.1385,
+    "min": 0.0316,
+    "max": 0.3137,
+    "above_0_5": 0
+  }
+}

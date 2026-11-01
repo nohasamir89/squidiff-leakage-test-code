@@ -1,0 +1,55 @@
+[guards] pre-registration, scripts and records committed and clean; commit 6785133; permutation 69ff344f2ce3, a derangement of the 75 held-out structures of drug_split_1
+[self-check] pds_sets == pds_cosine on full candidate sets (two random cases incl. zero-norm rows)
+[inputs] recipe (Step 15b) and the Step 24 runs, every file hash-checked against its provenance; each Step 24 run sampled from the same checkpoint as the Step 15b evaluation of its seed
+[reproduction] the substitution switched off reproduces the Step 15b recipe (seed 0) bitwise: A, B, C, cond, true and every stored real and predicted cell
+[reproduction] every Step 24 run shares the 2899 conditions, measured and control means and real cells of the recipe run of its seed, bitwise; only the prediction differs
+[substitution] every fpshuf and fpzero prediction differs from the recipe's same-seed prediction at all 2899 conditions
+[identity] every held-out SMILES maps to one structure id; the permutation's strings are the SMILES of the held-out conditions
+[measures] scoring 9 evaluations on 2899 conditions in 42 (line, dose) contexts (energy on the stored cells)
+[reproduction] the recipe's PDS, DE-overlap, DPC-50 and energy equal the Step 15c/15b records to 1e-9; its MRA equals Step 16 (seeds 0.3112 0.3237 0.3265); the bootstrap reproduces Step 15c (recipe - 0.5): +0.22234 [+0.18829, +0.25411] above zero
+[twins] 8 salt-twin structures (384 conditions) from the Step 23 records: scored with the rest, also reported apart
+
+====================================================================================================
+STEP 24, drug_split_1: 2899 held-out conditions, 75 structures, three seeds per arm
+====================================================================================================
+  arm           PDS DE-overlap   DPC-50   energy      MRA   per-seed PDS
+  recipe     0.7223     0.4640   0.5197   0.2250  +0.3205   0.7227 0.7211 0.7232
+  fpshuf     0.7160     0.4623   0.5229   0.2163  +0.3603   0.7147 0.7145 0.7188
+  fpzero     0.7360     0.4564   0.5288   0.1641  +0.3553   0.7368 0.7362 0.7350
+  PDS by dose  recipe  50 nM 0.7311  500 nM 0.7085  5000 nM 0.7282
+  PDS by dose  fpshuf  50 nM 0.7294  500 nM 0.7079  5000 nM 0.7103
+  PDS by dose  fpzero  50 nM 0.7324  500 nM 0.7375  5000 nM 0.7382
+  PDS on the 384 salt-twin conditions (descriptive): recipe 0.6810, fpshuf 0.7121, fpzero 0.7210 | on the other 2515: recipe 0.7286, fpshuf 0.7166, fpzero 0.7383
+
+GATED (PDS):
+  Q1 primary     recipe - fpshuf    +0.00632 [-0.01531, +0.02882] includes zero
+  Q2 co-primary  fpshuf - 0.5       +0.21601 [+0.18619, +0.24554] above zero
+reference (prereg Q3):
+  Q3             fpzero - 0.5       +0.23598 [+0.20758, +0.26532] above zero
+  Q3             fpshuf - fpzero    -0.01997 [-0.03994, -0.00189] below zero
+  Q3             recipe - fpzero    -0.01365 [-0.03279, +0.00406] includes zero
+
+secondary (not gated):
+  DE-overlap recipe - fpshuf  +0.00172 [-0.00424, +0.00753] includes zero
+  DE-overlap recipe - fpzero  +0.00769 [+0.00310, +0.01216] above zero
+  DE-overlap fpshuf - fpzero  +0.00597 [+0.00097, +0.01090] above zero
+  DPC-50     recipe - fpshuf  -0.00325 [-0.03420, +0.02797] includes zero
+  DPC-50     recipe - fpzero  -0.00916 [-0.03727, +0.01843] includes zero
+  DPC-50     fpshuf - fpzero  -0.00591 [-0.03253, +0.01919] includes zero
+  energy     recipe - fpshuf  +0.00867 [-0.03767, +0.05578] includes zero
+  energy     recipe - fpzero  +0.06094 [+0.02541, +0.10102] above zero
+  energy     fpshuf - fpzero  +0.05226 [+0.02270, +0.08497] above zero
+  MRA        recipe           +0.32049 [+0.17024, +0.44341] above zero
+  MRA        fpshuf           +0.36034 [+0.24005, +0.46114] above zero
+  MRA        fpzero           +0.35535 [+0.25330, +0.43790] above zero
+  MRA        recipe - fpshuf  -0.03985 [-0.17599, +0.10242] includes zero
+  MRA        recipe - fpzero  -0.03486 [-0.14144, +0.06716] includes zero
+  MRA        fpshuf - fpzero  +0.00499 [-0.09358, +0.09521] includes zero
+
+====================================================================================================
+PRE-REGISTERED VERDICT (section 5): 3 NOT SHOWN TO BE COMPOUND-SPECIFIC
+  Q1 recipe - fpshuf: includes zero | Q2 fpshuf - 0.5: above zero
+  Section 6 expected: 2 PARTLY COMPOUND-SPECIFIC (outcome 3 also live).
+====================================================================================================
+
+wrote tahoe_results/step24_swap.json, tahoe_results/step24_swap_per_condition.csv and tahoe_results/step24_swap_summary.csv  (273 s)

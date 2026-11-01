@@ -1,0 +1,453 @@
+{
+  "prereg": "PREREG_step24_fingerprint_swap.md",
+  "split": "drug_split_1",
+  "commit": "6785133b8d74096cdb661b24f111db915c024c17",
+  "verdict": "3 NOT SHOWN TO BE COMPOUND-SPECIFIC",
+  "n_boot": 5000,
+  "interval": "97.5% percentile, structure-clustered, fresh RandomState(0) per scored set",
+  "reference": {
+    "source_mra": "step16_findings.md section 4.4, drug_split_1, printed to four decimals",
+    "mra": {
+      "ridge_S7": -0.0499,
+      "ridge_train": 0.1537,
+      "base_mean": -0.0755,
+      "recipe_seeds": [
+        0.3112,
+        0.3237,
+        0.3265
+      ],
+      "recipe_mean": 0.3205
+    },
+    "mra_tol": 5.0001000000000005e-05,
+    "source_boot": "step15c_findings.md section 1, drug_split_1, Q1 recipe PDS - 0.5, printed to five decimals",
+    "boot_q1": {
+      "diff": 0.22234,
+      "lo": 0.18829,
+      "hi": 0.25411
+    },
+    "boot_tol": 5.001e-06
+  },
+  "test_reference_override": null,
+  "permutation": {
+    "file": "tahoe_results/step24/permutation.json",
+    "sha256": "69ff344f2ce3a34db23a2c9ffe95d0c583ec91848b4193c29949d49b40b5f242",
+    "draws": 7,
+    "tanimoto": {
+      "median": 0.1385,
+      "min": 0.0316,
+      "max": 0.3137,
+      "above_0_5": 0
+    }
+  },
+  "reproduction": {
+    "bitwise_seed0": true,
+    "recipe_mra_seeds": [
+      0.31123509250871156,
+      0.32372442277128627,
+      0.32651488175532895
+    ],
+    "bootstrap_15c_q1": {
+      "diff": 0.2223364678478754,
+      "ci": [
+        0.1882852898779534,
+        0.2541092161666785
+      ],
+      "verdict": "above zero",
+      "half_width": 0.03291196314436254
+    },
+    "unchanged_conditions": {
+      "s24_drug_split_1_fpshuf_seed_0": 0,
+      "s24_drug_split_1_fpshuf_seed_1": 0,
+      "s24_drug_split_1_fpshuf_seed_2": 0,
+      "s24_drug_split_1_fpzero_seed_0": 0,
+      "s24_drug_split_1_fpzero_seed_1": 0,
+      "s24_drug_split_1_fpzero_seed_2": 0
+    }
+  },
+  "design": {
+    "n_conditions": 2899,
+    "n_structures": 75,
+    "n_contexts": 42,
+    "twin_structures": [
+      "S0012",
+      "S0052",
+      "S0077",
+      "S0142",
+      "S0190",
+      "S0216",
+      "S0317",
+      "S0326"
+    ],
+    "twin_conditions": 384
+  },
+  "values": {
+    "recipe": {
+      "pds": 0.7223364678478754,
+      "de": 0.46404862184689377,
+      "dpc": 0.5196831484530938,
+      "en": 0.22498787800913528,
+      "per_seed_pds": [
+        0.7226986090090481,
+        0.7210777481605679,
+        0.7232330463740102
+      ],
+      "mra_per_seed": [
+        0.31123509250871156,
+        0.32372442277128627,
+        0.32651488175532895
+      ],
+      "mra": 0.3204914656784423,
+      "per_dose_pds": {
+        "50": 0.7310825831556563,
+        "500": 0.7085155946829301,
+        "5000": 0.7282228399415899
+      },
+      "twins_pds": 0.6810396375188267,
+      "non_twins_pds": 0.728641828820581
+    },
+    "fpshuf": {
+      "pds": 0.7160129511744452,
+      "de": 0.46233002117886995,
+      "dpc": 0.5229293349769965,
+      "en": 0.21631520834174553,
+      "per_seed_pds": [
+        0.7147380561882012,
+        0.7145265073135235,
+        0.718774290021611
+      ],
+      "mra_per_seed": [
+        0.35303912467803206,
+        0.36410862248913295,
+        0.36387933199203515
+      ],
+      "mra": 0.36034235971973344,
+      "per_dose_pds": {
+        "50": 0.7293888268105045,
+        "500": 0.7079253490172502,
+        "5000": 0.7103056226835525
+      },
+      "twins_pds": 0.7120753552190365,
+      "non_twins_pds": 0.7166141586682333
+    },
+    "fpzero": {
+      "pds": 0.7359839765994652,
+      "de": 0.4563612955977051,
+      "dpc": 0.5288383415262905,
+      "en": 0.16405254907737563,
+      "per_seed_pds": [
+        0.7367548619307592,
+        0.7361775835473202,
+        0.7350194843203162
+      ],
+      "mra_per_seed": [
+        0.36026055431183396,
+        0.345541275407117,
+        0.36024755531384134
+      ],
+      "mra": 0.3553497950109308,
+      "per_dose_pds": {
+        "50": 0.7323916323447287,
+        "500": 0.7375467580296806,
+        "5000": 0.7382036067338802
+      },
+      "twins_pds": 0.7210314882275721,
+      "non_twins_pds": 0.7382669807882553
+    }
+  },
+  "contrasts": {
+    "Q1_pds_recipe_minus_fpshuf": {
+      "diff": 0.006323516673430155,
+      "ci": [
+        -0.015311510725759193,
+        0.02882135017554998
+      ],
+      "verdict": "includes zero",
+      "half_width": 0.022066430450654588,
+      "n_conditions": 2899
+    },
+    "Q2_pds_fpshuf_minus_0.5": {
+      "diff": 0.21601295117444524,
+      "ci": [
+        0.18618895271521008,
+        0.24554077363822438
+      ],
+      "verdict": "above zero",
+      "half_width": 0.02967591046150715,
+      "n_conditions": 2899
+    },
+    "Q3_pds_fpzero_minus_0.5": {
+      "diff": 0.2359839765994652,
+      "ci": [
+        0.20758125529196728,
+        0.26532469929416475
+      ],
+      "verdict": "above zero",
+      "half_width": 0.028871722001098735,
+      "n_conditions": 2899
+    },
+    "Q3_pds_fpshuf_minus_fpzero": {
+      "diff": -0.019971025425019957,
+      "ci": [
+        -0.039937419322443275,
+        -0.0018898180752189666
+      ],
+      "verdict": "below zero",
+      "half_width": 0.019023800623612155,
+      "n_conditions": 2899
+    },
+    "Q3_pds_recipe_minus_fpzero": {
+      "diff": -0.013647508751589798,
+      "ci": [
+        -0.03278518534776893,
+        0.004057726187930528
+      ],
+      "verdict": "includes zero",
+      "half_width": 0.01842145576784973,
+      "n_conditions": 2899
+    },
+    "sec_de_recipe_minus_fpshuf": {
+      "diff": 0.0017186006680238453,
+      "ci": [
+        -0.004244136561543336,
+        0.007527952158418832
+      ],
+      "verdict": "includes zero",
+      "half_width": 0.005886044359981084,
+      "n_conditions": 2899
+    },
+    "sec_de_recipe_minus_fpzero": {
+      "diff": 0.007687326249188617,
+      "ci": [
+        0.003097488292875375,
+        0.012164989284054378
+      ],
+      "verdict": "above zero",
+      "half_width": 0.004533750495589501,
+      "n_conditions": 2899
+    },
+    "sec_de_fpshuf_minus_fpzero": {
+      "diff": 0.005968725581164772,
+      "ci": [
+        0.0009748449471696904,
+        0.010897869554741653
+      ],
+      "verdict": "above zero",
+      "half_width": 0.004961512303785981,
+      "n_conditions": 2899
+    },
+    "sec_dpc_recipe_minus_fpshuf": {
+      "diff": -0.003246186523902568,
+      "ci": [
+        -0.03420191724572751,
+        0.02796915962958428
+      ],
+      "verdict": "includes zero",
+      "half_width": 0.031085538437655897,
+      "n_conditions": 2899
+    },
+    "sec_dpc_recipe_minus_fpzero": {
+      "diff": -0.009155193073196581,
+      "ci": [
+        -0.03726656199723219,
+        0.01842969928437963
+      ],
+      "verdict": "includes zero",
+      "half_width": 0.02784813064080591,
+      "n_conditions": 2899
+    },
+    "sec_dpc_fpshuf_minus_fpzero": {
+      "diff": -0.005909006549294012,
+      "ci": [
+        -0.0325286468332258,
+        0.01919119698427883
+      ],
+      "verdict": "includes zero",
+      "half_width": 0.025859921908752317,
+      "n_conditions": 2899
+    },
+    "sec_en_recipe_minus_fpshuf": {
+      "diff": 0.00867266966738972,
+      "ci": [
+        -0.03766662210540332,
+        0.05577936354376187
+      ],
+      "verdict": "includes zero",
+      "half_width": 0.046722992824582595,
+      "n_conditions": 2899
+    },
+    "sec_en_recipe_minus_fpzero": {
+      "diff": 0.06093532893175966,
+      "ci": [
+        0.025413695784157666,
+        0.10101628874338542
+      ],
+      "verdict": "above zero",
+      "half_width": 0.037801296479613875,
+      "n_conditions": 2899
+    },
+    "sec_en_fpshuf_minus_fpzero": {
+      "diff": 0.052262659264369946,
+      "ci": [
+        0.02270315491269945,
+        0.08497424746051926
+      ],
+      "verdict": "above zero",
+      "half_width": 0.03113554627390991,
+      "n_conditions": 2899
+    },
+    "sec_mra_recipe": {
+      "diff": 0.3204914656784423,
+      "ci": [
+        0.17023615962546237,
+        0.443405278901535
+      ],
+      "verdict": "above zero",
+      "half_width": 0.13658455963803634
+    },
+    "sec_mra_fpshuf": {
+      "diff": 0.36034235971973333,
+      "ci": [
+        0.2400500738156176,
+        0.461136286281986
+      ],
+      "verdict": "above zero",
+      "half_width": 0.1105431062331842
+    },
+    "sec_mra_fpzero": {
+      "diff": 0.3553497950109308,
+      "ci": [
+        0.2533041985175076,
+        0.43790245252644433
+      ],
+      "verdict": "above zero",
+      "half_width": 0.09229912700446838
+    },
+    "sec_mra_recipe_minus_fpshuf": {
+      "diff": -0.03985089404129105,
+      "ci": [
+        -0.17599134157460727,
+        0.10241863526077702
+      ],
+      "verdict": "includes zero",
+      "half_width": 0.13920498841769213
+    },
+    "sec_mra_recipe_minus_fpzero": {
+      "diff": -0.0348583293324885,
+      "ci": [
+        -0.14144364352762367,
+        0.06715752418660942
+      ],
+      "verdict": "includes zero",
+      "half_width": 0.10430058385711655
+    },
+    "sec_mra_fpshuf_minus_fpzero": {
+      "diff": 0.004992564708802549,
+      "ci": [
+        -0.09357915847032375,
+        0.09521230998109965
+      ],
+      "verdict": "includes zero",
+      "half_width": 0.09439573422571171
+    }
+  },
+  "inputs": {
+    "recipe": [
+      {
+        "tag": "s15_drug_split_1_recipe_seed_0",
+        "vectors_sha256": "18dee6b31e5f5428a77ff8d75492f1ee88db30eeaaa92d9aa00f8eaaa3021160",
+        "per_cell_sha256": "0b6372c3a1f8045c1723e0ab7e00b2269bfe6b67a1c6327c11760fc4be8a91f9",
+        "checkpoint_sha256": "6ad100e4ce89269fb663648115da002c7f94921d50342bb60512a406ccb40335",
+        "training_commit": "116b9f513dfa353aa939b3d05ab35172f2f8d3e1",
+        "eval_commit": "030695cdba9e3c8294be5ef93ca4d76809ddc754"
+      },
+      {
+        "tag": "s15_drug_split_1_recipe_seed_1",
+        "vectors_sha256": "d52300a3774543b80f39ace00a06204121952b77a61853522f5c47c71c58064b",
+        "per_cell_sha256": "4e21d2a29a4fab7ec140bd760eca4ca1e3ec1b29ccee5f82364fef5c9b61b014",
+        "checkpoint_sha256": "18baa18bd226c760239dd5ea06993386491eae5d163cf29a4da811e95e567d27",
+        "training_commit": "116b9f513dfa353aa939b3d05ab35172f2f8d3e1",
+        "eval_commit": "030695cdba9e3c8294be5ef93ca4d76809ddc754"
+      },
+      {
+        "tag": "s15_drug_split_1_recipe_seed_2",
+        "vectors_sha256": "4cf558198597a48dd52021442fc65e43ded1fa1e5e9ca6b2e60f199c8153c8e4",
+        "per_cell_sha256": "5ef3baaa36be776a4382c40528b272727244151cddaafa13ee62548ca573c38a",
+        "checkpoint_sha256": "25cf06b5b36e5a5b398c78bb958b205cfaebc7504b28ab3fd2a839d832a520bb",
+        "training_commit": "116b9f513dfa353aa939b3d05ab35172f2f8d3e1",
+        "eval_commit": "030695cdba9e3c8294be5ef93ca4d76809ddc754"
+      }
+    ],
+    "arms": {
+      "fpshuf": [
+        {
+          "tag": "s24_drug_split_1_fpshuf_seed_0",
+          "vectors_sha256": "08a238afc9ebd5efe1a66aa53c5d9e9ef2a83e6be202e476dd91bb2484eea72f",
+          "per_cell_sha256": "20f8670d3581c827b0a41bf259b8380b182d1cade3f0b94dd010cb1006aaa7b5",
+          "checkpoint_sha256": "6ad100e4ce89269fb663648115da002c7f94921d50342bb60512a406ccb40335",
+          "eval_commit": "6785133b8d74096cdb661b24f111db915c024c17",
+          "slurm_array_job": "19020378",
+          "permutation_sha256": "69ff344f2ce3a34db23a2c9ffe95d0c583ec91848b4193c29949d49b40b5f242"
+        },
+        {
+          "tag": "s24_drug_split_1_fpshuf_seed_1",
+          "vectors_sha256": "0cc04c691908b5b327eff9a6fae3d409a64cafe6c3a8b30cfbab3dfa1ab83230",
+          "per_cell_sha256": "f3cfdeaedc98b52f1bd0b4b4dbafb9cfeb50c16db6c05f1f4e8ded30f27cb9a7",
+          "checkpoint_sha256": "18baa18bd226c760239dd5ea06993386491eae5d163cf29a4da811e95e567d27",
+          "eval_commit": "6785133b8d74096cdb661b24f111db915c024c17",
+          "slurm_array_job": "19020378",
+          "permutation_sha256": "69ff344f2ce3a34db23a2c9ffe95d0c583ec91848b4193c29949d49b40b5f242"
+        },
+        {
+          "tag": "s24_drug_split_1_fpshuf_seed_2",
+          "vectors_sha256": "25fe1ae5886a116ff625abae404dce1f574c1f621d8acfb32f9ed7898974fff4",
+          "per_cell_sha256": "43c6379af0b1405b3b1e2a73ead10a65e3c280b483afef08da089b4be8ed0b35",
+          "checkpoint_sha256": "25cf06b5b36e5a5b398c78bb958b205cfaebc7504b28ab3fd2a839d832a520bb",
+          "eval_commit": "6785133b8d74096cdb661b24f111db915c024c17",
+          "slurm_array_job": "19020378",
+          "permutation_sha256": "69ff344f2ce3a34db23a2c9ffe95d0c583ec91848b4193c29949d49b40b5f242"
+        }
+      ],
+      "fpzero": [
+        {
+          "tag": "s24_drug_split_1_fpzero_seed_0",
+          "vectors_sha256": "e56e135784eb855f68d616f6d91d86b89cb4f524d16763201ce0f648d8aa358b",
+          "per_cell_sha256": "9efad7397d60b93d7be27f863ae2167e7fabdaa0bae15b9368d3fd1080777afa",
+          "checkpoint_sha256": "6ad100e4ce89269fb663648115da002c7f94921d50342bb60512a406ccb40335",
+          "eval_commit": "6785133b8d74096cdb661b24f111db915c024c17",
+          "slurm_array_job": "19020378",
+          "permutation_sha256": null
+        },
+        {
+          "tag": "s24_drug_split_1_fpzero_seed_1",
+          "vectors_sha256": "e3d459f45fab3be2e6f6b2cd7c4939bf31b162e7d9ac7284edf0bd86e36b1756",
+          "per_cell_sha256": "4ed7e75a55a9e919b8748617a95cce124baba4d1ae4fed4812b07b96f2c17b5a",
+          "checkpoint_sha256": "18baa18bd226c760239dd5ea06993386491eae5d163cf29a4da811e95e567d27",
+          "eval_commit": "6785133b8d74096cdb661b24f111db915c024c17",
+          "slurm_array_job": "19020378",
+          "permutation_sha256": null
+        },
+        {
+          "tag": "s24_drug_split_1_fpzero_seed_2",
+          "vectors_sha256": "578a05ca8171082b8f5b44d96e96869f47c7a39380e209b1674bf6989b0cc128",
+          "per_cell_sha256": "c523f2c056cc3d88e5d0745be3c2b4a029397d3b32b0990742fcc49d266ff9ab",
+          "checkpoint_sha256": "25cf06b5b36e5a5b398c78bb958b205cfaebc7504b28ab3fd2a839d832a520bb",
+          "eval_commit": "6785133b8d74096cdb661b24f111db915c024c17",
+          "slurm_array_job": "19020378",
+          "permutation_sha256": null
+        }
+      ]
+    },
+    "repro": {
+      "tag": "s24_drug_split_1_recipe_repro_seed_0",
+      "vectors_sha256": "18dee6b31e5f5428a77ff8d75492f1ee88db30eeaaa92d9aa00f8eaaa3021160",
+      "per_cell_sha256": "0b6372c3a1f8045c1723e0ab7e00b2269bfe6b67a1c6327c11760fc4be8a91f9",
+      "checkpoint_sha256": "6ad100e4ce89269fb663648115da002c7f94921d50342bb60512a406ccb40335",
+      "eval_commit": "6785133b8d74096cdb661b24f111db915c024c17",
+      "slurm_array_job": "19020230",
+      "permutation_sha256": null
+    },
+    "step15c_per_condition_sha256": "485ef8f6d212cc67578519efc77b124bb39df58d7c6996e04381ab42c8373f50",
+    "step23_per_condition_sha256": "5fda2c6563646e37e1f9299297c96974b6072c8b4ef999f5e8b69572e858406e"
+  },
+  "seconds": 272
+}
