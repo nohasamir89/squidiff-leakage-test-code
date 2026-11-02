@@ -280,3 +280,14 @@ tahoe_results/step24_logs/s24ev_19020378_4.out
 tahoe_results/step24_logs/s24ev_19020378_5.err
 tahoe_results/step24_logs/s24ev_19020378_5.out
 tahoe_results/step24_logs/s24score_19020874.log
+PREREG_step25_swap_confirmation.md
+PREREG_step26_control_source.md
+port_harness_base_step25.py
+leakage_test_base_step25.py
+eval_step25_tahoe.sh
+score_step25_tahoe.py
+run_step25_score.sh
+score_step26_tahoe.py
+run_step26_score.sh
+tahoe_results/step25/permutation_drug_split_0.json
+tahoe_results/step25/permutation_drug_split_2.json
