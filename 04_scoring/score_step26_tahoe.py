@@ -569,7 +569,9 @@ def main():
         for a in CKARMS:
             for o in own[a]:
                 o['pred'] = o['true_cells'] = None
-        del M, B, A_arm, P_ctrl, P_h1, D1h, D2h, C1, C2, CL, REFS
+        # release this split's large objects by rebinding, not `del`: the sm lambda closes over M, and deleting a
+        # name a live closure refers to is an unbound-name hazard (flagged by ruff F821 in the package CI)
+        M = B = A_arm = P_ctrl = P_h1 = D1h = D2h = C1 = C2 = CL = REFS = None
         gc.collect()
 
     # ---- verdict D across splits (prereg 5, with the 2026-11-02 amendment: G4 = ctrl_line; G4b joins G5 as a
