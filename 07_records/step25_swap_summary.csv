@@ -1,0 +1,130 @@
+split,kind,name,value,lo,hi,verdict,n_conditions
+drug_split_1,contrast,recipe_Q1_own_minus_shuf,0.006323516673430155,-0.015311510725759193,0.02882135017554998,includes zero,2899
+drug_split_1,contrast,recipe_Q2_shuf_minus_0.5,0.21601295117444524,0.18618895271521008,0.24554077363822438,above zero,2899
+drug_split_1,contrast,recipe_ref_zero_minus_0.5,0.2359839765994652,0.20758125529196728,0.26532469929416475,above zero,2899
+drug_split_1,contrast,recipe_ref_shuf_minus_zero,-0.019971025425019957,-0.039937419322443275,-0.0018898180752189666,below zero,2899
+drug_split_1,contrast,recipe_ref_own_minus_zero,-0.013647508751589798,-0.03278518534776893,0.004057726187930528,includes zero,2899
+drug_split_1,contrast,base_Q1_own_minus_shuf,-0.0011340063988110613,-0.0089977124136248,0.00681995327640957,includes zero,2899
+drug_split_1,contrast,base_Q2_shuf_minus_0.5,0.14262964637578554,0.10349538398547806,0.18036248254086434,above zero,2899
+drug_split_1,contrast,base_ref_zero_minus_0.5,0.14306400237541242,0.10357736187302592,0.18219001586589262,above zero,2899
+drug_split_1,contrast,base_ref_shuf_minus_zero,-0.0004343559996268792,-0.006499957459233526,0.005766077802908831,includes zero,2899
+drug_split_1,contrast,base_ref_own_minus_zero,-0.0015683623984379415,-0.009391296568385655,0.006064544998404924,includes zero,2899
+drug_split_1,contrast,Q3_gap_own_minus_shuf,0.007457523072241215,-0.011569915147733454,0.027099518886755616,includes zero,2899
+drug_split_1,contrast,ref_gap_own,0.08084082787090094,0.036172921002528544,0.12394736655214078,above zero,2899
+drug_split_1,contrast,ref_gap_shuf,0.07338330479865972,0.028180844999513933,0.11432849332667323,above zero,2899
+drug_split_1,value,recipe_own_pds,0.7223364678478754,,,,2899
+drug_split_1,value,recipe_own_de,0.46404862184689377,,,,2899
+drug_split_1,value,recipe_own_dpc,0.5196831484530938,,,,2899
+drug_split_1,value,recipe_own_en,0.22498787800913528,,,,2899
+drug_split_1,value,recipe_own_mra,0.3204914656784423,,,,2899
+drug_split_1,value,recipe_shuf_pds,0.7160129511744452,,,,2899
+drug_split_1,value,recipe_shuf_de,0.46233002117886995,,,,2899
+drug_split_1,value,recipe_shuf_dpc,0.5229293349769965,,,,2899
+drug_split_1,value,recipe_shuf_en,0.21631520834174553,,,,2899
+drug_split_1,value,recipe_shuf_mra,0.36034235971973344,,,,2899
+drug_split_1,value,recipe_zero_pds,0.7359839765994652,,,,2899
+drug_split_1,value,recipe_zero_de,0.4563612955977051,,,,2899
+drug_split_1,value,recipe_zero_dpc,0.5288383415262905,,,,2899
+drug_split_1,value,recipe_zero_en,0.16405254907737563,,,,2899
+drug_split_1,value,recipe_zero_mra,0.3553497950109308,,,,2899
+drug_split_1,value,base_own_pds,0.6414956399769745,,,,2899
+drug_split_1,value,base_own_de,0.26826089944144466,,,,2899
+drug_split_1,value,base_own_dpc,0.2269137529752272,,,,2899
+drug_split_1,value,base_own_en,2.2680918774567784,,,,2899
+drug_split_1,value,base_own_mra,-0.07547194849126242,,,,2899
+drug_split_1,value,base_shuf_pds,0.6426296463757856,,,,2899
+drug_split_1,value,base_shuf_de,0.2679840967035368,,,,2899
+drug_split_1,value,base_shuf_dpc,0.22688104949734017,,,,2899
+drug_split_1,value,base_shuf_en,2.2609933564469364,,,,2899
+drug_split_1,value,base_shuf_mra,-0.07453896862000613,,,,2899
+drug_split_1,value,base_zero_pds,0.6430640023754125,,,,2899
+drug_split_1,value,base_zero_de,0.26715311284960147,,,,2899
+drug_split_1,value,base_zero_dpc,0.21928395160518607,,,,2899
+drug_split_1,value,base_zero_en,2.3116302034252967,,,,2899
+drug_split_1,value,base_zero_mra,-0.13564629452554186,,,,2899
+drug_split_0,contrast,recipe_Q1_own_minus_shuf,0.01693055234758267,-0.004378832962614364,0.040559138144499074,includes zero,3115
+drug_split_0,contrast,recipe_Q2_shuf_minus_0.5,0.20117526385074305,0.15724273129139885,0.23855969982172856,above zero,3115
+drug_split_0,contrast,recipe_ref_zero_minus_0.5,0.21798643914145294,0.17609529112469857,0.254224791906585,above zero,3115
+drug_split_0,contrast,recipe_ref_shuf_minus_zero,-0.01681117529070988,-0.0310101919917688,-0.0031371977122311915,below zero,3115
+drug_split_0,contrast,recipe_ref_own_minus_zero,0.00011937705687278706,-0.019822086690738774,0.021263936613519798,includes zero,3115
+drug_split_0,contrast,base_Q1_own_minus_shuf,0.008388836543898806,-0.0035256708346762377,0.022604117190837797,includes zero,3115
+drug_split_0,contrast,base_Q2_shuf_minus_0.5,0.13601697772303586,0.09591730944786193,0.17688335046547504,above zero,3115
+drug_split_0,contrast,base_ref_zero_minus_0.5,0.13664784075140496,0.0990545169296856,0.17561224476316298,above zero,3115
+drug_split_0,contrast,base_ref_shuf_minus_zero,-0.000630863028369079,-0.009753319969845206,0.008570226182690712,includes zero,3115
+drug_split_0,contrast,base_ref_own_minus_zero,0.007757973515529726,-0.0018334912703171162,0.021231822822942264,includes zero,3115
+drug_split_0,contrast,Q3_gap_own_minus_shuf,0.008541715803683863,-0.007699852647288219,0.025842327562275766,includes zero,3115
+drug_split_0,contrast,ref_gap_own,0.07370000193139106,0.01756410897216673,0.12374311118344654,above zero,3115
+drug_split_0,contrast,ref_gap_shuf,0.0651582861277072,0.012193923174954225,0.11332144181481868,above zero,3115
+drug_split_0,value,recipe_own_pds,0.7181058161983257,,,,3115
+drug_split_0,value,recipe_own_de,0.46030092437370224,,,,3115
+drug_split_0,value,recipe_own_dpc,0.5005284053416328,,,,3115
+drug_split_0,value,recipe_own_en,0.2437552672690484,,,,3115
+drug_split_0,value,recipe_own_mra,0.2863975830450621,,,,3115
+drug_split_0,value,recipe_shuf_pds,0.701175263850743,,,,3115
+drug_split_0,value,recipe_shuf_de,0.4545063048977697,,,,3115
+drug_split_0,value,recipe_shuf_dpc,0.485044528917189,,,,3115
+drug_split_0,value,recipe_shuf_en,0.28459439597934066,,,,3115
+drug_split_0,value,recipe_shuf_mra,0.21383428806080193,,,,3115
+drug_split_0,value,recipe_zero_pds,0.7179864391414531,,,,3115
+drug_split_0,value,recipe_zero_de,0.4533823658152434,,,,3115
+drug_split_0,value,recipe_zero_dpc,0.486803341251303,,,,3115
+drug_split_0,value,recipe_zero_en,0.23302068868226875,,,,3115
+drug_split_0,value,recipe_zero_mra,0.24910423764343703,,,,3115
+drug_split_0,value,base_own_pds,0.6444058142669347,,,,3115
+drug_split_0,value,base_own_de,0.28503406389110136,,,,3115
+drug_split_0,value,base_own_dpc,0.24901037648352067,,,,3115
+drug_split_0,value,base_own_en,2.135265548109414,,,,3115
+drug_split_0,value,base_own_mra,-0.05762992931983848,,,,3115
+drug_split_0,value,base_shuf_pds,0.6360169777230359,,,,3115
+drug_split_0,value,base_shuf_de,0.28486838644205087,,,,3115
+drug_split_0,value,base_shuf_dpc,0.24087342972596393,,,,3115
+drug_split_0,value,base_shuf_en,2.145446983472285,,,,3115
+drug_split_0,value,base_shuf_mra,-0.05381076864321038,,,,3115
+drug_split_0,value,base_zero_pds,0.6366478407514049,,,,3115
+drug_split_0,value,base_zero_de,0.2830940992078163,,,,3115
+drug_split_0,value,base_zero_dpc,0.23730692191450303,,,,3115
+drug_split_0,value,base_zero_en,2.144655635896709,,,,3115
+drug_split_0,value,base_zero_mra,-0.11378222115273706,,,,3115
+drug_split_2,contrast,recipe_Q1_own_minus_shuf,0.023537880671423764,-0.00294409572001481,0.05274191278180759,includes zero,2853
+drug_split_2,contrast,recipe_Q2_shuf_minus_0.5,0.19066496486509002,0.1556707080756032,0.22480494722316105,above zero,2853
+drug_split_2,contrast,recipe_ref_zero_minus_0.5,0.21444730365115838,0.1801126256484675,0.24719708537929627,above zero,2853
+drug_split_2,contrast,recipe_ref_shuf_minus_zero,-0.023782338786068384,-0.04557205892029018,-0.001809771873737033,below zero,2853
+drug_split_2,contrast,recipe_ref_own_minus_zero,-0.0002444581146446249,-0.019563731764430613,0.020034499411976776,includes zero,2853
+drug_split_2,contrast,base_Q1_own_minus_shuf,0.010745173364869923,-0.0009919263824382926,0.024837140870720097,includes zero,2853
+drug_split_2,contrast,base_Q2_shuf_minus_0.5,0.14413287349894177,0.09852594136268258,0.18733205646883566,above zero,2853
+drug_split_2,contrast,base_ref_zero_minus_0.5,0.1459792640783967,0.10035840911355526,0.18953410342731333,above zero,2853
+drug_split_2,contrast,base_ref_shuf_minus_zero,-0.0018463905794549177,-0.010556793584860296,0.006339455633201604,includes zero,2853
+drug_split_2,contrast,base_ref_own_minus_zero,0.008898782785415005,-4.114056963909803e-05,0.018598078856617503,includes zero,2853
+drug_split_2,contrast,Q3_gap_own_minus_shuf,0.012792707306553837,-0.008789188073698702,0.035354611477919407,includes zero,2853
+drug_split_2,contrast,ref_gap_own,0.0593247986727021,0.017497895963534477,0.10290569431664881,above zero,2853
+drug_split_2,contrast,ref_gap_shuf,0.04653209136614827,0.0013909943278214228,0.09349683369674097,above zero,2853
+drug_split_2,value,recipe_own_pds,0.7142028455365138,,,,2853
+drug_split_2,value,recipe_own_de,0.4584607547682541,,,,2853
+drug_split_2,value,recipe_own_dpc,0.523113144002375,,,,2853
+drug_split_2,value,recipe_own_en,0.21809605113107675,,,,2853
+drug_split_2,value,recipe_own_mra,0.311722431563326,,,,2853
+drug_split_2,value,recipe_shuf_pds,0.6906649648650901,,,,2853
+drug_split_2,value,recipe_shuf_de,0.4559897485817517,,,,2853
+drug_split_2,value,recipe_shuf_dpc,0.5101595014080113,,,,2853
+drug_split_2,value,recipe_shuf_en,0.21487432661864553,,,,2853
+drug_split_2,value,recipe_shuf_mra,0.32833562309502456,,,,2853
+drug_split_2,value,recipe_zero_pds,0.7144473036511584,,,,2853
+drug_split_2,value,recipe_zero_de,0.4524762027818607,,,,2853
+drug_split_2,value,recipe_zero_dpc,0.5225994537515559,,,,2853
+drug_split_2,value,recipe_zero_en,0.1727641290522342,,,,2853
+drug_split_2,value,recipe_zero_mra,0.32607564524038585,,,,2853
+drug_split_2,value,base_own_pds,0.6548780468638117,,,,2853
+drug_split_2,value,base_own_de,0.2908460326870103,,,,2853
+drug_split_2,value,base_own_dpc,0.2705212655572851,,,,2853
+drug_split_2,value,base_own_en,2.0210050693537123,,,,2853
+drug_split_2,value,base_own_mra,-0.10691962649634418,,,,2853
+drug_split_2,value,base_shuf_pds,0.6441328734989418,,,,2853
+drug_split_2,value,base_shuf_de,0.2897222863833108,,,,2853
+drug_split_2,value,base_shuf_dpc,0.2628944981465411,,,,2853
+drug_split_2,value,base_shuf_en,2.015077337325225,,,,2853
+drug_split_2,value,base_shuf_mra,-0.07157163351471381,,,,2853
+drug_split_2,value,base_zero_pds,0.6459792640783967,,,,2853
+drug_split_2,value,base_zero_de,0.2881012891776535,,,,2853
+drug_split_2,value,base_zero_dpc,0.2583900270293501,,,,2853
+drug_split_2,value,base_zero_en,2.0384780952918944,,,,2853
+drug_split_2,value,base_zero_mra,-0.1168809246675405,,,,2853

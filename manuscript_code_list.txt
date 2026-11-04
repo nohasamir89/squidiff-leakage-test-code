@@ -292,3 +292,7 @@ run_step26_score.sh
 tahoe_results/step25/permutation_drug_split_0.json
 tahoe_results/step25/permutation_drug_split_2.json
 verify_step15c_intervals.py
+tahoe_results/step25_swap.json
+tahoe_results/step25_swap_per_condition.csv
+tahoe_results/step25_swap_summary.csv
+step25_findings.md

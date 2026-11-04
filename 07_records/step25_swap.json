@@ -1,0 +1,1190 @@
+{
+  "prereg": "PREREG_step25_swap_confirmation.md",
+  "commit": "254789364be030a86320e03f020f1cb07d09e947",
+  "splits": [
+    "drug_split_1",
+    "drug_split_0",
+    "drug_split_2"
+  ],
+  "n_boot": 5000,
+  "interval": "97.5% percentile, structure-clustered, fresh RandomState(0) per scored set",
+  "reference": {
+    "boot": {
+      "recipe": {
+        "drug_split_1": [
+          0.22234,
+          0.18829,
+          0.25411
+        ],
+        "drug_split_0": [
+          0.21811,
+          0.17822,
+          0.25899
+        ],
+        "drug_split_2": [
+          0.2142,
+          0.18261,
+          0.24477
+        ]
+      },
+      "base": {
+        "drug_split_1": [
+          0.1415,
+          0.10358,
+          0.18063
+        ],
+        "drug_split_0": [
+          0.14441,
+          0.10481,
+          0.1845
+        ],
+        "drug_split_2": [
+          0.15488,
+          0.11017,
+          0.19767
+        ]
+      }
+    },
+    "mra_dev_recipe": [
+      0.3112,
+      0.3237,
+      0.3265
+    ],
+    "source": "step15c_findings.md s1/s3, step16_findings.md s4.4"
+  },
+  "verdict": {
+    "A_recipe_null": "1 NULL REPLICATED",
+    "B_base": "1 NULL REPLICATED",
+    "C_gap": "GAP NOT COMPOUND-SPECIFIC (Q3 includes zero on all three splits)",
+    "Q3_by_split": {
+      "drug_split_1": "includes zero",
+      "drug_split_0": "includes zero",
+      "drug_split_2": "includes zero"
+    }
+  },
+  "per_split": {
+    "drug_split_1": {
+      "n_conditions": 2899,
+      "n_structures": 75,
+      "n_contexts": 42,
+      "permutation_sha256": "69ff344f2ce3a34db23a2c9ffe95d0c583ec91848b4193c29949d49b40b5f242",
+      "values": {
+        "recipe_own": {
+          "pds": 0.7223364678478754,
+          "de": 0.46404862184689377,
+          "dpc": 0.5196831484530938,
+          "en": 0.22498787800913528,
+          "mra": 0.3204914656784423,
+          "per_seed_pds": [
+            0.7226986090090481,
+            0.7210777481605679,
+            0.7232330463740102
+          ]
+        },
+        "recipe_shuf": {
+          "pds": 0.7160129511744452,
+          "de": 0.46233002117886995,
+          "dpc": 0.5229293349769965,
+          "en": 0.21631520834174553,
+          "mra": 0.36034235971973344,
+          "per_seed_pds": [
+            0.7147380561882012,
+            0.7145265073135235,
+            0.718774290021611
+          ]
+        },
+        "recipe_zero": {
+          "pds": 0.7359839765994652,
+          "de": 0.4563612955977051,
+          "dpc": 0.5288383415262905,
+          "en": 0.16405254907737563,
+          "mra": 0.3553497950109308,
+          "per_seed_pds": [
+            0.7367548619307592,
+            0.7361775835473202,
+            0.7350194843203162
+          ]
+        },
+        "base_own": {
+          "pds": 0.6414956399769745,
+          "de": 0.26826089944144466,
+          "dpc": 0.2269137529752272,
+          "en": 2.2680918774567784,
+          "mra": -0.07547194849126242,
+          "per_seed_pds": [
+            0.6474741103876971,
+            0.6434233864541045,
+            0.6335894230891219
+          ]
+        },
+        "base_shuf": {
+          "pds": 0.6426296463757856,
+          "de": 0.2679840967035368,
+          "dpc": 0.22688104949734017,
+          "en": 2.2609933564469364,
+          "mra": -0.07453896862000613,
+          "per_seed_pds": [
+            0.6492521327884668,
+            0.6444849740283208,
+            0.634151832310569
+          ]
+        },
+        "base_zero": {
+          "pds": 0.6430640023754125,
+          "de": 0.26715311284960147,
+          "dpc": 0.21928395160518607,
+          "en": 2.3116302034252967,
+          "mra": -0.13564629452554186,
+          "per_seed_pds": [
+            0.6508870035166596,
+            0.6453080685843462,
+            0.6329969350252314
+          ]
+        }
+      },
+      "contrasts": {
+        "recipe_Q1_own_minus_shuf": {
+          "diff": 0.006323516673430155,
+          "ci": [
+            -0.015311510725759193,
+            0.02882135017554998
+          ],
+          "verdict": "includes zero",
+          "half_width": 0.022066430450654588,
+          "n_conditions": 2899
+        },
+        "recipe_Q2_shuf_minus_0.5": {
+          "diff": 0.21601295117444524,
+          "ci": [
+            0.18618895271521008,
+            0.24554077363822438
+          ],
+          "verdict": "above zero",
+          "half_width": 0.02967591046150715,
+          "n_conditions": 2899
+        },
+        "recipe_ref_zero_minus_0.5": {
+          "diff": 0.2359839765994652,
+          "ci": [
+            0.20758125529196728,
+            0.26532469929416475
+          ],
+          "verdict": "above zero",
+          "half_width": 0.028871722001098735,
+          "n_conditions": 2899
+        },
+        "recipe_ref_shuf_minus_zero": {
+          "diff": -0.019971025425019957,
+          "ci": [
+            -0.039937419322443275,
+            -0.0018898180752189666
+          ],
+          "verdict": "below zero",
+          "half_width": 0.019023800623612155,
+          "n_conditions": 2899
+        },
+        "recipe_ref_own_minus_zero": {
+          "diff": -0.013647508751589798,
+          "ci": [
+            -0.03278518534776893,
+            0.004057726187930528
+          ],
+          "verdict": "includes zero",
+          "half_width": 0.01842145576784973,
+          "n_conditions": 2899
+        },
+        "base_Q1_own_minus_shuf": {
+          "diff": -0.0011340063988110613,
+          "ci": [
+            -0.0089977124136248,
+            0.00681995327640957
+          ],
+          "verdict": "includes zero",
+          "half_width": 0.007908832845017186,
+          "n_conditions": 2899
+        },
+        "base_Q2_shuf_minus_0.5": {
+          "diff": 0.14262964637578554,
+          "ci": [
+            0.10349538398547806,
+            0.18036248254086434
+          ],
+          "verdict": "above zero",
+          "half_width": 0.038433549277693144,
+          "n_conditions": 2899
+        },
+        "base_ref_zero_minus_0.5": {
+          "diff": 0.14306400237541242,
+          "ci": [
+            0.10357736187302592,
+            0.18219001586589262
+          ],
+          "verdict": "above zero",
+          "half_width": 0.03930632699643335,
+          "n_conditions": 2899
+        },
+        "base_ref_shuf_minus_zero": {
+          "diff": -0.0004343559996268792,
+          "ci": [
+            -0.006499957459233526,
+            0.005766077802908831
+          ],
+          "verdict": "includes zero",
+          "half_width": 0.006133017631071179,
+          "n_conditions": 2899
+        },
+        "base_ref_own_minus_zero": {
+          "diff": -0.0015683623984379415,
+          "ci": [
+            -0.009391296568385655,
+            0.006064544998404924
+          ],
+          "verdict": "includes zero",
+          "half_width": 0.007727920783395289,
+          "n_conditions": 2899
+        },
+        "Q3_gap_own_minus_shuf": {
+          "diff": 0.007457523072241215,
+          "ci": [
+            -0.011569915147733454,
+            0.027099518886755616
+          ],
+          "verdict": "includes zero",
+          "half_width": 0.019334717017244533,
+          "n_conditions": 2899
+        },
+        "ref_gap_own": {
+          "diff": 0.08084082787090094,
+          "ci": [
+            0.036172921002528544,
+            0.12394736655214078
+          ],
+          "verdict": "above zero",
+          "half_width": 0.04388722277480612,
+          "n_conditions": 2899
+        },
+        "ref_gap_shuf": {
+          "diff": 0.07338330479865972,
+          "ci": [
+            0.028180844999513933,
+            0.11432849332667323
+          ],
+          "verdict": "above zero",
+          "half_width": 0.043073824163579646,
+          "n_conditions": 2899
+        }
+      },
+      "inputs": {
+        "own": {
+          "recipe": [
+            {
+              "tag": "s15_drug_split_1_recipe_seed_0",
+              "vectors_sha256": "18dee6b31e5f5428a77ff8d75492f1ee88db30eeaaa92d9aa00f8eaaa3021160",
+              "per_cell_sha256": "0b6372c3a1f8045c1723e0ab7e00b2269bfe6b67a1c6327c11760fc4be8a91f9",
+              "checkpoint_sha256": "6ad100e4ce89269fb663648115da002c7f94921d50342bb60512a406ccb40335",
+              "training_commit": "116b9f513dfa353aa939b3d05ab35172f2f8d3e1",
+              "eval_commit": "030695cdba9e3c8294be5ef93ca4d76809ddc754"
+            },
+            {
+              "tag": "s15_drug_split_1_recipe_seed_1",
+              "vectors_sha256": "d52300a3774543b80f39ace00a06204121952b77a61853522f5c47c71c58064b",
+              "per_cell_sha256": "4e21d2a29a4fab7ec140bd760eca4ca1e3ec1b29ccee5f82364fef5c9b61b014",
+              "checkpoint_sha256": "18baa18bd226c760239dd5ea06993386491eae5d163cf29a4da811e95e567d27",
+              "training_commit": "116b9f513dfa353aa939b3d05ab35172f2f8d3e1",
+              "eval_commit": "030695cdba9e3c8294be5ef93ca4d76809ddc754"
+            },
+            {
+              "tag": "s15_drug_split_1_recipe_seed_2",
+              "vectors_sha256": "4cf558198597a48dd52021442fc65e43ded1fa1e5e9ca6b2e60f199c8153c8e4",
+              "per_cell_sha256": "5ef3baaa36be776a4382c40528b272727244151cddaafa13ee62548ca573c38a",
+              "checkpoint_sha256": "25cf06b5b36e5a5b398c78bb958b205cfaebc7504b28ab3fd2a839d832a520bb",
+              "training_commit": "116b9f513dfa353aa939b3d05ab35172f2f8d3e1",
+              "eval_commit": "030695cdba9e3c8294be5ef93ca4d76809ddc754"
+            }
+          ],
+          "base": [
+            {
+              "tag": "s15_drug_split_1_base_seed_0",
+              "vectors_sha256": "0706db3dff21c012e1d7410779ee6e4692260ad82ab3c95787ed29770264d95c",
+              "per_cell_sha256": "5cf7224f87cfa4b9fb9a2eb0dfdf422e784b4f45853c2e421167fac6dc923568",
+              "checkpoint_sha256": "d820bb96df364db9ce444bba96f33d155bdad8fb0cb017c224f3485297d96524",
+              "training_commit": "116b9f513dfa353aa939b3d05ab35172f2f8d3e1",
+              "eval_commit": "030695cdba9e3c8294be5ef93ca4d76809ddc754"
+            },
+            {
+              "tag": "s15_drug_split_1_base_seed_1",
+              "vectors_sha256": "ef0e5b1c93bb0baac19c2942c255c2770f2692f0d65994fd87312d6c783e2d5a",
+              "per_cell_sha256": "f80aa198b7fc3d8595f3b8a0e616fb9f6a6a96882d142a66e453d80b19535d86",
+              "checkpoint_sha256": "47b85cdb42a8a79a7abed1257a5e9de828284b217681fab94f390644d0125a67",
+              "training_commit": "116b9f513dfa353aa939b3d05ab35172f2f8d3e1",
+              "eval_commit": "030695cdba9e3c8294be5ef93ca4d76809ddc754"
+            },
+            {
+              "tag": "s15_drug_split_1_base_seed_2",
+              "vectors_sha256": "3dd22b15c309be5f7f299005bd091854561a527ce11f163c157777873abab99f",
+              "per_cell_sha256": "66a459923148a96063fceb265bd1787a02eeea195dc1affa5e04da3550a28f96",
+              "checkpoint_sha256": "4c79d3e22d42089dd2796655008d9e9b2ca70fee74d40b12210a70e2e10e671b",
+              "training_commit": "116b9f513dfa353aa939b3d05ab35172f2f8d3e1",
+              "eval_commit": "030695cdba9e3c8294be5ef93ca4d76809ddc754"
+            }
+          ]
+        },
+        "swap": {
+          "recipe_shuf": [
+            {
+              "tag": "s24_drug_split_1_fpshuf_seed_0",
+              "vectors_sha256": "08a238afc9ebd5efe1a66aa53c5d9e9ef2a83e6be202e476dd91bb2484eea72f",
+              "per_cell_sha256": "20f8670d3581c827b0a41bf259b8380b182d1cade3f0b94dd010cb1006aaa7b5",
+              "checkpoint_sha256": "6ad100e4ce89269fb663648115da002c7f94921d50342bb60512a406ccb40335",
+              "permutation_sha256": "69ff344f2ce3a34db23a2c9ffe95d0c583ec91848b4193c29949d49b40b5f242",
+              "source": "step24"
+            },
+            {
+              "tag": "s24_drug_split_1_fpshuf_seed_1",
+              "vectors_sha256": "0cc04c691908b5b327eff9a6fae3d409a64cafe6c3a8b30cfbab3dfa1ab83230",
+              "per_cell_sha256": "f3cfdeaedc98b52f1bd0b4b4dbafb9cfeb50c16db6c05f1f4e8ded30f27cb9a7",
+              "checkpoint_sha256": "18baa18bd226c760239dd5ea06993386491eae5d163cf29a4da811e95e567d27",
+              "permutation_sha256": "69ff344f2ce3a34db23a2c9ffe95d0c583ec91848b4193c29949d49b40b5f242",
+              "source": "step24"
+            },
+            {
+              "tag": "s24_drug_split_1_fpshuf_seed_2",
+              "vectors_sha256": "25fe1ae5886a116ff625abae404dce1f574c1f621d8acfb32f9ed7898974fff4",
+              "per_cell_sha256": "43c6379af0b1405b3b1e2a73ead10a65e3c280b483afef08da089b4be8ed0b35",
+              "checkpoint_sha256": "25cf06b5b36e5a5b398c78bb958b205cfaebc7504b28ab3fd2a839d832a520bb",
+              "permutation_sha256": "69ff344f2ce3a34db23a2c9ffe95d0c583ec91848b4193c29949d49b40b5f242",
+              "source": "step24"
+            }
+          ],
+          "recipe_zero": [
+            {
+              "tag": "s24_drug_split_1_fpzero_seed_0",
+              "vectors_sha256": "e56e135784eb855f68d616f6d91d86b89cb4f524d16763201ce0f648d8aa358b",
+              "per_cell_sha256": "9efad7397d60b93d7be27f863ae2167e7fabdaa0bae15b9368d3fd1080777afa",
+              "checkpoint_sha256": "6ad100e4ce89269fb663648115da002c7f94921d50342bb60512a406ccb40335",
+              "permutation_sha256": null,
+              "source": "step24"
+            },
+            {
+              "tag": "s24_drug_split_1_fpzero_seed_1",
+              "vectors_sha256": "e3d459f45fab3be2e6f6b2cd7c4939bf31b162e7d9ac7284edf0bd86e36b1756",
+              "per_cell_sha256": "4ed7e75a55a9e919b8748617a95cce124baba4d1ae4fed4812b07b96f2c17b5a",
+              "checkpoint_sha256": "18baa18bd226c760239dd5ea06993386491eae5d163cf29a4da811e95e567d27",
+              "permutation_sha256": null,
+              "source": "step24"
+            },
+            {
+              "tag": "s24_drug_split_1_fpzero_seed_2",
+              "vectors_sha256": "578a05ca8171082b8f5b44d96e96869f47c7a39380e209b1674bf6989b0cc128",
+              "per_cell_sha256": "c523f2c056cc3d88e5d0745be3c2b4a029397d3b32b0990742fcc49d266ff9ab",
+              "checkpoint_sha256": "25cf06b5b36e5a5b398c78bb958b205cfaebc7504b28ab3fd2a839d832a520bb",
+              "permutation_sha256": null,
+              "source": "step24"
+            }
+          ],
+          "base_shuf": [
+            {
+              "tag": "s25_drug_split_1_base_fpshuf_seed_0",
+              "vectors_sha256": "212d305c7c3262c6262d3b45c5cb3b25e12f7f607a0116a828480ab954ced592",
+              "per_cell_sha256": "e3d7208710ece6fdac1bb52e1d36c940609196458c884a05ebff23c3f8b6e8d9",
+              "checkpoint_sha256": "d820bb96df364db9ce444bba96f33d155bdad8fb0cb017c224f3485297d96524",
+              "permutation_sha256": "69ff344f2ce3a34db23a2c9ffe95d0c583ec91848b4193c29949d49b40b5f242",
+              "source": "step25"
+            },
+            {
+              "tag": "s25_drug_split_1_base_fpshuf_seed_1",
+              "vectors_sha256": "5cc377fffab007c25a90ef0679181e48a9553a94fe0de8621471c37288c0bf48",
+              "per_cell_sha256": "61be45b8c4465a2f799db129e2f7a68ab807279dfabe9edda42084ba9c0c3edc",
+              "checkpoint_sha256": "47b85cdb42a8a79a7abed1257a5e9de828284b217681fab94f390644d0125a67",
+              "permutation_sha256": "69ff344f2ce3a34db23a2c9ffe95d0c583ec91848b4193c29949d49b40b5f242",
+              "source": "step25"
+            },
+            {
+              "tag": "s25_drug_split_1_base_fpshuf_seed_2",
+              "vectors_sha256": "d46cb9c12ad8d102e6312918d9aee4570ebed8c211af30583fc3a774cdfff35d",
+              "per_cell_sha256": "d817be20c885f1cab130aa6f2cd7ca2c7c9c6e3a1e1a71153c1114c934a9b8b1",
+              "checkpoint_sha256": "4c79d3e22d42089dd2796655008d9e9b2ca70fee74d40b12210a70e2e10e671b",
+              "permutation_sha256": "69ff344f2ce3a34db23a2c9ffe95d0c583ec91848b4193c29949d49b40b5f242",
+              "source": "step25"
+            }
+          ],
+          "base_zero": [
+            {
+              "tag": "s25_drug_split_1_base_fpzero_seed_0",
+              "vectors_sha256": "6f14ac63f76659228124df1daf594c29acda905242d725b9145734c96fb665b2",
+              "per_cell_sha256": "9bda9bd75025725f42f8a9ea6654ff9128f4be8fb441b9b89e3ba312b4c9ff7c",
+              "checkpoint_sha256": "d820bb96df364db9ce444bba96f33d155bdad8fb0cb017c224f3485297d96524",
+              "permutation_sha256": null,
+              "source": "step25"
+            },
+            {
+              "tag": "s25_drug_split_1_base_fpzero_seed_1",
+              "vectors_sha256": "65a701769249a5fd612f878efea8a27c251d9b220b8386a936ec31c654c679ea",
+              "per_cell_sha256": "19e91fd0f029928aeabdbf69a87c017415afd1db6978fb0d610b6b548e90b8d3",
+              "checkpoint_sha256": "47b85cdb42a8a79a7abed1257a5e9de828284b217681fab94f390644d0125a67",
+              "permutation_sha256": null,
+              "source": "step25"
+            },
+            {
+              "tag": "s25_drug_split_1_base_fpzero_seed_2",
+              "vectors_sha256": "a7382d19957524f89d2f103021cc1bbcc1346b036a0b43e8d545a68fb16d7174",
+              "per_cell_sha256": "9186a4f5d9dc166f2fb4de4efcb3ecfbea5acb2eb43a9f581d73c270b05eb5db",
+              "checkpoint_sha256": "4c79d3e22d42089dd2796655008d9e9b2ca70fee74d40b12210a70e2e10e671b",
+              "permutation_sha256": null,
+              "source": "step25"
+            }
+          ]
+        }
+      }
+    },
+    "drug_split_0": {
+      "n_conditions": 3115,
+      "n_structures": 75,
+      "n_contexts": 42,
+      "permutation_sha256": "27299dbf01e934a77ae591b0dea65108bb33fbdf551e3acf8f8df62d101ddaeb",
+      "values": {
+        "recipe_own": {
+          "pds": 0.7181058161983257,
+          "de": 0.46030092437370224,
+          "dpc": 0.5005284053416328,
+          "en": 0.2437552672690484,
+          "mra": 0.2863975830450621,
+          "per_seed_pds": [
+            0.7178303995092133,
+            0.7178162498234816,
+            0.7186707992622823
+          ]
+        },
+        "recipe_shuf": {
+          "pds": 0.701175263850743,
+          "de": 0.4545063048977697,
+          "dpc": 0.485044528917189,
+          "en": 0.28459439597934066,
+          "mra": 0.21383428806080193,
+          "per_seed_pds": [
+            0.7024375769537023,
+            0.6989864657037852,
+            0.7021017488947414
+          ]
+        },
+        "recipe_zero": {
+          "pds": 0.7179864391414531,
+          "de": 0.4533823658152434,
+          "dpc": 0.486803341251303,
+          "en": 0.23302068868226875,
+          "mra": 0.24910423764343703,
+          "per_seed_pds": [
+            0.719039153941658,
+            0.7166871075086417,
+            0.7182330559740592
+          ]
+        },
+        "base_own": {
+          "pds": 0.6444058142669347,
+          "de": 0.28503406389110136,
+          "dpc": 0.24901037648352067,
+          "en": 2.135265548109414,
+          "mra": -0.05762992931983848,
+          "per_seed_pds": [
+            0.6531127330730161,
+            0.6461702166103308,
+            0.6339344931174571
+          ]
+        },
+        "base_shuf": {
+          "pds": 0.6360169777230359,
+          "de": 0.28486838644205087,
+          "dpc": 0.24087342972596393,
+          "en": 2.145446983472285,
+          "mra": -0.05381076864321038,
+          "per_seed_pds": [
+            0.6440772885961411,
+            0.6382803440507429,
+            0.6256933005222238
+          ]
+        },
+        "base_zero": {
+          "pds": 0.6366478407514049,
+          "de": 0.2830940992078163,
+          "dpc": 0.23730692191450303,
+          "en": 2.144655635896709,
+          "mra": -0.11378222115273706,
+          "per_seed_pds": [
+            0.6467088740310599,
+            0.6395402677208404,
+            0.6236943805023145
+          ]
+        }
+      },
+      "contrasts": {
+        "recipe_Q1_own_minus_shuf": {
+          "diff": 0.01693055234758267,
+          "ci": [
+            -0.004378832962614364,
+            0.040559138144499074
+          ],
+          "verdict": "includes zero",
+          "half_width": 0.022468985553556718,
+          "n_conditions": 3115
+        },
+        "recipe_Q2_shuf_minus_0.5": {
+          "diff": 0.20117526385074305,
+          "ci": [
+            0.15724273129139885,
+            0.23855969982172856
+          ],
+          "verdict": "above zero",
+          "half_width": 0.04065848426516486,
+          "n_conditions": 3115
+        },
+        "recipe_ref_zero_minus_0.5": {
+          "diff": 0.21798643914145294,
+          "ci": [
+            0.17609529112469857,
+            0.254224791906585
+          ],
+          "verdict": "above zero",
+          "half_width": 0.039064750390943204,
+          "n_conditions": 3115
+        },
+        "recipe_ref_shuf_minus_zero": {
+          "diff": -0.01681117529070988,
+          "ci": [
+            -0.0310101919917688,
+            -0.0031371977122311915
+          ],
+          "verdict": "below zero",
+          "half_width": 0.013936497139768803,
+          "n_conditions": 3115
+        },
+        "recipe_ref_own_minus_zero": {
+          "diff": 0.00011937705687278706,
+          "ci": [
+            -0.019822086690738774,
+            0.021263936613519798
+          ],
+          "verdict": "includes zero",
+          "half_width": 0.020543011652129288,
+          "n_conditions": 3115
+        },
+        "base_Q1_own_minus_shuf": {
+          "diff": 0.008388836543898806,
+          "ci": [
+            -0.0035256708346762377,
+            0.022604117190837797
+          ],
+          "verdict": "includes zero",
+          "half_width": 0.013064894012757018,
+          "n_conditions": 3115
+        },
+        "base_Q2_shuf_minus_0.5": {
+          "diff": 0.13601697772303586,
+          "ci": [
+            0.09591730944786193,
+            0.17688335046547504
+          ],
+          "verdict": "above zero",
+          "half_width": 0.040483020508806554,
+          "n_conditions": 3115
+        },
+        "base_ref_zero_minus_0.5": {
+          "diff": 0.13664784075140496,
+          "ci": [
+            0.0990545169296856,
+            0.17561224476316298
+          ],
+          "verdict": "above zero",
+          "half_width": 0.03827886391673869,
+          "n_conditions": 3115
+        },
+        "base_ref_shuf_minus_zero": {
+          "diff": -0.000630863028369079,
+          "ci": [
+            -0.009753319969845206,
+            0.008570226182690712
+          ],
+          "verdict": "includes zero",
+          "half_width": 0.009161773076267959,
+          "n_conditions": 3115
+        },
+        "base_ref_own_minus_zero": {
+          "diff": 0.007757973515529726,
+          "ci": [
+            -0.0018334912703171162,
+            0.021231822822942264
+          ],
+          "verdict": "includes zero",
+          "half_width": 0.01153265704662969,
+          "n_conditions": 3115
+        },
+        "Q3_gap_own_minus_shuf": {
+          "diff": 0.008541715803683863,
+          "ci": [
+            -0.007699852647288219,
+            0.025842327562275766
+          ],
+          "verdict": "includes zero",
+          "half_width": 0.01677109010478199,
+          "n_conditions": 3115
+        },
+        "ref_gap_own": {
+          "diff": 0.07370000193139106,
+          "ci": [
+            0.01756410897216673,
+            0.12374311118344654
+          ],
+          "verdict": "above zero",
+          "half_width": 0.053089501105639904,
+          "n_conditions": 3115
+        },
+        "ref_gap_shuf": {
+          "diff": 0.0651582861277072,
+          "ci": [
+            0.012193923174954225,
+            0.11332144181481868
+          ],
+          "verdict": "above zero",
+          "half_width": 0.050563759319932226,
+          "n_conditions": 3115
+        }
+      },
+      "inputs": {
+        "own": {
+          "recipe": [
+            {
+              "tag": "s15_drug_split_0_recipe_seed_0",
+              "vectors_sha256": "1825feda119c3c9430fbfa224b225d3e1ec10650aa06b169b92e4b5278cddd93",
+              "per_cell_sha256": "51960a78c2b3ada97148dce013402430bae932a081dc8a91682abfe9f3a07feb",
+              "checkpoint_sha256": "33e7c6f1d68155812622710a424c3008e79bc490d9f91cd2c08f222ff0ea9f55",
+              "training_commit": "6a12f8ad44e5aa84c456096bb8f021e50d40ec82",
+              "eval_commit": "030695cdba9e3c8294be5ef93ca4d76809ddc754"
+            },
+            {
+              "tag": "s15_drug_split_0_recipe_seed_1",
+              "vectors_sha256": "f7af5d459684a6f1fdd71420f7ccf7bc50f6c6337234606011324e83fd8a0191",
+              "per_cell_sha256": "8b22f4aa6d7bbdc381ec2ab4ae09ad7160c2a5d386646d991edef98d2aee4285",
+              "checkpoint_sha256": "0fdb3f463b4075f64f471debe44971932b5ffc8aa5531f5b45d947665bed72a8",
+              "training_commit": "6a12f8ad44e5aa84c456096bb8f021e50d40ec82",
+              "eval_commit": "030695cdba9e3c8294be5ef93ca4d76809ddc754"
+            },
+            {
+              "tag": "s15_drug_split_0_recipe_seed_2",
+              "vectors_sha256": "65d9f9777236edba38778d8933126ad8a596406629275c3f031e95bef4e98353",
+              "per_cell_sha256": "1f19acc0ddbb0b6c32d4d0e03d3c15f13a404ac5d4537c2a8ef89cd039e8f008",
+              "checkpoint_sha256": "0efa6fbaed200e9ab294e318f1a7fc8ab0a5588b7a6f1b281c3d3ee946946ed3",
+              "training_commit": "6a12f8ad44e5aa84c456096bb8f021e50d40ec82",
+              "eval_commit": "030695cdba9e3c8294be5ef93ca4d76809ddc754"
+            }
+          ],
+          "base": [
+            {
+              "tag": "s15_drug_split_0_base_seed_0",
+              "vectors_sha256": "777b4d2a68ae24a06c52f2348f8fb9688b24aeaf44dc5f81532c861f60dae509",
+              "per_cell_sha256": "079e663adb9c9b9adc9287f01c12b7a0c3e88760f6caa837111fdbd74ddb8da6",
+              "checkpoint_sha256": "9124fe73b2bf72b73798f6c2a81a5b5784e9958db41ca9a5a07e6d7d458cdcb9",
+              "training_commit": "116b9f513dfa353aa939b3d05ab35172f2f8d3e1",
+              "eval_commit": "030695cdba9e3c8294be5ef93ca4d76809ddc754"
+            },
+            {
+              "tag": "s15_drug_split_0_base_seed_1",
+              "vectors_sha256": "ae3df4d22980381478ea81c659073ee07edb9da146d6c587b8e297f640708308",
+              "per_cell_sha256": "245e3b3bf0ec5c781c39dc80252b49d51399b818fbc9649b838270ce69d9a19f",
+              "checkpoint_sha256": "09527d6948e423f62ff11b4724e2b6864e85f45ba5e971f3198ccafad82ea13f",
+              "training_commit": "116b9f513dfa353aa939b3d05ab35172f2f8d3e1",
+              "eval_commit": "030695cdba9e3c8294be5ef93ca4d76809ddc754"
+            },
+            {
+              "tag": "s15_drug_split_0_base_seed_2",
+              "vectors_sha256": "558c28ba52d6ee494ecbfdef2737313728c0051eba5ab67077868262864948e4",
+              "per_cell_sha256": "44715e3cf15ae9faeed4e9f6210e167b515c2d5bf5eaab0db0eace1a538afaac",
+              "checkpoint_sha256": "b54b65a8efefb35605b4b716dd1e4465f74070a520e3c71c6724a60f869af9e3",
+              "training_commit": "116b9f513dfa353aa939b3d05ab35172f2f8d3e1",
+              "eval_commit": "030695cdba9e3c8294be5ef93ca4d76809ddc754"
+            }
+          ]
+        },
+        "swap": {
+          "recipe_shuf": [
+            {
+              "tag": "s25_drug_split_0_fpshuf_seed_0",
+              "vectors_sha256": "e9f32409b9f03fa081b51a62c83f2c6f5d636d84ab2612aa38a7377c7f5142f8",
+              "per_cell_sha256": "f07b1d5336e21a0286ae62e85a057bbfd30d767115173c50afa25dd759f2ffcc",
+              "checkpoint_sha256": "33e7c6f1d68155812622710a424c3008e79bc490d9f91cd2c08f222ff0ea9f55",
+              "permutation_sha256": "27299dbf01e934a77ae591b0dea65108bb33fbdf551e3acf8f8df62d101ddaeb",
+              "source": "step25"
+            },
+            {
+              "tag": "s25_drug_split_0_fpshuf_seed_1",
+              "vectors_sha256": "417fa0ccfb7c273ad44b65a5d1b9d696d950360ced3c95ef70c04c97bf7684ec",
+              "per_cell_sha256": "62b15768bc00c854279b4f4469fba9961487155644b28dab76f8eb8a38e472ba",
+              "checkpoint_sha256": "0fdb3f463b4075f64f471debe44971932b5ffc8aa5531f5b45d947665bed72a8",
+              "permutation_sha256": "27299dbf01e934a77ae591b0dea65108bb33fbdf551e3acf8f8df62d101ddaeb",
+              "source": "step25"
+            },
+            {
+              "tag": "s25_drug_split_0_fpshuf_seed_2",
+              "vectors_sha256": "043808218d5fe82ce50d1a88f92fdfd6fb4c06fc0cc3bb1de4e39fce7cb6e35b",
+              "per_cell_sha256": "2eadbad20c93c0f6fd12d009f202b8bd174901ac22e7577ccff7e909bf764341",
+              "checkpoint_sha256": "0efa6fbaed200e9ab294e318f1a7fc8ab0a5588b7a6f1b281c3d3ee946946ed3",
+              "permutation_sha256": "27299dbf01e934a77ae591b0dea65108bb33fbdf551e3acf8f8df62d101ddaeb",
+              "source": "step25"
+            }
+          ],
+          "recipe_zero": [
+            {
+              "tag": "s25_drug_split_0_fpzero_seed_0",
+              "vectors_sha256": "b0e186923d9efb429b606b933e2bb2bde2e441c022ff22d126449ec28b1cc74f",
+              "per_cell_sha256": "fcf6b66e2d86ab4b17eb5c8ac25dce8e93b9dd89a1f6fc81c7a337f8a9ccffe4",
+              "checkpoint_sha256": "33e7c6f1d68155812622710a424c3008e79bc490d9f91cd2c08f222ff0ea9f55",
+              "permutation_sha256": null,
+              "source": "step25"
+            },
+            {
+              "tag": "s25_drug_split_0_fpzero_seed_1",
+              "vectors_sha256": "dcf6b8bddeb26aec86936b15c00bb34c472dad8676632c0468c1cf95131bfefe",
+              "per_cell_sha256": "4e976101017ec68f445248136aefaa6bbfd3eef0c4f7b27a9e310d34154e285c",
+              "checkpoint_sha256": "0fdb3f463b4075f64f471debe44971932b5ffc8aa5531f5b45d947665bed72a8",
+              "permutation_sha256": null,
+              "source": "step25"
+            },
+            {
+              "tag": "s25_drug_split_0_fpzero_seed_2",
+              "vectors_sha256": "7bd5999f3ff94dcbd173540471eb34c4aa830559903d4136296755a99ed94222",
+              "per_cell_sha256": "5a1644d497132eda059f297bd785e35f4388debe994ea9940b27be013e25f065",
+              "checkpoint_sha256": "0efa6fbaed200e9ab294e318f1a7fc8ab0a5588b7a6f1b281c3d3ee946946ed3",
+              "permutation_sha256": null,
+              "source": "step25"
+            }
+          ],
+          "base_shuf": [
+            {
+              "tag": "s25_drug_split_0_base_fpshuf_seed_0",
+              "vectors_sha256": "5fd6bb5cfe6ac8134721d86bce053fd6255d025c738c00fca05f5c70e85655b8",
+              "per_cell_sha256": "f0cbaf68b598c6c2098dd2bbc161476cb24a76b05671bee2dac5e7f55fed6a1d",
+              "checkpoint_sha256": "9124fe73b2bf72b73798f6c2a81a5b5784e9958db41ca9a5a07e6d7d458cdcb9",
+              "permutation_sha256": "27299dbf01e934a77ae591b0dea65108bb33fbdf551e3acf8f8df62d101ddaeb",
+              "source": "step25"
+            },
+            {
+              "tag": "s25_drug_split_0_base_fpshuf_seed_1",
+              "vectors_sha256": "695ef9c3588903d1fa91dece2184596c15d69fc8c7b52ee62d5119dc585f969a",
+              "per_cell_sha256": "a3dd68d8c144d3669cbf12236f07e3ce659878799a3ed7c609c4279a70bed09b",
+              "checkpoint_sha256": "09527d6948e423f62ff11b4724e2b6864e85f45ba5e971f3198ccafad82ea13f",
+              "permutation_sha256": "27299dbf01e934a77ae591b0dea65108bb33fbdf551e3acf8f8df62d101ddaeb",
+              "source": "step25"
+            },
+            {
+              "tag": "s25_drug_split_0_base_fpshuf_seed_2",
+              "vectors_sha256": "3b96e4f19a44845a22e370ba131d771eb5b9dc222da93594313a0a5a950fde7d",
+              "per_cell_sha256": "a56ed012a9f8aef5445e723559e8933d9c78e0feabbc5024c795069b159baa80",
+              "checkpoint_sha256": "b54b65a8efefb35605b4b716dd1e4465f74070a520e3c71c6724a60f869af9e3",
+              "permutation_sha256": "27299dbf01e934a77ae591b0dea65108bb33fbdf551e3acf8f8df62d101ddaeb",
+              "source": "step25"
+            }
+          ],
+          "base_zero": [
+            {
+              "tag": "s25_drug_split_0_base_fpzero_seed_0",
+              "vectors_sha256": "f3fd35ef67a2fd94e36ed4574accdf4682c4903a8d1647cab42783c1d472d536",
+              "per_cell_sha256": "2345caac134f69c60c123608a62a9e648043de0bb16f434c8ce171dd58791afe",
+              "checkpoint_sha256": "9124fe73b2bf72b73798f6c2a81a5b5784e9958db41ca9a5a07e6d7d458cdcb9",
+              "permutation_sha256": null,
+              "source": "step25"
+            },
+            {
+              "tag": "s25_drug_split_0_base_fpzero_seed_1",
+              "vectors_sha256": "1128ac1947550877386c60058cf2ee3185be4f883dfac91ad27723e03eccd681",
+              "per_cell_sha256": "af1dc87e19d9ee5cfbcdea77bedac1375deb17f8510389a0c9769f7b3162615c",
+              "checkpoint_sha256": "09527d6948e423f62ff11b4724e2b6864e85f45ba5e971f3198ccafad82ea13f",
+              "permutation_sha256": null,
+              "source": "step25"
+            },
+            {
+              "tag": "s25_drug_split_0_base_fpzero_seed_2",
+              "vectors_sha256": "42bfcec3310f305b2c4120ec62cdd8a905294aa9232ed9a61c86d59fd102b539",
+              "per_cell_sha256": "d155f6a56b725353528320940c64644d455fc68044c0a270af2f3870d8536e58",
+              "checkpoint_sha256": "b54b65a8efefb35605b4b716dd1e4465f74070a520e3c71c6724a60f869af9e3",
+              "permutation_sha256": null,
+              "source": "step25"
+            }
+          ]
+        }
+      }
+    },
+    "drug_split_2": {
+      "n_conditions": 2853,
+      "n_structures": 75,
+      "n_contexts": 42,
+      "permutation_sha256": "d1a8b9f259214d64d3759cfda575c4893d5e53618cb7ffe730056d1479d2bfe8",
+      "values": {
+        "recipe_own": {
+          "pds": 0.7142028455365138,
+          "de": 0.4584607547682541,
+          "dpc": 0.523113144002375,
+          "en": 0.21809605113107675,
+          "mra": 0.311722431563326,
+          "per_seed_pds": [
+            0.7133919888636127,
+            0.7158254097593033,
+            0.7133911379866255
+          ]
+        },
+        "recipe_shuf": {
+          "pds": 0.6906649648650901,
+          "de": 0.4559897485817517,
+          "dpc": 0.5101595014080113,
+          "en": 0.21487432661864553,
+          "mra": 0.32833562309502456,
+          "per_seed_pds": [
+            0.6903483111036207,
+            0.691094907874109,
+            0.6905516756175404
+          ]
+        },
+        "recipe_zero": {
+          "pds": 0.7144473036511584,
+          "de": 0.4524762027818607,
+          "dpc": 0.5225994537515559,
+          "en": 0.1727641290522342,
+          "mra": 0.32607564524038585,
+          "per_seed_pds": [
+            0.7160286384434505,
+            0.7131014558953122,
+            0.7142118166147124
+          ]
+        },
+        "base_own": {
+          "pds": 0.6548780468638117,
+          "de": 0.2908460326870103,
+          "dpc": 0.2705212655572851,
+          "en": 2.0210050693537123,
+          "mra": -0.10691962649634418,
+          "per_seed_pds": [
+            0.6521827915154661,
+            0.6617378950495338,
+            0.650713454026435
+          ]
+        },
+        "base_shuf": {
+          "pds": 0.6441328734989418,
+          "de": 0.2897222863833108,
+          "dpc": 0.2628944981465411,
+          "en": 2.015077337325225,
+          "mra": -0.07157163351471381,
+          "per_seed_pds": [
+            0.6407646693696262,
+            0.6508139677717766,
+            0.6408199833554227
+          ]
+        },
+        "base_zero": {
+          "pds": 0.6459792640783967,
+          "de": 0.2881012891776535,
+          "dpc": 0.2583900270293501,
+          "en": 2.0384780952918944,
+          "mra": -0.1168809246675405,
+          "per_seed_pds": [
+            0.642829697610005,
+            0.6544446765609324,
+            0.6406634180642528
+          ]
+        }
+      },
+      "contrasts": {
+        "recipe_Q1_own_minus_shuf": {
+          "diff": 0.023537880671423764,
+          "ci": [
+            -0.00294409572001481,
+            0.05274191278180759
+          ],
+          "verdict": "includes zero",
+          "half_width": 0.027843004250911203,
+          "n_conditions": 2853
+        },
+        "recipe_Q2_shuf_minus_0.5": {
+          "diff": 0.19066496486509002,
+          "ci": [
+            0.1556707080756032,
+            0.22480494722316105
+          ],
+          "verdict": "above zero",
+          "half_width": 0.03456711957377892,
+          "n_conditions": 2853
+        },
+        "recipe_ref_zero_minus_0.5": {
+          "diff": 0.21444730365115838,
+          "ci": [
+            0.1801126256484675,
+            0.24719708537929627
+          ],
+          "verdict": "above zero",
+          "half_width": 0.033542229865414386,
+          "n_conditions": 2853
+        },
+        "recipe_ref_shuf_minus_zero": {
+          "diff": -0.023782338786068384,
+          "ci": [
+            -0.04557205892029018,
+            -0.001809771873737033
+          ],
+          "verdict": "below zero",
+          "half_width": 0.021881143523276574,
+          "n_conditions": 2853
+        },
+        "recipe_ref_own_minus_zero": {
+          "diff": -0.0002444581146446249,
+          "ci": [
+            -0.019563731764430613,
+            0.020034499411976776
+          ],
+          "verdict": "includes zero",
+          "half_width": 0.019799115588203693,
+          "n_conditions": 2853
+        },
+        "base_Q1_own_minus_shuf": {
+          "diff": 0.010745173364869923,
+          "ci": [
+            -0.0009919263824382926,
+            0.024837140870720097
+          ],
+          "verdict": "includes zero",
+          "half_width": 0.012914533626579195,
+          "n_conditions": 2853
+        },
+        "base_Q2_shuf_minus_0.5": {
+          "diff": 0.14413287349894177,
+          "ci": [
+            0.09852594136268258,
+            0.18733205646883566
+          ],
+          "verdict": "above zero",
+          "half_width": 0.04440305755307654,
+          "n_conditions": 2853
+        },
+        "base_ref_zero_minus_0.5": {
+          "diff": 0.1459792640783967,
+          "ci": [
+            0.10035840911355526,
+            0.18953410342731333
+          ],
+          "verdict": "above zero",
+          "half_width": 0.04458784715687904,
+          "n_conditions": 2853
+        },
+        "base_ref_shuf_minus_zero": {
+          "diff": -0.0018463905794549177,
+          "ci": [
+            -0.010556793584860296,
+            0.006339455633201604
+          ],
+          "verdict": "includes zero",
+          "half_width": 0.00844812460903095,
+          "n_conditions": 2853
+        },
+        "base_ref_own_minus_zero": {
+          "diff": 0.008898782785415005,
+          "ci": [
+            -4.114056963909803e-05,
+            0.018598078856617503
+          ],
+          "verdict": "includes zero",
+          "half_width": 0.0093196097131283,
+          "n_conditions": 2853
+        },
+        "Q3_gap_own_minus_shuf": {
+          "diff": 0.012792707306553837,
+          "ci": [
+            -0.008789188073698702,
+            0.035354611477919407
+          ],
+          "verdict": "includes zero",
+          "half_width": 0.022071899775809055,
+          "n_conditions": 2853
+        },
+        "ref_gap_own": {
+          "diff": 0.0593247986727021,
+          "ci": [
+            0.017497895963534477,
+            0.10290569431664881
+          ],
+          "verdict": "above zero",
+          "half_width": 0.04270389917655717,
+          "n_conditions": 2853
+        },
+        "ref_gap_shuf": {
+          "diff": 0.04653209136614827,
+          "ci": [
+            0.0013909943278214228,
+            0.09349683369674097
+          ],
+          "verdict": "above zero",
+          "half_width": 0.04605291968445977,
+          "n_conditions": 2853
+        }
+      },
+      "inputs": {
+        "own": {
+          "recipe": [
+            {
+              "tag": "s15_drug_split_2_recipe_seed_0",
+              "vectors_sha256": "b24a2a2f200a1aba9549dd4d6ed77ba41478b538bc660ff68295518fb63aa878",
+              "per_cell_sha256": "bfa98340a54f1b1d5a504c1870a819f26a24ba185a091a4a0e6076baf18d206a",
+              "checkpoint_sha256": "ab482ee09144628c79d3fadde950c49ba28e32369547311cc05dd49ca1a5aca6",
+              "training_commit": "116b9f513dfa353aa939b3d05ab35172f2f8d3e1",
+              "eval_commit": "030695cdba9e3c8294be5ef93ca4d76809ddc754"
+            },
+            {
+              "tag": "s15_drug_split_2_recipe_seed_1",
+              "vectors_sha256": "e8690b3392ce8f63f3871f058151bffd659f377dac55544bc801661814e69d79",
+              "per_cell_sha256": "d694168e1e3344d8a0c7ce64abd39ee97274743d243b83739d8db8a8c7aa95e1",
+              "checkpoint_sha256": "3f506a19c2760382c8da507981cfecd5a0f40ccf7f72074aabac3ed034807a70",
+              "training_commit": "116b9f513dfa353aa939b3d05ab35172f2f8d3e1",
+              "eval_commit": "030695cdba9e3c8294be5ef93ca4d76809ddc754"
+            },
+            {
+              "tag": "s15_drug_split_2_recipe_seed_2",
+              "vectors_sha256": "9ba872c160e93861b3e08420965de075ef737948e038e113281c3f1f2e9143d4",
+              "per_cell_sha256": "89894f97a0eb62c2c54c7432792fe4d31bdae86b3a8774d953ddbd23c700df83",
+              "checkpoint_sha256": "7cc301d87d544bc226a317f3688c4879b5abca99c75041de9f4f735e195ecb97",
+              "training_commit": "116b9f513dfa353aa939b3d05ab35172f2f8d3e1",
+              "eval_commit": "030695cdba9e3c8294be5ef93ca4d76809ddc754"
+            }
+          ],
+          "base": [
+            {
+              "tag": "s15_drug_split_2_base_seed_0",
+              "vectors_sha256": "376dad753c7568cd7f83cabdbd4c796f4b442c7a150d6fd1ff4762bfe8f3d2f8",
+              "per_cell_sha256": "c19eb4c396804e80cd8bb057922cb8261dc10eeecee9c2fe4d2cb99e3f8bb961",
+              "checkpoint_sha256": "438fe5006919fd7519329d1bf78d4889eb3eaf511fdad15f953f532d9184698d",
+              "training_commit": "116b9f513dfa353aa939b3d05ab35172f2f8d3e1",
+              "eval_commit": "030695cdba9e3c8294be5ef93ca4d76809ddc754"
+            },
+            {
+              "tag": "s15_drug_split_2_base_seed_1",
+              "vectors_sha256": "694a8167c5403161eb74c947944490deaca46f37c8ccb6f004b1b9509ce0337b",
+              "per_cell_sha256": "c49423968a18dc94b6c01a0ed9e0a6e6f9a33661173b047f20f7c0e696dcd154",
+              "checkpoint_sha256": "df70907145e3703d0b8deec803f4d5935993c0961c15765a0d089650067a68c4",
+              "training_commit": "116b9f513dfa353aa939b3d05ab35172f2f8d3e1",
+              "eval_commit": "030695cdba9e3c8294be5ef93ca4d76809ddc754"
+            },
+            {
+              "tag": "s15_drug_split_2_base_seed_2",
+              "vectors_sha256": "99967af815bb2ec966cd7e797d20601e984f95fcceab3acce6794ad73f72e170",
+              "per_cell_sha256": "07340dbb0f4bd2dab98c728389edff3e6a6500d8f4e8748ca4e308d7879687c7",
+              "checkpoint_sha256": "97cddce1c2a460c17b75d734a6982ff666262c3e1eaef95c199b7e0331fc171d",
+              "training_commit": "116b9f513dfa353aa939b3d05ab35172f2f8d3e1",
+              "eval_commit": "030695cdba9e3c8294be5ef93ca4d76809ddc754"
+            }
+          ]
+        },
+        "swap": {
+          "recipe_shuf": [
+            {
+              "tag": "s25_drug_split_2_fpshuf_seed_0",
+              "vectors_sha256": "5281bec3576fb89a5ff7c16f222ddf4ece93f6affbc8dcd780a75abf00655b62",
+              "per_cell_sha256": "1dc106d321d6fc21e46048684ac78d3f9585cf1018664d595e36d2c52544ffc0",
+              "checkpoint_sha256": "ab482ee09144628c79d3fadde950c49ba28e32369547311cc05dd49ca1a5aca6",
+              "permutation_sha256": "d1a8b9f259214d64d3759cfda575c4893d5e53618cb7ffe730056d1479d2bfe8",
+              "source": "step25"
+            },
+            {
+              "tag": "s25_drug_split_2_fpshuf_seed_1",
+              "vectors_sha256": "63b0ea04ea29454471b14d79db5c3f966c6cfe55f153614f53d0081cd460fe52",
+              "per_cell_sha256": "019c9cfa0c506b4a20ac344730a80e57c964546b0feaca56d8cc43a696aa33ea",
+              "checkpoint_sha256": "3f506a19c2760382c8da507981cfecd5a0f40ccf7f72074aabac3ed034807a70",
+              "permutation_sha256": "d1a8b9f259214d64d3759cfda575c4893d5e53618cb7ffe730056d1479d2bfe8",
+              "source": "step25"
+            },
+            {
+              "tag": "s25_drug_split_2_fpshuf_seed_2",
+              "vectors_sha256": "be72c50cd28487ba4e940de9032ff6a1e04398689eaca05beecf5b4ebe04de06",
+              "per_cell_sha256": "c63e0e39724557afa67a76bbd4e0c4779b5ec1d8342bec0f2d7acaccb48a84da",
+              "checkpoint_sha256": "7cc301d87d544bc226a317f3688c4879b5abca99c75041de9f4f735e195ecb97",
+              "permutation_sha256": "d1a8b9f259214d64d3759cfda575c4893d5e53618cb7ffe730056d1479d2bfe8",
+              "source": "step25"
+            }
+          ],
+          "recipe_zero": [
+            {
+              "tag": "s25_drug_split_2_fpzero_seed_0",
+              "vectors_sha256": "3f05dad3ee356422e2178370e294e248183745c3b990f15671e4eac1e313ce7b",
+              "per_cell_sha256": "3c29ccc1d8f878324ed03abe03dbd88d5156670f864cc1f2bfd03e69a002214e",
+              "checkpoint_sha256": "ab482ee09144628c79d3fadde950c49ba28e32369547311cc05dd49ca1a5aca6",
+              "permutation_sha256": null,
+              "source": "step25"
+            },
+            {
+              "tag": "s25_drug_split_2_fpzero_seed_1",
+              "vectors_sha256": "128e1118a36e6af4cd94054544fa5bc3fb70a186062ca5de82e5a233cd8c0a3d",
+              "per_cell_sha256": "91f1e5f9a108282d11850923812aecde5e3bd498705c865d13aef55303944100",
+              "checkpoint_sha256": "3f506a19c2760382c8da507981cfecd5a0f40ccf7f72074aabac3ed034807a70",
+              "permutation_sha256": null,
+              "source": "step25"
+            },
+            {
+              "tag": "s25_drug_split_2_fpzero_seed_2",
+              "vectors_sha256": "13eb80a5b99aa64c37dda9e797ff8318110949a41bbf94de62d0046d2f611408",
+              "per_cell_sha256": "4a61e9d79606a94978a4d9720eca05dc13de8771cd349a14c4d464b191a802bf",
+              "checkpoint_sha256": "7cc301d87d544bc226a317f3688c4879b5abca99c75041de9f4f735e195ecb97",
+              "permutation_sha256": null,
+              "source": "step25"
+            }
+          ],
+          "base_shuf": [
+            {
+              "tag": "s25_drug_split_2_base_fpshuf_seed_0",
+              "vectors_sha256": "aeeb5ac972890ab7eabb6d3b56db4660af918e669bacf4f726a723a7e35b5db1",
+              "per_cell_sha256": "b85630e7d89e264863f97ffd774ab52350399c1645d5608fb058c714c74c0e87",
+              "checkpoint_sha256": "438fe5006919fd7519329d1bf78d4889eb3eaf511fdad15f953f532d9184698d",
+              "permutation_sha256": "d1a8b9f259214d64d3759cfda575c4893d5e53618cb7ffe730056d1479d2bfe8",
+              "source": "step25"
+            },
+            {
+              "tag": "s25_drug_split_2_base_fpshuf_seed_1",
+              "vectors_sha256": "801d74650821c7abcbaeeb7d7c096f964b60162a97a94affacdbdb8940ba5e9f",
+              "per_cell_sha256": "c4213ea5e119a6461179010c17b2703bde7416fc421960303ad040e9d24e8109",
+              "checkpoint_sha256": "df70907145e3703d0b8deec803f4d5935993c0961c15765a0d089650067a68c4",
+              "permutation_sha256": "d1a8b9f259214d64d3759cfda575c4893d5e53618cb7ffe730056d1479d2bfe8",
+              "source": "step25"
+            },
+            {
+              "tag": "s25_drug_split_2_base_fpshuf_seed_2",
+              "vectors_sha256": "5759e6949d3c5bef092b9c34a2d6730ebeaff3f5988ef67b74dd3baa819a7b6d",
+              "per_cell_sha256": "a40fc8af0dbabe34d8658b09302ed4d7eb475bc83c897cb7a5e254811da870e2",
+              "checkpoint_sha256": "97cddce1c2a460c17b75d734a6982ff666262c3e1eaef95c199b7e0331fc171d",
+              "permutation_sha256": "d1a8b9f259214d64d3759cfda575c4893d5e53618cb7ffe730056d1479d2bfe8",
+              "source": "step25"
+            }
+          ],
+          "base_zero": [
+            {
+              "tag": "s25_drug_split_2_base_fpzero_seed_0",
+              "vectors_sha256": "dd5868bf41c45252d495ca77c7b5e137811fdb941d074555af6897a72e37103e",
+              "per_cell_sha256": "869f6cafde7a2d458b59b94870c8febb8f71cd054603c15d4fdea64008b36815",
+              "checkpoint_sha256": "438fe5006919fd7519329d1bf78d4889eb3eaf511fdad15f953f532d9184698d",
+              "permutation_sha256": null,
+              "source": "step25"
+            },
+            {
+              "tag": "s25_drug_split_2_base_fpzero_seed_1",
+              "vectors_sha256": "7d962bbe433771d256c2f693e9592ab55a792b4baeb1abf5b1dd92f6c270b03c",
+              "per_cell_sha256": "081d76b47ab65354d3222a51ba781c3deca345419b7189bf1b00f3e52b2be490",
+              "checkpoint_sha256": "df70907145e3703d0b8deec803f4d5935993c0961c15765a0d089650067a68c4",
+              "permutation_sha256": null,
+              "source": "step25"
+            },
+            {
+              "tag": "s25_drug_split_2_base_fpzero_seed_2",
+              "vectors_sha256": "4268594a0c846d9c60d3e77994ac320a23b40b0301a5ef48a8b049c07d537f9f",
+              "per_cell_sha256": "a7186bc25652d0f47ff0c17d43cf97a00328e31dc26de71a03a0c9403952c59c",
+              "checkpoint_sha256": "97cddce1c2a460c17b75d734a6982ff666262c3e1eaef95c199b7e0331fc171d",
+              "permutation_sha256": null,
+              "source": "step25"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "seconds": 1616
+}
