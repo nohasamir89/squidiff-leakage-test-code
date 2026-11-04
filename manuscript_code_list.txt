@@ -300,3 +300,6 @@ tahoe_results/step26_source.json
 tahoe_results/step26_source_per_condition.csv
 tahoe_results/step26_source_summary.csv
 step26_findings.md
+PREREG_step27_within_plate.md
+score_step27_tahoe.py
+run_step27_score.sh
