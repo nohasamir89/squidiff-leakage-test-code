@@ -296,3 +296,7 @@ tahoe_results/step25_swap.json
 tahoe_results/step25_swap_per_condition.csv
 tahoe_results/step25_swap_summary.csv
 step25_findings.md
+tahoe_results/step26_source.json
+tahoe_results/step26_source_per_condition.csv
+tahoe_results/step26_source_summary.csv
+step26_findings.md
