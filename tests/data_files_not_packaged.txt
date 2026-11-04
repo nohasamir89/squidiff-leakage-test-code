@@ -7,4 +7,3 @@ secondary-screen-dose-response-curve-parameters.csv   # PRISM Repurposing second
 secondary-screen-cell-line-info.csv   # same PRISM download as above
 step20_analysis.json   # final-mode record of Step 20, never produced: Step 20 ran in development mode only (record step20_analysis_development.json); the final-mode branch of plot_step20.py has no input
 step20_long.csv   # same: final-mode per-condition table of Step 20, never produced (the development table step20_long_development.csv is packaged)
-step27_within_plate.json   # output of score_step27_tahoe.py; Step 27 runs after Step 26 is filed - packaged with the Step 27 records, and this line is then deleted
