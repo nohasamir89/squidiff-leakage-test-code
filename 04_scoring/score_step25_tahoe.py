@@ -27,9 +27,14 @@ Logic
 3. Reproduction (prereg 7.3-7.7), before any Step 25 value is printed: per split and arm, the reproduction run equals
    the Step 15b arrays bitwise; every swap run shares the own run's conditions, measured and control means and real
    cells; every shuf/zero prediction differs from the own prediction at every condition; each own arm's PDS,
-   DE-overlap, DPC-50 and energy reproduce the committed Step 15c/15b per-condition records to 1e-9; each own arm's
-   bootstrap of PDS - 0.5 reproduces the Step 15c published interval; recipe MRA on the development split reproduces
-   Step 16 to four decimals, and MRA is otherwise verified internally (vectorised == plain) and reported.
+   DE-overlap, DPC-50 and energy reproduce the committed Step 15c/15b per-condition records to 1e-9; the Step 15c
+   published intervals for recipe and base PDS - 0.5 are reproduced to 5e-6 by REPLAYING Step 15c's bootstrap draw
+   order with its own committed functions (prereg 7.7 amendment of 2026-11-04: Step 15c drew every interval from one
+   generator created once per run, so only its first draw - split 1's recipe - is reproducible by a fresh
+   RandomState(0); replay_step15c below reproduces all six intervals exactly, proven on the real records by
+   verify_step15c_intervals.py); recipe MRA on the development split reproduces Step 16 to four decimals, and MRA is
+   otherwise verified internally (vectorised == plain) and reported. Step 25's own contrasts keep the Step 20+
+   convention of a fresh RandomState(0) per scored set.
 4. Measures (prereg 3): PDS, DE-overlap, DPC-50, energy, MRA, per seed then averaged per condition, on each split's
    own Step 15c candidate sets. All held-out conditions scored.
 5. Contrasts and verdicts (prereg 4-5): per split, Q1/Q2 for recipe and for base; Q3 across arms; verdicts A, B, C.
@@ -139,6 +144,38 @@ def load_swap(split, ckarm, mode, seed, perm_sha, ck_sha):
                          source='step24' if prov == 's24ev' else 'step25'))
 
 
+def replay_step15c(pcc_split, drugs):
+    """Reproduce Step 15c's published PDS - 0.5 intervals for the recipe and base arms of one split by replaying its
+    bootstrap draw order exactly.
+
+    Step 15c drew every interval from ONE generator created once per run (score_step15_tahoe.rng, RandomState(0),
+    module line 66), so an interval's bounds depend on how many draws preceded it; only the first draw of the run
+    (split 1, recipe Q1) is reproducible by a fresh RandomState(0). This function calls Step 15c's own committed
+    `contrast` on its committed per-condition columns in the order score_step15c_tahoe.main() does - Q1, Q2, the
+    secondary <name> - 0.5 loop over SUBS (skipping recipe and control_paste), recipe - ridge_S7, guidance_w2 -
+    recipe, attn_cross - mlp_ctrl - advancing the shared generator exactly as that run did. It must be called once
+    per split, in Step 15c's split order (ALL_SPLITS: 1, 0, 2), after `s15.rng` has been reset to RandomState(0)
+    before the first split, with nothing else consuming `s15.rng` in between. Proven exact on the real records by
+    verify_step15c_intervals.py (2026-11-04: all six intervals to the last digit). Returns {'recipe': (point, lo,
+    hi), 'base': (point, lo, hi)}."""
+    n = len(pcc_split)
+    half = np.full(n, 0.5)
+    pds = {name: pcc_split['%s_pds' % name].values.astype(np.float64) for name in s15c.SUBS}
+    seq = [('recipe', pds['recipe'], half), ('q2', pds['recipe'], pds['ridge_train'])]
+    for name in s15c.SUBS:
+        if name in ('recipe', 'control_paste'):
+            continue
+        seq.append((name, pds[name], half))            # 'base' is captured from this loop
+    seq += [('s7', pds['recipe'], pds['ridge_S7']), ('gw2', pds['guidance_w2'], pds['recipe']),
+            ('attn', pds['attn_cross'], pds['mlp_ctrl'])]
+    out = {}
+    for lab, xb, xa in seq:
+        c = s15c.contrast(xb, xa, drugs)
+        if lab in ('recipe', 'base'):
+            out[lab] = (c['diff'], c['ci'][0], c['ci'][1])
+    return out
+
+
 def per_seed(v, Y, contexts, cand):
     D = v['B'] - v['C']
     j, d = s15.thesis_per_cond(v['true'], v['B'], v['C'])
@@ -172,6 +209,12 @@ def main():
     record = json.load(open(s15.RECORD))
     pc15b = pd.read_csv(PC15B)
     pc15c = pd.read_csv(PC15C)
+
+    # Step 15c's single bootstrap generator, at the state its run began with; replay_step15c advances it per split
+    # in Step 15c's split order (SPLITS == s15.ALL_SPLITS). Nothing else in this scorer touches s15.rng.
+    if tuple(SPLITS) != tuple(s15.ALL_SPLITS):
+        die('SPLITS must equal Step 15c\'s split order for the interval replay')
+    s15.rng = np.random.RandomState(0)
 
     results, pc_rows, summary_rows = {}, [], []
     for split in SPLITS:
@@ -275,7 +318,10 @@ def main():
             % split)
         sm = lambda key, metric: np.nanmean(np.vstack([m[metric] for m in M[key]]), axis=0)
 
-        # ---- reproduction of the own records (prereg 7.7)
+        # ---- reproduction of the own records (prereg 7.7, amended 2026-11-04). The per-condition values tie this
+        # ---- scorer's recomputation to the committed record at 1e-9; the interval replay ties the committed record
+        # ---- to the published Step 15c intervals exactly, by Step 15c's own draw order (one call per split, in order).
+        rep15c = replay_step15c(pcc, pcc['structure'].astype(str).values)
         for ckarm in CKARMS:
             checks = (('PDS', sm((ckarm, 'own'), 'pds'), pcc['%s_pds' % ckarm].values),
                       ('DE-overlap', sm((ckarm, 'own'), 'de'), pcb['%s_de_overlap' % ckarm].values),
@@ -284,12 +330,10 @@ def main():
             for nm, mine, theirs in checks:
                 if not s15c.close(mine, theirs):
                     die('%s %s own %s does not reproduce the committed per-condition record to 1e-9' % (split, ckarm, nm))
-            pt, reps = boot.mean_reps(sm((ckarm, 'own'), 'pds') - 0.5)
-            q = s23.interval(pt, reps)
-            tgt = REF_BOOT[ckarm][split]
-            if abs(q['diff'] - tgt[0]) > BOOT_TOL or abs(q['ci'][0] - tgt[1]) > BOOT_TOL or abs(q['ci'][1] - tgt[2]) > BOOT_TOL:
-                die('%s %s bootstrap of PDS - 0.5 does not reproduce Step 15c %s, got %s'
-                    % (split, ckarm, tgt, s23.fmt(q)))
+            got, tgt = rep15c[ckarm], REF_BOOT[ckarm][split]
+            if any(abs(a - b) > BOOT_TOL for a, b in zip(got, tgt)):
+                die('%s %s replay of Step 15c\'s bootstrap draw order does not reproduce its interval %s, got '
+                    '%+.5f [%+.5f, %+.5f]' % (split, ckarm, tgt, *got))
             mra_seeds = [s23.mra_point(m['size'], tn, ctx_code, allidx) for m in M[(ckarm, 'own')]]
             mpt, _ = boot.mra_reps([[m['size'] for m in M[(ckarm, 'own')]]], tn, ctx_code)
             if abs(mpt[0] - float(np.mean(mra_seeds))) > 1e-10:
@@ -297,8 +341,9 @@ def main():
             if split == 'drug_split_1' and ckarm == 'recipe' \
                     and any(abs(a - b) > MRA_TOL for a, b in zip(mra_seeds, REF_MRA_DEV_RECIPE)):
                 die('development recipe MRA does not reproduce Step 16 %s: %s' % (REF_MRA_DEV_RECIPE, mra_seeds))
-            say('[%s] %s own reproduces PDS/DE/DPC/energy to 1e-9; bootstrap %s; MRA seeds %s'
-                % (split, ckarm, s23.fmt(q), ' '.join('%.4f' % x for x in mra_seeds)))
+            say('[%s] %s own reproduces PDS/DE/DPC/energy to 1e-9; Step 15c interval replayed exactly '
+                '%+.5f [%+.5f, %+.5f]; MRA seeds %s'
+                % (split, ckarm, *got, ' '.join('%.4f' % x for x in mra_seeds)))
 
         # ---- values and contrasts
         keys = (('pds', 'PDS'), ('de', 'DE-overlap'), ('dpc', 'DPC-50'), ('en', 'energy'))

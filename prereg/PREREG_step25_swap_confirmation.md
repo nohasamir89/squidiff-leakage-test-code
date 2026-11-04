@@ -178,3 +178,31 @@ split by split with no general claim.
   and reads the same predictions on the CPU.
 - The base model's cells are known to fail on scale and spread (Step 15b §9); its PDS is a direction-only measure and
   carries no claim about its cell populations.
+
+## Amendment, 2026-11-04 — §7.7, the bootstrap-interval gate (written after the first scoring run stopped at that
+gate and before any Step 25 swap value was printed or read)
+
+The first scoring run (job 19044477, log `tahoe_results/step25_logs/s25score_19044477.log`, kept) passed the
+bitwise reproduction gate and the 1e-9 per-condition gate for both arms on split 1, reproduced the base arm's point
+estimate exactly (+0.14150), and then stopped: its interval was [+0.10256, +0.17959] against the committed
+[+0.10358, +0.18063]. No swap value was printed. The cause is the documented draw-order dependence of Step 15c's
+bootstrap (Step 18 findings §9 item 12; Step 20 findings §6 item 6): Step 15c drew every interval from one generator
+created once per run (`score_step15_tahoe.py` line 66, `RandomState(0)`), in the order Q1 recipe − 0.5, Q2, then
+`<submission> − 0.5` for ridge-S7, ridge-train, mean-response, base, guidance, attn_cross, mlp_ctrl, then three more,
+with the three splits in sequence. Only the run's first draw — split 1, recipe — is reproducible by a fresh
+`RandomState(0)` (which is why Steps 23, 24 and the Step 25 synthetic test, which checked only that case or built its
+own targets the same way, passed). §7.7 as written promised the impossible for every other interval, base on all
+three splits and recipe on splits 0 and 2 included; the drift is 0.0004–0.0022 per bound.
+
+This was proven, not assumed, before the amendment: `verify_step15c_intervals.py` (committed with this amendment)
+replays Step 15c's draw order with Step 15c's own committed functions on its committed per-condition record and
+reproduces all six published intervals to the last digit (log `tahoe_results/step25_logs/verify_step15c_intervals.log`).
+
+Change to §7.7: the interval reproduction is kept **exact**, not loosened. The scorer now reproduces the Step 15c
+intervals by replaying that draw order (`score_step25_tahoe.replay_step15c`: `s15.rng` reset once before the first
+split, one replay per split in Step 15c's split order, tolerance 5e-6 against the five-decimal published values).
+The per-condition 1e-9 gate is unchanged and ties this scorer's recomputed values to the committed record; the replay
+ties the committed record to the published intervals. Step 25's own contrasts keep the Step 20+ convention — a fresh
+`RandomState(0)` per scored set — so every Step 25 arm is compared on identical resamples. The Step 26 scorer, which
+inherited the same gate, is corrected the same way (its pre-registration §7.3 refers to this paragraph). No
+expectation, measure, contrast or verdict rule changes.

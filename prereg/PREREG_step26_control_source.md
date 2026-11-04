@@ -226,6 +226,11 @@ control estimate, where the +var(C) term survives. Three changes, none of which 
    pools' sizes — genuinely uncertain, and that size is exactly what the step measures.
 3. Verdict E's attribution baseline becomes `ctrl_line` (the no-model prediction that does carry S1), reported as
    before; the `ctrl_sample` fraction is reported alongside as the copying-null reference.
+
+**Note, 2026-11-04 (before any Step 25 swap value or Step 26 value existed):** §7.3's reproduction of the Step 15c
+published intervals is done by replaying Step 15c's bootstrap draw order with its own functions
+(`score_step25_tahoe.replay_step15c`), not by a fresh generator — see the amendment of the same date in
+PREREG_step25_swap_confirmation.md for the cause and the proof. The gate stays exact at 5e-6.
 4. The halving introduces draw noise clustered at the plate level, which the structure bootstrap does not resample,
    and the synthetic test showed it can push a single split's G1 interval above zero when no real signal exists.
    Therefore a split counts as showing "G1 above zero" (and likewise "G3 above zero") only when the S-split

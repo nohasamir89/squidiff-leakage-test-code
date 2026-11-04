@@ -28,8 +28,10 @@ Logic
    step: it would mean the pre-registration's reading of the harness is wrong.
 3. Reproduction (prereg 7.3): under S-orig this scorer's per-condition PDS / DE-overlap / DPC-50 equal the committed
    records to 1e-9 - own arms against Step 15c/15b, swap arms against the Step 24 (split 1) and Step 25 records -
-   and the bootstrap of each own arm's PDS-0.5 equals the published Step 15c intervals. No other scheme's number is
-   read before this passes.
+   and the published Step 15c intervals for recipe and base PDS-0.5 are reproduced exactly by replaying Step 15c's
+   bootstrap draw order with its own functions (score_step25_tahoe.replay_step15c; Step 25 prereg 7.7 amendment of
+   2026-11-04 - Step 15c's one-generator-per-run convention makes its intervals depend on draw order, so a fresh
+   generator reproduces only its first draw). No other scheme's number is read before this passes.
 4. Schemes (prereg 3), all through the committed library functions on substituted change matrices (pds_sets takes
    change matrices directly; thesis_per_cond is called with a zero reference so its internal subtraction reproduces
    the scheme's changes exactly; MRA sizes are the norms of those changes):
@@ -166,6 +168,12 @@ def main():
     pc15b, pc15c = pd.read_csv(PC15B), pd.read_csv(PC15C)
     pc24 = pd.read_csv(S24_PC)
     pc25 = pd.read_csv(S25_PC)
+
+    # Step 15c's single bootstrap generator at its run-start state; s25.replay_step15c advances it once per split in
+    # Step 15c's split order (SPLITS == s15.ALL_SPLITS). Nothing else in this scorer touches s15.rng.
+    if tuple(SPLITS) != tuple(s15.ALL_SPLITS):
+        die('SPLITS must equal Step 15c\'s split order for the interval replay')
+    s15.rng = np.random.RandomState(0)
 
     results, pc_rows, summary_rows = {}, [], []
     gate_verdicts = {}                                       # split -> {G1..G5, base analogues} verdict strings
@@ -416,15 +424,15 @@ def main():
                 for kk in ('pds', 'de', 'dpc'):
                     if not s15c.close(sm(arm, 'orig', kk), p24['%s_%s' % (pre, kk)].values):
                         die('%s S-orig %s does not reproduce the committed Step 24 record to 1e-9' % (arm, kk))
+        rep15c = s25.replay_step15c(pcc, pcc['structure'].astype(str).values)   # once per split, in order
         for a in CKARMS:
-            pt, reps = boot.mean_reps(sm(a, 'orig', 'pds') - 0.5)
-            qv = s23.interval(pt, reps)
-            tgt = REF_BOOT[a][split]
-            if abs(qv['diff'] - tgt[0]) > BOOT_TOL or abs(qv['ci'][0] - tgt[1]) > BOOT_TOL \
-                    or abs(qv['ci'][1] - tgt[2]) > BOOT_TOL:
-                die('%s %s S-orig bootstrap does not reproduce Step 15c %s, got %s' % (split, a, tgt, s23.fmt(qv)))
-        say('[%s] reproduction: S-orig equals the committed Step 15b/15c/24/25 per-condition records to 1e-9 '
-            'and the published bootstrap intervals' % split)
+            got, tgt = rep15c[a], REF_BOOT[a][split]
+            if any(abs(x - y) > BOOT_TOL for x, y in zip(got, tgt)):
+                die('%s %s replay of Step 15c\'s bootstrap draw order does not reproduce its interval %s, got '
+                    '%+.5f [%+.5f, %+.5f]' % (split, a, tgt, *got))
+        say('[%s] reproduction: S-orig equals the committed Step 15b/15c/24/25 per-condition records to 1e-9; '
+            'Step 15c intervals replayed exactly (recipe %+.5f [%+.5f, %+.5f], base %+.5f [%+.5f, %+.5f])'
+            % (split, *rep15c['recipe'], *rep15c['base']))
 
         # ---- within-plate candidate restriction (prereg 3; S1 structurally absent inside a plate)
         cand_pl = {}
