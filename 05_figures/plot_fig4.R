@@ -2,7 +2,7 @@
 #
 # Purpose: (b) original model against rewired model on the three measures, per split;
 #          (c) exact optimal-transport pairing against random pairing (step 18): population distance, gene
-#              identity, compound discrimination and cell tracking, with the post hoc comparison against the
+#              identity, the discrimination score and cell tracking, with the post hoc comparison against the
 #              unaltered vehicle cells;
 #          (d) the matching-strength sweep on the development split (step 20): each setting against random pairing,
 #              as a function of how far the pairs sit between random and exact matching;
@@ -115,7 +115,7 @@ for (sp in SPLITS) {
 s18 <- read_json_py(TR("step18_analysis.json"))
 ph  <- read_json_py(TR("posthoc_ot_energy_vs_references.json"))
 C_FACETS <- c(en = "Population distance\nvs random pairing", en_cp = "Population distance\nvs vehicle cells",
-              de = "Gene identity", pds = "Compound\ndiscrimination", tr = "Cell tracking")
+              de = "Gene identity", pds = "Discrimination\nscore", tr = "Cell tracking")
 for (sp in SPLITS) {
   cc <- s18$per_split[[sp]]$contrasts
   x <- ctr(cc, "Q1_primary_energy_ot_pair_minus_recipe"); add("c", C_FACETS[["en"]],  "OT", split_map[[sp]], x$diff, x$ci[[1]], x$ci[[2]], source = "step18_analysis.json")
@@ -129,7 +129,7 @@ for (r in ph$results) if (r$contrast == "ot_pair - control_paste")
 # ================= Panel d: matching-strength sweep on the development split (step 20) =================
 s20 <- read_json_py(TR("step20_analysis_development.json"))
 d20 <- s20$per_split$drug_split_1
-D_FACETS <- c(en = "Population distance", de = "Gene identity", pds = "Compound\ndiscrimination", tr = "Cell tracking")
+D_FACETS <- c(en = "Population distance", de = "Gene identity", pds = "Discrimination\nscore", tr = "Cell tracking")
 settings <- c("mb4", "mb8", "mb32")
 set_lab  <- c(mb4 = "m = 4", mb8 = "m = 8", mb32 = "m = 32", ot_pair = "exact")
 for (s in settings) {
@@ -153,7 +153,7 @@ cat("panel d: exact-matching point taken from", src, "\n")
 
 # ================= Panel e: m = 32 against exact matching on the confirmation splits (step 21) =================
 s21 <- read_json_py(TR("step21_analysis.json"))
-E_FACETS <- c(en = "Population distance\n(dashed: margin)", pds = "Compound discrimination", de = "Gene identity")
+E_FACETS <- c(en = "Population distance\n(dashed: margin)", pds = "Discrimination score", de = "Gene identity")
 dev <- s21$development_descriptive
 x <- ctr(dev$contrasts, "Q1_energy_mb32_minus_ot_pair");   add("e", E_FACETS[["en"]],  "mb32", "Split 1", x$diff, x$ci[[1]], x$ci[[2]], extra = dev$delta, source = "step21_analysis.json (development_descriptive)")
 x <- ctr(dev$contrasts, "Q2_pds_mb32_minus_ot_pair");      add("e", E_FACETS[["pds"]], "mb32", "Split 1", x$diff, x$ci[[1]], x$ci[[2]], source = "step21_analysis.json (development_descriptive)")

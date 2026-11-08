@@ -1,0 +1,111 @@
+"panel","facet","x","split","point","lo","hi","extra","source","excludes_zero"
+"b","Gene identity
+(Jaccard, top-50 genes)","Original
+model","Split 1",0.268260899441445,0.268260899441445,0.268260899441445,NA,"step15_model_long.csv",TRUE
+"b","Population distance
+(energy; lower is better)","Original
+model","Split 1",2.26809187745678,2.26809187745678,2.26809187745678,NA,"step15_model_long.csv",TRUE
+"b","Response correlation
+(Pearson r, top-50 genes)","Original
+model","Split 1",0.226913752975227,0.226913752975227,0.226913752975227,NA,"step15_model_long.csv",TRUE
+"b","Gene identity
+(Jaccard, top-50 genes)","Rewired
+model","Split 1",0.464048621846894,0.464048621846894,0.464048621846894,NA,"step15_model_long.csv",TRUE
+"b","Population distance
+(energy; lower is better)","Rewired
+model","Split 1",0.224987878009135,0.224987878009135,0.224987878009135,NA,"step15_model_long.csv",TRUE
+"b","Response correlation
+(Pearson r, top-50 genes)","Rewired
+model","Split 1",0.519683148453094,0.519683148453094,0.519683148453094,NA,"step15_model_long.csv",TRUE
+"b","Gene identity
+(Jaccard, top-50 genes)","Original
+model","Split 0",0.285034063891101,0.285034063891101,0.285034063891101,NA,"step15_model_long.csv",TRUE
+"b","Population distance
+(energy; lower is better)","Original
+model","Split 0",2.13526554810941,2.13526554810941,2.13526554810941,NA,"step15_model_long.csv",TRUE
+"b","Response correlation
+(Pearson r, top-50 genes)","Original
+model","Split 0",0.249010376483521,0.249010376483521,0.249010376483521,NA,"step15_model_long.csv",TRUE
+"b","Gene identity
+(Jaccard, top-50 genes)","Rewired
+model","Split 0",0.460300924373702,0.460300924373702,0.460300924373702,NA,"step15_model_long.csv",TRUE
+"b","Population distance
+(energy; lower is better)","Rewired
+model","Split 0",0.243755267269048,0.243755267269048,0.243755267269048,NA,"step15_model_long.csv",TRUE
+"b","Response correlation
+(Pearson r, top-50 genes)","Rewired
+model","Split 0",0.500528405341633,0.500528405341633,0.500528405341633,NA,"step15_model_long.csv",TRUE
+"b","Gene identity
+(Jaccard, top-50 genes)","Original
+model","Split 2",0.29084603268701,0.29084603268701,0.29084603268701,NA,"step15_model_long.csv",TRUE
+"b","Population distance
+(energy; lower is better)","Original
+model","Split 2",2.02100506935371,2.02100506935371,2.02100506935371,NA,"step15_model_long.csv",TRUE
+"b","Response correlation
+(Pearson r, top-50 genes)","Original
+model","Split 2",0.270521265557285,0.270521265557285,0.270521265557285,NA,"step15_model_long.csv",TRUE
+"b","Gene identity
+(Jaccard, top-50 genes)","Rewired
+model","Split 2",0.458460754768254,0.458460754768254,0.458460754768254,NA,"step15_model_long.csv",TRUE
+"b","Population distance
+(energy; lower is better)","Rewired
+model","Split 2",0.218096051131077,0.218096051131077,0.218096051131077,NA,"step15_model_long.csv",TRUE
+"b","Response correlation
+(Pearson r, top-50 genes)","Rewired
+model","Split 2",0.523113144002375,0.523113144002375,0.523113144002375,NA,"step15_model_long.csv",TRUE
+"c","Population distance
+vs random pairing","OT","Split 1",-0.0770633692563273,-0.117133450490382,-0.0415635832658926,NA,"step18_analysis.json",TRUE
+"c","Gene identity","OT","Split 1",-0.014574412090483,-0.0205437348840136,-0.00884252417054438,NA,"step18_analysis.json",TRUE
+"c","Discrimination
+score","OT","Split 1",-0.0378318746886969,-0.062644228846387,-0.0150111270935036,NA,"step18_analysis.json",TRUE
+"c","Cell tracking","OT","Split 1",0.287757805366394,0.284653958751829,0.291202075526331,NA,"step18_analysis.json",TRUE
+"c","Population distance
+vs random pairing","OT","Split 0",-0.0682499746053981,-0.0978972257364367,-0.0435266558488365,NA,"step18_analysis.json",TRUE
+"c","Gene identity","OT","Split 0",-0.0124075386687329,-0.0170205612067436,-0.00790149323275839,NA,"step18_analysis.json",TRUE
+"c","Discrimination
+score","OT","Split 0",-0.0282026951329353,-0.0536943113834719,-0.00456197146562867,NA,"step18_analysis.json",TRUE
+"c","Cell tracking","OT","Split 0",0.287887781218896,0.28410687763864,0.291312619386597,NA,"step18_analysis.json",TRUE
+"c","Population distance
+vs random pairing","OT","Split 2",-0.0680227976623395,-0.0969847946716563,-0.041535442207585,NA,"step18_analysis.json",TRUE
+"c","Gene identity","OT","Split 2",-0.0121283977722952,-0.0169784445515652,-0.0069602558201038,NA,"step18_analysis.json",TRUE
+"c","Discrimination
+score","OT","Split 2",-0.0366100642661078,-0.0741531900178692,-0.0024092360225865,NA,"step18_analysis.json",TRUE
+"c","Cell tracking","OT","Split 2",0.281572213296797,0.27701248464012,0.285881377002754,NA,"step18_analysis.json",TRUE
+"c","Population distance
+vs vehicle cells","OT","Split 1",-0.0340663992057641,-0.0540822202028394,-0.0151986275354374,NA,"posthoc_ot_energy_vs_references.json",TRUE
+"c","Population distance
+vs vehicle cells","OT","Split 0",-0.0535498200108154,-0.131850564381209,-0.0121290610541206,NA,"posthoc_ot_energy_vs_references.json",TRUE
+"c","Population distance
+vs vehicle cells","OT","Split 2",-0.0287456456365221,-0.0532946612536574,-0.00424436150718712,NA,"posthoc_ot_energy_vs_references.json",TRUE
+"d","Population distance","m = 4","Split 1",-0.0535973171568569,-0.0763146194562331,-0.0331619566777601,0.332842539792457,"step20_analysis_development.json",TRUE
+"d","Gene identity","m = 4","Split 1",-0.00580234263092554,-0.00775279851846086,-0.00388200703871617,0.332842539792457,"step20_analysis_development.json",TRUE
+"d","Discrimination
+score","m = 4","Split 1",-0.00197517707424757,-0.0108500461041437,0.00564381516807576,0.332842539792457,"step20_analysis_development.json",FALSE
+"d","Cell tracking","m = 4","Split 1",0.0764917017888687,0.0752915481976905,0.077833115749619,0.332842539792457,"step20_analysis_development.json",TRUE
+"d","Population distance","m = 8","Split 1",-0.0680363171587762,-0.09846724302308,-0.0411237840458718,0.494666856741599,"step20_analysis_development.json",TRUE
+"d","Gene identity","m = 8","Split 1",-0.0104580757306781,-0.0135805803931252,-0.00766890909314533,0.494666856741599,"step20_analysis_development.json",TRUE
+"d","Discrimination
+score","m = 8","Split 1",-0.00402184804546087,-0.0164320735909041,0.00705139658456144,0.494666856741599,"step20_analysis_development.json",FALSE
+"d","Cell tracking","m = 8","Split 1",0.12356702976139,0.121873199350613,0.125486172653784,0.494666856741599,"step20_analysis_development.json",TRUE
+"d","Population distance","m = 32","Split 1",-0.0769495790773405,-0.113668445324425,-0.0443081683810872,0.759247618403219,"step20_analysis_development.json",TRUE
+"d","Gene identity","m = 32","Split 1",-0.0123907987968837,-0.0169226440154856,-0.00795583109095288,0.759247618403219,"step20_analysis_development.json",TRUE
+"d","Discrimination
+score","m = 32","Split 1",-0.018876589996679,-0.0387489313693406,-0.000796268333959688,0.759247618403219,"step20_analysis_development.json",TRUE
+"d","Cell tracking","m = 32","Split 1",0.206481576237205,0.204107355179495,0.209221007375901,0.759247618403219,"step20_analysis_development.json",TRUE
+"d","Population distance","exact","Split 1",-0.0770633692563273,-0.117133450490382,-0.0415635832658926,1,"step20_analysis_development.json",TRUE
+"d","Gene identity","exact","Split 1",-0.014574412090483,-0.0206432731736376,-0.00890088883209049,1,"step20_analysis_development.json",TRUE
+"d","Discrimination
+score","exact","Split 1",-0.0378318746886969,-0.0621397941303838,-0.0148443813282446,1,"step20_analysis_development.json",TRUE
+"d","Cell tracking","exact","Split 1",0.287757805366394,0.284660282649975,0.291208285324062,1,"step20_analysis_development.json",TRUE
+"e","Population distance
+(dashed: margin)","mb32","Split 1",0.000113790178986855,-0.00469138264312043,0.00446126101799478,0.0103908958164731,"step21_analysis.json (development_descriptive)",FALSE
+"e","Discrimination score","mb32","Split 1",0.0189552846920179,0.0119370573434669,0.0266976942733199,NA,"step21_analysis.json (development_descriptive)",TRUE
+"e","Gene identity","mb32","Split 1",0.00218361329359933,0.000200740922100146,0.00419423923298337,NA,"step21_analysis.json (development_descriptive)",TRUE
+"e","Population distance
+(dashed: margin)","mb32","Split 0",-0.000786350953379268,-0.0041381130871223,0.0027688979035163,0.0108816639622091,"step21_analysis.json",FALSE
+"e","Discrimination score","mb32","Split 0",0.0156616894907498,0.00759070687145724,0.0238058886641094,NA,"step21_analysis.json",TRUE
+"e","Gene identity","mb32","Split 0",0.00209415179332573,0.000469837597109587,0.00364661106181403,NA,"step21_analysis.json",TRUE
+"e","Population distance
+(dashed: margin)","mb32","Split 2",-0.00063025549126565,-0.00339657410952434,0.00212705670082789,0.0103838605518962,"step21_analysis.json",FALSE
+"e","Discrimination score","mb32","Split 2",0.0151393425445576,0.00744150438281601,0.0240462347333002,NA,"step21_analysis.json",TRUE
+"e","Gene identity","mb32","Split 2",0.0026943320024253,0.000944320535196607,0.00446012277432184,NA,"step21_analysis.json",TRUE
