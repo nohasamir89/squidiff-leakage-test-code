@@ -338,3 +338,6 @@ supplementary_tables/supp_table_S15.csv
 supplementary_tables/supp_table_S15.md
 plot_fig1e_v2.R
 figures/fig1e_values_v2.csv
+make_supp_table_s3.py
+supplementary_tables/supp_table_S3.csv
+supplementary_tables/supp_table_S3.md

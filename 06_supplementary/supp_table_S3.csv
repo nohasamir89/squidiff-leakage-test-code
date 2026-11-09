@@ -1,0 +1,171 @@
+part,n_genes,cell_type,quantity,value,source
+a,100,,fraction of zero entries,0.9443,gene_sensitivity_SEEDED_v2.csv
+a,100,Tumour cells,vehicle reconstruction,0.9767,gene_sensitivity_SEEDED_v2.csv
+a,100,Oligodendrocytes,vehicle reconstruction,0.9986,gene_sensitivity_SEEDED_v2.csv
+a,100,,interpreted (>= 0.70 in both cell types),yes,gene_sensitivity_SEEDED_v2.csv
+b,100,Tumour cells,"prediction, all genes",0.7527,gene_sensitivity_SEEDED_v2.csv
+b,100,Tumour cells,"vehicle mean, all genes",0.7071,gene_sensitivity_SEEDED_v2.csv
+b,100,Tumour cells,"prediction, 50 most responsive genes",0.6937,gene_sensitivity_SEEDED_v2.csv
+b,100,Tumour cells,"vehicle mean, 50 most responsive genes",0.6313,gene_sensitivity_SEEDED_v2.csv
+b,100,Tumour cells,margin (Fig. 1d),0.0624,gene_sensitivity_SEEDED_v2.csv
+b,100,Oligodendrocytes,"prediction, all genes",0.9337,gene_sensitivity_SEEDED_v2.csv
+b,100,Oligodendrocytes,"vehicle mean, all genes",0.9241,gene_sensitivity_SEEDED_v2.csv
+b,100,Oligodendrocytes,"prediction, 50 most responsive genes",0.9202,gene_sensitivity_SEEDED_v2.csv
+b,100,Oligodendrocytes,"vehicle mean, 50 most responsive genes",0.9075,gene_sensitivity_SEEDED_v2.csv
+b,100,Oligodendrocytes,margin (Fig. 1d),0.0127,gene_sensitivity_SEEDED_v2.csv
+a,200,,fraction of zero entries,0.9399,gene_sensitivity_SEEDED_v2.csv
+a,200,Tumour cells,vehicle reconstruction,0.9816,gene_sensitivity_SEEDED_v2.csv
+a,200,Oligodendrocytes,vehicle reconstruction,0.9970,gene_sensitivity_SEEDED_v2.csv
+a,200,,interpreted (>= 0.70 in both cell types),yes,gene_sensitivity_SEEDED_v2.csv
+b,200,Tumour cells,"prediction, all genes",0.8010,gene_sensitivity_SEEDED_v2.csv
+b,200,Tumour cells,"vehicle mean, all genes",0.7355,gene_sensitivity_SEEDED_v2.csv
+b,200,Tumour cells,"prediction, 50 most responsive genes",0.6653,gene_sensitivity_SEEDED_v2.csv
+b,200,Tumour cells,"vehicle mean, 50 most responsive genes",0.5322,gene_sensitivity_SEEDED_v2.csv
+b,200,Tumour cells,margin (Fig. 1d),0.1331,gene_sensitivity_SEEDED_v2.csv
+b,200,Oligodendrocytes,"prediction, all genes",0.9317,gene_sensitivity_SEEDED_v2.csv
+b,200,Oligodendrocytes,"vehicle mean, all genes",0.9273,gene_sensitivity_SEEDED_v2.csv
+b,200,Oligodendrocytes,"prediction, 50 most responsive genes",0.8953,gene_sensitivity_SEEDED_v2.csv
+b,200,Oligodendrocytes,"vehicle mean, 50 most responsive genes",0.8851,gene_sensitivity_SEEDED_v2.csv
+b,200,Oligodendrocytes,margin (Fig. 1d),0.0102,gene_sensitivity_SEEDED_v2.csv
+a,300,,fraction of zero entries,0.9350,gene_sensitivity_SEEDED_v2.csv
+a,300,Tumour cells,vehicle reconstruction,0.6092,gene_sensitivity_SEEDED_v2.csv
+a,300,Oligodendrocytes,vehicle reconstruction,0.8527,gene_sensitivity_SEEDED_v2.csv
+a,300,,interpreted (>= 0.70 in both cell types),no,gene_sensitivity_SEEDED_v2.csv
+b,300,Tumour cells,"prediction, all genes",0.5461,gene_sensitivity_SEEDED_v2.csv
+b,300,Tumour cells,"vehicle mean, all genes",0.7912,gene_sensitivity_SEEDED_v2.csv
+b,300,Tumour cells,"prediction, 50 most responsive genes",0.5929,gene_sensitivity_SEEDED_v2.csv
+b,300,Tumour cells,"vehicle mean, 50 most responsive genes",0.5613,gene_sensitivity_SEEDED_v2.csv
+b,300,Tumour cells,margin (Fig. 1d),0.0316,gene_sensitivity_SEEDED_v2.csv
+b,300,Oligodendrocytes,"prediction, all genes",0.7900,gene_sensitivity_SEEDED_v2.csv
+b,300,Oligodendrocytes,"vehicle mean, all genes",0.9228,gene_sensitivity_SEEDED_v2.csv
+b,300,Oligodendrocytes,"prediction, 50 most responsive genes",0.7662,gene_sensitivity_SEEDED_v2.csv
+b,300,Oligodendrocytes,"vehicle mean, 50 most responsive genes",0.8306,gene_sensitivity_SEEDED_v2.csv
+b,300,Oligodendrocytes,margin (Fig. 1d),-0.0644,gene_sensitivity_SEEDED_v2.csv
+a,400,,fraction of zero entries,0.9310,gene_sensitivity_SEEDED_v2.csv
+a,400,Tumour cells,vehicle reconstruction,0.4233,gene_sensitivity_SEEDED_v2.csv
+a,400,Oligodendrocytes,vehicle reconstruction,0.6591,gene_sensitivity_SEEDED_v2.csv
+a,400,,interpreted (>= 0.70 in both cell types),no,gene_sensitivity_SEEDED_v2.csv
+b,400,Tumour cells,"prediction, all genes",0.3432,gene_sensitivity_SEEDED_v2.csv
+b,400,Tumour cells,"vehicle mean, all genes",0.7977,gene_sensitivity_SEEDED_v2.csv
+b,400,Tumour cells,"prediction, 50 most responsive genes",0.2020,gene_sensitivity_SEEDED_v2.csv
+b,400,Tumour cells,"vehicle mean, 50 most responsive genes",0.4927,gene_sensitivity_SEEDED_v2.csv
+b,400,Tumour cells,margin (Fig. 1d),-0.2908,gene_sensitivity_SEEDED_v2.csv
+b,400,Oligodendrocytes,"prediction, all genes",0.5907,gene_sensitivity_SEEDED_v2.csv
+b,400,Oligodendrocytes,"vehicle mean, all genes",0.9219,gene_sensitivity_SEEDED_v2.csv
+b,400,Oligodendrocytes,"prediction, 50 most responsive genes",0.7157,gene_sensitivity_SEEDED_v2.csv
+b,400,Oligodendrocytes,"vehicle mean, 50 most responsive genes",0.8157,gene_sensitivity_SEEDED_v2.csv
+b,400,Oligodendrocytes,margin (Fig. 1d),-0.1000,gene_sensitivity_SEEDED_v2.csv
+a,500,,fraction of zero entries,0.9304,gene_sensitivity_SEEDED_v2.csv
+a,500,Tumour cells,vehicle reconstruction,0.6585,gene_sensitivity_SEEDED_v2.csv
+a,500,Oligodendrocytes,vehicle reconstruction,0.7592,gene_sensitivity_SEEDED_v2.csv
+a,500,,interpreted (>= 0.70 in both cell types),no,gene_sensitivity_SEEDED_v2.csv
+b,500,Tumour cells,"prediction, all genes",0.5741,gene_sensitivity_SEEDED_v2.csv
+b,500,Tumour cells,"vehicle mean, all genes",0.7896,gene_sensitivity_SEEDED_v2.csv
+b,500,Tumour cells,"prediction, 50 most responsive genes",0.5429,gene_sensitivity_SEEDED_v2.csv
+b,500,Tumour cells,"vehicle mean, 50 most responsive genes",0.3873,gene_sensitivity_SEEDED_v2.csv
+b,500,Tumour cells,margin (Fig. 1d),0.1555,gene_sensitivity_SEEDED_v2.csv
+b,500,Oligodendrocytes,"prediction, all genes",0.6478,gene_sensitivity_SEEDED_v2.csv
+b,500,Oligodendrocytes,"vehicle mean, all genes",0.9138,gene_sensitivity_SEEDED_v2.csv
+b,500,Oligodendrocytes,"prediction, 50 most responsive genes",0.6517,gene_sensitivity_SEEDED_v2.csv
+b,500,Oligodendrocytes,"vehicle mean, 50 most responsive genes",0.7590,gene_sensitivity_SEEDED_v2.csv
+b,500,Oligodendrocytes,margin (Fig. 1d),-0.1073,gene_sensitivity_SEEDED_v2.csv
+a,600,,fraction of zero entries,0.9315,gene_sensitivity_SEEDED_v2.csv
+a,600,Tumour cells,vehicle reconstruction,0.7409,gene_sensitivity_SEEDED_v2.csv
+a,600,Oligodendrocytes,vehicle reconstruction,0.8353,gene_sensitivity_SEEDED_v2.csv
+a,600,,interpreted (>= 0.70 in both cell types),yes,gene_sensitivity_SEEDED_v2.csv
+b,600,Tumour cells,"prediction, all genes",0.6503,gene_sensitivity_SEEDED_v2.csv
+b,600,Tumour cells,"vehicle mean, all genes",0.7948,gene_sensitivity_SEEDED_v2.csv
+b,600,Tumour cells,"prediction, 50 most responsive genes",0.4513,gene_sensitivity_SEEDED_v2.csv
+b,600,Tumour cells,"vehicle mean, 50 most responsive genes",0.3795,gene_sensitivity_SEEDED_v2.csv
+b,600,Tumour cells,margin (Fig. 1d),0.0718,gene_sensitivity_SEEDED_v2.csv
+b,600,Oligodendrocytes,"prediction, all genes",0.7350,gene_sensitivity_SEEDED_v2.csv
+b,600,Oligodendrocytes,"vehicle mean, all genes",0.9136,gene_sensitivity_SEEDED_v2.csv
+b,600,Oligodendrocytes,"prediction, 50 most responsive genes",0.7038,gene_sensitivity_SEEDED_v2.csv
+b,600,Oligodendrocytes,"vehicle mean, 50 most responsive genes",0.7593,gene_sensitivity_SEEDED_v2.csv
+b,600,Oligodendrocytes,margin (Fig. 1d),-0.0554,gene_sensitivity_SEEDED_v2.csv
+a,700,,fraction of zero entries,0.9306,gene_sensitivity_SEEDED_v2.csv
+a,700,Tumour cells,vehicle reconstruction,0.8539,gene_sensitivity_SEEDED_v2.csv
+a,700,Oligodendrocytes,vehicle reconstruction,0.9193,gene_sensitivity_SEEDED_v2.csv
+a,700,,interpreted (>= 0.70 in both cell types),yes,gene_sensitivity_SEEDED_v2.csv
+b,700,Tumour cells,"prediction, all genes",0.7480,gene_sensitivity_SEEDED_v2.csv
+b,700,Tumour cells,"vehicle mean, all genes",0.8236,gene_sensitivity_SEEDED_v2.csv
+b,700,Tumour cells,"prediction, 50 most responsive genes",0.5201,gene_sensitivity_SEEDED_v2.csv
+b,700,Tumour cells,"vehicle mean, 50 most responsive genes",0.4389,gene_sensitivity_SEEDED_v2.csv
+b,700,Tumour cells,margin (Fig. 1d),0.0811,gene_sensitivity_SEEDED_v2.csv
+b,700,Oligodendrocytes,"prediction, all genes",0.8243,gene_sensitivity_SEEDED_v2.csv
+b,700,Oligodendrocytes,"vehicle mean, all genes",0.9117,gene_sensitivity_SEEDED_v2.csv
+b,700,Oligodendrocytes,"prediction, 50 most responsive genes",0.7645,gene_sensitivity_SEEDED_v2.csv
+b,700,Oligodendrocytes,"vehicle mean, 50 most responsive genes",0.7399,gene_sensitivity_SEEDED_v2.csv
+b,700,Oligodendrocytes,margin (Fig. 1d),0.0245,gene_sensitivity_SEEDED_v2.csv
+a,800,,fraction of zero entries,0.9336,gene_sensitivity_SEEDED_v2.csv
+a,800,Tumour cells,vehicle reconstruction,0.8910,gene_sensitivity_SEEDED_v2.csv
+a,800,Oligodendrocytes,vehicle reconstruction,0.9340,gene_sensitivity_SEEDED_v2.csv
+a,800,,interpreted (>= 0.70 in both cell types),yes,gene_sensitivity_SEEDED_v2.csv
+b,800,Tumour cells,"prediction, all genes",0.7906,gene_sensitivity_SEEDED_v2.csv
+b,800,Tumour cells,"vehicle mean, all genes",0.8332,gene_sensitivity_SEEDED_v2.csv
+b,800,Tumour cells,"prediction, 50 most responsive genes",0.6684,gene_sensitivity_SEEDED_v2.csv
+b,800,Tumour cells,"vehicle mean, 50 most responsive genes",0.4279,gene_sensitivity_SEEDED_v2.csv
+b,800,Tumour cells,margin (Fig. 1d),0.2405,gene_sensitivity_SEEDED_v2.csv
+b,800,Oligodendrocytes,"prediction, all genes",0.8551,gene_sensitivity_SEEDED_v2.csv
+b,800,Oligodendrocytes,"vehicle mean, all genes",0.9119,gene_sensitivity_SEEDED_v2.csv
+b,800,Oligodendrocytes,"prediction, 50 most responsive genes",0.7902,gene_sensitivity_SEEDED_v2.csv
+b,800,Oligodendrocytes,"vehicle mean, 50 most responsive genes",0.7317,gene_sensitivity_SEEDED_v2.csv
+b,800,Oligodendrocytes,margin (Fig. 1d),0.0585,gene_sensitivity_SEEDED_v2.csv
+a,900,,fraction of zero entries,0.9360,gene_sensitivity_SEEDED_v2.csv
+a,900,Tumour cells,vehicle reconstruction,0.7726,gene_sensitivity_SEEDED_v2.csv
+a,900,Oligodendrocytes,vehicle reconstruction,0.4452,gene_sensitivity_SEEDED_v2.csv
+a,900,,interpreted (>= 0.70 in both cell types),no,gene_sensitivity_SEEDED_v2.csv
+b,900,Tumour cells,"prediction, all genes",0.6404,gene_sensitivity_SEEDED_v2.csv
+b,900,Tumour cells,"vehicle mean, all genes",0.8371,gene_sensitivity_SEEDED_v2.csv
+b,900,Tumour cells,"prediction, 50 most responsive genes",0.1604,gene_sensitivity_SEEDED_v2.csv
+b,900,Tumour cells,"vehicle mean, 50 most responsive genes",0.4086,gene_sensitivity_SEEDED_v2.csv
+b,900,Tumour cells,margin (Fig. 1d),-0.2482,gene_sensitivity_SEEDED_v2.csv
+b,900,Oligodendrocytes,"prediction, all genes",0.3057,gene_sensitivity_SEEDED_v2.csv
+b,900,Oligodendrocytes,"vehicle mean, all genes",0.9172,gene_sensitivity_SEEDED_v2.csv
+b,900,Oligodendrocytes,"prediction, 50 most responsive genes",-0.3413,gene_sensitivity_SEEDED_v2.csv
+b,900,Oligodendrocytes,"vehicle mean, 50 most responsive genes",0.7234,gene_sensitivity_SEEDED_v2.csv
+b,900,Oligodendrocytes,margin (Fig. 1d),-1.0647,gene_sensitivity_SEEDED_v2.csv
+a,1000,,fraction of zero entries,0.9375,gene_sensitivity_SEEDED_v2.csv
+a,1000,Tumour cells,vehicle reconstruction,-0.0372,gene_sensitivity_SEEDED_v2.csv
+a,1000,Oligodendrocytes,vehicle reconstruction,-0.0159,gene_sensitivity_SEEDED_v2.csv
+a,1000,,interpreted (>= 0.70 in both cell types),no,gene_sensitivity_SEEDED_v2.csv
+b,1000,Tumour cells,"prediction, all genes",-0.0233,gene_sensitivity_SEEDED_v2.csv
+b,1000,Tumour cells,"vehicle mean, all genes",0.8451,gene_sensitivity_SEEDED_v2.csv
+b,1000,Tumour cells,"prediction, 50 most responsive genes",-0.0141,gene_sensitivity_SEEDED_v2.csv
+b,1000,Tumour cells,"vehicle mean, 50 most responsive genes",0.4325,gene_sensitivity_SEEDED_v2.csv
+b,1000,Tumour cells,margin (Fig. 1d),-0.4465,gene_sensitivity_SEEDED_v2.csv
+b,1000,Oligodendrocytes,"prediction, all genes",-0.0056,gene_sensitivity_SEEDED_v2.csv
+b,1000,Oligodendrocytes,"vehicle mean, all genes",0.9171,gene_sensitivity_SEEDED_v2.csv
+b,1000,Oligodendrocytes,"prediction, 50 most responsive genes",-0.0751,gene_sensitivity_SEEDED_v2.csv
+b,1000,Oligodendrocytes,"vehicle mean, 50 most responsive genes",0.7098,gene_sensitivity_SEEDED_v2.csv
+b,1000,Oligodendrocytes,margin (Fig. 1d),-0.7849,gene_sensitivity_SEEDED_v2.csv
+c,200,Tumour cells,panobinostat,0.831,eval_200_v2_18927698.out
+c,200,Tumour cells,RO4929097,0.890,eval_200_v2_18927698.out
+c,200,Tumour cells,tazemetostat,0.795,eval_200_v2_18927698.out
+c,200,Tumour cells,ispinesib,0.857,eval_200_v2_18927698.out
+c,200,Tumour cells,ANA-12,0.846,eval_200_v2_18927698.out
+c,200,Tumour cells,mean over the five compounds (as printed in the log),0.844,eval_200_v2_18927698.out
+c,200,Tumour cells,vehicle reconstruction,0.990,eval_200_v2_18927698.out
+c,200,Oligodendrocytes,panobinostat,0.858,eval_200_v2_18927698.out
+c,200,Oligodendrocytes,RO4929097,0.960,eval_200_v2_18927698.out
+c,200,Oligodendrocytes,tazemetostat,0.937,eval_200_v2_18927698.out
+c,200,Oligodendrocytes,ispinesib,0.940,eval_200_v2_18927698.out
+c,200,Oligodendrocytes,ANA-12,0.954,eval_200_v2_18927698.out
+c,200,Oligodendrocytes,mean over the five compounds (as printed in the log),0.930,eval_200_v2_18927698.out
+c,200,Oligodendrocytes,vehicle reconstruction,0.996,eval_200_v2_18927698.out
+c,2000,Tumour cells,panobinostat,0.414,eval_v2_18927697.out
+c,2000,Tumour cells,RO4929097,0.364,eval_v2_18927697.out
+c,2000,Tumour cells,tazemetostat,0.350,eval_v2_18927697.out
+c,2000,Tumour cells,ispinesib,0.397,eval_v2_18927697.out
+c,2000,Tumour cells,ANA-12,0.409,eval_v2_18927697.out
+c,2000,Tumour cells,mean over the five compounds (as printed in the log),0.387,eval_v2_18927697.out
+c,2000,Tumour cells,vehicle reconstruction,0.433,eval_v2_18927697.out
+c,2000,Oligodendrocytes,panobinostat,0.434,eval_v2_18927697.out
+c,2000,Oligodendrocytes,RO4929097,0.445,eval_v2_18927697.out
+c,2000,Oligodendrocytes,tazemetostat,0.446,eval_v2_18927697.out
+c,2000,Oligodendrocytes,ispinesib,0.465,eval_v2_18927697.out
+c,2000,Oligodendrocytes,ANA-12,0.469,eval_v2_18927697.out
+c,2000,Oligodendrocytes,mean over the five compounds (as printed in the log),0.452,eval_v2_18927697.out
+c,2000,Oligodendrocytes,vehicle reconstruction,0.514,eval_v2_18927697.out
+c,200,Tumour cells,published value (He et al.),0.912,He et al. 2026
+c,200,Oligodendrocytes,published value (He et al.),0.915,He et al. 2026
