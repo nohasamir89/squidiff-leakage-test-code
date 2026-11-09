@@ -1,0 +1,654 @@
+{
+  "prereg": "PREREG_step28_salt_twins.md",
+  "commit": "e42c8c3ad3143786a2e5e2feeabab8a4b91777ff",
+  "comparator": "fm_50",
+  "splits": {
+    "drug_split_1": {
+      "n_conditions": 443,
+      "n_structures": 37,
+      "excluded": [],
+      "excluded_conditions": 0,
+      "retained_conditions": 443,
+      "excluded_fraction": 0.0
+    },
+    "drug_split_0": {
+      "n_conditions": 444,
+      "n_structures": 37,
+      "excluded": [
+        {
+          "record_smiles": "C[C@@H]1CCN(C[C@@H]1N(C)C1=NC=NC2=C1C=CN2)C(=O)CC#N",
+          "matched_structure": "C[C@@H]1CCN(C[C@@H]1N(C)C1=NC=NC2=C1C=CN2)C(=O)CC#N",
+          "matched_by": "exact SMILES",
+          "n_conditions": 12
+        }
+      ],
+      "excluded_conditions": 12,
+      "retained_conditions": 432,
+      "excluded_fraction": 0.02702702702702703
+    },
+    "drug_split_2": {
+      "n_conditions": 455,
+      "n_structures": 38,
+      "excluded": [
+        {
+          "record_smiles": "OC(=O)CC(O)(CC(O)=O)C(O)=O.C[C@@H]1CCN(C[C@@H]1N(C)C1=C2C=CNC2=NC=N1)C(=O)CC#N",
+          "matched_structure": "OC(=O)CC(O)(CC(O)=O)C(O)=O.C[C@@H]1CCN(C[C@@H]1N(C)C1=C2C=CNC2=NC=N1)C(=O)CC#N",
+          "matched_by": "exact SMILES",
+          "n_conditions": 12
+        }
+      ],
+      "excluded_conditions": 12,
+      "retained_conditions": 443,
+      "excluded_fraction": 0.026373626373626374
+    }
+  },
+  "verdict_K": {
+    "verdict": "K3 A CONCLUSION CHANGES",
+    "crossed": [
+      {
+        "split": "drug_split_2",
+        "quantity": "response correlation",
+        "arm": "rewired minus mean_response",
+        "published": [
+          -0.12442338892726143,
+          -0.0031892609439036286
+        ],
+        "twin_free": [
+          -0.10944521735151504,
+          0.004309526040245081
+        ],
+        "direction": "now includes zero"
+      }
+    ],
+    "sign_reversals": [],
+    "moved": []
+  },
+  "verdict_L": {
+    "headline": [
+      {
+        "split": "drug_split_0",
+        "group": "B",
+        "quantity": "gene identity",
+        "arm": "fm_50",
+        "excluded_minus_retained": -0.005593435283463233,
+        "n_excluded": 12
+      },
+      {
+        "split": "drug_split_2",
+        "group": "B",
+        "quantity": "gene identity",
+        "arm": "fm_50",
+        "excluded_minus_retained": 0.0400982253015949,
+        "n_excluded": 12
+      }
+    ],
+    "all": [
+      {
+        "split": "drug_split_0",
+        "group": "B",
+        "quantity": "gene identity",
+        "arm": "fm_50",
+        "excluded_minus_retained": -0.005593435283463233,
+        "n_excluded": 12
+      },
+      {
+        "split": "drug_split_0",
+        "group": "B",
+        "quantity": "gene identity",
+        "arm": "base",
+        "excluded_minus_retained": 0.011157040679708685,
+        "n_excluded": 12
+      },
+      {
+        "split": "drug_split_0",
+        "group": "B",
+        "quantity": "gene identity",
+        "arm": "ridge_train",
+        "excluded_minus_retained": 0.04393530338866081,
+        "n_excluded": 12
+      },
+      {
+        "split": "drug_split_0",
+        "group": "B",
+        "quantity": "gene identity",
+        "arm": "ridge_S7",
+        "excluded_minus_retained": 0.030206859800029906,
+        "n_excluded": 12
+      },
+      {
+        "split": "drug_split_0",
+        "group": "B",
+        "quantity": "gene identity",
+        "arm": "mean_response",
+        "excluded_minus_retained": 0.004167422378601793,
+        "n_excluded": 12
+      },
+      {
+        "split": "drug_split_0",
+        "group": "B-contrast",
+        "quantity": "gene identity",
+        "arm": "rewired minus base",
+        "excluded_minus_retained": -0.016750475963171807,
+        "n_excluded": 12
+      },
+      {
+        "split": "drug_split_0",
+        "group": "B-contrast",
+        "quantity": "gene identity",
+        "arm": "rewired minus ridge_train",
+        "excluded_minus_retained": -0.049528738672123845,
+        "n_excluded": 12
+      },
+      {
+        "split": "drug_split_0",
+        "group": "B-contrast",
+        "quantity": "gene identity",
+        "arm": "rewired minus ridge_S7",
+        "excluded_minus_retained": -0.03580029508349313,
+        "n_excluded": 12
+      },
+      {
+        "split": "drug_split_0",
+        "group": "B-contrast",
+        "quantity": "gene identity",
+        "arm": "rewired minus mean_response",
+        "excluded_minus_retained": -0.009760857662065046,
+        "n_excluded": 12
+      },
+      {
+        "split": "drug_split_0",
+        "group": "B",
+        "quantity": "response correlation",
+        "arm": "fm_50",
+        "excluded_minus_retained": -0.13942889300017736,
+        "n_excluded": 12
+      },
+      {
+        "split": "drug_split_0",
+        "group": "B",
+        "quantity": "response correlation",
+        "arm": "base",
+        "excluded_minus_retained": -0.05364836623873934,
+        "n_excluded": 12
+      },
+      {
+        "split": "drug_split_0",
+        "group": "B",
+        "quantity": "response correlation",
+        "arm": "ridge_train",
+        "excluded_minus_retained": -0.16737382130417178,
+        "n_excluded": 12
+      },
+      {
+        "split": "drug_split_0",
+        "group": "B",
+        "quantity": "response correlation",
+        "arm": "ridge_S7",
+        "excluded_minus_retained": 0.12599754229673013,
+        "n_excluded": 12
+      },
+      {
+        "split": "drug_split_0",
+        "group": "B",
+        "quantity": "response correlation",
+        "arm": "mean_response",
+        "excluded_minus_retained": 0.1362947026975567,
+        "n_excluded": 12
+      },
+      {
+        "split": "drug_split_0",
+        "group": "B-contrast",
+        "quantity": "response correlation",
+        "arm": "rewired minus base",
+        "excluded_minus_retained": -0.08578052676143799,
+        "n_excluded": 12
+      },
+      {
+        "split": "drug_split_0",
+        "group": "B-contrast",
+        "quantity": "response correlation",
+        "arm": "rewired minus ridge_train",
+        "excluded_minus_retained": 0.02794492830399443,
+        "n_excluded": 12
+      },
+      {
+        "split": "drug_split_0",
+        "group": "B-contrast",
+        "quantity": "response correlation",
+        "arm": "rewired minus ridge_S7",
+        "excluded_minus_retained": -0.26542643529690746,
+        "n_excluded": 12
+      },
+      {
+        "split": "drug_split_0",
+        "group": "B-contrast",
+        "quantity": "response correlation",
+        "arm": "rewired minus mean_response",
+        "excluded_minus_retained": -0.2757235956977341,
+        "n_excluded": 12
+      },
+      {
+        "split": "drug_split_2",
+        "group": "B",
+        "quantity": "gene identity",
+        "arm": "fm_50",
+        "excluded_minus_retained": 0.0400982253015949,
+        "n_excluded": 12
+      },
+      {
+        "split": "drug_split_2",
+        "group": "B",
+        "quantity": "gene identity",
+        "arm": "base",
+        "excluded_minus_retained": -0.0072034162519625244,
+        "n_excluded": 12
+      },
+      {
+        "split": "drug_split_2",
+        "group": "B",
+        "quantity": "gene identity",
+        "arm": "ridge_train",
+        "excluded_minus_retained": 0.013724611974717749,
+        "n_excluded": 12
+      },
+      {
+        "split": "drug_split_2",
+        "group": "B",
+        "quantity": "gene identity",
+        "arm": "ridge_S7",
+        "excluded_minus_retained": 0.012650000179306509,
+        "n_excluded": 12
+      },
+      {
+        "split": "drug_split_2",
+        "group": "B",
+        "quantity": "gene identity",
+        "arm": "mean_response",
+        "excluded_minus_retained": 0.009304762369723774,
+        "n_excluded": 12
+      },
+      {
+        "split": "drug_split_2",
+        "group": "B-contrast",
+        "quantity": "gene identity",
+        "arm": "rewired minus base",
+        "excluded_minus_retained": 0.047301641553557636,
+        "n_excluded": 12
+      },
+      {
+        "split": "drug_split_2",
+        "group": "B-contrast",
+        "quantity": "gene identity",
+        "arm": "rewired minus ridge_train",
+        "excluded_minus_retained": 0.02637361332687739,
+        "n_excluded": 12
+      },
+      {
+        "split": "drug_split_2",
+        "group": "B-contrast",
+        "quantity": "gene identity",
+        "arm": "rewired minus ridge_S7",
+        "excluded_minus_retained": 0.027448225122288568,
+        "n_excluded": 12
+      },
+      {
+        "split": "drug_split_2",
+        "group": "B-contrast",
+        "quantity": "gene identity",
+        "arm": "rewired minus mean_response",
+        "excluded_minus_retained": 0.030793462931871435,
+        "n_excluded": 12
+      },
+      {
+        "split": "drug_split_2",
+        "group": "B",
+        "quantity": "response correlation",
+        "arm": "fm_50",
+        "excluded_minus_retained": 0.007790050189313252,
+        "n_excluded": 12
+      },
+      {
+        "split": "drug_split_2",
+        "group": "B",
+        "quantity": "response correlation",
+        "arm": "base",
+        "excluded_minus_retained": 0.05679307893992186,
+        "n_excluded": 12
+      },
+      {
+        "split": "drug_split_2",
+        "group": "B",
+        "quantity": "response correlation",
+        "arm": "ridge_train",
+        "excluded_minus_retained": -0.3048996136916581,
+        "n_excluded": 12
+      },
+      {
+        "split": "drug_split_2",
+        "group": "B",
+        "quantity": "response correlation",
+        "arm": "ridge_S7",
+        "excluded_minus_retained": -0.6983446888217746,
+        "n_excluded": 12
+      },
+      {
+        "split": "drug_split_2",
+        "group": "B",
+        "quantity": "response correlation",
+        "arm": "mean_response",
+        "excluded_minus_retained": 0.41491964635216705,
+        "n_excluded": 12
+      },
+      {
+        "split": "drug_split_2",
+        "group": "B-contrast",
+        "quantity": "response correlation",
+        "arm": "rewired minus base",
+        "excluded_minus_retained": -0.049003028750608614,
+        "n_excluded": 12
+      },
+      {
+        "split": "drug_split_2",
+        "group": "B-contrast",
+        "quantity": "response correlation",
+        "arm": "rewired minus ridge_train",
+        "excluded_minus_retained": 0.3126896638809714,
+        "n_excluded": 12
+      },
+      {
+        "split": "drug_split_2",
+        "group": "B-contrast",
+        "quantity": "response correlation",
+        "arm": "rewired minus ridge_S7",
+        "excluded_minus_retained": 0.7061347390110879,
+        "n_excluded": 12
+      },
+      {
+        "split": "drug_split_2",
+        "group": "B-contrast",
+        "quantity": "response correlation",
+        "arm": "rewired minus mean_response",
+        "excluded_minus_retained": -0.4071295961628537,
+        "n_excluded": 12
+      }
+    ]
+  },
+  "interval_replay": [
+    {
+      "split": "drug_split_1",
+      "contrast": "primary_de_ridgeS7_minus_fm50",
+      "committed": [
+        -0.0722006750885804,
+        -0.035456865869858856
+      ],
+      "recomputed": [
+        -0.07220067508858041,
+        -0.035456865869858856
+      ],
+      "max_abs_diff": 1.3877787807814457e-17
+    },
+    {
+      "split": "drug_split_1",
+      "contrast": "coprimary_energy_ridgeS7_minus_fm50",
+      "committed": [
+        0.006112939835405576,
+        0.10616261267828671
+      ],
+      "recomputed": [
+        0.008090598824592421,
+        0.10464756707938816
+      ],
+      "max_abs_diff": 0.0019776589891868455
+    },
+    {
+      "split": "drug_split_1",
+      "contrast": "secondary_jac_ridge_train_minus_fm50",
+      "committed": [
+        -0.06448276792865751,
+        -0.023266236244366887
+      ],
+      "recomputed": [
+        -0.06444413128677395,
+        -0.023994103278951535
+      ],
+      "max_abs_diff": 0.0007278670345846477
+    },
+    {
+      "split": "drug_split_1",
+      "contrast": "secondary_en_ridge_train_minus_fm50",
+      "committed": [
+        -0.08163401575449152,
+        0.03765011258235673
+      ],
+      "recomputed": [
+        -0.08402488177567187,
+        0.039287583315254525
+      ],
+      "max_abs_diff": 0.0023908660211803545
+    },
+    {
+      "split": "drug_split_1",
+      "contrast": "secondary_jac_mean_response_minus_fm50",
+      "committed": [
+        -0.0858437917172193,
+        -0.041855715184680196
+      ],
+      "recomputed": [
+        -0.08585561058654693,
+        -0.04120138142673335
+      ],
+      "max_abs_diff": 0.0006543337579468442
+    },
+    {
+      "split": "drug_split_1",
+      "contrast": "secondary_en_mean_response_minus_fm50",
+      "committed": [
+        0.010255725870663942,
+        0.05154784167545236
+      ],
+      "recomputed": [
+        0.010245953978681256,
+        0.05198537108394149
+      ],
+      "max_abs_diff": 0.0004375294084891304
+    },
+    {
+      "split": "drug_split_1",
+      "contrast": "secondary_en_control_paste_minus_fm50",
+      "committed": [
+        -0.014229981353042147,
+        0.06748706995382961
+      ],
+      "recomputed": [
+        -0.01516127827783812,
+        0.06678574094791592
+      ],
+      "max_abs_diff": 0.000931296924795974
+    },
+    {
+      "split": "drug_split_0",
+      "contrast": "primary_de_ridgeS7_minus_fm50",
+      "committed": [
+        -0.05357144550305401,
+        -0.033999250788128814
+      ],
+      "recomputed": [
+        -0.053497555242215986,
+        -0.03382549310143625
+      ],
+      "max_abs_diff": 0.00017375768669256053
+    },
+    {
+      "split": "drug_split_0",
+      "contrast": "coprimary_energy_ridgeS7_minus_fm50",
+      "committed": [
+        -0.026020437384238614,
+        -0.008684721420977107
+      ],
+      "recomputed": [
+        -0.02569085116024819,
+        -0.008777160999265302
+      ],
+      "max_abs_diff": 0.0003295862239904232
+    },
+    {
+      "split": "drug_split_0",
+      "contrast": "secondary_jac_ridge_train_minus_fm50",
+      "committed": [
+        -0.08561700202395481,
+        -0.06554497688976871
+      ],
+      "recomputed": [
+        -0.08536499414782903,
+        -0.06548956588409877
+      ],
+      "max_abs_diff": 0.00025200787612578157
+    },
+    {
+      "split": "drug_split_0",
+      "contrast": "secondary_en_ridge_train_minus_fm50",
+      "committed": [
+        -0.0031723397445226507,
+        0.028178756423699197
+      ],
+      "recomputed": [
+        -0.0030660753374260347,
+        0.028409320644424006
+      ],
+      "max_abs_diff": 0.00023056422072480903
+    },
+    {
+      "split": "drug_split_0",
+      "contrast": "secondary_jac_mean_response_minus_fm50",
+      "committed": [
+        -0.0652445529396078,
+        -0.0517697532008142
+      ],
+      "recomputed": [
+        -0.06513498309628449,
+        -0.05207682007531445
+      ],
+      "max_abs_diff": 0.00030706687450025166
+    },
+    {
+      "split": "drug_split_0",
+      "contrast": "secondary_en_mean_response_minus_fm50",
+      "committed": [
+        -0.029462885397524344,
+        -0.011697855391330506
+      ],
+      "recomputed": [
+        -0.029391581883773096,
+        -0.011709290863485796
+      ],
+      "max_abs_diff": 7.130351375124813e-05
+    },
+    {
+      "split": "drug_split_0",
+      "contrast": "secondary_en_control_paste_minus_fm50",
+      "committed": [
+        -0.02839962773199704,
+        -0.009313921631452816
+      ],
+      "recomputed": [
+        -0.02817140159656662,
+        -0.009320860282072158
+      ],
+      "max_abs_diff": 0.0002282261354304184
+    },
+    {
+      "split": "drug_split_2",
+      "contrast": "primary_de_ridgeS7_minus_fm50",
+      "committed": [
+        -0.0701527421749286,
+        -0.04431930255125529
+      ],
+      "recomputed": [
+        -0.06921129737529655,
+        -0.04450041154938928
+      ],
+      "max_abs_diff": 0.0009414447996320546
+    },
+    {
+      "split": "drug_split_2",
+      "contrast": "coprimary_energy_ridgeS7_minus_fm50",
+      "committed": [
+        0.004138330667824676,
+        0.09079858683385703
+      ],
+      "recomputed": [
+        0.004478507129314185,
+        0.09165714563450285
+      ],
+      "max_abs_diff": 0.0008585588006458228
+    },
+    {
+      "split": "drug_split_2",
+      "contrast": "secondary_jac_ridge_train_minus_fm50",
+      "committed": [
+        -0.07667828159208498,
+        -0.04923730852876991
+      ],
+      "recomputed": [
+        -0.07684381179015058,
+        -0.04901641999568008
+      ],
+      "max_abs_diff": 0.00022088853308983164
+    },
+    {
+      "split": "drug_split_2",
+      "contrast": "secondary_en_ridge_train_minus_fm50",
+      "committed": [
+        -0.020281932256623513,
+        0.07227135252680791
+      ],
+      "recomputed": [
+        -0.01957596964215666,
+        0.0730647335496458
+      ],
+      "max_abs_diff": 0.0007933810228378801
+    },
+    {
+      "split": "drug_split_2",
+      "contrast": "secondary_jac_mean_response_minus_fm50",
+      "committed": [
+        -0.08916221797601095,
+        -0.0661219921300651
+      ],
+      "recomputed": [
+        -0.08930154575896494,
+        -0.06663220008887948
+      ],
+      "max_abs_diff": 0.0005102079588143738
+    },
+    {
+      "split": "drug_split_2",
+      "contrast": "secondary_en_mean_response_minus_fm50",
+      "committed": [
+        -0.01574266826593155,
+        0.09295619647696439
+      ],
+      "recomputed": [
+        -0.015477119696573484,
+        0.09402525674398696
+      ],
+      "max_abs_diff": 0.0010690602670225674
+    },
+    {
+      "split": "drug_split_2",
+      "contrast": "secondary_en_control_paste_minus_fm50",
+      "committed": [
+        -0.025099284281403948,
+        0.09861157551804674
+      ],
+      "recomputed": [
+        -0.025769090086279072,
+        0.10089143387066983
+      ],
+      "max_abs_diff": 0.002279858352623093
+    }
+  ],
+  "interval": "97.5% percentile per split, structure-clustered, fresh RandomState(0) per set, for the full, retained and excluded sets alike",
+  "gates": "gate 1: committed thesis metrics and contrast points reproduced to 1e-09",
+  "seconds": 10.7
+}

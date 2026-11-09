@@ -1,0 +1,16 @@
+[guards] pre-registration, scripts and records committed and clean; commit e42c8c3
+[comparator] the rewired model on sci-Plex is Step 14's pre-registered comparator: fm_50
+[drug_split_1] 443 conditions, 37 structures; full-set gene identity: ridge_S7 0.5544  ridge_train 0.5644  control_paste nan  mean_response 0.5440  adaln_ddim_1000 0.5548  fm_20 0.5858  fm_50 0.6100  guidance_w2 0.6172  attn_cross 0.6157  mlp_ctrl 0.6125  s9_pathway 0.5858  s9_both 0.5890  s10_chemvae 0.5794  s10_fp_chemvae 0.5820  base 0.5080
+[gate 1] drug_split_1: 63 committed values reproduced to 1e-09 (thesis metrics of 15 submissions and the committed contrast points)
+[drug_split_1] excluding 0 compound(s) = 0 conditions (0.0 %), 443 retained - none listed: this split is free of the route by construction
+[drug_split_0] 444 conditions, 37 structures; full-set gene identity: ridge_S7 0.5684  ridge_train 0.5369  control_paste nan  mean_response 0.5538  adaln_ddim_1000 0.5585  fm_20 0.5906  fm_50 0.6124  guidance_w2 0.6275  attn_cross 0.6110  mlp_ctrl 0.6123  base 0.5047
+[gate 1] drug_split_0: 47 committed values reproduced to 1e-09 (thesis metrics of 11 submissions and the committed contrast points)
+[drug_split_0] excluding 1 compound(s) = 12 conditions (2.7 %), 432 retained - matched by exact SMILES
+[drug_split_2] 455 conditions, 38 structures; full-set gene identity: ridge_S7 0.5535  ridge_train 0.5473  control_paste nan  mean_response 0.5325  adaln_ddim_1000 0.5579  fm_20 0.5859  fm_50 0.6106  guidance_w2 0.6222  attn_cross 0.6116  mlp_ctrl 0.6135  base 0.4908
+[gate 1] drug_split_2: 47 committed values reproduced to 1e-09 (thesis metrics of 11 submissions and the committed contrast points)
+[drug_split_2] excluding 1 compound(s) = 12 conditions (2.6 %), 443 retained - matched by exact SMILES
+[verdict K] K3 A CONCLUSION CHANGES - 1 interval crossings, 0 contrast sign reversals, 0 values moved by more than half the published interval
+[verdict L] drug_split_0 gene identity fm_50: excluded minus retained -0.0056 (12 excluded conditions)
+[verdict L] drug_split_2 gene identity fm_50: excluded minus retained +0.0401 (12 excluded conditions)
+[interval replay] committed vs recomputed full-set contrast intervals: largest difference 0.00239 over 21 contrasts (descriptive; amendment 16b)
+[written] leakage_results/step28_sciplex.json, leakage_results/step28_sciplex_per_quantity.csv  (10.7 s)

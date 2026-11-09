@@ -38,6 +38,7 @@ RES = 'leakage_results'
 DATA = os.environ.get('S14_DATA', '/scratch/ni2071/Diffusion/sciplex/datasets_corrected')
 PRE = 'PREREG_step14_shift_baselines_vcc_scoring.md'
 OUT, OUT_CSV = os.path.join(RES, 'step14_analysis.json'), os.path.join(RES, 'step14_long.csv')
+OUT_PC = os.path.join(RES, 'step14_per_condition.csv')   # Step 28: per-condition thesis metrics (additive)
 SPLITS = {'drug_split_1': 37, 'drug_split_0': 37, 'drug_split_2': 38}          # held-out compounds per split
 N_SEEDS, K, N_BOOT, ALPHA = 5, 50, 5000, 1.0
 LO, HI = 1.25, 98.75                                                          # 97.5% per split
@@ -171,7 +172,7 @@ def contrast(x_b, x_a, drugs, n_drugs):
     return dict(diff=m, ci=[lo, hi], verdict=verdict(lo, hi), half_width=float((hi - lo) / 2))
 
 # ------------------------------------------------------------------ per split
-results, inputs, gate, rows = {}, {}, {}, []
+results, inputs, gate, rows, pc_rows = {}, {}, {}, [], []    # pc_rows: Step 28 per-condition record
 for split, n_drugs in SPLITS.items():
     print('\n' + '#' * 72 + '\n# %s\n' % split + '#' * 72)
     R, extras, base = registry(split)
@@ -367,6 +368,17 @@ for split, n_drugs in SPLITS.items():
 
     # --- the pre-registered contrasts (thesis metrics), seed-mean per condition for arms
     cm = lambda name, k: np.nanmean(np.vstack([x[k] for x in subs[name]]), axis=0)
+    # Step 28 (salt-twin sensitivity): record each submission's seed-averaged thesis metrics per condition,
+    # with the condition's cell line and structure (SMILES), so sci-Plex gene identity can be re-aggregated
+    # with the parent-twin compounds removed. This only appends to pc_rows; nothing above is altered, and the
+    # gate after re-running is that step14_long.csv stays byte-identical.
+    for _nm in subs:
+        _j, _e, _d = cm(_nm, 'jac'), cm(_nm, 'en'), cm(_nm, 'dpc')
+        for _i in range(n):
+            pc_rows.append(dict(split=split, condition=str(cond[_i]), line=lines[_i], structure=drugs[_i],
+                                submission=_nm, de_overlap=float(_j[_i]),
+                                energy=float(_e[_i]) if np.isfinite(_e[_i]) else None,
+                                dpc50=float(_d[_i])))
     res = dict(gate=gate[split], ridge_S7_dpc_median=float(np.nanmedian(d7)), step7_record=rec_med, contrasts={}, facets=facets_out, replicate=replicate,
                thesis_metrics={name: dict(de_overlap=float(np.nanmean(cm(name, 'jac'))), energy=float(np.nanmean(cm(name, 'en'))) if np.isfinite(cm(name, 'en')).any() else None,
                                           dpc_mean=float(np.nanmean(cm(name, 'dpc'))), dpc_median=float(np.nanmedian(cm(name, 'dpc')))) for name in subs})
@@ -402,6 +414,7 @@ else: cat = 'PARTIAL'
 print('\n' + '=' * 72 + '\nPRE-REGISTERED VERDICT: %s\n  primary (DE-overlap) per split: %s\n  co-primary (energy) per split: %s\n' % (cat, dict(zip(SPLITS, de_v)), dict(zip(SPLITS, en_v))) +
       '  Section 7 expected TRADE: ridge shift above on DE-overlap (splits 0 and 1), worse on energy on all three.\n' + '=' * 72)
 pd.DataFrame(rows).to_csv(OUT_CSV, index=False)
+pd.DataFrame(pc_rows).to_csv(OUT_PC, index=False)   # Step 28 per-condition record
 json.dump(dict(prereg=PRE, verdict=cat, interval='97.5% percentile per split, drug-clustered', n_boot=N_BOOT, min_cells=MIN_CELLS, cap=CAP, n_replicate_splits=N_REP,
                comparator=COMPARATOR, per_split=results, inputs=inputs, metrics_module_sha256=sha('step14_metrics.py'),
                commit=subprocess.run('git rev-parse HEAD', shell=True, capture_output=True, text=True).stdout.strip(), seconds=round(time.time() - T0)),

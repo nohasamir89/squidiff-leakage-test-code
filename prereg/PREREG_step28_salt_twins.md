@@ -268,3 +268,44 @@ structure supplied under two salt names is matched in full. It still stops, nami
 no form covers all of them. This selects the join; it does not change which structures are excluded (section 3's
 list is unchanged). Gate 1 had already reproduced all 1,125 published values including the split-level headline
 rows at this commit, so the aggregation is unaffected.
+
+## 15. Amendment, 2026-11-09 (before the sci-Plex group-B re-aggregation was run)
+
+Group B of section 4 (sci-Plex gene identity) needs per-condition values, which score_step14.py did not record.
+score_step14.py gains an additive per-condition output, step14_per_condition.csv (patch_step14_add_percond.py: one
+path constant, one accumulator, one loop after the per-split `cm` definition recording each submission's
+seed-averaged DE-overlap, energy and DPC-50 with the condition's line and structure, and one final write). Nothing
+it previously computed or wrote is altered. It is re-run once (run_step14_rescore.sh). Gate: step14_long.csv must
+be byte-identical to its committed version (md5 b1c91104436333d6d5c5cf9425a7935a); step14_analysis.json differs
+only in its commit field and is restored from git rather than re-committed. Because score_step14.py refuses to
+overwrite its outputs, the two committed outputs are moved aside before the run. Group B is then a re-aggregation of
+step14_per_condition.csv under section 3's rule, gated by the per-condition means reproducing the committed
+split-level thesis metrics of step14_analysis.json to 1e-9 before any compound is removed. Each affected split must
+lose exactly 12 conditions (one compound across 3 lines x 4 doses), or the step stops.
+
+## 16. Amendment, 2026-11-09 - (a) after re-run 19288685; (b) before the sci-Plex group-B re-aggregation was run
+
+(a) Written after the run. The re-run of score_step14.py failed amendment 15's gate as written: step14_long.csv was
+not byte-identical to its committed version (md5 8f50261051a46251a9b3f5053422f106 against
+b1c91104436333d6d5c5cf9425a7935a). A value-by-value comparison found the same 1,386 rows in the same order with the
+same missing values, a largest absolute difference of 4.6e-13 and none above 1e-12, all in the ridge-baseline rows,
+where linear systems are solved with multi-threaded routines; the committed thesis metrics in step14_analysis.json
+agreed to 2.7e-13. The committed results were written at 1ef3c07, after the last change to score_step14.py and
+step14_metrics.py; the two package files changed since (Squidiff/scrna_datasets.py, Squidiff/train_util.py) do not
+touch these values, as their agreement to 1e-13 shows. Byte identity was the wrong gate for a threaded numerical
+calculation. The gate is restated as numeric agreement to 1e-9, the tolerance gate 1 uses throughout this
+pre-registration, which the re-run meets with a margin of more than three orders of magnitude. The committed
+step14_long.csv and step14_analysis.json are restored from git and remain the record; only step14_per_condition.csv
+is added.
+
+(b) Written before running group B. Group B is scored by score_step28_sciplex.py. The excluded compound of each split
+is read from the committed overlap record, which must list none on split 1 and one on each of splits 0 and 2; each
+must match the per-condition structure column exactly or by RDKit canonical SMILES and select exactly 12 conditions,
+or the step stops. The rewired model is Step 14's pre-registered comparator, read from step14_analysis.json. Gate 1:
+per-condition means reproduce every committed thesis metric (DE-overlap, energy, DPC-50 mean and median) and every
+committed contrast point to 1e-9. Intervals for the full, retained and excluded sets are all drawn by
+score_step23_screen.Boot from a fresh RandomState(0) per set, so their comparison is internally consistent;
+score_step14's own bootstrap cannot be called without re-executing that script, so its committed contrast intervals
+are compared with the recomputed full-set intervals descriptively, not as a gate. No separate synthetic test is run:
+the script reuses the summarise and paired arithmetic of score_step28_salt_twins.py, which gen28 exercised (8 of 8),
+and its new parts - the exclusion match and the verdicts - are guarded by the exact-count and reproduction gates.

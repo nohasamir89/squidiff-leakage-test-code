@@ -322,3 +322,14 @@ leakage_results/split_parent_overlap.json
 tahoe_results/step28_salt_twins.json
 tahoe_results/step28_salt_twins_per_quantity.csv
 tahoe_results/step28_salt_twins_summary.csv
+score_step28_sciplex.py
+diag_step28_sciplex_rank.py
+patch_step14_add_percond.py
+run_step28_sciplex.sh
+run_step14_rescore.sh
+leakage_results/step14_per_condition.csv
+leakage_results/step28_sciplex.json
+leakage_results/step28_sciplex_per_quantity.csv
+leakage_results/step28_sciplex_posthoc_rank.json
+tahoe_results/step28_logs/s28sciplex_19289646.log
+step14_findings.md
