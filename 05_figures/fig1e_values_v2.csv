@@ -1,0 +1,25 @@
+"panel","n_genes","cell_type","compound","r"
+"Prediction of held-out compounds",200,"Tumour cells","panobinostat",0.831
+"Prediction of held-out compounds",200,"Tumour cells","RO4929097",0.89
+"Prediction of held-out compounds",200,"Tumour cells","tazemetostat",0.795
+"Prediction of held-out compounds",200,"Tumour cells","ispinesib",0.857
+"Prediction of held-out compounds",200,"Tumour cells","ANA-12",0.846
+"Prediction of held-out compounds",200,"Oligodendrocytes","panobinostat",0.858
+"Prediction of held-out compounds",200,"Oligodendrocytes","RO4929097",0.96
+"Prediction of held-out compounds",200,"Oligodendrocytes","tazemetostat",0.937
+"Prediction of held-out compounds",200,"Oligodendrocytes","ispinesib",0.94
+"Prediction of held-out compounds",200,"Oligodendrocytes","ANA-12",0.954
+"Vehicle reconstruction",200,"Tumour cells","vehicle reconstruction",0.99
+"Vehicle reconstruction",200,"Oligodendrocytes","vehicle reconstruction",0.996
+"Prediction of held-out compounds",2000,"Tumour cells","panobinostat",0.414
+"Prediction of held-out compounds",2000,"Tumour cells","RO4929097",0.364
+"Prediction of held-out compounds",2000,"Tumour cells","tazemetostat",0.35
+"Prediction of held-out compounds",2000,"Tumour cells","ispinesib",0.397
+"Prediction of held-out compounds",2000,"Tumour cells","ANA-12",0.409
+"Prediction of held-out compounds",2000,"Oligodendrocytes","panobinostat",0.434
+"Prediction of held-out compounds",2000,"Oligodendrocytes","RO4929097",0.445
+"Prediction of held-out compounds",2000,"Oligodendrocytes","tazemetostat",0.446
+"Prediction of held-out compounds",2000,"Oligodendrocytes","ispinesib",0.465
+"Prediction of held-out compounds",2000,"Oligodendrocytes","ANA-12",0.469
+"Vehicle reconstruction",2000,"Tumour cells","vehicle reconstruction",0.433
+"Vehicle reconstruction",2000,"Oligodendrocytes","vehicle reconstruction",0.514
