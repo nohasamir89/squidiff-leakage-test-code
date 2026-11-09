@@ -1,0 +1,292 @@
+part,row,column,split,value,lo,hi,excludes_zero,source_record,source_key
+a,Rewired model,S-orig cross-plate,drug_split_1,0.7223364678478754,,,,step26_source_summary.csv,recipe
+a,Rewired model,S-orig cross-plate,drug_split_0,0.7181058161983257,,,,step26_source_summary.csv,recipe
+a,Rewired model,S-orig cross-plate,drug_split_2,0.7142028455365138,,,,step26_source_summary.csv,recipe
+a,Rewired model,S-split cross-plate,drug_split_1,0.7181178686052864,,,,step26_source_summary.csv,recipe
+a,Rewired model,S-split cross-plate,drug_split_0,0.7132277256561647,,,,step26_source_summary.csv,recipe
+a,Rewired model,S-split cross-plate,drug_split_2,0.7105937447838072,,,,step26_source_summary.csv,recipe
+a,Rewired model,S-split within plate,drug_split_1,0.5029554398000324,,,,step27_within_plate_summary.csv,recipe
+a,Rewired model,S-split within plate,drug_split_0,0.517222919240491,,,,step27_within_plate_summary.csv,recipe
+a,Rewired model,S-split within plate,drug_split_2,0.5264444117799802,,,,step27_within_plate_summary.csv,recipe
+a,Rewired model,plate-offset cosine S-split,drug_split_1,0.6276774834407004,,,,step27_within_plate_summary.csv,recipe
+a,Rewired model,plate-offset cosine S-split,drug_split_0,0.635248316436498,,,,step27_within_plate_summary.csv,recipe
+a,Rewired model,plate-offset cosine S-split,drug_split_2,0.6234613578904082,,,,step27_within_plate_summary.csv,recipe
+a,"Rewired model, fingerprint of another held-out compound",S-orig cross-plate,drug_split_1,0.7160129511744452,,,,step26_source_summary.csv,recipe_fpshuf
+a,"Rewired model, fingerprint of another held-out compound",S-orig cross-plate,drug_split_0,0.701175263850743,,,,step26_source_summary.csv,recipe_fpshuf
+a,"Rewired model, fingerprint of another held-out compound",S-orig cross-plate,drug_split_2,0.6906649648650901,,,,step26_source_summary.csv,recipe_fpshuf
+a,"Rewired model, fingerprint of another held-out compound",S-split cross-plate,drug_split_1,0.712283363699578,,,,step26_source_summary.csv,recipe_fpshuf
+a,"Rewired model, fingerprint of another held-out compound",S-split cross-plate,drug_split_0,0.6967935220932399,,,,step26_source_summary.csv,recipe_fpshuf
+a,"Rewired model, fingerprint of another held-out compound",S-split cross-plate,drug_split_2,0.6867689534130579,,,,step26_source_summary.csv,recipe_fpshuf
+a,"Rewired model, fingerprint of another held-out compound",S-split within plate,drug_split_1,0.4885989711250879,,,,step27_within_plate_summary.csv,recipe_fpshuf
+a,"Rewired model, fingerprint of another held-out compound",S-split within plate,drug_split_0,0.4906204214433087,,,,step27_within_plate_summary.csv,recipe_fpshuf
+a,"Rewired model, fingerprint of another held-out compound",S-split within plate,drug_split_2,0.4859156962802132,,,,step27_within_plate_summary.csv,recipe_fpshuf
+a,"Rewired model, fingerprint of another held-out compound",plate-offset cosine S-split,drug_split_1,0.6140734778181455,,,,step27_within_plate_summary.csv,recipe_fpshuf
+a,"Rewired model, fingerprint of another held-out compound",plate-offset cosine S-split,drug_split_0,0.6363885274643085,,,,step27_within_plate_summary.csv,recipe_fpshuf
+a,"Rewired model, fingerprint of another held-out compound",plate-offset cosine S-split,drug_split_2,0.6074280143240507,,,,step27_within_plate_summary.csv,recipe_fpshuf
+a,"Rewired model, no fingerprint",S-orig cross-plate,drug_split_1,0.7359839765994652,,,,step26_source_summary.csv,recipe_fpzero
+a,"Rewired model, no fingerprint",S-orig cross-plate,drug_split_0,0.7179864391414531,,,,step26_source_summary.csv,recipe_fpzero
+a,"Rewired model, no fingerprint",S-orig cross-plate,drug_split_2,0.7144473036511584,,,,step26_source_summary.csv,recipe_fpzero
+a,"Rewired model, no fingerprint",S-split cross-plate,drug_split_1,0.7315988036243494,,,,step26_source_summary.csv,recipe_fpzero
+a,"Rewired model, no fingerprint",S-split cross-plate,drug_split_0,0.7132054620056426,,,,step26_source_summary.csv,recipe_fpzero
+a,"Rewired model, no fingerprint",S-split cross-plate,drug_split_2,0.7107990987281263,,,,step26_source_summary.csv,recipe_fpzero
+a,"Rewired model, no fingerprint",S-split within plate,drug_split_1,0.49690696939080176,,,,step27_within_plate_summary.csv,recipe_fpzero
+a,"Rewired model, no fingerprint",S-split within plate,drug_split_0,0.4983399640043212,,,,step27_within_plate_summary.csv,recipe_fpzero
+a,"Rewired model, no fingerprint",S-split within plate,drug_split_2,0.49719606718192016,,,,step27_within_plate_summary.csv,recipe_fpzero
+a,"Rewired model, no fingerprint",plate-offset cosine S-split,drug_split_1,0.7224106784633383,,,,step27_within_plate_summary.csv,recipe_fpzero
+a,"Rewired model, no fingerprint",plate-offset cosine S-split,drug_split_0,0.7122000812113435,,,,step27_within_plate_summary.csv,recipe_fpzero
+a,"Rewired model, no fingerprint",plate-offset cosine S-split,drug_split_2,0.7006031478485656,,,,step27_within_plate_summary.csv,recipe_fpzero
+a,"Rewired model, encoder given the measured treated cells",S-orig cross-plate,drug_split_1,0.7368312222284703,,,,step26_source_summary.csv,recon_recipe
+a,"Rewired model, encoder given the measured treated cells",S-orig cross-plate,drug_split_0,0.7303665116163786,,,,step26_source_summary.csv,recon_recipe
+a,"Rewired model, encoder given the measured treated cells",S-orig cross-plate,drug_split_2,0.7261968293267168,,,,step26_source_summary.csv,recon_recipe
+a,"Rewired model, encoder given the measured treated cells",S-split cross-plate,drug_split_1,0.7328542294789546,,,,step26_source_summary.csv,recon_recipe
+a,"Rewired model, encoder given the measured treated cells",S-split cross-plate,drug_split_0,0.7255071280633175,,,,step26_source_summary.csv,recon_recipe
+a,"Rewired model, encoder given the measured treated cells",S-split cross-plate,drug_split_2,0.7224784535508819,,,,step26_source_summary.csv,recon_recipe
+a,"Rewired model, encoder given the measured treated cells",S-split within plate,drug_split_1,0.5245194344102413,,,,step27_within_plate_summary.csv,recon_recipe
+a,"Rewired model, encoder given the measured treated cells",S-split within plate,drug_split_0,0.5314254871972324,,,,step27_within_plate_summary.csv,recon_recipe
+a,"Rewired model, encoder given the measured treated cells",S-split within plate,drug_split_2,0.5384463088418557,,,,step27_within_plate_summary.csv,recon_recipe
+a,"Rewired model, encoder given the measured treated cells",plate-offset cosine S-split,drug_split_1,0.6261254782762012,,,,step27_within_plate_summary.csv,recon_recipe
+a,"Rewired model, encoder given the measured treated cells",plate-offset cosine S-split,drug_split_0,0.6336185077895015,,,,step27_within_plate_summary.csv,recon_recipe
+a,"Rewired model, encoder given the measured treated cells",plate-offset cosine S-split,drug_split_2,0.6198251158820702,,,,step27_within_plate_summary.csv,recon_recipe
+a,Original model,S-orig cross-plate,drug_split_1,0.6414956399769745,,,,step26_source_summary.csv,base
+a,Original model,S-orig cross-plate,drug_split_0,0.6444058142669347,,,,step26_source_summary.csv,base
+a,Original model,S-orig cross-plate,drug_split_2,0.6548780468638117,,,,step26_source_summary.csv,base
+a,Original model,S-split cross-plate,drug_split_1,0.6391991654869091,,,,step26_source_summary.csv,base
+a,Original model,S-split cross-plate,drug_split_0,0.6418808240558301,,,,step26_source_summary.csv,base
+a,Original model,S-split cross-plate,drug_split_2,0.6527984835614778,,,,step26_source_summary.csv,base
+a,Original model,S-split within plate,drug_split_1,0.4933815714551463,,,,step27_within_plate_summary.csv,base
+a,Original model,S-split within plate,drug_split_0,0.5078374107932406,,,,step27_within_plate_summary.csv,base
+a,Original model,S-split within plate,drug_split_2,0.5199789596553128,,,,step27_within_plate_summary.csv,base
+a,Original model,plate-offset cosine S-split,drug_split_1,0.2507526092990015,,,,step27_within_plate_summary.csv,base
+a,Original model,plate-offset cosine S-split,drug_split_0,0.25887193163957567,,,,step27_within_plate_summary.csv,base
+a,Original model,plate-offset cosine S-split,drug_split_2,0.26362497490584147,,,,step27_within_plate_summary.csv,base
+a,"Original model, fingerprint of another held-out compound",S-orig cross-plate,drug_split_1,0.6426296463757856,,,,step26_source_summary.csv,base_fpshuf
+a,"Original model, fingerprint of another held-out compound",S-orig cross-plate,drug_split_0,0.6360169777230359,,,,step26_source_summary.csv,base_fpshuf
+a,"Original model, fingerprint of another held-out compound",S-orig cross-plate,drug_split_2,0.6441328734989418,,,,step26_source_summary.csv,base_fpshuf
+a,"Original model, fingerprint of another held-out compound",S-split cross-plate,drug_split_1,0.6402445055581434,,,,step26_source_summary.csv,base_fpshuf
+a,"Original model, fingerprint of another held-out compound",S-split cross-plate,drug_split_0,0.6337866239321949,,,,step26_source_summary.csv,base_fpshuf
+a,"Original model, fingerprint of another held-out compound",S-split cross-plate,drug_split_2,0.6420581048864885,,,,step26_source_summary.csv,base_fpshuf
+a,"Original model, fingerprint of another held-out compound",S-split within plate,drug_split_1,0.49606044034086016,,,,step27_within_plate_summary.csv,base_fpshuf
+a,"Original model, fingerprint of another held-out compound",S-split within plate,drug_split_0,0.5007064272782735,,,,step27_within_plate_summary.csv,base_fpshuf
+a,"Original model, fingerprint of another held-out compound",S-split within plate,drug_split_2,0.4994036612343492,,,,step27_within_plate_summary.csv,base_fpshuf
+a,"Original model, fingerprint of another held-out compound",plate-offset cosine S-split,drug_split_1,0.24877652486850957,,,,step27_within_plate_summary.csv,base_fpshuf
+a,"Original model, fingerprint of another held-out compound",plate-offset cosine S-split,drug_split_0,0.2588489137836088,,,,step27_within_plate_summary.csv,base_fpshuf
+a,"Original model, fingerprint of another held-out compound",plate-offset cosine S-split,drug_split_2,0.26165935964704057,,,,step27_within_plate_summary.csv,base_fpshuf
+a,"Original model, no fingerprint",S-orig cross-plate,drug_split_1,0.6430640023754125,,,,step26_source_summary.csv,base_fpzero
+a,"Original model, no fingerprint",S-orig cross-plate,drug_split_0,0.6366478407514049,,,,step26_source_summary.csv,base_fpzero
+a,"Original model, no fingerprint",S-orig cross-plate,drug_split_2,0.6459792640783967,,,,step26_source_summary.csv,base_fpzero
+a,"Original model, no fingerprint",S-split cross-plate,drug_split_1,0.6407640934459633,,,,step26_source_summary.csv,base_fpzero
+a,"Original model, no fingerprint",S-split cross-plate,drug_split_0,0.6342335871598391,,,,step26_source_summary.csv,base_fpzero
+a,"Original model, no fingerprint",S-split cross-plate,drug_split_2,0.6436928192222635,,,,step26_source_summary.csv,base_fpzero
+a,"Original model, no fingerprint",S-split within plate,drug_split_1,0.49699439426431763,,,,step27_within_plate_summary.csv,base_fpzero
+a,"Original model, no fingerprint",S-split within plate,drug_split_0,0.49858204839902687,,,,step27_within_plate_summary.csv,base_fpzero
+a,"Original model, no fingerprint",S-split within plate,drug_split_2,0.5022476842968818,,,,step27_within_plate_summary.csv,base_fpzero
+a,"Original model, no fingerprint",plate-offset cosine S-split,drug_split_1,0.24579489820644335,,,,step27_within_plate_summary.csv,base_fpzero
+a,"Original model, no fingerprint",plate-offset cosine S-split,drug_split_0,0.2610427476266556,,,,step27_within_plate_summary.csv,base_fpzero
+a,"Original model, no fingerprint",plate-offset cosine S-split,drug_split_2,0.2613473912211254,,,,step27_within_plate_summary.csv,base_fpzero
+a,"Original model, encoder given the measured treated cells",S-orig cross-plate,drug_split_1,0.6564480487367573,,,,step26_source_summary.csv,recon_base
+a,"Original model, encoder given the measured treated cells",S-orig cross-plate,drug_split_0,0.6591426135184573,,,,step26_source_summary.csv,recon_base
+a,"Original model, encoder given the measured treated cells",S-orig cross-plate,drug_split_2,0.6687688002265973,,,,step26_source_summary.csv,recon_base
+a,"Original model, encoder given the measured treated cells",S-split cross-plate,drug_split_1,0.6539903685070411,,,,step26_source_summary.csv,recon_base
+a,"Original model, encoder given the measured treated cells",S-split cross-plate,drug_split_0,0.6567397531157887,,,,step26_source_summary.csv,recon_base
+a,"Original model, encoder given the measured treated cells",S-split cross-plate,drug_split_2,0.6664494555651681,,,,step26_source_summary.csv,recon_base
+a,"Original model, encoder given the measured treated cells",S-split within plate,drug_split_1,0.5049166928576937,,,,step27_within_plate_summary.csv,recon_base
+a,"Original model, encoder given the measured treated cells",S-split within plate,drug_split_0,0.5210224607652798,,,,step27_within_plate_summary.csv,recon_base
+a,"Original model, encoder given the measured treated cells",S-split within plate,drug_split_2,0.5295477035101942,,,,step27_within_plate_summary.csv,recon_base
+a,"Original model, encoder given the measured treated cells",plate-offset cosine S-split,drug_split_1,0.25973024338953976,,,,step27_within_plate_summary.csv,recon_base
+a,"Original model, encoder given the measured treated cells",plate-offset cosine S-split,drug_split_0,0.26737264195583255,,,,step27_within_plate_summary.csv,recon_base
+a,"Original model, encoder given the measured treated cells",plate-offset cosine S-split,drug_split_2,0.27062695525535174,,,,step27_within_plate_summary.csv,recon_base
+a,Rewired model with classifier-free guidance (weight 2),S-orig cross-plate,drug_split_1,0.6859105853256724,,,,step15c_pds_per_condition.csv,guidance_w2
+a,Rewired model with classifier-free guidance (weight 2),S-orig cross-plate,drug_split_0,0.7139254850500946,,,,step15c_pds_per_condition.csv,guidance_w2
+a,Rewired model with classifier-free guidance (weight 2),S-orig cross-plate,drug_split_2,0.6938882099112553,,,,step15c_pds_per_condition.csv,guidance_w2
+a,Rewired model with cross-attention,S-orig cross-plate,drug_split_1,0.7260076177384677,,,,step15c_pds_per_condition.csv,attn_cross
+a,Rewired model with cross-attention,S-orig cross-plate,drug_split_0,0.7225834485376559,,,,step15c_pds_per_condition.csv,attn_cross
+a,Rewired model with cross-attention,S-orig cross-plate,drug_split_2,0.7200741499034952,,,,step15c_pds_per_condition.csv,attn_cross
+a,"Rewired model, parameter-matched control without attention",S-orig cross-plate,drug_split_1,0.7274821067723425,,,,step15c_pds_per_condition.csv,mlp_ctrl
+a,"Rewired model, parameter-matched control without attention",S-orig cross-plate,drug_split_0,0.7177325756979326,,,,step15c_pds_per_condition.csv,mlp_ctrl
+a,"Rewired model, parameter-matched control without attention",S-orig cross-plate,drug_split_2,0.7109194575304215,,,,step15c_pds_per_condition.csv,mlp_ctrl
+a,Training-set ridge,S-orig cross-plate,drug_split_1,0.5164397130818794,,,,step15c_pds_per_condition.csv,ridge_train
+a,Training-set ridge,S-orig cross-plate,drug_split_0,0.5400196072806953,,,,step15c_pds_per_condition.csv,ridge_train
+a,Training-set ridge,S-orig cross-plate,drug_split_2,0.5258196613188065,,,,step15c_pds_per_condition.csv,ridge_train
+a,Cross-validated ridge,S-orig cross-plate,drug_split_1,0.5039050471973654,,,,step15c_pds_per_condition.csv,ridge_S7
+a,Cross-validated ridge,S-orig cross-plate,drug_split_0,0.4915088748275747,,,,step15c_pds_per_condition.csv,ridge_S7
+a,Cross-validated ridge,S-orig cross-plate,drug_split_2,0.48593492794492577,,,,step15c_pds_per_condition.csv,ridge_S7
+a,Compound-blind average,S-orig cross-plate,drug_split_1,0.5001709265382367,,,,step15c_pds_per_condition.csv,mean_response
+a,Compound-blind average,S-orig cross-plate,drug_split_0,0.5000113778724126,,,,step15c_pds_per_condition.csv,mean_response
+a,Compound-blind average,S-orig cross-plate,drug_split_2,0.5003342597874331,,,,step15c_pds_per_condition.csv,mean_response
+a,Cell-line vehicle average (no model),S-orig cross-plate,drug_split_1,0.7512626833273329,,,,step26_source_summary.csv,ctrl_line
+a,Cell-line vehicle average (no model),S-orig cross-plate,drug_split_0,0.7334721509768047,,,,step26_source_summary.csv,ctrl_line
+a,Cell-line vehicle average (no model),S-orig cross-plate,drug_split_2,0.7320885075584775,,,,step26_source_summary.csv,ctrl_line
+a,Cell-line vehicle average (no model),S-split cross-plate,drug_split_1,0.7474815924689258,,,,step26_source_summary.csv,ctrl_line
+a,Cell-line vehicle average (no model),S-split cross-plate,drug_split_0,0.7283992683134638,,,,step26_source_summary.csv,ctrl_line
+a,Cell-line vehicle average (no model),S-split cross-plate,drug_split_2,0.729213017059072,,,,step26_source_summary.csv,ctrl_line
+a,Cell-line vehicle average (no model),S-split within plate,drug_split_1,0.5,,,,step27_within_plate_summary.csv,ctrl_line
+a,Cell-line vehicle average (no model),S-split within plate,drug_split_0,0.5,,,,step27_within_plate_summary.csv,ctrl_line
+a,Cell-line vehicle average (no model),S-split within plate,drug_split_2,0.4998683517640864,,,,step27_within_plate_summary.csv,ctrl_line
+a,Cell-line vehicle average (no model),plate-offset cosine S-split,drug_split_1,0.9816504635623947,,,,step27_within_plate_summary.csv,ctrl_line
+a,Cell-line vehicle average (no model),plate-offset cosine S-split,drug_split_0,0.9829774938914594,,,,step27_within_plate_summary.csv,ctrl_line
+a,Cell-line vehicle average (no model),plate-offset cosine S-split,drug_split_2,0.980684451246328,,,,step27_within_plate_summary.csv,ctrl_line
+a,Resample of the condition's vehicle pool (no model),S-orig cross-plate,drug_split_1,0.49922836340636606,,,,step26_source_summary.csv,ctrl_sample
+a,Resample of the condition's vehicle pool (no model),S-orig cross-plate,drug_split_0,0.5022965112711,,,,step26_source_summary.csv,ctrl_sample
+a,Resample of the condition's vehicle pool (no model),S-orig cross-plate,drug_split_2,0.494657537111667,,,,step26_source_summary.csv,ctrl_sample
+a,Resample of the condition's vehicle pool (no model),S-split cross-plate,drug_split_1,0.484702778555869,,,,step26_source_summary.csv,ctrl_sample
+a,Resample of the condition's vehicle pool (no model),S-split cross-plate,drug_split_0,0.482873363516935,,,,step26_source_summary.csv,ctrl_sample
+a,Resample of the condition's vehicle pool (no model),S-split cross-plate,drug_split_2,0.478533734255127,,,,step26_source_summary.csv,ctrl_sample
+a,Resample of the condition's vehicle pool (no model),S-split within plate,drug_split_1,0.502372806942999,,,,step27_within_plate_summary.csv,ctrl_sample
+a,Resample of the condition's vehicle pool (no model),S-split within plate,drug_split_0,0.5048912172239906,,,,step27_within_plate_summary.csv,ctrl_sample
+a,Resample of the condition's vehicle pool (no model),S-split within plate,drug_split_2,0.49376794626219633,,,,step27_within_plate_summary.csv,ctrl_sample
+a,Resample of the condition's vehicle pool (no model),plate-offset cosine S-split,drug_split_1,-0.020850669057659744,,,,step27_within_plate_summary.csv,ctrl_sample
+a,Resample of the condition's vehicle pool (no model),plate-offset cosine S-split,drug_split_0,-0.006670568791901968,,,,step27_within_plate_summary.csv,ctrl_sample
+a,Resample of the condition's vehicle pool (no model),plate-offset cosine S-split,drug_split_2,-0.01663989069738501,,,,step27_within_plate_summary.csv,ctrl_sample
+a,Second draw of the measured cells (ceiling),S-orig cross-plate,drug_split_1,0.9531436136310385,,,,step26_source_summary.csv,duplicate
+a,Second draw of the measured cells (ceiling),S-orig cross-plate,drug_split_0,0.9622080961343763,,,,step26_source_summary.csv,duplicate
+a,Second draw of the measured cells (ceiling),S-orig cross-plate,drug_split_2,0.9530046918021305,,,,step26_source_summary.csv,duplicate
+a,Second draw of the measured cells (ceiling),S-split cross-plate,drug_split_1,0.9512064921416218,,,,step26_source_summary.csv,duplicate
+a,Second draw of the measured cells (ceiling),S-split cross-plate,drug_split_0,0.9600047605548647,,,,step26_source_summary.csv,duplicate
+a,Second draw of the measured cells (ceiling),S-split cross-plate,drug_split_2,0.9499791184844004,,,,step26_source_summary.csv,duplicate
+a,Second draw of the measured cells (ceiling),S-split within plate,drug_split_1,0.8836289237796551,,,,step27_within_plate_summary.csv,duplicate
+a,Second draw of the measured cells (ceiling),S-split within plate,drug_split_0,0.9095288279105305,,,,step27_within_plate_summary.csv,duplicate
+a,Second draw of the measured cells (ceiling),S-split within plate,drug_split_2,0.8910619208474311,,,,step27_within_plate_summary.csv,duplicate
+a,Second draw of the measured cells (ceiling),plate-offset cosine S-split,drug_split_1,0.3133575881740631,,,,step27_within_plate_summary.csv,duplicate
+a,Second draw of the measured cells (ceiling),plate-offset cosine S-split,drug_split_0,0.2771400247160476,,,,step27_within_plate_summary.csv,duplicate
+a,Second draw of the measured cells (ceiling),plate-offset cosine S-split,drug_split_2,0.29437523089984363,,,,step27_within_plate_summary.csv,duplicate
+a,Measured change of the real treated cells,plate-offset cosine S-split,drug_split_1,0.36417434871626286,,,,step27_within_plate_summary.csv,true
+a,Measured change of the real treated cells,plate-offset cosine S-split,drug_split_0,0.3195288979165462,,,,step27_within_plate_summary.csv,true
+a,Measured change of the real treated cells,plate-offset cosine S-split,drug_split_2,0.3380516180661951,,,,step27_within_plate_summary.csv,true
+a,Vehicle resample from the measured-change half (null),plate-offset cosine S-split,drug_split_1,-0.002893017957105097,,,,step27_within_plate_summary.csv,ctrl_sample_h2
+a,Vehicle resample from the measured-change half (null),plate-offset cosine S-split,drug_split_0,0.0004749058607125918,,,,step27_within_plate_summary.csv,ctrl_sample_h2
+a,Vehicle resample from the measured-change half (null),plate-offset cosine S-split,drug_split_2,0.0018938595480996676,,,,step27_within_plate_summary.csv,ctrl_sample_h2
+b,Rewired model − 0.5,contrast,drug_split_1,0.2223364678478754,0.1882852898779534,0.2541092161666784,1,step15c_pds.json,Q1_primary_pds_recipe_minus_0.5
+b,Rewired model − 0.5,contrast,drug_split_0,0.21810581619832572,0.1782220528080611,0.2589901876847908,1,step15c_pds.json,Q1_primary_pds_recipe_minus_0.5
+b,Rewired model − 0.5,contrast,drug_split_2,0.21420284553651378,0.1826091058147884,0.24477122299706242,1,step15c_pds.json,Q1_primary_pds_recipe_minus_0.5
+b,Original model − 0.5,contrast,drug_split_1,0.14149563997697448,0.1035809856469893,0.18062798314033882,1,step15c_pds.json,secondary_pds_base_minus_0.5
+b,Original model − 0.5,contrast,drug_split_0,0.1444058142669347,0.10481499613915216,0.18449568795910865,1,step15c_pds.json,secondary_pds_base_minus_0.5
+b,Original model − 0.5,contrast,drug_split_2,0.15487804686381168,0.11016647814795885,0.197669099699299,1,step15c_pds.json,secondary_pds_base_minus_0.5
+b,Training-set ridge − 0.5,contrast,drug_split_1,0.016439713081878516,-0.03330937440270966,0.063592661884426,0,step15c_pds.json,secondary_pds_ridge_train_minus_0.5
+b,Training-set ridge − 0.5,contrast,drug_split_0,0.04001960728069477,-0.015318385375410963,0.09837493020536688,0,step15c_pds.json,secondary_pds_ridge_train_minus_0.5
+b,Training-set ridge − 0.5,contrast,drug_split_2,0.02581966131880697,-0.028442422985584682,0.07536574721036002,0,step15c_pds.json,secondary_pds_ridge_train_minus_0.5
+b,Cross-validated ridge − 0.5,contrast,drug_split_1,0.0039050471973641645,-0.05463584759213361,0.06248694960976403,0,step15c_pds.json,secondary_pds_ridge_S7_minus_0.5
+b,Cross-validated ridge − 0.5,contrast,drug_split_0,-0.008491125172424724,-0.057105634222372796,0.04363195265294001,0,step15c_pds.json,secondary_pds_ridge_S7_minus_0.5
+b,Cross-validated ridge − 0.5,contrast,drug_split_2,-0.014065072055074098,-0.07109761571631701,0.041959230272525204,0,step15c_pds.json,secondary_pds_ridge_S7_minus_0.5
+b,Compound-blind average − 0.5,contrast,drug_split_1,0.00017092653823494238,-0.061756572341757195,0.05986069441542458,0,step15c_pds.json,secondary_pds_mean_response_minus_0.5
+b,Compound-blind average − 0.5,contrast,drug_split_0,1.1377872412986245e-05,-0.05520232576552132,0.05722929731973416,0,step15c_pds.json,secondary_pds_mean_response_minus_0.5
+b,Compound-blind average − 0.5,contrast,drug_split_2,0.00033425978743348636,-0.06452016826248454,0.05926291117605035,0,step15c_pds.json,secondary_pds_mean_response_minus_0.5
+b,Rewired model − training-set ridge,contrast,drug_split_1,0.20589675476599686,0.151200643663251,0.2618134791197052,1,step15c_pds.json,Q2_coprimary_pds_recipe_minus_ridge_train
+b,Rewired model − training-set ridge,contrast,drug_split_0,0.17808620891763097,0.10987353124739269,0.24026406345571974,1,step15c_pds.json,Q2_coprimary_pds_recipe_minus_ridge_train
+b,Rewired model − training-set ridge,contrast,drug_split_2,0.18838318421770683,0.13146403192208383,0.24578956713177538,1,step15c_pds.json,Q2_coprimary_pds_recipe_minus_ridge_train
+b,Rewired model − cross-validated ridge,contrast,drug_split_1,0.21843142065051124,0.14861059328136558,0.28921272421474065,1,step15c_pds.json,secondary_pds_recipe_minus_ridge_S7
+b,Rewired model − cross-validated ridge,contrast,drug_split_0,0.22659694137075043,0.16951364728394389,0.2817016366864768,1,step15c_pds.json,secondary_pds_recipe_minus_ridge_S7
+b,Rewired model − cross-validated ridge,contrast,drug_split_2,0.22826791759158788,0.16529012521829384,0.2889858804242973,1,step15c_pds.json,secondary_pds_recipe_minus_ridge_S7
+b,Rewired model with guidance − 0.5,contrast,drug_split_1,0.18591058532567284,0.14946098538931968,0.2220600279503836,1,step15c_pds.json,secondary_pds_guidance_w2_minus_0.5
+b,Rewired model with guidance − 0.5,contrast,drug_split_0,0.21392548505009493,0.1775173486839506,0.25107295219520875,1,step15c_pds.json,secondary_pds_guidance_w2_minus_0.5
+b,Rewired model with guidance − 0.5,contrast,drug_split_2,0.1938882099112549,0.1602917612404784,0.2280962797528233,1,step15c_pds.json,secondary_pds_guidance_w2_minus_0.5
+b,Rewired model with guidance − rewired model,contrast,drug_split_1,-0.03642588252220256,-0.052647457974561274,-0.022654595062087737,1,step15c_pds.json,secondary_pds_guidance_w2_minus_recipe
+b,Rewired model with guidance − rewired model,contrast,drug_split_0,-0.0041803311482307625,-0.022843847364925014,0.02260471580523551,0,step15c_pds.json,secondary_pds_guidance_w2_minus_recipe
+b,Rewired model with guidance − rewired model,contrast,drug_split_2,-0.020314635625258908,-0.03848272982851477,-0.005932325142254838,1,step15c_pds.json,secondary_pds_guidance_w2_minus_recipe
+b,Rewired model with cross-attention − 0.5,contrast,drug_split_1,0.22600761773846878,0.19122550084921072,0.25854885140569495,1,step15c_pds.json,secondary_pds_attn_cross_minus_0.5
+b,Rewired model with cross-attention − 0.5,contrast,drug_split_0,0.22258344853765835,0.18255307863837641,0.2607159093439867,1,step15c_pds.json,secondary_pds_attn_cross_minus_0.5
+b,Rewired model with cross-attention − 0.5,contrast,drug_split_2,0.220074149903493,0.18842475499954042,0.251066456613481,1,step15c_pds.json,secondary_pds_attn_cross_minus_0.5
+b,Parameter-matched control − 0.5,contrast,drug_split_1,0.22748210677234282,0.19463198645149826,0.25840959882743075,1,step15c_pds.json,secondary_pds_mlp_ctrl_minus_0.5
+b,Parameter-matched control − 0.5,contrast,drug_split_0,0.21773257569793417,0.17211727399525625,0.2581438541297122,1,step15c_pds.json,secondary_pds_mlp_ctrl_minus_0.5
+b,Parameter-matched control − 0.5,contrast,drug_split_2,0.2109194575304207,0.18024825541994716,0.24122009242344594,1,step15c_pds.json,secondary_pds_mlp_ctrl_minus_0.5
+b,Cross-attention − parameter-matched control (exploratory),contrast,drug_split_1,-0.0014744890338740083,-0.00788105746488286,0.004418304647115973,0,step15c_pds.json,exploratory_pds_attn_cross_minus_mlp_ctrl
+b,Cross-attention − parameter-matched control (exploratory),contrast,drug_split_0,0.004850872839724186,-0.0029654092452860103,0.015108823190709678,0,step15c_pds.json,exploratory_pds_attn_cross_minus_mlp_ctrl
+b,Cross-attention − parameter-matched control (exploratory),contrast,drug_split_2,0.009154692373072244,0.0013434107592098887,0.018344015337037917,1,step15c_pds.json,exploratory_pds_attn_cross_minus_mlp_ctrl
+b,"Rewired model, another compound’s fingerprint − 0.5",contrast,drug_split_1,0.21601295117444524,0.18618895271521008,0.24554077363822438,1,step25_swap_summary.csv,recipe_Q2_shuf_minus_0.5
+b,"Rewired model, another compound’s fingerprint − 0.5",contrast,drug_split_0,0.20117526385074305,0.15724273129139885,0.23855969982172856,1,step25_swap_summary.csv,recipe_Q2_shuf_minus_0.5
+b,"Rewired model, another compound’s fingerprint − 0.5",contrast,drug_split_2,0.19066496486509002,0.1556707080756032,0.22480494722316105,1,step25_swap_summary.csv,recipe_Q2_shuf_minus_0.5
+b,"Rewired model, no fingerprint − 0.5",contrast,drug_split_1,0.2359839765994652,0.20758125529196728,0.26532469929416475,1,step25_swap_summary.csv,recipe_ref_zero_minus_0.5
+b,"Rewired model, no fingerprint − 0.5",contrast,drug_split_0,0.21798643914145294,0.17609529112469857,0.254224791906585,1,step25_swap_summary.csv,recipe_ref_zero_minus_0.5
+b,"Rewired model, no fingerprint − 0.5",contrast,drug_split_2,0.21444730365115838,0.1801126256484675,0.24719708537929627,1,step25_swap_summary.csv,recipe_ref_zero_minus_0.5
+b,Rewired model: own − another compound’s fingerprint,contrast,drug_split_1,0.006323516673430155,-0.015311510725759193,0.02882135017554998,0,step25_swap_summary.csv,recipe_Q1_own_minus_shuf
+b,Rewired model: own − another compound’s fingerprint,contrast,drug_split_0,0.01693055234758267,-0.004378832962614364,0.040559138144499074,0,step25_swap_summary.csv,recipe_Q1_own_minus_shuf
+b,Rewired model: own − another compound’s fingerprint,contrast,drug_split_2,0.023537880671423764,-0.00294409572001481,0.05274191278180759,0,step25_swap_summary.csv,recipe_Q1_own_minus_shuf
+b,Rewired model: own − no fingerprint,contrast,drug_split_1,-0.013647508751589798,-0.03278518534776893,0.004057726187930528,0,step25_swap_summary.csv,recipe_ref_own_minus_zero
+b,Rewired model: own − no fingerprint,contrast,drug_split_0,0.00011937705687278706,-0.019822086690738774,0.021263936613519798,0,step25_swap_summary.csv,recipe_ref_own_minus_zero
+b,Rewired model: own − no fingerprint,contrast,drug_split_2,-0.0002444581146446249,-0.019563731764430613,0.020034499411976776,0,step25_swap_summary.csv,recipe_ref_own_minus_zero
+b,"Original model, another compound’s fingerprint − 0.5",contrast,drug_split_1,0.14262964637578554,0.10349538398547806,0.18036248254086434,1,step25_swap_summary.csv,base_Q2_shuf_minus_0.5
+b,"Original model, another compound’s fingerprint − 0.5",contrast,drug_split_0,0.13601697772303586,0.09591730944786193,0.17688335046547504,1,step25_swap_summary.csv,base_Q2_shuf_minus_0.5
+b,"Original model, another compound’s fingerprint − 0.5",contrast,drug_split_2,0.14413287349894177,0.09852594136268258,0.18733205646883566,1,step25_swap_summary.csv,base_Q2_shuf_minus_0.5
+b,Original model: own − another compound’s fingerprint,contrast,drug_split_1,-0.0011340063988110613,-0.0089977124136248,0.00681995327640957,0,step25_swap_summary.csv,base_Q1_own_minus_shuf
+b,Original model: own − another compound’s fingerprint,contrast,drug_split_0,0.008388836543898806,-0.0035256708346762377,0.022604117190837797,0,step25_swap_summary.csv,base_Q1_own_minus_shuf
+b,Original model: own − another compound’s fingerprint,contrast,drug_split_2,0.010745173364869923,-0.0009919263824382926,0.024837140870720097,0,step25_swap_summary.csv,base_Q1_own_minus_shuf
+b,Rewired model − original model,contrast,drug_split_1,0.08084082787090094,0.036172921002528544,0.12394736655214078,1,step25_swap_summary.csv,ref_gap_own
+b,Rewired model − original model,contrast,drug_split_0,0.07370000193139106,0.01756410897216673,0.12374311118344654,1,step25_swap_summary.csv,ref_gap_own
+b,Rewired model − original model,contrast,drug_split_2,0.0593247986727021,0.017497895963534477,0.10290569431664881,1,step25_swap_summary.csv,ref_gap_own
+b,(Rewired − original): own − another compound’s fingerprint,contrast,drug_split_1,0.007457523072241215,-0.011569915147733454,0.027099518886755616,0,step25_swap_summary.csv,Q3_gap_own_minus_shuf
+b,(Rewired − original): own − another compound’s fingerprint,contrast,drug_split_0,0.008541715803683863,-0.007699852647288219,0.025842327562275766,0,step25_swap_summary.csv,Q3_gap_own_minus_shuf
+b,(Rewired − original): own − another compound’s fingerprint,contrast,drug_split_2,0.012792707306553837,-0.008789188073698702,0.035354611477919407,0,step25_swap_summary.csv,Q3_gap_own_minus_shuf
+b,Cell-line vehicle average − 0.5,contrast,drug_split_1,0.2512626833273329,0.2242789041487118,0.2794588130499925,1,step26_source_summary.csv,G4_ctrl_line_orig_minus_0.5
+b,Cell-line vehicle average − 0.5,contrast,drug_split_0,0.23347215097680477,0.20170380450743813,0.26170453549661415,1,step26_source_summary.csv,G4_ctrl_line_orig_minus_0.5
+b,Cell-line vehicle average − 0.5,contrast,drug_split_2,0.23208850755847757,0.20078531532867372,0.26157763202071255,1,step26_source_summary.csv,G4_ctrl_line_orig_minus_0.5
+b,Vehicle resample − 0.5,contrast,drug_split_1,-0.0007716365936339645,-0.011181999394839168,0.00921558074983214,0,step26_source_summary.csv,G4b_ctrl_sample_orig_minus_0.5
+b,Vehicle resample − 0.5,contrast,drug_split_0,0.002296511271099937,-0.0097823190825052,0.015397797890332916,0,step26_source_summary.csv,G4b_ctrl_sample_orig_minus_0.5
+b,Vehicle resample − 0.5,contrast,drug_split_2,-0.005342462888333059,-0.01957387344810842,0.009182924211819996,0,step26_source_summary.csv,G4b_ctrl_sample_orig_minus_0.5
+b,Rewired model − cell-line vehicle average,contrast,drug_split_1,-0.028926215479457465,-0.053768990626189596,-0.004691090609101816,1,step26_source_summary.csv,E_orig_recipe_minus_ctrl_line
+b,Rewired model − cell-line vehicle average,contrast,drug_split_0,-0.015366334778479053,-0.040476958086509765,0.009443954755925542,0,step26_source_summary.csv,E_orig_recipe_minus_ctrl_line
+b,Rewired model − cell-line vehicle average,contrast,drug_split_2,-0.017885662021963768,-0.04352023184929591,0.00702674699119354,0,step26_source_summary.csv,E_orig_recipe_minus_ctrl_line
+b,Rewired model − 0.5,contrast,drug_split_1,0.21811786860528626,0.1843973093425722,0.24989317312104972,1,step26_source_summary.csv,G1_recipe_split_minus_0.5
+b,Rewired model − 0.5,contrast,drug_split_0,0.21322772565616466,0.17170740649724722,0.2525099197421942,1,step26_source_summary.csv,G1_recipe_split_minus_0.5
+b,Rewired model − 0.5,contrast,drug_split_2,0.21059374478380719,0.18016148395332837,0.24012076977803667,1,step26_source_summary.csv,G1_recipe_split_minus_0.5
+b,"Rewired model, another compound’s fingerprint − 0.5",contrast,drug_split_1,0.21228336369957806,0.18277268209735828,0.2416948419257602,1,step26_source_summary.csv,G2_fpshuf_split_minus_0.5
+b,"Rewired model, another compound’s fingerprint − 0.5",contrast,drug_split_0,0.19679352209323991,0.15303511503895853,0.23435562029976525,1,step26_source_summary.csv,G2_fpshuf_split_minus_0.5
+b,"Rewired model, another compound’s fingerprint − 0.5",contrast,drug_split_2,0.1867689534130579,0.15191922213855388,0.2209550784568427,1,step26_source_summary.csv,G2_fpshuf_split_minus_0.5
+b,Rewired model: own − another compound’s fingerprint,contrast,drug_split_1,0.00583450490570822,-0.015578745655464103,0.02803964446080157,0,step26_source_summary.csv,G3_split_recipe_minus_fpshuf
+b,Rewired model: own − another compound’s fingerprint,contrast,drug_split_0,0.01643420356292475,-0.004782242406722785,0.04001558244437237,0,step26_source_summary.csv,G3_split_recipe_minus_fpshuf
+b,Rewired model: own − another compound’s fingerprint,contrast,drug_split_2,0.023824791370749256,-0.0028127678102144206,0.053147451832078106,0,step26_source_summary.csv,G3_split_recipe_minus_fpshuf
+b,Original model − 0.5,contrast,drug_split_1,0.1391991654869091,0.10007063664659936,0.17745280889990495,1,step26_source_summary.csv,base_G1_split_minus_0.5
+b,Original model − 0.5,contrast,drug_split_0,0.14188082405583013,0.10339537887715507,0.182456426958896,1,step26_source_summary.csv,base_G1_split_minus_0.5
+b,Original model − 0.5,contrast,drug_split_2,0.15279848356147785,0.1092033708071548,0.19386171700907567,1,step26_source_summary.csv,base_G1_split_minus_0.5
+b,Rewired model − 0.5,contrast,drug_split_1,0.002955439800032381,-0.04092793347023544,0.0475527892901549,0,step27_within_plate_summary.csv,H1_recipe_split_minus_0.5
+b,Rewired model − 0.5,contrast,drug_split_0,0.017222919240491033,-0.039364057904804774,0.07134221296976928,0,step27_within_plate_summary.csv,H1_recipe_split_minus_0.5
+b,Rewired model − 0.5,contrast,drug_split_2,0.02644441177998028,-0.021343755757623754,0.07621393005190165,0,step27_within_plate_summary.csv,H1_recipe_split_minus_0.5
+b,Original model − 0.5,contrast,drug_split_1,-0.006618428544853776,-0.06104087006284211,0.04710882417965697,0,step27_within_plate_summary.csv,base_H1_split_minus_0.5
+b,Original model − 0.5,contrast,drug_split_0,0.007837410793240546,-0.0441627314541187,0.061684494602105955,0,step27_within_plate_summary.csv,base_H1_split_minus_0.5
+b,Original model − 0.5,contrast,drug_split_2,0.019978959655312867,-0.035231871105194115,0.07745552137355942,0,step27_within_plate_summary.csv,base_H1_split_minus_0.5
+b,"Rewired model, no fingerprint − 0.5",contrast,drug_split_1,-0.003093030609198153,-0.04196716600558046,0.03820111154191186,0,step27_within_plate_summary.csv,fpzero_split_minus_0.5
+b,"Rewired model, no fingerprint − 0.5",contrast,drug_split_0,-0.0016600359956787894,-0.05330721127638947,0.048395673880780476,0,step27_within_plate_summary.csv,fpzero_split_minus_0.5
+b,"Rewired model, no fingerprint − 0.5",contrast,drug_split_2,-0.002803932818079907,-0.04545998838158736,0.04137761772904995,0,step27_within_plate_summary.csv,fpzero_split_minus_0.5
+b,Rewired model − original model,contrast,drug_split_1,0.009573868344886154,-0.05275548449023589,0.06861436890290193,0,step27_within_plate_summary.csv,H2_split_recipe_minus_base
+b,Rewired model − original model,contrast,drug_split_0,0.009385508447250489,-0.07169838493067054,0.08203363343137275,0,step27_within_plate_summary.csv,H2_split_recipe_minus_base
+b,Rewired model − original model,contrast,drug_split_2,0.0064654521246674135,-0.05425488468056665,0.06483061819613853,0,step27_within_plate_summary.csv,H2_split_recipe_minus_base
+b,Rewired model: own − another compound’s fingerprint,contrast,drug_split_1,0.01435646867494445,-0.01573342216734628,0.04249137917528096,0,step27_within_plate_summary.csv,H3_split_recipe_minus_fpshuf
+b,Rewired model: own − another compound’s fingerprint,contrast,drug_split_0,0.026602497797182382,-0.0006399832317904134,0.05820818542315793,0,step27_within_plate_summary.csv,H3_split_recipe_minus_fpshuf
+b,Rewired model: own − another compound’s fingerprint,contrast,drug_split_2,0.04052871549976716,0.005320237395521066,0.08204355093609778,1,step27_within_plate_summary.csv,H3_split_recipe_minus_fpshuf
+b,Rewired model: own − another compound’s fingerprint (S-flip),contrast,drug_split_1,0.014669637461150742,-0.014791209198910913,0.04277745729949547,0,step27_within_plate_summary.csv,H3f_flip_recipe_minus_fpshuf
+b,Rewired model: own − another compound’s fingerprint (S-flip),contrast,drug_split_0,0.02922364812837464,0.0013146121530507422,0.06204580090328484,1,step27_within_plate_summary.csv,H3f_flip_recipe_minus_fpshuf
+b,Rewired model: own − another compound’s fingerprint (S-flip),contrast,drug_split_2,0.0414630485969055,0.006830360249834787,0.08204044784706702,1,step27_within_plate_summary.csv,H3f_flip_recipe_minus_fpshuf
+b,Original model: own − another compound’s fingerprint,contrast,drug_split_1,-0.0026788688857139744,-0.011533859329951006,0.005423330089767339,0,step27_within_plate_summary.csv,base_H3_split_own_minus_fpshuf
+b,Original model: own − another compound’s fingerprint,contrast,drug_split_0,0.007130983514967105,-0.010286363472266502,0.028447794415804303,0,step27_within_plate_summary.csv,base_H3_split_own_minus_fpshuf
+b,Original model: own − another compound’s fingerprint,contrast,drug_split_2,0.02057529842096369,0.005071197846673321,0.038428017171654165,1,step27_within_plate_summary.csv,base_H3_split_own_minus_fpshuf
+b,Cell-line vehicle average − 0.5 (S-orig),contrast,drug_split_1,5.2887750889515965e-18,-0.039343044009804345,0.04130971074272498,0,step27_within_plate_summary.csv,H4_ctrl_line_orig_minus_0.5
+b,Cell-line vehicle average − 0.5 (S-orig),contrast,drug_split_0,4.145717044903497e-19,-0.040309117241941715,0.04077576780032586,0,step27_within_plate_summary.csv,H4_ctrl_line_orig_minus_0.5
+b,Cell-line vehicle average − 0.5 (S-orig),contrast,drug_split_2,-0.00012835703001579286,-0.044045070432131427,0.044186934584226595,0,step27_within_plate_summary.csv,H4_ctrl_line_orig_minus_0.5
+b,Vehicle resample − 0.5,contrast,drug_split_1,0.0023728069429989696,-0.009098733372291798,0.014194598839201045,0,step27_within_plate_summary.csv,ctrl_sample_split_minus_0.5
+b,Vehicle resample − 0.5,contrast,drug_split_0,0.004891217223990631,-0.009636875454413543,0.02007698109860114,0,step27_within_plate_summary.csv,ctrl_sample_split_minus_0.5
+b,Vehicle resample − 0.5,contrast,drug_split_2,-0.006232053737803665,-0.022280327172855774,0.009606591824851513,0,step27_within_plate_summary.csv,ctrl_sample_split_minus_0.5
+b,Second draw of the measured cells − 0.5 (ceiling),contrast,drug_split_1,0.3836289237796551,0.3665463011293613,0.40020312223308047,1,step27_within_plate_summary.csv,duplicate_split_minus_0.5
+b,Second draw of the measured cells − 0.5 (ceiling),contrast,drug_split_0,0.4095288279105306,0.39126393316518165,0.4263095225036552,1,step27_within_plate_summary.csv,duplicate_split_minus_0.5
+b,Second draw of the measured cells − 0.5 (ceiling),contrast,drug_split_2,0.3910619208474311,0.3720856425223819,0.4094469571571047,1,step27_within_plate_summary.csv,duplicate_split_minus_0.5
+b,Measured change of the real treated cells,contrast,drug_split_1,0.36417434871626286,0.31798056110768497,0.4104595407398661,1,step27_within_plate_summary.csv,H5_residual_true_split
+b,Measured change of the real treated cells,contrast,drug_split_0,0.3195288979165462,0.2787296534550767,0.3574707860141988,1,step27_within_plate_summary.csv,H5_residual_true_split
+b,Measured change of the real treated cells,contrast,drug_split_2,0.3380516180661951,0.2911253678428905,0.3810719986909678,1,step27_within_plate_summary.csv,H5_residual_true_split
+b,Vehicle resample from the measured-change half (null),contrast,drug_split_1,-0.002893017957105097,-0.011379981309726532,0.005809617938791499,0,step27_within_plate_summary.csv,H5null_residual_ctrl_h2_split
+b,Vehicle resample from the measured-change half (null),contrast,drug_split_0,0.0004749058607125918,-0.006557958652939132,0.007733257927273708,0,step27_within_plate_summary.csv,H5null_residual_ctrl_h2_split
+b,Vehicle resample from the measured-change half (null),contrast,drug_split_2,0.0018938595480996676,-0.0072050748197669285,0.010575885378200357,0,step27_within_plate_summary.csv,H5null_residual_ctrl_h2_split
+c,"Conditions scored within a plate, of all held-out conditions",point,drug_split_1,2645,,,,step26_source.json / summaries,"Conditions scored within a plate, of all held-out conditions"
+c,"Conditions scored within a plate, of all held-out conditions",point,drug_split_0,2678,,,,step26_source.json / summaries,"Conditions scored within a plate, of all held-out conditions"
+c,"Conditions scored within a plate, of all held-out conditions",point,drug_split_2,2532,,,,step26_source.json / summaries,"Conditions scored within a plate, of all held-out conditions"
+c,Plates per cell line and dose: median (range),point,drug_split_1,5,,,,step26_source.json / summaries,Plates per cell line and dose: median (range)
+c,Plates per cell line and dose: median (range),point,drug_split_0,5,,,,step26_source.json / summaries,Plates per cell line and dose: median (range)
+c,Plates per cell line and dose: median (range),point,drug_split_2,5,,,,step26_source.json / summaries,Plates per cell line and dose: median (range)
+c,Share of candidate pairs measured on the condition's own plate,point,drug_split_1,0.21767970194335087,,,,step26_source.json / summaries,Share of candidate pairs measured on the condition's own plate
+c,Share of candidate pairs measured on the condition's own plate,point,drug_split_0,0.21367805652323327,,,,step26_source.json / summaries,Share of candidate pairs measured on the condition's own plate
+c,Share of candidate pairs measured on the condition's own plate,point,drug_split_2,0.22341445852763947,,,,step26_source.json / summaries,Share of candidate pairs measured on the condition's own plate
+c,Cell-line vehicle average: distance from chance as a share of the rewired model's (S-orig),point,drug_split_1,113.01010839987306,,,,step26_source.json / summaries,Cell-line vehicle average: distance from chance as a share of the rewired model's (S-orig)
+c,Cell-line vehicle average: distance from chance as a share of the rewired model's (S-orig),point,drug_split_0,107.04535763709589,,,,step26_source.json / summaries,Cell-line vehicle average: distance from chance as a share of the rewired model's (S-orig)
+c,Cell-line vehicle average: distance from chance as a share of the rewired model's (S-orig),point,drug_split_2,108.34987134609045,,,,step26_source.json / summaries,Cell-line vehicle average: distance from chance as a share of the rewired model's (S-orig)
+c,"Rewired − original difference remaining within a plate, as a share of the cross-plate difference",point,drug_split_1,11.84286281701021,,,,step26_source.json / summaries,"Rewired − original difference remaining within a plate, as a share of the cross-plate difference"
+c,"Rewired − original difference remaining within a plate, as a share of the cross-plate difference",point,drug_split_0,12.734746541781185,,,,step26_source.json / summaries,"Rewired − original difference remaining within a plate, as a share of the cross-plate difference"
+c,"Rewired − original difference remaining within a plate, as a share of the cross-plate difference",point,drug_split_2,10.898397077312707,,,,step26_source.json / summaries,"Rewired − original difference remaining within a plate, as a share of the cross-plate difference"
+c,"Shared vehicle estimate: rewired model, S-orig minus S-split (cross-plate)",point,drug_split_1,0.0042185992425890495,,,,step26_source.json / summaries,"Shared vehicle estimate: rewired model, S-orig minus S-split (cross-plate)"
+c,"Shared vehicle estimate: rewired model, S-orig minus S-split (cross-plate)",point,drug_split_0,0.00487809054216104,,,,step26_source.json / summaries,"Shared vehicle estimate: rewired model, S-orig minus S-split (cross-plate)"
+c,"Shared vehicle estimate: rewired model, S-orig minus S-split (cross-plate)",point,drug_split_2,0.0036091007527065955,,,,step26_source.json / summaries,"Shared vehicle estimate: rewired model, S-orig minus S-split (cross-plate)"
