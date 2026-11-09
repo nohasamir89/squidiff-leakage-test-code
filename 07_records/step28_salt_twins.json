@@ -1,0 +1,4254 @@
+{
+  "prereg": "PREREG_step28_salt_twins.md",
+  "commit": "2e7164e3c0965d2c34ef81b62ab6fad4fb5ce712",
+  "synthetic_test": false,
+  "splits": {
+    "drug_split_1": {
+      "n_conditions": 2899,
+      "n_structures": 75,
+      "excluded_structures": [
+        "S0012",
+        "S0052",
+        "S0077",
+        "S0142",
+        "S0190",
+        "S0216",
+        "S0317",
+        "S0326"
+      ],
+      "matched_by": "table_smiles",
+      "excluded_conditions": 384,
+      "retained_conditions": 2515,
+      "excluded_fraction": 0.13245946878233875
+    },
+    "drug_split_0": {
+      "n_conditions": 3115,
+      "n_structures": 75,
+      "excluded_structures": [
+        "S0058",
+        "S0141",
+        "S0204",
+        "S0287"
+      ],
+      "matched_by": "table_smiles",
+      "excluded_conditions": 178,
+      "retained_conditions": 2937,
+      "excluded_fraction": 0.05714285714285714
+    },
+    "drug_split_2": {
+      "n_conditions": 2853,
+      "n_structures": 75,
+      "excluded_structures": [
+        "S0011",
+        "S0095",
+        "S0137",
+        "S0139",
+        "S0191",
+        "S0241",
+        "S0258",
+        "S0343",
+        "S0345"
+      ],
+      "matched_by": "table_smiles",
+      "excluded_conditions": 406,
+      "retained_conditions": 2447,
+      "excluded_fraction": 0.1423063441990887
+    }
+  },
+  "verdict_K": {
+    "verdict": "K3 A CONCLUSION CHANGES",
+    "crossed": [
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recon_recipe__linemean__pds",
+        "reference": 0.5,
+        "published": [
+          0.4976355869023253,
+          0.6115503868231108
+        ],
+        "twin_free": [
+          0.5009380639593503,
+          0.6223237537871216
+        ],
+        "direction": "now excludes the reference"
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_sample__flip__pds",
+        "reference": 0.5,
+        "published": [
+          0.4737059517416681,
+          0.4982722355667141
+        ],
+        "twin_free": [
+          0.4738276977892386,
+          0.5002755301519103
+        ],
+        "direction": "now includes the reference"
+      },
+      {
+        "split": "drug_split_2",
+        "group": "A-contrast",
+        "quantity": "gene identity",
+        "arm": "rewired minus cross-validated ridge",
+        "reference": 0.0,
+        "published": [
+          -0.01865148676487687,
+          0.0003356479074779764
+        ],
+        "twin_free": [
+          -0.02178619457552219,
+          -0.0013775316711428372
+        ],
+        "direction": "now excludes the reference"
+      },
+      {
+        "split": "drug_split_2",
+        "group": "A-contrast",
+        "quantity": "population distance",
+        "arm": "rewired minus unaltered vehicle cells",
+        "reference": 0.0,
+        "published": [
+          0.0032628585274508976,
+          0.07911801528391896
+        ],
+        "twin_free": [
+          -0.011292088520917449,
+          0.06991115145043726
+        ],
+        "direction": "now includes the reference"
+      }
+    ],
+    "sign_reversals": [],
+    "moved": []
+  },
+  "verdict_L": {
+    "headline": [
+      {
+        "split": "drug_split_1",
+        "group": "A",
+        "quantity": "gene identity",
+        "arm": "recipe",
+        "excluded_minus_retained": -0.017454694503716395,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (published construction)",
+        "arm": "recipe",
+        "excluded_minus_retained": -0.04760219130175436,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_0",
+        "group": "A",
+        "quantity": "gene identity",
+        "arm": "recipe",
+        "excluded_minus_retained": 0.01174308470599883,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (published construction)",
+        "arm": "recipe",
+        "excluded_minus_retained": -0.055732849762791026,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_2",
+        "group": "A",
+        "quantity": "gene identity",
+        "arm": "recipe",
+        "excluded_minus_retained": -0.0047795469854238215,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (published construction)",
+        "arm": "recipe",
+        "excluded_minus_retained": 0.0187053779468499,
+        "n_excluded": 406
+      }
+    ],
+    "all": [
+      {
+        "split": "drug_split_1",
+        "group": "A",
+        "quantity": "gene identity",
+        "arm": "base",
+        "excluded_minus_retained": 0.007012086483796698,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "A",
+        "quantity": "gene identity",
+        "arm": "recipe",
+        "excluded_minus_retained": -0.017454694503716395,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "A",
+        "quantity": "gene identity",
+        "arm": "ridge_train",
+        "excluded_minus_retained": 0.0024292991267751973,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "A",
+        "quantity": "gene identity",
+        "arm": "ridge_S7",
+        "excluded_minus_retained": -0.02063555117663668,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "A",
+        "quantity": "gene identity",
+        "arm": "mean_response",
+        "excluded_minus_retained": -0.0022470131808910443,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "A-contrast",
+        "quantity": "gene identity",
+        "arm": "rewired minus original",
+        "excluded_minus_retained": -0.02446678098751301,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "A-contrast",
+        "quantity": "gene identity",
+        "arm": "rewired minus training-set ridge",
+        "excluded_minus_retained": -0.0198839936304915,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "A-contrast",
+        "quantity": "gene identity",
+        "arm": "rewired minus cross-validated ridge",
+        "excluded_minus_retained": 0.0031808566729201702,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "A-contrast",
+        "quantity": "gene identity",
+        "arm": "rewired minus compound-blind average",
+        "excluded_minus_retained": -0.015207681322825357,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "A",
+        "quantity": "response correlation",
+        "arm": "base",
+        "excluded_minus_retained": -0.030996744063085585,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "A",
+        "quantity": "response correlation",
+        "arm": "recipe",
+        "excluded_minus_retained": -0.13990961663422857,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "A",
+        "quantity": "response correlation",
+        "arm": "ridge_train",
+        "excluded_minus_retained": -0.22118187023817518,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "A",
+        "quantity": "response correlation",
+        "arm": "ridge_S7",
+        "excluded_minus_retained": -0.15199753067377525,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "A",
+        "quantity": "response correlation",
+        "arm": "mean_response",
+        "excluded_minus_retained": -0.10134302513059923,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "A-contrast",
+        "quantity": "response correlation",
+        "arm": "rewired minus original",
+        "excluded_minus_retained": -0.10891287257114302,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "A-contrast",
+        "quantity": "response correlation",
+        "arm": "rewired minus training-set ridge",
+        "excluded_minus_retained": 0.08127225360394669,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "A-contrast",
+        "quantity": "response correlation",
+        "arm": "rewired minus cross-validated ridge",
+        "excluded_minus_retained": 0.012087914039546566,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "A-contrast",
+        "quantity": "response correlation",
+        "arm": "rewired minus compound-blind average",
+        "excluded_minus_retained": -0.03856659150362942,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "A",
+        "quantity": "population distance",
+        "arm": "base",
+        "excluded_minus_retained": 0.07864616856258522,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "A",
+        "quantity": "population distance",
+        "arm": "recipe",
+        "excluded_minus_retained": 0.07760734228033761,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "A",
+        "quantity": "population distance",
+        "arm": "ridge_train",
+        "excluded_minus_retained": 0.16341476930999776,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "A",
+        "quantity": "population distance",
+        "arm": "ridge_S7",
+        "excluded_minus_retained": -0.0031422481963206406,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "A",
+        "quantity": "population distance",
+        "arm": "mean_response",
+        "excluded_minus_retained": -0.011411132762865706,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "A",
+        "quantity": "population distance",
+        "arm": "control_paste",
+        "excluded_minus_retained": -0.025621656223023537,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "A-contrast",
+        "quantity": "population distance",
+        "arm": "rewired minus original",
+        "excluded_minus_retained": -0.001038826282247829,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "A-contrast",
+        "quantity": "population distance",
+        "arm": "rewired minus training-set ridge",
+        "excluded_minus_retained": -0.08580742702966015,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "A-contrast",
+        "quantity": "population distance",
+        "arm": "rewired minus cross-validated ridge",
+        "excluded_minus_retained": 0.08074959047665828,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "A-contrast",
+        "quantity": "population distance",
+        "arm": "rewired minus compound-blind average",
+        "excluded_minus_retained": 0.08901847504320336,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "A-contrast",
+        "quantity": "population distance",
+        "arm": "rewired minus unaltered vehicle cells",
+        "excluded_minus_retained": 0.10322899850336117,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "A-contrast",
+        "quantity": "population distance",
+        "arm": "original minus unaltered vehicle cells",
+        "excluded_minus_retained": 0.10426782478560837,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (published construction)",
+        "arm": "ridge_S7",
+        "excluded_minus_retained": -0.1214367468456749,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (published construction)",
+        "arm": "ridge_train",
+        "excluded_minus_retained": -0.13859356946756185,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (published construction)",
+        "arm": "mean_response",
+        "excluded_minus_retained": -0.060707299339497756,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (published construction)",
+        "arm": "control_paste",
+        "excluded_minus_retained": 0.0,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (published construction)",
+        "arm": "base",
+        "excluded_minus_retained": 0.06588824524654269,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (published construction)",
+        "arm": "recipe",
+        "excluded_minus_retained": -0.04760219130175436,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (published construction)",
+        "arm": "guidance_w2",
+        "excluded_minus_retained": -0.06791788134488319,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (published construction)",
+        "arm": "attn_cross",
+        "excluded_minus_retained": -0.04464625743753514,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (published construction)",
+        "arm": "mlp_ctrl",
+        "excluded_minus_retained": -0.0445397651318602,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (fingerprint-swap arms)",
+        "arm": "recipe_own_pds",
+        "excluded_minus_retained": -0.04760219130175436,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (fingerprint-swap arms)",
+        "arm": "recipe_shuf_pds",
+        "excluded_minus_retained": -0.004538803449196771,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (fingerprint-swap arms)",
+        "arm": "recipe_zero_pds",
+        "excluded_minus_retained": -0.01723549256068313,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (fingerprint-swap arms)",
+        "arm": "base_own_pds",
+        "excluded_minus_retained": 0.06588824524654269,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (fingerprint-swap arms)",
+        "arm": "base_shuf_pds",
+        "excluded_minus_retained": 0.07077363020244587,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (fingerprint-swap arms)",
+        "arm": "base_zero_pds",
+        "excluded_minus_retained": 0.06532848206034492,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe__orig__pds",
+        "excluded_minus_retained": -0.04760219130175436,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe__split__pds",
+        "excluded_minus_retained": -0.04629943484992749,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe__flip__pds",
+        "excluded_minus_retained": -0.048470352745485834,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe__linemean__pds",
+        "excluded_minus_retained": -0.0629355981542346,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe__none__pds",
+        "excluded_minus_retained": -0.09747235332185811,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe_fpshuf__orig__pds",
+        "excluded_minus_retained": -0.004538803449196771,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe_fpshuf__split__pds",
+        "excluded_minus_retained": -0.002897888343392774,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe_fpshuf__flip__pds",
+        "excluded_minus_retained": -0.005691630777491907,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe_fpshuf__linemean__pds",
+        "excluded_minus_retained": -0.019160136532329064,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe_fpshuf__none__pds",
+        "excluded_minus_retained": -0.08585980297901546,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe_fpzero__orig__pds",
+        "excluded_minus_retained": -0.01723549256068313,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe_fpzero__split__pds",
+        "excluded_minus_retained": -0.01597057692149262,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe_fpzero__flip__pds",
+        "excluded_minus_retained": -0.01839886710726646,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe_fpzero__linemean__pds",
+        "excluded_minus_retained": -0.0069377948827680225,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe_fpzero__none__pds",
+        "excluded_minus_retained": -0.04921425856783912,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base__orig__pds",
+        "excluded_minus_retained": 0.06588824524654269,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base__split__pds",
+        "excluded_minus_retained": 0.06570864772531793,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base__flip__pds",
+        "excluded_minus_retained": 0.06626490920932404,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base__linemean__pds",
+        "excluded_minus_retained": 0.01241663718024344,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base__none__pds",
+        "excluded_minus_retained": 0.0205319868322672,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base_fpshuf__orig__pds",
+        "excluded_minus_retained": 0.07077363020244587,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base_fpshuf__split__pds",
+        "excluded_minus_retained": 0.07067885109274874,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base_fpshuf__flip__pds",
+        "excluded_minus_retained": 0.07166365584890477,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base_fpshuf__linemean__pds",
+        "excluded_minus_retained": 0.015394813061005541,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base_fpshuf__none__pds",
+        "excluded_minus_retained": 0.02429933529301298,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base_fpzero__orig__pds",
+        "excluded_minus_retained": 0.06532848206034492,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base_fpzero__split__pds",
+        "excluded_minus_retained": 0.06546621183037893,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base_fpzero__flip__pds",
+        "excluded_minus_retained": 0.06511730625846157,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base_fpzero__linemean__pds",
+        "excluded_minus_retained": 0.026510177522953704,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base_fpzero__none__pds",
+        "excluded_minus_retained": 0.031808929861640634,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recon_recipe__orig__pds",
+        "excluded_minus_retained": -0.04734051062803046,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recon_recipe__split__pds",
+        "excluded_minus_retained": -0.045374101684556245,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recon_recipe__flip__pds",
+        "excluded_minus_retained": -0.0491052498393213,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recon_recipe__linemean__pds",
+        "excluded_minus_retained": -0.05732823936700393,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recon_recipe__none__pds",
+        "excluded_minus_retained": -0.09526786333783827,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recon_base__orig__pds",
+        "excluded_minus_retained": 0.06189909294144891,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recon_base__split__pds",
+        "excluded_minus_retained": 0.062189089193739666,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recon_base__flip__pds",
+        "excluded_minus_retained": 0.06227417562602622,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recon_base__linemean__pds",
+        "excluded_minus_retained": 0.01533275058946637,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recon_base__none__pds",
+        "excluded_minus_retained": 0.019127560532823273,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_sample__orig__pds",
+        "excluded_minus_retained": -0.005141233081845664,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_sample__split__pds",
+        "excluded_minus_retained": -0.004803982427201814,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_sample__flip__pds",
+        "excluded_minus_retained": -0.0006304782316401414,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_sample__linemean__pds",
+        "excluded_minus_retained": -0.022173328983909224,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_sample__none__pds",
+        "excluded_minus_retained": -0.028915729471983065,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_sample_h1__orig__pds",
+        "excluded_minus_retained": -0.0016816709515559691,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_sample_h1__split__pds",
+        "excluded_minus_retained": -0.0012674656565907494,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_sample_h1__flip__pds",
+        "excluded_minus_retained": 0.006046801529296042,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_sample_h1__linemean__pds",
+        "excluded_minus_retained": -0.016264860343497833,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_sample_h1__none__pds",
+        "excluded_minus_retained": -0.028067693232899704,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_line__orig__pds",
+        "excluded_minus_retained": -0.004643769126372654,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_line__split__pds",
+        "excluded_minus_retained": -0.0034661696562239275,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_line__flip__pds",
+        "excluded_minus_retained": -0.0029257441761812997,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_line__linemean__pds",
+        "excluded_minus_retained": 0.0,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_line__none__pds",
+        "excluded_minus_retained": -0.06525821692655487,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "duplicate__orig__pds",
+        "excluded_minus_retained": 0.008016378163200777,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "duplicate__split__pds",
+        "excluded_minus_retained": 0.008231666144969063,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "duplicate__flip__pds",
+        "excluded_minus_retained": 0.01000771316273863,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "duplicate__linemean__pds",
+        "excluded_minus_retained": 0.011914582486952652,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "duplicate__none__pds",
+        "excluded_minus_retained": 0.0030512939133726658,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recipe__orig__wp_pds",
+        "excluded_minus_retained": -0.05469644154843317,
+        "n_excluded": 330
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recipe__split__wp_pds",
+        "excluded_minus_retained": -0.05206962241447144,
+        "n_excluded": 330
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recipe__flip__wp_pds",
+        "excluded_minus_retained": -0.054879810299021725,
+        "n_excluded": 330
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recipe_fpshuf__orig__wp_pds",
+        "excluded_minus_retained": -0.01446923192493299,
+        "n_excluded": 330
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recipe_fpshuf__split__wp_pds",
+        "excluded_minus_retained": -0.014836748481159734,
+        "n_excluded": 330
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recipe_fpshuf__flip__wp_pds",
+        "excluded_minus_retained": -0.012118876644033272,
+        "n_excluded": 330
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recipe_fpzero__orig__wp_pds",
+        "excluded_minus_retained": -0.013816279351912986,
+        "n_excluded": 330
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recipe_fpzero__split__wp_pds",
+        "excluded_minus_retained": -0.012992565865217964,
+        "n_excluded": 330
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recipe_fpzero__flip__wp_pds",
+        "excluded_minus_retained": -0.013871476764116764,
+        "n_excluded": 330
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "base__orig__wp_pds",
+        "excluded_minus_retained": 0.09581031678252311,
+        "n_excluded": 330
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "base__split__wp_pds",
+        "excluded_minus_retained": 0.09513530820368382,
+        "n_excluded": 330
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "base__flip__wp_pds",
+        "excluded_minus_retained": 0.0946845900907417,
+        "n_excluded": 330
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "base_fpshuf__orig__wp_pds",
+        "excluded_minus_retained": 0.10792438094483642,
+        "n_excluded": 330
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "base_fpshuf__split__wp_pds",
+        "excluded_minus_retained": 0.10796287840819646,
+        "n_excluded": 330
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "base_fpshuf__flip__wp_pds",
+        "excluded_minus_retained": 0.10817564757957665,
+        "n_excluded": 330
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "base_fpzero__orig__wp_pds",
+        "excluded_minus_retained": 0.08859661110178679,
+        "n_excluded": 330
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "base_fpzero__split__wp_pds",
+        "excluded_minus_retained": 0.0884357840990439,
+        "n_excluded": 330
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "base_fpzero__flip__wp_pds",
+        "excluded_minus_retained": 0.08871577276273179,
+        "n_excluded": 330
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recon_recipe__orig__wp_pds",
+        "excluded_minus_retained": -0.060955961658934577,
+        "n_excluded": 330
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recon_recipe__split__wp_pds",
+        "excluded_minus_retained": -0.05931089684650215,
+        "n_excluded": 330
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recon_recipe__flip__wp_pds",
+        "excluded_minus_retained": -0.062354242126973713,
+        "n_excluded": 330
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recon_base__orig__wp_pds",
+        "excluded_minus_retained": 0.08778257937587824,
+        "n_excluded": 330
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recon_base__split__wp_pds",
+        "excluded_minus_retained": 0.08877151209504092,
+        "n_excluded": 330
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recon_base__flip__wp_pds",
+        "excluded_minus_retained": 0.08701668032216336,
+        "n_excluded": 330
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "ctrl_sample__orig__wp_pds",
+        "excluded_minus_retained": -0.011099643115645486,
+        "n_excluded": 330
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "ctrl_sample__split__wp_pds",
+        "excluded_minus_retained": -0.008356339388302825,
+        "n_excluded": 330
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "ctrl_sample__flip__wp_pds",
+        "excluded_minus_retained": -0.010702234868918747,
+        "n_excluded": 330
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "ctrl_sample_h1__orig__wp_pds",
+        "excluded_minus_retained": -0.013471155623038633,
+        "n_excluded": 330
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "ctrl_sample_h1__split__wp_pds",
+        "excluded_minus_retained": -0.015310252521117285,
+        "n_excluded": 330
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "ctrl_sample_h1__flip__wp_pds",
+        "excluded_minus_retained": -0.005962565153585897,
+        "n_excluded": 330
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "ctrl_line__orig__wp_pds",
+        "excluded_minus_retained": -0.02981069037336931,
+        "n_excluded": 330
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "ctrl_line__split__wp_pds",
+        "excluded_minus_retained": -0.030386867382421356,
+        "n_excluded": 330
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "ctrl_line__flip__wp_pds",
+        "excluded_minus_retained": -0.030436689917465842,
+        "n_excluded": 330
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "duplicate__orig__wp_pds",
+        "excluded_minus_retained": 0.0060733440499267655,
+        "n_excluded": 330
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "duplicate__split__wp_pds",
+        "excluded_minus_retained": 0.005359288807765705,
+        "n_excluded": 330
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "duplicate__flip__wp_pds",
+        "excluded_minus_retained": 0.008983494707036965,
+        "n_excluded": 330
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__true__orig",
+        "excluded_minus_retained": -0.06561943848115231,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__ctrl_sample_h2__orig",
+        "excluded_minus_retained": -0.000892792566038992,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__ctrl_sample_h1__orig",
+        "excluded_minus_retained": 0.004635070209418409,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__ctrl_sample__orig",
+        "excluded_minus_retained": 0.0075568537506538625,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__ctrl_line__orig",
+        "excluded_minus_retained": 0.0,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__duplicate__orig",
+        "excluded_minus_retained": -0.05770824512309708,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__recipe__orig",
+        "excluded_minus_retained": -0.0270693428088552,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__recipe_fpshuf__orig",
+        "excluded_minus_retained": 0.051816786684786065,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__recipe_fpzero__orig",
+        "excluded_minus_retained": -0.010189356888508971,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__base__orig",
+        "excluded_minus_retained": 0.03453068251763783,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__base_fpshuf__orig",
+        "excluded_minus_retained": 0.04806019756019261,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__base_fpzero__orig",
+        "excluded_minus_retained": 0.03176122441942464,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__recon_recipe__orig",
+        "excluded_minus_retained": -0.030800529302541735,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__recon_base__orig",
+        "excluded_minus_retained": 0.028995251270096556,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__true__split",
+        "excluded_minus_retained": -0.06429114167673061,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__ctrl_sample_h2__split",
+        "excluded_minus_retained": 0.000847081331833813,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__ctrl_sample_h1__split",
+        "excluded_minus_retained": 0.008834502459260134,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__ctrl_sample__split",
+        "excluded_minus_retained": 0.011792086484758307,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__ctrl_line__split",
+        "excluded_minus_retained": 0.002868766935680833,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__duplicate__split",
+        "excluded_minus_retained": -0.05638052032725416,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__recipe__split",
+        "excluded_minus_retained": -0.026702204021444853,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__recipe_fpshuf__split",
+        "excluded_minus_retained": 0.050747742915737803,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__recipe_fpzero__split",
+        "excluded_minus_retained": -0.009879711177156247,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__base__split",
+        "excluded_minus_retained": 0.03505679178455434,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__base_fpshuf__split",
+        "excluded_minus_retained": 0.04833762277830497,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__base_fpzero__split",
+        "excluded_minus_retained": 0.03223390341882046,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__recon_recipe__split",
+        "excluded_minus_retained": -0.030649080883615176,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_1",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__recon_base__split",
+        "excluded_minus_retained": 0.029486609626775018,
+        "n_excluded": 384
+      },
+      {
+        "split": "drug_split_0",
+        "group": "A",
+        "quantity": "gene identity",
+        "arm": "base",
+        "excluded_minus_retained": 0.013037538758636669,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "A",
+        "quantity": "gene identity",
+        "arm": "recipe",
+        "excluded_minus_retained": 0.01174308470599883,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "A",
+        "quantity": "gene identity",
+        "arm": "ridge_train",
+        "excluded_minus_retained": -0.006879794717747301,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "A",
+        "quantity": "gene identity",
+        "arm": "ridge_S7",
+        "excluded_minus_retained": 0.012776623889609429,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "A",
+        "quantity": "gene identity",
+        "arm": "mean_response",
+        "excluded_minus_retained": 0.005170737131117931,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "A-contrast",
+        "quantity": "gene identity",
+        "arm": "rewired minus original",
+        "excluded_minus_retained": -0.0012944540526378112,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "A-contrast",
+        "quantity": "gene identity",
+        "arm": "rewired minus training-set ridge",
+        "excluded_minus_retained": 0.01862287942374615,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "A-contrast",
+        "quantity": "gene identity",
+        "arm": "rewired minus cross-validated ridge",
+        "excluded_minus_retained": -0.0010335391836104983,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "A-contrast",
+        "quantity": "gene identity",
+        "arm": "rewired minus compound-blind average",
+        "excluded_minus_retained": 0.006572347574880927,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "A",
+        "quantity": "response correlation",
+        "arm": "base",
+        "excluded_minus_retained": 0.015435536557420748,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "A",
+        "quantity": "response correlation",
+        "arm": "recipe",
+        "excluded_minus_retained": -0.069659729625629,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "A",
+        "quantity": "response correlation",
+        "arm": "ridge_train",
+        "excluded_minus_retained": -0.37122454844797387,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "A",
+        "quantity": "response correlation",
+        "arm": "ridge_S7",
+        "excluded_minus_retained": 0.07287066452876406,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "A",
+        "quantity": "response correlation",
+        "arm": "mean_response",
+        "excluded_minus_retained": 0.07574762661742712,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "A-contrast",
+        "quantity": "response correlation",
+        "arm": "rewired minus original",
+        "excluded_minus_retained": -0.08509526618304974,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "A-contrast",
+        "quantity": "response correlation",
+        "arm": "rewired minus training-set ridge",
+        "excluded_minus_retained": 0.3015648188223448,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "A-contrast",
+        "quantity": "response correlation",
+        "arm": "rewired minus cross-validated ridge",
+        "excluded_minus_retained": -0.1425303941543931,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "A-contrast",
+        "quantity": "response correlation",
+        "arm": "rewired minus compound-blind average",
+        "excluded_minus_retained": -0.14540735624305595,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "A",
+        "quantity": "population distance",
+        "arm": "base",
+        "excluded_minus_retained": -0.13444131002050108,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "A",
+        "quantity": "population distance",
+        "arm": "recipe",
+        "excluded_minus_retained": 0.1377589888269286,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "A",
+        "quantity": "population distance",
+        "arm": "ridge_train",
+        "excluded_minus_retained": 0.053600227651414534,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "A",
+        "quantity": "population distance",
+        "arm": "ridge_S7",
+        "excluded_minus_retained": -0.06888935534428545,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "A",
+        "quantity": "population distance",
+        "arm": "mean_response",
+        "excluded_minus_retained": -0.05637925799659821,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "A",
+        "quantity": "population distance",
+        "arm": "control_paste",
+        "excluded_minus_retained": -0.0511211441484046,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "A-contrast",
+        "quantity": "population distance",
+        "arm": "rewired minus original",
+        "excluded_minus_retained": 0.2722002988474299,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "A-contrast",
+        "quantity": "population distance",
+        "arm": "rewired minus training-set ridge",
+        "excluded_minus_retained": 0.08415876117551403,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "A-contrast",
+        "quantity": "population distance",
+        "arm": "rewired minus cross-validated ridge",
+        "excluded_minus_retained": 0.20664834417121397,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "A-contrast",
+        "quantity": "population distance",
+        "arm": "rewired minus compound-blind average",
+        "excluded_minus_retained": 0.1941382468235268,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "A-contrast",
+        "quantity": "population distance",
+        "arm": "rewired minus unaltered vehicle cells",
+        "excluded_minus_retained": 0.1888801329753331,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "A-contrast",
+        "quantity": "population distance",
+        "arm": "original minus unaltered vehicle cells",
+        "excluded_minus_retained": -0.08332016587209612,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (published construction)",
+        "arm": "ridge_S7",
+        "excluded_minus_retained": 0.07222606062044334,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (published construction)",
+        "arm": "ridge_train",
+        "excluded_minus_retained": -0.12150834490538598,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (published construction)",
+        "arm": "mean_response",
+        "excluded_minus_retained": 0.0676478490229418,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (published construction)",
+        "arm": "control_paste",
+        "excluded_minus_retained": 0.0,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (published construction)",
+        "arm": "base",
+        "excluded_minus_retained": 0.017616775250325345,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (published construction)",
+        "arm": "recipe",
+        "excluded_minus_retained": -0.055732849762791026,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (published construction)",
+        "arm": "guidance_w2",
+        "excluded_minus_retained": -0.07611958670328867,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (published construction)",
+        "arm": "attn_cross",
+        "excluded_minus_retained": -0.05970703054733806,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (published construction)",
+        "arm": "mlp_ctrl",
+        "excluded_minus_retained": -0.04372153243886423,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (fingerprint-swap arms)",
+        "arm": "recipe_own_pds",
+        "excluded_minus_retained": -0.055732849762791026,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (fingerprint-swap arms)",
+        "arm": "recipe_shuf_pds",
+        "excluded_minus_retained": 0.01810241101998533,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (fingerprint-swap arms)",
+        "arm": "recipe_zero_pds",
+        "excluded_minus_retained": -0.03270137107003224,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (fingerprint-swap arms)",
+        "arm": "base_own_pds",
+        "excluded_minus_retained": 0.017616775250325345,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (fingerprint-swap arms)",
+        "arm": "base_shuf_pds",
+        "excluded_minus_retained": 0.04107768026460101,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (fingerprint-swap arms)",
+        "arm": "base_zero_pds",
+        "excluded_minus_retained": 0.024642386701716035,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe__orig__pds",
+        "excluded_minus_retained": -0.055732849762791026,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe__split__pds",
+        "excluded_minus_retained": -0.057037565075232055,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe__flip__pds",
+        "excluded_minus_retained": -0.052689718769890814,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe__linemean__pds",
+        "excluded_minus_retained": -0.13718523625288392,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe__none__pds",
+        "excluded_minus_retained": -0.12727201126757204,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe_fpshuf__orig__pds",
+        "excluded_minus_retained": 0.01810241101998533,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe_fpshuf__split__pds",
+        "excluded_minus_retained": 0.01421066641544666,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe_fpshuf__flip__pds",
+        "excluded_minus_retained": 0.02061952470089401,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe_fpshuf__linemean__pds",
+        "excluded_minus_retained": 0.11267849416376607,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe_fpshuf__none__pds",
+        "excluded_minus_retained": 0.13195470979107016,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe_fpzero__orig__pds",
+        "excluded_minus_retained": -0.03270137107003224,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe_fpzero__split__pds",
+        "excluded_minus_retained": -0.0343464233704035,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe_fpzero__flip__pds",
+        "excluded_minus_retained": -0.029730308559965724,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe_fpzero__linemean__pds",
+        "excluded_minus_retained": -0.03335851877639612,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe_fpzero__none__pds",
+        "excluded_minus_retained": -0.025545183927375037,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base__orig__pds",
+        "excluded_minus_retained": 0.017616775250325345,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base__split__pds",
+        "excluded_minus_retained": 0.015620113465190766,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base__flip__pds",
+        "excluded_minus_retained": 0.01927066179162762,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base__linemean__pds",
+        "excluded_minus_retained": 0.03562909906436684,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base__none__pds",
+        "excluded_minus_retained": 0.049333006579443284,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base_fpshuf__orig__pds",
+        "excluded_minus_retained": 0.04107768026460101,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base_fpshuf__split__pds",
+        "excluded_minus_retained": 0.04000394931872009,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base_fpshuf__flip__pds",
+        "excluded_minus_retained": 0.0425579575456565,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base_fpshuf__linemean__pds",
+        "excluded_minus_retained": 0.15201467357197673,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base_fpshuf__none__pds",
+        "excluded_minus_retained": 0.11207776430973637,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base_fpzero__orig__pds",
+        "excluded_minus_retained": 0.024642386701716035,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base_fpzero__split__pds",
+        "excluded_minus_retained": 0.02504557476247382,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base_fpzero__flip__pds",
+        "excluded_minus_retained": 0.025561582679454964,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base_fpzero__linemean__pds",
+        "excluded_minus_retained": 0.09277889813832563,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base_fpzero__none__pds",
+        "excluded_minus_retained": 0.07748279521614576,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recon_recipe__orig__pds",
+        "excluded_minus_retained": -0.058926674728022155,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recon_recipe__split__pds",
+        "excluded_minus_retained": -0.06041152118175874,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recon_recipe__flip__pds",
+        "excluded_minus_retained": -0.056561542173937385,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recon_recipe__linemean__pds",
+        "excluded_minus_retained": -0.13078807951214966,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recon_recipe__none__pds",
+        "excluded_minus_retained": -0.1184409784075956,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recon_base__orig__pds",
+        "excluded_minus_retained": 0.007885355457823984,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recon_base__split__pds",
+        "excluded_minus_retained": 0.0061245571051710135,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recon_base__flip__pds",
+        "excluded_minus_retained": 0.009206125241395302,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recon_base__linemean__pds",
+        "excluded_minus_retained": 0.025133051028677356,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recon_base__none__pds",
+        "excluded_minus_retained": 0.04557691529379082,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_sample__orig__pds",
+        "excluded_minus_retained": -0.03495925852702736,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_sample__split__pds",
+        "excluded_minus_retained": -0.040601730155022664,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_sample__flip__pds",
+        "excluded_minus_retained": -0.02955253039254896,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_sample__linemean__pds",
+        "excluded_minus_retained": 0.03296657128434888,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_sample__none__pds",
+        "excluded_minus_retained": 0.008135910854799366,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_sample_h1__orig__pds",
+        "excluded_minus_retained": 0.048018400416055984,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_sample_h1__split__pds",
+        "excluded_minus_retained": 0.04264467751077067,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_sample_h1__flip__pds",
+        "excluded_minus_retained": 0.04872419756874852,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_sample_h1__linemean__pds",
+        "excluded_minus_retained": 0.03718168444834535,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_sample_h1__none__pds",
+        "excluded_minus_retained": 0.026968185325830007,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_line__orig__pds",
+        "excluded_minus_retained": -0.06404566632058528,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_line__split__pds",
+        "excluded_minus_retained": -0.06664136879701987,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_line__flip__pds",
+        "excluded_minus_retained": -0.06203798464194521,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_line__linemean__pds",
+        "excluded_minus_retained": 0.0,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_line__none__pds",
+        "excluded_minus_retained": -0.033518375909626974,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "duplicate__orig__pds",
+        "excluded_minus_retained": 0.020915099775763557,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "duplicate__split__pds",
+        "excluded_minus_retained": 0.021511071965033657,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "duplicate__flip__pds",
+        "excluded_minus_retained": 0.022540376221782177,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "duplicate__linemean__pds",
+        "excluded_minus_retained": 0.015857778262310163,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "duplicate__none__pds",
+        "excluded_minus_retained": 0.012869890196603673,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recipe__orig__wp_pds",
+        "excluded_minus_retained": -0.09797571615098805,
+        "n_excluded": 151
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recipe__split__wp_pds",
+        "excluded_minus_retained": -0.09707482441679793,
+        "n_excluded": 151
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recipe__flip__wp_pds",
+        "excluded_minus_retained": -0.09913880421569993,
+        "n_excluded": 151
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recipe_fpshuf__orig__wp_pds",
+        "excluded_minus_retained": -0.022784127167704782,
+        "n_excluded": 151
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recipe_fpshuf__split__wp_pds",
+        "excluded_minus_retained": -0.026293473815830526,
+        "n_excluded": 151
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recipe_fpshuf__flip__wp_pds",
+        "excluded_minus_retained": -0.019613724312834424,
+        "n_excluded": 151
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recipe_fpzero__orig__wp_pds",
+        "excluded_minus_retained": -0.08259160980378277,
+        "n_excluded": 151
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recipe_fpzero__split__wp_pds",
+        "excluded_minus_retained": -0.08370545265137447,
+        "n_excluded": 151
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recipe_fpzero__flip__wp_pds",
+        "excluded_minus_retained": -0.08202038970388575,
+        "n_excluded": 151
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "base__orig__wp_pds",
+        "excluded_minus_retained": -0.07872766051304353,
+        "n_excluded": 151
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "base__split__wp_pds",
+        "excluded_minus_retained": -0.07858273048647163,
+        "n_excluded": 151
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "base__flip__wp_pds",
+        "excluded_minus_retained": -0.08046708467924057,
+        "n_excluded": 151
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "base_fpshuf__orig__wp_pds",
+        "excluded_minus_retained": -0.022052788467768814,
+        "n_excluded": 151
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "base_fpshuf__split__wp_pds",
+        "excluded_minus_retained": -0.02268525064626986,
+        "n_excluded": 151
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "base_fpshuf__flip__wp_pds",
+        "excluded_minus_retained": -0.022262078367527915,
+        "n_excluded": 151
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "base_fpzero__orig__wp_pds",
+        "excluded_minus_retained": -0.03987470483713318,
+        "n_excluded": 151
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "base_fpzero__split__wp_pds",
+        "excluded_minus_retained": -0.03803902265370451,
+        "n_excluded": 151
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "base_fpzero__flip__wp_pds",
+        "excluded_minus_retained": -0.04137140050032756,
+        "n_excluded": 151
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recon_recipe__orig__wp_pds",
+        "excluded_minus_retained": -0.10822283027581309,
+        "n_excluded": 151
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recon_recipe__split__wp_pds",
+        "excluded_minus_retained": -0.10675832469781882,
+        "n_excluded": 151
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recon_recipe__flip__wp_pds",
+        "excluded_minus_retained": -0.1099059770396808,
+        "n_excluded": 151
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recon_base__orig__wp_pds",
+        "excluded_minus_retained": -0.09286425609121918,
+        "n_excluded": 151
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recon_base__split__wp_pds",
+        "excluded_minus_retained": -0.09308398579549848,
+        "n_excluded": 151
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recon_base__flip__wp_pds",
+        "excluded_minus_retained": -0.0928561968088571,
+        "n_excluded": 151
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "ctrl_sample__orig__wp_pds",
+        "excluded_minus_retained": -0.013788887799244032,
+        "n_excluded": 151
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "ctrl_sample__split__wp_pds",
+        "excluded_minus_retained": -0.011553325714745377,
+        "n_excluded": 151
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "ctrl_sample__flip__wp_pds",
+        "excluded_minus_retained": -0.0020503297159553124,
+        "n_excluded": 151
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "ctrl_sample_h1__orig__wp_pds",
+        "excluded_minus_retained": 0.0014939269566607294,
+        "n_excluded": 151
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "ctrl_sample_h1__split__wp_pds",
+        "excluded_minus_retained": -0.0050688864305615255,
+        "n_excluded": 151
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "ctrl_sample_h1__flip__wp_pds",
+        "excluded_minus_retained": 0.005418789138867397,
+        "n_excluded": 151
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "ctrl_line__orig__wp_pds",
+        "excluded_minus_retained": -0.11068773518320496,
+        "n_excluded": 151
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "ctrl_line__split__wp_pds",
+        "excluded_minus_retained": -0.10668856410936411,
+        "n_excluded": 151
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "ctrl_line__flip__wp_pds",
+        "excluded_minus_retained": -0.11058418318933994,
+        "n_excluded": 151
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "duplicate__orig__wp_pds",
+        "excluded_minus_retained": 0.035166828759923385,
+        "n_excluded": 151
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "duplicate__split__wp_pds",
+        "excluded_minus_retained": 0.03431269075722487,
+        "n_excluded": 151
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "duplicate__flip__wp_pds",
+        "excluded_minus_retained": 0.0364617363395896,
+        "n_excluded": 151
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__true__orig",
+        "excluded_minus_retained": -0.010468658046389356,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__ctrl_sample_h2__orig",
+        "excluded_minus_retained": -0.0003956636110579526,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__ctrl_sample_h1__orig",
+        "excluded_minus_retained": 0.016795099438977154,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__ctrl_sample__orig",
+        "excluded_minus_retained": -0.015543063271358213,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__ctrl_line__orig",
+        "excluded_minus_retained": 0.0,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__duplicate__orig",
+        "excluded_minus_retained": -0.011101197163261023,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__recipe__orig",
+        "excluded_minus_retained": 0.04131568561061316,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__recipe_fpshuf__orig",
+        "excluded_minus_retained": -0.060954509707688564,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__recipe_fpzero__orig",
+        "excluded_minus_retained": 0.027860403217954577,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__base__orig",
+        "excluded_minus_retained": 0.0075473625466626615,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__base_fpshuf__orig",
+        "excluded_minus_retained": -0.07674228722967064,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__base_fpzero__orig",
+        "excluded_minus_retained": -0.0358266322383661,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__recon_recipe__orig",
+        "excluded_minus_retained": 0.04316491477154816,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__recon_base__orig",
+        "excluded_minus_retained": 0.007276019611171525,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__true__split",
+        "excluded_minus_retained": -0.010806413131573434,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__ctrl_sample_h2__split",
+        "excluded_minus_retained": -0.0030966569356655335,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__ctrl_sample_h1__split",
+        "excluded_minus_retained": 0.013432053681524583,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__ctrl_sample__split",
+        "excluded_minus_retained": -0.017687734602340174,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__ctrl_line__split",
+        "excluded_minus_retained": -0.0007675983693788968,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__duplicate__split",
+        "excluded_minus_retained": -0.012393220182934317,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__recipe__split",
+        "excluded_minus_retained": 0.04329114445900395,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__recipe_fpshuf__split",
+        "excluded_minus_retained": -0.06111354272015279,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__recipe_fpzero__split",
+        "excluded_minus_retained": 0.02839142035746456,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__base__split",
+        "excluded_minus_retained": 0.007302728015975257,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__base_fpshuf__split",
+        "excluded_minus_retained": -0.07695158020720463,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__base_fpzero__split",
+        "excluded_minus_retained": -0.03586728795795038,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__recon_recipe__split",
+        "excluded_minus_retained": 0.04478083312586012,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_0",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__recon_base__split",
+        "excluded_minus_retained": 0.007016803168055252,
+        "n_excluded": 178
+      },
+      {
+        "split": "drug_split_2",
+        "group": "A",
+        "quantity": "gene identity",
+        "arm": "base",
+        "excluded_minus_retained": -0.001044883535391783,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "A",
+        "quantity": "gene identity",
+        "arm": "recipe",
+        "excluded_minus_retained": -0.0047795469854238215,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "A",
+        "quantity": "gene identity",
+        "arm": "ridge_train",
+        "excluded_minus_retained": 0.005297931987602478,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "A",
+        "quantity": "gene identity",
+        "arm": "ridge_S7",
+        "excluded_minus_retained": -0.023765869293291886,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "A",
+        "quantity": "gene identity",
+        "arm": "mean_response",
+        "excluded_minus_retained": -0.004602702704203709,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "A-contrast",
+        "quantity": "gene identity",
+        "arm": "rewired minus original",
+        "excluded_minus_retained": -0.003734663450031983,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "A-contrast",
+        "quantity": "gene identity",
+        "arm": "rewired minus training-set ridge",
+        "excluded_minus_retained": -0.010077478973026105,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "A-contrast",
+        "quantity": "gene identity",
+        "arm": "rewired minus cross-validated ridge",
+        "excluded_minus_retained": 0.018986322307868266,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "A-contrast",
+        "quantity": "gene identity",
+        "arm": "rewired minus compound-blind average",
+        "excluded_minus_retained": -0.00017684428121993168,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "A",
+        "quantity": "response correlation",
+        "arm": "base",
+        "excluded_minus_retained": 0.004586676248349797,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "A",
+        "quantity": "response correlation",
+        "arm": "recipe",
+        "excluded_minus_retained": -0.04504605338231921,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "A",
+        "quantity": "response correlation",
+        "arm": "ridge_train",
+        "excluded_minus_retained": -0.08967411383941906,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "A",
+        "quantity": "response correlation",
+        "arm": "ridge_S7",
+        "excluded_minus_retained": -0.07415403447984176,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "A",
+        "quantity": "response correlation",
+        "arm": "mean_response",
+        "excluded_minus_retained": -0.08065031680304235,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "A-contrast",
+        "quantity": "response correlation",
+        "arm": "rewired minus original",
+        "excluded_minus_retained": -0.049632729630669004,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "A-contrast",
+        "quantity": "response correlation",
+        "arm": "rewired minus training-set ridge",
+        "excluded_minus_retained": 0.04462806045709988,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "A-contrast",
+        "quantity": "response correlation",
+        "arm": "rewired minus cross-validated ridge",
+        "excluded_minus_retained": 0.029107981097522564,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "A-contrast",
+        "quantity": "response correlation",
+        "arm": "rewired minus compound-blind average",
+        "excluded_minus_retained": 0.0356042634207231,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "A",
+        "quantity": "population distance",
+        "arm": "base",
+        "excluded_minus_retained": 0.06219596695557428,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "A",
+        "quantity": "population distance",
+        "arm": "recipe",
+        "excluded_minus_retained": 0.03173807599385847,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "A",
+        "quantity": "population distance",
+        "arm": "ridge_train",
+        "excluded_minus_retained": -0.018943683343932427,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "A",
+        "quantity": "population distance",
+        "arm": "ridge_S7",
+        "excluded_minus_retained": -0.036866690636109395,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "A",
+        "quantity": "population distance",
+        "arm": "mean_response",
+        "excluded_minus_retained": -0.04212267592802771,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "A",
+        "quantity": "population distance",
+        "arm": "control_paste",
+        "excluded_minus_retained": -0.048789527857348275,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "A-contrast",
+        "quantity": "population distance",
+        "arm": "rewired minus original",
+        "excluded_minus_retained": -0.030457890961715695,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "A-contrast",
+        "quantity": "population distance",
+        "arm": "rewired minus training-set ridge",
+        "excluded_minus_retained": 0.05068175933779088,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "A-contrast",
+        "quantity": "population distance",
+        "arm": "rewired minus cross-validated ridge",
+        "excluded_minus_retained": 0.06860476662996788,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "A-contrast",
+        "quantity": "population distance",
+        "arm": "rewired minus compound-blind average",
+        "excluded_minus_retained": 0.07386075192188624,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "A-contrast",
+        "quantity": "population distance",
+        "arm": "rewired minus unaltered vehicle cells",
+        "excluded_minus_retained": 0.08052760385120676,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "A-contrast",
+        "quantity": "population distance",
+        "arm": "original minus unaltered vehicle cells",
+        "excluded_minus_retained": 0.11098549481292252,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (published construction)",
+        "arm": "ridge_S7",
+        "excluded_minus_retained": -0.03170329149983714,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (published construction)",
+        "arm": "ridge_train",
+        "excluded_minus_retained": -0.0647222150408629,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (published construction)",
+        "arm": "mean_response",
+        "excluded_minus_retained": -0.02120409748989649,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (published construction)",
+        "arm": "control_paste",
+        "excluded_minus_retained": 0.0,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (published construction)",
+        "arm": "base",
+        "excluded_minus_retained": 0.0504966545759683,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (published construction)",
+        "arm": "recipe",
+        "excluded_minus_retained": 0.0187053779468499,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (published construction)",
+        "arm": "guidance_w2",
+        "excluded_minus_retained": 0.0079960358498532,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (published construction)",
+        "arm": "attn_cross",
+        "excluded_minus_retained": 0.011761409745213336,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (published construction)",
+        "arm": "mlp_ctrl",
+        "excluded_minus_retained": 0.032235772825943254,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (fingerprint-swap arms)",
+        "arm": "recipe_own_pds",
+        "excluded_minus_retained": 0.0187053779468499,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (fingerprint-swap arms)",
+        "arm": "recipe_shuf_pds",
+        "excluded_minus_retained": 0.00786771486920923,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (fingerprint-swap arms)",
+        "arm": "recipe_zero_pds",
+        "excluded_minus_retained": 0.053294193398212175,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (fingerprint-swap arms)",
+        "arm": "base_own_pds",
+        "excluded_minus_retained": 0.0504966545759683,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (fingerprint-swap arms)",
+        "arm": "base_shuf_pds",
+        "excluded_minus_retained": 0.05596254053207084,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (fingerprint-swap arms)",
+        "arm": "base_zero_pds",
+        "excluded_minus_retained": 0.05982843172704133,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe__orig__pds",
+        "excluded_minus_retained": 0.0187053779468499,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe__split__pds",
+        "excluded_minus_retained": 0.01818426812655205,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe__flip__pds",
+        "excluded_minus_retained": 0.01973453976684314,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe__linemean__pds",
+        "excluded_minus_retained": -0.10895329815746485,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe__none__pds",
+        "excluded_minus_retained": -0.05976737570870433,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe_fpshuf__orig__pds",
+        "excluded_minus_retained": 0.00786771486920923,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe_fpshuf__split__pds",
+        "excluded_minus_retained": 0.008262014774016224,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe_fpshuf__flip__pds",
+        "excluded_minus_retained": 0.009302334639132881,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe_fpshuf__linemean__pds",
+        "excluded_minus_retained": -0.045308532393326106,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe_fpshuf__none__pds",
+        "excluded_minus_retained": 0.026485594921868527,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe_fpzero__orig__pds",
+        "excluded_minus_retained": 0.053294193398212175,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe_fpzero__split__pds",
+        "excluded_minus_retained": 0.05304039485883305,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe_fpzero__flip__pds",
+        "excluded_minus_retained": 0.05666063689810363,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe_fpzero__linemean__pds",
+        "excluded_minus_retained": 0.011107345283195347,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recipe_fpzero__none__pds",
+        "excluded_minus_retained": 0.06496350527517769,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base__orig__pds",
+        "excluded_minus_retained": 0.0504966545759683,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base__split__pds",
+        "excluded_minus_retained": 0.04891485352067759,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base__flip__pds",
+        "excluded_minus_retained": 0.05114446537269446,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base__linemean__pds",
+        "excluded_minus_retained": -0.0338601813489664,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base__none__pds",
+        "excluded_minus_retained": 0.006431569504040446,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base_fpshuf__orig__pds",
+        "excluded_minus_retained": 0.05596254053207084,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base_fpshuf__split__pds",
+        "excluded_minus_retained": 0.055202738180558986,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base_fpshuf__flip__pds",
+        "excluded_minus_retained": 0.05721482338521089,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base_fpshuf__linemean__pds",
+        "excluded_minus_retained": -0.00781348525466985,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base_fpshuf__none__pds",
+        "excluded_minus_retained": 0.021804042359609643,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base_fpzero__orig__pds",
+        "excluded_minus_retained": 0.05982843172704133,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base_fpzero__split__pds",
+        "excluded_minus_retained": 0.05983743914818784,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base_fpzero__flip__pds",
+        "excluded_minus_retained": 0.061752359049712324,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base_fpzero__linemean__pds",
+        "excluded_minus_retained": 0.0028254249452194236,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "base_fpzero__none__pds",
+        "excluded_minus_retained": 0.025025516501823164,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recon_recipe__orig__pds",
+        "excluded_minus_retained": 0.013415308443617047,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recon_recipe__split__pds",
+        "excluded_minus_retained": 0.013421977404165397,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recon_recipe__flip__pds",
+        "excluded_minus_retained": 0.013776840755010289,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recon_recipe__linemean__pds",
+        "excluded_minus_retained": -0.09952178440395676,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recon_recipe__none__pds",
+        "excluded_minus_retained": -0.06223560510260001,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recon_base__orig__pds",
+        "excluded_minus_retained": 0.04684826709092249,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recon_base__split__pds",
+        "excluded_minus_retained": 0.045715758455694866,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recon_base__flip__pds",
+        "excluded_minus_retained": 0.04797048217587441,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recon_base__linemean__pds",
+        "excluded_minus_retained": -0.033662409241163926,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "recon_base__none__pds",
+        "excluded_minus_retained": 0.005557366915147632,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_sample__orig__pds",
+        "excluded_minus_retained": -0.015314212108565095,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_sample__split__pds",
+        "excluded_minus_retained": -0.017553953848466752,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_sample__flip__pds",
+        "excluded_minus_retained": -0.01730787961113872,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_sample__linemean__pds",
+        "excluded_minus_retained": -0.0026940412772090694,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_sample__none__pds",
+        "excluded_minus_retained": 0.04941744740819953,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_sample_h1__orig__pds",
+        "excluded_minus_retained": -0.013801140399320122,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_sample_h1__split__pds",
+        "excluded_minus_retained": -0.011148065552727848,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_sample_h1__flip__pds",
+        "excluded_minus_retained": -0.018030414735413114,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_sample_h1__linemean__pds",
+        "excluded_minus_retained": -0.007697173722043038,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_sample_h1__none__pds",
+        "excluded_minus_retained": 0.0467602712082531,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_line__orig__pds",
+        "excluded_minus_retained": 0.05134905096596454,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_line__split__pds",
+        "excluded_minus_retained": 0.04875794858470428,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_line__flip__pds",
+        "excluded_minus_retained": 0.05426617878824391,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_line__linemean__pds",
+        "excluded_minus_retained": 0.0,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "ctrl_line__none__pds",
+        "excluded_minus_retained": 0.055026843476828735,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "duplicate__orig__pds",
+        "excluded_minus_retained": -0.0008727913166621803,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "duplicate__split__pds",
+        "excluded_minus_retained": -7.320393241472267e-06,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "duplicate__flip__pds",
+        "excluded_minus_retained": -0.000364255212549347,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "duplicate__linemean__pds",
+        "excluded_minus_retained": -0.014193191747743139,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "C",
+        "quantity": "cross-plate discrimination (control-source schemes)",
+        "arm": "duplicate__none__pds",
+        "excluded_minus_retained": -0.0015933732525253985,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recipe__orig__wp_pds",
+        "excluded_minus_retained": 0.01690558999149383,
+        "n_excluded": 324
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recipe__split__wp_pds",
+        "excluded_minus_retained": 0.016520541554332357,
+        "n_excluded": 324
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recipe__flip__wp_pds",
+        "excluded_minus_retained": 0.018766709967987794,
+        "n_excluded": 324
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recipe_fpshuf__orig__wp_pds",
+        "excluded_minus_retained": 0.010033280312848891,
+        "n_excluded": 324
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recipe_fpshuf__split__wp_pds",
+        "excluded_minus_retained": 0.009229571691453664,
+        "n_excluded": 324
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recipe_fpshuf__flip__wp_pds",
+        "excluded_minus_retained": 0.01090075169353788,
+        "n_excluded": 324
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recipe_fpzero__orig__wp_pds",
+        "excluded_minus_retained": 0.07549350858113368,
+        "n_excluded": 324
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recipe_fpzero__split__wp_pds",
+        "excluded_minus_retained": 0.07296416969549929,
+        "n_excluded": 324
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recipe_fpzero__flip__wp_pds",
+        "excluded_minus_retained": 0.07664550357936512,
+        "n_excluded": 324
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "base__orig__wp_pds",
+        "excluded_minus_retained": 0.018433798108187238,
+        "n_excluded": 324
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "base__split__wp_pds",
+        "excluded_minus_retained": 0.017350820633862618,
+        "n_excluded": 324
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "base__flip__wp_pds",
+        "excluded_minus_retained": 0.017389699976810724,
+        "n_excluded": 324
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "base_fpshuf__orig__wp_pds",
+        "excluded_minus_retained": 0.013404810084311714,
+        "n_excluded": 324
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "base_fpshuf__split__wp_pds",
+        "excluded_minus_retained": 0.012822728938731265,
+        "n_excluded": 324
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "base_fpshuf__flip__wp_pds",
+        "excluded_minus_retained": 0.015036147927258658,
+        "n_excluded": 324
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "base_fpzero__orig__wp_pds",
+        "excluded_minus_retained": 0.013547986375143095,
+        "n_excluded": 324
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "base_fpzero__split__wp_pds",
+        "excluded_minus_retained": 0.01443058442276679,
+        "n_excluded": 324
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "base_fpzero__flip__wp_pds",
+        "excluded_minus_retained": 0.014619132794789547,
+        "n_excluded": 324
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recon_recipe__orig__wp_pds",
+        "excluded_minus_retained": 0.01549610934156087,
+        "n_excluded": 324
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recon_recipe__split__wp_pds",
+        "excluded_minus_retained": 0.014633512883522881,
+        "n_excluded": 324
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recon_recipe__flip__wp_pds",
+        "excluded_minus_retained": 0.0178469326130255,
+        "n_excluded": 324
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recon_base__orig__wp_pds",
+        "excluded_minus_retained": 0.018019688068781514,
+        "n_excluded": 324
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recon_base__split__wp_pds",
+        "excluded_minus_retained": 0.01878066750761287,
+        "n_excluded": 324
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "recon_base__flip__wp_pds",
+        "excluded_minus_retained": 0.01773728978120559,
+        "n_excluded": 324
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "ctrl_sample__orig__wp_pds",
+        "excluded_minus_retained": -0.008828138378674355,
+        "n_excluded": 324
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "ctrl_sample__split__wp_pds",
+        "excluded_minus_retained": -0.013332795506840245,
+        "n_excluded": 324
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "ctrl_sample__flip__wp_pds",
+        "excluded_minus_retained": -0.007358941902752436,
+        "n_excluded": 324
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "ctrl_sample_h1__orig__wp_pds",
+        "excluded_minus_retained": -0.01586249899161507,
+        "n_excluded": 324
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "ctrl_sample_h1__split__wp_pds",
+        "excluded_minus_retained": -0.0198382559766645,
+        "n_excluded": 324
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "ctrl_sample_h1__flip__wp_pds",
+        "excluded_minus_retained": -0.01484321118841958,
+        "n_excluded": 324
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "ctrl_line__orig__wp_pds",
+        "excluded_minus_retained": 0.07422791191955458,
+        "n_excluded": 324
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "ctrl_line__split__wp_pds",
+        "excluded_minus_retained": 0.07069850752836138,
+        "n_excluded": 324
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "ctrl_line__flip__wp_pds",
+        "excluded_minus_retained": 0.07627214985639003,
+        "n_excluded": 324
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "duplicate__orig__wp_pds",
+        "excluded_minus_retained": -0.00848029694473973,
+        "n_excluded": 324
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "duplicate__split__wp_pds",
+        "excluded_minus_retained": -0.007823455564875403,
+        "n_excluded": 324
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "within-plate discrimination and plate residual",
+        "arm": "duplicate__flip__wp_pds",
+        "excluded_minus_retained": -0.00989729419551999,
+        "n_excluded": 324
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__true__orig",
+        "excluded_minus_retained": 0.03899811923900903,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__ctrl_sample_h2__orig",
+        "excluded_minus_retained": 0.0015941090247181525,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__ctrl_sample_h1__orig",
+        "excluded_minus_retained": -0.003059304008621184,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__ctrl_sample__orig",
+        "excluded_minus_retained": -0.010422075994708034,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__ctrl_line__orig",
+        "excluded_minus_retained": 0.0,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__duplicate__orig",
+        "excluded_minus_retained": 0.03843053126402962,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__recipe__orig",
+        "excluded_minus_retained": 0.03532589017792742,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__recipe_fpshuf__orig",
+        "excluded_minus_retained": 0.05279637800234427,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__recipe_fpzero__orig",
+        "excluded_minus_retained": 0.014918359718959384,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__base__orig",
+        "excluded_minus_retained": 0.01606053408605157,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__base_fpshuf__orig",
+        "excluded_minus_retained": 0.02074709977487693,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__base_fpzero__orig",
+        "excluded_minus_retained": 0.013642166074040063,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__recon_recipe__orig",
+        "excluded_minus_retained": 0.04069771996328386,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__recon_base__orig",
+        "excluded_minus_retained": 0.0171245990027048,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__true__split",
+        "excluded_minus_retained": 0.03635194056078683,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__ctrl_sample_h2__split",
+        "excluded_minus_retained": -0.0011157637707797541,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__ctrl_sample_h1__split",
+        "excluded_minus_retained": -0.0028355633254195205,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__ctrl_sample__split",
+        "excluded_minus_retained": -0.011652292962660862,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__ctrl_line__split",
+        "excluded_minus_retained": 0.0022799732251186366,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__duplicate__split",
+        "excluded_minus_retained": 0.03582330161674696,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__recipe__split",
+        "excluded_minus_retained": 0.034673223041746026,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__recipe_fpshuf__split",
+        "excluded_minus_retained": 0.051388956837148614,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__recipe_fpzero__split",
+        "excluded_minus_retained": 0.01389290895226769,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__base__split",
+        "excluded_minus_retained": 0.01630698327863439,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__base_fpshuf__split",
+        "excluded_minus_retained": 0.020963673666503535,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__base_fpzero__split",
+        "excluded_minus_retained": 0.01395260950121846,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__recon_recipe__split",
+        "excluded_minus_retained": 0.039890479690339764,
+        "n_excluded": 406
+      },
+      {
+        "split": "drug_split_2",
+        "group": "D",
+        "quantity": "plate residual",
+        "arm": "residual__recon_base__split",
+        "excluded_minus_retained": 0.01736309121126839,
+        "n_excluded": 406
+      }
+    ]
+  },
+  "metrics_proved": [
+    "de_overlap",
+    "dpc_mean",
+    "energy"
+  ],
+  "n_rows": 525,
+  "interval": "97.5% percentile per split, structure-clustered, fresh RandomState(0) per scored set",
+  "gates": "gate 1: per-line nanmean equals step15_model_long to 1e-09; gate 2: s23.Boot equals score_step15_tahoe.boot (s15.rng reset to RandomState(0) per call) to 5e-06",
+  "gate2_largest_difference": {
+    "drug_split_1": 1.1102230246251565e-16,
+    "drug_split_0": 4.440892098500626e-16,
+    "drug_split_2": 1.1102230246251565e-16
+  },
+  "scope": "Tahoe-100M, prereg groups A, C, D; group E withdrawn (dated amendment); group B (sci-Plex) is a separate script",
+  "seconds": 119.9
+}

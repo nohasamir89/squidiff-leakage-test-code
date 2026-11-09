@@ -1,0 +1,4 @@
+split,n_conditions,n_structures,excluded_structures,excluded_conditions,retained_conditions,excluded_fraction,matched_by
+drug_split_1,2899,75,S0012 S0052 S0077 S0142 S0190 S0216 S0317 S0326,384,2515,0.132459,table_smiles
+drug_split_0,3115,75,S0058 S0141 S0204 S0287,178,2937,0.057143,table_smiles
+drug_split_2,2853,75,S0011 S0095 S0137 S0139 S0191 S0241 S0258 S0343 S0345,406,2447,0.142306,table_smiles

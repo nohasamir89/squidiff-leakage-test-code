@@ -311,3 +311,14 @@ make_fig6_discrimination.py
 make_fig5_schematic.py
 make_fig1a_design.py
 figures/squidiff_publication_figures/fig4_values.csv
+score_step28_salt_twins.py
+gen28.py
+run_step28_score.sh
+run_gen28.sh
+check_split_parent_overlap.py
+PREREG_step28_salt_twins.md
+step28_findings.md
+leakage_results/split_parent_overlap.json
+tahoe_results/step28_salt_twins.json
+tahoe_results/step28_salt_twins_per_quantity.csv
+tahoe_results/step28_salt_twins_summary.csv
