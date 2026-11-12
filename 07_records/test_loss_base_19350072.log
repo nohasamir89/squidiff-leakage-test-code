@@ -1,0 +1,199 @@
+[node] cn260  [commit] bda064a  [branch] step15-tahoe
+[gpu] NVIDIA A100 80GB PCIe
+b9ce58ef28d7ecab4a67577b06efb566  compute_test_loss_base.py
+4cd4c2e34d134514784e12ed1e1c8948  compute_test_loss.py
+[env] commit bda064a  torch 2.5.1+cu121  device NVIDIA A100 80GB PCIe
+[identity] drug_split_0 seed 0  sha256 = replication record  params 54229254 < 58186374  adaLN-only keys 12 (mlp_blocks.0, mlp_blocks.1, mlp_blocks.2)  base-only keys 0  shared keys with other shape 0
+[identity] drug_split_0 seed 1  sha256 = replication record  params 54229254 < 58186374  adaLN-only keys 12 (mlp_blocks.0, mlp_blocks.1, mlp_blocks.2)  base-only keys 0  shared keys with other shape 0
+[identity] drug_split_0 seed 2  sha256 = replication record  params 54229254 < 58186374  adaLN-only keys 12 (mlp_blocks.0, mlp_blocks.1, mlp_blocks.2)  base-only keys 0  shared keys with other shape 0
+[identity] drug_split_0 seed 3  sha256 = replication record  params 54229254 < 58186374  adaLN-only keys 12 (mlp_blocks.0, mlp_blocks.1, mlp_blocks.2)  base-only keys 0  shared keys with other shape 0
+[identity] drug_split_0 seed 4  sha256 = replication record  params 54229254 < 58186374  adaLN-only keys 12 (mlp_blocks.0, mlp_blocks.1, mlp_blocks.2)  base-only keys 0  shared keys with other shape 0
+[identity] drug_split_2 seed 0  sha256 = replication record  params 54229254 < 58186374  adaLN-only keys 12 (mlp_blocks.0, mlp_blocks.1, mlp_blocks.2)  base-only keys 0  shared keys with other shape 0
+[identity] drug_split_2 seed 1  sha256 = replication record  params 54229254 < 58186374  adaLN-only keys 12 (mlp_blocks.0, mlp_blocks.1, mlp_blocks.2)  base-only keys 0  shared keys with other shape 0
+[identity] drug_split_2 seed 2  sha256 = replication record  params 54229254 < 58186374  adaLN-only keys 12 (mlp_blocks.0, mlp_blocks.1, mlp_blocks.2)  base-only keys 0  shared keys with other shape 0
+[identity] drug_split_2 seed 3  sha256 = replication record  params 54229254 < 58186374  adaLN-only keys 12 (mlp_blocks.0, mlp_blocks.1, mlp_blocks.2)  base-only keys 0  shared keys with other shape 0
+[identity] drug_split_2 seed 4  sha256 = replication record  params 54229254 < 58186374  adaLN-only keys 12 (mlp_blocks.0, mlp_blocks.1, mlp_blocks.2)  base-only keys 0  shared keys with other shape 0
+[gate] recomputing drug_split_0_ddim_seed0 from /scratch/ni2071/Diffusion/Squidiff_git/Squidiff/step6b/drug_split_0_ddim/seed_0/model_0.9999.pt
+load model and diffusion...
+drug encoding detected from checkpoint: fingerprint (drug_dimension=1024)
+encoder arm detected from checkpoint: mlp (memory_size=0)
+checkpoint architecture: adaLN-Zero
+diffusion num of steps =  1000
+effective use_adaln=True use_adaln_timeonly=False (3 blocks)
+  [objective] DDIM (from the sampler)
+load model and diffusion...
+drug encoding detected from checkpoint: fingerprint (drug_dimension=1024)
+encoder arm detected from checkpoint: mlp (memory_size=0)
+checkpoint architecture: adaLN-Zero
+diffusion num of steps =  1000
+effective use_adaln=True use_adaln_timeonly=False (3 blocks)
+  [objective] DDIM (from the sampler)
+[gate] train 0.01097384 (record 0.01097384, diff 7.45e-10)  test 0.01008466 (record 0.01008466, diff 3.49e-10)
+[gate] PASS
+[score] drug_split_0 base seed 0
+load model and diffusion...
+drug encoding detected from checkpoint: fingerprint (drug_dimension=1024)
+encoder arm detected from checkpoint: mlp (memory_size=0)
+checkpoint architecture: base
+diffusion num of steps =  1000
+effective use_adaln=False use_adaln_timeonly=False (3 blocks)
+  [objective] DDIM (from the sampler)
+load model and diffusion...
+drug encoding detected from checkpoint: fingerprint (drug_dimension=1024)
+encoder arm detected from checkpoint: mlp (memory_size=0)
+checkpoint architecture: base
+diffusion num of steps =  1000
+effective use_adaln=False use_adaln_timeonly=False (3 blocks)
+  [objective] DDIM (from the sampler)
+drug_split_0_base_seed0      train 0.01215  test 0.01111  ratio 0.914
+[score] drug_split_0 base seed 1
+load model and diffusion...
+drug encoding detected from checkpoint: fingerprint (drug_dimension=1024)
+encoder arm detected from checkpoint: mlp (memory_size=0)
+checkpoint architecture: base
+diffusion num of steps =  1000
+effective use_adaln=False use_adaln_timeonly=False (3 blocks)
+  [objective] DDIM (from the sampler)
+load model and diffusion...
+drug encoding detected from checkpoint: fingerprint (drug_dimension=1024)
+encoder arm detected from checkpoint: mlp (memory_size=0)
+checkpoint architecture: base
+diffusion num of steps =  1000
+effective use_adaln=False use_adaln_timeonly=False (3 blocks)
+  [objective] DDIM (from the sampler)
+drug_split_0_base_seed1      train 0.01227  test 0.01112  ratio 0.907
+[score] drug_split_0 base seed 2
+load model and diffusion...
+drug encoding detected from checkpoint: fingerprint (drug_dimension=1024)
+encoder arm detected from checkpoint: mlp (memory_size=0)
+checkpoint architecture: base
+diffusion num of steps =  1000
+effective use_adaln=False use_adaln_timeonly=False (3 blocks)
+  [objective] DDIM (from the sampler)
+load model and diffusion...
+drug encoding detected from checkpoint: fingerprint (drug_dimension=1024)
+encoder arm detected from checkpoint: mlp (memory_size=0)
+checkpoint architecture: base
+diffusion num of steps =  1000
+effective use_adaln=False use_adaln_timeonly=False (3 blocks)
+  [objective] DDIM (from the sampler)
+drug_split_0_base_seed2      train 0.01222  test 0.01107  ratio 0.906
+[score] drug_split_0 base seed 3
+load model and diffusion...
+drug encoding detected from checkpoint: fingerprint (drug_dimension=1024)
+encoder arm detected from checkpoint: mlp (memory_size=0)
+checkpoint architecture: base
+diffusion num of steps =  1000
+effective use_adaln=False use_adaln_timeonly=False (3 blocks)
+  [objective] DDIM (from the sampler)
+load model and diffusion...
+drug encoding detected from checkpoint: fingerprint (drug_dimension=1024)
+encoder arm detected from checkpoint: mlp (memory_size=0)
+checkpoint architecture: base
+diffusion num of steps =  1000
+effective use_adaln=False use_adaln_timeonly=False (3 blocks)
+  [objective] DDIM (from the sampler)
+drug_split_0_base_seed3      train 0.01234  test 0.01123  ratio 0.910
+[score] drug_split_0 base seed 4
+load model and diffusion...
+drug encoding detected from checkpoint: fingerprint (drug_dimension=1024)
+encoder arm detected from checkpoint: mlp (memory_size=0)
+checkpoint architecture: base
+diffusion num of steps =  1000
+effective use_adaln=False use_adaln_timeonly=False (3 blocks)
+  [objective] DDIM (from the sampler)
+load model and diffusion...
+drug encoding detected from checkpoint: fingerprint (drug_dimension=1024)
+encoder arm detected from checkpoint: mlp (memory_size=0)
+checkpoint architecture: base
+diffusion num of steps =  1000
+effective use_adaln=False use_adaln_timeonly=False (3 blocks)
+  [objective] DDIM (from the sampler)
+drug_split_0_base_seed4      train 0.01216  test 0.01098  ratio 0.903
+[score] drug_split_2 base seed 0
+load model and diffusion...
+drug encoding detected from checkpoint: fingerprint (drug_dimension=1024)
+encoder arm detected from checkpoint: mlp (memory_size=0)
+checkpoint architecture: base
+diffusion num of steps =  1000
+effective use_adaln=False use_adaln_timeonly=False (3 blocks)
+  [objective] DDIM (from the sampler)
+load model and diffusion...
+drug encoding detected from checkpoint: fingerprint (drug_dimension=1024)
+encoder arm detected from checkpoint: mlp (memory_size=0)
+checkpoint architecture: base
+diffusion num of steps =  1000
+effective use_adaln=False use_adaln_timeonly=False (3 blocks)
+  [objective] DDIM (from the sampler)
+drug_split_2_base_seed0      train 0.01200  test 0.01229  ratio 1.024
+[score] drug_split_2 base seed 1
+load model and diffusion...
+drug encoding detected from checkpoint: fingerprint (drug_dimension=1024)
+encoder arm detected from checkpoint: mlp (memory_size=0)
+checkpoint architecture: base
+diffusion num of steps =  1000
+effective use_adaln=False use_adaln_timeonly=False (3 blocks)
+  [objective] DDIM (from the sampler)
+load model and diffusion...
+drug encoding detected from checkpoint: fingerprint (drug_dimension=1024)
+encoder arm detected from checkpoint: mlp (memory_size=0)
+checkpoint architecture: base
+diffusion num of steps =  1000
+effective use_adaln=False use_adaln_timeonly=False (3 blocks)
+  [objective] DDIM (from the sampler)
+drug_split_2_base_seed1      train 0.01179  test 0.01215  ratio 1.031
+[score] drug_split_2 base seed 2
+load model and diffusion...
+drug encoding detected from checkpoint: fingerprint (drug_dimension=1024)
+encoder arm detected from checkpoint: mlp (memory_size=0)
+checkpoint architecture: base
+diffusion num of steps =  1000
+effective use_adaln=False use_adaln_timeonly=False (3 blocks)
+  [objective] DDIM (from the sampler)
+load model and diffusion...
+drug encoding detected from checkpoint: fingerprint (drug_dimension=1024)
+encoder arm detected from checkpoint: mlp (memory_size=0)
+checkpoint architecture: base
+diffusion num of steps =  1000
+effective use_adaln=False use_adaln_timeonly=False (3 blocks)
+  [objective] DDIM (from the sampler)
+drug_split_2_base_seed2      train 0.01222  test 0.01246  ratio 1.019
+[score] drug_split_2 base seed 3
+load model and diffusion...
+drug encoding detected from checkpoint: fingerprint (drug_dimension=1024)
+encoder arm detected from checkpoint: mlp (memory_size=0)
+checkpoint architecture: base
+diffusion num of steps =  1000
+effective use_adaln=False use_adaln_timeonly=False (3 blocks)
+  [objective] DDIM (from the sampler)
+load model and diffusion...
+drug encoding detected from checkpoint: fingerprint (drug_dimension=1024)
+encoder arm detected from checkpoint: mlp (memory_size=0)
+checkpoint architecture: base
+diffusion num of steps =  1000
+effective use_adaln=False use_adaln_timeonly=False (3 blocks)
+  [objective] DDIM (from the sampler)
+drug_split_2_base_seed3      train 0.01215  test 0.01236  ratio 1.017
+[score] drug_split_2 base seed 4
+load model and diffusion...
+drug encoding detected from checkpoint: fingerprint (drug_dimension=1024)
+encoder arm detected from checkpoint: mlp (memory_size=0)
+checkpoint architecture: base
+diffusion num of steps =  1000
+effective use_adaln=False use_adaln_timeonly=False (3 blocks)
+  [objective] DDIM (from the sampler)
+load model and diffusion...
+drug encoding detected from checkpoint: fingerprint (drug_dimension=1024)
+encoder arm detected from checkpoint: mlp (memory_size=0)
+checkpoint architecture: base
+diffusion num of steps =  1000
+effective use_adaln=False use_adaln_timeonly=False (3 blocks)
+  [objective] DDIM (from the sampler)
+drug_split_2_base_seed4      train 0.01197  test 0.01232  ratio 1.029
+
+split          train mean (SD)        test mean (SD)         ratio      range over seeds
+drug_split_0   0.01223 (0.00008)      0.01110 (0.00009)      0.908      0.903 - 0.914
+drug_split_2   0.01203 (0.00017)      0.01232 (0.00011)      1.024      1.017 - 1.031
+
+wrote leakage_results/test_loss_base.json
+[Thu Nov 12 00:50:49 +04 2026] DONE

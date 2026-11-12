@@ -342,3 +342,7 @@ make_supp_table_s3.py
 supplementary_tables/supp_table_S3.csv
 supplementary_tables/supp_table_S3.md
 step22_findings.md
+compute_test_loss_base.py
+run_test_loss_base.sh
+leakage_results/test_loss_base.json
+leakage_results/test_loss_base_19350072.log
