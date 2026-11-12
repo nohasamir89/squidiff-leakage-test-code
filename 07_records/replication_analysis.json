@@ -1,0 +1,351 @@
+{
+  "verdict": "FULL REPLICATION",
+  "splits_positive": [
+    "drug_split_0",
+    "drug_split_2"
+  ],
+  "splits_negative": [],
+  "prereg": "PREREG_step4_replication.md",
+  "K": 50,
+  "n_seeds": 5,
+  "bootstrap": {
+    "n": 5000,
+    "seed": 0,
+    "unit": "drug"
+  },
+  "analysis_commit": "158ec3e7d8b0a8e9240acf526845f82f5bea9d6f",
+  "analysis_script_sha256": "dd0e96a9728525db34bbf6ffc8f4e98fb22fc77f997e73d1d61c5499e0eeb61f",
+  "pair_audit_sha256": "b9d3851084ed8e969aa4358f7f7b5cff7458e13fae531baec8a6b656b43b7fa4",
+  "evaluation_common": {
+    "harness_sha256": "250368f3fa706a5726ec840f107d4c9d45b2c32a92adba38cf0fc358799b70a7",
+    "sampler_sha256": "b47a751d6d442ca9b53630391fbbb372e1b10f46e4c2452eb52f1deb9201153f"
+  },
+  "vectors": {
+    "drug_split_0/base/seed0": {
+      "vector_path": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/leakage_results/vectors_repl_drug_split_0_base_seed_0.npz",
+      "vector_sha256": "d7ba3d6b0f0ac076d73c019d702b1b4968ad83441d19464cccabe27d4e51cc22",
+      "eval_provenance": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/provenance/repleval_repl_drug_split_0_base_seed_0.json",
+      "eval_provenance_sha256": "a3bced6cbdfee845f2e478b0a2a3baec6d0b734d7661d04aa8f03596256bd216",
+      "checkpoint_sha256": "e6275cb483c4cd26252f5cf825f2a2240ce1c96c6892821befaee3e2400531c3"
+    },
+    "drug_split_0/base/seed1": {
+      "vector_path": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/leakage_results/vectors_repl_drug_split_0_base_seed_1.npz",
+      "vector_sha256": "75e4b06e0778c2cf50d72749aaf9b7ec914b4b98475d70043b88399eb3f1f9f8",
+      "eval_provenance": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/provenance/repleval_repl_drug_split_0_base_seed_1.json",
+      "eval_provenance_sha256": "8f06e894d6c24f89cd93098a5c0c484c97546768d50e3734ca7df0111a9d187b",
+      "checkpoint_sha256": "6c97aec774122bc392fb2edbd12f1de2a33948527c85f8103c5060d7cea639ad"
+    },
+    "drug_split_0/base/seed2": {
+      "vector_path": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/leakage_results/vectors_repl_drug_split_0_base_seed_2.npz",
+      "vector_sha256": "4ccfb3f8500aa8c625733dd01fc6caa724a87beb7b4cf14de661c0b808a491c4",
+      "eval_provenance": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/provenance/repleval_repl_drug_split_0_base_seed_2.json",
+      "eval_provenance_sha256": "fe5e29cdf824e2b2119646ab9382ac06cdf12b6f9dd9ddc38c544d3b681538c3",
+      "checkpoint_sha256": "0c35ae36f72fd22bbd127195b0ea297f7b3bd3fcebf12e93b72fa6b4a469c272"
+    },
+    "drug_split_0/base/seed3": {
+      "vector_path": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/leakage_results/vectors_repl_drug_split_0_base_seed_3.npz",
+      "vector_sha256": "8ea290a59177e343f03723ef79156dc07bd94f074d8628c9d6735a29f34e8f93",
+      "eval_provenance": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/provenance/repleval_repl_drug_split_0_base_seed_3.json",
+      "eval_provenance_sha256": "1cd2d1023fc23d6371ee95c952866e491561baea354245edf0a42887a12ef42b",
+      "checkpoint_sha256": "a6940532ad253df162722ccf43b77415e9462a6d740c136fc127ffada7eccb75"
+    },
+    "drug_split_0/base/seed4": {
+      "vector_path": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/leakage_results/vectors_repl_drug_split_0_base_seed_4.npz",
+      "vector_sha256": "883f9a98af9ddf92d28756451a0bbf43db05564a7f1c96d938032f27790806e9",
+      "eval_provenance": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/provenance/repleval_repl_drug_split_0_base_seed_4.json",
+      "eval_provenance_sha256": "695d6d07665bab87e7ecd64522871a260d56b7b2c4a30c4a3cad3ece85c58d92",
+      "checkpoint_sha256": "479ff26beb89097023b790c08eb4f5f073d1b56117d712da3944f9ef33b35f0e"
+    },
+    "drug_split_0/adaln/seed0": {
+      "vector_path": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/leakage_results/vectors_repl_drug_split_0_adaln_seed_0.npz",
+      "vector_sha256": "31330a166764fec3cd8b5818da94e27fe178016510cc2f15904b3d1c63d7794e",
+      "eval_provenance": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/provenance/repleval_repl_drug_split_0_adaln_seed_0.json",
+      "eval_provenance_sha256": "fe56306953463c54efc4f3fddb52b7cfdff97f262c5ecb1f522a5e159a105514",
+      "checkpoint_sha256": "d9048f1f7811931546522e1fcdb08a51d6a9fa904dd33e376e2ca9afd7a24390"
+    },
+    "drug_split_0/adaln/seed1": {
+      "vector_path": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/leakage_results/vectors_repl_drug_split_0_adaln_seed_1.npz",
+      "vector_sha256": "3aa7c2b8640b12f23113a9233a3f0205dfcbf5704e44ffa514342d86ccf909d2",
+      "eval_provenance": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/provenance/repleval_repl_drug_split_0_adaln_seed_1.json",
+      "eval_provenance_sha256": "cd1577ea16997d083eba3c73c1d4152a1bbc174bb03407ab1187bb63d2447d97",
+      "checkpoint_sha256": "dd095fb90bf85eeb757954c4d862c92261767d10b0b2ba5ed7c4686b92856be1"
+    },
+    "drug_split_0/adaln/seed2": {
+      "vector_path": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/leakage_results/vectors_repl_drug_split_0_adaln_seed_2.npz",
+      "vector_sha256": "c5851a9d6962601e117aecea388e87ac9ec332efa8d1ea40604e32e3fb0d1d81",
+      "eval_provenance": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/provenance/repleval_repl_drug_split_0_adaln_seed_2.json",
+      "eval_provenance_sha256": "303e7c1f43e3cd996d9141ce42bb70ebaf10f5447d5a054f7f03118b1e7159ac",
+      "checkpoint_sha256": "4a5a041d6c304d13df145cffd9e143c7769ec29ebf602f87dd595dd214f5521c"
+    },
+    "drug_split_0/adaln/seed3": {
+      "vector_path": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/leakage_results/vectors_repl_drug_split_0_adaln_seed_3.npz",
+      "vector_sha256": "497beb263edf491083ebbb7add7c3e8b93953b976e279b043922870f06c044a8",
+      "eval_provenance": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/provenance/repleval_repl_drug_split_0_adaln_seed_3.json",
+      "eval_provenance_sha256": "634f45594c17db54ecb51b94c65b201d985c7d7ad6196228b6d98545f909ad67",
+      "checkpoint_sha256": "8eb09cf2e48f68caf02afd536914d9eebd09cdf676917fb6a0e5593b52d025c1"
+    },
+    "drug_split_0/adaln/seed4": {
+      "vector_path": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/leakage_results/vectors_repl_drug_split_0_adaln_seed_4.npz",
+      "vector_sha256": "0f7081bc3af6b024b6ba7552fea3faf8034e8f12ce3265fe8af9c1b1907f3e3b",
+      "eval_provenance": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/provenance/repleval_repl_drug_split_0_adaln_seed_4.json",
+      "eval_provenance_sha256": "b09356aabee6ad601240744d8d733088ca4f78a94294fbf1f1d4408ef9272873",
+      "checkpoint_sha256": "213e083f4dd53e634f939419d7008bc16d11260610255059ad472e6d27b6556d"
+    },
+    "drug_split_2/base/seed0": {
+      "vector_path": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/leakage_results/vectors_repl_drug_split_2_base_seed_0.npz",
+      "vector_sha256": "7c8ceccb634005c76995a259d0b5eb4789fbeb4bfd00f8e99f562afd7eff469d",
+      "eval_provenance": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/provenance/repleval_repl_drug_split_2_base_seed_0.json",
+      "eval_provenance_sha256": "fedc6f16fcbc2f4324dd3343174b2da26644387330de51457850a61701760948",
+      "checkpoint_sha256": "42cb63fa56bc22797e2e2985a1f0b187606386da6d5da1d4c0793c4164eedece"
+    },
+    "drug_split_2/base/seed1": {
+      "vector_path": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/leakage_results/vectors_repl_drug_split_2_base_seed_1.npz",
+      "vector_sha256": "27b760c0de5dc530a53b76fa85b73d7fea08302a0b1011dc09ffee10c0bfb3a1",
+      "eval_provenance": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/provenance/repleval_repl_drug_split_2_base_seed_1.json",
+      "eval_provenance_sha256": "b8696c237f4f5ce8d9714f4306f1f646927c7efa7e261b8826301a34fbf4fc89",
+      "checkpoint_sha256": "8f435fbe350e2d90eac8f1bb2a7cc66ba2c9de8988d2059de3c68c68e046e195"
+    },
+    "drug_split_2/base/seed2": {
+      "vector_path": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/leakage_results/vectors_repl_drug_split_2_base_seed_2.npz",
+      "vector_sha256": "b493fc50e13355d468ce18d15fce350b25bd63fcdffbf7412156fbd14a6b1a4d",
+      "eval_provenance": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/provenance/repleval_repl_drug_split_2_base_seed_2.json",
+      "eval_provenance_sha256": "09e99bb58330a34fdf8dc587840046dc0ee9e539576518867181e08169217773",
+      "checkpoint_sha256": "7adda447a3f3b7af0813bed4db2f8d392e797ebeda0b92b567b2f1893ffa688b"
+    },
+    "drug_split_2/base/seed3": {
+      "vector_path": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/leakage_results/vectors_repl_drug_split_2_base_seed_3.npz",
+      "vector_sha256": "076e6f17530375eacb6cc580e2d82a01e23e2e9603915d9904ac291a2ddda803",
+      "eval_provenance": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/provenance/repleval_repl_drug_split_2_base_seed_3.json",
+      "eval_provenance_sha256": "c6cb83f12748dc0501469029302cf09cefa5db2c44b71efd3077e185585cf847",
+      "checkpoint_sha256": "2c4c194c24e55d167c39b7e1e0e7b506367c9feb7378540a2e9cc0232f773a8f"
+    },
+    "drug_split_2/base/seed4": {
+      "vector_path": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/leakage_results/vectors_repl_drug_split_2_base_seed_4.npz",
+      "vector_sha256": "833408c3cae50efbdb5ee8588234ed2f3b69e26d7a4ce6e87f11bd17c54147c5",
+      "eval_provenance": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/provenance/repleval_repl_drug_split_2_base_seed_4.json",
+      "eval_provenance_sha256": "a8c8cbed37e98d8153647ca2f3ecb4e96fff2d46b29cf631dc35478f2f0c2b6f",
+      "checkpoint_sha256": "f60bbd84ef61e0294911caf084ad611fab8e1f95db8e3f552ba665bca8b4638f"
+    },
+    "drug_split_2/adaln/seed0": {
+      "vector_path": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/leakage_results/vectors_repl_drug_split_2_adaln_seed_0.npz",
+      "vector_sha256": "a599a666c7e7c048deab81c44d0bde31af16694b12a2751a9a2a3142d2ee1618",
+      "eval_provenance": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/provenance/repleval_repl_drug_split_2_adaln_seed_0.json",
+      "eval_provenance_sha256": "47b935982669c1f2b7674d69cf041e5e4fb01bb48d71fd79c25a5d42185b5658",
+      "checkpoint_sha256": "ac0f61935a0154cf9db3da419fe7c5e79073fc9c13ec1dd8da21b6d14baa4716"
+    },
+    "drug_split_2/adaln/seed1": {
+      "vector_path": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/leakage_results/vectors_repl_drug_split_2_adaln_seed_1.npz",
+      "vector_sha256": "d0b2ed6857dad1bc7a8b93b89796a48efa31a7b4c731bab3f6ab5951d94e1bf3",
+      "eval_provenance": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/provenance/repleval_repl_drug_split_2_adaln_seed_1.json",
+      "eval_provenance_sha256": "1f5840b5822f0cd5b7b457bc91db63232000ed1dde8a73ad9ffc9f360aa17ce1",
+      "checkpoint_sha256": "5142b3143800e855e0c87c31346bcc26da54a9dfd52383446345107f66687714"
+    },
+    "drug_split_2/adaln/seed2": {
+      "vector_path": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/leakage_results/vectors_repl_drug_split_2_adaln_seed_2.npz",
+      "vector_sha256": "02db0ad3bd117ac6ab51b33d0456304452c6db82976de31d626b74951bacbff9",
+      "eval_provenance": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/provenance/repleval_repl_drug_split_2_adaln_seed_2.json",
+      "eval_provenance_sha256": "1e18c5e84707d4107b5ee965a63d183e0f0be7f0f99fd9cf96b75a779ac1131e",
+      "checkpoint_sha256": "b3f0cb120d31ee8e5c236bfad8ccae39a3ae0712940c294302f9b2859c6e5224"
+    },
+    "drug_split_2/adaln/seed3": {
+      "vector_path": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/leakage_results/vectors_repl_drug_split_2_adaln_seed_3.npz",
+      "vector_sha256": "c8d4417267ee47270a8c1e57e08be8a4fe3372e17ce69612cfe0f2ee3ffa2ee4",
+      "eval_provenance": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/provenance/repleval_repl_drug_split_2_adaln_seed_3.json",
+      "eval_provenance_sha256": "f7442ffe531e3e08cf2934ada741e48575be58cf6f2207b00fc25816ba56df6a",
+      "checkpoint_sha256": "8b6c890adc2395cde29c9f90e80ec1ee387e3e99c7a86af232da7e9949d9c494"
+    },
+    "drug_split_2/adaln/seed4": {
+      "vector_path": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/leakage_results/vectors_repl_drug_split_2_adaln_seed_4.npz",
+      "vector_sha256": "242940ec9926f07924d45bfbe853b4bb6c30ba29d94731a40fdf6657ef6fdc01",
+      "eval_provenance": "/scratch/ni2071/Diffusion/Squidiff_git/Squidiff/provenance/repleval_repl_drug_split_2_adaln_seed_4.json",
+      "eval_provenance_sha256": "e1d9b89047c470d16ea4f2d8ca5575d9cb74b2fc184408ceaba0b26bc3b56ef9",
+      "checkpoint_sha256": "ff30eb73937c2e800d066af604c846b0c22e6cc58c900e2834d384e1440c0993"
+    }
+  },
+  "results": {
+    "drug_split_0": {
+      "n_conditions": 444,
+      "n_drugs": 37,
+      "delta_raw": 0.05379763093003809,
+      "ci_raw": [
+        0.03762314555681975,
+        0.06997211630325642
+      ],
+      "welch_df": 5.061113254506107,
+      "delta_cc": 0.06647036103143256,
+      "ci_cc": [
+        0.046485765731063125,
+        0.08645495633180197
+      ],
+      "perm_p": 0.007936507936507936,
+      "n_perm": 252,
+      "secondary": {
+        "B-C (condition mean)": {
+          "n_common": 444,
+          "base": [
+            -0.07986732115885159,
+            -0.08155442086291743,
+            -0.07608526159782668,
+            -0.08108308156197136,
+            -0.07871561379985767
+          ],
+          "adaln": [
+            -0.03137190287580361,
+            -0.028149060300878576,
+            -0.030581039082896604,
+            -0.03272726289458103,
+            -0.03017444767661997
+          ],
+          "delta": 0.048860397230129,
+          "ci": [
+            0.04598249989061231,
+            0.05173829456964569
+          ]
+        },
+        "DPC-50 (condition median)": {
+          "n_common": 444,
+          "base": [
+            0.01723000407218933,
+            0.014307724311947823,
+            0.0006679985672235489,
+            -0.002470109611749649,
+            0.025638170540332794
+          ],
+          "adaln": [
+            0.06755128502845764,
+            0.09441379830241203,
+            0.11082569882273674,
+            0.08435283973813057,
+            0.08173195645213127
+          ],
+          "delta": 0.07670035809278487,
+          "ci": [
+            0.055839775000832204,
+            0.09756094118473754
+          ]
+        }
+      },
+      "raw": {
+        "base": [
+          0.5121749121142228,
+          0.505532639367001,
+          0.505202121261453,
+          0.5004568770143198,
+          0.5002187847496893
+        ],
+        "adaln": [
+          0.5805629848799813,
+          0.5584923809436622,
+          0.5452606511687113,
+          0.5552274708895418,
+          0.5530300012749798
+        ]
+      },
+      "paired_median": 0.041798696998150364,
+      "paired_ci": [
+        0.034606559196723174,
+        0.05228598356228098
+      ],
+      "active_universe": {
+        "definition": "true condition-mean delta exactly nonzero in at least one eligible condition",
+        "M_s": 157,
+        "c_s": 0.19065234346179916,
+        "K": 50,
+        "method": "exact hypergeometric expectation",
+        "note": "oracle-informed reporting reference, not the unconditional chance floor"
+      }
+    },
+    "drug_split_2": {
+      "n_conditions": 455,
+      "n_drugs": 38,
+      "delta_raw": 0.06747273971069823,
+      "ci_raw": [
+        0.05124287807746053,
+        0.08370260134393592
+      ],
+      "welch_df": 4.581129698218002,
+      "delta_cc": 0.08447761885042687,
+      "ci_cc": [
+        0.06415741144627383,
+        0.1047978262545799
+      ],
+      "perm_p": 0.007936507936507936,
+      "n_perm": 252,
+      "secondary": {
+        "B-C (condition mean)": {
+          "n_common": 455,
+          "base": [
+            -0.05075793769824636,
+            -0.06707269306202511,
+            -0.06306790053680703,
+            -0.07161705779259676,
+            -0.048390255459062344
+          ],
+          "adaln": [
+            -0.017749410470599657,
+            -0.01602791189983651,
+            -0.016775407918452563,
+            -0.016933359815687922,
+            -0.015024786106832735
+          ],
+          "delta": 0.043678993667465645,
+          "ci": [
+            0.031075592841426726,
+            0.05628239449350456
+          ]
+        },
+        "DPC-50 (condition median)": {
+          "n_common": 455,
+          "base": [
+            0.04103223979473114,
+            0.00997142493724823,
+            0.03446154668927193,
+            0.03704937547445297,
+            0.040422745048999786
+          ],
+          "adaln": [
+            0.07476302981376648,
+            0.05867192894220352,
+            0.08487211167812347,
+            0.04731764271855354,
+            0.06750646233558655
+          ],
+          "delta": 0.034038768708705903,
+          "ci": [
+            0.014000517354793122,
+            0.054077020062618684
+          ]
+        }
+      },
+      "raw": {
+        "base": [
+          0.47063394309569745,
+          0.494841618185973,
+          0.5068569762693781,
+          0.487504694171054,
+          0.49414566862965453
+        ],
+        "adaln": [
+          0.5564550545820324,
+          0.5619674874078152,
+          0.5597362742708846,
+          0.5529472124323372,
+          0.5602405702121792
+        ]
+      },
+      "paired_median": 0.061597138983392086,
+      "paired_ci": [
+        0.04750763332852892,
+        0.06989494706069652
+      ],
+      "active_universe": {
+        "definition": "true condition-mean delta exactly nonzero in at least one eligible condition",
+        "M_s": 150,
+        "c_s": 0.20129448925208088,
+        "K": 50,
+        "method": "exact hypergeometric expectation",
+        "note": "oracle-informed reporting reference, not the unconditional chance floor"
+      }
+    }
+  }
+}

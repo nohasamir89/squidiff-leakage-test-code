@@ -349,3 +349,5 @@ leakage_results/test_loss_base_19350072.log
 make_supp_table_s2.py
 supplementary_tables/supp_table_S2.csv
 supplementary_tables/supp_table_S2.md
+leakage_results/replication_analysis.json
+leakage_results/step14_long.csv
