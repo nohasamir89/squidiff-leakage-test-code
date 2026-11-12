@@ -361,3 +361,8 @@ supplementary_tables/supp_table_S6.csv
 supplementary_tables/supp_table_S6.md
 supplementary_tables/supp_table_S12.csv
 supplementary_tables/supp_table_S12.md
+make_supp_table_s13.py
+supplementary_tables/supp_table_S13.csv
+supplementary_tables/supp_table_S13.md
+leakage_results/step12b_analysis.json
+analyse_step12b.py
