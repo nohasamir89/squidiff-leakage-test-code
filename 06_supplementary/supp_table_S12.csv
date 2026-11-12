@@ -1,0 +1,82 @@
+part,measure,row,split,seed,value,lo,hi,excludes_zero,source_record,source_key
+a,Gene identity,Original model,drug_split_1,,0.26826089944144466,,,,step15_model_analysis.json,metrics/base/de_overlap
+a,Gene identity,Original model,drug_split_0,,0.28503406389110136,,,,step15_model_analysis.json,metrics/base/de_overlap
+a,Gene identity,Original model,drug_split_2,,0.2908460326870103,,,,step15_model_analysis.json,metrics/base/de_overlap
+a,Gene identity,Rewired model,drug_split_1,,0.46404862184689377,,,,step15_model_analysis.json,metrics/recipe/de_overlap
+a,Gene identity,Rewired model,drug_split_0,,0.46030092437370224,,,,step15_model_analysis.json,metrics/recipe/de_overlap
+a,Gene identity,Rewired model,drug_split_2,,0.4584607547682541,,,,step15_model_analysis.json,metrics/recipe/de_overlap
+a,Gene identity,Rewired − original,drug_split_1,,0.19578772240544912,0.18439248459304727,0.20674459176504123,1,step15_model_analysis.json,contrasts/Q1_primary_de_recipe_minus_base
+a,Gene identity,Rewired − original,drug_split_0,,0.1752668604826009,0.16529317014495243,0.18597969606966436,1,step15_model_analysis.json,contrasts/Q1_primary_de_recipe_minus_base
+a,Gene identity,Rewired − original,drug_split_2,,0.16761472208124373,0.15725159929797497,0.1783777952980418,1,step15_model_analysis.json,contrasts/Q1_primary_de_recipe_minus_base
+a,Response correlation,Original model,drug_split_1,,0.2269137529752272,,,,step15_model_analysis.json,metrics/base/dpc_mean
+a,Response correlation,Original model,drug_split_0,,0.24901037648352067,,,,step15_model_analysis.json,metrics/base/dpc_mean
+a,Response correlation,Original model,drug_split_2,,0.2705212655572851,,,,step15_model_analysis.json,metrics/base/dpc_mean
+a,Response correlation,Rewired model,drug_split_1,,0.5196831484530938,,,,step15_model_analysis.json,metrics/recipe/dpc_mean
+a,Response correlation,Rewired model,drug_split_0,,0.5005284053416328,,,,step15_model_analysis.json,metrics/recipe/dpc_mean
+a,Response correlation,Rewired model,drug_split_2,,0.523113144002375,,,,step15_model_analysis.json,metrics/recipe/dpc_mean
+a,Response correlation,Rewired − original,drug_split_1,,0.2927693954778667,0.2629632166681436,0.3222495963564427,1,step15_model_analysis.json,contrasts/secondary_dpc_recipe_minus_base
+a,Response correlation,Rewired − original,drug_split_0,,0.2515180288581122,0.21946518095178613,0.2825308957594139,1,step15_model_analysis.json,contrasts/secondary_dpc_recipe_minus_base
+a,Response correlation,Rewired − original,drug_split_2,,0.25259187844508985,0.222750766083208,0.2819521236027737,1,step15_model_analysis.json,contrasts/secondary_dpc_recipe_minus_base
+a,Population distance,Original model,drug_split_1,,2.2680918774567784,,,,step15_model_analysis.json,metrics/base/energy
+a,Population distance,Original model,drug_split_0,,2.135265548109414,,,,step15_model_analysis.json,metrics/base/energy
+a,Population distance,Original model,drug_split_2,,2.0210050693537123,,,,step15_model_analysis.json,metrics/base/energy
+a,Population distance,Rewired model,drug_split_1,,0.22498787800913528,,,,step15_model_analysis.json,metrics/recipe/energy
+a,Population distance,Rewired model,drug_split_0,,0.2437552672690484,,,,step15_model_analysis.json,metrics/recipe/energy
+a,Population distance,Rewired model,drug_split_2,,0.21809605113107675,,,,step15_model_analysis.json,metrics/recipe/energy
+a,Population distance,Rewired − original,drug_split_1,,-2.0431039994476428,-2.112803196285456,-1.9746099932666095,1,step15_model_analysis.json,contrasts/secondary_en_recipe_minus_base
+a,Population distance,Rewired − original,drug_split_0,,-1.8915102808403654,-1.9487660592409786,-1.8280883767024603,1,step15_model_analysis.json,contrasts/secondary_en_recipe_minus_base
+a,Population distance,Rewired − original,drug_split_2,,-1.8029090182226355,-1.8638105922042905,-1.7428358555186219,1,step15_model_analysis.json,contrasts/secondary_en_recipe_minus_base
+b,Gene identity,Original model,drug_split_1,0,0.2636268545400033,,,,step15_model_analysis.json,metrics/base/per_seed[0]/de_overlap
+b,Gene identity,Original model,drug_split_1,1,0.2708819483839388,,,,step15_model_analysis.json,metrics/base/per_seed[1]/de_overlap
+b,Gene identity,Original model,drug_split_1,2,0.2702738954003918,,,,step15_model_analysis.json,metrics/base/per_seed[2]/de_overlap
+b,Gene identity,Original model,drug_split_0,0,0.2774498695841442,,,,step15_model_analysis.json,metrics/base/per_seed[0]/de_overlap
+b,Gene identity,Original model,drug_split_0,1,0.2828909094790516,,,,step15_model_analysis.json,metrics/base/per_seed[1]/de_overlap
+b,Gene identity,Original model,drug_split_0,2,0.29476141261010835,,,,step15_model_analysis.json,metrics/base/per_seed[2]/de_overlap
+b,Gene identity,Original model,drug_split_2,0,0.2892538217201559,,,,step15_model_analysis.json,metrics/base/per_seed[0]/de_overlap
+b,Gene identity,Original model,drug_split_2,1,0.2872483660992051,,,,step15_model_analysis.json,metrics/base/per_seed[1]/de_overlap
+b,Gene identity,Original model,drug_split_2,2,0.29603591024167014,,,,step15_model_analysis.json,metrics/base/per_seed[2]/de_overlap
+b,Gene identity,Rewired model,drug_split_1,0,0.4636978470965594,,,,step15_model_analysis.json,metrics/recipe/per_seed[0]/de_overlap
+b,Gene identity,Rewired model,drug_split_1,1,0.46323258607703405,,,,step15_model_analysis.json,metrics/recipe/per_seed[1]/de_overlap
+b,Gene identity,Rewired model,drug_split_1,2,0.4652154323670878,,,,step15_model_analysis.json,metrics/recipe/per_seed[2]/de_overlap
+b,Gene identity,Rewired model,drug_split_0,0,0.45841769946256883,,,,step15_model_analysis.json,metrics/recipe/per_seed[0]/de_overlap
+b,Gene identity,Rewired model,drug_split_0,1,0.4616619708815658,,,,step15_model_analysis.json,metrics/recipe/per_seed[1]/de_overlap
+b,Gene identity,Rewired model,drug_split_0,2,0.4608231027769723,,,,step15_model_analysis.json,metrics/recipe/per_seed[2]/de_overlap
+b,Gene identity,Rewired model,drug_split_2,0,0.4580049011165566,,,,step15_model_analysis.json,metrics/recipe/per_seed[0]/de_overlap
+b,Gene identity,Rewired model,drug_split_2,1,0.45963488482439596,,,,step15_model_analysis.json,metrics/recipe/per_seed[1]/de_overlap
+b,Gene identity,Rewired model,drug_split_2,2,0.45774247836380966,,,,step15_model_analysis.json,metrics/recipe/per_seed[2]/de_overlap
+b,Response correlation,Original model,drug_split_1,0,0.2759569832836841,,,,step15_model_analysis.json,metrics/base/per_seed[0]/dpc_mean
+b,Response correlation,Original model,drug_split_1,1,0.21881272116287906,,,,step15_model_analysis.json,metrics/base/per_seed[1]/dpc_mean
+b,Response correlation,Original model,drug_split_1,2,0.1859715544791184,,,,step15_model_analysis.json,metrics/base/per_seed[2]/dpc_mean
+b,Response correlation,Original model,drug_split_0,0,0.30242237699151997,,,,step15_model_analysis.json,metrics/base/per_seed[0]/dpc_mean
+b,Response correlation,Original model,drug_split_0,1,0.24342533559522403,,,,step15_model_analysis.json,metrics/base/per_seed[1]/dpc_mean
+b,Response correlation,Original model,drug_split_0,2,0.201183416863818,,,,step15_model_analysis.json,metrics/base/per_seed[2]/dpc_mean
+b,Response correlation,Original model,drug_split_2,0,0.30774959195483076,,,,step15_model_analysis.json,metrics/base/per_seed[0]/dpc_mean
+b,Response correlation,Original model,drug_split_2,1,0.2722390884720594,,,,step15_model_analysis.json,metrics/base/per_seed[1]/dpc_mean
+b,Response correlation,Original model,drug_split_2,2,0.23157511624496516,,,,step15_model_analysis.json,metrics/base/per_seed[2]/dpc_mean
+b,Response correlation,Rewired model,drug_split_1,0,0.5189509435742735,,,,step15_model_analysis.json,metrics/recipe/per_seed[0]/dpc_mean
+b,Response correlation,Rewired model,drug_split_1,1,0.517783018629879,,,,step15_model_analysis.json,metrics/recipe/per_seed[1]/dpc_mean
+b,Response correlation,Rewired model,drug_split_1,2,0.5223154831551291,,,,step15_model_analysis.json,metrics/recipe/per_seed[2]/dpc_mean
+b,Response correlation,Rewired model,drug_split_0,0,0.5003925922227721,,,,step15_model_analysis.json,metrics/recipe/per_seed[0]/dpc_mean
+b,Response correlation,Rewired model,drug_split_0,1,0.5020957103871366,,,,step15_model_analysis.json,metrics/recipe/per_seed[1]/dpc_mean
+b,Response correlation,Rewired model,drug_split_0,2,0.4990969134149898,,,,step15_model_analysis.json,metrics/recipe/per_seed[2]/dpc_mean
+b,Response correlation,Rewired model,drug_split_2,0,0.5207672620234912,,,,step15_model_analysis.json,metrics/recipe/per_seed[0]/dpc_mean
+b,Response correlation,Rewired model,drug_split_2,1,0.5244196630767259,,,,step15_model_analysis.json,metrics/recipe/per_seed[1]/dpc_mean
+b,Response correlation,Rewired model,drug_split_2,2,0.5241525069069076,,,,step15_model_analysis.json,metrics/recipe/per_seed[2]/dpc_mean
+b,Population distance,Original model,drug_split_1,0,2.1090226609591203,,,,step15_model_analysis.json,metrics/base/per_seed[0]/energy
+b,Population distance,Original model,drug_split_1,1,2.2794000847551366,,,,step15_model_analysis.json,metrics/base/per_seed[1]/energy
+b,Population distance,Original model,drug_split_1,2,2.415852886656078,,,,step15_model_analysis.json,metrics/base/per_seed[2]/energy
+b,Population distance,Original model,drug_split_0,0,2.0184995336703238,,,,step15_model_analysis.json,metrics/base/per_seed[0]/energy
+b,Population distance,Original model,drug_split_0,1,2.1105588359062697,,,,step15_model_analysis.json,metrics/base/per_seed[1]/energy
+b,Population distance,Original model,drug_split_0,2,2.276738274751648,,,,step15_model_analysis.json,metrics/base/per_seed[2]/energy
+b,Population distance,Original model,drug_split_2,0,1.943585306533008,,,,step15_model_analysis.json,metrics/base/per_seed[0]/energy
+b,Population distance,Original model,drug_split_2,1,1.896320168139389,,,,step15_model_analysis.json,metrics/base/per_seed[1]/energy
+b,Population distance,Original model,drug_split_2,2,2.223109733388739,,,,step15_model_analysis.json,metrics/base/per_seed[2]/energy
+b,Population distance,Rewired model,drug_split_1,0,0.2281549063962465,,,,step15_model_analysis.json,metrics/recipe/per_seed[0]/energy
+b,Population distance,Rewired model,drug_split_1,1,0.22459042127171752,,,,step15_model_analysis.json,metrics/recipe/per_seed[1]/energy
+b,Population distance,Rewired model,drug_split_1,2,0.22221830635944184,,,,step15_model_analysis.json,metrics/recipe/per_seed[2]/energy
+b,Population distance,Rewired model,drug_split_0,0,0.24652427548317363,,,,step15_model_analysis.json,metrics/recipe/per_seed[0]/energy
+b,Population distance,Rewired model,drug_split_0,1,0.2424016120361398,,,,step15_model_analysis.json,metrics/recipe/per_seed[1]/energy
+b,Population distance,Rewired model,drug_split_0,2,0.24233991428783178,,,,step15_model_analysis.json,metrics/recipe/per_seed[2]/energy
+b,Population distance,Rewired model,drug_split_2,0,0.22125002874842944,,,,step15_model_analysis.json,metrics/recipe/per_seed[0]/energy
+b,Population distance,Rewired model,drug_split_2,1,0.21437239347219197,,,,step15_model_analysis.json,metrics/recipe/per_seed[1]/energy
+b,Population distance,Rewired model,drug_split_2,2,0.21866573117260885,,,,step15_model_analysis.json,metrics/recipe/per_seed[2]/energy

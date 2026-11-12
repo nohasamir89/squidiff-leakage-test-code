@@ -1,0 +1,69 @@
+row,kind,split,statistic,value,source_record,source_key
+Training-set ridge,reference,drug_split_1,mean over conditions,0.196277261547644,step14_analysis.json,thesis_metrics/ridge_train/dpc_mean
+Training-set ridge,reference,drug_split_1,median over conditions,0.17951202108458725,step14_analysis.json,thesis_metrics/ridge_train/dpc_median
+Training-set ridge,reference,drug_split_0,mean over conditions,0.12342477683420627,step14_analysis.json,thesis_metrics/ridge_train/dpc_mean
+Training-set ridge,reference,drug_split_0,median over conditions,0.10583518406342701,step14_analysis.json,thesis_metrics/ridge_train/dpc_median
+Training-set ridge,reference,drug_split_2,mean over conditions,0.12114258783311055,step14_analysis.json,thesis_metrics/ridge_train/dpc_mean
+Training-set ridge,reference,drug_split_2,median over conditions,0.0950443951650681,step14_analysis.json,thesis_metrics/ridge_train/dpc_median
+Cross-validated ridge,reference,drug_split_1,mean over conditions,0.1891213929681591,step14_analysis.json,thesis_metrics/ridge_S7/dpc_mean
+Cross-validated ridge,reference,drug_split_1,median over conditions,0.18838949439836242,step14_analysis.json,thesis_metrics/ridge_S7/dpc_median
+Cross-validated ridge,reference,drug_split_0,mean over conditions,0.20232724068993324,step14_analysis.json,thesis_metrics/ridge_S7/dpc_mean
+Cross-validated ridge,reference,drug_split_0,median over conditions,0.247295214346917,step14_analysis.json,thesis_metrics/ridge_S7/dpc_median
+Cross-validated ridge,reference,drug_split_2,mean over conditions,0.09822721317102025,step14_analysis.json,thesis_metrics/ridge_S7/dpc_mean
+Cross-validated ridge,reference,drug_split_2,median over conditions,0.08158173623358843,step14_analysis.json,thesis_metrics/ridge_S7/dpc_median
+Compound-blind average,reference,drug_split_1,mean over conditions,0.17953217891868245,step14_analysis.json,thesis_metrics/mean_response/dpc_mean
+Compound-blind average,reference,drug_split_1,median over conditions,0.12642736090788562,step14_analysis.json,thesis_metrics/mean_response/dpc_median
+Compound-blind average,reference,drug_split_0,mean over conditions,0.2504410263149193,step14_analysis.json,thesis_metrics/mean_response/dpc_mean
+Compound-blind average,reference,drug_split_0,median over conditions,0.3042280963104468,step14_analysis.json,thesis_metrics/mean_response/dpc_median
+Compound-blind average,reference,drug_split_2,mean over conditions,0.13100886932162106,step14_analysis.json,thesis_metrics/mean_response/dpc_mean
+Compound-blind average,reference,drug_split_2,median over conditions,0.08578221746483147,step14_analysis.json,thesis_metrics/mean_response/dpc_median
+Original model,model,drug_split_1,mean over conditions,0.04523602274994831,step14_analysis.json,thesis_metrics/base/dpc_mean
+Original model,model,drug_split_1,median over conditions,0.03843834157501197,step14_analysis.json,thesis_metrics/base/dpc_median
+Original model,model,drug_split_0,mean over conditions,0.009682878523070643,step14_analysis.json,thesis_metrics/base/dpc_mean
+Original model,model,drug_split_0,median over conditions,0.018375710424378425,step14_analysis.json,thesis_metrics/base/dpc_median
+Original model,model,drug_split_2,mean over conditions,0.050848205254913,step14_analysis.json,thesis_metrics/base/dpc_mean
+Original model,model,drug_split_2,median over conditions,0.025726967734492907,step14_analysis.json,thesis_metrics/base/dpc_median
+Original model with adaptive normalisation,model,drug_split_1,mean over conditions,0.08749402938501542,step14_analysis.json,thesis_metrics/adaln_ddim_1000/dpc_mean
+Original model with adaptive normalisation,model,drug_split_1,median over conditions,0.06444921216876534,step14_analysis.json,thesis_metrics/adaln_ddim_1000/dpc_median
+Original model with adaptive normalisation,model,drug_split_0,mean over conditions,0.06017730825570609,step14_analysis.json,thesis_metrics/adaln_ddim_1000/dpc_mean
+Original model with adaptive normalisation,model,drug_split_0,median over conditions,0.09208761559973286,step14_analysis.json,thesis_metrics/adaln_ddim_1000/dpc_median
+Original model with adaptive normalisation,model,drug_split_2,mean over conditions,0.07077749970316442,step14_analysis.json,thesis_metrics/adaln_ddim_1000/dpc_mean
+Original model with adaptive normalisation,model,drug_split_2,median over conditions,0.07427348061803997,step14_analysis.json,thesis_metrics/adaln_ddim_1000/dpc_median
+Rewired model,model,drug_split_1,mean over conditions,0.09910120588502214,step14_analysis.json,thesis_metrics/fm_50/dpc_mean
+Rewired model,model,drug_split_1,median over conditions,0.09399072613990966,step14_analysis.json,thesis_metrics/fm_50/dpc_median
+Rewired model,model,drug_split_0,mean over conditions,0.06978223392528343,step14_analysis.json,thesis_metrics/fm_50/dpc_mean
+Rewired model,model,drug_split_0,median over conditions,0.1004053143001146,step14_analysis.json,thesis_metrics/fm_50/dpc_median
+Rewired model,model,drug_split_2,mean over conditions,0.0691494588817182,step14_analysis.json,thesis_metrics/fm_50/dpc_mean
+Rewired model,model,drug_split_2,median over conditions,0.05378761887778941,step14_analysis.json,thesis_metrics/fm_50/dpc_median
+"Rewired model, 20 integration steps",model,drug_split_1,mean over conditions,0.0976989922392654,step14_analysis.json,thesis_metrics/fm_20/dpc_mean
+"Rewired model, 20 integration steps",model,drug_split_1,median over conditions,0.09243630071137772,step14_analysis.json,thesis_metrics/fm_20/dpc_median
+"Rewired model, 20 integration steps",model,drug_split_0,mean over conditions,0.06702202085594638,step14_analysis.json,thesis_metrics/fm_20/dpc_mean
+"Rewired model, 20 integration steps",model,drug_split_0,median over conditions,0.08877517884811867,step14_analysis.json,thesis_metrics/fm_20/dpc_median
+"Rewired model, 20 integration steps",model,drug_split_2,mean over conditions,0.06610020719310297,step14_analysis.json,thesis_metrics/fm_20/dpc_mean
+"Rewired model, 20 integration steps",model,drug_split_2,median over conditions,0.06263829472181745,step14_analysis.json,thesis_metrics/fm_20/dpc_median
+Rewired model with classifier-free guidance (weight 2),model,drug_split_1,mean over conditions,0.1177389924676606,step14_analysis.json,thesis_metrics/guidance_w2/dpc_mean
+Rewired model with classifier-free guidance (weight 2),model,drug_split_1,median over conditions,0.09270039564549018,step14_analysis.json,thesis_metrics/guidance_w2/dpc_median
+Rewired model with classifier-free guidance (weight 2),model,drug_split_0,mean over conditions,0.07934849131261645,step14_analysis.json,thesis_metrics/guidance_w2/dpc_mean
+Rewired model with classifier-free guidance (weight 2),model,drug_split_0,median over conditions,0.09349137375949862,step14_analysis.json,thesis_metrics/guidance_w2/dpc_median
+Rewired model with classifier-free guidance (weight 2),model,drug_split_2,mean over conditions,0.07806846132443745,step14_analysis.json,thesis_metrics/guidance_w2/dpc_mean
+Rewired model with classifier-free guidance (weight 2),model,drug_split_2,median over conditions,0.0647483363662718,step14_analysis.json,thesis_metrics/guidance_w2/dpc_median
+Rewired model with cross-attention,model,drug_split_1,mean over conditions,0.11831986013994163,step14_analysis.json,thesis_metrics/attn_cross/dpc_mean
+Rewired model with cross-attention,model,drug_split_1,median over conditions,0.12131465806249256,step14_analysis.json,thesis_metrics/attn_cross/dpc_median
+Rewired model with cross-attention,model,drug_split_0,mean over conditions,0.07895568648690483,step14_analysis.json,thesis_metrics/attn_cross/dpc_mean
+Rewired model with cross-attention,model,drug_split_0,median over conditions,0.08856665616043138,step14_analysis.json,thesis_metrics/attn_cross/dpc_median
+Rewired model with cross-attention,model,drug_split_2,mean over conditions,0.08564325064672199,step14_analysis.json,thesis_metrics/attn_cross/dpc_mean
+Rewired model with cross-attention,model,drug_split_2,median over conditions,0.09794227784990783,step14_analysis.json,thesis_metrics/attn_cross/dpc_median
+"Rewired model, parameter-matched control without attention",model,drug_split_1,mean over conditions,0.10719958059249088,step14_analysis.json,thesis_metrics/mlp_ctrl/dpc_mean
+"Rewired model, parameter-matched control without attention",model,drug_split_1,median over conditions,0.10493044359034251,step14_analysis.json,thesis_metrics/mlp_ctrl/dpc_median
+"Rewired model, parameter-matched control without attention",model,drug_split_0,mean over conditions,0.0675459259688269,step14_analysis.json,thesis_metrics/mlp_ctrl/dpc_mean
+"Rewired model, parameter-matched control without attention",model,drug_split_0,median over conditions,0.0800748255163852,step14_analysis.json,thesis_metrics/mlp_ctrl/dpc_median
+"Rewired model, parameter-matched control without attention",model,drug_split_2,mean over conditions,0.08475677846234118,step14_analysis.json,thesis_metrics/mlp_ctrl/dpc_mean
+"Rewired model, parameter-matched control without attention",model,drug_split_2,median over conditions,0.09673492025508432,step14_analysis.json,thesis_metrics/mlp_ctrl/dpc_median
+Variant: mechanism-of-action labels in place of the fingerprint,model,drug_split_1,mean over conditions,0.11369615327729793,step14_analysis.json,thesis_metrics/s9_pathway/dpc_mean
+Variant: mechanism-of-action labels in place of the fingerprint,model,drug_split_1,median over conditions,0.10836926096141583,step14_analysis.json,thesis_metrics/s9_pathway/dpc_median
+Variant: mechanism-of-action labels added to the fingerprint,model,drug_split_1,mean over conditions,0.10574101653358431,step14_analysis.json,thesis_metrics/s9_both/dpc_mean
+Variant: mechanism-of-action labels added to the fingerprint,model,drug_split_1,median over conditions,0.10557681302693647,step14_analysis.json,thesis_metrics/s9_both/dpc_median
+Variant: learned chemical embedding in place of the fingerprint,model,drug_split_1,mean over conditions,0.05499716618346747,step14_analysis.json,thesis_metrics/s10_chemvae/dpc_mean
+Variant: learned chemical embedding in place of the fingerprint,model,drug_split_1,median over conditions,0.04452592584655311,step14_analysis.json,thesis_metrics/s10_chemvae/dpc_median
+Variant: learned chemical embedding added to the fingerprint,model,drug_split_1,mean over conditions,0.08228327907962228,step14_analysis.json,thesis_metrics/s10_fp_chemvae/dpc_mean
+Variant: learned chemical embedding added to the fingerprint,model,drug_split_1,median over conditions,0.08097909331699178,step14_analysis.json,thesis_metrics/s10_fp_chemvae/dpc_median

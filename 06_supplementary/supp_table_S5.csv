@@ -1,0 +1,86 @@
+part,row,dataset,measure,split,value,lo,hi,excludes_zero,source_record,source_key
+a,Original model,Tahoe-100M,gene identity,drug_split_1,0.26826089944144466,,,,step15_model_analysis.json,base
+a,Original model,Tahoe-100M,gene identity,drug_split_0,0.28503406389110136,,,,step15_model_analysis.json,base
+a,Original model,Tahoe-100M,gene identity,drug_split_2,0.2908460326870103,,,,step15_model_analysis.json,base
+a,Original model,sci-Plex,gene identity,drug_split_1,0.5080218566672793,,,,step14_analysis.json,base
+a,Original model,sci-Plex,gene identity,drug_split_0,0.5047170669013372,,,,step14_analysis.json,base
+a,Original model,sci-Plex,gene identity,drug_split_2,0.49079658007035143,,,,step14_analysis.json,base
+a,Rewired model,Tahoe-100M,gene identity,drug_split_1,0.46404862184689377,,,,step15_model_analysis.json,recipe
+a,Rewired model,Tahoe-100M,gene identity,drug_split_0,0.46030092437370224,,,,step15_model_analysis.json,recipe
+a,Rewired model,Tahoe-100M,gene identity,drug_split_2,0.4584607547682541,,,,step15_model_analysis.json,recipe
+a,Rewired model,sci-Plex,gene identity,drug_split_1,0.6100026207918294,,,,step14_analysis.json,fm_50
+a,Rewired model,sci-Plex,gene identity,drug_split_0,0.6123708868486173,,,,step14_analysis.json,fm_50
+a,Rewired model,sci-Plex,gene identity,drug_split_2,0.6105673745843068,,,,step14_analysis.json,fm_50
+a,Training-set ridge,Tahoe-100M,gene identity,drug_split_1,0.42915195858692845,,,,step15_model_analysis.json,ridge_train
+a,Training-set ridge,Tahoe-100M,gene identity,drug_split_0,0.4327764019390631,,,,step15_model_analysis.json,ridge_train
+a,Training-set ridge,Tahoe-100M,gene identity,drug_split_2,0.4246049998335826,,,,step15_model_analysis.json,ridge_train
+a,Training-set ridge,sci-Plex,gene identity,drug_split_1,0.5643784865728471,,,,step14_analysis.json,ridge_train
+a,Training-set ridge,sci-Plex,gene identity,drug_split_0,0.5369054812955749,,,,step14_analysis.json,ridge_train
+a,Training-set ridge,sci-Plex,gene identity,drug_split_2,0.547291916801038,,,,step14_analysis.json,ridge_train
+a,Cross-validated ridge,Tahoe-100M,gene identity,drug_split_1,0.47721627773781156,,,,step15_model_analysis.json,ridge_S7
+a,Cross-validated ridge,Tahoe-100M,gene identity,drug_split_0,0.4653098099065309,,,,step15_model_analysis.json,ridge_S7
+a,Cross-validated ridge,Tahoe-100M,gene identity,drug_split_2,0.46775895949574847,,,,step15_model_analysis.json,ridge_S7
+a,Cross-validated ridge,sci-Plex,gene identity,drug_split_1,0.5543642223264703,,,,step14_analysis.json,ridge_S7
+a,Cross-validated ridge,sci-Plex,gene identity,drug_split_0,0.5684209600925474,,,,step14_analysis.json,ridge_S7
+a,Cross-validated ridge,sci-Plex,gene identity,drug_split_2,0.5535459719948924,,,,step14_analysis.json,ridge_S7
+a,Compound-blind average,Tahoe-100M,gene identity,drug_split_1,0.5086402436078384,,,,step15_model_analysis.json,mean_response
+a,Compound-blind average,Tahoe-100M,gene identity,drug_split_0,0.5000722473062166,,,,step15_model_analysis.json,mean_response
+a,Compound-blind average,Tahoe-100M,gene identity,drug_split_2,0.5086453868927374,,,,step15_model_analysis.json,mean_response
+a,Compound-blind average,sci-Plex,gene identity,drug_split_1,0.5440471762570257,,,,step14_analysis.json,mean_response
+a,Compound-blind average,sci-Plex,gene identity,drug_split_0,0.5538089707001903,,,,step14_analysis.json,mean_response
+a,Compound-blind average,sci-Plex,gene identity,drug_split_2,0.5324895596845568,,,,step14_analysis.json,mean_response
+a,Plate replicate,Tahoe-100M,gene identity,drug_split_1,0.5023940189252745,,,,step15_model_analysis.json,replicate
+a,Plate replicate,Tahoe-100M,gene identity,drug_split_0,0.5066767153637377,,,,step15_model_analysis.json,replicate
+a,Plate replicate,Tahoe-100M,gene identity,drug_split_2,0.47723600724655774,,,,step15_model_analysis.json,replicate
+a,Chance,both,gene identity,all,0.14391795915673664,,,,computed,"expected Jaccard, two random sets of 50 of 200"
+b,Original model,Tahoe-100M,population distance,drug_split_1,2.2680918774567784,,,,step15_model_analysis.json,base
+b,Original model,Tahoe-100M,population distance,drug_split_0,2.135265548109414,,,,step15_model_analysis.json,base
+b,Original model,Tahoe-100M,population distance,drug_split_2,2.0210050693537123,,,,step15_model_analysis.json,base
+b,Rewired model,Tahoe-100M,population distance,drug_split_1,0.22498787800913528,,,,step15_model_analysis.json,recipe
+b,Rewired model,Tahoe-100M,population distance,drug_split_0,0.2437552672690484,,,,step15_model_analysis.json,recipe
+b,Rewired model,Tahoe-100M,population distance,drug_split_2,0.21809605113107675,,,,step15_model_analysis.json,recipe
+b,Training-set ridge,Tahoe-100M,population distance,drug_split_1,0.2597755999686862,,,,step15_model_analysis.json,ridge_train
+b,Training-set ridge,Tahoe-100M,population distance,drug_split_0,0.26422999087486054,,,,step15_model_analysis.json,ridge_train
+b,Training-set ridge,Tahoe-100M,population distance,drug_split_2,0.24976095866307768,,,,step15_model_analysis.json,ridge_train
+b,Cross-validated ridge,Tahoe-100M,population distance,drug_split_1,0.15961658540855425,,,,step15_model_analysis.json,ridge_S7
+b,Cross-validated ridge,Tahoe-100M,population distance,drug_split_0,0.22296387204572307,,,,step15_model_analysis.json,ridge_S7
+b,Cross-validated ridge,Tahoe-100M,population distance,drug_split_2,0.16232533498449037,,,,step15_model_analysis.json,ridge_S7
+b,Compound-blind average,Tahoe-100M,population distance,drug_split_1,0.14584325644467777,,,,step15_model_analysis.json,mean_response
+b,Compound-blind average,Tahoe-100M,population distance,drug_split_0,0.196992293644961,,,,step15_model_analysis.json,mean_response
+b,Compound-blind average,Tahoe-100M,population distance,drug_split_2,0.14570444570651808,,,,step15_model_analysis.json,mean_response
+b,Unaltered vehicle cells,Tahoe-100M,population distance,drug_split_1,0.18199090795857198,,,,step15_model_analysis.json,control_paste
+b,Unaltered vehicle cells,Tahoe-100M,population distance,drug_split_0,0.2290551126744656,,,,step15_model_analysis.json,control_paste
+b,Unaltered vehicle cells,Tahoe-100M,population distance,drug_split_2,0.17881889910525933,,,,step15_model_analysis.json,control_paste
+b,Plate replicate,Tahoe-100M,population distance,drug_split_1,0.19402095434143832,,,,step15_model_analysis.json,replicate
+b,Plate replicate,Tahoe-100M,population distance,drug_split_0,0.201978271168311,,,,step15_model_analysis.json,replicate
+b,Plate replicate,Tahoe-100M,population distance,drug_split_2,0.1653878770067014,,,,step15_model_analysis.json,replicate
+c,"Gene identity, Tahoe-100M: Rewired model − training-set ridge",Tahoe-100M,gene identity,drug_split_1,0.03489666325996532,0.02471013983991517,0.04535425276842843,1,step15_model_analysis.json,secondary_jac_recipe_minus_ridge_train
+c,"Gene identity, Tahoe-100M: Rewired model − training-set ridge",Tahoe-100M,gene identity,drug_split_0,0.027524522434639234,0.01846884378858582,0.036242601895047084,1,step15_model_analysis.json,secondary_jac_recipe_minus_ridge_train
+c,"Gene identity, Tahoe-100M: Rewired model − training-set ridge",Tahoe-100M,gene identity,drug_split_2,0.033855754934671446,0.022026644575935995,0.04500943601505467,1,step15_model_analysis.json,secondary_jac_recipe_minus_ridge_train
+c,"Gene identity, Tahoe-100M: Rewired model − cross-validated ridge",Tahoe-100M,gene identity,drug_split_1,-0.013167655890917883,-0.027362010840817966,0.0006679115869211001,0,step15_model_analysis.json,Q2_coprimary_de_recipe_minus_ridgeS7
+c,"Gene identity, Tahoe-100M: Rewired model − cross-validated ridge",Tahoe-100M,gene identity,drug_split_0,-0.005008885532828642,-0.014360204267085553,0.004697933228863442,0,step15_model_analysis.json,Q2_coprimary_de_recipe_minus_ridgeS7
+c,"Gene identity, Tahoe-100M: Rewired model − cross-validated ridge",Tahoe-100M,gene identity,drug_split_2,-0.009298204727494415,-0.01900026578564485,0.0007176236376259779,0,step15_model_analysis.json,Q2_coprimary_de_recipe_minus_ridgeS7
+c,"Gene identity, Tahoe-100M: Rewired model − compound-blind average",Tahoe-100M,gene identity,drug_split_1,-0.044591621760944625,-0.051689056916835834,-0.0372035025621489,1,step15_model_analysis.json,secondary_jac_recipe_minus_mean_response
+c,"Gene identity, Tahoe-100M: Rewired model − compound-blind average",Tahoe-100M,gene identity,drug_split_0,-0.03977132293251432,-0.04771412791071522,-0.031565145423539734,1,step15_model_analysis.json,secondary_jac_recipe_minus_mean_response
+c,"Gene identity, Tahoe-100M: Rewired model − compound-blind average",Tahoe-100M,gene identity,drug_split_2,-0.05018463212448337,-0.05801916540130537,-0.041990420500578704,1,step15_model_analysis.json,secondary_jac_recipe_minus_mean_response
+c,"Gene identity, sci-Plex: Rewired model − training-set ridge",sci-Plex,gene identity,drug_split_1,0.04562413421898235,0.023266236244366887,0.06448276792865751,1,step14_analysis.json,secondary_jac_ridge_train_minus_fm50 (negated)
+c,"Gene identity, sci-Plex: Rewired model − training-set ridge",sci-Plex,gene identity,drug_split_0,0.07546540555304229,0.06554497688976871,0.08561700202395481,1,step14_analysis.json,secondary_jac_ridge_train_minus_fm50 (negated)
+c,"Gene identity, sci-Plex: Rewired model − training-set ridge",sci-Plex,gene identity,drug_split_2,0.06327545778326892,0.04923730852876991,0.07667828159208498,1,step14_analysis.json,secondary_jac_ridge_train_minus_fm50 (negated)
+c,"Gene identity, sci-Plex: Rewired model − cross-validated ridge",sci-Plex,gene identity,drug_split_1,0.055638398465359125,0.035456865869858856,0.0722006750885804,1,step14_analysis.json,primary_de_ridgeS7_minus_fm50 (negated)
+c,"Gene identity, sci-Plex: Rewired model − cross-validated ridge",sci-Plex,gene identity,drug_split_0,0.04394992675606982,0.033999250788128814,0.05357144550305401,1,step14_analysis.json,primary_de_ridgeS7_minus_fm50 (negated)
+c,"Gene identity, sci-Plex: Rewired model − cross-validated ridge",sci-Plex,gene identity,drug_split_2,0.05702140258941441,0.04431930255125529,0.0701527421749286,1,step14_analysis.json,primary_de_ridgeS7_minus_fm50 (negated)
+c,"Gene identity, sci-Plex: Rewired model − compound-blind average",sci-Plex,gene identity,drug_split_1,0.06595544453480383,0.041855715184680196,0.0858437917172193,1,step14_analysis.json,secondary_jac_mean_response_minus_fm50 (negated)
+c,"Gene identity, sci-Plex: Rewired model − compound-blind average",sci-Plex,gene identity,drug_split_0,0.05856191614842699,0.0517697532008142,0.0652445529396078,1,step14_analysis.json,secondary_jac_mean_response_minus_fm50 (negated)
+c,"Gene identity, sci-Plex: Rewired model − compound-blind average",sci-Plex,gene identity,drug_split_2,0.07807781489975002,0.0661219921300651,0.08916221797601095,1,step14_analysis.json,secondary_jac_mean_response_minus_fm50 (negated)
+c,"Population distance, Tahoe-100M: Rewired model − training-set ridge",Tahoe-100M,population distance,drug_split_1,-0.03478772195955093,-0.09761739806360316,0.021603755688555337,0,step15_model_analysis.json,secondary_en_recipe_minus_ridge_train
+c,"Population distance, Tahoe-100M: Rewired model − training-set ridge",Tahoe-100M,population distance,drug_split_0,-0.020474723605812106,-0.06518496136871321,0.023315175824019967,0,step15_model_analysis.json,secondary_en_recipe_minus_ridge_train
+c,"Population distance, Tahoe-100M: Rewired model − training-set ridge",Tahoe-100M,population distance,drug_split_2,-0.031664907532000935,-0.06635003325281537,0.0054432379225086,0,step15_model_analysis.json,secondary_en_recipe_minus_ridge_train
+c,"Population distance, Tahoe-100M: Rewired model − cross-validated ridge",Tahoe-100M,population distance,drug_split_1,0.06537129260058101,0.019602680100773935,0.11429212836650839,1,step15_model_analysis.json,secondary_en_recipe_minus_ridge_S7
+c,"Population distance, Tahoe-100M: Rewired model − cross-validated ridge",Tahoe-100M,population distance,drug_split_0,0.02079139522332531,-0.05971696871171805,0.07919514197942101,0,step15_model_analysis.json,secondary_en_recipe_minus_ridge_S7
+c,"Population distance, Tahoe-100M: Rewired model − cross-validated ridge",Tahoe-100M,population distance,drug_split_2,0.055770716146586394,0.017887994442280584,0.09494265526962299,1,step15_model_analysis.json,secondary_en_recipe_minus_ridge_S7
+c,"Population distance, Tahoe-100M: Rewired model − compound-blind average",Tahoe-100M,population distance,drug_split_1,0.07914462156445749,0.03141032066281627,0.1293816591039216,1,step15_model_analysis.json,secondary_en_recipe_minus_mean_response
+c,"Population distance, Tahoe-100M: Rewired model − compound-blind average",Tahoe-100M,population distance,drug_split_0,0.04676297362408741,-0.03025863561341039,0.10208980902669108,0,step15_model_analysis.json,secondary_en_recipe_minus_mean_response
+c,"Population distance, Tahoe-100M: Rewired model − compound-blind average",Tahoe-100M,population distance,drug_split_2,0.07239160542455868,0.03693934741850196,0.11004871239966811,1,step15_model_analysis.json,secondary_en_recipe_minus_mean_response
+c,"Population distance, Tahoe-100M: Rewired model − unaltered vehicle cells",Tahoe-100M,population distance,drug_split_1,0.042996970050563306,-0.004123936486432557,0.0938258430671507,0,step15_model_analysis.json,secondary_en_recipe_minus_control_paste
+c,"Population distance, Tahoe-100M: Rewired model − unaltered vehicle cells",Tahoe-100M,population distance,drug_split_0,0.014700154594582805,-0.07150535966121094,0.07253069912352494,0,step15_model_analysis.json,secondary_en_recipe_minus_control_paste
+c,"Population distance, Tahoe-100M: Rewired model − unaltered vehicle cells",Tahoe-100M,population distance,drug_split_2,0.03927715202581744,0.0005772980010455539,0.0784298050720341,1,step15_model_analysis.json,secondary_en_recipe_minus_control_paste
