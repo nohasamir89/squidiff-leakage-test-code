@@ -381,3 +381,6 @@ supplementary_tables/supp_table_S17.md
 make_supp_table_s18.py
 supplementary_tables/supp_table_S18.csv
 supplementary_tables/supp_table_S18.md
+make_supp_table_s10.py
+supplementary_tables/supp_table_S10.csv
+supplementary_tables/supp_table_S10.md
