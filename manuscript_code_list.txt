@@ -375,3 +375,6 @@ tahoe_results/step15_diag_cells_drug_split_1_seed_0.json
 make_supp_table_s16.py
 supplementary_tables/supp_table_S16.csv
 supplementary_tables/supp_table_S16.md
+make_supp_table_s17.py
+supplementary_tables/supp_table_S17.csv
+supplementary_tables/supp_table_S17.md
