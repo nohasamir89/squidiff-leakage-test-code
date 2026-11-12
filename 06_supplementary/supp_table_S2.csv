@@ -1,0 +1,133 @@
+row,objective,split,seed,quantity,value,source_record,source_key
+Original model,Diffusion,drug_split_0,0,training_loss,0.012149139959365129,test_loss_base.json,per_checkpoint/drug_split_0_base_seed0
+Original model,Diffusion,drug_split_0,0,heldout_loss,0.011110022431239486,test_loss_base.json,per_checkpoint/drug_split_0_base_seed0
+Original model,Diffusion,drug_split_0,0,ratio,0.9144698693404514,test_loss_base.json,per_checkpoint/drug_split_0_base_seed0
+Original model,Diffusion,drug_split_0,1,training_loss,0.012266822787933052,test_loss_base.json,per_checkpoint/drug_split_0_base_seed1
+Original model,Diffusion,drug_split_0,1,heldout_loss,0.011123824957758188,test_loss_base.json,per_checkpoint/drug_split_0_base_seed1
+Original model,Diffusion,drug_split_0,1,ratio,0.9068220149638716,test_loss_base.json,per_checkpoint/drug_split_0_base_seed1
+Original model,Diffusion,drug_split_0,2,training_loss,0.012215772725176067,test_loss_base.json,per_checkpoint/drug_split_0_base_seed2
+Original model,Diffusion,drug_split_0,2,heldout_loss,0.01107083649840206,test_loss_base.json,per_checkpoint/drug_split_0_base_seed2
+Original model,Diffusion,drug_split_0,2,ratio,0.9062739416873439,test_loss_base.json,per_checkpoint/drug_split_0_base_seed2
+Original model,Diffusion,drug_split_0,3,training_loss,0.012339182035066187,test_loss_base.json,per_checkpoint/drug_split_0_base_seed3
+Original model,Diffusion,drug_split_0,3,heldout_loss,0.011230803013313561,test_loss_base.json,per_checkpoint/drug_split_0_base_seed3
+Original model,Diffusion,drug_split_0,3,ratio,0.9101740278567274,test_loss_base.json,per_checkpoint/drug_split_0_base_seed3
+Original model,Diffusion,drug_split_0,4,training_loss,0.012159591435920446,test_loss_base.json,per_checkpoint/drug_split_0_base_seed4
+Original model,Diffusion,drug_split_0,4,heldout_loss,0.010984769533388316,test_loss_base.json,per_checkpoint/drug_split_0_base_seed4
+Original model,Diffusion,drug_split_0,4,ratio,0.9033831104668856,test_loss_base.json,per_checkpoint/drug_split_0_base_seed4
+Original model,Diffusion,drug_split_0,,training_loss_mean,0.012226101788692175,test_loss_base.json,computed from per_checkpoint/drug_split_0_base_seed0..4
+Original model,Diffusion,drug_split_0,,training_loss_sd,7.88967389241908e-05,test_loss_base.json,computed from per_checkpoint/drug_split_0_base_seed0..4
+Original model,Diffusion,drug_split_0,,heldout_loss_mean,0.011104051286820323,test_loss_base.json,computed from per_checkpoint/drug_split_0_base_seed0..4
+Original model,Diffusion,drug_split_0,,heldout_loss_sd,8.919642883621265e-05,test_loss_base.json,computed from per_checkpoint/drug_split_0_base_seed0..4
+Original model,Diffusion,drug_split_0,,ratio_mean,0.9082245928630559,test_loss_base.json,computed from per_checkpoint/drug_split_0_base_seed0..4
+Original model,Diffusion,drug_split_0,,ratio_min,0.9033831104668856,test_loss_base.json,computed from per_checkpoint/drug_split_0_base_seed0..4
+Original model,Diffusion,drug_split_0,,ratio_max,0.9144698693404514,test_loss_base.json,computed from per_checkpoint/drug_split_0_base_seed0..4
+Original model,Diffusion,drug_split_2,0,training_loss,0.011996914364863187,test_loss_base.json,per_checkpoint/drug_split_2_base_seed0
+Original model,Diffusion,drug_split_2,0,heldout_loss,0.012290459463838489,test_loss_base.json,per_checkpoint/drug_split_2_base_seed0
+Original model,Diffusion,drug_split_2,0,ratio,1.0244683832898769,test_loss_base.json,per_checkpoint/drug_split_2_base_seed0
+Original model,Diffusion,drug_split_2,1,training_loss,0.011785911326296628,test_loss_base.json,per_checkpoint/drug_split_2_base_seed1
+Original model,Diffusion,drug_split_2,1,heldout_loss,0.012154849234502763,test_loss_base.json,per_checkpoint/drug_split_2_base_seed1
+Original model,Diffusion,drug_split_2,1,ratio,1.0313032991672832,test_loss_base.json,per_checkpoint/drug_split_2_base_seed1
+Original model,Diffusion,drug_split_2,2,training_loss,0.012224916811101138,test_loss_base.json,per_checkpoint/drug_split_2_base_seed2
+Original model,Diffusion,drug_split_2,2,heldout_loss,0.012460749538149685,test_loss_base.json,per_checkpoint/drug_split_2_base_seed2
+Original model,Diffusion,drug_split_2,2,ratio,1.0192911518902437,test_loss_base.json,per_checkpoint/drug_split_2_base_seed2
+Original model,Diffusion,drug_split_2,3,training_loss,0.012151596450712532,test_loss_base.json,per_checkpoint/drug_split_2_base_seed3
+Original model,Diffusion,drug_split_2,3,heldout_loss,0.012360190460458397,test_loss_base.json,per_checkpoint/drug_split_2_base_seed3
+Original model,Diffusion,drug_split_2,3,ratio,1.0171659757293565,test_loss_base.json,per_checkpoint/drug_split_2_base_seed3
+Original model,Diffusion,drug_split_2,4,training_loss,0.011969753669109195,test_loss_base.json,per_checkpoint/drug_split_2_base_seed4
+Original model,Diffusion,drug_split_2,4,heldout_loss,0.01231546540511772,test_loss_base.json,per_checkpoint/drug_split_2_base_seed4
+Original model,Diffusion,drug_split_2,4,ratio,1.0288821094874088,test_loss_base.json,per_checkpoint/drug_split_2_base_seed4
+Original model,Diffusion,drug_split_2,,training_loss_mean,0.012025818524416535,test_loss_base.json,computed from per_checkpoint/drug_split_2_base_seed0..4
+Original model,Diffusion,drug_split_2,,training_loss_sd,0.00017102221833282974,test_loss_base.json,computed from per_checkpoint/drug_split_2_base_seed0..4
+Original model,Diffusion,drug_split_2,,heldout_loss_mean,0.01231634282041341,test_loss_base.json,computed from per_checkpoint/drug_split_2_base_seed0..4
+Original model,Diffusion,drug_split_2,,heldout_loss_sd,0.00011127310092778932,test_loss_base.json,computed from per_checkpoint/drug_split_2_base_seed0..4
+Original model,Diffusion,drug_split_2,,ratio_mean,1.0242221839128338,test_loss_base.json,computed from per_checkpoint/drug_split_2_base_seed0..4
+Original model,Diffusion,drug_split_2,,ratio_min,1.0171659757293565,test_loss_base.json,computed from per_checkpoint/drug_split_2_base_seed0..4
+Original model,Diffusion,drug_split_2,,ratio_max,1.0313032991672832,test_loss_base.json,computed from per_checkpoint/drug_split_2_base_seed0..4
+Original model with adaptive normalisation,Diffusion,drug_split_0,0,training_loss,0.01097384182503447,test_loss_v2.json,per_checkpoint/drug_split_0_ddim_seed0
+Original model with adaptive normalisation,Diffusion,drug_split_0,0,heldout_loss,0.010084656020626425,test_loss_v2.json,per_checkpoint/drug_split_0_ddim_seed0
+Original model with adaptive normalisation,Diffusion,drug_split_0,0,ratio,0.918972241573634,test_loss_v2.json,per_checkpoint/drug_split_0_ddim_seed0
+Original model with adaptive normalisation,Diffusion,drug_split_0,1,training_loss,0.010361897619441151,test_loss_v2.json,per_checkpoint/drug_split_0_ddim_seed1
+Original model with adaptive normalisation,Diffusion,drug_split_0,1,heldout_loss,0.009599691547919065,test_loss_v2.json,per_checkpoint/drug_split_0_ddim_seed1
+Original model with adaptive normalisation,Diffusion,drug_split_0,1,ratio,0.9264414589377892,test_loss_v2.json,per_checkpoint/drug_split_0_ddim_seed1
+Original model with adaptive normalisation,Diffusion,drug_split_0,2,training_loss,0.010528082784730941,test_loss_v2.json,per_checkpoint/drug_split_0_ddim_seed2
+Original model with adaptive normalisation,Diffusion,drug_split_0,2,heldout_loss,0.009630364400800317,test_loss_v2.json,per_checkpoint/drug_split_0_ddim_seed2
+Original model with adaptive normalisation,Diffusion,drug_split_0,2,ratio,0.9147310671575835,test_loss_v2.json,per_checkpoint/drug_split_0_ddim_seed2
+Original model with adaptive normalisation,Diffusion,drug_split_0,3,training_loss,0.010519839450716972,test_loss_v2.json,per_checkpoint/drug_split_0_ddim_seed3
+Original model with adaptive normalisation,Diffusion,drug_split_0,3,heldout_loss,0.009703138843178749,test_loss_v2.json,per_checkpoint/drug_split_0_ddim_seed3
+Original model with adaptive normalisation,Diffusion,drug_split_0,3,ratio,0.9223656775976213,test_loss_v2.json,per_checkpoint/drug_split_0_ddim_seed3
+Original model with adaptive normalisation,Diffusion,drug_split_0,4,training_loss,0.010451203386764973,test_loss_v2.json,per_checkpoint/drug_split_0_ddim_seed4
+Original model with adaptive normalisation,Diffusion,drug_split_0,4,heldout_loss,0.00964475133223459,test_loss_v2.json,per_checkpoint/drug_split_0_ddim_seed4
+Original model with adaptive normalisation,Diffusion,drug_split_0,4,ratio,0.9228364404857297,test_loss_v2.json,per_checkpoint/drug_split_0_ddim_seed4
+Original model with adaptive normalisation,Diffusion,drug_split_0,,training_loss_mean,0.010566973013337703,test_loss_v2.json,computed from per_checkpoint/drug_split_0_ddim_seed0..4
+Original model with adaptive normalisation,Diffusion,drug_split_0,,training_loss_sd,0.0002370309980554033,test_loss_v2.json,computed from per_checkpoint/drug_split_0_ddim_seed0..4
+Original model with adaptive normalisation,Diffusion,drug_split_0,,heldout_loss_mean,0.00973252042895183,test_loss_v2.json,computed from per_checkpoint/drug_split_0_ddim_seed0..4
+Original model with adaptive normalisation,Diffusion,drug_split_0,,heldout_loss_sd,0.00020040305172902643,test_loss_v2.json,computed from per_checkpoint/drug_split_0_ddim_seed0..4
+Original model with adaptive normalisation,Diffusion,drug_split_0,,ratio_mean,0.9210693771504715,test_loss_v2.json,computed from per_checkpoint/drug_split_0_ddim_seed0..4
+Original model with adaptive normalisation,Diffusion,drug_split_0,,ratio_min,0.9147310671575835,test_loss_v2.json,computed from per_checkpoint/drug_split_0_ddim_seed0..4
+Original model with adaptive normalisation,Diffusion,drug_split_0,,ratio_max,0.9264414589377892,test_loss_v2.json,computed from per_checkpoint/drug_split_0_ddim_seed0..4
+Original model with adaptive normalisation,Diffusion,drug_split_2,0,training_loss,0.010600469866767525,test_loss_v2.json,per_checkpoint/drug_split_2_ddim_seed0
+Original model with adaptive normalisation,Diffusion,drug_split_2,0,heldout_loss,0.010676089278422295,test_loss_v2.json,per_checkpoint/drug_split_2_ddim_seed0
+Original model with adaptive normalisation,Diffusion,drug_split_2,0,ratio,1.0071335905488337,test_loss_v2.json,per_checkpoint/drug_split_2_ddim_seed0
+Original model with adaptive normalisation,Diffusion,drug_split_2,1,training_loss,0.010584081220440567,test_loss_v2.json,per_checkpoint/drug_split_2_ddim_seed1
+Original model with adaptive normalisation,Diffusion,drug_split_2,1,heldout_loss,0.010719474125653505,test_loss_v2.json,per_checkpoint/drug_split_2_ddim_seed1
+Original model with adaptive normalisation,Diffusion,drug_split_2,1,ratio,1.0127921264390394,test_loss_v2.json,per_checkpoint/drug_split_2_ddim_seed1
+Original model with adaptive normalisation,Diffusion,drug_split_2,2,training_loss,0.010524474421981723,test_loss_v2.json,per_checkpoint/drug_split_2_ddim_seed2
+Original model with adaptive normalisation,Diffusion,drug_split_2,2,heldout_loss,0.010712623770814389,test_loss_v2.json,per_checkpoint/drug_split_2_ddim_seed2
+Original model with adaptive normalisation,Diffusion,drug_split_2,2,ratio,1.0178773154163112,test_loss_v2.json,per_checkpoint/drug_split_2_ddim_seed2
+Original model with adaptive normalisation,Diffusion,drug_split_2,3,training_loss,0.010554628807585686,test_loss_v2.json,per_checkpoint/drug_split_2_ddim_seed3
+Original model with adaptive normalisation,Diffusion,drug_split_2,3,heldout_loss,0.010892738297116011,test_loss_v2.json,per_checkpoint/drug_split_2_ddim_seed3
+Original model with adaptive normalisation,Diffusion,drug_split_2,3,ratio,1.0320342378395462,test_loss_v2.json,per_checkpoint/drug_split_2_ddim_seed3
+Original model with adaptive normalisation,Diffusion,drug_split_2,4,training_loss,0.010557907132897526,test_loss_v2.json,per_checkpoint/drug_split_2_ddim_seed4
+Original model with adaptive normalisation,Diffusion,drug_split_2,4,heldout_loss,0.010850169253535569,test_loss_v2.json,per_checkpoint/drug_split_2_ddim_seed4
+Original model with adaptive normalisation,Diffusion,drug_split_2,4,ratio,1.0276818233916245,test_loss_v2.json,per_checkpoint/drug_split_2_ddim_seed4
+Original model with adaptive normalisation,Diffusion,drug_split_2,,training_loss_mean,0.010564312289934605,test_loss_v2.json,computed from per_checkpoint/drug_split_2_ddim_seed0..4
+Original model with adaptive normalisation,Diffusion,drug_split_2,,training_loss_sd,2.9240522250298672e-05,test_loss_v2.json,computed from per_checkpoint/drug_split_2_ddim_seed0..4
+Original model with adaptive normalisation,Diffusion,drug_split_2,,heldout_loss_mean,0.010770218945108354,test_loss_v2.json,computed from per_checkpoint/drug_split_2_ddim_seed0..4
+Original model with adaptive normalisation,Diffusion,drug_split_2,,heldout_loss_sd,9.50732328101199e-05,test_loss_v2.json,computed from per_checkpoint/drug_split_2_ddim_seed0..4
+Original model with adaptive normalisation,Diffusion,drug_split_2,,ratio_mean,1.0195038187270709,test_loss_v2.json,computed from per_checkpoint/drug_split_2_ddim_seed0..4
+Original model with adaptive normalisation,Diffusion,drug_split_2,,ratio_min,1.0071335905488337,test_loss_v2.json,computed from per_checkpoint/drug_split_2_ddim_seed0..4
+Original model with adaptive normalisation,Diffusion,drug_split_2,,ratio_max,1.0320342378395462,test_loss_v2.json,computed from per_checkpoint/drug_split_2_ddim_seed0..4
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_0,0,training_loss,0.0454651833511889,test_loss_v2.json,per_checkpoint/drug_split_0_fm_gaussian_seed0
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_0,0,heldout_loss,0.0483738087117672,test_loss_v2.json,per_checkpoint/drug_split_0_fm_gaussian_seed0
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_0,0,ratio,1.063974785675251,test_loss_v2.json,per_checkpoint/drug_split_0_fm_gaussian_seed0
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_0,1,training_loss,0.04533484694547951,test_loss_v2.json,per_checkpoint/drug_split_0_fm_gaussian_seed1
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_0,1,heldout_loss,0.04815527694299817,test_loss_v2.json,per_checkpoint/drug_split_0_fm_gaussian_seed1
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_0,1,ratio,1.0622132903836767,test_loss_v2.json,per_checkpoint/drug_split_0_fm_gaussian_seed1
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_0,2,training_loss,0.04531912254169583,test_loss_v2.json,per_checkpoint/drug_split_0_fm_gaussian_seed2
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_0,2,heldout_loss,0.04820378366857767,test_loss_v2.json,per_checkpoint/drug_split_0_fm_gaussian_seed2
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_0,2,ratio,1.063652184003073,test_loss_v2.json,per_checkpoint/drug_split_0_fm_gaussian_seed2
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_0,3,training_loss,0.04550749408081174,test_loss_v2.json,per_checkpoint/drug_split_0_fm_gaussian_seed3
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_0,3,heldout_loss,0.04835990210995078,test_loss_v2.json,per_checkpoint/drug_split_0_fm_gaussian_seed3
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_0,3,ratio,1.0626799626468941,test_loss_v2.json,per_checkpoint/drug_split_0_fm_gaussian_seed3
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_0,4,training_loss,0.04540964365005493,test_loss_v2.json,per_checkpoint/drug_split_0_fm_gaussian_seed4
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_0,4,heldout_loss,0.04830616544932127,test_loss_v2.json,per_checkpoint/drug_split_0_fm_gaussian_seed4
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_0,4,ratio,1.0637864904113343,test_loss_v2.json,per_checkpoint/drug_split_0_fm_gaussian_seed4
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_0,,training_loss_mean,0.04540725811384618,test_loss_v2.json,computed from per_checkpoint/drug_split_0_fm_gaussian_seed0..4
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_0,,training_loss_sd,8.12704272171463e-05,test_loss_v2.json,computed from per_checkpoint/drug_split_0_fm_gaussian_seed0..4
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_0,,heldout_loss_mean,0.04827978737652302,test_loss_v2.json,computed from per_checkpoint/drug_split_0_fm_gaussian_seed0..4
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_0,,heldout_loss_sd,9.648004508166072e-05,test_loss_v2.json,computed from per_checkpoint/drug_split_0_fm_gaussian_seed0..4
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_0,,ratio_mean,1.0632613426240458,test_loss_v2.json,computed from per_checkpoint/drug_split_0_fm_gaussian_seed0..4
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_0,,ratio_min,1.0622132903836767,test_loss_v2.json,computed from per_checkpoint/drug_split_0_fm_gaussian_seed0..4
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_0,,ratio_max,1.063974785675251,test_loss_v2.json,computed from per_checkpoint/drug_split_0_fm_gaussian_seed0..4
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_2,0,training_loss,0.047798071056604385,test_loss_v2.json,per_checkpoint/drug_split_2_fm_gaussian_seed0
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_2,0,heldout_loss,0.05311439568176866,test_loss_v2.json,per_checkpoint/drug_split_2_fm_gaussian_seed0
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_2,0,ratio,1.1112246688547005,test_loss_v2.json,per_checkpoint/drug_split_2_fm_gaussian_seed0
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_2,1,training_loss,0.04791578892618418,test_loss_v2.json,per_checkpoint/drug_split_2_fm_gaussian_seed1
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_2,1,heldout_loss,0.053485022857785225,test_loss_v2.json,per_checkpoint/drug_split_2_fm_gaussian_seed1
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_2,1,ratio,1.1162296198478674,test_loss_v2.json,per_checkpoint/drug_split_2_fm_gaussian_seed1
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_2,2,training_loss,0.04800407290458679,test_loss_v2.json,per_checkpoint/drug_split_2_fm_gaussian_seed2
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_2,2,heldout_loss,0.05318992780521512,test_loss_v2.json,per_checkpoint/drug_split_2_fm_gaussian_seed2
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_2,2,ratio,1.108029477226563,test_loss_v2.json,per_checkpoint/drug_split_2_fm_gaussian_seed2
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_2,3,training_loss,0.04772868081927299,test_loss_v2.json,per_checkpoint/drug_split_2_fm_gaussian_seed3
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_2,3,heldout_loss,0.05295116817578673,test_loss_v2.json,per_checkpoint/drug_split_2_fm_gaussian_seed3
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_2,3,ratio,1.109420316398204,test_loss_v2.json,per_checkpoint/drug_split_2_fm_gaussian_seed3
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_2,4,training_loss,0.04796778848394752,test_loss_v2.json,per_checkpoint/drug_split_2_fm_gaussian_seed4
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_2,4,heldout_loss,0.052982079423964025,test_loss_v2.json,per_checkpoint/drug_split_2_fm_gaussian_seed4
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_2,4,ratio,1.1045345449205886,test_loss_v2.json,per_checkpoint/drug_split_2_fm_gaussian_seed4
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_2,,training_loss_mean,0.047882880438119176,test_loss_v2.json,computed from per_checkpoint/drug_split_2_fm_gaussian_seed0..4
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_2,,training_loss_sd,0.00011613581747984289,test_loss_v2.json,computed from per_checkpoint/drug_split_2_fm_gaussian_seed0..4
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_2,,heldout_loss_mean,0.05314451878890395,test_loss_v2.json,computed from per_checkpoint/drug_split_2_fm_gaussian_seed0..4
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_2,,heldout_loss_sd,0.00021370739817881058,test_loss_v2.json,computed from per_checkpoint/drug_split_2_fm_gaussian_seed0..4
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_2,,ratio_mean,1.1098877254495847,test_loss_v2.json,computed from per_checkpoint/drug_split_2_fm_gaussian_seed0..4
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_2,,ratio_min,1.1045345449205886,test_loss_v2.json,computed from per_checkpoint/drug_split_2_fm_gaussian_seed0..4
+Rewired model (adaptive normalisation and flow matching),Flow matching,drug_split_2,,ratio_max,1.1162296198478674,test_loss_v2.json,computed from per_checkpoint/drug_split_2_fm_gaussian_seed0..4
