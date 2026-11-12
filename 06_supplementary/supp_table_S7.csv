@@ -1,0 +1,30 @@
+table,model,part,quantity,population,statistic,value,source_record,source_key
+S7,rewired model,a,Spread (mean distance between two cells of the population),generated,mean,11.498508668081234,step15_diag_cells_drug_split_1_seed_0.json,summary/recipe/mean/xx
+S7,rewired model,a,Spread (mean distance between two cells of the population),generated,median,11.148651054823,step15_diag_cells_drug_split_1_seed_0.json,summary/recipe/median/xx
+S7,rewired model,a,Spread (mean distance between two cells of the population),measured,mean,11.627976855031285,step15_diag_cells_drug_split_1_seed_0.json,summary/recipe/mean/yy
+S7,rewired model,a,Spread (mean distance between two cells of the population),measured,median,11.269461009429856,step15_diag_cells_drug_split_1_seed_0.json,summary/recipe/median/yy
+S7,rewired model,a,Spread (mean distance between two cells of the population),generated ÷ measured,ratio of means,0.9888658028336175,step15_diag_cells_drug_split_1_seed_0.json,summary/recipe/mean/xx divided by summary/recipe/mean/yy
+S7,rewired model,a,Total expression per cell,generated,mean,49.14384825238951,step15_diag_cells_drug_split_1_seed_0.json,summary/recipe/mean/lib_pred
+S7,rewired model,a,Total expression per cell,generated,median,43.13934151515263,step15_diag_cells_drug_split_1_seed_0.json,summary/recipe/median/lib_pred
+S7,rewired model,a,Total expression per cell,measured,mean,50.26210628986517,step15_diag_cells_drug_split_1_seed_0.json,summary/recipe/mean/lib_true
+S7,rewired model,a,Total expression per cell,measured,median,44.41181254923344,step15_diag_cells_drug_split_1_seed_0.json,summary/recipe/median/lib_true
+S7,rewired model,a,Total expression per cell,generated ÷ measured,ratio of means,0.9777514688495824,step15_diag_cells_drug_split_1_seed_0.json,summary/recipe/mean/lib_pred divided by summary/recipe/mean/lib_true
+S7,rewired model,a,Zero entries (%),generated,mean,37.0549890994144,step15_diag_cells_drug_split_1_seed_0.json,summary/recipe/mean/zero_pred
+S7,rewired model,a,Zero entries (%),generated,median,37.2425,step15_diag_cells_drug_split_1_seed_0.json,summary/recipe/median/zero_pred
+S7,rewired model,a,Zero entries (%),measured,mean,89.33417623595408,step15_diag_cells_drug_split_1_seed_0.json,summary/recipe/mean/zero_true
+S7,rewired model,a,Zero entries (%),measured,median,90.46499999999999,step15_diag_cells_drug_split_1_seed_0.json,summary/recipe/median/zero_true
+S7,rewired model,b,Mean distance between a generated and a measured cell,both,mean,11.677320214754385,step15_diag_cells_drug_split_1_seed_0.json,summary/recipe/mean/xy
+S7,rewired model,b,Mean distance between a generated and a measured cell,both,median,11.335964656245226,step15_diag_cells_drug_split_1_seed_0.json,summary/recipe/median/xy
+S7,rewired model,b,Population distance,both,mean,0.2281549063962465,step15_diag_cells_drug_split_1_seed_0.json,summary/recipe/mean/energy
+S7,rewired model,b,Population distance,both,median,0.13617122762621925,step15_diag_cells_drug_split_1_seed_0.json,summary/recipe/median/energy
+S7,rewired model,b,Correlation between the generated and the measured mean profile,both,mean,0.9652274285946847,step15_diag_cells_drug_split_1_seed_0.json,summary/recipe/mean/profile_r
+S7,rewired model,b,Correlation between the generated and the measured mean profile,both,median,0.9744254900915043,step15_diag_cells_drug_split_1_seed_0.json,summary/recipe/median/profile_r
+S7,rewired model,b,Slope of the generated on the measured mean profile,both,mean,0.9169922710578273,step15_diag_cells_drug_split_1_seed_0.json,summary/recipe/mean/slope_pred_on_true
+S7,rewired model,b,Slope of the generated on the measured mean profile,both,median,0.9214322018673035,step15_diag_cells_drug_split_1_seed_0.json,summary/recipe/median/slope_pred_on_true
+S7,rewired model,b,Distance from the generated mean to the measured treated mean,both,mean,1.6675908961558803,step15_diag_cells_drug_split_1_seed_0.json,summary/recipe/mean/d_mean_pred_true
+S7,rewired model,b,Distance from the generated mean to the measured treated mean,both,median,1.4512458554991947,step15_diag_cells_drug_split_1_seed_0.json,summary/recipe/median/d_mean_pred_true
+S7,rewired model,b,Distance from the generated mean to the vehicle mean,both,mean,1.733908953319284,step15_diag_cells_drug_split_1_seed_0.json,summary/recipe/mean/d_mean_pred_ctrl
+S7,rewired model,b,Distance from the generated mean to the vehicle mean,both,median,1.5226626077837038,step15_diag_cells_drug_split_1_seed_0.json,summary/recipe/median/d_mean_pred_ctrl
+S7,rewired model,b,Distance from the measured treated mean to the vehicle mean (the measured response),both,mean,1.3731088358015706,step15_diag_cells_drug_split_1_seed_0.json,summary/recipe/mean/d_true_ctrl
+S7,rewired model,b,Distance from the measured treated mean to the vehicle mean (the measured response),both,median,1.2146808102051765,step15_diag_cells_drug_split_1_seed_0.json,summary/recipe/median/d_true_ctrl
+S7,rewired model,b,Generated-to-treated distance ÷ measured response,both,ratio of means,1.2144637429140144,step15_diag_cells_drug_split_1_seed_0.json,summary/recipe/mean/d_mean_pred_true divided by summary/recipe/mean/d_true_ctrl

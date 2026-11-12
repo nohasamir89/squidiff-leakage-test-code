@@ -1,0 +1,84 @@
+{
+ "split": "drug_split_1",
+ "seed": 0,
+ "arms": [
+  "base",
+  "recipe"
+ ],
+ "max_conditions": 0,
+ "note": "post-hoc exploratory diagnostic of 2026-10-01; no pre-registered endpoint depends on it",
+ "summary": {
+  "base": {
+   "tag": "s15_drug_split_1_base_seed_0",
+   "n_conditions": 2899,
+   "mean": {
+    "xy": 21.485660637471145,
+    "xx": 29.234321758951886,
+    "yy": 11.627976855031285,
+    "energy": 2.1090226609591203,
+    "lib_pred": 85.07442836855009,
+    "lib_true": 50.26210628986517,
+    "zero_pred": 0.2718612580059589,
+    "zero_true": 0.8933417623595408,
+    "min_pred": 0.0,
+    "profile_r": 0.8124465451296301,
+    "slope_pred_on_true": 0.8699804528979541,
+    "d_mean_pred_true": 4.5392159233602545,
+    "d_mean_pred_ctrl": 4.521556866657545,
+    "d_true_ctrl": 1.3731088358015706
+   },
+   "median": {
+    "xy": 21.35107686673798,
+    "xx": 29.130305353211686,
+    "yy": 11.269461009429856,
+    "energy": 2.0738308510136285,
+    "lib_pred": 80.38084276108776,
+    "lib_true": 44.41181254923344,
+    "zero_pred": 0.2726878612716763,
+    "zero_true": 0.90465,
+    "min_pred": 0.0,
+    "profile_r": 0.8326924934658849,
+    "slope_pred_on_true": 0.8665370758618367,
+    "d_mean_pred_true": 4.4693259291958745,
+    "d_mean_pred_ctrl": 4.467803732928808,
+    "d_true_ctrl": 1.2146808102051765
+   }
+  },
+  "recipe": {
+   "tag": "s15_drug_split_1_recipe_seed_0",
+   "n_conditions": 2899,
+   "mean": {
+    "xy": 11.677320214754385,
+    "xx": 11.498508668081234,
+    "yy": 11.627976855031285,
+    "energy": 0.2281549063962465,
+    "lib_pred": 49.14384825238951,
+    "lib_true": 50.26210628986517,
+    "zero_pred": 0.370549890994144,
+    "zero_true": 0.8933417623595408,
+    "min_pred": 0.0,
+    "profile_r": 0.9652274285946847,
+    "slope_pred_on_true": 0.9169922710578273,
+    "d_mean_pred_true": 1.6675908961558803,
+    "d_mean_pred_ctrl": 1.733908953319284,
+    "d_true_ctrl": 1.3731088358015706
+   },
+   "median": {
+    "xy": 11.335964656245226,
+    "xx": 11.148651054823,
+    "yy": 11.269461009429856,
+    "energy": 0.13617122762621925,
+    "lib_pred": 43.13934151515263,
+    "lib_true": 44.41181254923344,
+    "zero_pred": 0.372425,
+    "zero_true": 0.90465,
+    "min_pred": 0.0,
+    "profile_r": 0.9744254900915043,
+    "slope_pred_on_true": 0.9214322018673035,
+    "d_mean_pred_true": 1.4512458554991947,
+    "d_mean_pred_ctrl": 1.5226626077837038,
+    "d_true_ctrl": 1.2146808102051765
+   }
+  }
+ }
+}

@@ -366,3 +366,9 @@ supplementary_tables/supp_table_S13.csv
 supplementary_tables/supp_table_S13.md
 leakage_results/step12b_analysis.json
 analyse_step12b.py
+make_supp_table_s4_s7.py
+supplementary_tables/supp_table_S4.csv
+supplementary_tables/supp_table_S4.md
+supplementary_tables/supp_table_S7.csv
+supplementary_tables/supp_table_S7.md
+tahoe_results/step15_diag_cells_drug_split_1_seed_0.json
