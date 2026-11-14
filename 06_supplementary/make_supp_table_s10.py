@@ -7,7 +7,8 @@ Purpose
 -------
 Results 3 reports that five ways of giving the generative model more or different compound information produced no
 confirmed gain, and cites this table for the numbers and for the description of the variants. The numbers come
-from six committed records of four pre-registered experiments and two exploratory analyses. This script assembles
+from six committed records of four pre-registered experiments and two exploratory analyses (and from the record
+that one of them supersedes, read for checks only). This script assembles
 them in one table, so that each number traces to a record and is rounded once, and it keeps the pre-registered
 and the exploratory parts apart.
 
@@ -17,20 +18,23 @@ Five parts:
   b  the two attention modules that were not taken further: every contrast specified for them;
   c  cross-attention and its control on the three splits (the nine values of Fig. 3c, the remaining contrasts
      and the values the percentages in the text are computed from);
-  d  linear models given the fingerprint, the mechanism-of-action labels or the targets (exploratory;
-     the numbers of Supplementary Note 1);
+  d  linear models given the fingerprint, the mechanism-of-action labels or the targets, with the fold
+     assignment of the paper and over 200 random fold assignments (exploratory; the numbers of
+     Supplementary Note 1);
   e  a feedforward network given the features of the linear references (exploratory).
 The description of the variants is printed under the caption. Every number in it is checked against the
 committed pre-registration it is taken from.
 
 Logic
 -----
-- Inputs (committed files only; see supp_table_common.guard):
+- Inputs (committed files only; see supp_table_common.guard). There are seven records:
       leakage_results/step9_analysis.json           mechanism-of-action labels: contrasts (paired median)
       leakage_results/step10_analysis.json          learned chemical embedding: contrasts (paired median)
       leakage_results/step13_analysis.json          attention modules, development split: results/arms, arm_means
       leakage_results/step13b_analysis.json         cross-attention, confirmation splits: per_split/<s>/primary
-      leakage_results/pathway_vs_fingerprint.json   linear models with three feature sets (exploratory)
+      leakage_results/pathway_vs_fingerprint_v2.json   linear models with three feature sets (exploratory): part d
+      leakage_results/pathway_vs_fingerprint.json   the record it supersedes (single precision, script not kept);
+                                                    checks only
       leakage_results/ridge_vs_mlp_v2.json          feedforward network and cross-validated ridge (exploratory)
       figures/squidiff_publication_figures/fig3_values.csv   the values Fig. 3b and 3c were drawn from; check only
       PREREG_step9_pathway_conditioning.md, PREREG_step10_chemvae_stochastic.md, PREREG_step13_attention.md
@@ -41,18 +45,24 @@ Logic
   embedding added to the fingerprint; attn_fp = fingerprint self-attention; attn_mem = attention over similar
   training compounds; attn_cross = cross-attention between compound and cell state; mlp_ctrl = parameter-matched
   control without attention; ref = rewired model; de_overlap / jac = gene identity; energy / en = population
-  distance; dpc = response correlation; pathway_x_line, fp_x_line, target_x_line = ridge with that feature set.
+  distance; dpc = response correlation; pathway_x_line, fp_x_line, target_x_line = ridge with that feature set
+  (in version 2 of the record also: fingerprint, pathway, target).
 - Checks, all before anything is written (a failure stops the script):
     1. Records of the interventions: development split, 443 conditions of 37 compounds, five seeds per arm,
        5,000 bootstrap replicates; each stored word for an interval follows from the interval; the differences
        of the attention modules equal the differences of the stored means (1e-9); the outcome stored for each
        module and for the confirmation follows from the intervals.
     2. Every value of Fig. 3b and 3c (15 rows: value, lower, upper, filled or open) equals the value given here.
-    3. Exploratory records: the gain of the labels equals the difference of the two stored values; each network
-       value is the mean of its three seeds; the settings named in the caption are those stored in the record.
+    3. Exploratory records. Linear models: the best penalty, the value at penalty 1 and the gains follow from the
+       scores stored per penalty; every summary over the 200 fold assignments (median, 2.5th and 97.5th
+       percentile, number of positive gains) is recomputed here from the 200 x 5 stored scores; the comparison
+       stored in the record is the comparison with the superseded file, within the tolerances of the record; the
+       anchor of the record holds (Step 7 ridge, 1e-9) and the fingerprint model at penalty 1 equals the
+       cross-validated ridge of part e (1e-4). Network: each value is the mean of its three seeds; the settings
+       named in the caption are those stored in the record.
     4. Every number in the description of the variants is found in the pre-registration it is taken from.
-    5. The statements of Results 3 and of the captions of Fig. 3b and 3c hold at their printed precision
-       (EXPECTED below; checks only, never inputs to a computation).
+    5. The statements of Results 3, of Supplementary Note 1 and of the captions of Fig. 3b and 3c hold at their
+       printed precision (EXPECTED and NOTE1 below; checks only, never inputs to a computation).
 - Rounding: three decimals, four for differences in gene identity (they are of the order of 0.001); each value is
   rounded once from full precision; differences carry their sign.
 - Outputs (never overwritten): supplementary_tables/supp_table_S10.csv and .md (see supp_table_common).
@@ -73,6 +83,8 @@ IN = dict(
     s10=('leakage_results/step10_analysis.json', '83a30129d62491d6243e1de4d1514c834a64c64d923817bd54da8ee5f2d746ae'),
     s13=('leakage_results/step13_analysis.json', '71b9a94e7bd80f36c372a60850b46f108064eb95c3891cc17e816a0b9b05f7ce'),
     s13b=('leakage_results/step13b_analysis.json', '4ca621d99af270311ececc4abc8b91af6cf41ea7d32b6f04bb6e2ac6f3e9e2a5'),
+    lin2=('leakage_results/pathway_vs_fingerprint_v2.json',
+          'aebc1c61610bd1c0cbf29269facfdb051474293c9ac13dfb2efbe45e5cb58066'),
     lin=('leakage_results/pathway_vs_fingerprint.json', '8bbe7aeec8c36d551cdcc1814b3101af394f745a95eef62c26dc2a6cd52026fa'),
     mlp=('leakage_results/ridge_vs_mlp_v2.json', '7ec3fadafe8b84899b379bfcecdc269d1e53a7594cb4aaaab877e2dfe0a19d5b'),
     fig3=('figures/squidiff_publication_figures/fig3_values.csv',
@@ -103,6 +115,15 @@ ARM_KEYS = [('de_overlap_minus_reference', M_GI, 'rewired model', 4),
 # the comparisons stored for the control: (key, measure, decimals)
 CTRL_KEYS = [('jac', M_GI, 4), ('en', M_PD, 3), ('dpc', M_RC, 3)]
 WIDTHS = [('64', 'Network, width 64'), ('256', 'Network, width 256'), ('1024', 'Network, width 1,024')]
+# the linear models of part d: (name in version 2 of the record, key of the superseded record, label in the table)
+LINEAR = [('fingerprint', 'fp_x_line', 'Fingerprint'), ('pathway', 'pathway_x_line', 'Mechanism-of-action label'),
+          ('target', 'target_x_line', 'Annotated target')]
+# the gains shown in part d: (label model, which penalty, label in the table)
+GAINS = [('pathway', 'best', 'Mechanism-of-action label − fingerprint'),
+         ('target', 'best', 'Annotated target − fingerprint'),
+         ('pathway', 'one', 'Mechanism-of-action label − fingerprint, both at penalty 1')]
+PENALTIES = [0.01, 0.1, 1.0, 10.0, 100.0]
+N_FOLDSETS = 200                                         # random fold assignments in the record
 
 # Numbers quoted in the description of the variants, each with the pre-registration that states it (check 4).
 QUOTED = dict(
@@ -122,13 +143,30 @@ QUOTED = dict(
 # Printed values the manuscript quotes (checks only, never inputs).
 EXPECTED = dict(
     moa='0.002',                        # Results 3: "changed the response correlation of the generative model by 0.002"
-    linear=['0.024', '0.018', '0.046'], # "gained 0.024 on the development split (0.018 and 0.046 on the two confirmation splits"
+    linear=['0.025', '0.018', '0.046'], # "gained 0.025 on the development split and 0.018 and 0.046 on the two
+                                        #  confirmation splits"
+    linear_folds=(188, 197, 200),       # "the gain was present in 188-197 of 200 random fold assignments"
     network=('0.11', '0.21'),           # "reached a response correlation of 0.11-0.21"
     ridge=('0.08', '0.25'),             # "against 0.08-0.25 for the ridge"
     cross=('0.006', '0.003', '12'),     # "improved gene identity by 0.006 ... (0.003 of it over a control ...) ... by 12 %"
     conf=['-0.001', '0.001'],           # "the gene-identity effect was absent (-0.001 and +0.001)"
     others=('-0.011', '0.010'),         # "(population distance, -0.011) and ... (response correlation, +0.010)"
     precision=['0.003', '0.003'],       # "although their precision (+-0.003)"
+)
+
+# Printed values of Supplementary Note 1, in the order of the splits 1, 0, 2 (checks only, never inputs).
+NOTE1 = dict(
+    classes_label=[20, 23, 21],                 # "20, 23 and 21 classes among the held-out compounds"
+    classes_target=[24, 27, 27],                # "the annotated target (24, 27 and 27 classes)"
+    n_penalties=5, penalty_range=(0.01, 100.0),  # "the best of five penalties (0.01-100)"
+    label=['0.213', '0.265', '0.129'],          # "the label model reached a response correlation of ..."
+    fingerprint=['0.188', '0.247', '0.082'],    # "against ... for the fingerprint model"
+    gain=['0.025', '0.018', '0.046'],           # "a gain of ..."
+    positive=[194, 188, 197],                   # "Over 200 random assignments the gain was positive in ..."
+    median_gain=['0.034', '0.025', '0.056'],    # "(median ...)"
+    positive_at_penalty_1=[187, 185, 195],      # "with both models at the fixed penalty of 1 it was positive in ..."
+    target_positive=[95, 184, 193],             # "The annotated target ... (positive in 95 ...) ... (184 and 193)"
+    change_below=0.001,                         # "they differ by less than 0.001 from those of the original run"
 )
 
 
@@ -175,9 +213,24 @@ def mean(values):
     return sum(values) / len(values)
 
 
+def percentile(values, q):
+    """The q-th percentile with linear interpolation between neighbouring order statistics (the default rule of
+    numpy, which the record used); q = 50 gives the median."""
+    v = sorted(values)
+    pos = (len(v) - 1) * q / 100.0
+    lo = int(pos)
+    hi = min(lo + 1, len(v) - 1)
+    return v[lo] + (pos - lo) * (v[hi] - v[lo])
+
+
+def spread(values):
+    """(median, 2.5th percentile, 97.5th percentile) of one quantity over the fold assignments."""
+    return percentile(values, 50.0), percentile(values, 2.5), percentile(values, 97.5)
+
+
 def main():
     guard(IN, TABLE)
-    s9, s10, s13, s13b, lin, mlp = (load_json(IN[k][0]) for k in ('s9', 's10', 's13', 's13b', 'lin', 'mlp'))
+    s9, s10, s13, s13b, lin2, lin, mlp = (load_json(IN[k][0]) for k in ('s9', 's10', 's13', 's13b', 'lin2', 'lin', 'mlp'))
 
     # ---- check 1: the records of the interventions -------------------------------------------------------------------
     n1 = 0
@@ -290,15 +343,82 @@ def main():
     n2 = len(seen)
     same(n2, 15, 'check 2, number of values in fig3_values.csv')
 
-    # ---- check 3: the two exploratory records ----------------------------------------------------------------------------
+    # ---- check 3: the exploratory records --------------------------------------------------------------------------------
+    # (a) the linear models: version 2 of the record (part d) and the record it supersedes (checks only)
     same(lin['analysis'], 'EXPLORATORY, not pre-registered; best of nine feature sets on drug_split_1, replicated here',
+         'check 3, status stored in the superseded record of the linear models')
+    same(lin2['analysis'].startswith('EXPLORATORY, not pre-registered; re-creation of leakage_results/'
+                                     'pathway_vs_fingerprint.json'), True,
          'check 3, status stored in the record of the linear models')
-    LINV, GAIN = {}, {}
+    fs = lin2['fold_sensitivity']
+    same((lin2['settings']['penalties'], fs['penalties'], fs['n_assignments']), (PENALTIES, PENALTIES, N_FOLDSETS),
+         'check 3, penalties and number of fold assignments of the linear models')
+    same(lin2['old_record']['sha256'], IN['lin'][1], 'check 3, the file that version 2 was compared with')
+    one = PENALTIES.index(1.0)
+    OLDV, LIN, n3 = {}, {}, 0
     for s in SPLITS:
-        p = lin['per_split'][s]
-        LINV[s] = dict((k, float(p[k])) for k in ('fp_x_line', 'pathway_x_line', 'target_x_line'))
-        GAIN[s] = LINV[s]['pathway_x_line'] - LINV[s]['fp_x_line']
-        same(p['pathway_beats_fp'], GAIN[s] > 0, 'check 3, stored flag of the labels against the fingerprint on %s' % s)
+        p, f, q = lin2['per_split'][s], fs['per_split'][s], lin['per_split'][s]
+        same((p['n'], p['n_drugs'], p['n_pathways'], p['n_targets']),
+             (q['n'], q['n_drugs'], q['n_pathways'], q['n_targets']),
+             'check 3, conditions, compounds and label classes of %s in the two records of the linear models' % s)
+        if float(lin2['anchor_step7_ridge_penalty_1'][s]['abs_diff']) > TOL:
+            die('check 3: the Step 7 ridge is not reproduced by the folds of the record on %s' % s)
+        OLDV[s] = dict((k, float(q[k])) for _, k, _ in LINEAR)
+        d = dict(best={}, one={}, gain={}, fold={}, positive={})
+        for m, old_key, _ in LINEAR:
+            scores = dict((float(a), float(v['median'])) for a, v in p['per_penalty'][m].items())
+            same(sorted(scores), PENALTIES, 'check 3, penalties stored for the %s model on %s' % (m, s))
+            d['best'][m], d['one'][m] = max(scores.values()), scores[1.0]
+            close(float(p['best'][m]['median']), d['best'][m], TOL, 'check 3, best penalty of the %s model on %s' % (m, s))
+            close(scores[float(p['best'][m]['penalty'])], d['best'][m], TOL,
+                  'check 3, the penalty named best for the %s model on %s' % (m, s))
+            close(float(p[old_key]), d['best'][m], TOL, 'check 3, %s of %s' % (old_key, s))
+            close(float(p['at_penalty_1'][m]), d['one'][m], TOL, 'check 3, %s model at penalty 1 on %s' % (m, s))
+            c = lin2['old_record']['comparison'][s][old_key]     # the comparison with the superseded record
+            close(float(c['old']), OLDV[s][old_key], TOL, 'check 3, superseded value of %s on %s' % (old_key, s))
+            close(float(c['new']), d['best'][m], TOL, 'check 3, compared value of %s on %s' % (old_key, s))
+            if abs(d['best'][m] - OLDV[s][old_key]) > float(c['tolerance']):
+                die('check 3: %s on %s differs from the superseded record by more than its tolerance' % (old_key, s))
+            n3 += 1
+        for m, tag, _ in GAINS:
+            d['gain'][(m, tag)] = d[tag][m] - d[tag]['fingerprint']
+            close(float(p['gain_over_fingerprint'][{'best': 'best_penalty', 'one': 'penalty_1'}[tag]][m]),
+                  d['gain'][(m, tag)], TOL, 'check 3, gain of the %s model (%s) on %s' % (m, tag, s))
+        same(p['pathway_beats_fp'], d['gain'][('pathway', 'best')] > 0,
+             'check 3, stored flag of the labels against the fingerprint on %s' % s)
+        # the 200 random fold assignments: every summary is recomputed from the stored scores
+        same((len(f['assignments']), len(set(f['assignments'])), f['n_distinct']), (N_FOLDSETS, N_FOLDSETS, N_FOLDSETS),
+             'check 3, number of distinct fold assignments on %s' % s)
+        per = dict(best={}, one={})                      # per[penalty rule][model] = one value per fold assignment
+        for m, _, _ in LINEAR:
+            runs = [[float(x) for x in row] for row in f['median_dpc50'][m]]
+            same((len(runs), sorted(set(len(r) for r in runs))), (N_FOLDSETS, [len(PENALTIES)]),
+                 'check 3, stored scores of the %s model over the fold assignments on %s' % (m, s))
+            per['best'][m], per['one'][m] = [max(r) for r in runs], [r[one] for r in runs]
+        for tag, key in (('best', 'best_penalty'), ('one', 'penalty_1')):
+            for m, _, _ in LINEAR:
+                got, st = spread(per[tag][m]), f['summary'][key]['models'][m]
+                for x, name in zip(got, ('median', 'p2.5', 'p97.5')):
+                    close(float(st[name]), x, 1e-12, 'check 3, %s of the %s model (%s) over the fold assignments on %s'
+                          % (name, m, tag, s))
+                close(float(st['paper']), d[tag][m], TOL,
+                      'check 3, value of the paper stored with the spread (%s, %s)' % (m, s))
+                d['fold'][(m, tag)] = got
+                n3 += 1
+        for m, tag, _ in GAINS:
+            key = {'best': 'best_penalty', 'one': 'penalty_1'}[tag]
+            diffs = [a - b for a, b in zip(per[tag][m], per[tag]['fingerprint'])]
+            got, st = spread(diffs), f['summary'][key]['gain_over_fingerprint'][m]
+            for x, name in zip(got, ('median', 'p2.5', 'p97.5')):
+                close(float(st[name]), x, 1e-12, 'check 3, %s of the gain of the %s model (%s) on %s' % (name, m, tag, s))
+            d['fold'][('gain', m, tag)] = got
+            d['positive'][(m, tag)] = sum(1 for x in diffs if x > 0)
+            same(st['n_positive'], d['positive'][(m, tag)],
+                 'check 3, positive gains of the %s model (%s) on %s' % (m, tag, s))
+            n3 += 1
+        d['target_positive'] = d['positive'][('target', 'best')]
+        LIN[s] = d
+    # (b) the feedforward network
     same(mlp['analysis'].startswith('EXPLORATORY, not pre-registered'), True, 'check 3, status of the network record')
     st = mlp['settings']
     same((st['features'], st['folds'], st['ridge'], st['mlp'], st['widths'], st['seeds']),
@@ -312,12 +432,15 @@ def main():
     same((mlp['chosen']['weight_decay'], mlp['chosen']['epochs'], best), (10.0, 400, 'wd10_ep400'),
          'check 3, the setting chosen is the best of the twelve on the development split')
     NET, RIDGE = {}, {}
-    n3 = 0
     for s in SPLITS:
         p = mlp['per_split'][s]
-        same((p['n'], p['n_drugs']), (lin['per_split'][s]['n'], lin['per_split'][s]['n_drugs']),
+        same((p['n'], p['n_drugs']), (lin2['per_split'][s]['n'], lin2['per_split'][s]['n_drugs']),
              'check 3, conditions and compounds of %s in the two exploratory records' % s)
         RIDGE[s] = float(p['ridge']['median'])
+        # at penalty 1 the fingerprint model of part d is the cross-validated ridge of part e (the two records differ
+        # only in details of the arithmetic)
+        close(LIN[s]['one']['fingerprint'], RIDGE[s], 1e-4,
+              'check 3, fingerprint model at penalty 1 against the ridge on %s' % s)
         NET[s] = {}
         for w, _ in WIDTHS:
             seeds = [float(x['median']) for x in p['mlp'][w]['seeds']]
@@ -326,21 +449,20 @@ def main():
                   'check 3, seed mean of width %s on %s' % (w, s))
             NET[s][w] = float(p['mlp'][w]['median_mean_over_seeds'])
             n3 += 1
-    # The fingerprint model of part d is NOT the cross-validated ridge of part e: part d fits each feature set at the
-    # penalty that was best for it, part e uses the fixed penalty of the paper's ridge (alpha = 1). The two differ in
-    # the third decimal, so they are given in separate rows and never mixed.
-    conds = [lin['per_split'][s]['n'] for s in SPLITS]
-    drugs = [lin['per_split'][s]['n_drugs'] for s in SPLITS]
+    # Part d gives each model at the penalty that was best for it; part e uses the fixed penalty of the paper's ridge
+    # (penalty 1). They are given in separate rows and never mixed.
+    conds = [lin2['per_split'][s]['n'] for s in SPLITS]
+    drugs = [lin2['per_split'][s]['n_drugs'] for s in SPLITS]
     same((conds[0], drugs[0]), (s9['n_conditions'], s9['n_drugs']), 'check 3, development split in all records')
     width_dev = max((w for w, _ in WIDTHS), key=lambda w: NET[DEV][w])     # the width that is best on the development split
 
     # ---- check 4: numbers quoted in the description of the variants -------------------------------------------------------
     n4 = 0
-    # the pre-registration of the label experiment reproduces the values of the linear models: the same numbers there
+    # the pre-registration of the label experiment states the values of the superseded record of the linear models
     quoted = dict((k, list(v)) for k, v in QUOTED.items())
     for s in SPLITS:
-        quoted['pre9'].append('| %s | **%.4f** | %.4f | %.4f |' % (s, LINV[s]['pathway_x_line'], LINV[s]['fp_x_line'],
-                                                               LINV[s]['target_x_line']))
+        quoted['pre9'].append('| %s | **%.4f** | %.4f | %.4f |' % (s, OLDV[s]['pathway_x_line'], OLDV[s]['fp_x_line'],
+                                                               OLDV[s]['target_x_line']))
     for key, phrases in sorted(quoted.items()):
         with open(IN[key][0], encoding='utf-8') as f:
             text = f.read()
@@ -354,7 +476,9 @@ def main():
     rel = dict((s, 100.0 * X[s]['energy_minus_reference'][0] / MEANS[s]['ref']['en']) for s in SPLITS)   # per cent
     got = dict(
         moa=plain(A[L_MOA_ADD][0], 3),
-        linear=[plain(GAIN[s], 3) for s in SPLITS],
+        linear=[plain(LIN[s]['gain'][('pathway', 'best')], 3) for s in SPLITS],
+        linear_folds=(min(LIN[s]['positive'][('pathway', 'best')] for s in SPLITS),
+                      max(LIN[s]['positive'][('pathway', 'best')] for s in SPLITS), fs['n_assignments']),
         network=span([NET[s][width_dev] for s in SPLITS]),
         ridge=span([RIDGE[s] for s in SPLITS]),
         cross=(plain(cross['de_overlap_minus_reference'][0], 3), plain(cross['de_overlap_minus_control'][0], 3),
@@ -365,6 +489,25 @@ def main():
                    for s in CONF],
     )
     same(got, EXPECTED, 'check 5, values quoted in Results 3')
+    # Supplementary Note 1
+    note = dict(
+        classes_label=[lin2['per_split'][s]['n_pathways'] for s in SPLITS],
+        classes_target=[lin2['per_split'][s]['n_targets'] for s in SPLITS],
+        n_penalties=len(PENALTIES), penalty_range=(min(PENALTIES), max(PENALTIES)),
+        label=[plain(LIN[s]['best']['pathway'], 3) for s in SPLITS],
+        fingerprint=[plain(LIN[s]['best']['fingerprint'], 3) for s in SPLITS],
+        gain=[plain(LIN[s]['gain'][('pathway', 'best')], 3) for s in SPLITS],
+        positive=[LIN[s]['positive'][('pathway', 'best')] for s in SPLITS],
+        median_gain=[plain(LIN[s]['fold'][('gain', 'pathway', 'best')][0], 3) for s in SPLITS],
+        positive_at_penalty_1=[LIN[s]['positive'][('pathway', 'one')] for s in SPLITS],
+        target_positive=[LIN[s]['target_positive'] for s in SPLITS],
+        change_below=NOTE1['change_below'],
+    )
+    same(note, NOTE1, 'check 5, values quoted in Supplementary Note 1')
+    worst = max(abs(LIN[s]['best'][m] - OLDV[s][k]) for s in SPLITS for m, k, _ in LINEAR)
+    if not worst < NOTE1['change_below']:
+        die('check 5: a value of the linear models differs from the original run by %.6f, not by less than %s'
+            % (worst, NOTE1['change_below']))
     same(width_dev, '64', 'check 5, the network width that is best on the development split')
     if not includes_zero(A[L_MOA_ADD]):
         die('check 5: the interval of the mechanism-of-action labels excludes zero')
@@ -388,11 +531,13 @@ def main():
     # ---- the table ---------------------------------------------------------------------------------------------------
     long_rows = []
 
-    def keep(part, measure, entry, comparison, split, c, status, record, key):
+    def keep(part, measure, entry, comparison, split, c, status, record, key, test=True):
+        """One row of the long-format file. c is a value or (value, lower, upper). test=False marks a range that is
+        not the interval of a comparison (the spread over fold assignments): no excludes-zero flag is written."""
         v, lo, hi = c if isinstance(c, tuple) else (c, None, None)
         long_rows.append(dict(part=part, measure=measure, entry=entry, comparison=comparison, split=split, value=v, lo=lo,
-                              hi=hi, excludes_zero='' if lo is None else int(lo > 0 or hi < 0), status=status,
-                              source_record=record, source_key=key))
+                              hi=hi, excludes_zero='' if (lo is None or not test) else int(lo > 0 or hi < 0),
+                              status=status, source_record=record, source_key=key))
 
     PRE, EXPL = 'specified before scoring', 'exploratory'
     md = ['Supplementary Table S10 | Interventions on the compound input of the rewired model on sci-Plex (Results 3; '
@@ -411,11 +556,15 @@ def main():
           'first three rows are drawn in Fig. 3c, and the last rows give the values the differences are computed from '
           'and the difference in population distance relative to the rewired model. Parts a to c come from '
           'analyses specified before the data were scored. d, Ridge models fitted within the held-out compounds, '
-          'with folds grouped by compound, on the cell line, the compound features and their products, each at the '
-          'penalty that was best for it. The compound features were the fingerprint, the mechanism-of-action label '
-          'or the annotated target; the label model was the best of nine feature sets tried on the development '
-          'split and was then fitted on the other two (Supplementary Note 1). Its fingerprint model therefore differs '
-          'slightly from the cross-validated ridge of part e, which has a fixed penalty. e, A '
+          'with five folds grouped by compound, on the cell line, the compound features and their products. The '
+          'compound features were the fingerprint, the mechanism-of-action label or the annotated target, the last '
+          'two as indicator vectors; the label model was the best of nine feature sets tried on the development '
+          'split and was then fitted on the other two (Supplementary Note 1). Each model is given at the best of '
+          'five penalties (0.01–100), chosen on the scored conditions; the last two rows give the difference with '
+          'both models at the fixed penalty of 1, at which the fingerprint model is the cross-validated ridge of '
+          'part e. Of the paper: the fold assignment of the cross-validated ridge. 200 random: median (2.5th to '
+          '97.5th percentile) over 200 random assignments of the compounds to the five folds and, for a difference, '
+          'the number of assignments in which it was positive. e, A '
           'feedforward network given the features of the linear references (4,099: dose-scaled fingerprint, cell-line '
           'indicator and their products), fitted within the held-out compounds with five folds grouped by compound, as '
           'the cross-validated ridge is. One hidden layer with ReLU, AdamW, weight decay 10, 400 epochs (the best of '
@@ -505,14 +654,38 @@ def main():
     md += table(['Entry', 'Measure'] + SPLIT_HEAD, rows)
 
     md += ['', '**d** | Linear models given the fingerprint, the labels or the targets (exploratory).', '']
+    REC2 = 'pathway_vs_fingerprint_v2.json'
+    PAPER, RANDOM = 'of the paper', '200 random'
+    C_PAPER = 'fold assignment of the paper'
+    C_RANDOM = '%d random fold assignments: median, 2.5th and 97.5th percentile' % N_FOLDSETS
+    C_COUNT = '%d random fold assignments: number with a positive difference' % N_FOLDSETS
+    RULE = {'best': 'best_penalty', 'one': 'penalty_1'}
+
+    def range_cell(t, sign=False):
+        """'0.178 (0.152–0.212)' for a value, '+0.034 (−0.006 to +0.073)' for a difference."""
+        return '%s (%s%s%s)' % (num(t[0], 3, sign), num(t[1], 3, sign), ' to ' if sign else '–', num(t[2], 3, sign))
+
     rows = []
-    for label, k in (('Fingerprint', 'fp_x_line'), ('Mechanism-of-action label', 'pathway_x_line'),
-                     ('Annotated target', 'target_x_line')):
-        rows.append([label] + [num(LINV[s][k], 3) for s in SPLITS])
+    for m, _, label in LINEAR:
+        rows.append([label, PAPER] + [num(LIN[s]['best'][m], 3) for s in SPLITS])
+        rows.append(['', RANDOM] + [range_cell(LIN[s]['fold'][(m, 'best')]) for s in SPLITS])
         for s in SPLITS:
-            keep('d', M_RC, label, '', s, LINV[s][k], EXPL, 'pathway_vs_fingerprint.json', 'per_split/%s/%s' % (s, k))
-    rows.append(['Mechanism-of-action label − fingerprint'] + [num(GAIN[s], 3, True) for s in SPLITS])
-    md += table(['Compound features'] + SPLIT_HEAD, rows)
+            keep('d', M_RC, label, C_PAPER, s, LIN[s]['best'][m], EXPL, REC2, 'per_split/%s/best/%s/median' % (s, m))
+            keep('d', M_RC, label, C_RANDOM, s, LIN[s]['fold'][(m, 'best')], EXPL, REC2,
+                 'fold_sensitivity/per_split/%s/summary/best_penalty/models/%s' % (s, m), test=False)
+    for m, tag, label in GAINS:
+        rows.append([label, PAPER] + [num(LIN[s]['gain'][(m, tag)], 3, True) for s in SPLITS])
+        rows.append(['', RANDOM] + ['%s; positive in %d' % (range_cell(LIN[s]['fold'][('gain', m, tag)], True),
+                                                            LIN[s]['positive'][(m, tag)]) for s in SPLITS])
+        for s in SPLITS:
+            where = 'summary/%s/gain_over_fingerprint/%s' % (RULE[tag], m)
+            keep('d', M_RC, label, C_PAPER, s, LIN[s]['gain'][(m, tag)], EXPL, REC2,
+                 'per_split/%s/gain_over_fingerprint/%s/%s' % (s, RULE[tag], m))
+            keep('d', M_RC, label, C_RANDOM, s, LIN[s]['fold'][('gain', m, tag)], EXPL, REC2,
+                 'fold_sensitivity/per_split/%s/%s' % (s, where), test=False)
+            keep('d', M_RC, label, C_COUNT, s, LIN[s]['positive'][(m, tag)], EXPL, REC2,
+                 'fold_sensitivity/per_split/%s/%s/n_positive' % (s, where))
+    md += table(['Compound features', 'Fold assignment'] + SPLIT_HEAD, rows)
 
     md += ['', '**e** | Feedforward network given the features of the linear references (exploratory).', '']
     rows = [['Cross-validated ridge'] + [num(RIDGE[s], 3) for s in SPLITS]]
@@ -527,17 +700,20 @@ def main():
 
     md += ['',
            'Sources: step9_analysis.json (sha256 %s), step10_analysis.json (sha256 %s), step13_analysis.json (sha256 %s) '
-           'and step13b_analysis.json (sha256 %s; parts a to c); pathway_vs_fingerprint.json (sha256 %s; part d); '
+           'and step13b_analysis.json (sha256 %s; parts a to c); pathway_vs_fingerprint_v2.json (sha256 %s; part d, '
+           'script pathway_vs_fingerprint_v2.py; it supersedes pathway_vs_fingerprint.json, sha256 %s, from whose values '
+           'its own differ by less than 0.001); '
            'ridge_vs_mlp_v2.json (sha256 %s; part e, script ridge_vs_mlp_v2.py). The values of parts a and c that are '
            'drawn in Fig. 3b and 3c equal those the figures were drawn from (fig3_values.csv). The numbers in the '
            'description of the variants are those of the pre-registrations of the three experiments. Assembled by '
-           'make_supp_table_s10.py.' % tuple(IN[k][1][:16] for k in ('s9', 's10', 's13', 's13b', 'lin', 'mlp'))]
+           'make_supp_table_s10.py.' % tuple(IN[k][1][:16] for k in ('s9', 's10', 's13', 's13b', 'lin2', 'lin', 'mlp'))]
     if DASH in '\n'.join(md):
         die('a cell of the table has no value')
     write_outputs(TABLE, long_rows, md)
-    print('[checks] 1 (%d comparisons of the four experiments), 2 (%d values of Fig. 3b and 3c), 3 (%d network values and '
-          'the settings of the exploratory records), 4 (%d numbers of the description found in the pre-registrations), '
-          '5 (statements of Results 3 and of the two captions) all passed' % (n1, n2, n3, n4))
+    print('[checks] 1 (%d comparisons of the four experiments), 2 (%d values of Fig. 3b and 3c), 3 (%d values of the two '
+          'exploratory records, with the summaries over %d fold assignments recomputed), 4 (%d numbers of the description '
+          'found in the pre-registrations), 5 (statements of Results 3, of Supplementary Note 1 and of the two captions) '
+          'all passed' % (n1, n2, n3, N_FOLDSETS, n4))
 
 
 if __name__ == '__main__':
