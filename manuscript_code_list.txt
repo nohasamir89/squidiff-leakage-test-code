@@ -384,3 +384,6 @@ supplementary_tables/supp_table_S18.md
 make_supp_table_s10.py
 supplementary_tables/supp_table_S10.csv
 supplementary_tables/supp_table_S10.md
+pathway_vs_fingerprint_v2.py
+run_pathway_vs_fingerprint_v2.sh
+leakage_results/pathway_vs_fingerprint_v2.json
