@@ -1,0 +1,72 @@
+part,row,column,value,source
+a,Unaltered vehicle cells,setting,"The matched vehicle cells, returned unchanged.",Methods; score_step14.py; score_step15_tahoe.py
+a,Training-set ridge,setting,"Multi-output ridge regression (scikit-learn Ridge, penalty 1.0 fixed before any result, intercept, unscaled features). Features: the 1,024-bit fingerprint, a one-hot cell-line indicator and their products (4,099 features on sci-Plex, 15,374 on Tahoe-100M). Target: the mean expression change of a condition from its matched vehicle cells. Fitted on the training conditions.",Methods; score_step14.py; score_step15_tahoe.py
+a,Cross-validated ridge,setting,"The same regression, fitted within the held-out compounds by five-fold cross-validation with folds grouped by structure.",Methods; score_step14.py; score_step15_tahoe.py
+a,Compound-blind average,setting,One shift per cell line: the mean change over the held-out conditions of that line.,Methods; score_step14.py; score_step15_tahoe.py
+a,Use of the three shifts,setting,"The shift is added to the matched vehicle cells and negative values are set to zero; one shifted cell per measured cell, at most 200 per condition.",Methods; score_step14.py; score_step15_tahoe.py
+b,sci-Plex: Original model,drug_split_1,1000,sampler default
+b,sci-Plex: Original model,drug_split_0,1000,sampler default
+b,sci-Plex: Original model,drug_split_2,1000,sampler default
+b,sci-Plex: Original model with adaptive normalisation,drug_split_1,1000,run name
+b,sci-Plex: Original model with adaptive normalisation,drug_split_0,1000,record
+b,sci-Plex: Original model with adaptive normalisation,drug_split_2,1000,record
+b,sci-Plex: Rewired model,drug_split_1,50,run name
+b,sci-Plex: Rewired model,drug_split_0,50,record
+b,sci-Plex: Rewired model,drug_split_2,50,record
+b,"sci-Plex: Rewired model, 20 integration steps",drug_split_1,20,run name
+b,"sci-Plex: Rewired model, 20 integration steps",drug_split_0,20,record
+b,"sci-Plex: Rewired model, 20 integration steps",drug_split_2,20,record
+b,sci-Plex: Rewired model with classifier-free guidance (weight 2),drug_split_1,50,record
+b,sci-Plex: Rewired model with classifier-free guidance (weight 2),drug_split_0,50,record
+b,sci-Plex: Rewired model with classifier-free guidance (weight 2),drug_split_2,50,record
+b,sci-Plex: Rewired model with cross-attention,drug_split_1,50,record
+b,sci-Plex: Rewired model with cross-attention,drug_split_0,50,record
+b,sci-Plex: Rewired model with cross-attention,drug_split_2,50,record
+b,"sci-Plex: Rewired model, parameter-matched control without attention",drug_split_1,50,record
+b,"sci-Plex: Rewired model, parameter-matched control without attention",drug_split_0,50,record
+b,"sci-Plex: Rewired model, parameter-matched control without attention",drug_split_2,50,record
+b,sci-Plex: Variant: mechanism-of-action labels in place of the fingerprint,drug_split_1,20,record
+b,sci-Plex: Variant: mechanism-of-action labels in place of the fingerprint,drug_split_0,,
+b,sci-Plex: Variant: mechanism-of-action labels in place of the fingerprint,drug_split_2,,
+b,sci-Plex: Variant: mechanism-of-action labels added to the fingerprint,drug_split_1,20,record
+b,sci-Plex: Variant: mechanism-of-action labels added to the fingerprint,drug_split_0,,
+b,sci-Plex: Variant: mechanism-of-action labels added to the fingerprint,drug_split_2,,
+b,sci-Plex: Variant: learned chemical embedding in place of the fingerprint,drug_split_1,20,record
+b,sci-Plex: Variant: learned chemical embedding in place of the fingerprint,drug_split_0,,
+b,sci-Plex: Variant: learned chemical embedding in place of the fingerprint,drug_split_2,,
+b,sci-Plex: Variant: learned chemical embedding added to the fingerprint,drug_split_1,20,record
+b,sci-Plex: Variant: learned chemical embedding added to the fingerprint,drug_split_0,,
+b,sci-Plex: Variant: learned chemical embedding added to the fingerprint,drug_split_2,,
+b,Tahoe-100M: Original model,drug_split_1,1000,sampler default
+b,Tahoe-100M: Original model,drug_split_0,1000,sampler default
+b,Tahoe-100M: Original model,drug_split_2,1000,sampler default
+b,Tahoe-100M: Rewired model,drug_split_1,50,record
+b,Tahoe-100M: Rewired model,drug_split_0,50,record
+b,Tahoe-100M: Rewired model,drug_split_2,50,record
+b,Tahoe-100M: Rewired model with classifier-free guidance (weight 2),drug_split_1,50,record
+b,Tahoe-100M: Rewired model with classifier-free guidance (weight 2),drug_split_0,50,record
+b,Tahoe-100M: Rewired model with classifier-free guidance (weight 2),drug_split_2,50,record
+b,Tahoe-100M: Rewired model with cross-attention,drug_split_1,50,record
+b,Tahoe-100M: Rewired model with cross-attention,drug_split_0,50,record
+b,Tahoe-100M: Rewired model with cross-attention,drug_split_2,50,record
+b,"Tahoe-100M: Rewired model, parameter-matched control without attention",drug_split_1,50,record
+b,"Tahoe-100M: Rewired model, parameter-matched control without attention",drug_split_0,50,record
+b,"Tahoe-100M: Rewired model, parameter-matched control without attention",drug_split_2,50,record
+c,Training-set ridge,"sciplex, drug_split_1",43.6629,step14_analysis.log
+c,Training-set ridge,"sciplex, drug_split_0",39.6962,step14_analysis.log
+c,Training-set ridge,"sciplex, drug_split_2",42.018,step14_analysis.log
+c,Training-set ridge,"tahoe, drug_split_1",41.5891,s15score_final.log
+c,Training-set ridge,"tahoe, drug_split_0",39.5001,s15score_final.log
+c,Training-set ridge,"tahoe, drug_split_2",38.2109,s15score_final.log
+c,Cross-validated ridge,"sciplex, drug_split_1",29.6754,step14_analysis.log
+c,Cross-validated ridge,"sciplex, drug_split_0",35.2013,step14_analysis.log
+c,Cross-validated ridge,"sciplex, drug_split_2",31.7294,step14_analysis.log
+c,Cross-validated ridge,"tahoe, drug_split_1",36.2795,s15score_final.log
+c,Cross-validated ridge,"tahoe, drug_split_0",32.9631,s15score_final.log
+c,Cross-validated ridge,"tahoe, drug_split_2",31.2707,s15score_final.log
+c,Compound-blind average,"sciplex, drug_split_1",11.6041,step14_analysis.log
+c,Compound-blind average,"sciplex, drug_split_0",14.6525,step14_analysis.log
+c,Compound-blind average,"sciplex, drug_split_2",12.8489,step14_analysis.log
+c,Compound-blind average,"tahoe, drug_split_1",24.2548,s15score_final.log
+c,Compound-blind average,"tahoe, drug_split_0",20.448,s15score_final.log
+c,Compound-blind average,"tahoe, drug_split_2",21.3243,s15score_final.log

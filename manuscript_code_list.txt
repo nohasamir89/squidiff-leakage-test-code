@@ -391,3 +391,6 @@ PREREG_step29_fold_sensitivity.md
 make_supp_table_s1.py
 supplementary_tables/supp_table_S1.md
 supplementary_tables/supp_table_S1.csv
+make_supp_table_s9.py
+supplementary_tables/supp_table_S9.md
+supplementary_tables/supp_table_S9.csv
