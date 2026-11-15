@@ -1,0 +1,168 @@
+part,row,column,value,source_record
+a,A-172,tissue,Brain,Methods (not a record)
+a,A-172,plates,13,step15_data_record.json
+a,A-172,compounds,375,step15_data_record.json
+a,A-172,conditions,1065,step15_data_record.json
+a,A-172,treated cells,1738454,step15_data_record.json
+a,H4,tissue,Brain,Methods (not a record)
+a,H4,plates,13,step15_data_record.json
+a,H4,compounds,375,step15_data_record.json
+a,H4,conditions,1065,step15_data_record.json
+a,H4,treated cells,827015,step15_data_record.json
+a,SW 1088,tissue,Brain,Methods (not a record)
+a,SW 1088,plates,11,step15_data_record.json
+a,SW 1088,compounds,234,step15_data_record.json
+a,SW 1088,conditions,520,step15_data_record.json
+a,SW 1088,treated cells,94220,step15_data_record.json
+a,KATO III,tissue,Gastric,Methods (not a record)
+a,KATO III,plates,13,step15_data_record.json
+a,KATO III,compounds,375,step15_data_record.json
+a,KATO III,conditions,1065,step15_data_record.json
+a,KATO III,treated cells,1670000,step15_data_record.json
+a,SNU-1,tissue,Gastric,Methods (not a record)
+a,SNU-1,plates,13,step15_data_record.json
+a,SNU-1,compounds,375,step15_data_record.json
+a,SNU-1,conditions,1063,step15_data_record.json
+a,SNU-1,treated cells,882379,step15_data_record.json
+a,COLO 205,tissue,Colorectal,Methods (not a record)
+a,COLO 205,plates,13,step15_data_record.json
+a,COLO 205,compounds,375,step15_data_record.json
+a,COLO 205,conditions,1065,step15_data_record.json
+a,COLO 205,treated cells,1126977,step15_data_record.json
+a,HCT15,tissue,Colorectal,Methods (not a record)
+a,HCT15,plates,13,step15_data_record.json
+a,HCT15,compounds,375,step15_data_record.json
+a,HCT15,conditions,1065,step15_data_record.json
+a,HCT15,treated cells,1206750,step15_data_record.json
+a,HT-29,tissue,Colorectal,Methods (not a record)
+a,HT-29,plates,13,step15_data_record.json
+a,HT-29,compounds,375,step15_data_record.json
+a,HT-29,conditions,1065,step15_data_record.json
+a,HT-29,treated cells,1636173,step15_data_record.json
+a,LS 180,tissue,Colorectal,Methods (not a record)
+a,LS 180,plates,13,step15_data_record.json
+a,LS 180,compounds,375,step15_data_record.json
+a,LS 180,conditions,1065,step15_data_record.json
+a,LS 180,treated cells,1212126,step15_data_record.json
+a,LoVo,tissue,Colorectal,Methods (not a record)
+a,LoVo,plates,13,step15_data_record.json
+a,LoVo,compounds,375,step15_data_record.json
+a,LoVo,conditions,1065,step15_data_record.json
+a,LoVo,treated cells,2177636,step15_data_record.json
+a,RKO,tissue,Colorectal,Methods (not a record)
+a,RKO,plates,13,step15_data_record.json
+a,RKO,compounds,375,step15_data_record.json
+a,RKO,conditions,1065,step15_data_record.json
+a,RKO,treated cells,1775480,step15_data_record.json
+a,SW1417,tissue,Colorectal,Methods (not a record)
+a,SW1417,plates,13,step15_data_record.json
+a,SW1417,compounds,375,step15_data_record.json
+a,SW1417,conditions,1065,step15_data_record.json
+a,SW1417,treated cells,1292509,step15_data_record.json
+a,SW48,tissue,Colorectal,Methods (not a record)
+a,SW48,plates,13,step15_data_record.json
+a,SW48,compounds,375,step15_data_record.json
+a,SW48,conditions,1065,step15_data_record.json
+a,SW48,treated cells,749643,step15_data_record.json
+a,SW480,tissue,Colorectal,Methods (not a record)
+a,SW480,plates,13,step15_data_record.json
+a,SW480,compounds,375,step15_data_record.json
+a,SW480,conditions,1065,step15_data_record.json
+a,SW480,treated cells,4679378,step15_data_record.json
+a,All,plates,13,step15_data_record.json
+a,All,compounds,375,step15_data_record.json
+a,All,conditions,14363,step15_data_record.json
+a,All,treated cells,21068740,step15_data_record.json
+b,plate 1,cells in the plate file,1551891,step15_data_record.json
+b,plate 1,cell lines,14,step15_data_record.json
+b,plate 1,compounds,81,step15_data_record.json
+b,plate 1,conditions,1132,step15_data_record.json
+b,plate 1,treated cells,1500582,step15_data_record.json
+b,plate 2,cells in the plate file,2179994,step15_data_record.json
+b,plate 2,cell lines,14,step15_data_record.json
+b,plate 2,compounds,83,step15_data_record.json
+b,plate 2,conditions,1159,step15_data_record.json
+b,plate 2,treated cells,2114108,step15_data_record.json
+b,plate 3,cells in the plate file,762318,step15_data_record.json
+b,plate 3,cell lines,14,step15_data_record.json
+b,plate 3,compounds,42,step15_data_record.json
+b,plate 3,conditions,585,step15_data_record.json
+b,plate 3,treated cells,743589,step15_data_record.json
+b,plate 4,cells in the plate file,1794817,step15_data_record.json
+b,plate 4,cell lines,14,step15_data_record.json
+b,plate 4,compounds,92,step15_data_record.json
+b,plate 4,conditions,1261,step15_data_record.json
+b,plate 4,treated cells,1751612,step15_data_record.json
+b,plate 5,cells in the plate file,1317326,step15_data_record.json
+b,plate 5,cell lines,14,step15_data_record.json
+b,plate 5,compounds,79,step15_data_record.json
+b,plate 5,conditions,1077,step15_data_record.json
+b,plate 5,treated cells,1271630,step15_data_record.json
+b,plate 6,cells in the plate file,1933341,step15_data_record.json
+b,plate 6,cell lines,14,step15_data_record.json
+b,plate 6,compounds,90,step15_data_record.json
+b,plate 6,conditions,1229,step15_data_record.json
+b,plate 6,treated cells,1876261,step15_data_record.json
+b,plate 7,cells in the plate file,1083874,step15_data_record.json
+b,plate 7,cell lines,13,step15_data_record.json
+b,plate 7,compounds,72,step15_data_record.json
+b,plate 7,conditions,936,step15_data_record.json
+b,plate 7,treated cells,1049956,step15_data_record.json
+b,plate 8,cells in the plate file,2261244,step15_data_record.json
+b,plate 8,cell lines,14,step15_data_record.json
+b,plate 8,compounds,90,step15_data_record.json
+b,plate 8,conditions,1192,step15_data_record.json
+b,plate 8,treated cells,2173147,step15_data_record.json
+b,plate 9,cells in the plate file,1325126,step15_data_record.json
+b,plate 9,cell lines,14,step15_data_record.json
+b,plate 9,compounds,75,step15_data_record.json
+b,plate 9,conditions,995,step15_data_record.json
+b,plate 9,treated cells,1279031,step15_data_record.json
+b,plate 10,cells in the plate file,1966066,step15_data_record.json
+b,plate 10,cell lines,14,step15_data_record.json
+b,plate 10,compounds,91,step15_data_record.json
+b,plate 10,conditions,1202,step15_data_record.json
+b,plate 10,treated cells,1915901,step15_data_record.json
+b,plate 11,cells in the plate file,1647009,step15_data_record.json
+b,plate 11,cell lines,14,step15_data_record.json
+b,plate 11,compounds,87,step15_data_record.json
+b,plate 11,conditions,1157,step15_data_record.json
+b,plate 11,treated cells,1602513,step15_data_record.json
+b,plate 13,cells in the plate file,2067135,step15_data_record.json
+b,plate 13,cell lines,13,step15_data_record.json
+b,plate 13,compounds,41,step15_data_record.json
+b,plate 13,conditions,1183,step15_data_record.json
+b,plate 13,treated cells,2033125,step15_data_record.json
+b,plate 14,cells in the plate file,1784815,step15_data_record.json
+b,plate 14,cell lines,14,step15_data_record.json
+b,plate 14,compounds,90,step15_data_record.json
+b,plate 14,conditions,1255,step15_data_record.json
+b,plate 14,treated cells,1757285,step15_data_record.json
+c,Tahoe-100M: Held-out structures,drug_split_1,75,step15_data_record.json
+c,Tahoe-100M: Held-out structures,drug_split_0,75,step15_data_record.json
+c,Tahoe-100M: Held-out structures,drug_split_2,75,step15_data_record.json
+c,Tahoe-100M: Held-out compound names,drug_split_1,75,step15_data_record.json
+c,Tahoe-100M: Held-out compound names,drug_split_0,75,step15_data_record.json
+c,Tahoe-100M: Held-out compound names,drug_split_2,76,step15_data_record.json
+c,Tahoe-100M: Test conditions,drug_split_1,2899,step15_data_record.json
+c,Tahoe-100M: Test conditions,drug_split_0,3115,step15_data_record.json
+c,Tahoe-100M: Test conditions,drug_split_2,2853,step15_data_record.json
+c,Tahoe-100M: Cells in the test file,drug_split_1,1397180,step15_data_record.json
+c,Tahoe-100M: Cells in the test file,drug_split_0,1499142,step15_data_record.json
+c,Tahoe-100M: Cells in the test file,drug_split_2,1373206,step15_data_record.json
+c,Tahoe-100M: Training conditions,drug_split_1,11464,step15_data_record.json
+c,Tahoe-100M: Training conditions,drug_split_0,11248,step15_data_record.json
+c,Tahoe-100M: Training conditions,drug_split_2,11510,step15_data_record.json
+c,Tahoe-100M: Cells in the training file,drug_split_1,1713901,step15_data_record.json
+c,Tahoe-100M: Cells in the training file,drug_split_0,1682011,step15_data_record.json
+c,Tahoe-100M: Cells in the training file,drug_split_2,1721029,step15_data_record.json
+c,sci-Plex: Held-out compounds,drug_split_1,37,pathway_vs_fingerprint_v2.json
+c,sci-Plex: Held-out compounds,drug_split_0,37,pathway_vs_fingerprint_v2.json
+c,sci-Plex: Held-out compounds,drug_split_2,38,pathway_vs_fingerprint_v2.json
+c,sci-Plex: Test conditions,drug_split_1,443,pathway_vs_fingerprint_v2.json
+c,sci-Plex: Test conditions,drug_split_0,444,pathway_vs_fingerprint_v2.json
+c,sci-Plex: Test conditions,drug_split_2,455,pathway_vs_fingerprint_v2.json
+d,Tahoe-100M,number of seeds,3,step15_model_analysis.json
+d,Tahoe-100M,seeds,"0, 1, 2",step15_model_analysis.json
+d,sci-Plex,number of seeds,5,step14_analysis.json
+d,sci-Plex,seeds,"0, 1, 2, 3, 4",step14_analysis.json

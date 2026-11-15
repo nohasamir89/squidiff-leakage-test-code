@@ -388,3 +388,6 @@ pathway_vs_fingerprint_v2.py
 run_pathway_vs_fingerprint_v2.sh
 leakage_results/pathway_vs_fingerprint_v2.json
 PREREG_step29_fold_sensitivity.md
+make_supp_table_s1.py
+supplementary_tables/supp_table_S1.md
+supplementary_tables/supp_table_S1.csv
