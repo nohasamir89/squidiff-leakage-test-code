@@ -189,3 +189,28 @@ Every script refuses to run if a tracked file is modified or an output exists, a
 - Supplementary Note 2 is not written yet. Its values of the cross-validated ridge are for the fold assignment of
   the paper, and the note will say so.
 - The network is refitted for 50 assignments, not 200.
+
+## Dated paragraph, 15 Nov 2026 (written before any Step 29 value was printed)
+
+Two runs of `score_step29_sciplex.py` (commit `ce1ed24`) stopped at guard 3f and wrote nothing. No value of
+section 4 was printed in either. The first, in an interactive session on cn274 (Intel Xeon Gold 6548N), is not
+used. The second, job 19381505 on cn224 (AMD EPYC 7742, 8 threads), passed guards 1, 2 and 3a to 3e: the Step 7
+record with a difference of zero on the three splits, and the per-condition rows of the ridge to 1.1e-16 or
+better. Guard 3f:
+
+- Split 1: network 0.192102, record 0.192911, difference -0.000809; per seed 0.1918, 0.1980, 0.1865 against 0.1918, 0.1980, 0.1890.
+- Split 0: network 0.211194, record 0.211194, difference +0.000000; per seed 0.1927, 0.2314, 0.2095 against 0.1927, 0.2314, 0.2095.
+- Split 2: network 0.101199, record 0.108165, difference -0.006967; per seed 0.1024, 0.1066, 0.0946 against 0.1025, 0.1149, 0.1072.
+
+The trainings of Split 0 are identical to the record in all three seeds, as are two seeds of Split 1. So the
+folds and their numbering are those of the record. The record was written with 16 threads of the training
+library and this run used 8; that is the one known difference, and a training that leaves the path of the
+record ends at another value. Change: the network of guard 3f is trained with 16 threads, set in the script
+(`NET_THREADS`). The ridge keeps the 8 threads of the job that wrote the per-condition record. Nothing else
+changes: tolerance 0.005, items, rule and assignments as above. If guard 3f still fails with 16 threads, the run
+stops again and a further dated paragraph follows before anything else is done.
+
+Consequence for item A7, stated now: the networks of the random assignments are trained on one thread each, so
+a single training can differ from what 16 threads would give by an amount of this size (largest seen in one
+seed: about 0.013). Item A7 is read with that in mind, and the per-assignment table shows how close each
+difference is to zero.
