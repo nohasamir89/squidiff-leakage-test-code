@@ -13,9 +13,12 @@ notice because the figures read only the final records.
 How it works
 ------------
 1. Every string literal ending in .json / .csv / .tsv in the packaged Python and R
-   scripts (01_data_preparation, 04_scoring, 05_figures, 08_external_pipelines) is a
-   candidate file name. Templates (containing % or {) are ignored; per-cell arrays
-   (.npz) are out of scope by design (too large to package).
+   scripts (01_data_preparation, 04_scoring, 05_figures, 06_supplementary,
+   08_external_pipelines) is a candidate file name. 06_supplementary holds the scripts
+   that assemble the supplementary tables; it was added on 15 Nov 2026, when those
+   scripts were complete, so that a record a table is built from cannot be left out.
+   Templates (containing % or {) are ignored; per-cell arrays (.npz) are out of scope
+   by design (too large to package).
 2. A literal is an OUTPUT of the script when the line that names it writes it
    (to_csv, json.dump, open(..., 'w'), DictWriter, write.csv, ggsave, ...) or assigns it
    to a variable whose name starts with OUT / out. Every other literal is an INPUT.
@@ -41,7 +44,7 @@ LITERAL = re.compile(r"""['"]([A-Za-z0-9][A-Za-z0-9_./\-]*\.(?:json|csv|tsv))['"
 WRITES = re.compile(r"""to_csv|json\.dump\(|DictWriter|open\([^)]*,\s*['"][wa]|['"]w['"]|\bwrite|fwrite|write\.csv|write_csv|saveRDS|ggsave""")
 OUT_VAR = re.compile(r"""^\s*(?:[A-Za-z_][A-Za-z0-9_]*\s*,\s*)*(?:OUT|out)[A-Za-z0-9_]*\s*(?:,\s*[A-Za-z_][A-Za-z0-9_]*\s*)*=[^=]""")
 FRAGMENT_LINE = re.compile(r"""['"][^'"]*%s[^'"]*['"]\s*%""")       # '%s_%s' % (stem, x): names on this line are suffixes
-SCRIPT_DIRS = ("01_data_preparation", "04_scoring", "05_figures", "08_external_pipelines")
+SCRIPT_DIRS = ("01_data_preparation", "04_scoring", "05_figures", "06_supplementary", "08_external_pipelines")
 ALLOW_FILE = "data_files_not_packaged.txt"
 
 

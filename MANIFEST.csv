@@ -1060,7 +1060,7 @@ tests/README.md,tests/README.md,4792,e60dcb9920813af6976b9e256316253b48c11bdbaf6
 tests/conftest.py,tests/conftest.py,7339,2dd7073795b3d186a5bd6277ae578e725a4e6e5cbbb922ca1a13be338296450e,tracked,80dcdce 2026-10-21
 tests/data_files_not_packaged.txt,tests/data_files_not_packaged.txt,1370,4e7d9536ad74909d22ef6e11bd9a4eb2324167aaeb53a5faf7e0a2d75c1abe1b,tracked,be6999b 2026-10-22
 tests/known_gaps.txt,tests/known_gaps.txt,340,ade47e7f9f51d8859e1d091fcc3e3f80c73485065e21da3d47ff553ffc95319a,tracked,80dcdce 2026-10-21
-tests/test_data_inputs.py,tests/test_data_inputs.py,5454,cca7e93bf93703b89e5e9a2de30987029e6238a167f5a6adbaf466bcccae3313,tracked,b555c7a 2026-10-22
+tests/test_data_inputs.py,tests/test_data_inputs.py,5698,22b9f639b6c958852a3ddde6ce51eab679b079b6131e367f5ac23ab81c664bf0,tracked,78dd25f 2026-11-15
 tests/test_figure_values.py,tests/test_figure_values.py,25713,a20c69c53cdaa6b1ea1123788173727a5b5f04586e6aee6038301d4afffb2e9d,tracked,80dcdce 2026-10-21
 tests/test_metrics.py,tests/test_metrics.py,14636,e5835c5628d8082ed0c579734993a6763d71766a5cc2f4c54188f9f96262c25c,tracked,80dcdce 2026-10-21
 tests/test_package.py,tests/test_package.py,5571,8700941785bec9cbdb196bd5ac62361a2fd989733e559b4f38a1700bbb259b5e,tracked,80dcdce 2026-10-21
