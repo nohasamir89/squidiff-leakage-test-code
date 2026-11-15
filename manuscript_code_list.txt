@@ -394,3 +394,4 @@ supplementary_tables/supp_table_S1.csv
 make_supp_table_s9.py
 supplementary_tables/supp_table_S9.md
 supplementary_tables/supp_table_S9.csv
+figures/squidiff_publication_figures/plot_supp_figs.R
