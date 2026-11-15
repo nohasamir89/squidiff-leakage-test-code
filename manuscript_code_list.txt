@@ -401,3 +401,7 @@ leakage_results/step29_fold_sensitivity_sciplex.json
 leakage_results/step29_fold_sensitivity_sciplex_per_assignment.csv
 leakage_results/diag_note1_ridge_19363649.json
 tahoe_results/step28_logs/s29sciplex_19385877.log
+diag_step29_tahoe_folds.py
+run_step29_tahoe_folds.sh
+tahoe_results/step29_tahoe_folds.json
+tahoe_results/step28_logs/s29tfolds_19391428.log

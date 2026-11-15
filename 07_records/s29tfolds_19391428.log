@@ -1,0 +1,49 @@
+[node] cn274  [commit] 4796dc2  [branch] step15-tahoe
+[guard] no output exists; no tracked file is modified; the pre-registration, this script and the two records it reads are committed (commit 4796dc2)
+[env] {'node': 'cn274', 'cpu': 'INTEL(R) XEON(R) GOLD 6548N', 'cpu_has_avx512f': True, 'numpy_avx512_code_in_use': ['AVX512F', 'AVX512CD', 'AVX512_SKX', 'AVX512_CLX', 'AVX512_CNL', 'AVX512_ICL'], 'python': '3.10.20', 'numpy': '1.26.4', 'scipy': '1.15.3', 'sklearn': '1.7.2', 'pandas': '2.3.3', 'threads': '8', 'slurm_job': '19391428'}
+[env] numpy uses AVX-512 here: 'default' is the order WITH AVX-512; the order without it is made in a child process
+
+####################################################################################################
+# drug_split_1
+####################################################################################################
+[vectors] /scratch/ni2071/Diffusion/Squidiff_git/Squidiff_ms/tahoe_results/vectors_s15_drug_split_1_recipe_seed_0.npz (sha256 equals its provenance record)
+[design] 2899 conditions, 75 structures, 14 lines, 15374 features; conditions per structure 13 to 79; 68 structures share their count with another (17 distinct counts)
+[check] scikit-learn's GroupKFold gives the partition of candidate 'default'
+[candidates] 3 candidate orders give 3 distinct partition(s): default; stable; without_avx512
+[partition] default                      gene identity 0.473960 (record 0.477216, largest difference 3.6e-01); response correlation mean 0.405813 median 0.498791 (analysis record 0.411054, 0.500511), largest difference 8.0e-01; conditions that differ 2899 of 2899 -> does not reproduce   [263 s]
+[partition] stable                       gene identity 0.483053 (record 0.477216, largest difference 2.7e-01); response correlation mean 0.422809 median 0.531270 (analysis record 0.411054, 0.500511), largest difference 8.1e-01; conditions that differ 2899 of 2899 -> does not reproduce   [270 s]
+[partition] without_avx512               gene identity 0.477216 (record 0.477216, largest difference 5.6e-17); response correlation mean 0.411054 median 0.500511 (analysis record 0.411054, 0.500511), largest difference 3.0e-12; conditions that differ 0 of 2899 -> REPRODUCES the record   [277 s]
+[guard 4] drug_split_1: the folds of the paper are those of candidate(s) without_avx512
+
+####################################################################################################
+# drug_split_0
+####################################################################################################
+[vectors] /scratch/ni2071/Diffusion/Squidiff_git/Squidiff_ms/tahoe_results/vectors_s15_drug_split_0_recipe_seed_0.npz (sha256 equals its provenance record)
+[design] 3115 conditions, 75 structures, 14 lines, 15374 features; conditions per structure 13 to 191; 71 structures share their count with another (16 distinct counts)
+[check] scikit-learn's GroupKFold gives the partition of candidate 'default'
+[candidates] 3 candidate orders give 3 distinct partition(s): default; stable; without_avx512
+[partition] default                      gene identity 0.466276 (record 0.465310, largest difference 3.3e-01); response correlation mean 0.369070 median 0.465623 (analysis record 0.378070, 0.466575), largest difference 1.2e+00; conditions that differ 3115 of 3115 -> does not reproduce   [287 s]
+[partition] stable                       gene identity 0.464934 (record 0.465310, largest difference 2.4e-01); response correlation mean 0.368825 median 0.464519 (analysis record 0.378070, 0.466575), largest difference 1.5e+00; conditions that differ 3115 of 3115 -> does not reproduce   [295 s]
+[partition] without_avx512               gene identity 0.465310 (record 0.465310, largest difference 5.6e-17); response correlation mean 0.378070 median 0.466575 (analysis record 0.378070, 0.466575), largest difference 6.6e-12; conditions that differ 0 of 3115 -> REPRODUCES the record   [304 s]
+[guard 4] drug_split_0: the folds of the paper are those of candidate(s) without_avx512
+
+####################################################################################################
+# drug_split_2
+####################################################################################################
+[vectors] /scratch/ni2071/Diffusion/Squidiff_git/Squidiff_ms/tahoe_results/vectors_s15_drug_split_2_recipe_seed_0.npz (sha256 equals its provenance record)
+[design] 2853 conditions, 75 structures, 14 lines, 15374 features; conditions per structure 13 to 80; 71 structures share their count with another (15 distinct counts)
+[check] scikit-learn's GroupKFold gives the partition of candidate 'default'
+[candidates] 3 candidate orders give 3 distinct partition(s): default; stable; without_avx512
+[partition] default                      gene identity 0.470522 (record 0.467759, largest difference 2.5e-01); response correlation mean 0.407819 median 0.519520 (analysis record 0.397605, 0.503382), largest difference 1.2e+00; conditions that differ 2853 of 2853 -> does not reproduce   [313 s]
+[partition] stable                       gene identity 0.469708 (record 0.467759, largest difference 2.4e-01); response correlation mean 0.396588 median 0.491304 (analysis record 0.397605, 0.503382), largest difference 7.9e-01; conditions that differ 2853 of 2853 -> does not reproduce   [320 s]
+[partition] without_avx512               gene identity 0.467759 (record 0.467759, largest difference 5.6e-17); response correlation mean 0.397605 median 0.503382 (analysis record 0.397605, 0.503382), largest difference 6.3e-12; conditions that differ 0 of 2853 -> REPRODUCES the record   [327 s]
+[guard 4] drug_split_2: the folds of the paper are those of candidate(s) without_avx512
+
+====================================================================================================
+GUARD 4 MET on the three splits.
+====================================================================================================
+  drug_split_1  candidate(s) without_avx512                   folds 012134044340301121304013214411233122423302102430433231102341102200024044324
+  drug_split_0  candidate(s) without_avx512                   folds 010230133320440301432131232313014221310222444134213400423311441312404042240
+  drug_split_2  candidate(s) without_avx512                   folds 001213033131404312032210232120340400214431402003214143434442120032131132424
+[written] tahoe_results/step29_tahoe_folds.json  sha256 a6e36a3f1de054704526ec0ad10b92c83226765e65ea244b93db645fee7bdd82   [327 s]
+[Mon Nov 16 02:22:26 +04 2026] DONE
