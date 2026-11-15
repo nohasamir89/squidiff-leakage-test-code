@@ -28,6 +28,7 @@ THIRD_PARTY = {
     "numpy", "scipy", "pandas", "sklearn", "anndata", "scanpy", "torch", "th", "h5py", "matplotlib",
     "seaborn", "rdkit", "skmisc", "blobfile", "mpi4py", "PIL", "tqdm", "yaml", "requests", "numba",
     "pytest", "scvi", "umap", "leidenalg", "igraph", "louvain", "networkx", "statsmodels",
+    "threadpoolctl",      # installed with scikit-learn; score_step29_sciplex.py uses it to set the number of threads
 }
 KNOWN_GAPS_FILE = "known_gaps.txt"
 
