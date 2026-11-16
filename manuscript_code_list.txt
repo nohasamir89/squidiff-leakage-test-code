@@ -414,3 +414,4 @@ tahoe_results/step28_logs/s29tahoe_19391610.log
 make_supp_table_s20.py
 supplementary_tables/supp_table_S20.csv
 supplementary_tables/supp_table_S20.md
+supplementary_tables/TABLE_NUMBERS.md
