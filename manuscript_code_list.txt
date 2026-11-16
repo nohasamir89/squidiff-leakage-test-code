@@ -410,3 +410,4 @@ run_step29_tahoe.sh
 tahoe_results/step29_fold_sensitivity_tahoe.json
 tahoe_results/step29_fold_sensitivity_tahoe_per_assignment.csv
 tahoe_results/step28_logs/s29tahoe_19391610.log
+./step29_findings.md
