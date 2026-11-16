@@ -1,0 +1,125 @@
+[node] cn066  [commit] 2ab0e33  [branch] step15-tahoe
+[guard 1] no output exists; no tracked file is modified; the pre-registration, this script and the 6 records it reads are committed (commit 2ab0e33); the folds record has the expected sha256
+[env] {'node': 'cn066', 'cpu': 'AMD EPYC 7742 64-Core Processor', 'python': '3.10.20', 'numpy': '1.26.4', 'scipy': '1.15.3', 'sklearn': '1.7.2', 'pandas': '2.3.3', 'anndata': '0.11.4', 'threads': '8', 'workers': 16, 'slurm_job': '19391610'}
+[data] drug_split_1: 2899 conditions, 75 structures, 14 lines, 15374 features, 42 contexts; 2899 conditions scored for the discrimination score; cells per condition up to 200; mean of the drawn measured cells against the stored vectors: largest difference 3.3e-01   [33 s]
+[data] drug_split_0: 3115 conditions, 75 structures, 14 lines, 15374 features, 42 contexts; 3115 conditions scored for the discrimination score; cells per condition up to 200; mean of the drawn measured cells against the stored vectors: largest difference 3.0e-01   [34 s]
+[data] drug_split_2: 2853 conditions, 75 structures, 14 lines, 15374 features, 42 contexts; 2853 conditions scored for the discrimination score; cells per condition up to 200; mean of the drawn measured cells against the stored vectors: largest difference 3.4e-01   [32 s]
+[guard 5] drug_split_1: largest differences from the committed records: gene identity 5.6e-17, response correlation 1.1e-16, population distance 4.4e-16, discrimination score 1.1e-16, response-magnitude agreement 0.0e+00, its interval 0.0e+00   [378 s]
+[guard 5] drug_split_0: largest differences from the committed records: gene identity 5.6e-17, response correlation 1.1e-16, population distance 8.9e-16, discrimination score 1.1e-16, response-magnitude agreement 0.0e+00, its interval 0.0e+00   [417 s]
+[guard 5] drug_split_2: largest differences from the committed records: gene identity 5.6e-17, response correlation 1.1e-16, population distance 4.4e-16, discrimination score 1.1e-16, response-magnitude agreement 0.0e+00, its interval 0.0e+00   [453 s]
+
+====================================================================================================
+GUARDS PASSED. Values with the folds of the paper (intervals from a fresh generator; the committed interval in brackets after 'paper:'):
+====================================================================================================
+  drug_split_1  ridge: gene identity 0.4772, response correlation mean 0.4111 median 0.5005, population distance 0.1596, discrimination score 0.5039, response magnitude -0.0499
+      B1 +0.0314   B2 -0.2090
+      B3 +0.0039 [-0.0558, +0.0624] includes zero paper: [-0.0546, +0.0625]; stated: {'ci': 'includes zero'} -> same verdict
+      B4 -0.0499 [-0.2023, +0.1090] includes zero paper: [-0.2023, +0.1090]; stated: {'ci': 'includes zero'} -> same verdict
+      C1 -0.0132 [-0.0274, +0.0015] includes zero paper: [-0.0274, +0.0007]; stated: {'ci': 'includes zero'} -> same verdict
+      C2 +0.0654 [+0.0191, +0.1153] above zero    paper: [+0.0196, +0.1143]; stated: {'sign': 'positive', 'ci': 'above zero'} -> same verdict
+      C3 +0.2184 [+0.1488, +0.2867] above zero    paper: [+0.1486, +0.2892]; stated: {'sign': 'positive', 'ci': 'above zero'} -> same verdict
+  drug_split_0  ridge: gene identity 0.4653, response correlation mean 0.3781 median 0.4666, population distance 0.2230, discrimination score 0.4915, response magnitude +0.0043
+      B1 +0.0348   B2 -0.1803
+      B3 -0.0085 [-0.0578, +0.0425] includes zero paper: [-0.0571, +0.0436]; stated: {'ci': 'includes zero'} -> same verdict
+      B4 +0.0043 [-0.1674, +0.1544] includes zero paper: [-0.1674, +0.1544]; stated: {'ci': 'includes zero'} -> same verdict
+      C1 -0.0050 [-0.0141, +0.0044] includes zero paper: [-0.0144, +0.0047]; stated: {'ci': 'includes zero'} -> same verdict
+      C2 +0.0208 [-0.0604, +0.0792] includes zero paper: [-0.0597, +0.0792]; stated: {'sign': 'positive', 'ci': 'includes zero'} -> same verdict
+      C3 +0.2266 [+0.1681, +0.2836] above zero    paper: [+0.1695, +0.2817]; stated: {'sign': 'positive', 'ci': 'above zero'} -> same verdict
+  drug_split_2  ridge: gene identity 0.4678, response correlation mean 0.3976 median 0.5034, population distance 0.1623, discrimination score 0.4859, response magnitude +0.0944
+      B1 +0.0409   B2 -0.1769
+      B3 -0.0141 [-0.0694, +0.0421] includes zero paper: [-0.0711, +0.0420]; stated: {'ci': 'includes zero'} -> same verdict
+      B4 +0.0944 [-0.0458, +0.2279] includes zero paper: [-0.0458, +0.2279]; stated: {'ci': 'includes zero'} -> same verdict
+      C1 -0.0093 [-0.0187, +0.0003] includes zero paper: [-0.0190, +0.0007]; stated: {'ci': 'includes zero'} -> same verdict
+      C2 +0.0558 [+0.0186, +0.0950] above zero    paper: [+0.0179, +0.0949]; stated: {'sign': 'positive', 'ci': 'above zero'} -> same verdict
+      C3 +0.2283 [+0.1690, +0.2893] above zero    paper: [+0.1653, +0.2890]; stated: {'sign': 'positive', 'ci': 'above zero'} -> same verdict
+
+[random] 200 assignments per split on 16 process(es)
+[random] 50 of 600   [663 s]
+[random] 100 of 600   [820 s]
+[random] 150 of 600   [976 s]
+[random] 200 of 600   [1134 s]
+[random] 250 of 600   [1306 s]
+[random] 300 of 600   [1474 s]
+[random] 350 of 600   [1642 s]
+[random] 400 of 600   [1810 s]
+[random] 450 of 600   [2001 s]
+[random] 500 of 600   [2155 s]
+[random] 550 of 600   [2308 s]
+[random] 600 of 600   [2463 s]
+
+====================================================================================================
+RESULT: assignments that give the verdict of the paper (needed: 190 of 200)
+====================================================================================================
+  B1  ROBUST
+      drug_split_1  200 of 200  robust     stated: {'sign': 'positive'}
+      drug_split_0  200 of 200  robust     stated: {'sign': 'positive'}
+      drug_split_2  200 of 200  robust     stated: {'sign': 'positive'}
+  B2  ROBUST
+      drug_split_1  200 of 200  robust     stated: {'sign': 'negative'}
+      drug_split_0  200 of 200  robust     stated: {'sign': 'negative'}
+      drug_split_2  200 of 200  robust     stated: {'sign': 'negative'}
+  B3  ROBUST
+      drug_split_1  200 of 200  robust     stated: {'ci': 'includes zero'}
+      drug_split_0  200 of 200  robust     stated: {'ci': 'includes zero'}
+      drug_split_2  200 of 200  robust     stated: {'ci': 'includes zero'}
+  B4  NOT ROBUST
+      drug_split_1  197 of 200  robust     stated: {'ci': 'includes zero'}
+      drug_split_0  200 of 200  robust     stated: {'ci': 'includes zero'}
+      drug_split_2  186 of 200  NOT robust stated: {'ci': 'includes zero'}
+  C1  NOT ROBUST
+      drug_split_1  101 of 200  NOT robust stated: {'ci': 'includes zero'}
+      drug_split_0  198 of 200  robust     stated: {'ci': 'includes zero'}
+      drug_split_2   40 of 200  NOT robust stated: {'ci': 'includes zero'}
+  C2  ROBUST
+      drug_split_1  200 of 200  robust     stated: {'sign': 'positive', 'ci': 'above zero'}
+      drug_split_0  200 of 200  robust     stated: {'sign': 'positive', 'ci': 'includes zero'}
+      drug_split_2  200 of 200  robust     stated: {'sign': 'positive', 'ci': 'above zero'}
+  C3  ROBUST
+      drug_split_1  200 of 200  robust     stated: {'sign': 'positive', 'ci': 'above zero'}
+      drug_split_0  200 of 200  robust     stated: {'sign': 'positive', 'ci': 'above zero'}
+      drug_split_2  200 of 200  robust     stated: {'sign': 'positive', 'ci': 'above zero'}
+
+Ranges over the random assignments (value of the paper | median, 2.5th to 97.5th percentile, range | at or below the paper)
+  drug_split_1
+      ridge_gene_identity                            +0.4772 | +0.4777, +0.4733 to +0.4814, +0.4709 to +0.4824 | 77 of 200
+      ridge_response_correlation_mean                +0.4111 | +0.4126, +0.3932 to +0.4286, +0.3874 to +0.4349 | 88 of 200
+      ridge_response_correlation_median              +0.5005 | +0.5119, +0.4820 to +0.5355, +0.4625 to +0.5419 | 50 of 200
+      ridge_population_distance                      +0.1596 | +0.1579, +0.1546 to +0.1638, +0.1536 to +0.1657 | 148 of 200
+      ridge_discrimination_score                     +0.5039 | +0.5000, +0.4831 to +0.5106, +0.4793 to +0.5175 | 150 of 200
+      ridge_response_magnitude                       -0.0499 | -0.0098, -0.1275 to +0.0750, -0.1754 to +0.0940 | 45 of 200
+      B1_blind_minus_ridge_gene_identity             +0.0314 | +0.0310, +0.0273 to +0.0353, +0.0263 to +0.0377 | 123 of 200
+      B2_original_minus_ridge_gene_identity          -0.2090 | -0.2094, -0.2131 to -0.2050, -0.2141 to -0.2027 | 123 of 200
+      B3_ridge_discrimination_minus_half             +0.0039 | +0.0000, -0.0169 to +0.0106, -0.0207 to +0.0175 | 150 of 200
+      C1_rewired_minus_ridge_gene_identity           -0.0132 | -0.0136, -0.0173 to -0.0092, -0.0183 to -0.0069 | 123 of 200
+      C2_rewired_minus_ridge_population_distance     +0.0654 | +0.0671, +0.0612 to +0.0704, +0.0593 to +0.0714 | 52 of 200
+      C3_rewired_minus_ridge_discrimination          +0.2184 | +0.2223, +0.2117 to +0.2392, +0.2048 to +0.2431 | 50 of 200
+  drug_split_0
+      ridge_gene_identity                            +0.4653 | +0.4658, +0.4618 to +0.4692, +0.4600 to +0.4717 | 76 of 200
+      ridge_response_correlation_mean                +0.3781 | +0.3668, +0.3473 to +0.3927, +0.3386 to +0.4049 | 158 of 200
+      ridge_response_correlation_median              +0.4666 | +0.4608, +0.4380 to +0.4955, +0.4162 to +0.5145 | 120 of 200
+      ridge_population_distance                      +0.2230 | +0.2230, +0.2166 to +0.2280, +0.2145 to +0.2291 | 100 of 200
+      ridge_discrimination_score                     +0.4915 | +0.4939, +0.4797 to +0.5133, +0.4754 to +0.5222 | 82 of 200
+      ridge_response_magnitude                       +0.0043 | -0.0188, -0.0963 to +0.0642, -0.1183 to +0.0854 | 142 of 200
+      B1_blind_minus_ridge_gene_identity             +0.0348 | +0.0343, +0.0309 to +0.0382, +0.0283 to +0.0401 | 124 of 200
+      B2_original_minus_ridge_gene_identity          -0.1803 | -0.1807, -0.1842 to -0.1768, -0.1867 to -0.1749 | 124 of 200
+      B3_ridge_discrimination_minus_half             -0.0085 | -0.0061, -0.0203 to +0.0133, -0.0246 to +0.0222 | 82 of 200
+      C1_rewired_minus_ridge_gene_identity           -0.0050 | -0.0055, -0.0089 to -0.0015, -0.0114 to +0.0003 | 124 of 200
+      C2_rewired_minus_ridge_population_distance     +0.0208 | +0.0208, +0.0157 to +0.0272, +0.0146 to +0.0292 | 100 of 200
+      C3_rewired_minus_ridge_discrimination          +0.2266 | +0.2242, +0.2048 to +0.2384, +0.1959 to +0.2427 | 118 of 200
+  drug_split_2
+      ridge_gene_identity                            +0.4678 | +0.4697, +0.4664 to +0.4742, +0.4654 to +0.4759 | 24 of 200
+      ridge_response_correlation_mean                +0.3976 | +0.4067, +0.3877 to +0.4248, +0.3823 to +0.4279 | 39 of 200
+      ridge_response_correlation_median              +0.5034 | +0.5185, +0.4937 to +0.5439, +0.4786 to +0.5512 | 28 of 200
+      ridge_population_distance                      +0.1623 | +0.1601, +0.1568 to +0.1639, +0.1561 to +0.1661 | 178 of 200
+      ridge_discrimination_score                     +0.4859 | +0.4872, +0.4752 to +0.5012, +0.4680 to +0.5070 | 84 of 200
+      ridge_response_magnitude                       +0.0944 | +0.0682, -0.0399 to +0.1655, -0.0698 to +0.1941 | 141 of 200
+      B1_blind_minus_ridge_gene_identity             +0.0409 | +0.0389, +0.0345 to +0.0423, +0.0328 to +0.0432 | 176 of 200
+      B2_original_minus_ridge_gene_identity          -0.1769 | -0.1789, -0.1833 to -0.1755, -0.1850 to -0.1746 | 176 of 200
+      B3_ridge_discrimination_minus_half             -0.0141 | -0.0128, -0.0248 to +0.0012, -0.0320 to +0.0070 | 84 of 200
+      C1_rewired_minus_ridge_gene_identity           -0.0093 | -0.0113, -0.0157 to -0.0079, -0.0174 to -0.0070 | 176 of 200
+      C2_rewired_minus_ridge_population_distance     +0.0558 | +0.0580, +0.0542 to +0.0613, +0.0520 to +0.0620 | 22 of 200
+      C3_rewired_minus_ridge_discrimination          +0.2283 | +0.2270, +0.2130 to +0.2390, +0.2072 to +0.2462 | 116 of 200
+
+[written] /scratch/ni2071/Diffusion/Squidiff_git/Squidiff_ms/tahoe_results/step29_fold_sensitivity_tahoe.json  sha256 a88bbfd8221bca59a76ab6da9366d0428257bc9af6cadd5945c5190f77a7b456
+[written] /scratch/ni2071/Diffusion/Squidiff_git/Squidiff_ms/tahoe_results/step29_fold_sensitivity_tahoe_per_assignment.csv  sha256 47cfe98bee0015f8254a71fa1a969d077cef635042067f5de9995e54dc7fa44d  (603 rows)   [2463 s]
+[Mon Nov 16 08:27:11 +04 2026] DONE

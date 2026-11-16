@@ -214,3 +214,38 @@ Consequence for item A7, stated now: the networks of the random assignments are 
 a single training can differ from what 16 threads would give by an amount of this size (largest seen in one
 seed: about 0.013). Item A7 is read with that in mind, and the per-assignment table shows how close each
 difference is to zero.
+
+## Dated paragraph, 16 Nov 2026 (written before any Step 29 value of Tahoe-100M was computed)
+
+**Guard 4 is met.** `diag_step29_tahoe_folds.py` (commit `4796dc2`), run on cn274 (Intel Xeon Gold 6548N, with AVX-512,
+so that all three candidate orders could be made), found one candidate on each split that reproduces the per-condition
+record of the cross-validated ridge: numpy's default sort without AVX-512. Largest differences: 5.6e-17 for gene
+identity and 3.0e-12, 6.6e-12 and 6.3e-12 for response correlation on Splits 1, 0 and 2; no condition differs. The
+other two candidates differ on every condition. The assignment is stored in `tahoe_results/step29_tahoe_folds.json`
+(sha256 `a6e36a3f1de054704526ec0ad10b92c83226765e65ea244b93db645fee7bdd82`, commit `00f61e7`). No Step 29 quantity of
+section 4 was computed by that script.
+
+**Number of assignments: 200.** In the guard-4 run one refit of the ridge on one split (five fits) with the measures
+of that script took about 7 seconds on 8 threads. With the further measures of the Tahoe scorer, 200 assignments on
+three splits stay far below 24 hours. The reduction to 100 is not used.
+
+**How `score_step29_tahoe.py` runs** (details of section 9, item 3):
+
+- The folds of the paper are scored in the main process with 8 linear-algebra threads, and guard 5 is applied to that
+  run. The random assignments are scored in worker processes with one thread each; their values can differ from an
+  8-thread run in the last digits (order 1e-12), which cannot change a count.
+- The values of the rewired model, the original model and the compound-blind average are read from the committed
+  per-condition records of Steps 15b and 15c; they are not recomputed. Guard 5 covers the ridge: its per-condition
+  gene identity, response correlation and population distance (Step 15b), its per-condition discrimination score
+  (Step 15c), and its response-magnitude agreement with its interval (Step 16), each to 1e-9.
+- Population distance of the ridge: the term that involves only the measured cells does not depend on the folds and is
+  computed once per condition.
+- The interval of response-magnitude agreement was drawn from a fresh generator in the paper as well, so it must be
+  reproduced exactly (it is part of guard 5). The intervals of gene identity, population distance and the
+  discrimination score were drawn in the paper from a generator shared between contrasts; as fixed in section 3, they
+  are recomputed from a fresh `RandomState(0)`, and the committed interval is printed beside the recomputed one.
+- If, with the folds of the paper and the fresh generator, an item does not give the verdict the paper states (possible
+  where a bound of the committed interval is within about 0.001 of zero, as for item C1 on Splits 1 and 2), the run
+  does not stop: this is printed and recorded, and the count is still the number of random assignments that give the
+  verdict the paper states. It is reported in the findings.
+- The job runs on the standard compute nodes (AMD EPYC 7742, no AVX-512), where the records of the paper were written.

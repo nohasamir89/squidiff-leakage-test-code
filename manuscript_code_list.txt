@@ -405,3 +405,8 @@ diag_step29_tahoe_folds.py
 run_step29_tahoe_folds.sh
 tahoe_results/step29_tahoe_folds.json
 tahoe_results/step28_logs/s29tfolds_19391428.log
+score_step29_tahoe.py
+run_step29_tahoe.sh
+tahoe_results/step29_fold_sensitivity_tahoe.json
+tahoe_results/step29_fold_sensitivity_tahoe_per_assignment.csv
+tahoe_results/step28_logs/s29tahoe_19391610.log
